@@ -148,7 +148,7 @@ Une partie $A \subset M$ est dite stable par $\top$ ssi
 $$\forall x, y\in A, x \top y \in A$$
 
 #### Propriété
-Si $A$ est une partie stable par $M$ pat $\top$, la loi induite $\top_{A}$ définie par
+Si $A$ est une partie stable par $M$ par $\top$, la loi induite $\top_{A}$ définie par :
 $$\top_{A} : \left\{ \begin{array}{l}
 A \times A \to A \\
 (x, y) \mapsto x \top y
@@ -179,7 +179,7 @@ Loi produit d'un nombre fini de lois
   $$(x_{1}, \dots, x_{n}) + (y_{1}, \dots, y_{n}) = (x_{1} + y_{1}, \dots, x_{n}+y_{n})$$
 
 ### c. Loi produit sur $M^E$
-#### Définition
+#### Définition 
 Soit $(M, \top)$ un magma de $E$ un ensemble quelconque.
 On définit la loi $\overset{\cdot}{\top}$ sur $M^E$ par : 
 $$\overset{\cdot}{\top} : \left\{ \begin{array}{l}

@@ -1,4 +1,4 @@
-# I. notations d'onde et de signal
+# I. Notations d'onde et de signal
 ## 1. Définition
 #### Définitions
 - Un signal est une grandeur Physique qui dépends du temps et de l'espace. 

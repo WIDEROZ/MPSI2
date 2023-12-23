@@ -45,3 +45,44 @@ x \bot (y \top z) = (x \bot y) \top (x \bot y) \\
 (x \top y)\bot z = (x \bot z) \top(y \bot z)
 \end{array} \right.$$
 
+# Définition stabilité
+Soit $(M, \top)$ un magma. 
+Une partie $A \subset M$ est dite stable par $\top$ ssi
+$$\forall x, y\in A, x \top y \in A$$
+
+# Propriété stabilité
+Si $A$ est une partie stable par $M$ pat $\top$, la loi induite $\top_{A}$ définie par
+$$\top_{A} : \left\{ \begin{array}{l}
+A \times A \to A \\
+(x, y) \mapsto x \top y
+\end{array} \right.$$
+est bien définie et est une LCI sur $A$ 
+
+# Définition : Produit cartésien de LCI
+Soient $(M_{1}, \top_{1})$, $(M_{2}, \top_{2})$ deux magmas. 
+Alors $(M_{1}\times M_{2}, \top)$
+
+$$\top : \left\{ \begin{array}{l}
+(M_{1} \times M_{2}) \times (M_{1} \times M_{2}) \to M_{1} \times M_{2} \\
+((x_{1}, y_{1}), (y_{1}, y_{2})) \mapsto (x_{1}\top_{1} y_{1}, x_{2}\top_{2}y_{2})
+\end{array} \right.$$
+c'est un magma appelé produit de $(M_{1}, \top_{1})$ et $(M_{2}, \top_{2})$ (abusivement de $M_{1}$ et $M_{2}$)
+La loi $\top$ est la LCI : produit de $\top_{1}$ et $\top_{2}$ 
+
+# Extension du produit cartésien de LCI
+Loi produit d'un nombre fini de lois
+- Exemple : $(\mathbb{R}^n, +)$ : 
+  $$(x_{1}, \dots, x_{n}) + (y_{1}, \dots, y_{n}) = (x_{1} + y_{1}, \dots, x_{n}+y_{n})$$
+
+# Définition de $\overset{\cdot}{\top}$
+Soit $(M, \top)$ un magma de $E$ un ensemble quelconque.
+On définit la loi $\overset{\cdot}{\top}$ sur $M^E$ par : 
+$$\overset{\cdot}{\top} : \left\{ \begin{array}{l}
+M^E \times M^E \\
+(f, g) \mapsto f \overset{\cdot}{\top}g : \left\{ \begin{array}{l}
+E \to M \\
+x \mapsto f(x)\top g(x)
+\end{array} \right.
+\end{array}
+\right.$$
+

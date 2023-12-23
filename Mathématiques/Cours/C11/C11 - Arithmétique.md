@@ -110,7 +110,7 @@ Démonstration
 ##### Unicité
 Soient $(p, q), (p', q')\in \mathbb{Z} \times \mathbb{N}^*$, tel que $p \wedge q$ = $p' \wedge q' = 1$
 et $\frac{p}{q} = \frac{p'}{q'}$
-On a alors $pq' = p'q$ donc $pp'q'$ ou $p  \wedge q = 1$ (Gauss) De même $p' \mid p$ donc $q' = \pm q$ or $q, q' \in \mathbb{N}^*$, 
+On a alors $pq' = p'q$ donc $pp'q'$ ou $p \wedge q = 1$ (Gauss) De même $p' \mid p$ donc $q' = \pm q$ or $q, q' \in \mathbb{N}^*$, 
 Donc $q' = q$ et $p' = p$
 
 #### Définition
