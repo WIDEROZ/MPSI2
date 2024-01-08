@@ -222,7 +222,7 @@ De même pour le cas 2
 # II. Groupes
 ## 1. Structure de groupe
 #### Définition
-Un groupe est un magma associatif unitaire sont tout élément est symétrisable 
+Un groupe est un magma associatif unitaire dont tout élément est symétrisable 
 Même ANS
 
 #### Définition : Groupe Abélien
@@ -422,7 +422,7 @@ $\mathcal{HT}$ ensemble des réunions de l'ensemble des translations ($Id_{\math
 
 On a vu pleins d'autres sous groupes de $Sim_{+}$ (Le groupe des rotations qui fixent un point (en incluant $Id_{\mathcal{P}}$))
 $$Sim_{+} \underset{sg}{\subset} S_{\mathcal P}$$
-Soit $X$ in ensemble quelconque non vide et $x \in X$ alors
+Soit $X$ in ensemble quelconque non vide et $x \in X$ alors
 $$\{\sigma \in S_{X} | \sigma(x) = x\} (= Fix(x)) \underset{sg}{\subset} S_{X}$$
 Si $E \subset F$, 
 $$P(F) \underset{sg}{\subset} P(E)$$
@@ -741,10 +741,281 @@ $$\epsilon(\tau) = -1$$
 $\epsilon$ s'appelle la signature. 
 
 #### Définition
-$$Ker \epsilon = A_{n}$$
+$$Ker \space \epsilon = A_{n}$$
 est le sous groupe symétrique alterné qui est un sous groupe de $S_{n}$ 
 
 
 $$S_{4} = \left( \begin{array}{c}
 1&2&3&4
 \end{array} \right)$$
+
+#### Théorème de Cayley
+$S(G) = bij(G, G)$
+Soit G un groupe alors il existe un morphisme injectif $\phi : G \to S(G)$
+i.e. $G$ est isomorphe à un sous-groupe de $S(G)$ 
+
+$\mathbb{Z}/_{n\mathbb{Z}} \tilde{\longrightarrow} \mathbb{U_{n}}$ isomorphisme
+
+Démonstration
+On pose pour $g \in G,$
+$$\phi(g) :
+\left\{ \begin{array}{l}
+G \to G \\
+x \mapsto gx
+\end{array}\right.$$
+Soit $g \in G$, 
+On remarque que $\phi(g) \circ \phi(g^{-1}) = Id_{G}$
+et $\phi(g^{-1}) \circ \phi(g) = Id_{G}$
+
+Ainsi $\phi(g^{-1})$ est application réciproque de $\phi(g)$ donc $\phi$ est bijective
+ie $\phi(g) \in S(G)$
+On a construit ainsi : 
+$$\phi : \left\{ \begin{array}{l}
+G \to S(G) \\
+g \mapsto \phi(g)
+\end{array} \right.$$
+Montrons que $\phi$ est un morphisme de groupes :
+Soient $g, g' \in G$
+Alors $\phi(gg') \in G^G$
+Et par composition $\phi(g) \circ \phi(g') \in G^G$
+Pour montrer que ces applications sont égales il suffit de montrer qu'elles donnent la même image pour chaque $x \in G$ : 
+$$(\phi(gg'))(x) = (gg')x = (\phi(g))(\phi(g'))(x) = (\phi(g) \circ \phi(g'))(x)$$
+Ainsi : 
+$$\phi(gg') = \phi(g) \circ \phi(g')$$
+Donc $\phi$ est un morphisme de groupes
+
+Pour montrer que $\phi$ est injectif, on calcule son noyau
+
+Remarquons qu'on a toujours $1_{G} \in Ker \space \phi$ 
+(puisque $\phi(1_{G}) = Id_{G}$ et plus généralement l'image d'un neutre par un morphisme est le neutre du groupe d'arrivée)
+
+En pratique pour montrer l'injectivité
+ie $Ker \space \phi = \{1_{G}\}$ on montre seulement $Ker \space \phi \subset \{1_{G}\}$
+ie on prend $g \in G$ tq $\phi(g) = Id_{G}$ et on montre que $g = 1_{G}$ 
+
+Soit $g \in G$ tq $\phi(g) = Id_{G}$ 
+ie
+$$\forall x \in G, gx = x$$
+On a en particulier $g 1_{G} = 1_{G}$ donc $g = 1_{G}$
+Ainsi $Ker \space \phi = \{1_{G}\}$ 
+Donc $\phi$ est injectif
+
+#### Remarque
+Si $G$ est fini $|S(G)| = |G|!$
+
+# III. Anneaux et corps
+## 1. Anneaux
+#### Définition Anneau
+Un anneau est un magma $(A, +, \times)$ qui vérifie :
+- $(A, +)$ est un groupe abélien (de neutre $0_{A}$)
+- $\times$ est associative et $\times$ admet un neutre $1_{A} \neq 0_{A}$ 
+- $\times$ est distributive par rapport a $+$ (a gauche et a droite)
+
+#### Définition Anneau commutatif
+Un anneau commutatif est un anneau $(A, +, \times)$ tq $\times$ soit commutative 
+
+#### Remarque
+On ne dit pas anneau Abélien
+
+#### Exemple
+$(\mathbb{N}, +, \times)$ n'est pas un anneau
+
+
+$(\mathbb{Z}, +, \times)$
+...
+$(\mathbb{C}, +, \times)$
+Sont des anneaux
+
+
+$(\mathcal{M}_{2}(\mathbb{R}), +, \times)$ est un anneau
+Démo : 
+$(\mathcal{M}_{2} (\mathbb{R}), +)$ est un groupe abélien "coefficient par coefficient" avec neutre 
+$$\left(  \begin{array}{c}
+0&0 \\
+0&0
+\end{array} \right)$$
+
+$\times$ est associative (faire le calcul)
+$$I_{2} = \left( \begin{array}{c}
+1&0 \\
+0&1
+\end{array} \right)$$
+est neutre pour $\times$ 
+$\times$ est distributive par rapport a $+$ (à gauche et a droite) (faire les deux calculs)
+
+
+Soit $E$ un ensemble quelconque Alors, 
+$(P(E), \Delta, \cap)$ est un anneau
+Associativité de $\Delta$ : 
+On utilise
+$$\mathbb{1} : \left\{ \begin{array}{l}
+P(E) \to \{\overline 0, \overline 1\}^E \\
+A \mapsto \left(\mathbb{1}_{A} : \left\{ \begin{array}{l}
+E \to \{\overline 0, \overline 1\} \\
+x \mapsto \left\{ \begin{array}{l}
+\overline 1 \text{ si } x \in A \\
+\overline 0 \text{ si } x \notin A
+\end{array} \right.
+\end{array} \right. \right)
+\end{array} \right.$$
+Dont on a déjà vu qu'elle est bijective
+
+Pour $A, B \in P(E)$ 
+$$\mathbb{1}_{A \Delta B} = \mathbb{1}_{A \Delta B} \overset{\cdot}{+} \mathbb{1}_{B}$$ ou $\overset{\cdot}{+}$ est addition modulo 2
+
+Donc pour $A, B, C \in P(E)$
+$$\mathbb{1}_{(A \Delta B)\Delta C} = \mathbb{1}_{A \Delta B} \overset{\cdot}{+} \mathbb{1}_{C} = (\mathbb{1}_{A} \overset{\cdot}{+} \mathbb{1}_{B}) \overset{\cdot}{+} \mathbb{1}_{C} = \mathbb{1}_{A} \overset{\cdot}{+} (\mathbb{1}_{B} \overset{\cdot}{+} \mathbb{1}_{C}) = \mathbb{1}_{A} \overset{\cdot}{+} \mathbb{1}_{B \Delta C} = \mathbb{1}_{A\Delta(B\Delta C)}$$
+
+Comme $\mathbb{1}$ est bijective, elle est injective
+Donc
+$$(A \Delta B) \Delta C = A \Delta (B \Delta C)$$
+
+
+Plus conceptuellement $(\mathbb{Z}/2\mathbb{Z}, \overset{\cdot}{+}, \overset{\cdot}{\times})$ est un anneau commutatif
+
+Automatiquement avec les tables d'addition et de multiplication $(\mathbb{Z}/2\mathbb{Z})^E$ est muni d'une addition et d'une multiplication
+(déjà vu, $f + g : x \mapsto f(x) \overset{\cdot}{+} g(x)$).
+On voit forcément que $((\mathbb{Z}/2\mathbb{Z})^E, \overset{\cdot}{+}, \overset{\cdot}{\times})$ est un anneau commutatif
+
+Par ailleurs on a une bijection
+$\mathbb{1} : P(E) \to (\mathbb{Z}/2\mathbb{Z})^E$ 
+Donc on peut ramener les lois sur $P(E)$ pour $A, B \in P(E)$, on pose
+$$A \tilde{+} B = \mathbb{1}^{-1}(\mathbb{1}_{A} \overset{\cdot}{+} \mathbb{1}_{B})$$
+$$A \tilde{\times} B = \mathbb{1}^{-1}(\mathbb{1}_{A} \overset{\cdot}{\times} \mathbb{1}_{B}) $$
+et on obtiens un anneau $(P(E), \tilde{+}, \tilde{\times})$ 
+On remarque que
+$$\left\{ \begin{array}{l}
+\tilde{+} = \Delta \\
+\tilde{\times} = \cap
+\end{array}  \right.$$
+car pourtant $A, B \in P(E)$,
+$$\left\{ \begin{array}{l}
+\mathbb{1}_{A \tilde{+} B} = \mathbb{1}_{A} \overset{\cdot}{+} \mathbb{1}_{B} =\mathbb{1}_{A\Delta B} \\
+\mathbb{1}_{A \tilde{\times} B} = \mathbb{1}_{A} \overset{\cdot}{\times} \mathbb{1}_{B} = \mathbb{1}_{A \cap B}
+\end{array} \right.$$
+On dit que $(P(E), \Delta, \cap)$ et $((\mathbb{Z}/2\mathbb{Z})^E, \overset{\cdot}{+}, \overset{\cdot}{\times})$ sont des anneaux isomorphes 
+
+
+#### Propriété
+Soit $(A, +, \times)$ un anneau
+Alors $0_{A}$ est absorbant pour $\times $ ie
+$$\forall x \in A, x \times O_{A} = O_{A}\times = O_{A}$$
+
+Démonstration
+Soit $x \in A$, 
+$$O_{A}x = O_{A}x + x - x = (O_{A} + 1_{A})x -x = 1_{A}x -x = x -x = O_{A}$$
+
+
+#### Théorème Binôme de Newton
+Soit $(A, +, \times)$ un anneau, $x, y \in A$ et $n \in \mathbb{N}$
+
+Si $xy = yx$, alors
+$$(x+y)^n = \sum_{k = 0}^n \binom{n}{k}x^{n-k}y^k$$
+Démonstration la même que dans $\mathbb{R}, \mathbb{C}$ 
+
+#### Formule de Bernoulli
+Soit $(A, +, \times)$ un anneau, $x, y \in A$ et $n \in \mathbb{N}$, 
+
+Si $xy =yx$, alors
+$$x^{n+1} - y^{n+1} = (x-y)\sum_{k = 0}^{n} x^{n-k}y^k$$
+Démonstration la même que dans $\mathbb{R}, \mathbb{C}$ 
+
+#### Notation
+Soit $(A, +, \times)$
+On note $A^\times$ (se dit "$A$ croix" ) l'ensemble des éléments de $A$ i.e. l'ensemble des éléments $x$ de $A$ qui admettent un symétrique pour $\times$ 
+($x \in A \text{ tq } xx' = x'x = 1_{A}$ qui est alors unique puisque $\times$ est associative, et qu'on note $x^{-1}$) 
+
+#### Propriété
+Pour la loi induite par $\times$ sur $A^\times$, qu'on note encore $\times$ 
+$$(A^\times, \times) \text{ est un groupe}$$
+appelé groupe des inversibles de l'anneau $A$ 
+
+Démonstration :
+1. La loi induite est bien définie car $A^\times$ est stable par $\times$ puisqu'on sait qu'un produit d'inversibles $x, y$ est inversible et $(xy)^{-1} = y^{-1}x^{-1}$
+2. La loi induite hérite de l'associativité de $\times$ sur A
+3. $1_{A} \in A^\times$ ($1_{A}1_{A} = 1_{A}$) et est évidement neutre par la loi induite
+4. Pour tout $x \in A^\times$, $x$ est inversible dans $A$ est l'inverse $x^{-1}$ or $x^{-1}$ est inversible (d'inverse $x$) donc $x^{-1} \in A^\times$ est donc l'inverse de $x$ pour la loi induite. Ainsi $(A^\times, \times)$ est un groupe
+
+#### Exemple
+$\mathbb{Z}^\times = \{-1, 1\}$
+$\mathbb{Q}^\times = \{x \in \mathbb{Q} | x \neq 0\} = \mathbb{Q}^*$ 
+$\mathbb{R}^\times = \mathbb{R}^*$
+$\mathbb{C}^\times = \mathbb{C}^*$ 
+
+$(\mathcal{M}_{2(\mathbb{K})})^\times = \left\{\left( \begin{array}{l} a&b \\ c&d \end{array} \right)\in \mathcal{M}_{2}(\mathbb{K}) | ad-bc \neq 0 \right\}$
+
+#### Propriété
+Si $ad-bc \neq 0$
+$$\left( \begin{array}{c}
+a&b \\
+c&d
+\end{array}\right)^{-1} = \frac{1}{ad-bc} \left( \begin{array}{c}
+d & -b \\
+-c & a
+\end{array} \right) $$
+
+$$P(E)^\times = \{E\}$$
+
+## 2. Corps
+#### Définition
+Idée : on rajoute à la définition d'un anneau $\times$ commutative et tout non nul est inversible mais c'est pas ouf. 
+Un corp $K$ est un anneau commutatif tq $K^\times = K \backslash \{0\} = K^*$ 
+
+#### Exemple
+$$\mathbb{Q}, \mathbb{R}, \mathbb{C}, (\mathbb{Z}/2\mathbb{Z}, \overset{\cdot}{+}, \overset{\cdot}{\times})$$
+Sont des corps
+mais $\mathbb{Z}$ et $\mathcal{M}_{2}(\mathbb{K})$ 
+
+#### Exercice
+Est-ce que $\mathbb{Z}/4\mathbb{Z}$ est un corp
+Pour quels $n \in \mathbb{N} \backslash \{0, 1\}$ $\mathbb{Z}/n\mathbb{Z}$ est il un corp
+
+## 3. Sous-anneaux et morphismes
+Soit $A$ un anneau
+#### Définition
+Un sous anneau de $A$ est un sous-groupe additif de $A$ qui contient $1_{A}$ et est stable par multiplication
+
+#### Exemple
+$\mathbb{Z}$ Sous anneau de $\mathbb{Q}$ de $\mathbb{R}$ de $\mathbb{C}$
+$\mathbb{Q}$ sous anneau de $\mathbb{R}$
+
+#### Propriété
+Une partie d'un anneau est un sous anneau ssi : 
+- Elle contient 1
+- Elle est stable par addition, passage à l'opposé et produit
+
+Démonstration
+$\Rightarrow$ trivial
+$\Leftrightarrow$ : Soit $A$ un anneau et $B \subset A$ 
+tq $1 \in B$ et $B$ soit stable par $+$, passage à l'oposé et $\times$. 
+Comme $B \neq \varnothing$ et est stable par $+$ et passage a l'opposé, c'est un sous groupe additif de $A$. 
+Or il contient 1 et stable par $x$ donc par la définition précédente c'est un sous anneau de $A$
+
+#### Définition
+$\phi : A \to A'$ (A et A' deux anneaux)
+est un morphisme d'anneaux ssi $\phi(1_{A}) = 1_{A'}$
+$$\forall x, y \in A, \left\{ \begin{array}{l}
+\phi(x + y) = \phi(x) + \phi(y)  \\
+\phi(xy) = \phi(x)\phi(y)
+\end{array} \right.$$
+En particulier $\phi$ est un morphisme de groupes de $(A, +)$ vers $A', +$ donc $\phi'(0_{A}) = O_{A'}$ 
+
+#### Définition
+Pour $\phi$ un morphisme d'anneaux, 
+$$Im \phi = \phi(A)$$
+$$Ker \phi = \phi^{-1}(\{O_{A'}\})$$
+
+#### Propriété
+$Im \phi$ est un sous-anneau de $A'$
+$Ker \phi$ est un sous-groupe de $A$
+
+#### Remarque
+$\phi$ est en particulier un morphisme de groupes,
+$\phi$ est surjective ssi $Im \phi = A'$
+$\phi$ est injective ssi $Ker \phi = \{O_{A}\}$
+
+#### Définition
+Un isomorphisme d'anneaux est un morphisme d'anneaux bijectif
+
+#### Propriété
+L'image d'un corp par un morphisme d'anneau est un corps

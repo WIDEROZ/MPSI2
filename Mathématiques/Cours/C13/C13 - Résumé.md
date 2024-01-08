@@ -1,9 +1,9 @@
 # Définition d'un LCI
 Soit $M$ un ensemble quelconque.
-Une L.C.I. "T" sur M est une application
-$$T: \left\{ \begin{array}{l}
+Une L.C.I. "$\top$" sur M est une application
+$$\top: \left\{ \begin{array}{l}
 M \times M \to M \\
-(x, y) \mapsto xTy \end{array} \right.$$
+(x, y) \mapsto x\top y \end{array} \right.$$
 
 # Définition : Associatif, commutatif, élément neutre
 Soit $(M, \top)$ un magma
@@ -51,7 +51,7 @@ Une partie $A \subset M$ est dite stable par $\top$ ssi
 $$\forall x, y\in A, x \top y \in A$$
 
 # Propriété stabilité
-Si $A$ est une partie stable par $M$ pat $\top$, la loi induite $\top_{A}$ définie par
+Si $A$ est une partie stable de $M$ par $\top$, la loi induite $\top_{A}$ définie par
 $$\top_{A} : \left\{ \begin{array}{l}
 A \times A \to A \\
 (x, y) \mapsto x \top y
@@ -64,7 +64,7 @@ Alors $(M_{1}\times M_{2}, \top)$
 
 $$\top : \left\{ \begin{array}{l}
 (M_{1} \times M_{2}) \times (M_{1} \times M_{2}) \to M_{1} \times M_{2} \\
-((x_{1}, y_{1}), (y_{1}, y_{2})) \mapsto (x_{1}\top_{1} y_{1}, x_{2}\top_{2}y_{2})
+((x_{1}, x_{2}), (y_{1}, y_{2})) \mapsto (x_{1}\top_{1} y_{1}, x_{2}\top_{2}y_{2})
 \end{array} \right.$$
 c'est un magma appelé produit de $(M_{1}, \top_{1})$ et $(M_{2}, \top_{2})$ (abusivement de $M_{1}$ et $M_{2}$)
 La loi $\top$ est la LCI : produit de $\top_{1}$ et $\top_{2}$ 

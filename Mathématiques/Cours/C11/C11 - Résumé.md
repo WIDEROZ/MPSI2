@@ -155,8 +155,8 @@ On notera $\mathcal{P}$ l'ensemble des nombres premiers
 
 # Définition
 $n \neq 1$ et non premier est dit composé. 
-Il existe alors $ab \in \mathbb{N} \backslash \{ 1, n\}$ tel que
-$n = ab$. Si $n \neq 0$, on a $a, b \in [\![2, n-1]\!]$ et $a \leq \sqrt{ n }$ ou $b \leq \sqrt{ n }$
+Il existe alors $ab \in \mathbb{N} \backslash \{ 1, n\}$ tel que $n = ab$.
+Si $n \neq 0$, on a $a, b \in [\![2, n-1]\!]$ et $a \leq \sqrt{ n }$ ou $b \leq \sqrt{ n }$
 
 # Propriété
 Soit $p \in \mathcal{P}$ et $n \in \mathbb{Z}$
