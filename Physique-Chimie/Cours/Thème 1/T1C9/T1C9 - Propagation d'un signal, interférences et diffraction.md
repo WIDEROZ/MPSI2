@@ -84,7 +84,7 @@ $\lambda$ correspond à la distance parcourue par l'onde pendant la durée $T$
 - Nombre d'onde
   Pour la périodicité spatiale on définit le nombre d'onde : 
   $$\sigma = \frac{1}{\lambda} = \frac{k}{2\pi}$$
-
+ 
 #### Bilan
 $$\begin{array}{|c|c|c|}\hline
 \text{représentation} & \text{période} & \text{fréquence} & \text{pulsation} \\ \hline

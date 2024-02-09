@@ -1184,7 +1184,7 @@ $$
 $$
 ie les :
 $$
-\sum_{n=0}^{\infty} \frac{a_{n-1}}{n}X^{n} + C, \space C \in \mathbb{K}
+\sum_{n=1}^{\infty} \frac{a_{n-1}}{n}X^{n} + C, \space C \in \mathbb{K}
 $$
 
 Démonstration
@@ -1680,7 +1680,7 @@ Cela nous donne le théorème suivant :
 #### Théorème
 Soient $x_{0}, \dots, x_{n} \in \mathbb{K}$ 2 a 2 disjoints et $y_{0}, \dots, y_{n} \in \mathbb{K}$ quelconques. 
 Alors l'ensemble des polynômes $P$ vérifiant le système de contraintes : $\forall i \in [\![0, n]\!], \tilde{P}(x_{i}) = y_{i}$ est :
-$$\sum_{j=0}^{n} y_{i} \prod_{i \neq j} \frac{X-x_{i}}{x_{j}-x_{i}}+ \left( \prod_{i=0}^{n}{(X-x_{i})} \right)\mathbb{K[X]}$$
+$$\sum_{j=0}^{n} y_{j} \prod_{i \neq j} \frac{X-x_{i}}{x_{j}-x_{i}}+ \left( \prod_{i=0}^{n}{(X-x_{i})} \right)\mathbb{K[X]}$$
 #### Notation : 
 Polynomial d'interpolation de Lagrange :
 Les $L_{j}$ sont les interpolations de Lagrange

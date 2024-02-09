@@ -284,10 +284,24 @@ Avec $l$ la longueur du ressort.
 
 #### Exercice pour lundi
 exalibur 8
+- 
+$$E_{p, el} = \frac{1}{2}k(l-l_{0})^{2}$$
+$l = MA$
+Dans le triangle MOA rectangle en 0 : $x^{2}+d^{2} = l^{2}$
+$l=\sqrt{ x^{2} + d^{2} }$
+$$E_{p, el} = \frac{1}{2}k(\sqrt{ x^{2} + d^{2} }-l_{0})^{2}$$
+- 
+$$F_{x} = - \frac{dE_{p, el}}{dx}$$
+$$F_{x} = - \frac{1}{2}k2(\sqrt{ x^{2}+d^{2} }-l_{0}) \frac{x}{\sqrt{ x^{2} + d^{2} }}$$
+$$F_{x} = -kx\left( 1- \frac{l_{0}}{\sqrt{ x^{2}+d^{2} }} \right)$$
+##### Autre méthode
+$$\vec{F} = k(l-l_{0})\vec{u}$$
+$$\vec{F}_{x} = \vec{F}.\vec{e}_{x} = k(l-l_{0})\vec{u}.\vec{u}_{x} = k(l-l_{0})\cos \theta$$
+
 
 # IV. Energie mécanique
 ##### Définition
-L'énergie mécanique d'un point $M$, de masse $m$ et de vitesse $v$ dans un référentiel Gallileen est : 
+L'énergie mécanique d'un point $M$, de masse $m$ et de vitesse $v$ dans un référentiel Galiléen est : 
 $$E_{m} = E_{c}+E_{p}$$
 $$E_{m} = \frac{1}{2}mv^{2} + E_{p}$$
 
@@ -440,3 +454,74 @@ Donc $x_{eq}$ est une position d'équilibre
 
 #### Propriété
 Les positions d'équilibre d'un système correspondant aux extrema de l’énergie potentielle. 
+
+#### 2 Cas possibles
+Excalibur 14.
+- L'équilibre correspond a un maximum (qui peut être local) de l'énergie potentielle, si on perturbe le système, c'est a dire : $E_{m} \to E_{m} - dE_{m}$. 
+  Donc la force qui s'exerce sur $M$ entraîne un mouvement qui éloigne $M$ de sa position d'équilibre
+
+- L'équilibre correspond à un minimum (potentiellement local) de l'énergie potentielle si on perturbe le système à partir de $x_{eq_{2}}$ les forces subies par $M$ tendent à le ramener au point $x_{eq_{2}}$. 
+
+
+#### Propriété
+Les <u>maxima</u> de l'énergie potentielle correspondent aux positions d'équilibre <u>instables</u>.
+Les <u>minima</u> de l’énergie potentielle corespondent aux positions d'équilibre <u>stables</u>. 
+
+#### Recherche des positions d'équilibres
+Stables ou instable : 
+Instable : $E_{p}$ concave
+Stable : $E_{p}$ convexe
+
+
+## 3. Petits mouvements près d'une position d'équilibre stable
+Excalibur 14
+Si on écarte $M$ de sa positon d'équilibre stable on est dans le cas du puits de potentiel. Le mouvement de $M$ est borné. 
+
+
+### a. Période du mouvement autour de la position d'équilibre stable
+Soit $T$ la période. 
+Le système est conservatif Alors 
+$E_{m} = \text{cte}$
+$$E_{m} = E_{p}(x) + E_{c} = \text{cte}$$
+$$E_{p}(x)+\frac{1}{2}m \left(\frac{dx}{dt}\right)^{2} = E_{m} = \text{cte}$$
+$$\frac{dx}{dt} = \sqrt{ \frac{2}{m}(E_{m}-E_{p}(x)) }$$
+Séparation de variables : 
+$$dt = \sqrt{ \frac{m}{2}}\frac{dx}{\sqrt{ (E_{m}-E_{p}(x)) }}$$
+On intègre entre $0$ et $\frac{T}{2}$ et entre $x_{min}$ et $x_{max}$ 
+$$\int_{0}^{\frac{T}{2}}dt = \int _{x_{min}}^{x_{max}} \sqrt{ \frac{m}{2}}\frac{dx}{\sqrt{ (E_{m}-E_{p}(x)) }}$$
+$$\frac{T}{2} = \sqrt{ \frac{m}{2} } \int _{x_{min}}^{x_{max}} \frac{dx}{\sqrt{ (E_{m}-E_{p}(x)) }}$$
+$$T = \sqrt{ 2m } \int _{x_{min}}^{x_{max}} \frac{dx}{\sqrt{ (E_{m}-E_{p}(x)) }} $$
+
+
+### b. Oscillations de faibles amplitudes
+#### Pendule simple
+$$E_{p} = mgl\cos \theta+\text{cte}$$
+Si on choisit l'origine au point le plus bas : 
+$$E_{p} = mgl(1-\cos \theta)$$
+Position d'équilibre : 
+$$\frac{dE_{p}}{d\theta} = mgl\sin \theta = 0$$
+$$\Leftrightarrow \theta_{eq_{1}} = 0 \text{ ou } \theta_{eq_{2}} = \pi$$
+- Pour $\theta_{eq_{1}} = 0$, On effectur le DL de $E_{p}$ autour de $\theta_{eq_{1}}$ a l'ordre 2 : 
+  $$E_{p}(\theta) = E_{p}(0) +\theta \frac{dE_{p}}{d\theta}(0)+\frac{\theta^{2}}{2} \frac{d^{2}E_{p}}{d\theta^{2}}(0) $$
+  $$E_{p}(\theta) = E_{p}(0) + \frac{\theta^{2}}{2} \frac{d^{2}E_{p}}{d\theta^{2}}(0)$$
+  en $\theta_{eq_{1}} = 0$
+  $$\frac{d^{2}E_{p}}{d\theta^{2}}(0)=mgl\cos \theta_{eq_{1}} = mgl>0$$
+  Donc, 
+  $$E_{p}(0) = \frac{mgl}{2}\theta^{2}$$
+
+- Pour $\theta_{eq_{2}} = \pi$, 
+  $$E_{p}(\theta) = E_{p}(\pi) + \frac{(\theta \pi)^{2}}{2} \frac{d^{2}E_{p}}{d\theta^{2}}(\pi)$$
+  $$E_{p}(\theta) = E_{p}(\pi)-\frac{mgl}{2}(\theta-\pi)^{2}$$
+  De façon générale on peut écrire l'énergie potentielle au voisinage d'une position d'équilibre sous la forme : 
+  $$E_{p}(x) = E_{p}(x_{eq}) + \frac{K}{2}(x-x_{eq})^{2}$$
+  Avec $K$ une constante
+  Position d'équilibre stable $\Leftrightarrow K >0$
+  Position d'équilibre instable $\Leftrightarrow K<0$
+
+
+#### Propriété
+Approximation harmonique : 
+Au voisinage d'une position d'équilibre stable $x_{eq}$, on peut approximer l'énergie potentielle par son DL à l'ordre 2 : 
+$$E_{p}(x)=E_{p}(x_{eq}) + \frac{K}{2}(x-x_{eq})^{2}$$
+Avec $K>0$
+

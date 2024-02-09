@@ -41,3 +41,48 @@ Il a un usage économique du langage, il utilise les mots avec parcimonie dans l
 Dans  l'Acte 2 scene 4, Les mots sont comparés a un jeu d'enfant. Une fois lâché l'éloquence comme une toupie tourne infernalement. Pour illustrer le cœur de son propos Lorrenzo parle
 
 Toute fois ne faut-il pas considérer que cette maîtrise du langage est aussi le fruit d'un savoir / d'une expertise d'une situation communication.
+
+# II. L'auteur du faire croire n'est-il pas un fin psychologue
+Est-ce qu'on ne peut pas démoraliser le débat et considérer plutôt que cette maîtrise du langage qui est la sienne est une véritable expertise. Est-ce que la manipulation ne peut pas être vue comme le témoignage d'une perception particulièrement fine de la relation humaine et même d'une aptitudee à jouer comme le séducteur. 
+##### Laclos
+Le roué, n'est il pas un homme qui sait particulièrement bien lire les cœurs, dans la lettre 33, Mme de Merteuil accuse Valmont d'avoir d'être un mauvais pasticheur (imitation du style). Pour être naturel il faut savoir mimer les emotions c'est l'anarchie. Le manipulateur serait un <b><u><span style="color : red;">Herméneute</span></u></b> On peut dire ici que Mme de Merteuil s'attache a éxaminer des lettres comme un herméneutes cad qu'elle détermine ou sont les failles de son interlocuteur. 
+
+Lettre 134
+Mme de Merteuil fait une explication de texte en le citant en dépliant l'implicite.
+Merteuil décèle le changement lexical auquel Valmont utilisait pour cacher son amour. 
+Mme de Merteuil lit dans ce geste de correction un symptome d'un sentiment que Valmont veut cacher 
+
+##### Arendt
+Elle a le mérite elle aussi de souligner que l'Homme qui manipule est celui qui prend en compte la nature de l'espace dans lequel il intervient (Politque chez Arendt), c'est un espace <span style="color:red;">dialogique</span> de façon a pouvoir emporter l'adhésion d'autrui. Jefferson qui professait l'égalité sans pouvoir la manipuler. 
+
+Le manipulateur serait peut être moins manipulateur qu'on le dit, il serai plus concient des problèmes. Donc l'homme qui fait croire sesrai celui qui tente a tout prix d'arriver aux finalités qu'il croit bien pour son pays. Il faut distinguer les motivations. L'Homme politique est celui qui a concience que des lors qu'une parole est prononcé en publique devient une oppinion même si elle est vraie cad un énnoncé soumis a appréciation du public. Dnas le foisonnement d'idée la vérité se perd. 
+
+##### Lorrenzaccio
+Ne peut on pas voir Lorenzo comme celui qui décele la comédie du monde celui qui est plus informé sur la texture des cœurs n'est-ce pas celui qui a expérimenté la capacité des lettres. Lorenzo verse dans le clan médicis, il s'immise dans le peuple et il s'invite chez les Strottzi or cette diversité lui a permis de déceler le mensonge. 
+Acte 
+Il dénonce la lacheté inhérente a la nature humaine, qui ne fait que s'abriter derrière des grandes idées (solidarité, famille, patrie), il explique que dans la réalité seul l'interret personnel compte. 
+Tel un herméneute il dit a Tébaldéo qui idéalise florence
+Dans ce téatrum mundi offet a une puissance transcendante, a la différence de ses comparses Lorenzo ne serait pas de ces acteur aveugles, il serait au contraire un acteur concient du spectacle que se joue. 
+
+Acte 3 Scene III
+Lorenzo n'est il pas celui qui a un rapport particulier a la parole? Il déclare que les républicains disent des mots qu'il résonne comme une Lyre
+Il semble avoir une critique de l'approche du langage, il se donne l'illusion de l'action mais dans les faits la réalité c"est que cela n'échape pas a lorenzo que les mots se subsitituent a l'action. Celui qui manipule n'est pas celui que anipule les ames. 
+"Ah les mots les mots, les éternelles paroles! Si il y a quelqu'un la haut, il doit bien rire de nous tous" (référence au téatrum mundi)
+
+Il oppose a cette Babelle Florentine un acte, un meutre 
+
+L'acte expéditif de Lorenzo se passe de paroles en deux phrases il est expédié, ne peut on pas voir une sorte de critique des paroles des autres.
+Ainsi l'Auteur du faire croire avant d'être manipulateur apparait comme fin connaisseur, a moins que ca ne soit un Homme usé par la vie. 
+
+# III. L'auteur du faire croire, un désenchanté
+##### Musset
+Lorenzo manipule le langage pour arriver a ses fins, n'est-il pas tout simplement celui qui a sacrifié ses idéaux, celui qui a rennoncé a ses idées originelles par ce que la corruption qu'il voyait partout lui semblait insupportable. 
+Acte III scene 3
+Il évoque l'illumination qu'il a eu de vouloir tuer le duc
+Pétri de livres il a eu le matin l'illumination de ce qu'il pouvait faire pour ne plus arriver a supporter. 
+En ne supportant plus l'impureté il l'est devenu lui même. 
+
+##### Laclos
+Les lettres de Valmont a destination de Tourvelle ne laissent elles pas paraitre un certaine sensibilité, n'exprime-t-il pas une certaine forme de Nostalgie, a l'égard de la pureté de l'élan Amoureux que l'xp lui à oté. 
+Ce qui guide ses actes ne serait il pas l'idée de couple. Ce serait donc le voeu de former couple qui serait la véritable duperie auquel Valmon cède. 
+

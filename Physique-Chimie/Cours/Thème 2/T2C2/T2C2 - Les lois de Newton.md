@@ -1,4 +1,3 @@
-# I. Rappel sur les forces
 ## 1. La masse inertielle
 #### Définition
 La masse inertielle d'un système est une grandeur physique positive, propre au système et qui caractérise sa résistance au changement du vecteur vitesse. 

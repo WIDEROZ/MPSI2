@@ -83,7 +83,7 @@ Lorsque $l=0$, on ne peut pas dire que $u_{n} \sim 0$ a cause de la définition 
 
 #### Propriété
 Soient $(u_{n}), (v_{n}) \in \mathbb{K}^{\mathbb{N}}$
-tq $u_{n} \sim v_{n}$ et $u_{n} \underset{n \to +\infty}{\longrightarrow} l$ ($v_{n} \neq 0$ APDCR)
+tq $u_{n} \sim v_{n}$ et ($v_{n} \neq 0$ APDCR)
 On a deux cas :
 - Si $v_{n} \underset{n \to +\infty}{\longrightarrow} l$ (avec $l \in \overline{\mathbb{R}}$ ou $l \in \mathbb{C}$)
 Alors, 
@@ -95,14 +95,15 @@ Démonstration :
 1. 
 Supposons que $v_{n} \underset{n \to +\infty}{\longrightarrow} l$
 Alors 
-$$v_{n} = v_{n} \times \frac{u_{n}}{v_{n}} \underset{n \to +\infty}{\longrightarrow} l \times 1 =l$$
+$$u_{n} = v_{n} \times \frac{u_{n}}{v_{n}} \underset{n \to +\infty}{\longrightarrow} l \times 1 =l$$
 
-2. 
+2. ???? Ca marche pas WTF pas compris
 Comme $\frac{u_{n}}{v_{n}} \longrightarrow 1$ APDCR
 $$\frac{u_{n}}{v_{n}}\geq \frac{1}{2}$$
 (en prenant "$\epsilon = \frac{1}{2}$" dans la définition de $\lim \frac{u_{n}}{v_{n}}=1$)
 Donc APDCR $\frac{u_{n}}{v_{n}}>0$
 ie APDCR $u_{n}$ et $v_{n}$ on le même signe
+
 
 #### Remarque 
 En particulier si $u_{n} \sim v_{n}$ et $v_{n}>0$ APDCR
@@ -119,7 +120,7 @@ u_{n} = O(v_{n})
 2. 
 $$\left. \begin{array}{r}
 (v_{n}) \text{ est bornée} \\
-u_{n} = u(v_{n})
+u_{n} = o(v_{n})
 \end{array} \right\} \Rightarrow \lim u_{n} = 0 $$
 
 3. 
@@ -128,7 +129,7 @@ $$\left. \begin{array}{r}
 u_{n} = O(v_{n})
 \end{array} \right\} \Rightarrow u_{n} \text{ est bornée} $$
 
-
+	
 En particulier : 
 Pour $\alpha > 0$, 
 $$u_{n} = O\left( \frac{1}{n^{\alpha}} \right) \Rightarrow u_{n} \longrightarrow 0$$
@@ -255,8 +256,8 @@ u_{n} =o(w_{n}) \\
 v_{n} = o(w_{n})
 \end{array} \right\} \Rightarrow \lambda u_{n} + \mu v_{n} = o(w_{n})$$
 $$\left. \begin{array}{l}
-u_{n} = O(v_{n}) \\
-v_{n} = O(u_{n})
+u_{n} = O(w_{n}) \\
+v_{n} = O(w_{n})
 \end{array} \right\} \Rightarrow \lambda u_{n} + \mu v_{n}= O(w_{n})$$
 
 2. Produit
@@ -338,7 +339,7 @@ Soit $x \in I$
 On suppose qu'il existe un $V \in \mathcal{V}(a)$
 tq $g$ ne s'annule pas sur $V \cap I\{a\}$
 On peut alors définir les notions suivantes :
-$$f(x) \underset{x \to a}{=} O(g(x)) \Leftrightarrow \frac{f}{g} \text{est bornée au voisinage de a}$$
+$$f(x) \underset{x \to a}{=} O(g(x)) \Leftrightarrow \frac{f}{g} \text{ est bornée au voisinage de a}$$
 $$f(x) \underset{x \to a}{=} o (g(x)) \Leftrightarrow \frac{f(x)}{g(x)} \underset{x \to a}{\longrightarrow}0$$
 $$f(x) \underset{x \to a}{\sim} g(x) \Leftrightarrow \frac{f(x)}{g(x)} \underset{x \to a}{\longrightarrow} 1$$
 
@@ -648,7 +649,7 @@ avec $b_{0} \neq 0$
 
 
 #### Exemple
-$$\sin x \underset{x \to 0}{=} x - \frac{x^{3}}{6} + \frac{x^{5}}{120} = o(x^{6}) = x\left( 1-\frac{x^{2}}{6}+\frac{x^{4}}{120}+ o(x^{5}) \right)$$
+$$\sin x \underset{x \to 0}{=} x - \frac{x^{3}}{6} + \frac{x^{5}}{120} + o(x^{6}) = x\left( 1-\frac{x^{2}}{6}+\frac{x^{4}}{120}+ o(x^{5}) \right)$$
 
 
 #### Propriété
@@ -760,47 +761,296 @@ $$\tan(h) \underset{h \to 0}{=} h+O(h^{3})$$
 
 
 #### Propriété : Composition
-Pour obtient un $DL_{n}(a)$ de $g \circ f$, il suffit d'effectuer un $DL_{n}(a)$ de $f$ et un $DL_{n}(f(a))$ de $g$
+Pour obtenir un $DL_{n}(a)$ de $g \circ f$, il suffit d'effectuer un $DL_{n}(a)$ de $f$ et un $DL_{n}(f(a))$ de $g$
 
-Cela en remplacant dans le $DL_{n}(f(a))$ de $g$ la variable par le $DL_{n}(a)$ de $f$ 
+Démonstration : 
+Argument de preuve :
+Cela en remplaçant dans le $DL_{n}(f(a))$ de $g$ la variable par le $DL_{n}(a)$ de $f$ 
 
+$$f(x) \underset{x \to a}{=} \sum_{i=0}^{n}a_{i}(x-a)^{i} + o((x-a)^{n})$$
+$$g(u) \underset{x \to b}{=} \sum_{i=0}^{n}b_{i}(u-b)^{i} + o((u-b)^{n})$$
+Avec $b = f(a) = a_{0}$
+Donc
+$$g(f(x)) = \sum b_{k}\left( \sum_{i=1}^{n}a_{i}(x-a)^{i} + o((x-a)^{n}) \right)^{k}$$
+$$+o\left( \left( \sum_{i=1}^{n} a_{i}(x-a)^{i} + o((x-a)^{n}) \right)^{n} \right)$$
 
 #### Exemple
-$DL_{4}(0)$ de $f:x\mapsto e^{ \cos() }$
+$DL_{4}(0)$ de $f:x\mapsto e^{ \cos(x) }$
 On fait un $DL_{4}(0)$ de $\cos x$
 et un $DL_{4}(1)$ de $\exp$
 $$e^{ 1+h } = e^{  }e^{ h } \underset{h \to 0}{=} e\left( 1+h+\frac{h^{2}}{2} + \frac{h^{3}}{6} + \frac{h^{4}}{24} + o(h^{4}) \right)$$
-et remplacer $h$ par $1-\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4})$
+et remplacer $h$ par $-\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4})$
 en négligent ce qui est négligeable
+$$e^{ \cos(x) }=e\left( 1-\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4})+ \frac{\left( -\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4}) \right)^{2}}{2} \right.$$
+$$+ \frac{\left( -\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4}) \right)^{3}}{6} + \frac{\left( -\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4}) \right)^{4}}{24}$$
+$$\left.+o((-\frac{x^{2}}{2}+\frac{x^{4}}{24}+o(x^{4}))^{4}) \right)$$
+(Bonne chance pour simplifier ca....)
+(Mais on va pas le simplifier car on veut un $DL$ d'ordre 4)
+Donc, 
+$$e\left( 1-\frac{x^{2}}{2} + \frac{x^{4}}{24} + \frac{x^{4}}{8}+o(x^{4}) \right)$$
+Ainsi,
+$$e^{ \cos(x) } \underset{x \to 0}{=} e-\frac{ex^{2}}{2}+\frac{ex^{4}}{24}+\frac{ex^{4}}{8}+o(x^{4})$$
+
+On s'aperçoit que faire un $DL_{4}(1)$ de $\exp$ est inutile : 
+En pratique, puisque $\cos(x)-1 \sim -\frac{x^{2}}{2} = O(x^{2})$, il suffisait de faire un $DL_{2}(0)$ de $\exp$ dès le départ
+
+<u>Rédaction :</u>
+On a : 
+$$\cos x \underset{x \to 0}{=} 1 - \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{4})$$
+$$\exp u \underset{u \to 0}{=} 1 + u +\frac{u^{2}}{2} + o(u^{2})$$
+Or, $u = \cos x-1 \underset{x \to 0}{\longrightarrow}0$
+Donc, 
+$$\exp(\cos(x)-1) \underset{x \to 0}{=} 1+\left(\frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{4})\right)$$
+$$+\frac{1}{2}\left(- \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{4})\right)^{2} + o\left(\left(- \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{4})\right)^{2}\right)$$
+Remplacer par : 
+$$1+ \left(- \frac{x^{2}}{2} + \frac{x^{4}}{24}\right) + \frac{1}{2}\left( - \frac{x^{2}}{2} + o(x^{2}) \right)^{2}+o(x^{4})$$
+$$= 1 - \frac{x^{2}}{2} + \frac{x^{4}}{24} + \frac{x^{4}}{8} + o(x^{4})$$
+
+## Quotient / Inverse
+Il suffit de savoir faire le $DL$ de l'inverse $\frac{1}{f}$
+et pour cela on compose avec un $DL$ de $h \mapsto \frac{h}{1-h}$ (ou $h \mapsto \frac{h}{1+h}$)
+
+Soit $f$ admettant un $DL_{n}(a)$ tq $f(a) \neq 0$ ($a_{0} \neq 0$)
+Alors
+$\frac{1}{f}$ admet une $DL_{n}(a)$ : 
+Pour $x$ proche de $a$
+$$\frac{1}{f(x)} = \frac{1}{a_{0}} \times \frac{1}{1-\frac{a_{0}-f(x)}{a_{0}}} = \frac{1}{a_{0}}\times \frac{1}{1-g(x)}$$
+avec, $g:x\mapsto \frac{a_{0}-f(x)}{a_{0}}$
+qui vérifie $g(a) = 0$
+On fait le $DL$ de la composé de $g$ ($DL_{n}(a)$ connu) par $h\mapsto \frac{1}{1-h}$ de $DL_{n}(0)$ connu
+
+#### Exemple
+$DL_{5}(0)$ de $\frac{1}{\cos}$ : 
+On a :
+$$\cos x \underset{x \to 0}{=} 1 - \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{5})$$
+et $\cos = 1-(1-\cos)$
+Donc, 
+$$1-\cos x \underset{x \to 0}{=} \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{5})$$
+et 
+$$\frac{1}{1-h} = 1+h+h^{2}+h^{3}+o(h^{3})$$
+or
+$$1-\cos (x) \underset{x \to 0}{\longrightarrow}0$$
+et
+$$1-\cos (x) \underset{x \to 0}{=} O(x^{2})$$
+Donc, 
+$$\frac{1}{\cos x} \underset{x \to 0}{=} 1+\left( \frac{x^{2}}{2}-\frac{x^{4}}{24} + o(x^{5})\right)+\left( \frac{x^{2}}{2} - \frac{x^{4}}{24} + o(x^{5})\right)^{2}$$
+$$+O\left( \left( \frac{x^{2}}{2}-\frac{x^{4}}{24} +o(x^{5})\right)^{3} \right)$$
+$$= 1+\frac{x^{2}}{2}-\frac{x^{4}}{24}+ \frac{x^{4}}{4} +o(x^{5})$$
+Donc, 
+$$\frac{1}{\cos(x)} \underset{x \to 0}{=} 1 + \frac{x^{2}}{2} + \frac{5x^{4}}{24} + o(x^{5})$$
+
+#### Exercice
+$$\frac{1}{2+\sin(x)} = \frac{1}{2}-\frac{x}{4}+\frac{x^{2}}{8}-\frac{x^{3}}{48}-\frac{x^{4}}{96}+o(x^{4})$$
+
+#### Propriété Primitive d'un DL
+Si $f$ admet un $DL_{n}(a)$
+$$f(x) = a_{0} + a_{1}(x-a)+\dots+a_{n}(x-a)^{n} + o((x-a)^{n})$$
+On suppose que $f$ est continue au voisinage de $a$
+Toute primitive $F$ admet un $DL_{n+1}(a)$
+$$F(x) \underset{x \to 0}{=} F(a) + a_{0}(x-a)+\frac{a_{1}(x-a)^{2}}{2}+\dots+ \frac{a_{n}(x-a)^{n+1}}{n+1} +o((x-a)^{n})$$
+
+#### Exemple
+$$\frac{1}{1+x} = \sum_{k=0}^{n}(-1)^{k}x^{k} + o(x^{n})$$
+et $x \mapsto \frac{1}{1+x}$ est continue au voisinage de $0$
+Par primitivation : 
+$$\ln(1+x) \underset{x \to 0}{=} \ln(1+0) + \sum_{k=0}^{n}(-1)^{k} \frac{x^{k+1}}{k+1} + o(x^{n+1})$$
+ie 
+$$\ln(1+x) = \sum_{k=1}^{n+1}(-1)^{k-1} \frac{x^{k}}{k} + o(x^{n+1})$$
+ie 
+$$\forall n \geq 1, \ln(1+x) = \sum_{k=1}^{n} (-1)^{k-1} \frac{x^{k}}{k}+o(x^{n})$$
+et le cas $n=0$ étant trivial on a finalement : 
+$$\forall n \in \mathbb{N}, \ln(1+x) \underset{x \to 0}{=} \sum_{k=1}^{n} (-1)^{k-1} \frac{x^{k}}{k} + o(c^{n})$$
+et par changement de $x$ en $-x$, 
+$$\ln(1-x) \underset{x \to 0}{=} - \sum_{k=1}^{n} \frac{x^{k}}{k} + o(x^{n}) $$
+
+(Ne pas oublier le "-")
+
+#### Exercice
+$DL_{n}(0)$ de Arctan
+
+Soit $n \in \mathbb{N}$, 
+On a : 
+$$\frac{1}{1+h} \underset{h \to 0}{=} 1-h+h^{2} + \dots + (-1)^{p}h^{p} + o(h^{p})$$
+Or $x^{2} \underset{x \to 0}{\longrightarrow}0$
+Donc, 
+$$\frac{1}{1+x^{2}} \underset{x \to 0}{=} 1-x^{2} + x^{4} + \dots + (-1)^{p}x^{2p} + o(x^{2p})$$
+A la place de $o(x^{2p}) = O(x^{2p+2})$
+En le primitivant : 
+$$\arctan(x) \underset{x \to 0}{=} \arctan(0) + x - \frac{x^{3}}{3}+\frac{x^{5}}{5}+\dots+(-1)^{p} \frac{x^{2p+1}}{2p+1}+o(x^{2p+1})$$
+A la place de $o(x^{2p+1}) = O(x^{2p+3})$
+
+$$\arctan x = \sum_{k=0}^{p} (-1)^{k} \frac{x^{2k+1}}{2k+1} + o(x^{2p+2})$$
+
+
+
+
+
+#### A priori on ne peut pas dériver un DL
+Contre-exemple : 
+$$f(x) = x^{3} \sin\left( \frac{1}{x} \right) \text{ si } x \neq 0$$
+et $0$ si $x=0$
+
+$f$ admet un $DL_{2}(0)$ :
+$$f(x) \underset{x \to 0}{=} 0 + o(x^{2})$$
+
+De plus $f$ est dérivable sur $\mathbb{R}$
+et $f'$ n'admet pas de $DL_{1}(0)$ car $f'$ n'est pas dérivable en $0$ 
+
+#### Dérivation d'un $DL$
+Cependant si $f$ admet un $DL_{n}(a)$, est dérivable au voisinage de $a$ et on sait que $f'$ admet un $DL_{n-1}(a)$ on peut calculer ce $DL_{n-1}(a)$ on peut calculer la partie polynomiale du $DL_{n}(a)$ de d$f$
+
+En effet si le $DL_{n-1}(a)$ de $f'$ est
+$$f'(x) = \sum_{k=0}^{n-1} b_{k}(x-a)^{k}+o((x-a)^{n-1})$$
+en le primitivant on obtiens : 
+$$f(x) = f(a) + \sum_{k=0}^{n-1}b_{k} \frac{(x-a)^{k+1}}{k+1}+o((x-a)^{n})$$
+$$f(x) = f(a) + \sum_{k=1}^{n-1}b_{k-1} \frac{(x-a)^{k}}{k} + o((x-a)^{n})$$
+or le $DL_{n}(a)$ de $f$ est : 
+$$f(x) = f(a) + \sum_{k=1}^{n}a_{k}(x-a)^{k}+o((x-a)^{n})$$
+
+et par unicité du $DL_{n}(a)$ de $f$, 
+$$\forall k \in [\![1, n]\!], b_{k-1} = ka_{k}$$
+ie
+$$f'(x) = \sum_{k=0}^{n-1} (k+1)a_{k+1}(x-a)^{k} + o((x-a)^{n-1}) = \frac{d}{dx}\left( \sum_{k=0}^{n}a_{k} (x-a)^{k} \right)$$
+
+
+$DL_{5}(0)$ de Arcsin ?
+Primitiver un $DL(0)$ de $x \mapsto \frac{1}{\sqrt{ 1-x^{2} }} = x \mapsto (1-x^{2})^{- \frac{1}{2}}$
+
+
+#### Théorème : Formule de Taylor-Young
+Soit $f \in \mathcal{C}^{n}(I)$ (pour $n \in \mathbb{N}$) et $a \in I$. 
+Alors $f$ admet un $DL_{n}(a)$
+$$f(x) \underset{x \to a}{=} \sum_{k=0}^{n} \frac{f^{(k)}(a)}{k!} (x-a)^{k} + o((x-a)^{n})$$
+
+
+#### Corollaire
+Si $f \in \mathcal{C}^{\infty}(I)$ et $a \in I$, $f$ admet des $DL(a)$ à tous les ordres 
+
+#### Rappel
+Attention $f$ admet un $DL_{n}(a) \nRightarrow f$ est $n$ fois dérivable en $a$, 
+mais c'est vrai pour $n=1$
+
+#### Conséquence de la formule de Taylor-Young
+Pour $n \in \mathbb{N}$, 
+$$e^{ x } \underset{x \to 0}{=} \sum_{k=0}^{n} \frac{x^{k}}{k!} + o(x^{n}) = 1+x+\frac{x^{2}}{2}+\frac{x^{3}}{6} + \frac{x^{4}}{24}+\frac{x^{5}}{120}  + \dots + \frac{x^{n}}{n!} + o(x^{n})$$
+$$\cos(x) \underset{x \to 0}{=} \sum_{k=0}^{p} (-1)^{k} \frac{x^{2k}}{(2k)!} + o(x^{2p+1}) $$
+Par primitivation : 
+$$\sin(x) \underset{x \to 0}{=} \sum_{k=0}^{p} (-1)^{k} \frac{x^{2k+1}}{(2k+1)!} + o(x^{2p+2}) $$
+
+On a déjà vu $sh$ et $ch$ comme partie paire et impaire de $\exp$, 
+mais on peut aussi les trouver avec FTY comme pour $\cos$ et $\sin$. 
+$$ch(x) \underset{x \to 0}{=} \sum_{k=0}^{p} \frac{x^{2k}}{(2k)!} + o(x^{2p+1})$$
+$$sh(x) \underset{x \to 0}{=} \sum_{k=0}^{p} \frac{x^{2k+1}}{(2k+1)!} + o(x^{2p+2})$$
+
+Soit $\alpha \in \mathbb{N}$, 
+et $f: x \mapsto (1+x)^{\alpha}$ (polynomiale)
+Pour $x \in \mathbb{R}$, 
+$$f(x) = \sum_{k=0}^{\alpha} \binom{\alpha}{k} x^{k}$$
+Un $DL_{n}(0)$ de $f$ est :
+$$f(x) \underset{x \to 0}{=} \sum_{k=0}^{\min(\alpha, n)} \binom{\alpha}{k} x^{k}+o(x^{n})$$
+$$f(x) \underset{x \to 0}{=} 1 + \alpha x + \frac{\alpha(\alpha-1)}{2}x^{2}+\frac{\alpha(\alpha-1)(\alpha-1)}{6}x^{3} + \dots + \binom{\alpha}{n}x^{n} + o(x^{n})$$
+
+
+#### Théorème
+Soit $\alpha \in \mathbb{C}$ et $n \in \mathbb{N}$, 
+Alors
+$$(1+x)^{\alpha} \underset{x \to 0}{=} \sum_{k=0}^{n} \frac{\alpha(\alpha-1)\dots(\alpha-k+1)}{k!}x^{k} + o(x^{n}) $$
+
+Sinon en plus formel : 
+$$(1+x)^{\alpha} \underset{x \to 0}{=} \sum_{k=0}^{n} \frac{\prod_{i=0}^{k-1}(\alpha-i)}{k!}x^{k}+o(x^{n})$$
+
+$$\underset{x \to 0}{=} 1 + \sum_{k=0}^{n} \frac{\alpha(\alpha-1)\dots(\alpha-k+1)}{k!}x^{k} + o(x^{n})$$
+$$\underset{x \to 0}{=} 1+\alpha x + \frac{\alpha(\alpha-1)}{2}x^{2} + \frac{\alpha(\alpha-1)\dots(\alpha-n+1)}{n!}x^{n} + o(x^{n}) $$
+
+#### Exemple
+$DL_{3}(0)$ : 
+$$(1+x)^{\alpha} \underset{x \to 0}{=} 1+\alpha x + \frac{\alpha(\alpha-1)}{2}x^{2}+\frac{\alpha(\alpha-1)(\alpha-2)}{6}x^{3}+ o(x^{3}) $$
+
+$DL_{5}(0)$ : 
+$$\frac{1}{\sqrt{ 1-x^{2} }} = (1-x^{2})^{- \frac{1}{2}}$$
+On fait un $DL_{4}(0)$ de 
+$$(1+h)^{- \frac{1}{2}} \underset{h \to 0}{=} 1- \frac{h}{2} + \frac{3h^{2}}{8} + O(h^{2})$$
+et $-x^{2} \underset{x \to 0}{\longrightarrow}0$
+Donc, 
+$$(1-x^{2})^{- \frac{1}{2}} = 1+\frac{x^{2}}{2}+\frac{3x^{4}}{8} + O(x^{6})$$
+DOnc, 
+$$\frac{1}{\sqrt{ 1-x^{2} }} \underset{x \to 0}{=} 1 + \frac{x^{2}}{2}+ \frac{3x^{4}}{8} +  o(x^{5})$$
+En primitivant ce $DL$: 
+$$\arcsin(x) \underset{x \to 0}{=} \arcsin(0) + x + \frac{x^{3}}{6} + \frac{3x^{5}}{6}+ \frac{3x^{5}}{40} + o(x^{6})$$
+
+#### Remarque
+Le théorème précédent a comme cas particuliers :
+- $x \mapsto \frac{1}{1+x}$
+- $x\mapsto \frac{1}{1-x}$
+
+#### Exercice
+Montrer que :
+$$\frac{1}{\sqrt{ 2+x^{2} }} \underset{x \to 0}{=} \frac{1}{\sqrt{ 2 }}\left( 1- \frac{x^{2}}{4} + \frac{3x^{4}}{32} + o(x^{5}) \right)$$
 
 
 
 
 
 
+#### A savoir
+$$\tan(x) \underset{x \to 0}{=} x + \frac{x^{3}}{3} + \frac{2}{15}x^{5} + o(x^{5})$$
 
 
+# VI. Developments asymptotiques
+#### DL à savoir par cœur
+$\ln(1-x)$, $\ln(1+x)$, $\frac{1}{1-x}$, $\frac{1}{1+x}$, $\exp(x)$, $\cos(x)$, $\sin(x)$, $\text{ch}(x)$, $\text{sh}(x)$, $\tan(x)$, $(1+x)^{\alpha}$
+
+Développé à l'ordre 5, formule avec $\sum$
+
+#### Exemple 1
+$$\frac{x}{x+e^{ 1/x }} \underset{x \to + \infty}{=} \frac{x}{2}-\frac{1}{4}+ \frac{1}{48x^{2}} + o\left( \frac{1}{x^{2}} \right)$$
+
+#### Exemple 2 : Formule de Stirling par $\heartsuit$
+$$n! \underset{n \to + \infty}{\sim} \left( \frac{n}{e} \right)^{n} \sqrt{ 2\pi n}$$
+
+#### Exemple 3
+$$\sum_{k=1}^{n} \frac{1}{k} \underset{n \to +\infty}{=} \ln(n) + C + o(1)$$
+On peut remplacer $o(1)$ par $O\left( \frac{1}{n} \right)$
 
 
+Soit $f : x \mapsto x+\sqrt{ x^{2}+1 }$ ,
+On fait un $DL_{2}(0^{+})$ de $h \mapsto hf\left( \frac{1}{h} \right)$
+On a pour $h \to 0^{+}$, comme $h>0$, 
+$$\ln\left( f\left( \frac{1}{h} \right) \right) = 1 + \sqrt{ 1-h^{2} }$$
+Or,
+$$\sqrt{ 1-h^{2} } = (1-h^{2})^{ \frac{1}{2} }$$
+et 
+$$(1+u)^{\frac{1}{2}} \underset{u \to 0}{=}1+\frac{u}{2} - \frac{u^{2}}{8}+o(u^{2})$$
+Donc, comme $-h^{2} \underset{h \to 0^{+}}{\longrightarrow} 0$
+Par composition de $\text{DL}$,
+$$\sqrt{ 1-h^{2} } \underset{h \to 0^{+}}{=} 1-\frac{h^{2}}{2} + o(h^{2})$$
+On a ainsi :
+$$hf\left( \frac{1}{h} \right) \underset{h \to 0^{+}}{=} 2 - \frac{h^{2}}{2} + o(h^{2})$$
+Développement limité
 
+Donc, 
+$$f\left( \frac{1}{h} \right) \underset{h \to 0^{+}}{=} \frac{2}{h} - \frac{h}{2} + o(h)$$
+Développement asymptotique
 
+Ainsi : 
+$$f(x) \underset{x \to + \infty}{=} 2x -\frac{1}{2x} + o\left( \frac{1}{x} \right)$$
 
+Donc, $\mathcal{G}_{f}$ admet une asymptote d'équation $y= 2x$ lorsque $x$ tend vers $+ \infty$. 
+Et $\mathcal{G}_{f}$ est situé (asymptotiquement) au dessous de cette asymptote. 
 
+##### Question : Au voisinage de $- \infty$ ?
+Pour $h<0$ "petit", 
+$$\ln\left( f\left( \frac{1}{h} \right) \right)=1-(-h)\sqrt{ \frac{1}{h^{2}} -1} = 1-\sqrt{ \frac{(-h)^{2}}{h^{2}}-(-h)^{2} }$$
+Donc, 
+$$\ln\left( f\left( \frac{1}{h} \right) \right) = 1- \sqrt{ 1-h^{2} }$$
+Par le même calcul, 
+$$hf\left( \frac{1}{h} \right) = 1-1+\frac{h^{2}}{2} + o(h)$$
+Ainsi, 
+$$f(x) = \frac{1}{2x} + o\left( \frac{1}{x} \right)$$
+$\mathcal{G}_{f}$ admet une asymptote horizontale d'équation $\underline{y = 0}$ lorsque $x$ tend vers $-\infty$ et est situé en <u>dessous</u> de cette asymptote pour $x$ au voisinage de $- \infty$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#### Exercice
+Le comportement asymptotique de $x \mapsto e^{ 1/x }\sqrt{ x(x+2) }$
 
 
 
