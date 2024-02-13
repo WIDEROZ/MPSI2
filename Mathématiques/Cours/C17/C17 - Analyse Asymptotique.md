@@ -399,7 +399,7 @@ $$x^{\alpha}e^{ -\gamma x } \underset{x \to \infty}{\longrightarrow} 0$$
 
 
 #### Propriété : Composition d'équivalences à la source
-Si $f(x) \underset{x \to a}{\sim}$ $g(x)$ et $\ln(y) \underset{\underset{y \to b}{\neq}}{\longrightarrow}a$
+Si $f(x) \underset{x \to a}{\sim}$ $g(x)$ et $h(y) \underset{\underset{y \to b}{\neq}}{\longrightarrow}a$
 Alors 
 $$(f \circ h)(y) \underset{y \to b}{\sim} (g \circ h)(y)$$
 et 
@@ -417,8 +417,8 @@ $$\sin\left( \frac{1}{n} \right) \underset{n \to \infty}{\sim} \frac{1}{n}$$
 # Application pour les DL ($o$, $O$)
 Lorsque $x \mapsto a \in \mathbb{K}$, 
 
-Si $k>l\geq 0$, 
-$$(x-a)^{k}\underset{x \to a}{=}o((x-k)^{l})$$
+Si $l>k\geq 0$, 
+$$(x-a)^{k}\underset{x \to a}{=}o((x-a)^{l})$$
 Donc a fortiori : 
 $$o((x-a)^{k}) + o((x-a)^{l}) = o((x-a)^{l})$$
 $$o((x-a)^{k}) \times o((x-a)^{l}) = o((x-a)^{k+l})$$
@@ -544,7 +544,8 @@ $$\sum_{k=?}^{n}a_{k}h^{k} + o(h^{n}) = o(h^{l})$$
 
 #### Propriété
 Une fonction polynôme admet des $DL$ à tous les ordres en tout point. 
-Plus précisément : 
+
+Plus précisément / Démonstration : 
 si $P \in \mathbb{K}[X]\backslash\{0\}$ et $a \in \mathbb{R}$,
 $$f: \begin{cases}
 \mathbb{R} \to \mathbb{K} \\
@@ -612,10 +613,10 @@ ie :
 $\sin x > x$ quand $x \to 0^{-}$
 $\sin x < x$ quand $x\to 0^{+}$
 
-Ainsi $\mathcal{G}_{\sin}$ traverse sa tangent e, (0, 0) et (0, 0) est un point d'inflexion de $\mathcal{G}$
-
+Ainsi $\mathcal{G}_{\sin}$ traverse sa tangente, $(0, 0)$ et $(0, 0)$ est un point d'inflexion de $\mathcal{G}$
+$
 <u>Méthode</u> :
-On pousse les $Dl_{n}(a)$ jusqu'à avoir un terme d’ordre 2 $\geq 2$ non nul. 
+On pousse les $Dl_{n}(a)$ jusqu'à avoir un terme d’ordre $n$ $\geq 2$ non nul. 
 
 Supposons qu'on ait obtenu : 
 $$f(a+h) \underset{h \to 0}{=} a_{0}+a_{1}h + a_{n}h^{n} + o(h^{n})$$
@@ -653,7 +654,7 @@ $$\sin x \underset{x \to 0}{=} x - \frac{x^{3}}{6} + \frac{x^{5}}{120} + o(x^{6}
 
 
 #### Propriété
-Si $f$ admet un $DL_{n(a)}$ sous forme normalisé avec les notations précédentes alors
+Si $f$ admet un $DL_{n}(a)$ sous forme normalisé avec les notations précédentes alors
 $$f(a+h) \underset{h \to 0}{\sim} b_{0}h^{p}$$
 
 Démonstration :
@@ -825,7 +826,7 @@ On a :
 $$\cos x \underset{x \to 0}{=} 1 - \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{5})$$
 et $\cos = 1-(1-\cos)$
 Donc, 
-$$1-\cos x \underset{x \to 0}{=} \frac{x^{2}}{2} + \frac{x^{4}}{24} + o(x^{5})$$
+$$1-\cos x \underset{x \to 0}{=} \frac{x^{2}}{2} - \frac{x^{4}}{24} + o(x^{5})$$
 et 
 $$\frac{1}{1-h} = 1+h+h^{2}+h^{3}+o(h^{3})$$
 or
@@ -847,7 +848,7 @@ Si $f$ admet un $DL_{n}(a)$
 $$f(x) = a_{0} + a_{1}(x-a)+\dots+a_{n}(x-a)^{n} + o((x-a)^{n})$$
 On suppose que $f$ est continue au voisinage de $a$
 Toute primitive $F$ admet un $DL_{n+1}(a)$
-$$F(x) \underset{x \to 0}{=} F(a) + a_{0}(x-a)+\frac{a_{1}(x-a)^{2}}{2}+\dots+ \frac{a_{n}(x-a)^{n+1}}{n+1} +o((x-a)^{n})$$
+$$F(x) \underset{x \to 0}{=} F(a) + a_{0}(x-a)+\frac{a_{1}(x-a)^{2}}{2}+\dots+ \frac{a_{n}(x-a)^{n+1}}{n+1} +o((x-a)^{n+1})$$
 
 #### Exemple
 $$\frac{1}{1+x} = \sum_{k=0}^{n}(-1)^{k}x^{k} + o(x^{n})$$
@@ -897,7 +898,7 @@ De plus $f$ est dérivable sur $\mathbb{R}$
 et $f'$ n'admet pas de $DL_{1}(0)$ car $f'$ n'est pas dérivable en $0$ 
 
 #### Dérivation d'un $DL$
-Cependant si $f$ admet un $DL_{n}(a)$, est dérivable au voisinage de $a$ et on sait que $f'$ admet un $DL_{n-1}(a)$ on peut calculer ce $DL_{n-1}(a)$ on peut calculer la partie polynomiale du $DL_{n}(a)$ de d$f$
+Cependant si $f$ admet un $DL_{n}(a)$, est dérivable au voisinage de $a$ et on sait que $f'$ admet un $DL_{n-1}(a)$ on peut calculer ce $DL_{n-1}(a)$ on peut calculer la partie polynomiale du $DL_{n}(a)$ de $f$
 
 En effet si le $DL_{n-1}(a)$ de $f'$ est
 $$f'(x) = \sum_{k=0}^{n-1} b_{k}(x-a)^{k}+o((x-a)^{n-1})$$
@@ -998,7 +999,7 @@ $$\tan(x) \underset{x \to 0}{=} x + \frac{x^{3}}{3} + \frac{2}{15}x^{5} + o(x^{5
 
 # VI. Developments asymptotiques
 #### DL à savoir par cœur
-$\ln(1-x)$, $\ln(1+x)$, $\frac{1}{1-x}$, $\frac{1}{1+x}$, $\exp(x)$, $\cos(x)$, $\sin(x)$, $\text{ch}(x)$, $\text{sh}(x)$, $\tan(x)$, $(1+x)^{\alpha}$
+$\ln(1-x)$, $\ln(1+x)$, $\frac{1}{1-x}$, $\frac{1}{1+x}$, $\exp(x)$, $\cos(x)$, $\sin(x)$, $\text{ch}(x)$, $\text{sh}(x)$, $\tan(x)$, $(1+x)^{\alpha}$ 
 
 Développé à l'ordre 5, formule avec $\sum$
 
@@ -1052,9 +1053,3 @@ $\mathcal{G}_{f}$ admet une asymptote horizontale d'équation $\underline{y = 0}
 #### Exercice
 Le comportement asymptotique de $x \mapsto e^{ 1/x }\sqrt{ x(x+2) }$
 
-
-
-
-
-$$\underset{x \to a}{=}$$
-$$\underset{x \to \infty}{\longrightarrow}$$

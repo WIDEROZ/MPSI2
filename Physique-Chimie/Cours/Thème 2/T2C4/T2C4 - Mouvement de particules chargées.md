@@ -229,3 +229,240 @@ $$\Delta E_{c} = qU$$
 $$\Delta E_{c} = \frac{1}{2}v_{f}^{2} - \frac{1}{2}mv_{0}^{2} = qU$$
 $$v_{f}^{2} = \frac{2qU}{m} + v_{0}^{2}$$
 $$v_{f} = \sqrt{ \frac{2qU}{m} + v_{0}^{2} }$$
+
+
+## 3. Conservation de l'énergie mécanique
+Force conservative donc $E_{m} = E_{p}+E_{c} = \text{cte}$
+$E_{p} = qV$
+$$\frac{1}{2}mv_{f}^{2} + qV(d) = \frac{1}{2}mv_{i}^{2}+qV(0)$$
+$$\frac{1}{2}m(v_{f}^{2}-v_{i}^{2}) = q(V(0)-V(d))$$
+$$\Delta E_{c} = -qU$$
+$U$ la tension appliqué entre les plaques
+
+#### Propriété
+- Si $q>0$ et $U<0$ la particule est accélérée
+  Sinon elle est freinée.
+- Si $q<0$ et $U>0$ la particule est accélérée
+  Sinon elle est freiné
+
+## 4. Déviation électrique
+excalibur 8
+Conditions initiales : 
+$$\begin{cases}
+x(0) = 0 \\
+z(0) = 0
+\end{cases}$$
+$\vec{v} = v_{0}\vec{e}_{x}$
+$q = -e$
+
+1. Quel est l'angle de déviation de $\theta_{e}$ tel que $\tan(\theta_{e})= \frac{v_{z}(t)}{v_{x}(t)}$
+- Référentiel Galiléen
+- Système : Electron
+- PFD : $m\vec{a} = -e\vec{E}$
+  $$\begin{cases}
+\frac{dv_{x}}{dt} = 0 \\
+\frac{dv_{y}}{dt} = 0 \\
+\frac{dv_{z}}{dt} = 0
+\end{cases}$$
+On Intègre : 
+$$\begin{cases}
+v_{x} = v_{0} \\
+v_{y} = 0 \\
+v_{z} = \frac{eE}{m}t + v_{z}(0) = \frac{eE}{m}t
+\end{cases}$$
+$$\begin{cases}
+v_{x} = v_{0} \\
+v_{z} = \frac{eE}{m}t
+\end{cases}$$
+
+On intègre :
+$$\begin{cases}
+x(t) = v_{0}t + x(0) = v_{0}t \\
+z(t) = \frac{\frac{1}{2}eE}{m}t^{2} + z(0) = \frac{1}{2} \frac{eE}{m} t^{2}
+\end{cases}$$
+
+- Instant $t_{L}$ pour lequel $x = L$
+  $$L = v_{0}t_{L} \Rightarrow t_{L} = \frac{L}{v_{0}}$$
+  On remplace dans $v_{z}$ : 
+  $$v_{z}(t_{L}) = \frac{eE}{m} \frac{L}{v_{0}}$$
+  Alors, 
+  $$\tan \theta_{e} = \frac{eEL}{mv_{0}^{2}}$$
+
+- On remplace directement $t = \frac{x}{v_{0}}$ dans $v_{z}$
+  $$v_{z}(x) = \frac{eEx}{mv_{0}}$$
+  et en $x = L$ : 
+  $$v_{z}(L) = \frac{eEL}{mv_{0}}$$
+
+2. En déduire la dérivation $\Delta_{z}$ sur l'écran situé en $x = D$ en fonction de la tension $U$
+
+   Pour $x\geq L$ plus aucune force ne s'exerce sur les électrons, dans un référentiel Galiléen donc par le principe d'inertie son mouvement est rectiligne et uniforme. 
+
+   $$\tan \theta_{e} = \frac{\Delta z-z(t_{L})}{D-L}$$
+   $$z(t_{L}) = \frac{1}{2} \frac{eE}{m}t_{L}^{2} = \frac{1}{2} \frac{eE}{m} \frac{L^{2}}{v^{2}_{0}}$$
+   $$\frac{eEL}{mv_{0}^{2}} = \frac{\Delta z - \frac{1}{2} \frac{eE}{m} \frac{L^{2}}{v_{0}^{2}}}{D-L}$$
+   $$(D-L) \frac{eEL}{mv_{0}^{2}} = \Delta z - \frac{1}{2} \frac{eEL}{mv_{0}^{2}}$$
+   $$\Delta z = \frac{eEL}{mv_{0}^{2}}\left( D-L+\frac{1}{2}L \right)$$
+   $$\Delta z = \frac{eEL}{mv_{0}^{2}} \frac{eEL}{mv_{0}^{2}}\left( D-\frac{1}{2}L \right)$$
+   $E = \frac{U}{d}$
+   
+   
+   $$\Delta z = \frac{eUL}{mv_{0}^{2}d}\left( D-\frac{L}{2} \right)$$
+
+
+
+# IV. Mouvement dans un champ magnétique $\vec{B}$
+Supposons $\vec{B} = B \vec{e}_{z}$
+et la vitesse initiale $v_{0} = v_{0} \vec{e}_{x}$
+Excal 2
+
+- Référentiel Galiléen
+- Système charge $q$ de masse $m$
+- PFD : $m \frac{d\vec{v}}{dt} = q\vec{v} \wedge \vec{B}$
+
+## 1. Etude qualitative
+- L'acceleration de la charge est toujours perpendiculaire à la vitesse. 
+  Or dans le repère de Frenet : 
+  $$\vec{a} = \frac{d\vec{v}}{dt} = \frac{dv}{dt} \vec{t} - \frac{v^{2}}{R}\vec{n}$$
+  $$\begin{cases} \vec{v} = v\vec{t} \\ \vec{a} = a\vec{n} \end{cases} \Rightarrow \frac{dv}{dt} = 0$$
+  C'est donc un mouvement uniforme
+- Initialement $\vec{v}_{0} \perp \vec{B}$ et comme $\vec{a} \perp \vec{B}$ alors $\vec{v}$ reste $\perp$ à $\vec{B}$ à tout instant. C'est donc un mouvement plan.
+
+- Norme de acceleration : 
+  $$\vec{a} = \frac{q\vec{v}\wedge\vec{B}}{m}$$
+  $$a = \frac{|q|}{m}v_{0}B = \text{cte}$$
+  La norme de $\vec{a}$ est constante
+  On sait aussi que
+  $$\vec{a} = -\frac{v_{0}^{2}}{R}\vec{n}$$
+  Donc,
+  $$a = \frac{v_{0}^{2}}{R} = \frac{|q|v_{0}B}{m}$$
+  Le rayon de courbure est : 
+  $$R = \frac{mv_{0}}{|q|B} = \text{cte}$$
+  La trajectoire est un cercle et le mouvement est circulaire uniforme d'accélération constante.
+  
+  - Vitesse du mouvement (angulaire)
+    $$v_{0} = R\overset{\cdot}{\theta} = \frac{mv_{0}}{|q|B}\overset{\cdot}{\theta}$$
+    Donc, 
+    $$\overset{\cdot}{\theta} = \frac{|q|B}{m}$$
+
+#### Propriété
+Soit une particule de masse $m$ et de charge $q$ qui se déplace dans un champ magnétique $\vec{B}$ normal à la vitesse initiale $v_{0}$. 
+
+Cette particule à un mouvement circulaire uniforme de rayon $R = \frac{mv_{0}}{|q|B}$ et de vitesse angulaire $\omega_{c} = \frac{|q|B}{m}$ la pulsation <b><u>cyclotron</u></b>. 
+
+
+## 2. Position du centre du cercle et sens de parcours
+excal 10
+$\vec{B} = B\vec{e}_{z}$
+$\vec{v}_{0} = v_{0} \vec{e}_{x}$
+
+Le centre de la trajectoire va être sur l'axe $O_{y}$ 
+et sa position $y_{c}$ dépend du signe de la charge. 
+
+On suppose que la particule est un proton : 
+$q>0$ alors $\vec{F} = q\vec{v} \wedge \vec{B}$ 
+à $t = 0$ $\vec{F}(0) = qv_{0}B\vec{e}_{x} \wedge \vec{e}_{z}$ 
+$\vec{F}_{0} = -qv_{0}B\vec{e}_{y}$
+Donc initialement la force est sur $-\vec{e}_{y}$ le proton se dirige vers les $y$ négatif : 
+exal 11
+
+Donc le centre du cercle est d’ordonnée négative $y_{c}<0$ : 
+$$y_{c} = -R = -\frac{mv_{0}}{eB}$$
+
+
+## 3. Ordres de grandeur
+On considère des particules accélérées par une tension $U = 2 \space \text{kV}$ : 
+- accélération linéaire
+- $v_{f} = \sqrt{  \frac{2|q|U}{m} } = v_{0}$ du schema
+
+Pour le proton :
+$|q| = 1,6.10^{-19}\text{ C}$
+$m_{p} = 10^{-27} \text{ kg}$
+$v_{p} = 6.10^{5}\text{m.s}^{-1}$
+
+
+
+
+Pour l'électron : 
+$|q| = 1,6.10^{-19} \text{ C}$
+$m_{e} = 10^{-30} \text{ kg}$
+$v_{e} = 3.10^{7} \text{m.s}^{-1}$
+
+On soumet ces particules à un champ $B = 0.1 \text{ T}$ perpendiculaire à $\vec{v}$
+Donc elles ont une trajectoire circulaire de rayon $R = \frac{mv_{0}}{eB}$
+
+Pour un proton : 
+$R_{p} \approx 6.5 \text{ cm}$
+
+Pour un électron : 
+$R_{e} \approx 1.5\text{ mm}$
+
+## 4. Résolution complète
+Excal 12
+$\vec{B} = B\vec{e}_{z}$
+$\vec{v}_{0} = v_{0}\vec{e}_{x}$
+Particule de masse $m$ et de charge $q$
+Référentiel Galiléen
+PFD : 
+$$\frac{md\vec{v}}{dt}=q\vec{v}\wedge \vec{B} = q \space \begin{array}{|c}
+v_{x} \\
+v_{y} \\
+v_{z}
+\end{array} \wedge \begin{array}{|c}
+0 \\
+0 \\
+B
+\end{array}$$
+Alors : 
+$$\begin{cases}
+m\frac{dv_{x}}{dt} = qv_{y}B \\
+m \frac{dv_{y}}{dt} =- qv_{x}B
+\end{cases}$$
+
+$m \frac{dv_{z}}{dt} = 0$
+$v_{y} = \text{cte} = 0$
+$z = \text{cte} = 0$
+
+$$\begin{cases}
+\frac{dv_{x}}{dt} - \frac{qB}{m}v_{y} = 0 \\
+\frac{dv_{y}}{dt} + \frac{qB}{m} v_{x} = 0
+\end{cases}$$
+On pose $\frac{qB}{m} = \omega_{c}$
+
+$$\begin{cases}
+\frac{dv_{z}}{dt} - \omega_{c}v_{y} = 0 \\
+\frac{dv_{y}}{dt} + \omega_{c}v_{x} = 0 
+\end{cases}$$
+
+Changement de variable : 
+$u = v_{x} + j v_{y}$
+
+$$\frac{du}{dt} - \omega_{c}v_{y} + j \omega_{c}v_{x} = 0$$
+$$\frac{du}{dt} + j \omega_{c}(v_{x}+jv_{y}) = 0$$
+
+$$\frac{du}{dt} + j \omega_{c}u = 0$$
+
+$$u = Ae^{ -j\omega_{c}t }$$
+$$u = A(\cos(\omega_{c}t)-j \sin (\omega_{c}t))$$
+Donc, 
+$$\begin{cases}
+v_{x} = A \cos(\omega_{c}t) \\
+v_{y} = -A \sin(\omega_{c}t)
+\end{cases}$$
+à $t =0$, $v_{x}(0) = A = v_{0}$
+$$\begin{cases}
+v_{x} = v_{0} \cos(\omega_{c}t) \\
+v_{y} = -v_{0} \sin(\omega_{c}t)
+\end{cases}$$
+
+On intègre : 
+$$\begin{cases}
+x(t) = \frac{v_{0}}{\omega_{c}}\sin(\omega_{c}t) + x(0) \\
+x(t) = \frac{v_{0}}{\omega_{c}}\cos(\omega_{c}t) + \text{cte}
+\end{cases}$$
+
+à $t=0$, $\begin{cases} x(0) = 0 \\ y(0) = 0 \end{cases}$
+
+$$\begin{cases}
+x(t) = \frac{v_{0}}{\omega_{c}} \sin(\omega_{c}t) \\
+y(t) = \frac{v_{0}}{\omega_{c}}(\cos(\omega_{c}t)-1)
+\end{cases}$$
