@@ -84,5 +84,34 @@ En ne supportant plus l'impureté il l'est devenu lui même.
 
 ##### Laclos
 Les lettres de Valmont a destination de Tourvelle ne laissent elles pas paraitre un certaine sensibilité, n'exprime-t-il pas une certaine forme de Nostalgie, a l'égard de la pureté de l'élan Amoureux que l'xp lui à oté. 
-Ce qui guide ses actes ne serait il pas l'idée de couple. Ce serait donc le voeu de former couple qui serait la véritable duperie auquel Valmon cède. 
+Ce qui guide ses actes ne serait il pas l'idée de couple. Ce serait donc le vœu de former couple qui serait la véritable duperie auquel Valmont cède. 
 
+
+# III. Le crédule est-il une victime?
+#### Introduction
+"Victime" : Créature vivante offerte aux Dieux (étymologie)
+Le crédule serait donc une proie offerte au bon plaisir de l'auteur du faire croire. Il est donc sans défense, il subit une parole, il est passif.
+Toutefois le crédule est-il une victime est un paradoxe, cela signifie qu'il croit trop facilement. 
+
+#### 1. Examen de la première hypothèse : le crédule, une victime
+###### Laclos : 
+André Malraux : métaphore de la chasse. 
+Chasse : activité pratiqué par la haute Aristocratie (Activité mondaine)
+
+La chasse de courre est pratiqué par Valmont, c'est une 
+conversion d'une fonction des Aristocrates / des nobles en loisir. 
+
+
+Le chasse est dans le texte une métaphore structurant qui permet de présenter Valmont comme un prédateur. 
+Depuis l'Antiquité la métaphore cynégétique est présente. 
+Cela est justifié car le chasseur poursuit un corp sauvage (Animal) et nu. 
+La chasse combine des moments de contemplation et des moments de tension. 
+Il y a un réel plaisir sensuel à monter la proie a tout le monde (plonger les mains dans les viscères)
+Mme de Tourvelle est montré comme un Animal intéressant car elle refuse la chasse. 
+
+Valmont programme dans la Lettre $XXII$ Veut voir Merteuil résister et agoniser. 
+
+La dernière lettre de Mme de Tourvelle ($CLXI$) est une lettre non adressée, elle montre donc la stérilité de l'épistolaire, c'est la le signe de sa mort sociale, elle ne fait que précéder sa mort physique, c'est donc aussi sa mort poétique / romanesque. 
+
+L'accent Valmont exécré est partout présent dans le psychisme de Tourvelle, c'est une obsession, Valmont est un spectre, la chasse continue elle est toujours présent. 
+Dernier paragraphe, elle tombe encore dans les projection fantasmatiques de Valmont (lettre $XXII$), même absent le chasseur est présent. 

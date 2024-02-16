@@ -32,3 +32,46 @@ let peigneGauche n =
 
 let p = peigneGauche 5;;
 
+
+let rec complet n = 
+  if (n mod 2 == 0) then
+    match n with
+    | 0 -> E
+    | _ -> N(1, complet (n/2), complet ((n-2)/2))
+  else
+    N(1, complet ((n-1)/2), complet ((n-1)/2))
+;;
+
+(*Correction : *) 
+
+let completprof n = 
+  ler rec sousarbreracine n j = 
+  match n with
+  | 0 -> E
+  | _ -> N(j, sousarbreracine (n-1) (2*j+1), sousarbreracine (n-1) (2*j+2))
+in sousarbreracine n 0
+;;
+
+completprof 7;;
+
+complet 7;;
+
+let maxint x y = 
+  if (x > y) then
+    x
+  else
+    y
+;;
+
+let rec maximum t = 
+  match t with
+  | E -> 0
+  | N(a, b, c) -> maxint (maximum c) (maxint a (maximum b))
+;;
+
+
+
+let arbre = N(1, N(5, E, E), N(8, N(1, E, N(46, E, E)), N(47, N(6, E, E), E)));;
+
+maximum arbre;;
+

@@ -466,3 +466,12 @@ $$\begin{cases}
 x(t) = \frac{v_{0}}{\omega_{c}} \sin(\omega_{c}t) \\
 y(t) = \frac{v_{0}}{\omega_{c}}(\cos(\omega_{c}t)-1)
 \end{cases}$$
+
+Equation de la trajectoire : 
+$$\begin{cases}
+\sin (\omega_{c}t) = \frac{\omega_{c}}{v_{0}}x \\
+\cos(\omega_{c}t) = 1+ \frac{\omega_{c}}{v_{0}}y
+\end{cases}$$
+$$\sin ^{2}(\omega_{c}t) + \cos ^{2}(\omega_{c}t) = 1$$
+Alors, 
+$$\left( \frac{\omega_{c}}{v_{0}}x \right)^{2} + \left( 1+\frac{\omega_{c}}{v_{0}}y \right)^{2} = 1$$
