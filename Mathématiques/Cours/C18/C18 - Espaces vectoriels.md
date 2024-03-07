@@ -1,4 +1,4 @@
-Soit $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}\}$
+Soit $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}\}$ 
 # I. Définition et exemples
 ## 1. Définitions
 $(E, +, \cdot)$ est un $\mathbb{K}$-espace vectoriel ssi
@@ -6,7 +6,7 @@ $(E, +, \cdot)$ est un $\mathbb{K}$-espace vectoriel ssi
 - $\cdot$ est une loi externe $\begin{cases} \mathbb{K} \times E \to E \\ (\lambda, u) \mapsto \lambda u  \end{cases}$
 - On à les 4 propriétés : 
   - La propriété des flemmards :
-    $$\forall u \in E, 1_{\mathbb{K}}\cdot u = 0$$
+    $$\forall u \in E, 1_{\mathbb{K}}\cdot u = u$$
   - L'associativité mixte : 
     $$\forall \lambda, \mu \in \mathbb{K}, \forall u \in E, (\lambda \mu)u = \lambda(\mu u)$$
   - Distributivité a gauche : 
@@ -79,7 +79,8 @@ $E_{1} \times E_{2}$ est muni d'une structure de groupe produit (somme composant
 $$(x_{1}, y_{1}) + (x_{2}, y_{2}) = (x_{1}+x_{2}, y_{1}+y_{2})$$
 Pour $\lambda \in \mathbb{K}$ et $(x_{1}, x_{2}) \in E_{1} \times E_{2}$ on pose : 
 $$\lambda(x_{1}, x_{2}) = (\lambda x_{1}, \lambda x_{2})$$
-Cela définit une loi externe : $\cdot : \mathbb{K} \times E \to E$
+Cela définit une loi externe :
+$$\cdot : \mathbb{K} \times E \to E$$
 On vérifie facilement les $4$ propriétés
 
 On définirait de même l'espace vectoriel : $E_{1} \times E_{2} \times \dots \times E_{p}$
@@ -204,7 +205,7 @@ $F \subset E$ est stable par addition et par multiplication par des scalaires et
 Soit $E$ un $\mathbb{K}$-ev et $F \subset E$, 
 Alors, $F \underset{sev}{\subset} E$ ssi
 #### Caractérisation 1
-$F$ est stable par $CL$ généralisées
+$F$ est stable par $CL$ généralisées et
 
 #### Caractérisation 2
 - $F \neq \varnothing$
@@ -280,7 +281,7 @@ En prenant $\lambda = 1$ on voit que $F$ est stable par $+$
 En prenant $\lambda = 0$ on voit que $F$ est stable par multiplication externe
 
 ##### Caractérisation 2 $\Rightarrow$ Caractérisation 3
-Supposons que $F \neq \varnothing$, $F$ est stable par $+$ et $F$ soit stable par multiplication externe
+Supposons que $F \neq \varnothing$, et $\forall \lambda \in \mathbb{K}, \forall x, y \in F, \lambda x + y \in F$
 Alors $F$ est stable par $+$ et multiplication externe
 
 Pour $x, y \in F$ on a $-y \in F$ (stable par multiplication par $-1$)
@@ -308,8 +309,7 @@ sev de $\mathbb{R}^{2}$ de $\mathbb{R}^{3}$
 
 
 #### Exemple
-1. $\{0_{E}\}$ et $E$ sont des sev de 
-
+1. $\{0_{E}\}$ et $E$ sont des sev de $E$
 
 2. Pour $I$ un ensemble quelconque $\mathbb{K}^{(I)} \underset{sev}{\subset} \mathbb{K}^{I}$
 Soient $\lambda \in \mathbb{K}$ et $x= (x_{i})_{i\in I}, y = (y_{i})_{i\in I} \in \mathbb{K}^{(I)}$
@@ -342,10 +342,10 @@ $\{(0, 0)\}, \mathbb{R}^{2}$
 > ($\vec{u}.\vec{v} = a\times(-b)\times + b \times a = 0$)
 > $\mathcal{D}$ passe par l'origine ssi $c = 0$
 
-Montrons que $\mathcal{D} \underset{sev}{\subset} \mathbb{R}$
+Montrons que $\mathcal{D} \underset{sev}{\subset} \mathbb{R}^{2}$
 $(0, 0) \in \mathcal{D}$.
 
-Soit : $u=(x, y)$, $u' = (x', y') \in \mathcal{D}$w
+Soit : $u=(x, y)$, $u' = (x', y') \in \mathcal{D}$
 Soit $\lambda \in \mathbb{R}$, 
 Alors, 
 $$\lambda u + u' = (\lambda x, \lambda y) + (x', y') = (\lambda x + x', \lambda y + y')$$
@@ -447,7 +447,7 @@ L'équation de plan vectoriels est : $ax+by+cz = 0$
 On sniff la notion de dimension
 
 #### Autres exemples de sous espaces vectoriels
-Soient $a, b \in \mathbb{R}$, et $F_{a, b} = \{u \in \mathbb{K}^{\mathbb{N}} | \forall n \in \mathbb{N}, u_{n+2} = au_{n+1} + bu_{n}\}$
+Soient $a, b \in \mathbb{R}$, et $F_{a, b} = \{u \in \mathbb{K}^{\mathbb{N}} \space | \space \forall n \in \mathbb{N}, u_{n+2} = au_{n+1} + bu_{n}\}$
 Alors les $F_{a, b}$ sont des sev de $\mathbb{K}^{\mathbb{N}}$
 
 ###### Question : Quelle est la dimension de $F_{a, b}$?
@@ -459,7 +459,6 @@ C'est infini
 - $\mathcal{C}^{1}(I) \underset{sev}{\subset} \mathbb{R}^{I}$
 - L'espace des solutions d'une $EDLH2$ à coefficients constants est un sev de $\mathcal{C}^{2}(\mathbb{R})$ de dimension $2$
 - Si $(S)$ est un système d'équation linéaire homogène à $p$ inconnues son ensemble de solutions est un sev de $\mathbb{K}^{p}$. 
-
 
 #### Remarque
 Pour ces $EDL$ et ces systèmes linéaires, si on met <u>un second membre non nul</u>, alors l'ensemble des solutions n'est plus un sev. 
@@ -490,7 +489,7 @@ $$\mathcal{C}^{k}(I) \underset{sev}{\subset} \mathcal{C}^{1}(I) \underset{sev}{\
 
 
 #### Propriété - Remarque - Exercice
-Un sous espace vectoriel d'un sous espace vectoriel de $E$ est un sous espace vectoriel ed $E$
+Un sous espace vectoriel d'un sous espace vectoriel de $E$ est un sous espace vectoriel de $E$
 
 
 #### Exercice
@@ -517,7 +516,7 @@ Donc $G$ est un sev de $E$
 On montre que $G \underset{sev}{\subset} E$
 par la caractérisation
 
-Comme tout $F \in \widetilde{X}$ est un sev donc admet $0_{E}$ comme élément, 
+Comme tout $F \in \widetilde{X}$ est un sev de $E$, $F$ admet $0_{E}$ comme élément neutre de $+_{F}$ (et $+_{E}$), 
 $$0_{E} \in \bigcap_{F \in \widetilde{X}}F = G$$
 Soient $\lambda \in \mathbb{K}$ et $x, y \in G$, 
 Soit $F \in \widetilde{X}$,
@@ -547,18 +546,18 @@ $$Vect(X) = \bigcap_{F \in \mathcal{F}_{X}} F = \bigcap_{\underset{\text{tq }X \
 
 #### Définition
 Si $(x_{i})_{i \in I} \in E^{I}$, le sev engendré par $x_{i}$ est :
-$$Vect(x_{i})_{i \in I} = Vec(\{x_{i}; i \in I\}) = \bigcap_{F \underset{sev}{\subset} E}F$$
+$$Vect(x_{i})_{i \in I} = Vect(\{x_{i}; i \in I\}) = \bigcap_{F \underset{sev}{\subset} E}F$$
 
 
 #### Propriété
 Avec les notations ci dessus
-A sens de l'inclusion, 
+Au sens de l'inclusion, 
 $Vect(X)$ est le plus petit sev de $E$ qui contient $X$ 
-(resp. $Vect(x_{i})_{i \in I}$ est le plsus petit des sev de $E$ qui contient $\{x_{i}, i \in I\}$)
+(resp. $Vect(x_{i})_{i \in I}$ est le plus petit des sev de $E$ qui contient $\{x_{i}, i \in I\}$)
 
-Démonstration immédiate
+Démonstration immédiate : 
 1. $Vect(X)$ est un sev comme intersection de sev
-2. $Vect(X) \supset X$ par définition de l'intersecition (par la propriété précédente)
+2. $Vect(X) \supset X$ par définition de l’intersection (par la propriété précédente)
 3. Par définition de l'intersection , pour $F \underset{sev}{\subset} E$ tel que $X \subset F$, $Vect(X) \subset F$
 
 
@@ -589,11 +588,11 @@ x = x_{0} + \lambda a'' \\
 y = y_{0}+\lambda b'' \\
 z = z_{0}+\lambda c''
 \end{cases}$$
-ou $\vec{u} \begin{array}{|l} a'' = \vec{n} \wedge \vec{n'} \\  \end{array}$
+ou $\vec{u} = \vec{n} \wedge \vec{n'} \space\space\space \begin{array}{|l} a'' \\ b'' \\ c''\end{array}$
 
 #### Exemple
 Soit $u\in E \backslash\{0\}$
-$$Vect(u) (= Vect({u})) = \{\lambda u : \lambda \in \mathbb{K}\}$$
+$$Vect(u) (= Vect({u})) = \{\lambda u ; \lambda \in \mathbb{K}\}$$
 (représentation paramétrique)
 Démonstration : 
 C'est un sev et si $F \underset{sev}{\subset} E$ tq $v \in F$ alors tout $\lambda u \in F$
@@ -646,14 +645,17 @@ Montrons que $G \underset{sev}{\subset} E$
   En prenant pour $i_{0} \in I$, la famille $(\delta_{i, i_{0}})_{i \in I}$ est presque nulle et $$\sum_{i \in I} \delta_{i, i_{0}}x_{i} = x_{i_{0}}$$
   Donc $x_{i_{0}} \in G$
   
-  Ainsi $G \underset{sev}{\subset} E$ tel que ($\forall i \in I, x_{i} \in G$)
-  Montrons que c'est le plus petit : 
+Ainsi $G \underset{sev}{\subset} E$ tel que ($\forall i \in I, x_{i} \in G$)
+
+
+- Montrons que c'est le plus petit : 
   Soit $F \underset{sev}{\subset} E$ tel que ($\forall i \in I, x_{i} \in F$)
   Soit $x \in G$,
   c'est par définition de $G$ une combinaison linéaire des $x_{i}$,
   or $F \underset{sev}{\subset} E$ donc il est stable par CL et ($\forall i \in I, x_{i} \in F$) donc $x \in F$
-  Ainsi, $G \subset F$
 
+
+Ainsi, $G \subset F$
 Finalement $G = Vect(x_{i})_{i \in I}$
 
 
@@ -697,7 +699,7 @@ $$ax+by+cz=0$$
 #### Exercice
 Dans $\mathbb{R}^{3}$, determiner
 $$F = Vect((1, 3, 5), (2, 2, 2), (5, -1, -7))$$
-On pose $u_{1} = (1, 3, 5)$, $u_{2} = (2, 2, 2)$ et $u_{3} = (5, -1, -7)
+On pose $u_{1} = (1, 3, 5)$, $u_{2} = (2, 2, 2)$ et $u_{3} = (5, -1, -7)$
 On sait déja que $F$ est soit :
 - L'espace nul
 - Une droite vectorielle
@@ -746,7 +748,7 @@ $$Vect(1, X, X^{2}, \dots, X^{n}) = \mathbb{K}_{n}[X]$$
 
 $$Vect(X^{n})_{n \in \mathbb{N}} = \mathbb{K}[X]$$
 
-Soit $E = \mathbb{K}^{\mathbb{N}}$
+Dans $E = \mathbb{K}^{\mathbb{N}}$, 
 On pose : $e_{i} = (\delta_{n, i})_{n \in \mathbb{N}}$
 $$Vect(e_{i})_{i \in \mathbb{N}} = \mathbb{K}^{(\mathbb{N})}$$
 
@@ -758,7 +760,7 @@ $$Vect(X^{n})_{n \geq n_{0}} = X^{n_{0}}\mathbb{K}[X]$$
 # IV. Famille de vecteurs
 ## 1. Familles génératrices
 #### Définition
-On dit que $X \subset E$ (resp. $(x_{i})_{i \in I} \in E^{I}$) est génératrice (de E) ou su'elle engendre $E$ ssi
+On dit que $X \subset E$ (resp. $(x_{i})_{i \in I} \in E^{I}$) est génératrice (de $E$) ou qu'elle engendre $E$ ssi
 $$Vect(X) = E \space (\text{resp. } Vect(x_{i})_{i \in I} = E)$$
 
 #### Remarque
@@ -774,7 +776,7 @@ Tout $u = (x, y, z) \in \mathbb{R}^{3}$ s'écrit $u = xe_{1} + y e_{2} + ze_{3}$
 Donc, 
 $$Vect(e) = \mathbb{R}^{3}$$
 ie $e$ engendre $\mathbb{R}^{3}$. 
-On verra que cette famille s'appelle la base canonique de $\mathbb{R}$.
+On verra que cette famille s'appelle la base canonique de $\mathbb{R}^{3}$.
 
 Trois vecteurs de $\mathbb{R}^{3}$ non coplanaires forment une famille génératrice. 
 
@@ -827,7 +829,7 @@ $$\begin{pmatrix}
 \end{pmatrix} $$
 Échelonné et réduite 
 
-Ainsi le solutions sont : 
+Ainsi les solutions sont : 
 $$\begin{pmatrix}
 1 \\
 -2 \\
@@ -908,7 +910,7 @@ $Vect(u_{i})_{i = 1}^{n} = \mathbb{R}u_{1} + \mathbb{R}u_{2}+\mathbb{R}_{u_{3}}+
 
 ## 2. Familles libres
 $$u = (u_{1}, u_{2}, u_{3}) = ((1, 3, 5), (2, 2,2), (5, -1, -7))$$
-On engendre $P$ d'équation : $x-2+z = 0$
+On engendre $P$ d'équation : $x-2y+z = 0$
 pour avoir une famille génératrice de $\mathbb{R}^{3}$ on lui rajoute un vecteur $u_{4} = (1, -2, 1)$ 
 Ou un des vecteurs de base canonique : 
 $$u = (u_{1}, u_{2}, u_{3}, u_{4})$$
@@ -922,7 +924,8 @@ Non car il y a des vecteurs inutiles : On peut par exemple enlever : $(5, -1, -7
 Montrer que $(u_{1}, u_{2}, u_{4})$ engendre $\mathbb{R}^{3}$ : Comme avant
 
 ###### Question : Peut on enlever un vecteur a $(u_{1}, u_{2}, u_{4})$ tout en conservant une famille dans $\mathbb{R}^{3}$?
-Non
+$$\text{Non} \space \square$$
+$$\text{ Trivialité sans pareil} \text{ ez clap 36 no scope dans ta mere}$$
 
 #### Conclusion
 $(u_{1}, u_{2}, u_{4})$ est belle 
@@ -937,7 +940,7 @@ $$\forall(\lambda_{i})_{i \in I} \in \mathbb{K}^{(I)}, \left( \sum_{i \in I} \la
 
 #### Terminologie
 Une famille non libre est dite liée
-On dit aussi au lieu $(x_{i})_{i \in I}$ est libre, les vecteurs $x_{i} (i \in I)$ sont linéairement indépendants. 
+On dit aussi au lieu $(x_{i})_{i \in I}$ est libre, les vecteurs $x_{i}$ $(i \in I)$ sont linéairement indépendants. 
 Et au lieu de $(x_{i})_{i \in I}$ est liée, les vecteurs $x_{i}, i \in I$ sont linéairement dépendants. 
 
 #### Exemple
@@ -998,7 +1001,7 @@ $()$ est libre
 (() est la famille vide)
 
 #### Question 
-Soit $u \in E$
+Soit $u \in E$, 
 A quelle condition $(x)$ est libre? 
 
 
@@ -1016,7 +1019,7 @@ on a : $\lambda = 0$ (produit mixte nul)
 
 #### Remarque 
 > $(x_{i})_{i \in I}$ est libre ssi tout CL des $x_{i}$ qui est nulle a ses coefs tous nuls
-
+	
 > $(x_{i})_{i \in I}$ est liée ssi'il existe une CL des $x_{i}$ nulle à coefs non tous nuls
 
 
@@ -1061,12 +1064,12 @@ avec $(\lambda_{i})_{i \in I} \neq 0_{\mathbb{K}^{(I)}}$
 Dans $\mathbb{R}^{3}$, $(u, v, w)$ est libre ssi $u$, $v$ et $w$ ne sont pas coplanaires. 
 
 #### Remarque
-Trois (ou plus) vecteurs ed $E$ qui sont 2 a 2 non colinéaires ne forment pas en général une famille libre. 
+Trois (ou plus) vecteurs de $E$ qui sont 2 a 2 non colinéaires ne forment pas en général une famille libre. 
 
-Contrexemple universel : excal5
+Contre-exemple universel : excal 5
 
 #### Propriété
-Si en écrivant en ligne (rep colone) des vecteurs de $\mathbb{K}^{n}$ sous forme de matrice on obtiens une matrice échelonnée par lignes (resp colonnes) sans lignes (resp colones) nulles, alors la familles est libre. 
+Si en écrivant en ligne (rep colonne) des vecteurs de $\mathbb{K}^{n}$ sous forme de matrice on obtiens une matrice échelonnée par lignes (resp colonnes) sans lignes (resp colones) nulles, alors la famille est libre. 
 
 
 #### Exemple
@@ -1178,6 +1181,7 @@ Ainsi, $\gamma = 0$
 
 Ainsi $\alpha \cos + \beta \sin = 0$
 en $0$ : $\alpha \cos(0) + \beta\sin(0)$ or $\sin \neq 0_{\mathbb{R}^{\mathbb{R}}}$ donc, $\beta = 0$
+en $\frac{\pi}{2}$ : $\alpha \cos\left( \frac{\pi}{2} \right) + \beta \sin\left( \frac{\pi}{2} \right)$ Donc $\alpha = 0$
 
 #### Remarque
 On peut aussi dériver
@@ -1192,7 +1196,7 @@ En s'inspirant de la propriété duale par les familles génératrices
 
 #### Propriété / Remarque
 Pour $x = (x_{i})_{i \in I}$
-et, 
+et,  
 $$\phi_{x} : \begin{cases}
 \mathbb{K}^{(I)} \to E \\
 (\lambda_{i})_{i \in I} \mapsto \sum_{i \in I} \lambda_{i}x_{i}
@@ -1205,7 +1209,7 @@ Démonstration :
   $$\sum_{ i \in I}\lambda_{i}x_{i} =0$$
   On pose $\mu_{i} = 0$ pour tout $i \in I$.
   et on a :
-  $$\phi_{x}((\lambda_{i})_{i}) = \sum_{i \in I} \lambda_{i}x_{i}=0=\sum_{i \in I} \mu_{i}x_{i} = \phi_{x}((\mu_{i})_{i})$$
+  $$\phi_{x}((\lambda_{i})_{i \in I}) = \sum_{i \in I} \lambda_{i}x_{i}=0=\sum_{i \in I} \mu_{i}x_{i} = \phi_{x}((\mu_{i})_{i \in I})$$
   Par injectivité : $(\lambda_{i})_{i \in I} = (\mu_{i})_{i \in I}$
   ie $\forall x \in I, \lambda_{i} = \mu_{i} = 0$
   Donc, $(x_{i})_{i \in I}$ est libre
@@ -1230,7 +1234,7 @@ $$\text{Fopof }\in \text{Tchatcheurs}$$
 $e = (e_{i})_{i \in I} \in E^{I}$ est une base de $E$ ssi elle est libre et génératrice (de $E$)
 
 #### Exemple
-Toutes les bases canoniques vues précédemment sont des bases (on a vu qu'elles ékovert libre et génératrices)
+Toutes les bases canoniques vues précédemment sont des bases (on a vu qu'elles étaient libre et génératrices)
 
 
 #### Propriété
@@ -1281,8 +1285,8 @@ $$\forall u \in E, \exists!(\lambda_{i})_{i \in I} \in \mathbb{K}^{(I)}, \sum_{i
 
 #### Définition
 Soit $e = (e_{i})_{i \in I}$ une base de $E$.
-Pour $x \in E$, par ce qui précède il existe une unique famille $(x_{i})_{i \in I} \in \mathbb{K}^{(I)}$ telle que 
-$$x = \sum_{i \in I}x_{i}e_{i}$$
+Pour $x \in E$, par ce qui précède il existe une unique famille $(\lambda_{i})_{i \in I} \in \mathbb{K}^{(I)}$ telle que 
+$$x = \sum_{i \in I}\lambda_{i}e_{i}$$
 qu'on appelle famille des coordonnées de $x$ dans la base $e$ 
 
 #### Exemple
@@ -1290,8 +1294,8 @@ Les coordonnées de $(x, y, z) \in \mathbb{R}^{3}$ dans la base canonique sont $
 
 ## 1. Cas d'une base finie
 Si $E$ possède une base finie $(e_{i})_{i =1}^{n}$.
-Alors on peut représenter la famille eds coordonées de $x \in E$
-par une matrice colonne qu'on appelle la matrice de $x$ dans la base $e$
+Alors on peut représenter la famille des coordonnées de $x \in E$
+par une matrice colonne qu'on appelle la matrice de $x$ dans la base $e$. 
 $$Mat_{e}(x) = \begin{pmatrix}
 x_{1} \\
 x_{2} \\
@@ -1307,8 +1311,10 @@ Pour $u = (x, y, z) \in \mathbb{R}^{3}$, calculer
 $Mat_{b}(u)$, pour $b = (b_{1}, b_{2}, b_{3}) = ((1, 3, 5), (2, 2, 2), (1, -2, 1))$
 et donner une interprétation matricielle de ce calcul. 
 
+
 # V. Somme de sous espaces vectoriels
-Soir $E$ un $\mathbb{K}$-ev
+Soit $E$ un $\mathbb{K}$-ev
+
 ## 1. Somme
 #### Définition
 Soient $F, G \underset{sev}{\subset} E$, 
@@ -1338,7 +1344,7 @@ $$\mathbb{R}\begin{pmatrix} 1 \\
 Si $F, G \underset{sev}{\subset} E$, $F+G$ est le sev de $E$
 
 Démonstration : 
-1. $0_{E} = O_{E} + O_{E} \in F+G$ car $F, G \underset{sev}{\subset} E$
+1. $0_{E} = 0_{E} + 0_{E} \in F+G$ car $F, G \underset{sev}{\subset} E$
 2. Soit $\lambda \in \mathbb{K}$ et $u_{1}, u_{2} \in F+G$ 
    Il existe $f_{1}, f_{2} \in F$ et $g_{1}, g_{2} \in G$ tel que
    $$\begin{cases}u_{1} = f_{1}+g_{1} \\ u_{2} = f_{2} + g_{2}\end{cases}$$
@@ -1355,7 +1361,8 @@ L'écriture de $u \in \mathbb{R}^{3}$ comme somme de $d+p$ est unique
 #### Définition
 Soient $F, G \underset{sev}{\subset} E$, 
 On dit que la somme $F+G$ est directe et on la note alors $F \oplus G$ lorsque tout vecteur de $F + G$ s’écrit de manière unique comme somme d'un élément de $F$ et d'un élément de $G$ ie
-$$\forall u \in F+G, \exists!(f, g) \in F \times G, U = f + g$$
+$$F \oplus G \Leftrightarrow \forall u \in F+G, \exists!(f, g) \in F \times G, u = f + g$$
+
 
 #### Remarque
 En notant
@@ -1401,14 +1408,14 @@ $F+G$ est directe
 Dans $\mathbb{R}^{3}$ : deux droites (vectorielles) different, une droite et un plan qui ne la contient pas.
 
 #### Exemple
-$P = \{\text{fonction paire sur }\mathbb{R}\}$
-$I = \{\text{Fonction impaire sur }\mathbb{R}\}$
+$P = \{\text{Fonctions paires sur }\mathbb{R}\}$
+$I = \{\text{Fonctions impaires sur }\mathbb{R}\}$
 
 $\mathbb{R}^{\mathbb{R}} = P \oplus I$
 $\mathcal{M}_{n}(\mathbb{R}) = S_{n}(\mathbb{R}) \oplus A_{n}(\mathbb{R})$
 
 #### Définition
-Pour $F, G \underset{sev}{\subset} E$ on dit qu'ils sont supplémentaires ssi 
+Pour $F, G \underset{sev}{\subset} E$ on dit qu'ils sont supplémentaires dans $E$ ssi 
 $$E = F \oplus G$$
 
 #### Exemple
@@ -1426,11 +1433,11 @@ est la somme des $F_{i}$
 $$\sum_{i =1}^{p} F_{i} \text{ est directe ssi}$$
 $$\forall x \in \sum_{i = 1}^{p}F_{i}, \exists!(f_{i})_{i =1}^{p} \in \prod_{i = 1}^{p} F_{i}, x = \sum_{i = 1}^{p} f_{i}$$
 Notation : 
-$$c$$
+$$\overset{p}{\underset{i = 1}{\oplus}} F_{i}$$
 
 
 #### Théorème : Caractérisation
-$\sum_{i = 1}^{p} F_{i}$ est directe 
+$\sum_{i = 1}^{p} F_{i}$ est directe $(\Leftrightarrow \overset{p}{\underset{i = 1}{\oplus}} F_{i})$
 ssi
 $$\begin{cases}
 \forall(f_{i})_{i = 1}^{p} \in \prod_{i=1}^{p} F_{i}, \\
@@ -1456,11 +1463,11 @@ Excal 7
 ## 2. Bases adaptés
 #### Définition
 $F \underset{sev}{\subset} E$
-Une base de $E$ adapté à $F$ et une vase $(b_{i})_{i \in J \sqcup K}$ de $E$ tel que $(b_{i})_{i \in J}$ soit une base de $F$
+Une base de $E$ adapté à $F$ est une base $(b_{i})_{i \in \space I_{F} \sqcup I}$ de $E$ tel que $(b_{i})_{i \in I_{F}}$ soit une base de $F$
 
 
-#### Exmemple
-Vase adapté à un plan dans $\mathbb{R}^{3}$
+#### Exemple
+Base adapté à un plan dans $\mathbb{R}^{3}$
 $(b_{1}, b_{2}, b_{3})$ base de $\mathbb{R}^{3}$
 tel que $(b_{1}, b_{2})$ base de $P$
 
@@ -1477,7 +1484,7 @@ $$E = \overset{p}{\underset{k = 1}{\oplus}} F_{k}$$
 
 #### Propriété
 Si $(b_{i})_{i \in \bigsqcup_{k = 1}^{p} I_{k}}$ est une base de $E$,
-alors en notant pour tout $k \in [\![11, p]\!]$, $F_{k}=Vect(b_{i})_{i \in I_{k}}$
+alors en notant pour tout $k \in [\![1, p]\!]$, $F_{k}=Vect(b_{i})_{i \in I_{k}}$
 On a : 
 $$E = \overset{p}{\underset{k = 1}{\oplus}} F_{k}$$
 (et la base est adapté a cette décomposition de $E$)
@@ -1489,7 +1496,7 @@ Une famille de $E$ est une base
 ssi elle est libre maximale
 ssi elle est génératrice minimale
 
-(ou "libre maximale" signifie qu'elle est .......) 
+(ou "libre maximale" signifie qu'elle est génératrice minimale) 
 
 Démonstration : 
 Supposons $x = (x_{i})_{i \in I}$ base de $E$.
@@ -1507,7 +1514,8 @@ Ainsi toute sur-famille de $x$ est liée donc $x$ est libre maximale.
 Réciproquement, 
 Supposons que $x$ est libre maximale et montrons que c'est une base
 
-Soit $y \in E$. Si $y = 0$ c'est trivial.
+Soit $y \in E$. 
+Si $y = 0$ c'est trivial.
 Sinon, on pose avec $i_{0} \notin, x_{i_{0}} =y$
 Alors la famille $(x_{i})_{i \in I \cup \{i_{0}\}}$ est une famille stricte de $x$ donc est liée donc il existe, 
 $$(\lambda_{i})_{i \in I \cup \{i_{0}\}} \in \mathbb{K}^{(I \cup \{i_{0}\})} \backslash\{0\}$$
@@ -1520,7 +1528,7 @@ et comme $x$ est libre, c'est une contradiction
 
 Ainsi, $\lambda_{i_{0}} \neq 0$, et 
 $$y = x_{i_{0}} = \sum_{i \in I}\left( - \frac{\lambda_{i}}{\lambda_{i_{0}}} \right)x_{i}$$
-Ainsi, tout $y \in E$ est CL eds $x_{i}$ 
+Ainsi, tout $y \in E$ est CL des $x_{i}$ 
 ie $x$ est génératrice
 et comme elle est libre c'est une base
 

@@ -167,13 +167,14 @@ Excalibur 3.
 sup(\varnothing) = \varnothing \\
 inf(\varnothing) = E
 \end{array} \right. $$
+
 # II. Applications
 ## 1. Point de vue intuitif
 #### Notion :
-L'ensemble des applications de E vers F est noté : $F^E$
+L'ensemble des applications de $E$ vers $F$ est noté : $F^E$
 - Ensemble des fonctions def sur I : $\mathbb{R}^I$
 - Ensemble des suites réelles : $\mathbb{R}^\mathbb{N}$ 
-- Ensemble des familles d'éléments de P(E) indexées par I : $P(E)^I$
+- Ensemble des familles d'éléments de $\mathcal{P}(E)$ indexées par $I$ : $\mathcal P(E)^I$
 - $|\cdot|$, $Re$, $Im$, $\in \mathbb{R}^{\mathbb{C}}$
 
 

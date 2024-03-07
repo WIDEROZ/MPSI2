@@ -24,7 +24,7 @@ $||\vec{E}||$ s'exprime en $V.m^{-1}$
 
 ## 3. Champ magnétique $\vec{B}$
 #### Définition
-Le champ magnétique este une grandeur physique vectorielle. Il peut être créé par des courants électrique des charges en mouvement et il existe des aimants permanents. Il s'exprime en Tela T. 
+Le champ magnétique est une grandeur physique vectorielle. Il peut être créé par des courants électrique des charges en mouvement et il existe des aimants permanents. Il s'exprime en Tela T. 
 
 # II. La force de Lorentz
 ## 1. Expression
@@ -70,9 +70,9 @@ Vitesse très faible
 La force électrique $\vec{F}_{elec} = q\vec{E}$ peut dévier, accélérer ou freiner les particules chargées. Le champ électrique permet de modifier l'énergie cinétique de la particule. 
 
 #### Propriété
-Si $\vec{E}$ est constant et uniforme alors la force électrique $\vec{F}_{elec} = q\vec{E}$ est conservative et elle dérive du potentiel : 
+Si $\vec{E}$ est constant et uniforme alors la force électrique $\vec{F}_{elec} = q\vec{E}$ est conservative et elle dérive de l’énergie potentielle : 
 $$E_{p} = qV$$
-avec $V$ le potentiel électrique. 
+	avec $V$ le potentiel électrique. 
 
 Démonstration : 
 excal 3
@@ -87,7 +87,7 @@ $$\partial W= qEdz$$
 $q$ et $E$ des constantes
 $$\partial W= d(qEz) = -d(-qEz)$$
 On a $\partial W = -dE_{p}$
-avec $E_{p} = - q E_{z} + \text{cte}$
+avec $E_{p} = - q Ez + \text{cte}$
 $\Leftrightarrow E_{p} = q(-Ez+\text{cte})$
 $$V = Ez+\text{cte}$$
 
@@ -220,13 +220,13 @@ La vitesse finale est alors :
 $v_{f} = v(z-d)$ de la particule
 
 On applique le théorème de l'énergie cinétique
-$$\Delta E_{c} = W_{\vec{F}_{elec}} = \int \vec{F}_{elec} \, d\vec{r} $$
+$$\Delta E_{c} = W_{\vec{F}_{elec}} = \int \vec{F}_{elec} . d\vec{r} $$
 $$\vec{F}_{elec} = q\vec{E} = qE\vec{e}_{z}$$
 $$\vec{F}_{elec}.d\vec{r} =  qEdz$$
 $$\int _{0}^{F} \vec{F}_{elec} \, d\vec{r} = \int_{0}^{d} qE \, dz = qEd = qU $$
 Ainsi, 
 $$\Delta E_{c} = qU$$
-$$\Delta E_{c} = \frac{1}{2}v_{f}^{2} - \frac{1}{2}mv_{0}^{2} = qU$$
+$$\Delta E_{c} = \frac{1}{2}mv_{f}^{2} - \frac{1}{2}mv_{0}^{2} = qU$$
 $$v_{f}^{2} = \frac{2qU}{m} + v_{0}^{2}$$
 $$v_{f} = \sqrt{ \frac{2qU}{m} + v_{0}^{2} }$$
 
@@ -262,7 +262,7 @@ $q = -e$
   $$\begin{cases}
 \frac{dv_{x}}{dt} = 0 \\
 \frac{dv_{y}}{dt} = 0 \\
-\frac{dv_{z}}{dt} = 0
+\frac{dv_{z}}{dt} = \frac{eE}{m}
 \end{cases}$$
 On Intègre : 
 $$\begin{cases}
@@ -278,7 +278,7 @@ v_{z} = \frac{eE}{m}t
 On intègre :
 $$\begin{cases}
 x(t) = v_{0}t + x(0) = v_{0}t \\
-z(t) = \frac{\frac{1}{2}eE}{m}t^{2} + z(0) = \frac{1}{2} \frac{eE}{m} t^{2}
+z(t) = \frac{1}{2}\frac{eE}{m}t^{2} + z(0) = \frac{1}{2} \frac{eE}{m} t^{2}
 \end{cases}$$
 
 - Instant $t_{L}$ pour lequel $x = L$
@@ -313,7 +313,7 @@ z(t) = \frac{\frac{1}{2}eE}{m}t^{2} + z(0) = \frac{1}{2} \frac{eE}{m} t^{2}
 # IV. Mouvement dans un champ magnétique $\vec{B}$
 Supposons $\vec{B} = B \vec{e}_{z}$
 et la vitesse initiale $v_{0} = v_{0} \vec{e}_{x}$
-Excal 2
+Excal 9
 
 - Référentiel Galiléen
 - Système charge $q$ de masse $m$

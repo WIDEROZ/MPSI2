@@ -34,7 +34,7 @@ Le travail s'exprime en Joule (J) :
 $1 J = 1 Ws = 1 Nm$
 $1J = 1 kg.m^{2}.s^{-2}$
 
-Le travail dépens du chemin suivi
+Le travail dépend du chemin suivi
 exal 2
 
 #### Attention
@@ -153,16 +153,16 @@ $$RF_{\theta}d\theta = -dE_{p} \Leftrightarrow F_{\theta} = -\frac{1}{R}\frac{dE
 
 ### b. Généralisation
 Si le mouvement se fait dans les 3 dimensions de l'espace on écrit $\vec{F} = -\overrightarrow{grad}(E_{p})$
-$\overrightarrow{grad}$ : Le gradient est un opérateur Mathématique qui créé un vecteur contenant les variations de $E_{p}$
+$\overrightarrow{grad}$ (ou $\overrightarrow{\nabla}$) : Le gradient est un opérateur Mathématique qui créé un vecteur contenant les variations de $E_{p}$
 
 $$E_{p}(x, y, z) = 3x+5y^{2} +4$$
 
-$$\overrightarrow{grad}E_{p} = \left| \begin{array}{l}
+$$\overrightarrow{grad} \space E_{p} = \left| \begin{array}{l}
 3 \\
 10y \\
 0
 \end{array} \right.$$
-
+ 
 
 #### Propriété : interprétation du gradient
 Une force conservative dérive d'une énergie potentielle $E_{p}$ (d'un potentiel) $\vec{F}$ est dirigées des régions de fort potentiel ($E_{p}$ élevé) vers les régions de faible potentiel ($E_{p}$ petit). 
@@ -336,7 +336,7 @@ Un <u>système</u> est dit <u>conservatif</u> si les forces qui s'appliquent sur
 
 #### Propriété
 Si un système est conservatif,
-Alors <u>l’Énergie mécanique</u> est une <u>constant</u> de mouvement. 
+Alors <u>l’Énergie mécanique</u> est une <u>constante</u> de mouvement. 
 
 
 ## 2. Etude énergétique de mouvements unidimensionnels
@@ -428,7 +428,7 @@ Dans notre cas $E_{p}$ augmente au cours du mouvement, donc $E_{c}$ diminue en $
 $E_{c}(x) =0$
 $$\Leftrightarrow \text{La vitesse du point }M \text{ en }M_{1} \text{ est nulle}$$
 
-A la position $x_{1}$ le point $M$ est soumis a la forcE
+A la position $x_{1}$ le point $M$ est soumis a la force
 $$\vec{F}(x_{1}) = - \frac{dE_{p}}{dx}(x_{1})\vec{e}_{x}$$ Or d'après le graphique, en $x_{1}$ :
 $$\frac{dE_{p}}{dx}(x_{1})>0 \Rightarrow \vec{F}(x_{1}) = - \frac{dE_{p}}{dx}(x_{1})\vec{e}_{x}$$
 $\vec{F}$ est dirigé sur $-\vec{e}_{x}$, ce que tend à ramener le point $M$ en arrière. 
@@ -480,8 +480,8 @@ Si on écarte $M$ de sa positon d'équilibre stable on est dans le cas du puits 
 
 ### a. Période du mouvement autour de la position d'équilibre stable
 Soit $T$ la période. 
-Le système est conservatif Alors 
-$E_{m} = \text{cte}$
+Le système est conservatif
+Alors $E_{m} = \text{cte}$
 $$E_{m} = E_{p}(x) + E_{c} = \text{cte}$$
 $$E_{p}(x)+\frac{1}{2}m \left(\frac{dx}{dt}\right)^{2} = E_{m} = \text{cte}$$
 $$\frac{dx}{dt} = \sqrt{ \frac{2}{m}(E_{m}-E_{p}(x)) }$$
@@ -501,7 +501,7 @@ $$E_{p} = mgl(1-\cos \theta)$$
 Position d'équilibre : 
 $$\frac{dE_{p}}{d\theta} = mgl\sin \theta = 0$$
 $$\Leftrightarrow \theta_{eq_{1}} = 0 \text{ ou } \theta_{eq_{2}} = \pi$$
-- Pour $\theta_{eq_{1}} = 0$, On effectur le DL de $E_{p}$ autour de $\theta_{eq_{1}}$ a l'ordre 2 : 
+- Pour $\theta_{eq_{1}} = 0$, On effectue le DL de $E_{p}$ autour de $\theta_{eq_{1}}$ a l'ordre 2 : 
   $$E_{p}(\theta) = E_{p}(0) +\theta \frac{dE_{p}}{d\theta}(0)+\frac{\theta^{2}}{2} \frac{d^{2}E_{p}}{d\theta^{2}}(0) $$
   $$E_{p}(\theta) = E_{p}(0) + \frac{\theta^{2}}{2} \frac{d^{2}E_{p}}{d\theta^{2}}(0)$$
   en $\theta_{eq_{1}} = 0$

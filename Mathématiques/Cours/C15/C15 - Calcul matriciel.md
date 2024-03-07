@@ -1,4 +1,3 @@
-Soit $\mathbb{K} \in \{\mathbb{R}, \mathbb{C}\}$, 
 et $n, p, q, r \in \mathbb{N}^*$,
 
 # I. Espaces de matrices
