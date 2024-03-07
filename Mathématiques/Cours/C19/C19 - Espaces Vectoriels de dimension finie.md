@@ -572,7 +572,7 @@ Pour $F \underset{\text{sev}}{\subset} E$, tous les supplémentaires de $F$ ont 
 Dans $\mathbb{R}^{3}$ les supplémentaires d'un plan sont les droites vectorielles non inclues dans ce plan :
 Excalibur 2
 
-#### Propriété
+#### Propriété : Caractérisation 1
 Soient $F, G \underset{\text{sev}}{\subset} E$,
 Alors $F$ et $G$ sont supplémentaires ssi : 
 $$\begin{cases}
@@ -590,12 +590,173 @@ $$\begin{cases}
 F \cap G = \{0\} \\
 \dim F + \dim G = n
 \end{cases}$$
-Alors par définition des dommes directes de 2 sev, comme $F \cap G = \{0\}$, $F + G = F \oplus G$
+Alors par définition des sommes directes de 2 sev, comme $F \cap G = \{0\}$, $F + G = F \oplus G$
 Puis $\dim (F \oplus G) = \dim F + \dim G= n$
 Comme $F \oplus G$ est un sev de $E$ de dimension $n$
 $$F \oplus G = E$$
 
+#### Exemple
+$\mathcal{M}_{n}(\mathbb{K}) = \mathcal{S}_{n}(\mathbb{K}) +\mathcal{A}_{n}(\mathbb{K})$
+$\dim(\mathcal{M}_{n}(\mathbb{K}))=n^{2}$
+
+Question : Dimension de $\mathcal{S}_{n}(\mathbb{K})$ et $\mathcal{A}_{n}(\mathbb{K})$?
+
+On essaye avec $n = 2$ : 
+$$S = \begin{pmatrix}
+a&b \\
+b&d
+\end{pmatrix} = a\begin{pmatrix}
+1&0 \\
+0&0
+\end{pmatrix} + d \begin{pmatrix}
+0&0 \\
+0&1
+\end{pmatrix} + b\begin{pmatrix}
+0&1 \\
+1&0
+\end{pmatrix}$$
+et $S = 0 \Rightarrow a=b=d=0$
+Donc, 
+$$\left(\begin{pmatrix}
+1&0 \\
+0&0
+\end{pmatrix}, \begin{pmatrix}
+0&1 \\
+1&0
+\end{pmatrix}, \begin{pmatrix}
+0&0 \\
+0&1
+\end{pmatrix}\right)$$
+est une base de $\mathcal{S}_{2}$
+Donc, 
+$\dim(\mathcal{S}_{2}(\mathbb{K})) = 3$
+et $\dim (\mathcal{A}_{n}(\mathbb{K})) = 4 - 3 = 1$
+
+Remarque : 
+$\mathcal{A}_{2}(\mathbb{K})=Vect\begin{pmatrix}0&1 \\-1&0\end{pmatrix}$
 
 
+Alors,
+$\dim(\mathcal{S}_{n}(\mathbb{K})) = \frac{{n^{2}+n}}{2}$
+$\dim(\mathcal{A}_{n}(\mathbb{K})) = \dim \mathcal{M}_{n}(\mathbb{K}) - \dim \mathcal{S}_{n}(\mathbb{K}) = \frac{n^{2}-n}{2}$
 
+Ainsi $\dim(\mathcal{A}_{n}(\mathbb{K})) + \dim \mathcal{S}_{n}(\mathbb{K}) = n^{2}$
+
+
+$$\mathbb{K}_{n}[X] = Vect(1, X^{2}) \oplus Vect(X, X^{3})$$
+
+
+#### Théorème : Formule de Grassmann
+Soit $E$ un ev quelconque, 
+Pour $F, G \underset{\text{sev}}{\subset} E$ qui sont de dimension finie, 
+Alors,
+$$F + G \text{ est de dimension finie}$$
+$$\dim(F+G) = \dim F + \dim G - \dim(F \cap G)$$
+
+
+Démonstration : 
+Soit $F, G \underset{\text{sev}}{\subset} E$ qu'on suppose de dimension finie, 
+1. 
+Soit $(x_{i})_{i = 1}^{p}$ une base de $F$
+Soit $(y_{j})_{j =1}^{q}$ une base de $G$
+Alors $F+G = Vect((x_{i})_{i = 1}^{p}, (y_{j})_{j =1}^{q})$
+Comme $F+G$ admet une famille génératrice finie, c'est un sev de $E$ de dimension finie.
+
+2. 
+On note $p = \dim F$, $q = \dim G$, $r = \dim(F\cap G)$
+Soit $(e_{p-r+1}, \dots, e_{p})$ une base de $F\cap G$
+On la complète d'une par en une base de $F$ :
+$$(e_{1}, \dots, e_{p-r}, e_{p-r+1}, \dots, e_{p})$$
+D'autre part en une base de $G$ :
+$$(e_{p-r+1}, \dots, e_{p}, e_{p+1}, \dots, e_{q+(p-r)})$$
+On obtiens une famille : 
+$$e = (e_{1}, \dots, e_{q+p-r})$$
+
+Ces vecteurs sont élément de $F+G$ 
+Par ailleurs tout vecteur $x \in F +G$
+s'écrit $x = x_{F} + x_{G}$ ou $x_{F} \in F$ et $x_{G} \in G$
+et 
+$x_{F}$ est CL de $(e_{1}, \dots, e_{p})$
+$x_{G}$ est CL de $(e_{p-r+1}, \dots, e_{q+p-r})$
+Donc, 
+$x$ est CL de $e$, 
+Ainsi, $F+G = Vect(e)$
+
+Montrons que $e$ est libre
+Soit $(\lambda_{i})_{i = 1}^{q+p-r} \in \mathbb{K}^{q+p-r}$ tq 
+$$\sum_{i =1}^{q+p-r} \lambda_{i}e_{i} = 0$$
+On a :
+$$\sum_{i=1}^{p-r}\lambda_{i}e_{i} + \sum_{i = p-r+1}^{p}\lambda_{i}e_{i} + \sum_{i = p+1}^{q+p-r}\lambda_{i}e_{i} = 0$$
+On pose : 
+$$y = \sum_{i=1}^{p-r}\lambda_{i}e_{i} + \sum_{i = p-r+1}^{p}\lambda_{i}e_{i}$$
+Et 
+$$y_{1} = \sum_{i=1}^{p-r}\lambda_{i}e_{i} \text{ puis } y_{2} =  \sum_{i = p-r+1}^{p}\lambda_{i}e_{i}$$
+Alors,
+D'une part : $y = Vect(e_{i})_{i = 1}^{p} = F$, 
+D'autre part :
+$$y = - \sum_{i = p+1}^{q+p-r}\lambda_{i}e_{i} \in Vect(e_{i})_{i = p+1}^{q+p-r} \subset G$$
+Donc, $y \in F \cap G$
+Or puisque $(e_{1}, \dots, e_{p})$ est une base de $F$, 
+$$F = Vect(e_{1}, \dots, e_{p+r}) \oplus Vect(e_{p-r+1}, \dots, e_{p})$$
+$y$ s'écrit $y = y_{1}+y_{2}$
+Avec $y_{1} \in F$, et $y_{2} \in F \cap G$
+de manière unique
+Or $y \in F \cap G$ donc, $y = 0 + y$ ($0 \in F$ et $y \in F \cap G$)
+Par unicité de l'écriture : $y_{1} = 0$
+ie 
+$$\sum_{i = 1}^{p-r} \lambda_{i}e_{i} = 0$$
+et comme $(e_{1}, \dots, e_{p-r})$ est libre (sous famille d'une base de $F$) alors $\forall i \in [\![1, p-r]\!], \lambda_{i} = 0$
+
+On a alors : 
+$$\sum_{i = p-r+1}^{q+p-r} \lambda_{i}e_{i} = 0$$
+Or $(e_{p-r+1}, \dots, e_{p+q-r})$ est libre (base de $G$) donc,
+$$\forall i \in [\![p-r+1, q+p-r]\!], \lambda_{i} = 0$$
+Finalement tous les $\lambda_{i}$ sont nuls
+Ainsi $e$ est libre et finalement $e$ est une base de $F+G$
+Donc, 
+$$\dim(F+G) = q+p-r = \dim F + \dim G - \dim F \cap G$$
+
+#### Remarque
+Il n'y a pas de formule de Grassmann pour $n\geq 3$, 
+
+#### Corollaire : Caractérisation 2
+Soient $E$ un ev de $\dim$ $n$
+et $F, G \underset{\text{sev}}{\subset} E$, 
+Alors, 
+$$E = F \oplus G \Leftrightarrow \begin{cases}
+F+G=E \\
+\dim F + \dim G = n
+\end{cases}$$
+Démonstration : 
+"$\Rightarrow$" : Déja vue
+"$\Leftarrow$" : Supposons que $F+G = E$ et $\dim F + \dim G = n$
+Alors $\dim (F \cap G) = \dim F + \dim G - \dim (F+G) = n-n = 0$
+Donc, $F \cap G = \{0\}$
+et par la caractérisation 1, comme :
+$$\begin{cases}
+F \cap G = \{0\} \\
+\dim F + \dim G = n
+\end{cases}$$
+Alors, 
+$$E  = F \oplus G$$
+
+
+#### Propriété
+Soit $R$ quelconque et $F_{1}, \dots, F_{p} \underset{\text{sev}}{\subset} E$ de dimension finies
+qu'on suppose en somme directe alors en concaténant des bases de $F_{i}$ ($i \in [\![1, p]\!]$)
+on obtiens une base adaptée à la somme directe : 
+$$F_{1} \oplus F_{2} \oplus \dots \oplus F_{p}$$
+
+
+#### Corollaire
+Avec les notations précédentes, 
+$$\dim\left(\overset{p}{\underset{i = 1}{\oplus}} F_{i}\right) = \sum_{i=1}^{p} \dim F_{i}$$
+
+#### Théorème
+Pour $F_{1}, \dots, F_{p}$ des sev de dimension finie de $E$ un ev quelconque, ,
+$$\dim\left( \sum_{i = 1}^{p} F_{i} \right) \leq \sum_{i=1}^{p}\dim F_{i}$$
+Avec égalité si la somme est directe.
+
+
+$$\overset{p}{\underset{i = 1}{\oplus}}$$
 $$\underset{\text{sev}}{\subset}$$

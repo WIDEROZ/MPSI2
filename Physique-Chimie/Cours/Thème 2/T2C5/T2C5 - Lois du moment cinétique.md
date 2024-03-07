@@ -274,3 +274,110 @@ On appelle vecteur rotation $\vec{\omega} = \overset \cdot \theta \vec{e}_{z}$
 $\vec{e}_{z}$ étant l'axe de rotation
 Si la trajectoire est décrite dans le sens direct alors, 
 $$\sigma_{O_{z}}(M)>0 \Leftrightarrow \overset \cdot \theta > 0$$
+
+## 3. Mouvement cinétique d'un ensemble de points
+Soit $I$ un ensemble d'indices et $i \in I$, 
+On considère un système $\mathcal{S}$ formé de plusieurs points matériels $M_{i}$ de masse $m_{i}$ on note $\vec{v}_{i}$ la vitesse de $M_{i}$ dans le référentiel galiléen
+
+#### Définition
+Le moment cinétique de $\mathcal{S}$ par rapport au point $O$ fixe est : 
+$$\vec{\sigma}_{O}(\mathcal{S}) = \sum_{i \in I} \overrightarrow{OM} \wedge m_{i}\vec{v}_{i} = \sum\vec{\sigma}_{O}(M_{i})$$
+
+et le moment cinétique de $\mathcal{S}$ par rapport à l'axe $\Delta$ fixe est : 
+$$\sigma_{\Delta}(\mathcal{S}) = \sum_{i \in I}\sigma_{\Delta}(M_{i})$$
+
+# III. Théorème du moment cinétique (TMC)
+On se place dans un référentiel galiléen $\mathcal{R}$ et on étudie le mouvement du point $M$ de masse $m$, soumis à la résultante des force $\vec{F}$ et $\vec{v}$ la vitesse de $M$
+
+Dérivons le mouvement cinétique par rapport au point $O$
+$$\vec{\sigma_{O}}(M) = \overrightarrow{OM} \wedge m\vec{v}$$
+$$\frac{d\vec{\sigma}_{O}(M)}{dt} = \frac{d}{dt}(\overrightarrow{OM}\wedge m\vec{v}) = \frac{d\overrightarrow{OM}}{dt} \wedge m\vec{v} + \overrightarrow{OM} \wedge m\frac{d\vec{v}}{dt} $$
+$$\frac{d\vec{\sigma}(M)}{dt} = \overrightarrow{OM} \wedge \vec{F}$$
+PFD et $\vec{v} \wedge \vec{v} = \vec{0}$
+
+Ainsi :
+$$\frac{d\vec{\sigma}(M)}{dt} = \overrightarrow{OM} \wedge \vec{F} = \vec{\mathcal{M}}_{O}(\vec{F})$$
+
+#### Théorème du mouvement cinétique
+Dans un référentiel galiléen le moment cinétique d'un point $M$ est lié au mouvement de la résultant des forces $\vec{F}$ s'appliquant sur $M$
+$$\frac{d\vec{\sigma}(M)}{dt} = \vec{\mathcal{M}}_{O}(\vec{F})$$
+$O$ étant un point fixe dans $\mathcal{R}$
+
+## 1. TMC par rapport à un axe
+Soit un axe orienté $\Delta(O, \vec{u})$ fixe dans $\mathcal{R}$
+
+#### Théorème
+$$\frac{d\vec{\sigma}_{\Delta}(M)}{dt} = \mathcal{M}_{\Delta}(\vec{F})$$
+
+## 2. Application au pendule simple
+Excal 13
+
+#### Faire le bilan des forces
+$\vec{P} = m\vec{g} = -mg\vec{e}_{z}$
+$\vec{T} = -T \vec{e}_{r}$
+
+#### Determiner le moment cinétique du point $M$ par rapport à $O$
+$$\vec{\sigma}_{O}(M) = \overrightarrow{OM} \wedge m\vec{v}$$
+On se place dans la base cylindrique : 
+$(\vec{e}_{r}, \vec{e}_{\theta}, \vec{e}_{y})$
+
+$\overrightarrow{OM} = l\vec{e}_{r}$
+$\vec{v} = l\dot{\theta} \vec{e}_{\theta}$
+
+Donc, 
+$$\vec{\sigma}_{O}(M) = l\vec{e}_{r} \wedge ml\dot{\theta}\vec{e}_{\theta} = ml\dot{\theta}\vec{e}_{y}$$
+
+#### Déterminer le moment des forces en $O$
+Moment du poids par rapport à $O$ : 
+$$\mathcal{M}_{O}(\vec{P}) = \overrightarrow{OM} \wedge \vec{P}  =l\vec{e}_{r} \wedge (-mg\vec{e}_{z}) = l\vec{e}_{r} \wedge (mg\cos \theta \vec{e}_{r}- mg \sin \theta \vec{e}_{\theta})$$
+$$\mathcal{M}_{O}(\vec{P}) = -mgl\sin \theta \vec{e}_{y}$$
+
+$$(\overrightarrow{\mathcal{M}}_{O}(\vec{T}) = \overrightarrow{0})$$
+
+#### Déterminer l'équation du mouvement avec le TMC
+On applique le TMC en $O$ :
+$$\frac{d\overrightarrow{\sigma}_{O}(M)}{dt} = \overrightarrow{\mathcal{M}}_{O}(\vec{P}) + \overrightarrow{\mathcal{M}}_{O}(\vec{T}) = -mgl\sin \theta \vec{e}_{y}$$
+$$= ml^{2}\overset{\cdot \cdot}{\theta} \vec{e}_{y}$$
+On projette sur $\vec{e}_{y}$ : 
+$$\overset{\cdot \cdot}{\theta} + \frac{g}{l} \sin \theta = 0$$
+
+
+## 3. Système de points matériels
+Soit $I$ un ensemble d'indices et $i \in I$,
+Soit un système $\mathcal{S}$ formé des points $M_{i}$ de masse $m_{i}$ et de vitesse $\vec{v}_{i}$ dans le référentiel galiléen $\mathcal{R}$.
+
+On note $\vec{F}_{\text{ext}}$ la résultante des forces extérieures qui s'exercent sur $\mathcal{S}$
+
+#### Théorème
+$$\frac{d}{dt}(\vec{\sigma}_{O}(\mathcal{S})) = \overrightarrow{\mathcal{M}_{O}}(\vec{F}_{\text{ext}})$$
+$$\frac{d}{dt}(\sigma_{\Delta}(\mathcal{S})) = \mathcal{M}_{\Delta}(\vec{F}_{\text{ext}})$$
+avec $O$ un point fixe et $\Delta$ un axe fixe de $\mathcal{R}$
+$$\vec{\sigma}_{O}(\mathcal{S}) = \sum_{i \in I}\vec{\sigma}_{O}(M_{i})$$
+$$\sigma_{\Delta}(\mathcal{S}) = \sum_{i \in I} \sigma_{\Delta}(M_{i})$$
+
+# IV. Conservation du moment cinétique
+#### Propriété
+Pour un système pseudo isolé la résultante des forces est nulle $\vec{F} = \vec{0}$, donc, 
+$$\vec{\sigma}_{O}(\mathcal{S}) = \vec{C}$$
+Avec $\vec{C}$ un vecteur constant.
+
+Le mouvement cinétique du système cinétique est conservé. 
+La conservation du moment cinétique est une grandeur fondamentale en physique. 
+
+## 1. Mouvement des planètes
+Excal 14
+$$\vec{F}_{S \to P} = - G \frac{mM}{SP^{2}}\vec{u}_{r}$$
+Calculons le moment de la force par rapport à $\mathcal{S}$, 
+$$\overrightarrow{\mathcal{M}}_{S}(\vec{F}_{S \to P}) = \overrightarrow{PS} \wedge \vec{F}_{S \to P} = -SP\vec{u}_{r} \wedge - \frac{GMm}{SP^{2}}\vec{u}_{r}$$
+$$\overrightarrow{\mathcal{M}}_{S}(\vec{F}_{S\to P}) = \vec{0} \Rightarrow \frac{d\vec{\sigma}_{S}(P)}{dt} = \vec{0}$$
+Donc, 
+$$\vec{\sigma}_{S}(P) = \vec{C}$$
+Avec $\vec{C}$ un vecteur constant
+
+## 2. Mouvements de rotation
+- Roue de velo / moto 
+- Patinoire
+
+## 3. Physique quantique
+Conservation quantique : spin
+
