@@ -1,4 +1,4 @@
-## 2. Désenclavement)u planétaire et première colonisation européenne : une impulsion fondamentale
+## 2. Désenclavement planétaire et première colonisation européenne : une impulsion fondamentale
 
 Le capitalise va s'affirmer dans un nouvel espace commercial : échanges non réglementées avec le nouveau monde (colonisation de l’Amérique)
 

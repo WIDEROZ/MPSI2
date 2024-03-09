@@ -347,7 +347,7 @@ $rg(x) = \dim(Vect(x))$
 
 
 #### Proposition
-
+Pour $p = \dim E$, 
 Pour $x_{1}, \dots, x_{p} \in E$, 
 $rg(x_{1}, \dots, x_{p}) \leq p$
 
@@ -756,6 +756,7 @@ $$\dim\left(\overset{p}{\underset{i = 1}{\oplus}} F_{i}\right) = \sum_{i=1}^{p} 
 Pour $F_{1}, \dots, F_{p}$ des sev de dimension finie de $E$ un ev quelconque, ,
 $$\dim\left( \sum_{i = 1}^{p} F_{i} \right) \leq \sum_{i=1}^{p}\dim F_{i}$$
 Avec égalité si la somme est directe.
+
 
 
 $$\overset{p}{\underset{i = 1}{\oplus}}$$

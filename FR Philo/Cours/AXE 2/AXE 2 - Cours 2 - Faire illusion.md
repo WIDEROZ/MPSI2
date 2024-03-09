@@ -109,9 +109,61 @@ La chasse combine des moments de contemplation et des moments de tension.
 Il y a un réel plaisir sensuel à monter la proie a tout le monde (plonger les mains dans les viscères)
 Mme de Tourvelle est montré comme un Animal intéressant car elle refuse la chasse. 
 
-Valmont programme dans la Lettre $XXII$ Veut voir Merteuil résister et agoniser. 
+Valmont programme dans la Lettre $XXII$ il veut voir Merteuil résister et agoniser. 
 
 La dernière lettre de Mme de Tourvelle ($CLXI$) est une lettre non adressée, elle montre donc la stérilité de l'épistolaire, c'est la le signe de sa mort sociale, elle ne fait que précéder sa mort physique, c'est donc aussi sa mort poétique / romanesque. 
 
 L'accent Valmont exécré est partout présent dans le psychisme de Tourvelle, c'est une obsession, Valmont est un spectre, la chasse continue elle est toujours présent. 
 Dernier paragraphe, elle tombe encore dans les projection fantasmatiques de Valmont (lettre $XXII$), même absent le chasseur est présent. 
+
+##### Musset :
+Pas de métaphore de la chasse pas de crédule chassé mais une même présence d'un crédule sensuel, en effet la métaphore du mariage justifie la métaphore avec <u>les liaisons dangereuses</u>. 
+Acte $IV$ scene $9$ : 
+Lorenzo imagine en son for intérieur la scene qui va se produire à l'Acte $IV$ scene $11$, c'est une <i>prolepse</i> (une anticipation). Il représente son meurtre comme une nuit de noce. Il y a dans ce rapport une  Homosexualité latente. Dans cette mise en scene du meurtre il y a ambivalence avec l'amour. Eros-Thanatos : L'alliance de la mort et de l'amour. Le duc impétueux serait cette proie de la course a l'amour-mort. Le crédule est esthétisée en une marié plus ou moins ambivalent. 
+Acte $IV$ scene $11$ : 
+Le duc est véritablement aveugle : le crédit qu'il apporte a Lorenzo est supérieur aux objections qui pourraient naître a son esprit. Le duc consens peut-être à sa fin.
+
+
+##### Arendt
+Vérité et Politique : 
+L'Homme de pouvoir a l'intérêt à aller contre la vérité. 
+Arendt décrit le caractère coercitive de la vérité elle a une nature anti-politique et despotique et l'homme politique a le devoir de ne pas faire transparaître la vérité. 
+
+Arendt : "qui on fait tout ce qu'ils pouvaient pour l'emporter dans l'esprit des gens, c'est a dire pour ...."
+
+
+p. 67 : Opposition remarquablement forte et bien organisé de la part de l’opinion publique (sitting, manif.)
+
+Du mensonge en politique : 
+Métaphore du sable mouvants.
+
+
+## 2. Examen d'une seconde hypothèse : le crédule n'est il pas un Homme qui se dispense du fardeau de penser
+Croire n'est-ce pas aussi se dispenser du fardeau de penser. 
+Le crédule n'est il pas celui qui accorde sa confiance trop facilement. 
+croire n'est-ce pas se conforter dans un état de minorité par opposition a la majorité (penser contraire). 
+Ne serait-ce pas un confort de se complaire. 
+
+##### Laclos 
+Lettre $VIII$ : 
+Mme de Tourvelle est avertie la réputation de Valmont se précède ne serait elle complice de la duplicité de ce dernier. 
+Ne se dispense elle pas de l'effort de l'examen attentif du personnage, une licence. 
+
+Lettre $XXII$ : 
+"J'aime mieux croire que ces erreurs ..."
+
+"Je ne puis penser, je m’arrête a cette idée qui me plait, j'aime mieux croire ..."
+
+Mme de Tourvelle capitalise sur une bonne idée de l'Homme bon fondé sur l'idée de rachat. 
+
+Conception idéaliste de l'homme. C'est un besoin ed sauver sa conception de l'homme. 
+
+Boudon : 
+"On ne peut croire que ce qu'on ne perçoit comme justifié"
+
+"Comment se fait-il qu'une crédibilité se fait pareillementhj"
+
+Le crédule serait celui qui selon Boudon aurait du mal a abandonner ses croyances, qui espère que la fait nouveau soit purement secondaire et qu'il soit conciliable avec la théorie ou la conception du monde ou la relation qu'il avait avant. 
+
+
+LA PLACE LA FEMME EST EGALE A CELLE DE Lb,j nb;k, nb,;khj 

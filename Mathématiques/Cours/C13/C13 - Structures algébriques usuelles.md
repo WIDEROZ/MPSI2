@@ -391,18 +391,18 @@ $$\sigma \sigma' =
 9&8&7&6&5&4&3&2&1
 \end{array} \right)$$
 $$\sigma \sigma'(1) = \sigma(\sigma'(1)) = \sigma(9) = 8$$
-$$\sigma \sigma' =
+$$\sigma' \sigma =
 \left( \begin{array}{c}
 1&2&3&4&5&6&7&8&9 \\
 8&1&7&5&6&2&3&4&9
 \end{array} \right)
 $$
-$$\sigma'\sigma = \left( \begin{array}{c}
+$$\sigma \sigma' = \left( \begin{array}{c}
 1&2&3&4&5&6&7&8&9 \\
 1&6&7&8&4&5&3&9&2
 \end{array} \right)$$
-$$\sigma \sigma' = (184562)(37)$$
-$$\sigma'\sigma = (265489)(37)$$
+$$\sigma' \sigma = (184562)(37)$$
+$$\sigma \sigma' = (265489)(37)$$
 $$(\sigma')^{2024} = (19)^{2024}(28)^{2024}(37)^{2024}(46)^{2024} = 1 $$
 
 ## 2. Sous-Groupes
@@ -523,7 +523,7 @@ Les sous groupes de $(\mathbb{Z}, +)$ sont les $n\mathbb{Z}$ où $n \in \mathbb{
 
 Démonstration (Importante) : 
 Soit $n\in \mathbb{N}$, 
-Mq $n\mathbb{Z} \in \underset{sg}{\subset} \mathbb{Z}$ par la caractérisation des sous groupes : 
+Mq $n\mathbb{Z} \underset{sg}{\subset} \mathbb{Z}$ par la caractérisation des sous groupes : 
 - $n\mathbb{Z} \subset \mathbb{Z}$ (car un produit d'entiers est entier)
 - $0 \in n\mathbb{Z}$ ($0 \equiv 0 [n]$)
 - Soient $a, b \in n\mathbb{Z}$ (Comme $a \equiv 0[n]$ et $b \equiv 0 [n]$, alors $a-b \equiv 0 [n]$ i.e. $a-b \in n\mathbb{Z}$)
@@ -572,7 +572,7 @@ $$\forall x, y \in \mathbb{R}, \exp(x + y) = \exp(x)\exp(y)$$
 #### Propriété
 Soit $\phi : G \to G'$ un morphisme de groupes. Alors
 1. $\phi(1_{G}) = 1_{G'}$
-2. $\forall x \in G, \phi(x^{-1}) = (\phi(x))^{-1}$ 
+2. $\forall x \in G, \phi(x^{-1}) = \phi^{-1}(x)$ 
 
 Démonstration : 
 1. $\phi(1_{G}) = \phi(1_{G} 1_{G}) = \phi(1G)\phi(1G)$ 
@@ -670,10 +670,10 @@ Démonstration :
 
 #### Définition
 Avec les notations précédentes : 
-On note $\mathrm{Im}(\phi) = \phi(G)$ l'image de $\phi$ qui est un sous groupe de $G'$ par la propriété
+On note $\mathrm{Im}(\phi) = \phi(G)$ l'image de $\phi$ qui est un sous groupe de $G'$ par la propriété précédente
 On note : 
 $$Ker \, \phi = \phi^{-1}(\{1_{G'}\})$$
-Le noyau de $\phi$ qui est un sous groupe de $G$ pa la propriété
+Le noyau de $\phi$ qui est un sous groupe de $G$ par la propriété
 
 #### Propriété
 Avec ces notations
@@ -706,7 +706,7 @@ Alors $\phi^{-1}: G' \to G$ est "automatiquement" un morphisme de groupe (Donc u
 
 Démonstration : 
 Pour $x', y' \in G'$, 
-$$\phi(x't') = \phi^{-1}(\phi(\phi^{-1}(x'))\phi(\phi^{-1}(y'))) = \phi^{-1}(x')\phi^{-1}(y')$$
+$$\phi^{-1}(x't') = \phi^{-1}(\phi(\phi^{-1}(x'))\phi(\phi^{-1}(y'))) = \phi^{-1}(x')\phi^{-1}(y')$$
 
 #### Exemple
 $$\tilde{\exp} : (\mathbb{R}, +) \to (\mathbb{R}_{+}^*, \times)$$
@@ -730,8 +730,10 @@ qui est un automorphisme de $G$
 #### Proposition
 Soit $G$ un groupe 
 Alors
-$G \to S_{G}$ 
-$g \mapsto \left\{ \begin{array}{l} G \to G \\ x \mapsto gx \end{array}\right.$
+$$\begin{cases}
+G \to S_{G} \\
+g \mapsto \left\{ \begin{array}{l} G \to G \\ x \mapsto gx \end{array}\right.
+\end{cases}$$
 est un isomorphisme de groupes injectif
 
 (Tout groupe se prolonge dans un groupe symétrique i.e. "peut être vu" comme un sous groupe du groupe symétrique)
@@ -1001,7 +1003,8 @@ $$\forall x, y \in A, \left\{ \begin{array}{l}
 \phi(x + y) = \phi(x) + \phi(y)  \\
 \phi(xy) = \phi(x)\phi(y)
 \end{array} \right.$$
-En particulier $\phi$ est un morphisme de groupes de $(A, +)$ vers $A', +$ donc $\phi'(0_{A}) = O_{A'}$ 
+En particulier $\phi$ est un morphisme de groupes de $(A, +)$ vers $(A', +)$
+donc $\phi'(0_{A}) = O_{A'}$ 
 
 #### Définition
 Pour $\phi$ un morphisme d'anneaux, 
@@ -1022,3 +1025,11 @@ Un isomorphisme d'anneaux est un morphisme d'anneaux bijectif
 
 #### Propriété
 L'image d'un corp par un morphisme d'anneau est un corps
+
+Démonstration : 
+Soit $(K, +, \times)$ un corp
+Soit $\phi : K \to K'$ un morphisme d'anneau, 
+$K'$ est donc un anneau,
+Comme $K$ est un corp, 
+$$\forall x, y \in K, \phi\left( \frac{1}{x} \right)\phi\left( \frac{1}{y} \right) = \phi \left( \frac{1}{xy} \right) = \phi\left( \frac{1}{yx} \right) = \phi\left( \frac{1}{y} \right)\phi\left( \frac{1}{x} \right)$$
+$K'$ est donc bien un corp
