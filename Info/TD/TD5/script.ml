@@ -1,5 +1,6 @@
 type peano = Zero | Succ of peano;;
 
+
 let rec somme1 n p =
   match n with
 | Zero -> p
@@ -7,9 +8,10 @@ let rec somme1 n p =
 ;;
 
 
-let somme2 n p = 
-match p with
-| Zero -> 
-| Succ()
+let rec somme2 n p = 
+match n with
+| Zero -> p
+| Succ(q) -> somme2 q (Succ(p))
 
 ;;
+

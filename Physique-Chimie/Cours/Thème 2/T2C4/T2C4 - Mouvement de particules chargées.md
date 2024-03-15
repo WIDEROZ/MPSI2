@@ -1,3 +1,7 @@
+# Aparté vecteur en représentation 2D
+Quand c'est un rond avec un point le vecteur va vers nous
+Quand c'est un rond avec une croix le vecteur va dans la feuille.
+
 # I. Phénomènes magnétiques et électriques
 ## 1. Charge électrique
 #### Propriété
@@ -104,7 +108,7 @@ La norme de la vitesse est cte (non pas le vecteur)
 La force magnétique ne travaille pas : 
 $$P_{mag} = 0 \text{ et } W_{mag} = 0$$
 Alors la norme de la vitesse reste constante mais $F_{mag}$ va faire varier la direction du mouvement. 
-Un champ magnétique permet de dévier les particules pour les guider ou les confiner dans une partie de l'espace dans fournir d’énergie cinétique. 
+Un champ magnétique permet de dévier les particules pour les guider ou les confiner dans une partie de l'espace sans fournir d’énergie cinétique. 
 
 ### 5. Produit vectoriel
 #### Définition

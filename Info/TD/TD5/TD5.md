@@ -55,4 +55,4 @@ Ainsi, $x \mathcal{R}^{-1} z$
 #### 2. 
 Non, Contre exemple : $(\mathbb{N}, \leq)$
 
-w
+

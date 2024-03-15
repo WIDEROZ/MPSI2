@@ -88,12 +88,12 @@ Ce qui guide ses actes ne serait il pas l'idée de couple. Ce serait donc le vœ
 
 
 # III. Le crédule est-il une victime?
-#### Introduction
+## Introduction
 "Victime" : Créature vivante offerte aux Dieux (étymologie)
 Le crédule serait donc une proie offerte au bon plaisir de l'auteur du faire croire. Il est donc sans défense, il subit une parole, il est passif.
 Toutefois le crédule est-il une victime est un paradoxe, cela signifie qu'il croit trop facilement. 
 
-#### 1. Examen de la première hypothèse : le crédule, une victime
+## 1. Examen de la première hypothèse : le crédule, une victime
 ###### Laclos : 
 André Malraux : métaphore de la chasse. 
 Chasse : activité pratiqué par la haute Aristocratie (Activité mondaine)
@@ -161,9 +161,32 @@ Conception idéaliste de l'homme. C'est un besoin ed sauver sa conception de l'h
 Boudon : 
 "On ne peut croire que ce qu'on ne perçoit comme justifié"
 
-"Comment se fait-il qu'une crédibilité se fait pareillementhj"
+"Comment se fait-il qu'une crédibilité se fait pareillement"
 
 Le crédule serait celui qui selon Boudon aurait du mal a abandonner ses croyances, qui espère que la fait nouveau soit purement secondaire et qu'il soit conciliable avec la théorie ou la conception du monde ou la relation qu'il avait avant. 
 
+Comment se fait il que Cécile croit tout ce qu'on lui dit ?¿?¿?¿?¿?¿?¿?¿?¿?¿
 
-LA PLACE LA FEMME EST EGALE A CELLE DE Lb,j nb;k, nb,;khj 
+Ce sont deux entendements non préparés a la vie sociale. 
+Pour Cécile le couvent est un environment normatif ou un seul discours est tenu : la fidélité au mariage. Quand Cécile entre dans le monde elle entend des discours polyphonique / elle incorpore toutes les informations extérieures qui lui sont transmises sans les interpréter, finalement Cécile se dispense de l'énergie nécessaire pour interpréter ces informations critiques. Cecile n'aurait elle pas intérêt a s'économiser le travail de discernement qui l’obligerait a choisir
+
+#### Musset : 
+Choisir oblige a adopter une attitude cohérente :
+Acte I scene 4 : 
+Le duc croit en Lorenzo car c'est plus économique en terme affectif, il n'a pas a trancher. 
+
+## 3. Examen d'une troisième hypothèse
+Le crédule n'est il pas un être en quête de validation de ses pairs ?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿?¿
+Le crédule ne fait il pas le vœu de la conformité de ce que pensent les autres? N'est il pas celui qui vit une pression de la part de l'uniformité? 
+Au fond le crédule ne cherche t-il pas la validation de ses croyances sur le monde / des repères stables. 
+
+##### Laclos
+Cécile se heurte a un monde illisible dans lequel elle n'a nul comparse :
+interprétation de la crédulité : agrégation a un groupe (Merteuil)
+
+##### Musset
+Le peuple ne vit il pas la pression de la conformité? 
+Musset dénonce l’accommodement de la population et l’adhérence des propos politiques qu'elle subit. 
+
+On peut voir la crédulité une façon d'assumer le dissensus.
+

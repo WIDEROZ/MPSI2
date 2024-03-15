@@ -138,7 +138,7 @@ $$\overrightarrow{\mathcal{M}}_{\vec{F}/O} = \sum_{i = 1}^{n}\overrightarrow{\ma
 Soit $\vec{F} = \sum_{i = 1}^{n} \vec{F}_{i}$ la résultante des forces sur $M$
 Alors, 
 $$\overrightarrow{\mathcal{M}}_{\vec{F}/O} = \sum_{i = 1 }^{n} \vec{\mathcal{M}}_{\vec{F}_{i}/O}$$
-$$\overrightarrow{\mathcal{M}}_{\vec{F}/\Delta} = \sum_{i = 1}^{n} \mathcal{M}_{\vec{F}_{i}}/\Delta$$
+$$\overrightarrow{\mathcal{M}}_{\vec{F}/\Delta} = \sum_{i = 1}^{n} \mathcal{M}_{\vec{F}_{i}/\Delta}$$
 
 ### b. Cas d'un système de 2 points matériaux
 Soit $M_{1}, M_{2}$ deux points

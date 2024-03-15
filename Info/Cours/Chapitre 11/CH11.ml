@@ -41,15 +41,15 @@ let rec supprMax t =
   match t with
   | E -> failwith "Arbre vide"
   | N(e, g, d) -> if d = E then g else N(e, g, supprMax d)
-
+  
 ;;
 
 let rec suppr t v = 
-  match t with
-  | E -> E
-  | N(e, g, d) -> if v > e then N(e, g, suppr d v)
-  else if v < e then N(e, suppr g v, d)
-  else N(maxBinTree g, supprMax g, d)
+match t with
+| E -> E
+| N(e, g, d) -> if v > e then N(e, g, suppr d v)
+else if v < e then N(e, suppr g v, d)
+else N(maxBinTree g, supprMax g, d)
 ;;
 
 let t = N(7, N(4, N(1, E, E), N(5, E, E)), N(10, N(9, E, E), N(13, N(11, E, E), N(15, E, E))));;
@@ -60,4 +60,5 @@ infixe t;;
 recherche t 100;;
 let t = ajout t 100;;
 recherche t 100;;
+
 

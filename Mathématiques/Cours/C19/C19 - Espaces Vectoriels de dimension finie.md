@@ -519,7 +519,7 @@ Si $F = E$ alors $\dim F = \dim E$ ie $p =n$
 Conséquence des sev de $\mathbb{R}^{2}$ et $\mathbb{R}^{3}$ (déjà vue à la main)
 
 #### Théorème
-Tout $F \underset{\text{sev}}{\subset} E$ admet des supplémentaires et si $G$ est un de ses supplémentaires. 
+Tout $F \underset{\text{sev}}{\subset} E$ admet des supplémentaires et si $G$ est un de ses supplémentaires, $E = F \oplus G$
 
 Démonstration :
 Soit $F \underset{\text{sev}}{\subset} E$, 
@@ -756,8 +756,3 @@ $$\dim\left(\overset{p}{\underset{i = 1}{\oplus}} F_{i}\right) = \sum_{i=1}^{p} 
 Pour $F_{1}, \dots, F_{p}$ des sev de dimension finie de $E$ un ev quelconque, ,
 $$\dim\left( \sum_{i = 1}^{p} F_{i} \right) \leq \sum_{i=1}^{p}\dim F_{i}$$
 Avec égalité si la somme est directe.
-
-
-
-$$\overset{p}{\underset{i = 1}{\oplus}}$$
-$$\underset{\text{sev}}{\subset}$$
