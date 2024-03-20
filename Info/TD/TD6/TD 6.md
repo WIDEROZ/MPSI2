@@ -26,7 +26,7 @@ Donc,
 $$N_{0}\leq \frac{n+1}{2}$$
 $$2N_{0} = n+1-N_{1}$$
 Donc, 
-$$N_{0}= \frac{n+1}{2} \Leftrightarrow n+1 \Leftrightarrow N_{1} = 0$$
+$$N_{0}= \frac{n+1}{2} \Leftrightarrow N_{1} = 0$$
 
 # Exercice 2
 ## 1. Trivial $\square$

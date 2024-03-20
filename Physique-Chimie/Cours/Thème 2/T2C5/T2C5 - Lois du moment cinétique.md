@@ -82,7 +82,7 @@ Excla 7 IMPORTANT
 Droite d'action de $\vec{F}$ important
 
 #### Définition / Propriété
-$d = OH$ est le bras de levier de $\Delta$ et $\vec{F}$ c'est la distance entre la droite d'action de $\vec{F}$ et le point $O$ de $\Delta$ alors le moment de $\vec{F}$ par rapport a $\Delta$ est : 
+$d = OH$ est le bras de levier de $\Delta$, c'est la distance entre la droite d'action de $\vec{F}$ et le point $O$ de $\Delta$ alors le moment de $\vec{F}$ par rapport a $\Delta$ est : 
 $$\mathcal{M}_{\vec{F}/\Delta} = \pm dF$$
 
 
@@ -98,16 +98,15 @@ Démonstration :
   $$\overrightarrow{OM} \wedge \vec{F} = \overrightarrow{OH} \wedge \vec{F} + \overrightarrow{HM} \wedge \vec{F}$$
   or $\overrightarrow{HM} \wedge \vec{F} = \vec{0}$ car ils sont colinéaires
   Donc, 
-  $$\mathcal{M}_{\Delta}(\vec{F}) = (\overrightarrow{OH} \wedge \vec{F}). \vec{u} = \pm d |\vec{F}|$$
+  $$\mathcal{M}_{\Delta}(\vec{F}) = (\overrightarrow{OH} \wedge \vec{F}). \vec{u} = \pm \space d \space ||\vec{F}||$$
   Car $\vec{u}$ est un vecteur unitaire
 
 
 
 #### Méthode
-1. Faire un schema avec l'axe $\Delta$ la force $\vec{F}$ se droite d'action et le plan $\pi$ perpendiculaire (c orthogonal mais bon...) à $\vec{F}$ qui contient $M$.
+1. Faire un schema avec l'axe $\Delta$ la force $\vec{F}$ sa droite d'action et le plan $\pi$ perpendiculaire (c orthogonal mais bon...) à $\vec{F}$ qui contient $M$.
 2. Trouver le bras de levier $d$ : Projeter $\vec{F}$ sur le plan $\pi$. Avec $d$ la distance entre $O$ et la projection de $\vec{F}$ sur $\pi$.
-3. Determiner la valeur absolue du moment : 
-   $$|\mathcal{M}_{\vec{F}/\Delta}| = dF$$
+3. Determiner la valeur absolue du moment : $$|\mathcal{M}_{\vec{F}/\Delta}| = dF$$
 4. Determiner le signe de $\mathcal{M}_{\vec{F}/\Delta}$
    - Si $\vec{F}$ tend a faire tourner $M$ dans le sens direct par rapport à delta : $\mathcal{M}_{\vec{F}/\Delta} = + dF$
    - Sinon, $\mathcal{M}_{\vec{F}/\Delta} = -dF$
@@ -204,7 +203,7 @@ $$\vec{\sigma}_{O'}(M) = \overrightarrow{O'O} \wedge m\vec{v} + \vec{\sigma}_{O}
 Mouvement rectiligne
 Excal 10 maâloul
 
-## 2. Moment cinétique par rapport a un axe fixe
+## 2. Moment cinétique par rapport a un ziziaxe fixe
 ### a. Définition
 Soit $M$ un point materiel de vitesse $\vec{v}$ dans un référentiel galiléen de masse $m$
 Soit $O$ un point fixe

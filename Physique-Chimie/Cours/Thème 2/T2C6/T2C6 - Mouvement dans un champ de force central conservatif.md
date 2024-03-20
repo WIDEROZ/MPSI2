@@ -50,7 +50,7 @@ $$\vec{F}_{1 \to 2} = \frac{q_{1}q_{2}}{4\pi \epsilon_{0}r^{2}}\vec{e}_{r}$$
 
 $$K = -\frac{q_{1}q_{2}}{4\pi \epsilon_{0}}$$
 et 
-$$Ep = \frac{q_{1}q_{2}}{4\pi \epsilon_{0}}$$
+$$Ep = \frac{q_{1}q_{2}}{4\pi \epsilon_{0}} \frac{1}{r}$$
 
 # II. Nature des trajectoires
 ## 1. Conservation du moment cinétique
@@ -74,7 +74,7 @@ $$\frac{d\vec{\sigma}(M)}{dt} = \overrightarrow{\mathcal{M}_{O}}(\vec{F}) = \ove
 Donc, 
 $$\vec{\sigma}_{O}(M) = \overrightarrow{\text{cte}}$$
 
-## 2. Planeteté des trajectoires
+## 2. Plantée des trajectoires
 #### Propriété
 La trajectoire d'un point $M$ soumis à une force centrale $\vec{F}$ de centre $O$ est plane. Le mouvement de $M$ se fait dans le plan contenant $O$ et perpendiculaire à $\vec{\sigma}_{O}(M)$.
 
@@ -116,11 +116,11 @@ ATTENTION : Cela ne veut pas dire que la vitesse totale $v = \sqrt{  \dot{r}^{2}
 
 
 #### Définition
-La vitesse aérolaire est définie comme l'aire balayée par $\overrightarrow{OM}$ par unitée de temps $\mathcal{A} = \frac{dS}{dt}$
+La vitesse aréolaire est définie comme l'aire balayée par $\overrightarrow{OM}$ par unité de temps $\mathcal{A} = \frac{dS}{dt}$
 
 Excal 3
 $$dS = \frac{1}{2} |\overrightarrow{OM}\wedge \vec{v}dt|$$
-$$\mathcal{A} = \frac{1}{2 =}|\overrightarrow{OM} \wedge \vec{v}| = \frac{1}{2m} |\vec{\sigma}_{O}(M)|$$
+$$\mathcal{A} = \frac{1}{2}|\overrightarrow{OM} \wedge \vec{v}| = \frac{1}{2m} |\vec{\sigma}_{O}(M)|$$
 
 Ainsi,
 $$\mathcal{A} = \frac{\sigma_{O}(M)}{2m} = \frac{C}{2}$$
@@ -145,7 +145,7 @@ Point $M$ de masse $m$ soumis a la force centrale $\vec{F}$ conservative $E_{p}(
 
 #### Définition
 Energie potentielle effective
-$$E_{p \space eff} = E_{p}(r) + \frac{1}{2} m \frac{c^{2}}{r^{2}}$$
+$$E_{p \space eff} = E_{p}(r) + \frac{1}{2} m \frac{C^{2}}{r^{2}}$$
 avec $C = r^{2} \dot{\theta}$ la constante des aires.
 
 Démonstration : 
@@ -190,7 +190,7 @@ $$\frac{a^{3}}{T^{2}} = \text{cte}$$
 C'est la même constante pour toutes les planètes. 
 
 ## 2. Nature des trajectoires
-Soit $M$ de masse $m$ soumis a la force centrale newtonienne $\vec{F} = - \frac{K}{r^{2}}\vec{e}_{r}$ ed centre $O$
+Soit $M$ de masse $m$ soumis a la force centrale newtonienne $\vec{F} = - \frac{K}{r^{2}}\vec{e}_{r}$ de centre $O$
 On admet que sa trajectoire est une conique d'équation polaire (d'origine $O$) :
 $$r = \frac{p}{1 + e\cos(\theta)}$$
 avec $p= \frac{mC^{2}}{K}$ et $e>0$ l'excentricité de la conique
@@ -302,13 +302,13 @@ $$\square$$
 #### Propriété
 Soit $M$ un point de masse $m$ sur une trajectoire circulaire de rayon $r_{0}$ autour d'un astre de masse $M_{S}$
 Alors, 
-$E_{m}$, $E_{c}$ et $E_{p}$ de $M$
+$E_{m}$, $E_{c}$ et $E_{p}$ de $M$ s'écrivent : 
 $$\boxed{E_{m} = -E_{c} = \frac{1}{2}E_{p} = - \frac{GM_{S}m}{2r_{0}}}$$
 
 Démonstration : 
 En $r= r_{0}$, 
 $$E_{peff} = E_{peff_{min}} = \frac{K}{r_{0}} + \frac{1}{2} \frac{mC^{2}}{r^{2}_{0}}$$
-$$E_{peff} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{mC^{2}}{(mc^{2})^{2}}K^{2} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{K^{2}}{mC^{2}}$$
+$$E_{peff} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{mC^{2}}{(mC^{2})^{2}}K^{2} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{K^{2}}{mC^{2}}$$
 $$E_{peff}(r_{0}) = -\frac{1}{2} \frac{K^{2}}{mC^{2}} = -\frac{1}{2}K \times \frac{K}{mC^{2}} = -\frac{K}{2} \frac{1}{r_{0}}$$
 $$E_{peff}(r_{0}) = - \frac{K}{2r_{0}} = \frac{1}{2}E_{p}(r_{0})$$
 $$E_{m}(r_{0}) = E_{peff}(r_{0}) = - \frac{K}{2r_{0}} = \frac{1}{2}E_{p}$$
@@ -343,7 +343,7 @@ $$\boxed{\frac{r_{0}^{3}}{T^{2}} = \frac{GM_{S}}{4\pi^{2}}}$$
 Démonstration : 
 
 Exprimons la période $T^{2}$ du mouvement en fonction de $r_{0}$ : 
-$$T^{2} = \frac{4\pi^{2} r_{0}}{v^{2}}$$
+$$T^{2} = \frac{4\pi^{2} r_{0}^{2}}{v^{2}}$$
 Or 
 $$v^{2} = \frac{GM_{S}}{r_{0}}$$
 Alors, 
@@ -366,7 +366,7 @@ Données :
 - Masse de la terre : $M_{T} \approx 6.10^{24}$ kg
 - Rayon de la Terre : $R_{T} = 6400$ km
 
-## 1. Les satellited géostationnaires
+## 1. Les satellites géostationnaires
 #### Définition
 Un satellite géostationnaire en orbite autour de la Terre reste toujours a la verticale d'un point fixe de la surface de la terre. 
 
@@ -396,3 +396,4 @@ excal 11
   $N = \frac{2\pi R_{T}}{d_{S}}$
 
 Excal 12
+

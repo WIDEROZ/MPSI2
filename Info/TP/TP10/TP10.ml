@@ -69,3 +69,5 @@ let triParTas t =
 creationTas t;;
 
 t;;
+
+let entassement t i 

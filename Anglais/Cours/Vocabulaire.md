@@ -40,5 +40,14 @@ Question soumise au vote : an issue on the ballot
 Les sondages : Polls
 Taux de participation aux élections : Election turnout
 Faire pencher la balance : To tip the ballot
+Entry 
 
+Pro life (adj) : Opposing abortion and euthanasia as they argue nobody can take away a life. Abortion is seen as a crime -> Pro-lifers (noun)
 
+Pro Choice (adj) : Advocating the legal right of a women to choose whether or not she will have an abortion -> Pro choicers (noun)
+
+Planned parenthood : is a nonprofit organisation that provide a variety of reproductive health services and sexual harassement.
+
+Swing states : States witch sometimes vote for démocrates and sometimes votes for republican
+
+Trigger laws 

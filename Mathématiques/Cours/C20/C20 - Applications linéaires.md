@@ -466,10 +466,15 @@ on dira que c'est un automorphisme de $\mathbb{R}^{2}$
 Montrer que l'image directe ou réciproque d'un sev par une application linéaire est un sev
 Soit $E, I$ des $\mathbb{K}$-ev, 
 Soit $\phi \in\mathcal{L}(E, I)$, 
-Mq $\mathrm{Im}(\phi) \underset{\text{sev}}{\subset} I$
+Mq $\mathrm{Im}(\phi) \underset{\text{sev}}{\subset} F$
 - Comme $F$ est un ev et que $\phi(0)=0$, $\mathrm{Im}(\phi) \neq \varnothing$ 
-- On a bien $\mathrm{Im}(\phi) \subset I$ par définition
-- Soit $x, y \in \mathrm{Im}(\phi)$, 
+- On a bien $\mathrm{Im}(\phi) \subset F$ par définition
+- Soit $x, y \in E$, et $\lambda \in \mathbb{K}$, 
+On a par linéarité et par définition de $\mathrm{Im}(u)$ :
+$$u(x + \lambda y) \in \mathrm{Im}(u) \subset F \text{ et } u(x) + \lambda u(y) \in \mathrm{Im}(u) \subset F$$
+Ainsi $\mathrm{Im}(u)$ est stable par CL
+
+Par la caractérisation des sev : $\mathrm{Im}(u) \underset{\text{sev}}{\subset} F$
 
 # 3. Images directes et réciproques de sous espaces vectoriels
 
@@ -514,6 +519,7 @@ $$\mathrm{Im}(u) = \{ u(x) ; x \in E \}$$
 
 
 #### Propriété
+Avec les notations précédentes
 $$u \text{ surjective } \Leftrightarrow \mathrm{Im}(u) = F$$
 $$u \text{ injective } \Leftrightarrow \text{Ker}(u) = \{ 0 \}$$
 (Déjà vu avec un morphisme de groupe)
@@ -645,8 +651,10 @@ $$Vect\begin{pmatrix}
 \end{pmatrix}$$
 maâloul
 #### Aparté pivot
-Pour trouver l'ensemble des solutions d'un pivot
-on exprime chaque inconnue secondaires en fonction des inconnues principales (qui sont les pivots)
+Pour trouver l'ensemble des solutions d'un pivot : 
+on exprime chaque inconnue secondaires (ya plusieurs nombres sur la même colonne et aucun pivot sur cette même colonne) en fonction des inconnues principales (qui sont les pivots) dans la matrice homogène. 
+
+Pour la solution particulière : on prend là où il y a des pivots. 
 
 #### Exemple
 Soit 
@@ -662,7 +670,7 @@ y
 \end{pmatrix}
 \end{cases}$$
 1. Montrer que $f$ est linéaire
-2. Déterminer son image et son noyau (est elle bij)
+2. Déterminer son image et son noyau (est elle bijective?)
 
 Soit $x, y, \alpha, \beta \in \mathbb{R}^{2}$, $\lambda, \mu \in \mathbb{R}$,
 $\mathbb{R}^{2}$ est un ev
@@ -789,7 +797,7 @@ On a par linéarité de $u$,
 $$u(S) = 0$$
 
 Comme $u$ est linéaire injective,
-$$\sum_{i \in I}\lambda_{i}x_{i} = 0$$
+$$\sum_{i \in I}\lambda_{i}u(x_{i}) = 0$$
 Comme $(x_{i})_{i \in I}$ est libre, 
 $$\forall i \in I, \lambda_{i}=0$$
 Ainsi, 
@@ -806,6 +814,7 @@ Démonstration : Immédiate avec le corollaire et la propriété précédente
 $u \in \mathcal{L}(E, F)$ est de rang fini ssi $\mathrm{Im}(u)$ est de $\dim$ finie. 
 Si c'est le cas on défini le rang de $u$ par 
 $$rg(u) = \dim(\mathrm{Im}(u))$$
+
 #### Proposition
 Soit $u \in \mathcal{L}(E, F)$ et $v \in \mathcal{L}(F, G)$
 Alors, 
@@ -1381,7 +1390,7 @@ $$\dim E = \dim\text{Ker }u + \dim S = \dim \text{Ker }u + \text{rg }u$$
 
 #### Remarque
 ##### Attention
-Pour $u \in \mathcal{L}(E)$, $\text{Ker }u$ et $\mathrm{Im}(u)$ sont deux sev de $E$ et si ils sont de sim finie : 
+Pour $u \in \mathcal{L}(E)$, $\text{Ker }u$ et $\mathrm{Im}(u)$ sont deux sev de $E$ et si ils sont de dim finie : 
 $$\text{Ker }u + \dim\mathrm{Im}(u) = E$$
 Mais en général $\text{Ker }u$ et $\mathrm{Im}(u)$ ne sont pas supplémentaires
 (Cependant cela arrive, par exemple : pour les projecteurs)
@@ -1492,7 +1501,7 @@ Cette construction es générale
 #### Définition / Propriété
 Soit $E$ un $\mathbb{K}$-ev quelconque et $e = (e_{i})_{i \in I}$ un base de $E$ : 
 Pour $x \in E$, 
-On note $(x_{i})_{i \in I}$ ses coordonnées dans la base $e$. 
+On note $(x_{i})_{i \in I} \in \mathbb{K}^{I}$ ses coordonnées dans la base $e$. 
 $x$ s'écrit : $x = \sum_{i \in I} x_{i}e_{i}$
 On définit : pour $i \in I$, l'application 
 $$e_{i}^{*} : \begin{cases}
@@ -1534,7 +1543,7 @@ Démonstration :
 $e^{*}$ est une famille libre de $n$ vecteurs en dimension finie $n$, donc une base de $E^{*}$ (car $\dim E^{*} = \dim \mathcal{L}(E, \mathbb{K}) = \dim E$)
 
 ### Reformulation
-En notant $(x_{i})_{i =1}^{n}$ les coordonnés de $x \in E$ dans la base $e$, toute forme linéaire $f$ sur $E$ s'écrit: 
+En notant $(x_{i})_{i =1}^{n}$ les coordonnés des $x \in E$ dans la base $e$, toute forme linéaire $f$ sur $E$ s'écrit : 
 $$f : \begin{cases}
 E \to \mathbb{K} \\
 x \mapsto \sum_{i = 1}^{n} a_{i}x_{i}
@@ -1629,7 +1638,7 @@ il s'écrit : $x= \lambda v$ avec $\lambda \in \mathbb{K}$
 Montrons par l'absurde que $\lambda = 0$ : 
 - Si $\lambda \neq 0$ : 
 $v = \frac{1}{\lambda }x \in H$ car $H \underset{\text{sev}}{\subset} E$ CONTRADICTION
-- Si $\lambda = 0$ donc $x = 0$
+Donc $\lambda = 0$ donc $x = 0$
 On a donc $D \cap H = \{ 0 \}$
 
 Soit $f \in E^{*}$ tq $H = \text{Ker }f$
@@ -1658,20 +1667,20 @@ Tout supplémentaire d'un hyperplan est une droite
 
 Démonstration : 
 Soit $H$ un hyperplan d'un ev $E$, 
-Soit $f$ un supplémentaire de $H$, 
+Soit $F$ un supplémentaire de $H$, 
 On note $f \in E^{*} \setminus \{ 0 \}$ tq $\text{Ker }f = H$, 
 Comme $f\neq 0$, $H \neq E$, 
 Donc, $F \neq \{ 0 \}$
 donc on peut prendre  $v\in F \setminus \{ 0 \}$, 
 On note $D = Vect(v)$
-Comme $v \in F \setminus \{ 0 \}$, et $F$ et $H$ sont en somme directe $v \not\in H$ donc, $D$ est une droite vectorielle non nulle dans $H$, par la prop précédente $D \oplus H = E$
+Comme $v \in F \setminus \{ 0 \}$, et $F$ et $H$ sont en somme directe $v \not\in H$ donc, $D$ est une droite vectorielle non nulle dans $F$, par la prop précédente $D \oplus H = E$
 
 Montrons que $F \subset D$, ce qui termine la preuve
 Soit $x \in F$, 
 Comme $E = F \oplus H$, $x$ s'écrit $x = x_{F} + x_{H}$ de manière unique
 Or, $x = x + 0$ avec $x \in F$ et $0 \in H$
 Donc, $x_{F} = x$
-Comme, $E = D \oplus H$,
+Comme, $E = D \oplus H$,- Si
 $x$ s'écrit $x = x_{D} + \tilde{x}_{H}$ avec $x_{D} \in D$ et $\tilde{x}_{H} \in H$
 Par ailleurs, $D \subset F$ donc $x_{D} \in F$
 et $x = x_{D} + \tilde{x}_{H}$ avec $x_{D} \in F$ et $\tilde{x}_{H} \in H$
@@ -1787,14 +1796,14 @@ Ainsi, $f = \lambda g$.
 Soit $E$ de dimension finie, $F \underset{\text{sev}}{\subset} E$ et $H$ un hyperplan de $E$
 On a une alternative : 
 - $F \subset H$ et $F \cap H = F$ 
-- $F \nsubseteq H$ et $\dim(F \cap H) = \dim(F-1)$
+- $F \nsubseteq H$ et $\dim(F \cap H) = \dim(F)-1$
 
 Démonstration : 
 Par disjonction de cas :
 - Soit $F \subset H$ et $F \cap H = F$
-- Soit $F \nsubseteq H$
+- Soit $F \nsubseteq H$ 
 On pose $f \in E^{*} \setminus \{ 0 \}$ tq $\text{Ker }f = H$
-et on pose $g = f|_{F} \in F^{*}$
+et on pose $g = f|_{F} \in F^{*}$ 
 Comme $F \nsubseteq H$, $g \neq 0$ 
 Donc, $\text{Ker }g$ est un hyperplan de $F$
 Or, 
@@ -1821,8 +1830,8 @@ On utilise le lemme précédent et par récurrence rapide on a fini
 Démonstration du 2. : 
 Soit $F \underset{\text{sev}}{\subset} E$ de $\dim$ $n-m$,
 Soit $(e_{m+1}, \dots, e_{n})$ une base de $F$
-(existe car on est en dimension finie)
-qu'on complète (TBI car dim finie et $(e_{m+1}, \dots, e_{n})$ est libre) en une base : !$(e_{1}, \dots, e_{m}, e_{m+1}, \dots, e_{n})$
+(existe car on est en dimension finie) 
+qu'on complète (TBI car dim finie et $(e_{m+1}, \dots, e_{n})$ est libre) en une base : $(e_{1}, \dots, e_{m}, e_{m+1}, \dots, e_{n})$ 
 En posant pour $i \in [\![1, m]\!]$, $H_{i} = \text{Ker }e_{i}^{*}$
 On obtiens 
 $$F = \bigcap_{i = 1}^{m}H_{i}$$
