@@ -80,7 +80,7 @@ x \mapsto 0
 Si $E, F$ sont des $\mathbb{K}$-ev, 
 $$\begin{cases}
 E \to F \\
-x \mapsto \to 0
+x \mapsto 0
 \end{cases}$$
 
 #### Exemple de $\mathbb{R}^{2}$
@@ -193,7 +193,7 @@ $$u((x, y)) = x(a, c) + y(b, d) = (ax+by, cx + dy)$$
 #### Propriété
 $$\mathcal{L}(\mathbb{R}^{2}, \mathbb{R}^{2}) = \left\{ \begin{cases}
 \mathbb{R}^{2} \to \mathbb{R}^{2} \\
-(x, y) \mapsto (ax+by, cx+d)
+(x, y) \mapsto (ax+by, cx+dy)
 \end{cases} ; a, b, c, d \in \mathbb{R}\right\}$$
 
 #### Remarque
@@ -1182,7 +1182,6 @@ z
 \end{pmatrix}$$
 
 
-
 #### Corollaire
 Deux espaces de dimension finie sont isomorphes ssi ils ont la même dimension
 (en dimension finie, la dimension est un invariant complet d'isomorphisme)
@@ -1254,7 +1253,7 @@ Il suffit de montrer que $u$ est linéaire injectif pour montrer que c'est un is
 Soit $E$ un ev de dimension finie et $u \in \mathcal{L}(E)$, 
 Si $u$ est inversible à gauche (resp. a droite) alors $u \in GL(E)$, 
 et son inverse est alors son inverse à gauche (resp. a droite)
-(ie : pour un endomorphisme dim ev de dim finie
+(ie : pour un endomorphisme $u$ est de dim finie
 $u$ inversible a gauche $\Leftrightarrow$ $u$ est inversible $\Leftrightarrow$ $u$ est inversible a droite)
 
 #### Remarque
@@ -1536,7 +1535,7 @@ Donc, $(e_{i}^{*})_{i \in I}$ est libre
 Attention elle n'est pas génératrice en dimension infinie
 
 #### Corollaire
-Si $E$ est de dimension finie, et $e = (e_{i})_{i = 1}^{n}$ est une base de $E$,
+Si $E$ est de <u>dimension finie</u>, et $e = (e_{i})_{i = 1}^{n}$ est une base de $E$,
 Alors, $e^{*} = (e_{i}^{*})_{i = 1}^{n}$ est une base de $E^{*}$, appelée base duale de $e$
 
 Démonstration : 

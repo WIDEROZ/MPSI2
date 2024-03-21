@@ -302,7 +302,6 @@ Pour $x \in E$, $x \in \mathcal{H} \Leftrightarrow x \in a + H$
 Donc, $\mathcal{H} = a + H$
 Donc $\mathcal{H}$ est un hyperplan affine de direction
 $$H = \left\{  x \in E \left| \sum_{i = 0}^{n} \lambda_{i}x_{i} = 0 \right.  \right\}$$
-
 On a montré la propriété suivante : 
 
 #### Propriété

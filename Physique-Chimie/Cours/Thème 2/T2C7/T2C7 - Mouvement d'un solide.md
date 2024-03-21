@@ -85,7 +85,7 @@ Excal 2
 
 ## 2. TMC
 #### Propriété
-Pour un solide $\mathcal{S}$ en rotation autour de l'axe $\Delta$ a la vitesse $\omega$, le TMC s'écrit : 
+Pour un solide $\mathcal{S}$ en rotation autour de l'axe $\Delta$ a la vitesse $\omega (= \dot{\theta})$, le TMC s'écrit : 
 $$J_{\Delta} \frac{d\omega}{dt} = \sum_{i = 1}^{n}\mathcal{M}_{\Delta}(\vec{F}_{i})$$
 $J_{\Delta}$ le moment d'inertie de $\mathcal{S}$ par rapport a $\Delta$ et 
 $\mathcal{M}_{\Delta}(\vec{F}_{i})$ est le moment de $\vec{F}_{i}$ agissant sur $\mathcal{S}$ par rapport a $\Delta$
@@ -144,3 +144,125 @@ Souvent un des deux solides est immobile c'est le stator et l'autre solide est l
 Pour une liaison pivot parfaite, les frottements sont nuls et on la modélise par un couple de moments nuls : 
 $$\Gamma_{Oz} = 0$$
 $Oz$ l'axe de rotation
+
+# IV. Aspects énergétiques des solides en rotation
+Soit $\mathcal{S}$ un solide indéformable en rotation autour d'un axe fixe $\Delta$
+## 1. Energie cinétique
+#### Propriété
+L'énergie cinétique su solide $\mathcal{S}$ en rotation autour de l'axe $\Delta$ fixe à la vitesse angulaire $\dot{\theta}$ s'écrit : 
+$$E_{c} = \frac{1}{2}J_{\Delta}\dot{\theta}^{2}$$
+Avec $J_{\Delta}$ le moment d'inertie de $\mathcal{S}$ par rapport à $\Delta$
+
+Démonstration : 
+On modélise le solide $\mathcal{S}$ comme un ensemble de points matériels $M_{i}$ de masse $m_{i}$
+Le mouvement de $\mathcal{S}$ est une rotation autour de $\Delta$ fixe
+Donc tous les points $M_{i}$ ont la même vitesse angulaire $\dot{\theta}$ et leur vecteur vitesse s'écrit 
+$$\vec{v}_{i} = r_{i}\dot{\theta}\vec{e}_{\theta_{i}}$$
+$r_{i}$ : la distance entre $M_{i}$ et l'axe $\Delta$
+$\vec{e}_{\theta_{i}}$ : vecteur unitaire de la base polaire d'axe $\Delta$ lié à $M_{i}$
+Energie cinétique du point :
+$$E_{c_{i}} = \frac{1}{2} m_{i}v_{i}^{2} = \frac{1}{2}m_{i}r_{i}^{2}\dot{\theta}^{2}$$
+Energie cinétique du solide : 
+$$E_{c} = \sum_{i} E_{c_{i}} = \sum_{i} \frac{1}{2} mr_{i}^{2}\dot{\theta}^{2} = \frac{1}{2}\dot{\theta}^{2} \sum_{i} m_{i}r_{i}^{2}$$
+On pose alors $J_{\Delta} = \sum_{i}m_{i}r_{i}^{2}$
+Ainsi
+$$E_{c} = \frac{1}{2}J_{\Delta}\dot{\theta}^{2}$$
+
+## 2. Théorème de la puissance cinétique
+#### Propriété / Lemme
+Pour un $\mathcal{S}$ un solide en rotation autour de $\Delta$ avec $\vec{F}$ une force qui s'applique a $\mathcal{S}$.
+$$M_{\Delta}(\vec{F}) \dot{\theta} = P(\vec{F})$$
+
+#### Théorème
+Pour $\mathcal{S}$ un solide en rotation autour d'un axe fixe $\Delta$ a la vitesse $\dot{\theta}$ soumis aux forces extérieures $\vec{F}_{i}$ on a :
+$$\frac{dE_{c}}{dt}  = \sum_{i} P(\vec{F}_{i})$$
+$E_{c}$ : l’énergie cinétique de $\mathcal{S}$ 
+$P(\vec{F}_{i})$ : Puissance de la force $F_{i}$
+
+$$\sum_{i} P(\vec{F}_{i}) = \left( \sum_{i}\mathcal{M}_{\Delta}(\vec{F}_{i}) \right)\dot{\theta}$$
+
+Démonstration : 
+On applique le TMC par rapport a $\Delta$ au solide $\mathcal{S}$
+$$J_{\Delta}\ddot{\theta} = \sum_{i}\mathcal{M}_{\Delta} (\vec{F}_{i})$$
+On multiplie par $\dot{\theta}$
+$$\frac{d}{dt}(J_{\Delta} \frac{1}{2} \dot{\theta}^{2}) = \sum_{i}(\mathcal{M}_{\Delta}(\vec{F}_{i})\dot{\theta})$$
+Ainsi
+$$\frac{dE_{c}}{dt} = \sum_{i}(M_{\Delta(\vec{F}_{i})})\dot{\theta} = \sum_{i}P(\vec{F}_{i})$$
+#### Remarque
+Si le solide $\mathcal{S}$ est soumis a un couple de moment $\Gamma$ par rapport a $\Delta$. 
+Alors la puissance de ce couple est : $P_{\text{Couple}} = \Gamma \dot{\theta}$
+
+# V. Etude du pendule pesant
+## 1. Description su système
+Excal 5
+- $O$ un point fixe 
+- Liaison en $O$ parfaite
+- $J_{Oz}$ le moment d'inertie du solide par rapport a $Oz$
+- $d = OG$ $G$ le centre de gravité de $\mathcal{S}$
+- $\theta$ l'angle entre $O_{y}$ et $OG$
+
+## 2. Equation différentielle du mouvement
+- Référentiel terrestre galiléen
+- Système $\mathcal{S}$ de masse $m$ 
+- Bilan des forces : $\vec{P} = m\vec{g}$
+
+Appliquons le TMC a $S$ : 
+$$J_{Oz}\ddot{\theta} = \mathcal{M}_{Oz}(\vec{F}) = \mathcal{M}_{Oz}(\vec{P}) = \overrightarrow{OG} \wedge m\vec{g} = -dmg\sin \theta \vec{e}_{z}$$
+Ainsi, 
+$$\ddot{\theta} + \frac{dmg}{J_{Oz}}\sin \theta = 0$$
+En supposant $\theta \ll 1$ on obtiens
+$$\ddot{\theta} + \frac{mgd}{J_{Oz}}\theta = 0$$
+On a donc une equation d'OH avec : $\omega_{0} = \sqrt{ \frac{mgd}{J_{O_{z}}} }$
+
+## 3. Oscillations de faible amplitude
+$$\theta(t) = A\cos(\omega_{0}t) + B\sin(\omega_{0}t)$$
+Avec $A, B$ les constantes d'intégration
+On en déduis la période des petites oscillations : 
+$$T_{0} = 2 \pi \sqrt{ \frac{J_{Oz}}{mgd} }$$
+#### Propriété
+Si les oscillations sont grandes : alors la période peut s'écrire de façon approchée : 
+$$\boxed{T = T_{0}\left( 1+ \frac{\theta_{0}^{2}}{16} \right)}$$
+
+## 4. Bilan énergétique
+On multiplie Le TMC par $\dot{\theta}$ : 
+$$\frac{1}{2}J_{Oz} \frac{d\dot{\theta}^{2}}{dt} = mgd d \frac{\cos \theta}{dt}$$
+$$\frac{d}{dt}\left( \frac{1}{2}J_{Oz}\dot{\theta}^{2} - mgd\cos \theta \right) = 0$$
+On a alors : 
+$$E_{c} = \frac{1}{2}J_{Oz}\dot{\theta}^{2}$$
+L'énergie cinétique du pendule
+$$E_{pp} = -mgd\cos \theta + \text{cte}$$
+$$E_{c} + E_{pp} = \text{cte}$$
+$E_{m} = \text{cte}$ 
+Ainsi, le système est bien conservatif. 
+
+## 5. Etude qualitative du mouvement
+#### Exprimer l’énergie potentielle de pesanteur $E_{pp}(\theta)$
+$$E_{pp} = mgh + \text{cte}$$
+avec $h$ l'altitude du centre de gravité $G$. 
+On prend l'origine des potentiels en $\theta = 0$. 
+En faisant des projection $h = -d\cos \theta$
+Ainsi, 
+$$E_{pp}(\theta) = -mgd\cos \theta + \text{cte}$$
+Avec les conditions initiales : 
+$$E_{pp}(\theta) = mgd(1 - \cos \theta)$$
+
+#### Tracer $E_{pp}(\theta)$ entre $-\pi$ et $\pi$
+Excal 6
+
+#### Discuter des positions d'équilibres
+Les positions d'équilibres correspondent aux extremas de $E_{pp}$, donc : 
+- $\theta = \pi$ et $\theta = -\pi$ correspond a $E_{pp, max} = 2mgd$
+  C'est une position d'équilibre instable
+- $\theta = 0$ correspond a $E_{pp, min} = 0$
+  C'est une position d'équilibre stable
+
+#### Tracer la droite de l'énergie mécanique
+$E_{m} < mgd$ discuter du mouvement
+Etat lié du solide, le mouvement est borné entre les valeurs $\theta_{max}$ et $-\theta_{max}$ car $E_{pp}(\theta)$ est paire. 
+
+#### Tracer $E_{m}$ telle que $E_{m} > 2mgd$ et discuter le mouvement
+Dans ce cas, 
+$$\forall\theta \in [- \pi, \pi], E_{m}(\theta) > E_{pp}(\theta)$$
+Donc tous les angles sont valides
+Ainsi, l'état est diffusif, le mouvement du pendule est un mouvement de révolution autour de l'axe $Oz$.
+
