@@ -191,7 +191,7 @@ C'est la même constante pour toutes les planètes.
 
 ## 2. Nature des trajectoires
 Soit $M$ de masse $m$ soumis a la force centrale newtonienne $\vec{F} = - \frac{K}{r^{2}}\vec{e}_{r}$ de centre $O$
-On admet que sa trajectoire est une conique d'équation polaire (d'origine $O$) :
+On admet que sa trajectoire est une conique d'équation polaire (d'origine $O$) : 
 $$r = \frac{p}{1 + e\cos(\theta)}$$
 avec $p= \frac{mC^{2}}{K}$ et $e>0$ l'excentricité de la conique
 Si $e < 1$ la trajectoire est une ellipse, 

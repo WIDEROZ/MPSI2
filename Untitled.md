@@ -5,8 +5,18 @@
 	{trigger: "beg", replacement: "\\begin{$0}\n$1\n\\end{$0}", options: "mA"},
 
 {trigger: "dim", replacement: "\\dim", options: "mA"},
+    {trigger: "Ker", replacement: "\\text{Ker }", options: "mA"},
     {trigger: "SS", replacement: "\\mathcal{S}", options: "mA"},
+    {trigger: "FF", replacement: "\\mathcal{F}", options: "mA"},
+    {trigger: "EE", replacement: "\\mathcal{E}", options: "mA"},
+    {trigger: "ssi", replacement: "\\Leftrightarrow", options: "mA"},
+    {trigger: "sev", replacement: "\\underset{\\text{sev}}{\\subset}", options: "mA"}, 
+    {trigger: "tend", replacement: "\\underset{n \\to $1}{\\longrightarrow}", options: "mA"},
     
+{trigger: "e\\psi lon", replacement: "\\epsilon", options: "mA"},
+    {trigger: "rond", replacement: "\\circ ", options: "mA"},
+    {trigger: "KK", replacement: "\\mathbb{K}", options: "mA"},
+    {trigger: "\mathbb{C}C", replacement: "\mathcal{C}", options: "mA"},
 {trigger: "\mathbb{R}R", replacement: "\mathcal{R}", options: "mA"},
     {trigger: "MM", replacement: "\\mathcal{M}", options: "mA"},
 	// Dashes
@@ -188,7 +198,7 @@
 	{trigger: "\\mathbb{1}I", replacement: "\\hat{\\mathbb{1}}", options: "mA"},
 	{trigger: "AA", replacement: "\\mathcal{A}", options: "mA"},
 	{trigger: "BB", replacement: "\\mathbf{B}", options: "mA"},
-	{trigger: "EE", replacement: "\\mathbf{E}", options: "mA"},
+	
 
 
 	// Unit vectors

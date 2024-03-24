@@ -36,6 +36,6 @@ $(x_{1}, .., x_{p})$ est libre
 Tout $F \underset{\text{sev}}{\subset} E$ admet des supplémentaires dans $E$
 
 # Théorème
-Pour $F_{1}, \dots, F_{p}$ des sev de dimension finie de $E$ un ev quelconque, ,
+Pour $F_{1}, \dots, F_{p}$ des sev de dimension finie de $E$ un ev quelconque, 
 $$\dim\left( \sum_{i = 1}^{p} F_{i} \right) \leq \sum_{i=1}^{p}\dim F_{i}$$
 Avec égalité si la somme est directe.
