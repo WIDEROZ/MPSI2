@@ -1,0 +1,201 @@
+{
+  "main": {
+    "id": "b6eee9320d46c60b",
+    "type": "split",
+    "children": [
+      {
+        "id": "abd1d7b12042a446",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5460c68f19965512",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "7cc09537726e530b",
+    "type": "split",
+    "children": [
+      {
+        "id": "1b3053e3613c123e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d9b3182d45be85a6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "505c011add6dff1d",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8217dcf4e04c68ba",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "afa210a7ad455cf5",
+    "type": "split",
+    "children": [
+      {
+        "id": "aa78af020e359b7d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9a680241bd1e6bc6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": false
+              }
+            }
+          },
+          {
+            "id": "8f4b095184c2d4ab",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "d3db605dfd8cbcbf",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Untitled.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "05a2df48da3bad26",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Untitled.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "5460c68f19965512",
+  "lastOpenFiles": [
+    "Pasted image 20231213102843.png",
+    "Untitled.md",
+    "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
+    "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
+    "Mathématiques/Cours/C02/C02-InegalitesR.pdf",
+    "Cours Université/Environement.md",
+    "Cours Université/Histoire de l'économie.md",
+    "Info/Cours/Chapitre 13/Chapitre  13.md",
+    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
+    "Autre/Brouillon.md",
+    "Autre/CLASS.excalidraw.md",
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+    "Mathématiques/TD/E22/E22.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
+    "Mathématiques/TD/E20/E20.md",
+    "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
+    "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
+    "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Mathématiques/TD/E21/E21.md",
+    "Mathématiques/TD/E20",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+    "Mathématiques/TD/E21",
+    "Info/TP/TP11/script.py",
+    "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1",
+    "Physique-Chimie/Cours/Thème 3",
+    "Mathématiques/Cours/C22/C22.md",
+    "Mathématiques/Cours/C22/Formulaire.md",
+    "Mathématiques/TD/E17",
+    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
+    "Mathématiques/Cours/C21/C21.md",
+    "Mathématiques/Cours/C20/Untitled.canvas",
+    "Mathématiques/Cours/Untitled.canvas",
+    "Mathématiques/Cours/C18/Untitled.canvas",
+    "Pasted image 20240205155147 1.png",
+    "Pasted image 20240205155148 5.png",
+    "Pasted image 20240205155148 4.png",
+    "Pasted image 20240205155148 3.png",
+    "Pasted image 20240205155148 2.png",
+    "Pasted image 20240205155148 1.png",
+    "Pasted image 20240205155148.png",
+    "Pasted image 20240205155147 2.png",
+    "Pasted image 20240205155147.png",
+    "Untitled.canvas"
+  ]
+}
