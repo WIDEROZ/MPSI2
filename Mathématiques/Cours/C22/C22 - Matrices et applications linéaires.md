@@ -207,7 +207,7 @@ On reprend les notations précédentes ($e, f, u, A, X, Y$)
 #### Noyau
 Pour déterminer $\text{Ker }u$ on résout : $AX = 0$
 Soit en utilisant le pivot, soit par un subterfuge malicieux on trouve une matrice échelonnée par lignes qui est équivalent par lignes à $A$. 
-En revenant au système et en supprimant les équations triviales ($0 = 0$), on obtiens une représentation cartésienne de $\text{Ker }u$ relative à la base $e$ (elle est bien "minimale"). 
+En revenant au système et en supprimant les équations triviales ($0 = 0$), on obtient une représentation cartésienne de $\text{Ker }u$ relative à la base $e$ (elle est bien "minimale"). 
 On a autant d'équations non triviales que de pivots et on admet provisoirement que le nombre de pivots est égal à $rg(u)$
 (On le démontrera plus tard). Par la formule du rang :
 $$\dim \text{Ker }u = \dim E - rg(u) = p-r$$
@@ -499,9 +499,9 @@ $$Mat_{e, g}(v \circ u) = Mat_{f, g}(v)Mat_{e, f}(u)$$
 
 Démonstration : 
 $$\begin{array}{rl}
-Mat_{f, g}(v)Mat_{e, f}(u) &= Mat_{f, g}(v)Mat_{e, f}(u(e_{1}), \dots, u(e_{q})) \\
+Mat_{f, g}(v)Mat_{e, f}(u) &= Mat_{f, g}(v)Mat_{f}(u(e_{1}), \dots, u(e_{q})) \\
 &= Mat_{f, g}(v)(Mat_{f}(u(e_{1}))|\dots|Mat_{f}(u(e_{q}))) \\
-&= Mat_{g, f}(v)Mat_{f}(u(e_{1}))| \dots |Mat_{g, f}(v)Mat_{f}(u(e_{q})) \\
+&= Mat_{f, g}(v)Mat_{f}(u(e_{1}))| \dots |Mat_{f, g}(v)Mat_{f}(u(e_{q})) \\
 &= Mat_{g}(v(u(e_{1})))| \dots | Mat_{g}(v(u(e_{q}))) \\
 &= Mat_{g}(v \circ  u (e)) = Mat_{e, g}(v \circ  u)
 \end{array}$$
@@ -870,3 +870,527 @@ On a $rg(u) = rg(Mat_{e, f}(u))$
 
 Démonstration : Les deux peuvent se calculer en échelonnant les colonnes de la même matrice
 
+# III. Matrice de forme particulière
+## 1. Matrices diagonales
+#### Rappel
+Soit $n \in \mathbb{N}$, 
+$$D \in \mathcal{D}_{n}(\mathbb{K}) \Leftrightarrow \forall i, j \in [\![1, n]\!], a \neq j \Leftrightarrow A[i, j] = 0$$
+
+#### Propriété
+Pour $u \in \mathcal{L}(E)$, 
+$$Mat_{e}(u) \in \mathcal{D}_{n}(\mathbb{K}) \Leftrightarrow u = \forall i \in [\![1, n]\!], Vect(e_{i}) \text{ est stable par }u$$
+ie
+$$u(Vect(e_{i})) \subset Vect(e_{i})$$
+
+#### Remarque
+Si $u(x) = \lambda x$ avec $x \neq 0$
+On dit que $\lambda$ est valeur propre de $u$ et $x$ est vecteur propre associé à $\lambda$ de $u$
+
+Reformulation :
+$Mat_{e}(u)$ est diagonale ssi la base $e$ est formée de vecteurs propres, on dit alors que $u$ est diagonalisable et que la base $e$ diagonalise $u$. 
+
+## 2. Matrices triangulaires supérieures
+#### Rappel
+Pour $A \in \mathcal{M}_{n}(\mathbb{K})$,
+$$A \in \mathcal{T}^{\text{sup}}_{n} \Leftrightarrow \forall i, j \in [\![1, n]\!], i > j \Rightarrow A[i, j] = 0$$
+
+
+#### Propriété
+Soit $u \in \mathcal{L}(E)$, 
+$$Mat_{e}(i) \in \mathcal{T}^{\text{sup}}_{n}(\mathbb{K}) \Leftrightarrow \forall i \in [\![1, n]\!], Vect(e_{1}, \dots, e_{i})\text{ est stable par }u$$
+
+# IV. Matrices par blocs
+#### Théorème
+$$\begin{array}{r}
+n_{1}\updownarrow \\
+n_{2}\updownarrow
+\end{array}\overset{\begin{array}{c}
+p_{1}&p_{2} \\
+\leftrightarrow&\leftrightarrow
+\end{array}}{\left(\begin{array}{c|c}
+A&B \\ \hline
+C&D
+\end{array}\right)} \begin{array}{r}
+p_{1}\updownarrow \\
+p_{2}\updownarrow
+\end{array}\overset{\begin{array}{c}
+q_{1}&q_{2} \\
+\leftrightarrow&\leftrightarrow
+\end{array}}{\left(\begin{array}{c|c}
+A'&B' \\ \hline
+C'&D'
+\end{array}\right)} = \left(\begin{array}{c|c}
+AA'+BC'&AB'+BD' \\ \hline
+CA'+DC' & CB'+DD'
+\end{array}\right)$$
+
+#### ATTENTION
+$CA' \neq A'C$ cela n'existe pas
+
+#### Remarque 
+Ca marche si on divise encore plus les matrices (par 3 / 4 ...) pourvues qu'elles soient multipliables
+
+
+## 1. Cas particuliers fréquents pour les matrices carrées
+On a alors un cas particulier du type : 
+$$\left( \begin{array}{c|c}
+\space\space&&&\space\space \\ \hline
+&&& \\ \hline
+&&&
+\end{array} \right)$$
+La diagonale est formée de blocs carrés
+###### Matrice diagonale par blocs
+$$A = \left( \begin{array}{c|c}
+A_{1}&0&0&0\space\space \\ \hline
+0&A_{2}&0&0 \\ \hline
+0&0&A_{3}&0 \\ \hline
+0&0&0&A_{4}
+
+\end{array} \right)$$
+
+##### Interprétation géométrique
+Cela signifie que les sev suivants sont stables par $u$ :
+Pour $n_{1}, \dots, n_{k}$ la longueur des blocs de la matrice diagonale par blocs
+$$\begin{cases}
+E_{1} = Vect(e_{1}, \dots, e_{n_{1}}) \\
+E_{2} = Vect(e_{n_{1}+1}, \dots, e_{n_{1}+n_{2}}) \\
+\dots \\
+E_{n}  = Vect(e_{n_{1}+ \dots + n_{k-1}+1}, \dots, e_{n_{1}+\dots+n_{k}})
+\end{cases}$$
+$n_{1}+ \dots + n_{k} = n = \dim E$
+Et on a :
+$$\underset{i = 1}{\overset{k}{\oplus}}E_{i} = E$$
+
+## 2. Matrices triangulaires par blocs
+$$\begin{pmatrix}
+\boxed{A_{1, 1}}&\dots&\dots&\dots \\
+0&\boxed{A_{2, 2}}&\dots&\dots \\
+0&0&\boxed{A_{3, 3}}&\dots \\
+0&0&0&\boxed{A_{4, 4}}
+\end{pmatrix}$$
+La aussi on peut l'interpréter en termes de ssesp stables (exo)
+
+Par exemple si on a une matrice triangulaire supérieure $Mat_{e}(u)$ avec $n_{1}+n_{2}$ colonnes signifie que $Vect(e_{1}, \dots, e_{n_{1}})$ est stable par $u$
+
+#### Exercice
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+et $a, b, c, d \in \mathbb{K}$, 
+Déterminer le rang de 
+$$\left( \begin{array}{c|c}
+aA&bA \\ \hline
+cA&dA
+\end{array} \right)$$
+En fonction de $a, b, c, d$ et du rang de $A$
+
+
+#### Exercice
+Si $p_{F}$ est un projecteur sur $F // G$, il existe une base de $E$ tq 
+$$Mat_{e}(p_{F}) = \overset{\begin{array}{c}
+\text{Base de }F& \text{Base de }G
+\end{array}}{\left( \begin{array}{c|c}
+\begin{array}{c}
+I_{\dim F}
+\end{array} & \space\space\space\space\space0\space\space\space\space\space\\ \hline
+0 &0
+\end{array} \right)}$$
+De même pour $p_{G}, s_{F}, s_{G}$, 
+$$Mat_{e}(p_{G}) = \overset{\begin{array}{c}
+\text{Base de }F& \text{Base de }G
+\end{array}}{\left( \begin{array}{c|c}
+\begin{array}{c}
+\space\space\space\space\space0\space\space\space\space\space
+\end{array} & 0\\ \hline
+0 &I_{\dim G}
+\end{array} \right)}$$
+$$Mat_{e}(s_{F}) = \overset{\begin{array}{c}
+\text{Base de }F& \text{Base de }G
+\end{array}}{\left( \begin{array}{c|c}
+\begin{array}{c}
+I_{\dim F}
+\end{array} & 0\\ \hline
+0 &-I_{\dim G}
+\end{array} \right)}$$
+$$Mat_{e}(s_{G}) = \overset{\begin{array}{c}
+\text{Base de }F& \text{Base de }G
+\end{array}}{\left( \begin{array}{c|c}
+\begin{array}{c}
+-I_{\dim F}
+\end{array} & 0\\ \hline
+0 &I_{\dim G}
+\end{array} \right)}$$
+
+
+#### Remarque
+En prenant une base adaptée $e'$ a la décomposition de $E = G \oplus F$ 
+$$Mat_{e'}(p_{G}) = \overset{\begin{array}{c}
+\text{Base de }F& \text{Base de }G
+\end{array}}{\left( \begin{array}{c|c}
+\begin{array}{c}
+I_{\dim G}
+\end{array} & \space\space\space\space\space0\space\space\space\space\space\\ \hline
+0 &0
+\end{array} \right)}$$
+
+# V. Changements de bases
+## 1. Matrice de passage
+#### Définition
+Soit $E$ un ev de dim $n$ et $e, e'$ deux bases de $E$
+On appelle matrice de passage de $e$ vers $e'$ : 
+$$\mathcal{P}_{e}^{e'} = Mat_{e}(e')= Mat_{e', e}(Id_{E})$$
+
+#### Proposition
+Avec les notations précédentes : 
+$P_{e}^{e'} \in GL_{n}(\mathbb{K})$ et $(P_{e}^{e'})^{-1} = P_{e'}^{e}$ 
+On a mieux, si $e''$ est une troisième base : 
+$$P_{e}^{e'}P_{e'}^{e''} = P_{e}^{e''}$$
+
+Démonstration : 
+- Lemme : $P_{e}^{e} = I_{n}$ pour toute base $e$ de $E$
+  Démonstration : $P_{e}^{e} = Mat_{e, e}(Id_{E}) = Mat_{e}(Id_{E}) = I_{n}$ 
+  Car $Mat_{e}(Id_{E})$ est un morphisme d'anneau (Ez clap la démo)
+
+On a alors pour $e, e', e''$ bases de $E$, 
+$$\begin{array}{rl}
+P_{e}^{e'} P_{e'}^{e''}&=Mat_{e', e}(Id_{E})Mat_{e'', e'}(Id_{E}) \\
+&= Mat_{e, e''}(Id_{E} \circ  Id_{E}) \\
+&= Mat_{e, e''}(Id_{E}) \\
+&= P_{e}^{e''}
+\end{array}$$
+
+En prenant $e'' = e$, on obtiens $P_{e}^{e'}P_{e'}^{e''}=P_{e}^{e''} = I_{n}$
+Donc, $P_{e}^{e'}$ est inversible a gauche donc inversible (car c'est une matrice carrée) ainsi 
+$$(P_{e}^{e'})^{-1}=P_{e'}^{e}$$
+
+
+## 2. Changement de base pour un vecteur
+#### Théorème
+Soient $e, e'$ deux bases de $E$ et $x \in E$
+Avec les notations : 
+$$\begin{cases}
+P = P_{e}^{e'} \\
+X = Mat_{e}(x) \\
+X' = Mat_{e'}(x)
+\end{cases}$$
+Alors, 
+$$X = PX'$$
+Mnémotechnique : Honneur aux anciens (haha c marrant)
+On a les anciennes coordonnées en fonction des nouvelles. 
+
+Démonstration : 
+$$\begin{array}{rl}
+X &= Mat_{e}(x) \\
+&= Mat_{e}(Id_{E}(x)) \\
+&= Mat_{e', e}(Id_{E})Mat_{e'}(x) \\
+&= PX' \\
+\end{array}$$
+
+#### Remarque
+C'est donc fans le mauvais sens pour calculer $X'$ on doit inverser $P$ ou résoudre un système. 
+
+#### Exercice
+Soit $E$ muni d'une base $e = (e_{1}, e_{2})$
+Soit $e'_{1} = e_{1}+2e_{2}$, $e_{2}' = 2e_{1} + 3e_{2}$
+$e' = (e_{1}', e_{2}')$ (2 vecteurs non colinéaires en dim $2$)
+
+Soit $x = -e_{1}+e_{2}$
+Quelles sont les coordonnées de $x$ dans la base $e'$?
+$$\begin{cases}
+P = Mat_{e', e}(Id_{E}) = \begin{pmatrix}
+1&2 \\
+2&3
+\end{pmatrix} \\
+X = Mat_{e}(x) = \begin{pmatrix}
+-1 \\
+1
+\end{pmatrix}
+\end{cases}$$
+$$\begin{array}{rl}
+X' &= P^{-1}X \\
+&= \begin{pmatrix}
+-3&2 \\
+2&-1
+\end{pmatrix}\begin{pmatrix}
+-1 \\
+1 
+\end{pmatrix} \\
+&= \begin{pmatrix}
+5 \\
+-3
+\end{pmatrix}
+\end{array}$$
+Ainsi, 
+$$x = 5e_{1}'-3e_{2}'$$
+
+
+## 3. Changements de bases pour une application linéaire
+#### Théorème
+Soit $E, F$ de dimensions finies, 
+$e, e'$ deux bases de $E$
+$f, f'$ deux bases de $F$
+et $u \in \mathcal{L}(E, F)$, 
+En notant, 
+$$\begin{cases}
+P = P_{e}^{e'} \\
+Q = P_{f}^{f'} \\
+A = Mat_{e, f}(u) \\
+A' = Mat_{e', f'}(u)
+\end{cases}$$
+Alors, 
+$$A'=Q^{-1}AP$$
+
+Démonstration : 
+$$\begin{array}{c} 
+E, e'&\overset{Id_{E}}{\longrightarrow}& E, e \\
+u\downarrow&\circlearrowright&\downarrow u \\
+F, f' & \overset{Id_{F}}{\longleftarrow} & F, f
+\end{array}$$
+On a : $u = Id_{F} \circ u \circ Id_{E}$
+Donc, 
+$$Mat_{e', f'}(u) = Mat_{f, f'}(Id_{F})Mat_{e, f}(u)Mat_{e', e}(Id_{E})$$
+ie 
+$$A' = P_{f'}^{f}AP$$
+Ainsi : 
+$$A' = Q^{-1}AP$$
+
+#### Corollaire
+Pour les endomorphismes de $E$ en choisissant la même base de départ et à l'arrivé, $A = Mat_{e}(u)$ et $A' = Mat_{e'}(u)$ vérifiant : 
+$$A' = P^{-1}AP$$
+ou $P = P_{e}^{e'}$
+
+
+#### Exercice
+Soit $\Phi$ L'application linéaire connoniquement associé à la matrice : 
+$$\begin{pmatrix}
+1&2&3 \\
+4&5&6
+\end{pmatrix}$$
+($\Phi \in \mathcal{L}(\mathbb{R}^{3}, \mathbb{R}^{2})$)
+
+Soient $e' = ((1, 0, 0), (1, 1, 0), (1, 1, 1))$
+et $f' = ((1, 2), (2, 3))$
+Montrons que 
+$$\begin{cases}
+e' \text{ est une base de } \mathbb{R}^{3} \\
+f' \text{ est une base de } \mathbb{R}^{2}
+\end{cases}$$
+Puis calculer $Mat_{e', f'}(\Phi)$
+___
+$$Mat_{e}(e') = \begin{pmatrix}
+1&1&1 \\
+0&1&1 \\
+0&0&1
+\end{pmatrix}$$
+est inversible (triangulaire a coef diagonaux tous non nuls)
+
+
+
+
+En notant : 
+$$P = P_{e}^{e'} = \begin{pmatrix}
+1&1&1 \\
+0&1&1 \\
+0&0&1
+\end{pmatrix}$$
+et
+$$Q = P_{f}^{f'} = \begin{pmatrix}
+1&2 \\
+2&3
+\end{pmatrix}$$
+$$\begin{array}{rl}
+Mat_{e', f'}(\Phi) &= Q^{-1}AP \\
+&= \begin{pmatrix}
+-3&2 \\
+2&-1
+\end{pmatrix}\begin{pmatrix}
+1&2&3 \\
+4&5&6
+\end{pmatrix}\begin{pmatrix}
+1&1&1 \\
+0&1&1 \\
+0&0&1
+\end{pmatrix} \\
+&= \begin{pmatrix}
+5&4&3 \\
+-2&-1&0
+\end{pmatrix}\begin{pmatrix}
+1&1&1 \\
+0&1&1 \\
+0&0&1
+\end{pmatrix}  \\
+&= \begin{pmatrix}
+5&9&12 \\
+-2&-3&-3
+\end{pmatrix}
+\end{array}$$
+
+# VI. Matrices équivalentes et rang
+## 1. Relation d'équivalence et rang
+Soit $E$ de dimension finie $p$
+et $F$ de dimension finie $n$.
+#### Définition
+Pour $r \leq min(n, p)$
+On définit la matrice 
+$$J_{r} \in \mathcal{M}_{n, p}(\mathbb{K})$$
+par blocs : 
+$$J_{r} = \left( \begin{array}{c|c}
+I_{r} & 0  \\ \hline
+0&0
+\end{array} \right)$$
+
+#### Théorème
+Soit $u \in \mathcal{L}(E, F)$ et $r \leq min(n, p)$
+Alors, 
+$$
+rg(u) = r \Leftrightarrow \begin{cases}
+\exists e \text{ base de }E \\
+\exists f \text{ base de }F \\
+Mat_{e, f}(u) = J_{r}
+\end{cases}$$
+
+Démonstration : 
+$\Leftarrow$ : est immédiat car avec $e, f$ tq 
+$$Mat_{e, f}(u) = J_{r}, \space rg(u) = rg(Mat_{e, f}(u))=rg(J_{r})= r$$
+Car $J$ est échelonnée par colonne avec $r$ colonnes non nulles. 
+
+$\Rightarrow :$ Notons $r = rg(u)$
+Soit $S$ un supplémentaire de $\text{Ker }u$ (existe car $E$ est de dimension finie)
+On choisit une base de $e$ adaptée à la décomposition : 
+$$E = S \oplus \text{Ker }u$$
+On sait que $S$ est isomorphe à $\mathrm{Im}(u)$
+Donc, 
+$\dim S = rg(u) = r$.
+Cette base s'écrit : 
+$$e = (e_{1}, \dots, e_{r}, e_{r+1}, \dots, e_{p})$$
+avec
+$(e_{1}, \dots, e_{r})$ une base de $S$
+$(e_{r+1}, \dots, e_{p})$ une base de $\text{Ker }u$
+
+Comme $u$ induit un isomorphisme de $S$ vers 
+en notant $f_{1} = u(e_{1}), \dots, f_{r}=u(e_{r})$ 
+on obtiens une base : $(f_{1}, \dots, f_{r})$ de $\mathrm{Im}(u)$
+
+On complète cette famille libre en une base de $F$, 
+$$f = (f_{1}, \dots, f_{r}, f_{r+1}, \dots, f_{n})$$
+On a tout fait pour que
+$$Mat_{e, f}(u) = Excal 4$$
+
+#### Définition
+$M, M' \in \mathcal{M}_{n, p}(\mathbb{K})$ sont dites équivalentes ssi 
+$$\exists(P, Q) \in GL_{p}(\mathbb{K}) \times GL_{n}(\mathbb{K}), M' = Q^{-1}MP$$
+
+#### Remarque Importante 
+Cela équivaut a ce qu'il existe une application linéaire $u \in \mathcal{L}(E, F)$ et des bases : $\begin{cases}e, e' \text{ de } E \\ f, f' \text{ de }F\end{cases}$
+tq
+$$\begin{cases}
+M = Mat_{e, f}(u) \\
+M' = Mat_{e', f'}(u)
+\end{cases}$$
+
+#### Remarque
+On peut supprimer l'exposant -1 dans la définition sans changer la notion d'équivalence, mais on perd l'interprétation géométrique
+
+#### Propriété
+Cette relation est une relation d'équivalence sur $\mathcal{M}_{n, p}(\mathbb{K})$
+
+#### Théorème
+Deux matrices de mêmes dimensions sont équivalentes ssi elles ont le même rang.
+
+##### Reformulation
+Sur $\mathcal{M}_{n, p}(\mathbb{K})$, on a : $min(n, p)+1$ classes d'équivalences, dont un système de représentants est : $(J_{r})_{r = 0}^{min(n,p)+1}$
+On dit que le rang est "invariant complet" de la relation d'équivalence sur $\mathcal{M}_{n, p}(\mathbb{K})$, 
+
+#### Corollaire
+$$\forall M \in \mathcal{M}_{n, p}(\mathbb{K}), rg(M^{T}) = rg(M)$$
+
+Démonstration : 
+Soit $M \in \mathcal{M}_{n, p}(\mathbb{K})$ de rang $r$, 
+Il existe : $(P, Q) \in GL_{p}(\mathbb{K}) \times GL_{n}(\mathbb{K})$ tq
+$$M = Q^{-1}J_{r}^{n, p}P$$
+Alors, 
+$$M^{T} = P^{T}J_{r}^{p, n}(Q^{-1})^{T} = ((P^{T})^{-1})^{-1} J_{r}^{p, n}(Q^{-1})^{T}$$
+Avec $(Q^{-1})^{T} \in GL_{n}(\mathbb{K})$ et $(P^{T})^{-1} \in GL_{p}(\mathbb{K})$
+(La transposée d'une inversible est inversible)
+
+Ainsi, $M^{T}$ est équivalente à $J^{p, n}_{r}$
+Donc, 
+$$rg(M^{T}) = r$$
+
+#### Corollaire
+Le rang d'une matrice est le nombre de pivots obtenus, que l'on applique l'algorithme du pivot par lignes ou par colonnes.
+C'est aussi le rang de la famille de ses vecteurs lignes.
+
+
+## 2. Matrices extraites et rang
+#### Définition
+Soit $A = (a_{i, j}) \in \mathcal{M}_{n, p}(\mathbb{K})$
+Une matrice extraite de $A$ est une matrice de la forme : 
+$$(a_{i_{k}, j_{l}})_{(k, l) \in [\![1, n]\!] \times [\![1, p]\!]}$$
+avec $(i_{k})_{k}$ et $(j_{l})_{l}$ deux suites finies strictements croissantes a valeurs dans $[\![1, n]\!]$ et $[\![1, p]\!]$
+
+#### Exemple
+$$\begin{array}{r}
+ \\
+i_{1} \\
+ \\
+i_{2} \\
+i_{3}
+\end{array}\overset{\begin{array}{l}
+\space\space\space\space f_{1}&&&f_{2}
+\end{array}}{\left( \begin{array}{c|c}
+&&&&& \\ \hline
+&&a&&a& \\ \hline
+ \\ \hline
+&&c&&d \\ \hline
+&&e&&f&
+\end{array} \right)}$$
+Une matrice extraite est : 
+$$\begin{pmatrix}
+a&b \\
+c&d \\
+e&f
+\end{pmatrix}$$
+
+De manière équivalente : 
+Un matrice extraire de $A$ est une matrice : $(a_{\phi(i), \psi(j)})_{i, y}$
+ou 
+$$\begin{cases}
+\phi : [\![1, N]\!] \to [\![1, n]\!] \\
+\psi : [\![1, P]\!] \to [\![1, p]\!]
+\end{cases}$$
+Sont strictements croissante
+
+##### Reformulation
+On sélectionne certaines lignes et vecteurs colonnes ou, si on préfère, on barre les lignes et les colonnes non choisies. 
+
+#### Théorème
+Le rang s'une matrice extraire de $A$ est inférieure  ou égale à $rg(A)$
+
+###### Lemme
+Soient $A \in \mathcal{M}_{n, p}(\mathbb{K})$, 
+$\psi : [\![1, P]\!] \to [\![1, p]\!] \uparrow$ stricte
+Alors, 
+$$rg((a_{i, \psi(j)})_{(i, j) \in [\![1, n]\!] \times [\![1, P]\!]})\leq rg(A)$$
+
+#### Théorème
+Soit $A \in \mathcal{M}_{n, p}(\mathbb{K})$ non nulle
+Alors, $rg(A)$ est le maximum des ordres des matrices carrées inversibles extraits de $A$
+
+C'est aussi le maximum des rang des matrices carrées extraits de $A$
+
+(L'ordre d'une matrice carrée est son nombre de lignes / colonnes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+$$\left( \begin{array}{c|c}
+
+\end{array} \right)$$

@@ -102,7 +102,7 @@ $\overrightarrow{OM} = r\vec{e}_{r}$
 $\vec{v} = \dot{r}\vec{e}_{r} + r \dot{\theta} \vec{e}_{\theta}$
 car la trajectoire est plane donc $z = \text{cte}$ choisie a $O$
 Donc, 
-$$\vec{\sigma}_{O}(M) = \overrightarrow{OM} \wedge m\vec{v} = r\vec{e}_{r} \wedge m(r \vec{e}_{r} + e \dot{\theta} \vec{e}_{\theta})$$
+$$\vec{\sigma}_{O}(M) = \overrightarrow{OM} \wedge m\vec{v} = r\vec{e}_{r} \wedge m(\dot{r} \vec{e}_{r} + r \dot{\theta} \vec{e}_{\theta})$$
 $$\vec{\sigma}_{O}(M) = r\vec{e}_{r} \wedge mr \dot{\theta} \vec{e}_{\theta}$$
 $$\vec{\sigma}_{O}(M) = mr^{2} \dot{\theta} \vec{e}_{z} = \overrightarrow{\text{cte}}$$
 Or, $m = \text{cte}$ et $\vec{e}_{z} = \overrightarrow{\text{cte}}$
@@ -375,7 +375,7 @@ Un satellite géostationnaire en orbite autour de la Terre reste toujours a la v
 - Le point fixe a la verticale d'un satellite géostationnaire se situe sur l'équateur. 
 
 Déterminons le rayon $R_{g}$ de l'orbite géostationnaire. 
-$$\frac{R_{g}^{3}}{T_{sid}} = \frac{GM_{T}}{4\pi^{2}}$$
+$$\frac{R_{g}^{3}}{T^{2}_{sid}} = \frac{GM_{T}}{4\pi^{2}}$$
 $$R_{g} = \left(\frac{GM_{T}T_{sid}^{2}}{4\pi^{2}}\right)^{\frac{1}{3}} \approx 42 000 \text{ km}$$
 On en déduit l'altitude des satellites géostationnaires :
 $$h_{g} = R_{g} - R_{T}$$

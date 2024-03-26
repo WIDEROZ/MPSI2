@@ -73,7 +73,7 @@ $$\sigma_{Oz} = \left( \sum_{i=  1}^{n} m_{i}r_{i}^{2}\right)\dot{\theta} $$
 
 
 #### Définition
-Soit $\mathcal{S}$ un solide en rotation autour de l'axe fixe $\Delta$ a la vitesse angulaire $\omega$
+Soit $\mathcal{S}$ un solide en rotatioèn autour de l'axe fixe $\Delta$ a la vitesse angulaire $\omega$
 - Le moment cinétique de $\mathcal{S}$ par rapport a $\Delta$ est : 
   $$\sigma_{\Delta} = J_{\Delta} \omega$$
 - $J_{\Delta} = \sum_{i = 1}^{n} m_{i}r_{i}^{2}$ le moment d'inertie du solide par rapport a $\Delta$.
@@ -225,7 +225,7 @@ $$\boxed{T = T_{0}\left( 1+ \frac{\theta_{0}^{2}}{16} \right)}$$
 
 ## 4. Bilan énergétique
 On multiplie Le TMC par $\dot{\theta}$ : 
-$$\frac{1}{2}J_{Oz} \frac{d\dot{\theta}^{2}}{dt} = mgd d \frac{\cos \theta}{dt}$$
+$$\frac{1}{2}J_{Oz} \frac{d\dot{\theta}^{2}}{dt} = mgd \frac{d\cos \theta}{dt}$$
 $$\frac{d}{dt}\left( \frac{1}{2}J_{Oz}\dot{\theta}^{2} - mgd\cos \theta \right) = 0$$
 On a alors : 
 $$E_{c} = \frac{1}{2}J_{Oz}\dot{\theta}^{2}$$

@@ -248,7 +248,7 @@ Soit $y \in a + F$,
 Il s'écrit $y = a +x$ avec $x \in F$
 Pour $i \in I$ on a $a \in \mathcal{F}_{i}$
 et $x \in F_{i}$ donc, $a+x \in \mathcal{F}_{i}$
-Ainsi $x \in \mathcal{F}$
+Ainsi $y=a+x \in \mathcal{F}$
 
 On a prouvé que $\mathcal{F} = a + F$
 Donc, C'est un ssesp affine de direction $F$
