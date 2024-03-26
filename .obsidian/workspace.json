@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "abd1d7b12042a446",
+        "id": "fd113792700d77d8",
         "type": "tabs",
         "children": [
           {
-            "id": "5460c68f19965512",
+            "id": "c4bd039e0672bec6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -96,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Untitled.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -141,15 +133,19 @@
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false
     }
   },
-  "active": "5460c68f19965512",
+  "active": "c4bd039e0672bec6",
   "lastOpenFiles": [
-    "Pasted image 20231213102843.png",
+    "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
+    "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
+    "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
     "Untitled.md",
+    "2024-03-26.md",
+    "Excalidraw/Drawing 2024-03-26 17.38.48.excalidraw.md",
+    "Pasted image 20231213102843.png",
     "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
     "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
     "Mathématiques/Cours/C02/C02-InegalitesR.pdf",
@@ -177,13 +173,9 @@
     "Info/TP/TP11/script.py",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Physique-Chimie/Cours/Thème 3/T3C1",
-    "Physique-Chimie/Cours/Thème 3",
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C22/Formulaire.md",
-    "Mathématiques/TD/E17",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
-    "Mathématiques/Cours/C21/C21.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
