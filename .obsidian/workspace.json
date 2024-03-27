@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "6d68caeb86870474",
+        "id": "3a6bba9c330264e6",
         "type": "tabs",
         "children": [
           {
-            "id": "7e1b9a9c99bb6016",
+            "id": "ad46f7409177fc7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Brouillon.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "f4229de45328b50c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C22/C22.md"
               }
             }
           }
@@ -106,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -158,11 +148,11 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "7e1b9a9c99bb6016",
+  "active": "ad46f7409177fc7a",
   "lastOpenFiles": [
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
-    "Untitled.md",
+    "Brouillon.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
@@ -172,7 +162,7 @@
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
     "2024-03-26.md",
     "Excalidraw/Drawing 2024-03-26 17.38.48.excalidraw.md",
-    "Pasted image 20231213102843.png",
+    "LA KONSTANTE.png",
     "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
     "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
     "Mathématiques/Cours/C02/C02-InegalitesR.pdf",

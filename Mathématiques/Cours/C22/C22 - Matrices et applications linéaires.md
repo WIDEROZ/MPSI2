@@ -1531,7 +1531,135 @@ Si $Q = 2X^{2}-4$,
 $$Q(A) = 2A^{2}-4I_{n}$$
 
 On a alors,
-$$c_{P}(Q(A)) = Qc_{P}(A) \Leftrightarrow c_{P}$$
+$$c_{P}(Q(A)) = Q(c_{P}(A)) \Rightarrow c_{P}(2A^{2}-4I_{n}) = 2(c_{P}(A))^{2} - 4 I_{n}$$
+Comme c'est un isomorphisme d'ev, et un isomorphisme d'anneau on a : 
+$$\Rightarrow 2c_{P}(A^{2}) -4c_{P}(I_{n}) = 2(c_{P}(A))^{2}-4I_{n}$$
+
+#### Corollaire
+Les faits suivants sont invariants par similitude
+- Etre inversible
+- Etre une matrice de projection
+- Etre une matrice de symétrie
+
+
+## 2. Trace
+#### Définition
+Pour $A = (a_{i, j}) \in \mathcal{M}_{n}(\mathbb{K})$
+sa trace est : 
+$$tr(A) = \sum_{i = 0}^{n}a_{i, i}$$
+
+
+#### Exemple
+$$tr\begin{pmatrix}
+1&2&3 \\
+4&5&6 \\
+7&8&9
+\end{pmatrix} = 15$$
+
+#### Propriété
+$$tr : \mathcal{M}_{n}(\mathbb{K}) \to \mathbb{K}$$
+est une forme linéaire non nul
+Démonstration : (Faire la démo pour que ca soit un application linéaire)
+On a :
+$$tr\begin{pmatrix}
+1
+\end{pmatrix} = 1$$
+par définition, ainsi $tr \neq 0_{\mathcal{L}(\mathcal{M}_{n}(\mathbb{K}), \mathbb{K})}$
+
+#### Remarque
+$\text{Ker }tr$ est un hyperplan de $\mathcal{M}_{n}(\mathbb{K})$ de dimension $n^{2}-1$
+
+#### Théorème
+$$\forall(A, B) \in \mathcal{M}_{n, p}(\mathbb{K}) \times \mathcal{M}_{p, n}(\mathbb{K}), tr(AB) = tr(BA)$$
+
+Démonstration : 
+Soient,
+$$\begin{cases}
+A = (a_{i, j})_{i, j} \in \mathcal{M}_{n, p}(\mathbb{K}) \\
+B = (b_{j, i})_{j, i} \in \mathcal{M}_{p,n }(\mathbb{K})
+\end{cases}$$
+Alors, 
+$$\begin{array}{rl}
+tr(AB) &= \sum_{i = 1}^{n}(AB)[i, i] \\
+&= \sum_{i = 1}^{n}\sum_{j = 1}^{p}a_{i, j}b_{j, i} \\
+&= \sum_{j = 1}^{p}\sum_{i = 1}^{n}b_{j, i}a_{i, j} \\
+&= \sum_{j = 1}^{p}(BA)[j, j] \\
+&= tr(BA)
+\end{array}$$
+
+
+#### Corollaire
+La trace est un invariant de similitudes
+
+Démonstration : 
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+Pour $P \in GL_{n}(\mathbb{K})$, 
+$$\begin{array}{rl}
+tr(P^{-1}AP) &= tr(P^{-1}(AP)) \\
+&= tr((AP)P^{-1}) \\
+&= tr(A(PP^{-1})) \\
+&= tr(A)
+\end{array}$$
+
+#### Définition
+Soit $E$ un $\mathbb{K}$-ev de dimension finie et $u \in \mathcal{L}(E)$
+Toutes les matrices représentant $u$ par choix de bases de $E$ ont la même trace (car elles sont semblables), cette trace commune est appelée la trace de $u$ et noté : $tr(u)$
+
+#### Propriété
+Pour $E$ de dimension finie, l'application : 
+$$\begin{cases}
+\mathcal{L}(E) \to \mathbb{K} \\
+u \mapsto tr(u)
+\end{cases}$$
+est un application linéaire non nulle sur $\mathcal{L}(E)$.
+
+#### Propriété
+$$\forall u, v \in \mathcal{L}(E), tr(u \circ v ) = tr(v \circ  u)$$
+
+
+#### Propriété
+Pour un projecteur $p$ d'un espace de dimension finie. 
+$$tr(p) = rg(p)$$
+
+Démonstration : 
+Dans une base convenable $e$,
+$$Mat_{e}(p) = \left( \begin{array}{c|c}
+I_{r}&0 \\ \hline
+0&0
+\end{array} \right)$$
+avec $r = rg(p)$
+Donc, 
+$$tr(p) = r$$
+
+#### Exercice
+Déterminer les classes de similitudes de l'ensemble des matrice suivantes : 
+$$\begin{pmatrix}
+1&1 \\
+0&1
+\end{pmatrix}, \begin{pmatrix}
+1&1 \\
+0&2
+\end{pmatrix}, \begin{pmatrix}
+1&0 \\
+0&2
+\end{pmatrix}, \begin{pmatrix}
+1&0 \\
+0&3
+\end{pmatrix}, \begin{pmatrix}
+0&1 \\
+0&2
+\end{pmatrix}, \begin{pmatrix}
+3&1 \\
+0&-1
+\end{pmatrix}$$
+
+
+# VIII. Rappels et compléments sur les opérations élémentaires
+Voir en SOLO
+
+
+
+
 
 
 
