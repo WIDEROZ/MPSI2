@@ -4,22 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "1cbe8d425137d988",
+        "id": "a614d9a31a3df92e",
         "type": "tabs",
         "children": [
           {
-            "id": "ace7bfaf34610cec",
+            "id": "b2351f63cb10073c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FR Philo/Kholle/Format.md",
+                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "fc5b7cb2a92d7370",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "4ba002f55345c05a",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FR Philo/Kholle/Format.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FR Philo/Kholle/Format.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FR Philo/Kholle/Format.md"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -148,8 +169,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ace7bfaf34610cec",
+  "active": "fc5b7cb2a92d7370",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+    "FR Philo/Kholle/Format.md",
     "Anglais/Cours/03-27.md",
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
@@ -187,8 +210,6 @@
     "Mathématiques/TD/E20/E20.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
-    "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
-    "Mathématiques/TD/E21/E21.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
