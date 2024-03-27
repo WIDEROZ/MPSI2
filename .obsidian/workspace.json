@@ -4,23 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "74af5ea4fdc329be",
+        "id": "6d68caeb86870474",
         "type": "tabs",
         "children": [
           {
-            "id": "d15bac793755cc87",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "635b5956bae953d6",
+            "id": "7e1b9a9c99bb6016",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f4229de45328b50c",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C22/C22.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,13 +158,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "635b5956bae953d6",
+  "active": "7e1b9a9c99bb6016",
   "lastOpenFiles": [
-    "Untitled.md",
+    "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Untitled.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
-    "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",

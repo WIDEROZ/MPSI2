@@ -1365,11 +1365,28 @@ On sélectionne certaines lignes et vecteurs colonnes ou, si on préfère, on ba
 #### Théorème
 Le rang s'une matrice extraire de $A$ est inférieure ou égale à $rg(A)$
 
+Démonstration (pas très formel, mais c'est pour donner une idée) : 
+On note : $A = (a_{i, j})_{\underset{1\leq j\leq p}{1\leq i\leq n}}$ et $A' = (a_{\phi(i), \psi(j)})_{\underset{1\leq j\leq P}{1\leq i\leq N}}$
+Mq $rg(A') \leq rg(A)$,
+On pose $A'' = (a_{i, \psi(j)})_{\underset{1\leq j\leq P}{1\leq i\leq n}}$,
+Alors, 
+par le lemme, $rg(A'')\leq rg(A)$
+par le lemme, $rg(A'^{T}) \leq rg(A''^{T})$
+Comme le rang est invariant par transposition : 
+$$rg(A') \leq rg(A'') \leq rg(A)$$
+
 ###### Lemme
 Soient $A \in \mathcal{M}_{n, p}(\mathbb{K})$, 
 $\psi : [\![1, P]\!] \to [\![1, p]\!] \uparrow$ stricte
 Alors, 
 $$rg((a_{i, \psi(j)})_{(i, j) \in [\![1, n]\!] \times [\![1, P]\!]})\leq rg(A)$$
+
+Démonstration : 
+Avec les notations précédentes, mq 
+$$rg(A'') \leq rg(A)$$
+Or les vecteurs colonnes de $A''$ forment une sous famille de la famille des vecteurs colonnes de $A$ donc, $\mathrm{Im}(A'') \subset \mathrm{Im}(A)$
+Ainsi, 
+$$rg(A'') \leq rg(A)$$
 
 #### Théorème
 Soit $A \in \mathcal{M}_{n, p}(\mathbb{K})$ non nulle
@@ -1379,12 +1396,142 @@ C'est aussi le maximum des rang des matrices carrées extraits de $A$
 
 (L'ordre d'une matrice carrée est son nombre de lignes / colonnes)
 
+Démonstration (pas très formel, mais c'est pour donner une idée) : 
+Il y a des inégalités conséquence du théorème précédent. 
+La seule chose a prouver c'set si on note $r = rg(A)$, il existe une matrice carrée d'ordre $r$ inversible extraite de $A$. 
+
+C'est pas fini mais flemme
+
+# VII. Matrices semblables et traces
+## 1. Similitudes
+#### Définition
+Soient $A, A' \in \mathcal{M}_{n}(\mathbb{K})$, 
+On dit qu'elles sont semblables ssi 
+$$\exists P \in GL_{n}(\mathbb{K}), A' = P^{-1}AP$$
+
+#### Remarque Importante
+Cela équivaut a ce qu'elles puissent représenter un même endomorphisme d'un ev de dim $n$ dans deux bases de cet espace. 
+
+#### Exercice
+Monter que :
+$$\begin{pmatrix}
+1&1 \\
+0&1
+\end{pmatrix} \text{ et } \begin{pmatrix}
+1&42 \\
+0&1
+\end{pmatrix}$$
+Sont semblables
+$$\begin{pmatrix}
+1&0 \\
+0&\frac{1}{42}
+\end{pmatrix}$$
+
+Mq 
+$$\begin{pmatrix}
+1&0 \\
+0&1
+\end{pmatrix} \text{ et } \begin{pmatrix}
+1&0 \\
+0&42
+\end{pmatrix}$$
+ne le sont pas
+
+#### Exercice
+Est-ce que : 
+$$A = \begin{pmatrix}
+1&0 \\
+0&2
+\end{pmatrix} \text{ et }  A' = \begin{pmatrix}
+2&0 \\
+0&3
+\end{pmatrix}$$
+le sont
 
 
+Si elle l'étaient, elles représenteraient le même endomorphisme d'ev dans des bases différentes et :
+$$\exists P \in GL_{n}(\mathbb{K}), A'= P^{-1}AP$$
+On note $u_{A} \in \mathcal{L}(\mathbb{K}^{2})$, l'application linéaire canoniquement associé a la matrice $A$, alors : $A = Mat_{can}(u_{A})$
+Alors par la formule de changement de base :
+$$A' = Mat_{e}(u_{A})$$
+ou $e$ est donnée par $P_{can}^{e} = P$
+On veut que $u_{A}(c_{1}) = c_{1}$
+En écrivant $c_{1}$ dans la base de $e$, 
+$$c_{1} = \lambda e_{1} + \mu e_{2}$$
+avec $\lambda, \mu \in \mathbb{K}$ deux tous non nuls
+et 
+$$\begin{array}{rl}
+Mat_{e}(u_{A}(c_{1})) &= Mat_{e}(u_{A})Mat_{e}(c_{1}) \\
+&= \begin{pmatrix}
+2&0 \\
+0&3
+\end{pmatrix} \begin{pmatrix}
+\lambda \\
+\mu
+\end{pmatrix} \\
+&= \begin{pmatrix}
+2\lambda \\
+3\mu
+\end{pmatrix} \\
+&\neq \begin{pmatrix}
+\lambda \\
+\mu
+\end{pmatrix} = Mat_{e}(c_{1})
+\end{array}$$
+CONTRADICTION
+
+#### Exercice
+Déterminer les matrices semblables à $\lambda I_{n}$,
+On a : 
+- $\lambda I_{n}$ 
+
+###### Analyse
+Supposons que $M$ soit semblable à $\lambda I_{n}$
+Alors il existe $P \in GL_{n}(\mathbb{K})$, tq
+$$\begin{array}{rl}
+M &= P\lambda I_{n}P^{-1} \\
+M &= \lambda PP^{-1} \\
+&= \lambda I_{n}
+\end{array}$$
+
+#### Remarque
+Contrairement au cas des matrices équivalentes on ne peut pas changer l'exposant $-1$ de $P$ dans la définition
+
+Cependant on aurait pu l'écrire : 
+$$\exists P \in GL_{n}(\mathbb{K}), A' = PAP^{-1}$$
+car ($P = (P^{-1})^{-1}$)
 
 
+#### Propriété
+La similitude implique l'équivalence. 
 
+#### Corollaire
+Le rang est un invariant de similitude
 
+#### Propriété
+La similitude est une relation d'équivalence
+Démo : ez
+
+#### Propriété
+Soit $P \in GL_{n}(\mathbb{K})$, 
+Alors, 
+$$c_{P} : \begin{cases}
+ \mathcal{M}_{n}(\mathbb{K}) \to \mathcal{M}_{n}(\mathbb{K}) \\
+A \mapsto P^{-1}AP
+\end{cases}$$
+est un isomorphisme d'algèbre. 
+
+Démonstration : 
+$c_{P}$ représente les CL par bilinéarité du produit matriciel, $c_{P}(I_{n}) =I_{n}$ et $c_{P}$ préserve le produit : 
+Pour $A, B \in \mathcal{M}_{n}(\mathbb{K})$,
+$$P^{-1}ABP = P^{-1}APP^{-1}BP$$
+
+#### Exemple
+Si $Q = 2X^{2}-4$, 
+$$Q(A) = 2A^{2}-4I_{n}$$
+
+On a alors,
+$$c_{P}(Q(A)) = Qc_{P}(A) \Leftrightarrow c_{P}$$
 
 
 
