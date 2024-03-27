@@ -11,8 +11,12 @@
             "id": "d15bac793755cc87",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled.md"
+              }
             }
           }
         ]
@@ -142,6 +150,8 @@
   },
   "active": "d15bac793755cc87",
   "lastOpenFiles": [
+    "Pasted image 20240327082915.png",
+    "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
@@ -189,7 +199,6 @@
     "Pasted image 20240205155148 1.png",
     "Pasted image 20240205155148.png",
     "Pasted image 20240205155147 2.png",
-    "Pasted image 20240205155147.png",
     "Untitled.canvas"
   ]
 }
