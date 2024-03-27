@@ -32,6 +32,30 @@
             }
           },
           {
+            "id": "5ddfe43007126874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C22/Formulaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "7400f3daf59a80d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C16/C16 - Polynômes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "4ba002f55345c05a",
             "type": "leaf",
             "state": {
@@ -40,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C16/C16 - Polynômes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +158,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C16/C16 - Polynômes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +170,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
+                "file": "Mathématiques/Cours/C16/C16 - Polynômes.md"
               }
             }
           }
@@ -169,8 +193,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "fc5b7cb2a92d7370",
+  "active": "7400f3daf59a80d0",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C22/Formulaire.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "FR Philo/Kholle/Format.md",
     "Anglais/Cours/03-27.md",
@@ -184,7 +210,6 @@
     "Anglais/Cours/01-24.md",
     "Brouillon.md",
     "Mathématiques/Cours/C22/C22.md",
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
@@ -209,7 +234,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Mathématiques/TD/E20/E20.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
-    "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
