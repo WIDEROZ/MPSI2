@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fd113792700d77d8",
+        "id": "74af5ea4fdc329be",
         "type": "tabs",
         "children": [
           {
-            "id": "c4bd039e0672bec6",
+            "id": "d15bac793755cc87",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -134,11 +134,18 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "vscode-editor:Create Code File": false,
+      "terminal:Open terminal": false
     }
   },
-  "active": "c4bd039e0672bec6",
+  "active": "d15bac793755cc87",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C22/C22.md",
+    "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
     "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
@@ -163,17 +170,12 @@
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/TD/E21/E21.md",
     "Mathématiques/TD/E20",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
-    "Mathématiques/TD/E21",
-    "Info/TP/TP11/script.py",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
-    "Physique-Chimie/Cours/Thème 3/T3C1",
-    "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C22/Formulaire.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
