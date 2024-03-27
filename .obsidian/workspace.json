@@ -8,36 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "919b37d2db65ceef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "20a04c30b23a7134",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anglais/Cours/Vocabulaire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ace7bfaf34610cec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Cours/03-27.md",
+                "file": "FR Philo/Kholle/Format.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
+                "file": "FR Philo/Kholle/Format.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
+                "file": "FR Philo/Kholle/Format.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md"
+                "file": "FR Philo/Kholle/Format.md"
               }
             }
           }
@@ -172,12 +148,12 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "919b37d2db65ceef",
+  "active": "ace7bfaf34610cec",
   "lastOpenFiles": [
     "Anglais/Cours/03-27.md",
+    "Anglais/Cours/Vocabulaire.md",
     "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
     "Anglais/Exos/Alabama decision.md",
-    "Anglais/Cours/Vocabulaire.md",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "LA KONSTANTE.png",
     "Anglais/Cours/03-20.md",
