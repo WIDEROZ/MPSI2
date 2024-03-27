@@ -1363,7 +1363,7 @@ Sont strictements croissante
 On sélectionne certaines lignes et vecteurs colonnes ou, si on préfère, on barre les lignes et les colonnes non choisies. 
 
 #### Théorème
-Le rang s'une matrice extraire de $A$ est inférieure  ou égale à $rg(A)$
+Le rang s'une matrice extraire de $A$ est inférieure ou égale à $rg(A)$
 
 ###### Lemme
 Soient $A \in \mathcal{M}_{n, p}(\mathbb{K})$, 

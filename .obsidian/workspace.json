@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "635b5956bae953d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Untitled.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled.md"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -148,18 +161,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "d15bac793755cc87",
+  "active": "635b5956bae953d6",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
     "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
-    "Untitled.md",
     "2024-03-26.md",
     "Excalidraw/Drawing 2024-03-26 17.38.48.excalidraw.md",
     "Pasted image 20231213102843.png",
@@ -198,7 +211,6 @@
     "Pasted image 20240205155148 2.png",
     "Pasted image 20240205155148 1.png",
     "Pasted image 20240205155148.png",
-    "Pasted image 20240205155147 2.png",
     "Untitled.canvas"
   ]
 }
