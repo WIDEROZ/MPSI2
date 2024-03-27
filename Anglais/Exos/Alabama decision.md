@@ -12,5 +12,3 @@ IVF clinics can close their doors to dodge pursuits.
 # Is there any such law anywhere in the States?
 There is no one laws like this in the USA, but some states are considering adding similar laws in (Florida, Tennessee, Kansas Iowa, West Virginia)
 
-#### Correction
-Life begining at fer

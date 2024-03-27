@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Exos/Alabama decision.md",
+                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/Exos/Alabama decision.md",
+                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/Exos/Alabama decision.md",
+                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/Exos/Alabama decision.md"
+                "file": "Anglais/Exos/Abortion Shield laws - A new war between the States.md"
               }
             }
           }
@@ -175,8 +175,11 @@
   "active": "919b37d2db65ceef",
   "lastOpenFiles": [
     "Anglais/Cours/03-27.md",
-    "Anglais/Cours/Vocabulaire.md",
+    "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
     "Anglais/Exos/Alabama decision.md",
+    "Anglais/Cours/Vocabulaire.md",
+    "Anglais/Exos/Les tags reprise du verbe.pdf",
+    "LA KONSTANTE.png",
     "Anglais/Cours/03-20.md",
     "Anglais/Cours/01-31 Synthèse.md",
     "Anglais/Cours/01-24.md",
@@ -192,7 +195,6 @@
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
     "2024-03-26.md",
     "Excalidraw/Drawing 2024-03-26 17.38.48.excalidraw.md",
-    "LA KONSTANTE.png",
     "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
     "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
     "Mathématiques/Cours/C02/C02-InegalitesR.pdf",
@@ -211,8 +213,6 @@
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/TD/E21/E21.md",
-    "Mathématiques/TD/E20",
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
