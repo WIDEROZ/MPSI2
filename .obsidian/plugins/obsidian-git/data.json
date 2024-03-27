@@ -1,7 +1,7 @@
 {
-  "commitMessage": "obsidian commit : {{date}}",
-  "commitDateFormat": "Le DD-MM à HH:mm",
-  "autoSaveInterval": 0.1,
+  "commitMessage": "Obsidian auto-commit : Le {{date}}",
+  "commitDateFormat": "DD-MM à HH:mm",
+  "autoSaveInterval": 60,
   "autoPushInterval": 0,
   "autoPullInterval": 0,
   "autoPullOnBoot": false,
