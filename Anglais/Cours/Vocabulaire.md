@@ -51,3 +51,4 @@ Planned parenthood : is a nonprofit organisation that provide a variety of repro
 Swing states : States witch sometimes vote for démocrates and sometimes votes for republican
 
 Trigger laws 
+SCOTUS : Supreme court of USA

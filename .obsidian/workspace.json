@@ -4,16 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "3a6bba9c330264e6",
+        "id": "1cbe8d425137d988",
         "type": "tabs",
         "children": [
           {
-            "id": "ad46f7409177fc7a",
+            "id": "919b37d2db65ceef",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/Alabama decision.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "20a04c30b23a7134",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anglais/Cours/Vocabulaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ace7bfaf34610cec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anglais/Cours/03-27.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/Alabama decision.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/Alabama decision.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Anglais/Exos/Alabama decision.md"
               }
             }
           }
@@ -148,11 +172,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "ad46f7409177fc7a",
+  "active": "919b37d2db65ceef",
   "lastOpenFiles": [
+    "Anglais/Cours/03-27.md",
+    "Anglais/Cours/Vocabulaire.md",
+    "Anglais/Exos/Alabama decision.md",
+    "Anglais/Cours/03-20.md",
+    "Anglais/Cours/01-31 Synthèse.md",
+    "Anglais/Cours/01-24.md",
+    "Brouillon.md",
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
-    "Brouillon.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
@@ -183,11 +213,6 @@
     "Mathématiques/TD/E21/E21.md",
     "Mathématiques/TD/E20",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
-    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
-    "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
-    "Mathématiques/Cours/C22/Formulaire.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
