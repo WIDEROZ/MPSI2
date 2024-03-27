@@ -435,7 +435,7 @@ $$ = Vect \left( \begin{pmatrix}
 \end{pmatrix} \right)$$
 car $\begin{pmatrix} 0 \\ -3 \\ -6\end{pmatrix}$ est colinéaire avec : $\begin{pmatrix} 0 \\ -6 \\ -12\end{pmatrix}$
 
-Donc,
+Donc, 
 $$rg\left( \begin{pmatrix} 1 \\
 2 \\
 3 \end{pmatrix}, \begin{pmatrix}
