@@ -1655,18 +1655,49 @@ $$\begin{pmatrix}
 
 # VIII. Rappels et compléments sur les opérations élémentaires
 Voir en SOLO
-## 1. Interprétation des opérations élémentaires en termes de produits ma-triciels 
+## 1. Interprétation des opérations élémentaires en termes de produits matriciels 
+Soit $q, n \in \mathbb{N}^{*}$,
+On note $(E_{i, j})_{i, j \in [\![1, q]\!]}$ la base canonique de $\mathcal{M}_{q}(\mathbb{K})$, 
+Soit $A \in \mathcal{M}_{q}(\mathbb{K})$,
 #### Matrice de transposition : 
-$$$$
+Soit $k, l \in [\![1, q]\!]$, tq $k \neq l$
+$$t_{q}(k, l) = I_{q} - E_{kk} - E_{ll} + E_{kl} + E_{lk}$$
+l'opération : $t_{q}(k, l)\times A$, échanges les lignes $k$ et $l$ de $A$
+
+#### Matrice de dilatation
+Soit $k \in \mathbb{N}^{*}$ et $\lambda \in \mathbb{K} \setminus \{ 0 \}$,
+$$\mu_{q}(k, \lambda) = I_{q}+(\lambda-1)E_{kk}$$
+L'opération $\mu_{q}(k, \lambda) \times A$, multiplie la ligne $k$ de $A$ par $\lambda$ ($L_{k}\leftarrow \lambda L_{k}$)
 
 
+#### Matrice de transvection
+Soit $k, l \in [\![1, q]\!]$, tq $k \neq l$ et $\lambda \in \mathbb{K}$, 
+$$\alpha_{q}(k, l, \lambda) = I_{q} + \lambda E_{k, l}$$
+L'opération $\alpha_{q}(k, l, \lambda) \times A$, execute l'opération : $L_{k} \leftarrow L_{k} + \lambda L_{l}$
+
+#### Propriété 
+Soit $M \in \{ t_{q}(k, l), \mu_{q}(k, \lambda), \alpha_{q}(k, l, \lambda) \}$, 
+Soit $A \in \mathcal{M}_{q}(\mathbb{K})$,
+$MA$ agit par lignes
+$AM$ agit par les colonnes
+
+#### Propriété
+Toute matrice élémentaire est inversible et son inverse est une matrice du même type.
 
 
-
-
-
-
-
-$$\left( \begin{array}{c|c}
-
-\end{array} \right)$$
+#### Théorème
+Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
+Les propriétés suivantes sont équivalentes : 
+$$\begin{array}{l}
+\cdot \space\space A \in GL_{n}(\mathbb{K}) \\
+\cdot\space \space A \text{ est un produit fini de matrices élémentaires} \\
+\cdot \space\space A \underset{L}{\sim} I_{n} \\
+\cdot \space\space A \underset{C}{\sim} I_{n} \\
+\cdot \space\space \text{Le système }AX = 0 \text{ n'admet que la solution nulle} \\
+\cdot \space\space \text{Il existe }B \in \mathbb{K}^{n} \text{ tq } AX = B \text{ admette une unique solution} \\
+\cdot \space\space \text{Pour tout }B \in \mathbb{K}^{n}, AX=B \text{ admet une unique solution} \\
+\cdot \space\space \text{Pour tout }B\in \mathbb{K}^{n}, AX=B \text{ admet au moins une solution} \\
+\cdot \space\space \text{Ker }A = \{ 0 \} \\
+\cdot \space\space \mathrm{Im}(A) ) \mathbb{K}^{n} \\
+\cdot \space\space rg(A) = n
+\end{array}$$
