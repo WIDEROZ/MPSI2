@@ -51,3 +51,53 @@ Page 12
 
 
 # III. La confiance un pari a renégocier sans cesse : en faire société
+Quelques mots sur la servitude volontaire de la Boétie
+Texte écrit a 16 ans, La Boétie a réussi a mettre en relief importance de la dupe en politique
+
+Servitude volontaire : On a une oxymore. 
+La Boétie s’intéresse sur le terrain de la réflexion. 
+Alors meme qu'il est en force numéraire comment se fait il qu'il puisse qu'il oppresse tant de monde
+Il n'y a des tyrans que si il y a accord du peuple. 
+
+- Mme de Tourvelle est un exemple de ce consentement par la servitude. 
+- Cécile consent a sa servitude affective a Valmont. 
+- Le serviteur consens (Lettre 107) au role qu'il joue auprès de Valmont, la mention de la générosité. On voit bien a quel point la société inégalitaire vole en éclat.
+
+- Chez Musset le peuple qui assiste a la mascarade 
+
+- Chez Arendt, la mention des mouvements de resistance populaire aux mensonges étatiques témoignent d'un volontés de faire société qui émane des citoyens. 
+  On a donc une résistance a la servitude volontaire. 
+
+
+
+###### Officieux
+Une info a été divulgué sans pour autant être officielle. 
+###### Officielle
+Un politique fait une annonce qu'il assume comme telle aux yeux du public. 
+
+La faille de la société dépeinte par Laclos, c'est qu'on ne construit pas la vérité ensemble. 
+
+Les communications épistolaires on un défaut / l'épistolaire : c'est une soustraction au commun, c'est un échange privé qui montre la fin de la société mondaine. 
+En s'écrivant on se soustrait au regard pour se perdre dans des sous conversations officieuses 
+On cherche l’approbation de l'autre dans la relation inclusive, et on s'isole dans un duo / dans une intimité confortable. Ne m'exposerai-je pas a m'isoler dans un duo. 
+On s'expose a être en intelligence et a se satisfaire d'une relation passionnelle (Edith wharton). 
+L'officieux rentre en conflit avec le discours officiel. 
+La mise a mort sociale de Mme Montreuil restore ce qui fait défaut. 
+Chez Arendt la confiance ne peut avoir lieu que si nous avons tous access aux même source d'information, la lecture des Pentagon papers permet au corp social de reprendre la main sur l'officieux. 
+Arendt distingue bien le mensonge politique qu'on appelle les Arcana imperii. 
+
+# Prolongement : Entrainement a la dissertation
+## "Une société de menteurs ne serait pas viable"
+
+- Viable <--> Durable
+
+#### Définition des termes
+Société : Relation entre un ensemble de personnes (relations intersubjectives). Société $\neq$ état.
+
+Menteur : Personnes qui émettent des postulats fallacieux pour leurrer un auditeur. 
+Viable : Durable (notion de temporalité) 
+
+Cela voudrait donc dire qu'une société viable est un société qui ne comporte aucun menteur, 
+
+Ainsi, peut on dire que les relations entre personnes ne seraient 
+
