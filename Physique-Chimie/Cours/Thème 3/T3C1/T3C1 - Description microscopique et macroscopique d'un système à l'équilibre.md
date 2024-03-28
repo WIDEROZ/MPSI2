@@ -157,3 +157,35 @@ Avec $P_{0}$ et $T_{0}$ des constantes et $\beta$ une fonction de $V$
 #### Loi d'Avogadro-Ampère
 Si $T = \text{cte}$
 $$PV \propto n \text{ (avec }n\text{ le nonmbre de mol)}$$
+
+## 4. Les gaz parfaits
+#### Définition
+Le modèle des gaz parfaits suppose que les molécules ou atomes du gaz parfait suppose que les molécules ou atomes du gaz sont ponctuelles et sans interaction. 
+
+#### Définition
+Un gaz parfait est un gaz qui satisfait rigoureusement les limites à $P = 0$ des lois empiriques suivies par les gaz réels. 
+
+### a. Echelle de température pour un gaz parfait
+L'échelle de température pour un gaz parfait est construite avec la grandeur thermodynamique $PV$ 
+
+#### Définition
+Le rapport des produits $PV$ d'un gaz a deux températures différentes est égal au rapport de ces températures : 
+$$\begin{rcases}
+T_{1}\to P_{1}V_{1} \\
+T_{2} \to P_{2}V_{2}
+\end{rcases} \Rightarrow \frac{P_{1}V_{1}}{P_{2}V_{2}} = \frac{T_{1}}{T_{2}}$$
+
+Il y a une relation de proportionnalité entre $PV$ et $T$
+
+On définit l'échelle de température des gaz parfaits par une température de référence : Le point triple de l'eau. 
+C'est donc : $T_{0} = 273,16 K$
+L'unité du SI est : $K$ (Kelvin)
+
+### b. Equation d'état 
+Pour un gaz parfait
+$$PV = nRT$$
+$P$ : La pression
+$V$ : Le volume
+$n$ : La quantité de matière
+$T$ : La température
+$R$ : La constante des gaz parfaits

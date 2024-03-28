@@ -1,4 +1,4 @@
-# Applicattions linéaires et matrices
+# Applications linéaires et matrices
 # ET Combinatoire (éventuellement vu le 28-03 pour le 29-03) je vais m'étrangler dans la mesure de la suffocation
 
 - $\text{Ker }u$
