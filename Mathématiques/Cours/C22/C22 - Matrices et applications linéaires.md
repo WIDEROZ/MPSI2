@@ -854,7 +854,8 @@ Les assertion suivantes sont équivalentes :
 
 ## 4. Théorème du rang
 #### Théorème
-$$\forall \in \mathcal{M}_{n, p}(\mathbb{K}), rg(A) + \dim \text{Ker }A = p$$
+$$\forall A \in \mathcal{M}_{n, p}(\mathbb{K}), rg(A) + \dim \text{Ker }A = p$$
+
 
 Démonstration : 
 On applique le théorème du rang à $u_{A}$
@@ -873,7 +874,7 @@ Démonstration : Les deux peuvent se calculer en échelonnant les colonnes de la
 ## 1. Matrices diagonales
 #### Rappel
 Soit $n \in \mathbb{N}$, 
-$$D \in \mathcal{D}_{n}(\mathbb{K}) \Leftrightarrow \forall i, j \in [\![1, n]\!], a \neq j \Leftrightarrow A[i, j] = 0$$
+$$D \in \mathcal{D}_{n}(\mathbb{K}) \Leftrightarrow \forall i, j \in [\![1, n]\!], i \neq j \Leftrightarrow A[i, j] = 0$$
 
 #### Propriété
 Pour $u \in \mathcal{L}(E)$, 

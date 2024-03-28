@@ -4,31 +4,34 @@
     "type": "split",
     "children": [
       {
-        "id": "823d205fc4435160",
+        "id": "0e32791115b5b4ac",
         "type": "tabs",
         "children": [
           {
-            "id": "af2479a428b46011",
+            "id": "1d6cb32587e96d31",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Info/Cours/Chapitre 13/Chapitre 13.pdf"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "bfd5b215808ed41e",
+            "id": "eb6fd483d1f789d7",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
+              "type": "markdown",
               "state": {
-                "file": "Info/Cours/Chapitre 13/CH13.ml"
+                "file": "Mathématiques/Cours/C22/Formulaire.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -105,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Cours/Chapitre 13/CH13.ml",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Cours/Chapitre 13/CH13.ml",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Cours/Chapitre 13/CH13.ml"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -157,14 +160,23 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "bfd5b215808ed41e",
+  "active": "1d6cb32587e96d31",
   "lastOpenFiles": [
-    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
-    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
-    "Info/Cours/Chapitre 13/CH13.ml",
+    "Mathématiques/Cours/C22/Formulaire.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
+    "Info/TD/TD8/TD 8.pdf",
+    "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
+    "Info/TD/TD8/TD8.md",
     "Brouillon.md",
+    "Info/TD/TD8",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
-    "Info/Cours/Chapitre 13/TP 11.pdf",
+    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
+    "Info/TP/TP11/TP 11.pdf",
+    "Info/TP/TP11/TP 11 1.pdf",
+    "LA KONSTANTE.png",
+    "Info/Cours/Chapitre 13/CH13.ml",
+    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
     "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
     "FR Philo/Exercices/Défrichage d'un intitulé.md",
@@ -177,26 +189,17 @@
     "Mathématiques/DS/Programme du DS du 29-03.md",
     "Mathématiques/Cours/C23/C23.md",
     "Mathématiques/Cours/C23/C23 - Dénombrement.md",
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/DS/Correction Applications.md",
-    "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
-    "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
-    "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C23",
     "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels - Resumé.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "FR Philo/Kholle/Format.md",
-    "Anglais/Cours/03-27.md",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
-    "LA KONSTANTE.png",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
-    "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
-    "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
-    "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
