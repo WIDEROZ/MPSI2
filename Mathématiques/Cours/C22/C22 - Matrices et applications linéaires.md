@@ -226,7 +226,6 @@ Alors, $(n_{1}, \dots, n_{k})$ est une base de $\text{Ker } u$
 
 
 #### Exemple
-
 Soit $E$ un ev de dim $5$, $(e_{1}, e_{2}, e_{3}, e_{4}, e_{5}) = e$ une base de $E$, 
 $F$ un ev de dim $4$, $(f_{1}, f_{2}, f_{3}, f_{4}) = f$ une base de $F$ et
 $u \in \mathcal{L}(E, F)$ l'unique application linéaire vérifiant : 
@@ -1656,7 +1655,9 @@ $$\begin{pmatrix}
 
 # VIII. Rappels et compléments sur les opérations élémentaires
 Voir en SOLO
-
+## 1. Interprétation des opérations élémentaires en termes de produits ma-triciels 
+#### Matrice de transposition : 
+$$$$
 
 
 

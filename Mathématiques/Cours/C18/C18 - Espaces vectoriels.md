@@ -975,7 +975,7 @@ Donc, $(S)$ admet des solutions non nuls,
 Ainsi la $(u_{1}, u_{2}, u_{3})$ est liée
 
 ##### Plus généralement
-Pour montrer qu'un famille est liée on prove l'existence d'une famille : 
+Pour montrer qu'un famille est liée on prouve l'existence d'une famille : 
 $$(\lambda_{i})_{i \in I} \in \mathbb{K}^{I}\backslash\{0_{\mathbb{K}^{(I)}}\}$$
 telle que :
 $$\sum_{i \in I}\lambda_{i}x_{i} = 0$$

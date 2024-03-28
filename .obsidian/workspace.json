@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b2351f63cb10073c",
+            "id": "8ea93c2d4dcbbf28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+                "file": "Mathématiques/Cours/C23/C23 - Dénombrement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fc5b7cb2a92d7370",
+            "id": "7ae4ec996ade0833",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,43 +32,15 @@
             }
           },
           {
-            "id": "5ddfe43007126874",
+            "id": "13bd884b95f439db",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C22/Formulaire.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "07ca3f6abbe26ba9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2cc3aa88b8e982b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -145,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -197,16 +169,18 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "07ca3f6abbe26ba9",
+  "active": "7ae4ec996ade0833",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
+    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
-    "Mathématiques/Cours/C18/C18 - Espaces vectoriels - Resumé.md",
-    "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+    "Mathématiques/Cours/C23",
+    "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
+    "Mathématiques/Cours/C18/C18 - Espaces vectoriels - Resumé.md",
+    "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "FR Philo/Kholle/Format.md",
     "Anglais/Cours/03-27.md",
     "Anglais/Cours/Vocabulaire.md",
@@ -234,10 +208,8 @@
     "Cours Université/Environement.md",
     "Cours Université/Histoire de l'économie.md",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
-    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
     "Autre/Brouillon.md",
     "Autre/CLASS.excalidraw.md",
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
