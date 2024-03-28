@@ -4,29 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "750e0671e1b8f264",
+        "id": "87fc5209eae479e5",
         "type": "tabs",
         "children": [
           {
-            "id": "cd61493115a36d2b",
+            "id": "393a6b78fdec92fa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9b421c337e3fc6b8",
+            "id": "06e890c58bac687a",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md"
+                "file": "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "54084749c0b00db7",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -106,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md"
+                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md"
               }
             }
           }
@@ -158,11 +168,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "cd61493115a36d2b",
+  "active": "393a6b78fdec92fa",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+    "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
+    "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
+    "FR Philo/Exercices/Défrichage d'un intitulé.md",
+    "FR Philo/18-01.md",
+    "FR Philo/Exercices/Untitled 1.md",
+    "FR Philo/Prochain programme de Francais-Lettres-Philo.md",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
     "Mathématiques/DS/Programme du DS du 29-03.md",
     "Mathématiques/Cours/C23/C23.md",
     "Mathématiques/Cours/C23/C23 - Dénombrement.md",
@@ -183,11 +199,6 @@
     "Anglais/Exos/Alabama decision.md",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "LA KONSTANTE.png",
-    "Anglais/Cours/03-20.md",
-    "Anglais/Cours/01-31 Synthèse.md",
-    "Anglais/Cours/01-24.md",
-    "Brouillon.md",
-    "Mathématiques/Cours/C22/C22.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
@@ -195,7 +206,6 @@
     "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
     "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
-    "2024-03-26.md",
     "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
     "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
     "Mathématiques/Cours/C02/C02-InegalitesR.pdf",

@@ -20,4 +20,3 @@ Ici la divergence de croyances sur la vie politique de Florence entre Lorenzo et
 #### Lorenzaccio
 La toute première scene illustre bien le principe de la servitude volontaire dans la mesure ou Maffio se retrouve en face du duc qui venait de terminer ce qu'il avait a faire avec la sœur de Maffio. 
 
-w

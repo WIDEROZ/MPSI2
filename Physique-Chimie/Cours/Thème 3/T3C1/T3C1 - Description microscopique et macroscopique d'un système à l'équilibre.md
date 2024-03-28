@@ -269,4 +269,22 @@ On appelle fluide un milieu continu pour lequel les forces de contact à l'équi
 #### Définition
 On appelle pression d'un fluide au point $m$, la densité surfacique des forces qui s'exercent en ce point. 
 
-La pression $P$ (ou $p$) s'exprime en pascal dans le système international 
+La pression $P$ (ou $p$) s'exprime en pascal dans le système international
+On utilise aussi le $\text{bar}$ ou $1 \text{bar} = 10^{5}\space Pa$
+ou l'atmosphère $= 10 \, 132.5 \space Pa$
+
+## 2. Interprétation microscopique de la pression
+La pression correspond aux collision entre particules d'un fluide et sur une surface. 
+
+## 3. Pression en un point
+excal 8
+On considère un sous système tel que le point $M$ est sur sa surface.
+Si on choisit un autre sous système, on va avoir une autre orientation pour $\vec{f}_{S} =P(M)d\vec{S}$
+Le milieu étant continu, la pression $P(M)$ au point $M$, est la même quelque soit le sous système utilisé.
+
+On a alors : 
+#### Propriété
+Isotropie de la pression : 
+La pression qui s'exerce sur une surface d'un fluide ne dépend pas de l'orientation de cette surface. 
+
+Pour des systèmes dont la hauteur est faible devant celle de l'atmosphère, on considère que la pression des homogène dans le système. 

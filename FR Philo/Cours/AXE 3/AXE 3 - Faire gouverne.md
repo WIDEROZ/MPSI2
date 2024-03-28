@@ -51,4 +51,3 @@ Page 12
 
 
 # III. La confiance un pari a renégocier sans cesse : en faire société
-
