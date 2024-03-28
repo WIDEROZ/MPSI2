@@ -99,5 +99,19 @@ Viable : Durable (notion de temporalité)
 
 Cela voudrait donc dire qu'une société viable est un société qui ne comporte aucun menteur, 
 
-Ainsi, peut on dire que les relations entre personnes ne seraient 
+Ainsi, peut on dire que les relations éphémère entre personnes ne comportent pas de menteurs. 
 
+
+Ce sujet sous entend que les menteurs ne suivent pas les règles. 
+
+La société de menteur ne nuirait t'elle pas a la cohésion. 
+
+Toute association de menteurs est vouée a l'échec
+CONDAMNE A L'ATOMISATION GENERALE
+
+
+
+La pérennité d'une société est elle nécessairement tributaire d'un respect rigoureux de la vérité. 
+
+#### II. Correspondance avec le corpus
+La marquise de Cibo a ce moment la fait ses adieux a son mari : 

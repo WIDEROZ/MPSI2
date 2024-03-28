@@ -4,42 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "87fc5209eae479e5",
+        "id": "823d205fc4435160",
         "type": "tabs",
         "children": [
           {
-            "id": "393a6b78fdec92fa",
+            "id": "af2479a428b46011",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
-                "mode": "source",
-                "source": false
+                "file": "Info/Cours/Chapitre 13/Chapitre 13.pdf"
               }
             }
           },
           {
-            "id": "06e890c58bac687a",
+            "id": "bfd5b215808ed41e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
-                "mode": "source",
-                "source": false
+                "file": "Info/Cours/Chapitre 13/CH13.ml"
               }
-            }
-          },
-          {
-            "id": "54084749c0b00db7",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
+                "file": "Info/Cours/Chapitre 13/CH13.ml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
+                "file": "Info/Cours/Chapitre 13/CH13.ml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md"
+                "file": "Info/Cours/Chapitre 13/CH13.ml"
               }
             }
           }
@@ -168,8 +157,14 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "393a6b78fdec92fa",
+  "active": "bfd5b215808ed41e",
   "lastOpenFiles": [
+    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
+    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+    "Info/Cours/Chapitre 13/CH13.ml",
+    "Brouillon.md",
+    "Info/Cours/Chapitre 13/Chapitre  13.md",
+    "Info/Cours/Chapitre 13/TP 11.pdf",
     "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
     "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
     "FR Philo/Exercices/Défrichage d'un intitulé.md",
@@ -187,16 +182,12 @@
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
     "Mathématiques/Cours/C22/Formulaire.md",
-    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "Mathématiques/Cours/C23",
     "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels - Resumé.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "FR Philo/Kholle/Format.md",
     "Anglais/Cours/03-27.md",
-    "Anglais/Cours/Vocabulaire.md",
-    "Anglais/Exos/Abortion Shield laws - A new war between the States.md",
-    "Anglais/Exos/Alabama decision.md",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "LA KONSTANTE.png",
     "Pasted image 20240327082915.png",
@@ -206,9 +197,6 @@
     "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
     "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
-    "Sciences de l'ingénieur/Cours/Dyson_Airblade.pdf",
-    "Mathématiques/Cours/C08/C08-SystemesLineaires.pdf",
-    "Mathématiques/Cours/C02/C02-InegalitesR.pdf",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",

@@ -1,0 +1,1 @@
+type 'a propositionnel = Vrai | Faux | ;;
