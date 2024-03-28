@@ -1073,7 +1073,7 @@ X' = Mat_{e'}(x)
 \end{cases}$$
 Alors, 
 $$X = PX'$$
-Mnémotechnique : Honneur aux anciens (haha c marrant)
+Mémo-technique : Honneur aux anciens (haha c marrant)
 On a les anciennes coordonnées en fonction des nouvelles. 
 
 Démonstration : 

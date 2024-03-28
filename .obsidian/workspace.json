@@ -13,14 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "eb6fd483d1f789d7",
+            "id": "a212192128898b63",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -162,8 +162,10 @@
   },
   "active": "1d6cb32587e96d31",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C22/Formulaire.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Mathématiques/Cours/C21/C21.md",
+    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Info/TD/TD8/TD 8.pdf",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
@@ -176,7 +178,6 @@
     "Info/TP/TP11/TP 11 1.pdf",
     "LA KONSTANTE.png",
     "Info/Cours/Chapitre 13/CH13.ml",
-    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
     "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
     "FR Philo/Exercices/Défrichage d'un intitulé.md",
