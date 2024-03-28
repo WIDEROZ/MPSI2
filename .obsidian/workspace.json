@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
+                "file": "Mathématiques/Cours/C21/C21 - Espaces affines.md"
               }
             }
           }
@@ -162,8 +162,8 @@
   },
   "active": "1d6cb32587e96d31",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Info/TD/TD8/TD 8.pdf",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
