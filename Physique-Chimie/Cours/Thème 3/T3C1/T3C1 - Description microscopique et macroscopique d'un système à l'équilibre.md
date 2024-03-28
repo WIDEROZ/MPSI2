@@ -184,8 +184,89 @@ L'unité du SI est : $K$ (Kelvin)
 ### b. Equation d'état 
 Pour un gaz parfait
 $$PV = nRT$$
-$P$ : La pression
-$V$ : Le volume
-$n$ : La quantité de matière
-$T$ : La température
-$R$ : La constante des gaz parfaits
+$P$ : La pression, en $Pa$
+$V$ : Le volume, en $\text{m}^{3}$
+$n$ : La quantité de matière, en $\text{mol}$
+$T$ : La température, en $K$
+$R$ : La constante des gaz parfaits $R \approx 8.314 \text{ J.mol}^{-1}\text{K}^{-1}$
+
+## 5. Interprétation microscopique de la température
+### a. La distribution des vitessese
+#### Définition
+La distribution des vitesses est la courbe donnant le nombre de particules à une certaine vitesse en fonction de toutes les valeurs de vitesse possibles. 
+
+#### Propriété (même si ca en est pas une)
+Pour un système thermodynamique à l'équilibre, la distribution de la vitesse de toutes les particules du système est homogène et isotrope.
+Exca
+
+### b. Vitesse quadratique moyenne
+On considère un système composé de $N$ particules chacune avec une vitesse $\vec{v}_{i}$ pour $i \in [\![1, N]\!]$
+#### Définition
+Le vecteur vitesse moyen est : 
+$$<\vec{v}> = \frac{1}{N} \sum_{i = 1}^{N} \vec{v}_{i}$$
+Pour un système au repos (immobile), $<\vec{v}> = \overrightarrow{0}$
+
+La moyenne de la norme de la vitesse est alors :
+$$<v> = \frac{1}{N} \sum_{i = 1}^{N} v_{i}$$
+
+#### Définition : vitesse quadratique moyenne
+$$v^{*} = \sqrt{<v^{2}>} = \sqrt{\frac{1}{N}\sum_{i = 1}^{n} v_{i}^{2}}$$
+à température ambiante, l'ordre de grandeur de $v^{*}$ et de $<v>$ sont identiques. 
+$$v^{*} \approx <v> \approx 10^{2}.10^{3}\text{m}.\text{s}^{-1}$$
+
+### c. Température cinétique
+#### Définition
+Pour un gaz parfait monoatomique, la température $T$ est une mesure de l'énergie cinétique moyenne des particules. 
+$$<E_{c}> = \frac{3}{2}k_{B}T$$
+avec $k_{B} = 1.38 \times 10^{-23} \text{J}.\text{K}^{-1}$ le constante de Boltzmann
+
+#### Propriété
+$$v^{*} = \sqrt{ \frac{3k_{B}T}{m} }=\sqrt{ \frac{3RT}{M} }$$
+
+
+Démonstration : 
+Exprimons $v^{*}$ en fonction de $T$
+$$<E_{c}> = \frac{1}{N} \sum_{i = 1}^{N} E_{c_{i}} = \frac{1}{N}\sum_{i = 1}^{N} \frac{1}{2}m_{i}v_{i}^{2}$$
+Comme c'est un gaz parfait monoatomique, $m = m_{i}$
+$$<E_{c}> = \frac{1}{2} m \times \frac{1}{N} \sum_{i = 1}^{N}v_{i}^{2}= \frac{1}{2}m(v^{*})^{2}$$
+$$<E_{c}> = \frac{1}{2}m(v^{*})^{2} = \frac{3}{2}k_{B}T$$
+Ainsi, 
+$$v^{*} = \sqrt{ \frac{3k_{B}T}{m} }$$
+$m$ : la masse d'une particule
+$$R = \frac{M}{m}k_{B} = \frac{k_{B}}{n}$$
+$$v^{*} = \sqrt{ \frac{3RT}{M} }$$
+
+# III. La Pression
+## 1. Force exercé sur un milieu continu
+#### Définition
+On appelle milieu continu un milieu dont les propriétés varient de façon continue d'un point a un autre dans un domain fini de l'espace. 
+
+### a. Forces de champ et forces de contact
+Excal 7
+Système de volume $V$
+$M_{S}$ : Point a la surface de la frontière du système dans une surface $dS$
+$M_{I}$ : Point à l’intérieur du système entouré d'un volume $dV$ 
+
+#### Pour les points $M_{I}$
+Ils peuvent être soumis a des forces de champs
+Le volume $dV$ entourant $M_{I}$ a une masse $dm = \rho dV$
+avec $\rho$ la masse volumique
+Les forces $d \overrightarrow{F}_{I}$ exercé sur ce volume entourant $M_{I}$ peuvent s'écrire :
+$$d\vec{F}_{I} = \overrightarrow{f_{V}} \times dV$$
+$\overrightarrow{f_{V}}$ : Force volumique ou densité volumique de force
+##### Exemple
+$$\overrightarrow{f_{V, \vec{P}}} = \frac{\vec{P}}{V} = \frac{m}{V}\vec{g}= \rho\vec{g}$$
+
+#### Pour les points $M_{S}$
+Ils peuvent être soumis par des forces de contact $d\vec{F}_{S}$ caractérisées par leur densité surfacique : 
+$$d\vec{F}_{S} = \vec{f}_{S}dS$$
+$\vec{f}_{S}$ : Force surfacique, densité de surface de forces
+
+### b. Fluide et pression
+#### Définition
+On appelle fluide un milieu continu pour lequel les forces de contact à l'équilibre sont normales a la surface du système. 
+
+#### Définition
+On appelle pression d'un fluide au point $m$, la densité surfacique des forces qui s'exercent en ce point. 
+
+La pression $P$ (ou $p$) s'exprime en pascal dans le système international 
