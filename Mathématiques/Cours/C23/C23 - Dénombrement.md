@@ -221,5 +221,75 @@ Donc,
 $$\begin{array}{rl}
 |\mathcal{P}_{p}(Y)| &= \frac{|A_{p}(Y)|}{p!} \\
 &= \frac{n!}{p!(n-p)!} \\
-&= 
+&= \binom{n}{p}
 \end{array}$$
+
+# IV Redémonstrations combinatoires
+$$\forall n \in \mathbb{N}, 2^{n} \geq n+1$$
+Démonstration : 
+Soit $n \in \mathbb{N}$ et $X$ de cardinal $n$, 
+$|\mathcal{P}(X)| = 2^{n}$ et $|\mathcal{P}_{0}(X)| = 1$ ($\varnothing$) et $|\mathcal{P}_{1}(X) = n|$ (singletons)
+et comme $\mathcal{P}_{0}(X), \mathcal{P}_{1}(X) \subset \mathcal{P}(X)$ et sont disjoints,
+$$2^{n} = |\mathcal{P}(X)| \geq |\mathcal{P}_{0}(X)| + |\mathcal{P}_{1}(X)| = 1+n$$
+
+___
+$$\forall n \in \mathbb{N}, \sum_{k = 0}^{n} \binom{n}{k} = 2^{n}$$Soient $n \in \mathbb{N}$ et $X$ de cardinal $n$, 
+Alors,
+$$\mathcal{P}(X) = \bigsqcup_{k=0}^{n}\mathcal{P}_{k}(X)$$
+Donc, 
+$$|\mathcal{P}(X)| = \sum_{k = 0}^{n}|\mathcal{P}_{k}(X)|$$
+ie
+$$2^{n} = \sum_{k = 0}^{n} \binom{n}{k}$$
+
+___
+$$\forall n, k \in \mathbb{N}, \binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$$
+Démonstration : 
+Soient $n \in \mathbb{N}$ et $X$ de cardinal $n+1$, 
+On choisit un élément de $X$, $x_{0}$ et on note $Y = X \setminus \{ x_{0} \}$ 
+On a alors, $|Y| = n$, 
+
+Excal 2.
+On divise une partie a $k+1$ éléments de $X$ en deux temps : celle qui contienne $x_{0}$ et les autres,
+ie, 
+On pose : 
+$$\mathcal{P_{0}} = \{ A \in \mathcal{P}_{k+1} | x_{0} \in A \}$$
+$$\mathcal{P}_{1} = \mathcal{P}_{k+1}(X) \setminus P_{0} = \mathcal{P}_{k+1}(Y)$$
+(donc, $|P_{1}| = \binom{n}{k+1}$)
+On a alors, 
+$$\mathcal{P}_{k+1}(X) = P_{0} \sqcup P_{1}$$
+Donc, 
+$$ \binom{n+1}{k+1} = |\mathcal{P}_{k+1}(X)| = |P_{0}| + |P_{1}|$$
+
+On pose : 
+$$\phi : \begin{cases}
+\mathcal{P}_{k}(Y) \to \mathcal{P}_{0} \\
+\mathcal{B} \mapsto \mathcal{B} \sqcup \{ x_{0} \}
+\end{cases}$$
+Qui admet comme réciproque : 
+$$\psi : \begin{cases}
+\mathcal{P}_{0} \to \mathcal{P}_{k}(Y) \\
+A \mapsto A \setminus \{ x_{0} \}
+\end{cases}$$
+Donc, elle est bijective
+Ainsi, $|P_{0}| = |\mathcal{P}_{k}(Y)| = \binom{n}{k}$
+et 
+$$\binom{n}{k} + \binom{n}{k+1} = \binom{n+1}{k+1}$$
+___
+$A$ un anneau, 
+$$\forall a, b \in A, \forall n \in \mathbb{N}, \left( ab = ba \Rightarrow (a+b)^{n} = \sum_{k = 0}^{n} \binom{n}{k}a^{k}b^{n-k} \right)$$
+Idée : 
+$$(a+b)^{n} = (a+b)(a+b)\dots(a+b)$$
+$$=\sum_{k = 0}^{n}\sum_{\underset{|\{i \in [\![1,n]\!]| x_{i} =a\}| = k}{(x_{1}, \dots, x_{n}) \in \{ a, b \}^{n}}} a^{k}b^{n-k}$$
+
+Or l'application : 
+$$\begin{cases}
+\mathcal{P}_{k}([\![1, n]\!]) \to \{ (x_{1}, \dots, x_{n}) \in \{ a, b \}^{n} | \space |\{ i \in [\![1, n]\!] | x_{i} = a \}|=k \} \\
+I \mapsto (x_{1}, \dots, x_{n}) \text{ tel que }\begin{cases}
+\forall i \in I, x_{i} = a \\
+\forall i \not\in I, x_{i}=b
+\end{cases}
+\end{cases}$$
+Est clairement bijective
+
+Donc, 
+$$(a+b)^{n} = \sum_{k = 0}^{n}a^{k}b^{n-k} |\mathcal{P}_{k}([\![1, n]\!])| = \sum_{k = 0}^{n}\binom{n}{k}a^{k}b^{n-k}$$
