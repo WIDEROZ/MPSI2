@@ -117,7 +117,7 @@ et on prend le cardinal.
 
 Excal 1 
 
-#### Corollaire : Lemme de berger
+#### Corollaire : Lemme des bergers
 Soit $k \in \mathbb{N}^{*}$ et $f : X \to Y$ tq
 pour tout $y \in Y$ a exactement $k$ antécédents alors, 
 $$|X| = k |Y|$$
@@ -126,6 +126,36 @@ $$|X| = k |Y|$$
 Soient $X, Y$ finis de cardinal $p, n$ tq $p \leq n$
 Alors, 
 $$|Inj(X, Y)| = \frac{n!}{(n-p)!}$$
+
+Démonstration : 
+Quitte a composer à la source avec une bijection de $[\![1, p]\!]$ vers $X$, ce qui ne change pas l'injectivité, on peut supposer que $X = [\![1, p] \!]$
+On fait une récurrence sur $p$. 
+
+On pose pour $p \in \mathbb{N}$, 
+$$\mathcal{A}_{p} : \text{"Pour tout ensemble Y de cardinal }n>p, |Inj([\![1, p]\!], Y)| = \frac{n!}{(n-p)!} \text{ "}$$
+
+###### Initialisation :
+Soit $Y$ de cardinal $n\geq 0$
+La seule application de $\varnothing$ vers $Y$ est injective $(\varnothing, Y, \varnothing (\subset \text{graphe } \varnothing\times Y = \varnothing))$ 
+Ainsi, 
+$$|Inj(\varnothing, Y)| = 1 = \frac{n!}{n!}$$
+On a bien $A_{0}$
+
+###### Hérédité
+Soit $p \in \mathbb{N}$, tq $A_{p}$, 
+Soit $Y$ de cardinal $n\geq p+1$,
+$$f : \begin{cases}
+Inj([\![1, p+1]\!], Y) \to Inj([\![1, p]\!], Y) \\
+h \mapsto h|_{[\![1, p]\!]}
+\end{cases}$$
+Etant donnée une injection de $[\![1, p]\!] \to Y$, 
+Il y a exactement $n-p$ manières de la prolonger en une application injective de $[\![1, p+1]\!]$ vers $Y$, (on a $n-p$ choix d'images pour $p+1$ qui soient différentes des images de $1, p$)
+
+Ainsi, tout élément de $Inj([\![1, p]\!], Y)$ à exactement $n-p$ antécédents par $f$. 
+D'après le principe des bergers,
+$$|Inj([\![1, p+1]\!], Y)| = (n-p)|Inj([\![1, p]\!], Y)| = \frac{n!}{(n-(p+1))!}$$
+Ainsi, $A_{p+1}$ est vérifiée
+Par le principe de récurrence de théorème est prouvé. 
 
 #### Corollaire
 $$|S_{n}| = n!$$
@@ -144,3 +174,52 @@ $$|A_{p}(Y)| = \frac{n!}{(n-p)!}$$
 
 #### Corollaire
 $$|\mathcal{P}_{p}(Y)| = \binom{n}{p}$$
+
+
+#### Définition
+Pour $Y$ un ensemble et $p \in \mathbb{N}$ on note $A_{p}(Y)$ l’ensemble des $p$-uplets d'éléments de $Y$ deux à deux distincts : 
+$$A_{p}(Y) = \{ (y_{1}, \dots, y_{p}) \in Y^{p} | \forall i, j \in [\![1, p]\!], (i \neq j) \Rightarrow y_{i} \neq y_{j} \}$$
+
+#### Corollaire
+Si $Y$ est de cardinal fini $n$ et $p \in [\![0,n]\!]$,
+Alors, 
+$$|A_{p}(Y)| = \frac{n!}{(n-p)!}$$
+
+
+
+Démonstration : 
+On peut voir un élément de $A_{p}(Y)$ comme une injection de $[\![1, p]\!]$ vers $Y$ ($i \mapsto y_{i}$)
+Ainsi, $A_{p}(Y) = Inj([\![1, p]\!], Y)$
+Donc, $|A_{p}(Y)| = \frac{n!}{(n-p)!}$
+
+
+#### Rappel
+Pour $Y$ un ensemble et $p \in \mathbb{N}$, $P_{p}(Y)$ est l'ensemble des parties de $Y$ de cardinal $p$ 
+
+#### Théorème
+Soit $Y$ le cardinal fini $n$ et $p \in \mathbb{N}$, 
+Alors, 
+$$|\mathcal{P}_{p}(Y)| = \binom{n}{p}$$
+Avec la définition généralisé des binomiaux
+
+Preuve : 
+Si $p > n$ c'est trivial car $0 = 0$, 
+Si $p \in [\![0, n]\!]$, 
+On pose : 
+$$g : \begin{cases}
+A_{p}(Y) \to \mathcal{P}_{p}(Y) \\
+(y_{1}, \dots, y_{p}) \mapsto \{ y_{1}, y_{p} \}
+\end{cases}$$
+qui est bien définie puisque si $(y_{1}, \dots, y_{p}) \in A_{p}(Y)$ alors, $|\{ y_{1}, \dots, y_{p} \}| = p$ puisque les $y_{i}$ sont deux a deux distincts. 
+
+Soit $A \in \mathcal{P}_{p}(Y)$, 
+Alors, $g^{-1}(\{ A \}) = A_{p}(A)$, 
+Donc, $|g^{-1}(A)| = |A_{p}(A)| = \frac{p!}{(p-p)!} = p!$
+Par le principe des bergers, 
+$$|A_{p}(Y)| = p!\mathcal{P}_{p}(Y)$$
+Donc, 
+$$\begin{array}{rl}
+|\mathcal{P}_{p}(Y)| &= \frac{|A_{p}(Y)|}{p!} \\
+&= \frac{n!}{p!(n-p)!} \\
+&= 
+\end{array}$$

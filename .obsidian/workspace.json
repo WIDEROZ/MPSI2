@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "0e32791115b5b4ac",
+        "id": "947b7d95fd99c226",
         "type": "tabs",
         "children": [
           {
-            "id": "1d6cb32587e96d31",
+            "id": "7f910df77d0139f1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C23/C23 - Dénombrement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a212192128898b63",
+            "id": "5b9597c7f337f14d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C22/Formulaire.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C23/C23.md"
               }
             }
           }
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C23/C23 - Dénombrement.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+                "file": "Mathématiques/Cours/C23/C23 - Dénombrement.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
+                "file": "Mathématiques/Cours/C23/C23 - Dénombrement.md"
               }
             }
           }
@@ -160,8 +158,10 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "1d6cb32587e96d31",
+  "active": "7f910df77d0139f1",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C23/C23.md",
+    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C21/C21.md",
@@ -188,8 +188,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
     "Mathématiques/DS/Programme du DS du 29-03.md",
-    "Mathématiques/Cours/C23/C23.md",
-    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Mathématiques/DS/Correction Applications.md",
     "Mathématiques/Cours/C23",
     "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
