@@ -42,3 +42,6 @@ $$\boxed{\frac{r_{0}^{3}}{T^{2}} = \frac{GM_{S}}{4\pi^{2}}}$$
 
 #### Energie mécanique d'un mouvement elliptique
 $$\boxed{E_{m} = - \frac{GM_{S}m}{2A}}$$
+
+#### Extension
+$$\boxed{v = R \omega}$$
