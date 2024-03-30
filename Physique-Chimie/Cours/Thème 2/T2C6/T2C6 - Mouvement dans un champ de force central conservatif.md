@@ -183,7 +183,7 @@ Dans un état diffusif on peut avoir des trajectoires paraboliques ou hyperboliq
 #### Propriété
 Dans le référentiel héliocentrique, une planète balaye des aires égales a durée égale. 
 
-## $3^{eme}$ loi de Kepler : Loi des périodes
+## c. $3^{eme}$ loi de Kepler : Loi des périodes
 #### Propriété
 Dans le référentiel héliocentrique, le carré de la période du mouvement $T$ est proportionnel au cube du demi-grand axe $a$ : 
 $$\frac{a^{3}}{T^{2}} = \text{cte}$$
