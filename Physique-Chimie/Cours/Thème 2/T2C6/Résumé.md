@@ -45,3 +45,6 @@ $$\boxed{E_{m} = - \frac{GM_{S}m}{2A}}$$
 
 #### Extension
 $$\boxed{v = R \omega}$$
+
+
+
