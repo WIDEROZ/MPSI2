@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "8b83495a8cd07fb6",
+        "id": "945ff909a79c88c6",
         "type": "tabs",
         "children": [
           {
-            "id": "832c637625d5cbf1",
+            "id": "35dbd651c921534f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "82849d3b4d6afbb1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "8d823941482e1f6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,13 +140,13 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "8d823941482e1f6d",
+  "active": "35dbd651c921534f",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
     "Brouillon.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
