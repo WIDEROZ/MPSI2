@@ -146,7 +146,7 @@ Point $M$ de masse $m$ soumis a la force centrale $\vec{F}$ conservative $E_{p}(
 #### Définition
 Energie potentielle effective
 $$E_{p \space eff} = E_{p}(r) + \frac{1}{2} m \frac{C^{2}}{r^{2}}$$
-avec $C = r^{2} \dot{\theta}$ la constante des aires.
+	avec $C = r^{2} \dot{\theta}$ la constante des aires.
 
 Démonstration : 
 $\vec{F}$ est conservative donc $E_{m} = \text{cte}$ alors, 
