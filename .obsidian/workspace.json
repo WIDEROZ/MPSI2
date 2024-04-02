@@ -4,34 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "945ff909a79c88c6",
+        "id": "5bfa3cb460546422",
         "type": "tabs",
         "children": [
           {
-            "id": "35dbd651c921534f",
+            "id": "6e78d1b62d79c047",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Mathématiques/TD/E23/E23.md",
-                "mode": "source",
-                "source": false
+                "file": "LA KONSTANTE.png"
               }
             }
           },
           {
-            "id": "f5040dbb072a2fcd",
+            "id": "8bdf4d872275f92d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E22/E22.md",
+                "file": "Brouillon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E23/E23.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E23/E23.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E23/E23.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -160,13 +159,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "35dbd651c921534f",
+  "active": "8bdf4d872275f92d",
   "lastOpenFiles": [
+    "LA KONSTANTE.png",
+    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
+    "Untitled.md",
+    "Info/Cours/Chapitre 13/Chapitre  13.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Mathématiques/TD/E22/E22.md",
     "Mathématiques/TD/E23/E23.md",
     "Mathématiques/TD/E23",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
     "Brouillon.md",
@@ -185,17 +188,12 @@
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
     "Info/TD/TD8/TD8.md",
     "Info/TD/TD8",
-    "Info/Cours/Chapitre 13/Chapitre  13.md",
-    "Info/Cours/Chapitre 13/Chapitre 13.pdf",
     "Info/TP/TP11/TP 11.pdf",
     "Info/TP/TP11/TP 11 1.pdf",
-    "LA KONSTANTE.png",
     "Info/Cours/Chapitre 13/CH13.ml",
     "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
     "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
     "FR Philo/Exercices/Défrichage d'un intitulé.md",
-    "FR Philo/18-01.md",
-    "FR Philo/Exercices/Untitled 1.md",
     "Mathématiques/Cours/C23",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "Pasted image 20240327082915.png",
