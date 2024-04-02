@@ -11,8 +11,24 @@
             "id": "35dbd651c921534f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/TD/E23/E23.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f5040dbb072a2fcd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/TD/E22/E22.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathématiques/TD/E23/E23.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathématiques/TD/E23/E23.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathématiques/TD/E23/E23.md"
+              }
             }
           }
         ]
@@ -142,6 +162,9 @@
   },
   "active": "35dbd651c921534f",
   "lastOpenFiles": [
+    "Mathématiques/TD/E22/E22.md",
+    "Mathématiques/TD/E23/E23.md",
+    "Mathématiques/TD/E23",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
@@ -173,14 +196,11 @@
     "FR Philo/Exercices/Défrichage d'un intitulé.md",
     "FR Philo/18-01.md",
     "FR Philo/Exercices/Untitled 1.md",
-    "FR Philo/Prochain programme de Francais-Lettres-Philo.md",
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Mathématiques/Cours/C23",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
-    "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
