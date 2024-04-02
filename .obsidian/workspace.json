@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6e78d1b62d79c047",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "LA KONSTANTE.png"
-              }
-            }
-          },
-          {
             "id": "8bdf4d872275f92d",
             "type": "leaf",
             "state": {
@@ -28,9 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d6031ca9294ec53c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Info/Cours/Chapitre 13/Chapitre 13.pdf"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,8 +160,9 @@
   },
   "active": "8bdf4d872275f92d",
   "lastOpenFiles": [
-    "LA KONSTANTE.png",
     "Info/Cours/Chapitre 13/Chapitre 13.pdf",
+    "Brouillon.md",
+    "LA KONSTANTE.png",
     "Untitled.md",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
@@ -172,7 +172,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
-    "Brouillon.md",
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
