@@ -1,0 +1,6 @@
+{
+  "calculationTriggerString": "=",
+  "completionTriggerKey": "Tab",
+  "multiplicationSymbol": "*",
+  "groupSeparator": " \\space "
+}
