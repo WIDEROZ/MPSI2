@@ -52,3 +52,5 @@ Swing states : States witch sometimes vote for démocrates and sometimes votes f
 
 Trigger laws 
 SCOTUS : Supreme court of USA
+Stunned : Sidéré
+Ox -> Oxen
