@@ -4,28 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "3fd4bf664b9a1d2a",
+        "id": "cd93a97ddaa006e9",
         "type": "tabs",
         "children": [
           {
-            "id": "ce96b2af6f4a9a4d",
+            "id": "4f0fd014e73a63ab",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1296d76e22be374c",
+            "id": "336cf6e59c60188f",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md"
+              }
+            }
+          },
+          {
+            "id": "43d72e3b58a7b2bd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Cours/Vocabulaire.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md"
+                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md"
               }
             }
           }
@@ -160,8 +170,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ce96b2af6f4a9a4d",
+  "active": "4f0fd014e73a63ab",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
+    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
+    "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/03-04.md",
@@ -180,14 +194,10 @@
     "LA KONSTANTE.png",
     "Untitled.md",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Mathématiques/TD/E22/E22.md",
     "Mathématiques/TD/E23/E23.md",
     "Mathématiques/TD/E23",
-    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
-    "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "Mathématiques/Cours/C22/Formulaire.md",
