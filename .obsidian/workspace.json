@@ -13,19 +13,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/03-04.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d6031ca9294ec53c",
+            "id": "cee8a4ac74cfdca8",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Info/Cours/Chapitre 13/Chapitre 13.pdf"
+                "file": "Info/TD/TD8/TD 8.pdf"
+              }
+            }
+          },
+          {
+            "id": "04e4a9e2670219cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/TD/TD8/TD8.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -106,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/03-04.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Anglais/Exos/03-04.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Anglais/Exos/03-04.md"
               }
             }
           }
@@ -160,6 +172,9 @@
   },
   "active": "8bdf4d872275f92d",
   "lastOpenFiles": [
+    "Info/TD/TD8/TD8.md",
+    "Info/TD/TD8/TD 8.pdf",
+    "Anglais/Exos/03-04.md",
     "Info/Cours/Chapitre 13/Chapitre 13.pdf",
     "Brouillon.md",
     "LA KONSTANTE.png",
@@ -183,16 +198,13 @@
     "Mathématiques/Cours/C21/C21.md",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
-    "Info/TD/TD8/TD 8.pdf",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
-    "Info/TD/TD8/TD8.md",
     "Info/TD/TD8",
     "Info/TP/TP11/TP 11.pdf",
     "Info/TP/TP11/TP 11 1.pdf",
     "Info/Cours/Chapitre 13/CH13.ml",
     "FR Philo/Exercices/AXE 3 - Faire gouverne.md",
     "FR Philo/Cours/AXE 3/AXE 3 - Faire gouverne.md",
-    "FR Philo/Exercices/Défrichage d'un intitulé.md",
     "Mathématiques/Cours/C23",
     "Anglais/Exos/Les tags reprise du verbe.pdf",
     "Pasted image 20240327082915.png",

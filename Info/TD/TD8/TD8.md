@@ -1,4 +1,4 @@
-# Exercice 2
+# Exercice 7
 ## 2.
 Soient $\phi_{1}, \phi_{2}, \phi_{3}$ des formules
 $$\begin{array}{rl}
