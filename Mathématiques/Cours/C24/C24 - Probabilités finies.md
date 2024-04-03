@@ -125,11 +125,64 @@ $$A : \text{"Le résultat est impair"}$$
 $$B : \text{"Le résultat est pair"}$$
 
 On appliquera ces parties des événements 
-Lorsque la partie est un singleton on parle d’événement "élémentaire" : 
+Lorsque la partie est un singleton on parle d’événement "élémentaire"
 
 #### Définition
 Un événement $A$ est une partie de $\Omega$
 $A \subset \Omega$ ie ($A \in \mathcal{P}(\Omega)$)
 
 Un événement élémentaire est un singleton inclus dans $\Omega$ : $\{ \omega \}$, ou $\omega \in \Omega$
-Lorsqu’on décrit l'événement en langage courant, 
+Lorsqu’on décrit l'événement en langage courant, (ou formel) on parle d'énoncé d'événements, noté entre guillemets ou parfois entre crochets. 
+
+
+#### Exemple
+1. $$C : \text{"Le résultat du lancet est au moins 4",} \text{ ie } C = \{ 4, 5, 6 \}$$
+2. Si le joueur $X$ a choisi pile alors l'événement "$X$ gagne" est $\{ \text{Pile} \}$
+
+
+#### Remarque
+On construit souvent l'évenement à l'aide d'opérations ensemblistes. 
+Cependant, par tradition le vocabulaire probabiliste diffère
+
+#### Définition
+- $\Omega$ est l'événement certain
+- $\varnothing$ est l'événement impossible
+- Pour $A \subset \Omega$ son complémentaire dans $\Omega$n $\Omega \setminus A$ est appelé l'événement contraire et noté aussi $\bar{A}$
+- Pour $A, B \subset \Omega$, 
+  $A \cap B$ est aussi noté : $\text{"A et B"}$
+- Pour $A, B \subset \Omega$, 
+  $A \cup B$ est aussi noté : $\text{"A ou B"}$
+- Deux événements disjoints sont dits incompatibles ($\text{"A et B"}$ est impossible)
+
+#### Exemple
+Avec les notations de l'exemple du dé
+.... Azi c trivial clc d'écrire
+Juste : $B$ et $\{ 1, 5 \}$ sont incompatible
+
+#### Définition
+Soit $n \in \mathbb{N}$, 
+Un système complet d'événements (S.C.E.) est une famille finie : $(A_{i})_{i = 1}^{n} \in \mathcal{P}(\Omega)^{n}$ d'éléments qui sont : 
+1. Deux a deux incompatibles
+   $$\forall i, j \in [\![1, n]\!], i \neq j \Rightarrow A_{i} \cap A_{j} = \varnothing$$
+2. De réunion contraire : 
+   $$\bigcup_{i = 1}^{n}A_{i} = \Omega$$
+
+On résume souvent cela par la notation :
+$$\bigsqcup_{i=0}^{n} A_{i} = \Omega$$
+
+#### Exemple
+Les événements élémentaires forment un système complet d'événements
+
+#### Exemple
+1. $(A, B)$ est un S.C.E.
+   Plus généralement si $A \in \mathcal{P}(\Omega)$ $(A, \bar{A})$ est un SCE
+   
+   $(\{ 1 \}, \{ 2, 5 \}, \{ 3, 4, 6 \})$ est un SCE
+
+
+#### Remarque pour l'an prochain
+-> La condition de finitude d'un SCE ne sera plus imposé
+-> Toutes les parties de $\Omega$ ne seront plus automatiquement des événements (notion de "tribu")
+
+
+
