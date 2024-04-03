@@ -54,3 +54,4 @@ Trigger laws
 SCOTUS : Supreme court of USA
 Stunned : Sidéré
 Ox -> Oxen
+Loom : se profiler
