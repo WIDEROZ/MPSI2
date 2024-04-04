@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "8efed5584777466e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md"
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           }
@@ -161,12 +173,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "316014fcf34acb2c",
+  "active": "8efed5584777466e",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-    "LA KONSTANTE.png",
     "conflict-files-obsidian-git.md",
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+    "LA KONSTANTE.png",
     "FR Philo/18-01.md",
     "FR Philo/Dissertation/Correction - Une société de menteurs ne serait pas viable.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
