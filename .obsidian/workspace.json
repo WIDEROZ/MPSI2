@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md"
+                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md"
               }
             }
           }
@@ -160,10 +161,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0ef59678880f9285",
+  "active": "6d995cf588c65a5a",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
