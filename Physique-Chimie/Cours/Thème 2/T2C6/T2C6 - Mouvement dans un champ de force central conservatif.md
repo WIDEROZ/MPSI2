@@ -307,7 +307,7 @@ $$\boxed{E_{m} = -E_{c} = \frac{1}{2}E_{p} = - \frac{GM_{S}m}{2r_{0}}}$$
 
 Démonstration : 
 En $r= r_{0}$, 
-$$E_{peff} = E_{peff_{min}} = \frac{K}{r_{0}} + \frac{1}{2} \frac{mC^{2}}{r^{2}_{0}}$$
+$$E_{peff} = E_{peff_{min}} = - \frac{K}{r_{0}} + \frac{1}{2} \frac{mC^{2}}{r^{2}_{0}}$$
 $$E_{peff} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{mC^{2}}{(mC^{2})^{2}}K^{2} = - \frac{K^{2}}{mC^{2}} + \frac{1}{2} \frac{K^{2}}{mC^{2}}$$
 $$E_{peff}(r_{0}) = -\frac{1}{2} \frac{K^{2}}{mC^{2}} = -\frac{1}{2}K \times \frac{K}{mC^{2}} = -\frac{K}{2} \frac{1}{r_{0}}$$
 $$E_{peff}(r_{0}) = - \frac{K}{2r_{0}} = \frac{1}{2}E_{p}(r_{0})$$
