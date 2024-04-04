@@ -4,34 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "8b02260fc10683e5",
+        "id": "7bb0094fc1e2e312",
         "type": "tabs",
         "children": [
           {
-            "id": "6d995cf588c65a5a",
+            "id": "facd98884b8413cd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+                "file": "Mathématiques/Cours/C22/Formulaire.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "316014fcf34acb2c",
+            "id": "d2c9337619081dd7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md"
+                "file": "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md"
               }
             }
           }
@@ -160,8 +161,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d995cf588c65a5a",
+  "active": "d2c9337619081dd7",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C22/Formulaire.md",
+    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
+    "Anglais/Exos/Audio mifepristone pill/Personnes.md",
+    "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "conflict-files-obsidian-git.md",
@@ -181,7 +186,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
     "Anglais/Cours/Vocabulaire.md",
-    "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/03-04.md",
     "Anglais/Exos/Audio mifepristone pill",
     "Mathématiques/Cours/C23/C23.md",
@@ -191,8 +195,6 @@
     "Info/Cours/Chapitre 13/Chapitre 13.pdf",
     "Brouillon.md",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
-    "Mathématiques/TD/E22/E22.md",
-    "Mathématiques/TD/E23/E23.md",
     "Mathématiques/TD/E23",
     "Info/TD/TD8",
     "Info/TP/TP11/TP 11.pdf",

@@ -29,3 +29,4 @@ A' = Mat_{e', f'}(u)
 \end{cases}$$
 $$A'=Q^{-1}AP$$
 ___
+$$\mathcal{P}_{e}^{e'} = Mat_{e}(e')= Mat_{e', e}(Id_{E})$$

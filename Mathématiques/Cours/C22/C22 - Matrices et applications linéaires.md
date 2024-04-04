@@ -1363,7 +1363,7 @@ Sont strictements croissante
 On sélectionne certaines lignes et vecteurs colonnes ou, si on préfère, on barre les lignes et les colonnes non choisies. 
 
 #### Théorème
-Le rang s'une matrice extraire de $A$ est inférieure ou égale à $rg(A)$
+Le rang d'une matrice extraite de $A$ est inférieure ou égale à $rg(A)$
 
 Démonstration (pas très formel, mais c'est pour donner une idée) : 
 On note : $A = (a_{i, j})_{\underset{1\leq j\leq p}{1\leq i\leq n}}$ et $A' = (a_{\phi(i), \psi(j)})_{\underset{1\leq j\leq P}{1\leq i\leq N}}$
@@ -1558,7 +1558,7 @@ $$tr\begin{pmatrix}
 
 #### Propriété
 $$tr : \mathcal{M}_{n}(\mathbb{K}) \to \mathbb{K}$$
-est une forme linéaire non nul
+est une forme linéaire non nulle
 Démonstration : (Faire la démo pour que ca soit un application linéaire)
 On a :
 $$tr\begin{pmatrix}
