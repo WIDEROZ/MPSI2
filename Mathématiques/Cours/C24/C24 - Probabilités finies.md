@@ -312,4 +312,85 @@ Démonstration :
 Supp 2.
 
 Alors pour $A \in \mathcal{P}(\Omega)$ on pose : 
-$$P(A) = \sum_{\omega \in \Omega}p_{\omega}$$
+$$P(A) = \sum_{\omega \in A}p_{\omega}$$
+et on vérifie : 
+- $\forall A \in \mathcal{P}(\Omega), P(A) \in [0, 1]$, 
+- $P(\Omega) = 1$
+- Si $A, B\in \mathcal{P}(\Omega)$ vérifient $A \cap B = \varnothing$, alors $P(A \sqcup B) = P(A) + P(B)$
+
+
+#### Définition
+Une <u><i>distribution de probabilité</i></u> sur un ensemble quelconque $E$ est une famille $(p_{x})_{x \in E} \in\mathbb{R}_{+}^{(E)}$ presque nulle de somme $1$
+
+Avec cette définition générale, le 2. de la propriété précédente se reformule ainsi : 
+"$(p_{\omega})_{\omega \in \Omega}$ est une distribution de probas sur $\Omega$"
+
+#### Avant - Première en SPÉ
+- $\Omega$ peut être infini
+- L'ensemble des évènements ne sera en général pas $\mathcal{P}(\Omega)$ mais une tribu $\mathcal{T} \subset \mathcal{P}(\Omega)$ 
+- Les parties seront définies sur $\mathcal{T}$ 
+- Le deuxième axiome des proba sera l'additivité disjointe dénombrable : 
+  $$P(\bigsqcup_{n \in \mathbb{N}}A_{n})= \sum_{n \in \mathbb{N}}P(A_{n})$$
+- En "école" pour $\Omega$ non dénombrable, $P$ n'est plus déterminée par les probas des évènements élémentaires
+
+## 3. Équiprobabilité
+#### Définition
+Si $\Omega = \{ \omega_{1}, \dots, \omega_{N} \}$, la <u>probabilité uniforme</u> sur $\Omega$ est définie en posant : 
+$$\forall i \in [\![1, N]\!], P(\{ \omega_{i} \}) = \frac{1}{N}$$
+On parle aussi <u>d'équiprobabilité</u>
+
+#### Remarque
+Il est très important de savoir repérer l'hypothèse en langage courant, voir l'absence d'hypothèse qui mène a modéliser le problème par une probabilité uniforme
+
+#### Exemples
+- Un dé non pipé
+- Une pièce non truquée
+- Une pièce équilibrée
+- Des boules indiscernables au toucher
+- On tire au hasard un nombre entre $1$ et $100$
+
+etc...
+
+Dans ce cadre d'équiprobabilité tout repose sur la fameuse (miam) formule suivante : 
+
+#### Proposition
+Si $P$ est une probabilité uniforme sur $\Omega$, 
+$$\forall A \in \mathcal{P}(\Omega), P(A) = \frac{|A|}{|\Omega|}$$
+$|A|$ <- Nombre de cas favorables
+$|\Omega|$ <- Nombre de cas possibles
+
+Démonstration : 
+Soit $A \subset \Omega$, 
+On a : 
+$$\begin{array}{rl}
+P(A) &= \sum_{\omega \in A} P(\{ \omega \}) \\
+&= \sum_{\omega \in A} \frac{1}{N} \\
+&= \frac{|A|}{N} \\
+&= \frac{|A|}{|\Omega|}
+\end{array}$$
+
+#### Morale
+
+
+En notant $\mathcal{C}$ l'ensemble des cartes d'un jeu de $32$ cartes, on pose : $\Omega = \mathcal{P}_{5}(\mathcal{C})$
+
+Soit $\mathcal{P}\text{aire}$ l'ensemble des mains (éléments de $\Omega$) qui forment une paire (2 hauteurs semblables et les 3 autres de 3 hauteurs différentes)
+
+On dénombre $\mathcal{P}\text{aire}$ pour pouvoir calculer la proba d'obtenir une paire : $\frac{|\mathcal{P}\text{aire}|}{|\Omega|}$
+
+Choisir une paire c'est choisir :
+- On choisit la hauteur de la paire ($8$ possibilités)
+- Les couleurs de la paire avec ($\binom{4}{2}$ possibilités)
+- Les hauteurs des autres cartes ($\binom{7}{3}$ possibilités)
+- La couleur de la plus haute de ces $3$ cartes ($4$ possibilités)
+- La couleur de la plus haute de ces $2$ cartes ($4$ possibilités)
+- La couleur de la plus base de ces cartes ($4$ possibilités)
+
+
+Donc il y a :
+$$8 \times \binom{4}{2} \times \binom{7}{3} \times 4^{3} $$
+paires
+
+et la probabilité cherchée est : 
+$$P(\mathcal{P}\text{aire}) = \frac{\binom{8}{1}\binom{7}{3}\binom{4}{2}\binom{4}{1}^{3}}{\binom{32}{5}}$$
+$$\frac{8\times 7 \times 6 \times 5 \times 4 \times 3 \times 4^{3} \times 5 \times 4 \times 3 \times 2}{3 \times 2 \times 2 \times 32 \times 31 \times 30 \times 29 \times 28}= \frac{480}{899}$$
