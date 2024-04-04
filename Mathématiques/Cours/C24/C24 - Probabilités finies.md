@@ -185,4 +185,6 @@ Les événements élémentaires forment un système complet d'événements
 -> Toutes les parties de $\Omega$ ne seront plus automatiquement des événements (notion de "tribu")
 
 
-
+## 2. Espaces probabilisés fini
+Un "probabilité" un objet mathématique : 
+Une application qui a tout évèneme

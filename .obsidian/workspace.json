@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "cd93a97ddaa006e9",
+        "id": "d81a548898be9e8c",
         "type": "tabs",
         "children": [
           {
-            "id": "4f0fd014e73a63ab",
+            "id": "be07c9ebc74efe32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "336cf6e59c60188f",
+            "id": "02684dd851dc11f6",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md"
-              }
-            }
-          },
-          {
-            "id": "43d72e3b58a7b2bd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C24/C24.md"
               }
             }
           }
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md"
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md"
               }
             }
           }
@@ -170,8 +158,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f0fd014e73a63ab",
+  "active": "be07c9ebc74efe32",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C24/C24.md",
+    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
@@ -182,10 +173,7 @@
     "Anglais/Exos/Audio mifepristone pill",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
-    "Mathématiques/Cours/C24/C24.md",
-    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/Cours/C23/C23.md",
-    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Mathématiques/Cours/C24",
     "Info/TD/TD8/TD8.md",
     "Info/TD/TD8/TD 8.pdf",

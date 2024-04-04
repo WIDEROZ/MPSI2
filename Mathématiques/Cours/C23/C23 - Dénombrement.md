@@ -52,14 +52,13 @@ $$f \text{ inj} \Leftrightarrow f \text{ surj} \Leftrightarrow f \text{ bij}$$
 
 # II. Opérations
 Tous les ensembles sont ici finis, 
+$$\bigsqcup_{i = 1}^{p}X_{i} \text{ est fini}$$
 #### Propriété
 $$\left|\bigsqcup_{i = 1}^{p} X_{i}\right| = \sum_{i=1}^{p}|X_{i}|$$
 
 #### Corollaire
 $$|X \setminus Y| = |X| - |X \cap Y|$$
 ___
-
-$$\bigsqcup_{i = 1}^{p}X_{i} \text{ est fini}$$
 #### Corollaire : crible pour 2 ensembles
 $$|X \cup Y| = |X| + | Y| - |X\cap Y|$$
 
@@ -165,7 +164,7 @@ $$S_{n} = Bij([\![1, n]\!], [\![1, n]\!]) = Inj([\![1, n]\!], [\![1, n]\!])$$
 Par le miracle des cardinaux finis,
 Par le théorème précédent : 
 $$|S_{n}| = n!$$
-
+#### Notation
 En notant : 
 $A_{p}(Y)$ l'ensemble les $p$-uplets d'éléments de $Y$ deux a deux distincts
 
