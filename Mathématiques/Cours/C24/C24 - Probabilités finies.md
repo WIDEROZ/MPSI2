@@ -157,7 +157,6 @@ Cependant, par tradition le vocabulaire probabiliste diffère
 #### Exemple
 Avec les notations de l'exemple du dé
 .... Azi c trivial clc d'écrire
-Juste : $B$ et $\{ 1, 5 \}$ sont incompatible
 
 #### Définition
 Soit $n \in \mathbb{N}$, 
@@ -186,5 +185,131 @@ Les événements élémentaires forment un système complet d'événements
 
 
 ## 2. Espaces probabilisés fini
+On "imagine" une experience aléatoire
 Un "probabilité" un objet mathématique : 
-Une application qui a tout évèneme
+Une application qui a tout évènement $A$, fait correspondre un nombre qui quantifie une certitude que l'évènement $A$ se produise de impossible (valeur $0$) à certain (valeur $1$)
+$$P : A \mapsto p \in [0, 1]$$
+On aimerait que si on répète un grand nombre de fois l'experience aléatoire, la fréquence des cas ou $A$ se produit soit "proche" de $P(A)$
+(Ce phénomène (loi des grand nombres, ca particulier) pourra par la suite être prouvé)
+
+Comme les fréquences correspondent à deux évènements incompatibles $A$ et $B$ s'ajoutent.
+La fréquence d'obtenir $A$ ou $B$ est celle d'obtenir $A$ plus celle d'obtenir $B$. 
+On veut que $P(A \sqcup B) = P(A) + P(B)$
+(avec $n$ répétitions, $n_{A}$ le nombre d'obtention de $A$, $n_{B}$ le nombre d'obtention de $B$ et $n_{A \sqcup B}$ celui d'obtenir $A \sqcup B$, $n_{A \sqcup B} = n_{A} + n_{B}$ donc $\frac{n_{a \sqcup B}}{}$)
+(avec $n$ répétitions, $n_{A}$ le nombre d'obtention de $A$, $n_{B}$ le nombre d'obtention de $B$ et $n_{A \sqcup B}$ celui d'obtenir $A \sqcup B$, $n_{A \sqcup B} = n_{A} + n_{B}$ donc
+$\frac{n_{A \sqcup B}}{n} = \frac{n_{A}}{n} + \frac{n_{B}}{n} \Leftrightarrow P(A \sqcup B) = P(A) + P(B)$)
+
+Alors on a : 
+
+#### Définition
+Une probabilité sur $\Omega$ est une application : $P : \mathcal{P}(\Omega) \to [0, 1]$ qui vérifie : 
+- $P(\Omega) = 1$
+- $\forall A, B \in \mathcal{P}(\Omega), A \cap B = \varnothing \Rightarrow P(A \sqcup B) = P(A) + P(B)$
+
+#### Exemple
+Jouons avec un dé qui a une "probabilité" $p$ de tomber sur Pile : 
+On modélise cela par : 
+-> L'univers $\Omega = \{ \text{Pile}, \text{Face} \}$
+-> La probabilité : $$P : \varnothing \mapsto 0 , \{ \text{Pile} \} \mapsto p, \{ \text{Face} \}\mapsto 1-p, \Omega \mapsto 1$$
+
+#### Exercice
+Si on joue avec un dé équilibré quel univers et quelle proba prendra-t-on. 
+
+#### Définition : Espace probabilisé fini
+Si $\Omega$ est un ensemble fini et $P$ une partie de sur $\Omega$, 
+le couple $(\Omega, P)$ est appelé un espace probabilisé fini
+
+#### Propriété : Probabilité de l'évènement contraire
+$$\forall A \in \mathcal{P}(\Omega), P(\bar{A}) = 1- P(A)$$
+
+Démonstration : 
+Soit $A \in \mathcal{P}(\Omega)$
+On a $A \sqcup \bar{A} = \Omega$
+Par additivité disjointe et proba de l'évènement certain : 
+$$P(A) + P(\bar{A}) = 1$$
+Donc, $P(\bar{A}) = 1 - P(A)$
+
+#### Corollaire : Probabilité de l'évènement impossible
+$$P(\varnothing) = 0$$
+
+Démonstration : 
+$\varnothing = \bar{\Omega}$, donc $P(\varnothing) = 1 - P(\Omega) = 1-1 = 0$
+
+#### Proposition
+Soient $A, B \in \mathcal{P}(\Omega)$, 
+On a :
+1. $P(A \setminus B) = P(A) - P(A \cap B)$
+2. $P(A \cup B) = P(A) + P(B) - P(A \cup B)$
+3. $A \subset B \Rightarrow P(A) \leq P(B)$
+
+Démonstration : 
+1. 
+$$A = (A \setminus B) \sqcup A \cap B$$
+Donc, 
+$$P(A) = P(A \setminus B) + P(A \cap B)$$
+Ainsi, 
+$$P(A \setminus B) = P(A) - P(A \cap B)$$
+
+2. 
+$$A \cup B = (A \setminus B) \sqcup B$$
+Ainsi, 
+$$P(A \cup B) = P(A \setminus B) + P(B) = P(A) + P(B) - P(A \cap B)$$
+
+3. 
+Supposons que $A \subset B$, 
+par 1., 
+$$P(B \setminus A) = P(B) - P(A \cap B) = P(B) - P(A)$$
+or, 
+$$P(B \setminus A)\geq 0$$
+Ainsi, 
+$$P(A) \leq P(B)$$
+
+#### Proposition : additivité disjointe finie "générale"
+Si $A_{1}, \dots, A_{n}$ sont deux évènements deux a deux incomparables, alors, 
+$$P\left(\bigsqcup_{i=1}^{n} A_{i}\right) = \sum_{i = 1}^{n} P(A_{i})$$
+
+Démonstration : 
+Par récurrence immédiate : 
+$$\begin{array}{rl}
+P(A_{1} \sqcup A_{2} \sqcup \dots \sqcup A_{n}) &= P(A_{1} \sqcup A_{2} \sqcup \dots \sqcup A_{n-1}) + P(A_{n}) \\ 
+&= P(A_{1}) + P(A_{2}) + \dots + P(A_{n-1}) + P(A_{n})
+\end{array}$$
+
+#### Corollaire
+Si $(A_{i})_{i = 1}^{n}$ est un SCE et $A \in \mathcal{P}(\Omega)$
+Alors, 
+$$P(A) = \sum_{i = 1}^{n} P(A \cap A_{i})$$
+
+Démonstration : 
+On applique l'additivité disjointe finie à l'égalité :
+$$A = \bigsqcup_{i = 1}^{n}(A \cap A_{i})$$
+
+Comme $\Omega$ est fini, on a vu que les singletons forment un SCE alors : 
+#### Corollaire
+La probabilité $P$ est uniquement déterminé par la famille des images des évènements élémentaires $(P(\{ \omega \}))_{\omega \in \Omega}$
+Plus précisément,
+$$\forall A \in \mathcal{P}(\Omega), P(A) = \sum_{\omega \in A} P(\{ \omega \})$$
+
+Démonstration : $\square$
+
+#### Remarque
+Il suffit même d'avoir les probabilités des évènements élémentaires saut un$!$ 
+
+#### Exemple
+$P(\{ \text{Pile} \})= p$ et $P(\{ \text{Face} \}) = 1-p$
+
+#### Propriété
+Soit $\Omega$ fini et $(p_{\omega})_{\omega \in \Omega} \in \mathbb{R}^{\Omega}$
+(TFAE en EN) <-> Les deux assertions suivantes sont équivalentes <-> (LASSE en FR)
+
+1. Il existe $P$ proba sur $\Omega$ tels que 
+   $$\forall \omega \in \Omega, P(\{ \omega \}) = p_{\omega}$$
+2.  $$(\forall \omega \in \Omega, p_{\omega} \geq 0) \text{ et } \sum_{\omega \in \Omega}p_{\omega} = 1$$
+
+Démonstration : 
+\1. $\Rightarrow$ 2. : trivial
+\2. $\Rightarrow$ 1. :
+Supp 2.
+
+Alors pour $A \in \mathcal{P}(\Omega)$ on pose : 
+$$P(A) = \sum_{\omega \in \Omega}p_{\omega}$$
