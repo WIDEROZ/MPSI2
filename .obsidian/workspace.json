@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "281f140b7c8e6560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "FR.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "6d995cf588c65a5a",
             "type": "leaf",
             "state": {
@@ -109,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+                "file": "FR.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
+                "file": "FR.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md"
+                "file": "FR.md"
               }
             }
           }
@@ -161,9 +173,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6d995cf588c65a5a",
+  "active": "281f140b7c8e6560",
   "lastOpenFiles": [
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
+    "FR.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
@@ -188,7 +201,6 @@
     "Info/Cours/Chapitre 13/Chapitre 13.pdf",
     "Brouillon.md",
     "LA KONSTANTE.png",
-    "Untitled.md",
     "Info/Cours/Chapitre 13/Chapitre  13.md",
     "Mathématiques/TD/E22/E22.md",
     "Mathématiques/TD/E23/E23.md",
