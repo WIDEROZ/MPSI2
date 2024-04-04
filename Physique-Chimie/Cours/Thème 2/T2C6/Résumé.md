@@ -1,5 +1,5 @@
 #### Force centrale newtonienne
-Soit $\vec{F}$ une force centrale newtonienne conservative
+Soit $\vec{F}$ une force centrale newtonienne conservative aa
 $$\vec{F} = F(\vec{r})\vec{e}_{r} = -\frac{K}{r^{2}}\vec{e}_{r}$$
 $$E_{p} = -\frac{K}{r} + \text{cte}$$
 $$\begin{array}{l}
