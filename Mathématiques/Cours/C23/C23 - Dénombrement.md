@@ -196,7 +196,7 @@ Donc, $|A_{p}(Y)| = \frac{n!}{(n-p)!}$
 Pour $Y$ un ensemble et $p \in \mathbb{N}$, $P_{p}(Y)$ est l'ensemble des parties de $Y$ de cardinal $p$ 
 
 #### Théorème
-Soit $Y$ le cardinal fini $n$ et $p \in \mathbb{N}$, 
+Soit $Y$ de cardinal fini $n$ et $p \in \mathbb{N}$, 
 Alors, 
 $$|\mathcal{P}_{p}(Y)| = \binom{n}{p}$$
 Avec la définition généralisé des binomiaux
@@ -207,7 +207,7 @@ Si $p \in [\![0, n]\!]$,
 On pose : 
 $$g : \begin{cases}
 A_{p}(Y) \to \mathcal{P}_{p}(Y) \\
-(y_{1}, \dots, y_{p}) \mapsto \{ y_{1}, y_{p} \}
+(y_{1}, \dots, y_{p}) \mapsto \{ y_{1}, \dots,  y_{p} \}
 \end{cases}$$
 qui est bien définie puisque si $(y_{1}, \dots, y_{p}) \in A_{p}(Y)$ alors, $|\{ y_{1}, \dots, y_{p} \}| = p$ puisque les $y_{i}$ sont deux a deux distincts. 
 
@@ -215,7 +215,7 @@ Soit $A \in \mathcal{P}_{p}(Y)$,
 Alors, $g^{-1}(\{ A \}) = A_{p}(A)$, 
 Donc, $|g^{-1}(A)| = |A_{p}(A)| = \frac{p!}{(p-p)!} = p!$
 Par le principe des bergers, 
-$$|A_{p}(Y)| = p!\mathcal{P}_{p}(Y)$$
+$$|A_{p}(Y)| = p!|\mathcal{P}_{p}(Y)|$$
 Donc, 
 $$\begin{array}{rl}
 |\mathcal{P}_{p}(Y)| &= \frac{|A_{p}(Y)|}{p!} \\

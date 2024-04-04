@@ -1254,7 +1254,7 @@ Car $J$ est échelonnée par colonne avec $r$ colonnes non nulles.
 
 $\Rightarrow :$ Notons $r = rg(u)$
 Soit $S$ un supplémentaire de $\text{Ker }u$ (existe car $E$ est de dimension finie)
-On choisit une base de $e$ adaptée à la décomposition : 
+On choisit une base $e$ de $E$ adaptée à la décomposition : 
 $$E = S \oplus \text{Ker }u$$
 On sait que $S$ est isomorphe à $\mathrm{Im}(u)$
 Donc, 
