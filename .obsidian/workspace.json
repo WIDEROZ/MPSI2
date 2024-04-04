@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d81a548898be9e8c",
+        "id": "0daa5cec0b6f8009",
         "type": "tabs",
         "children": [
           {
-            "id": "be07c9ebc74efe32",
+            "id": "81a3581425cf3d18",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "02684dd851dc11f6",
+            "id": "35e76c288823ca19",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md"
               }
             }
           }
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md"
               }
             }
           }
@@ -158,8 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "be07c9ebc74efe32",
+  "active": "81a3581425cf3d18",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2",
+    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
     "Mathématiques/Cours/C24/C24.md",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/Cours/C23/C23 - Dénombrement.md",
@@ -171,7 +177,6 @@
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/03-04.md",
     "Anglais/Exos/Audio mifepristone pill",
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Mathématiques/Cours/C23/C23.md",
     "Mathématiques/Cours/C24",
@@ -188,15 +193,10 @@
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
     "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.md",
-    "Mathématiques/Cours/C22/Formulaire.md",
-    "Mathématiques/Cours/C21/C21.md",
-    "Mathématiques/Cours/C21/C21 - Espaces affines.md",
-    "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Info/TD/TD8",
     "Info/TP/TP11/TP 11.pdf",
     "Info/TP/TP11/TP 11 1.pdf",
     "Info/Cours/Chapitre 13/CH13.ml",
-    "Mathématiques/Cours/C23",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",

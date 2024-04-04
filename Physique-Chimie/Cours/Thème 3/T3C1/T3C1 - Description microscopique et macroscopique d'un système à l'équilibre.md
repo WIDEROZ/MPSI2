@@ -288,3 +288,63 @@ Isotropie de la pression :
 La pression qui s'exerce sur une surface d'un fluide ne dépend pas de l'orientation de cette surface. 
 
 Pour des systèmes dont la hauteur est faible devant celle de l'atmosphère, on considère que la pression des homogène dans le système. 
+
+## 4. Résultante des forces de pression sur un solide
+#### Cas simple
+Excal 9
+
+#### Propriété
+Dans ce cas simple ou un solide a des surfaces planes, la pression du fluide sur une surface est uniforme et la résultante des forces de pression sur cette surface est :
+$$\vec{F} = P\mathcal{S}\vec{n}$$
+$P$ : Pression du fluide
+$\mathcal{S}$ : Aire de la surface
+$\vec{n}$ : le vecteur unitaire normal à la surface et dirigé du fluide vers de solide
+
+Démonstration :
+Le solide est formé de surfaces planes
+Le solide est soumis a la pression du fluide qui l'entoure et au point $M$, sur une surface $d\mathcal{S}$.
+$$d\vec{F} = P(M)d\mathcal{S}\vec{n}$$
+avec $\vec{n}$ le vecteur unitaire normal a la surface qui va du fluide vers le solide. 
+Calculons la force de pression qui s'exerce sur toute la surface.
+$$\vec{F} = \int d\vec{F} = \int_{\sum} P(M)d\mathcal{S}\vec{n} $$
+or $P$ est homogène
+Donc, 
+$$\vec{F} = P \int_{\sum} d\mathcal{S}\vec{n}$$
+la surface est plane donc $\vec{n}$ est le même quelque soit le point $M$
+$$\vec{F} = P \vec{n} \int _{\sum} \, d\mathcal{S} $$
+$\uparrow$ l'aire de la surface
+Donc, 
+$$\boxed{\vec{F} = P\mathcal{S}\vec{n}}$$
+
+## 5. Gaz parfaits vs réels
+#### Diagramme d'Amagat
+C'est un diagramme ou l'on trace $PV$ en fonction de $P$
+Traçons des transformations isothermes : $T = cte$
+Excal 10.
+Si $P$ est trop grand, on ne peut pas utiliser le modèle des gaz parfaits. 
+
+Beaucoup de gaz réels obéissent à l'équation d'état de Van der Waals : 
+$$PV\left( 1+\frac{a}{V_{m}^{2}}(V_{m}-b) \right) = nRT$$
+$V_{m}$ : Volume molaire
+$b$ : Volume d'une particule (covolume)
+$a$ : Interaction entre les particules
+(Pas obligé de l'apprendre)
+
+## 6. Volume molaire ou massique
+$V_{m}$ : volume molaire (volume par quantité de matière)
+$$V_{m} = \frac{V}{n}$$
+$V_{m}$ est une grandeur extensive
+Pour tous les gaz parfaits : 
+$$V_{m} = \frac{RT}{P}$$
+
+Démonstration : 
+$$PV = nRT \Leftrightarrow \frac{V}{n} = \frac{RT}{P} = V_{m} \, \square$$
+
+a $T = 0\degree C$ et $P = 1$ atm, $V_{m} = 22,4 \space L.mol^{-1}$ 
+
+#### Volume massique
+Volume massique $v$ est le volume par unité de masse :
+$$\boxed{v = \frac{V}{m} = \frac{V_{m}}{M}}$$
+C'est une grandeur intensive 
+si $\rho$ est la masse volumique : $v = \frac{1}{\rho}$
+
