@@ -12,7 +12,7 @@ Sunday morning debate :
 3.  Owen : Democratic
 4. Matic : 
 5. Moi : 
-6. Jean
+6. Jean : 
 7. Sacha
 
 

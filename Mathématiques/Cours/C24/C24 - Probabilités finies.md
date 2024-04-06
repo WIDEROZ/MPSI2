@@ -394,3 +394,352 @@ paires
 et la probabilité cherchée est : 
 $$P(\mathcal{P}\text{aire}) = \frac{\binom{8}{1}\binom{7}{3}\binom{4}{2}\binom{4}{1}^{3}}{\binom{32}{5}}$$
 $$\frac{8\times 7 \times 6 \times 5 \times 4 \times 3 \times 4^{3} \times 5 \times 4 \times 3 \times 2}{3 \times 2 \times 2 \times 32 \times 31 \times 30 \times 29 \times 28}= \frac{480}{899}$$
+
+#### Remarque
+Il arrive que l'univers évident associé a une experience aléatoire ne soit pas le meilleur pour travailler, c'est en changeant de modèle qu'on arrive a travailler avec une probabilité uniforme. 
+
+#### Exercice
+On lance deux dés équilibrés et on s'intéresse à la somme des résultats
+On veut calculer la proba : 
+$$A : \text{"La somme fait 4"}$$
+
+##### Cas 1
+$\Omega_{2} = [\![2, 12]\!]$
+Mais on a pas équiprobabilité
+Voir la suite $P(A) \neq \frac{1}{11}$
+
+##### Cas 2
+On considère l'xp aléatoire on lance les 2 dés et on regarde le couple des résultats (par exemple en peignant en rouge) l'un (qu'on décide le premier et en vert l'autre -> $(n_{R}, n_{V})$)
+
+Cela dans $\Omega_{2} = [\![1, 6]\!]^{2}$
+On vera par la suite qu'il y a équiprobabilité car : 
+- Les dés sont équilibrés
+- Le résultats des dés sont "indépendants"
+
+et alors, 
+$$A = \{ (1, 3), (2, 2), (3, 1) \}$$
+et 
+$$|\Omega_{2}| = 6^{2} = 36$$
+Donc, 
+$$P(A) = \frac{|A|}{|\Omega_{2}|} = \frac{3}{36} = \frac{1}{12}$$
+
+# II. Probabilités conditionnelles et indépendantes
+On considère ici $(\Omega, P)$ un espace probabilisé fini
+## 1. Probabilités conditionnelles
+On veut définir la probabilité qu'un évènement $A$ arrive sachant que $B$ est réalisé. 
+#### Exemple
+On lance un dé équilibré, on s'intéresse à l'évènement : 
+$$A : \text{"obtenir 6"}$$
+Un observateur assure que le résultat est pair,
+quel est alors la probabilité d'avoir $A$ connaissant cette information?
+
+Sachant $B$, il ne reste que plus $3$ faces possibles qui sont équiprobables et une qui convient donc le résultat est $\frac{1}{3}$. 
+
+Il semble naturel dans un cadre d'équiprobabilité que le résultat (proba de $A$ sachant $B$) soit $\frac{|A \cap B|}{|B|}$ (avec $P(B)$ non nul)
+
+Reformulation de l'existence de probas : 
+$$p = \frac{|A \cap B|}{|\Omega|} \times \frac{|\Omega|}{|B|} = \frac{P(A \cap B)}{P(B)}$$
+
+###### Cas général ($P$ plus forcément uniforme)
+Testons cette formule potentielle pour $P(B)$ non nul: 
+- Si $A$ et $B$ sont incompatibles,
+  $$\frac{P(A \cap B)}{P(B)} = \frac{P(\varnothing)}{P(B)} = 0$$
+  C'est naturel (pouce en l'air)
+- Si $B \subset A$, 
+  Alors dès que $B$ arrive ($\omega \in B$)
+  $$\frac{P(A \cap B)}{P(B)} = \frac{P(B)}{P(B)} = 1$$
+
+#### Définition
+Soient $A, B \in \mathcal{P}(\Omega)$ tq $P(B) > 0$, 
+On note : 
+$P(A | B)$ ou $P_{B}(A)$ et on appelle probabilité conditionnelle de $A$ sachant $B$ le nombre :
+$$P(A | B) = \frac{P(A \cap B)}{P(B)}$$
+
+On retrouve : 
+
+#### Proposition (Cas uniforme)
+Si $P$ est uniforme et $B$ non vide, ($A, B \in \mathcal{P}(\Omega)$)
+Alors, 
+$$P(A | B) = \frac{|A \cap B|}{|B|}$$
+
+Justification du mot probabilité dans probabilité conditionnelle :
+#### Proposition
+Soit $B \in \mathcal{P}(\Omega)$ tel que $P(B)>0$, 
+Alors l'application : 
+$$P_{B} \begin{cases}
+\mathcal{P}(\Omega) \to [0, 1] \\
+A \mapsto P_{B}(A) = P(A | B)
+\end{cases}$$
+est bien définie et est une probabilité sur $\Omega$
+
+Démonstration : 
+Soit $A \in \mathcal{P}(\Omega)$, 
+On a : $P_{B}(A) = \frac{P(A \cap B)}{P(B)}$
+Comme $A \cap B \subset B$, $0\leq P(A \cap B) \leq P(B)$
+En divisant par $P(B)$: 
+$$0\leq \frac{P(A \cap B)}{P(B)} = P_{B}(A)\leq 1$$
+Ainsi $P_{B}$ est bien définie.
+
+Pour montrer que $P_{B}$ est une proba, il suffit de montrer les axiomes : 
+1. $P_{B}(\Omega) = \frac{P(\Omega \cap B)}{P(B)} = \frac{P(B)}{P(B)} = 1$
+2. Soient $A_{1}$ et $A_{2}$ deux évènements incompatibles alors, comme $P$ est une proba
+   $$P((A_{1} \sqcup A_{2})\cap B)= P((A_{1} \cap B) \sqcup(A_{2}\cap B))$$
+   Comme $P(B) \neq 0$, 
+   $$ P_{B}(A_{1} \sqcup A_{2})= P_{B}(A_{1}) + P_{B}(A_{2})$$
+
+Ainsi, $P_{B}$ est une probabilité sur $\Omega$, 
+
+#### Exemple
+<u>ENCORE LE DÉ ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::</u>
+
+Comme $B : \text{"Le résultat est pair"}$
+$$P_{B}(\{ 1 \}) = P_{B}(\{ 3 \}) = P_{B}(\{ 5 \})=0$$
+$$P_{B}(\{ 2 \}) = P_{B}(\{ 4 \}) = P_{B}(\{ 6 \})=\frac{1}{3}$$
+$$P_{B}(A) = P_{B}(\{ 5, 6 \}) = P_{B}(\{ 5 \}) + P_{B}(\{ 6 \}) = 0 + \frac{1}{3}$$
+
+
+#### Remarque
+Si $\Omega = B$, $P_{B} = P$
+Savoir $\Omega$ n'apporte aucune information.
+
+## 2. Trois formules fondamentales
+#### Théorème : Formule des probabilités totales
+Soit $(A_{i})_{i=1}^{n}$ un SCE
+Soit $B \in \mathcal{P}(\Omega)$
+Alors, 
+$$P(B) = \sum_{i=1}^{n} P(A_{i})P(B | A)$$
+Avec la convention que $P(A_{i})P(B | A_{i}) = 0$ lorsque $P(A_{i}) = 0$
+
+Démonstration : 
+On a : 
+$$B = \bigsqcup_{i = 1}^{n} B \cap A_{i}$$
+Donc, 
+$$P(B) = \sum_{i=1}^{n} P(B \cap A_{i}) = \sum_{\underset{P(A_{i}) \neq 0}{i=1}}^{n}P(B \cap A_{i})$$
+(Car $P(A_{i}) = 0$, $P(B \cap A_{i})\leq 0$ donc $= 0$)
+$$P(B) = \sum_{i=1}^{n} P(A_{i})P(B | A_{i})$$
+Avec la convention. 
+
+#### Exemple
+On dispose d'une urne contenant : 
+- $6$ boules jaunes
+- $3$ boules vertes
+- $2$ boules rouges
+
+On effectue $2$ tirages successifs sans remise : 
+Quelle est la probabilité de tirer une rouge au deuxième tirage ? 
+
+On note pour $i \in \{ 1, 2 \}$: 
+$$R_{i} : \text{"Boule obtenue au }i^{eme} \text{ tirage est Rouge "}$$
+On applique la formule des probabilités totals au SCE : $(R_{1}, \bar{R}_{1})$ et à l'évènement $R_{2}$ : 
+$$P(R_{2}) = P(R_{1})P(R_{2} | R_{1})+P(\bar{R}_{1})P(R_{2} | \bar{R}_{1})$$
+A chaque tirage, les boules réstantes dans l'urne sont équiprobables (car elles sont indiscernables au toucher) donc, 
+$P(R_{1}) = \frac{2}{11}$
+Donc, 
+$P(\bar{R}_{1}) = 1- \frac{2}{11} = \frac{9}{11}$
+et $P(R_{1}) \neq 0$ donc, $P_{R_{1}}$ existe et est uniforme par la remarque précédente
+Donc, $P_{R_{1}}(R_{2}) = \frac{1}{10}$ de même, $P_{\bar{R}_{1}}(R_{2}) = \frac{2}{10} = \frac{1}{5}$
+
+Finalement, 
+$$P(R_{2}) = \frac{2}{11} \times \frac{1}{10} + \frac{9}{11} \times \frac{2}{10} = \frac{2}{11}$$
+
+#### Remarque sur les arabes
+On voit que $P(R_{1}) = P(R_{2})$
+
+Excal 1.
+
+
+#### Formule de Bayes
+Soit $(A_{i})_{i = 1}^{n}$ un SCE
+Soit $B$ un évènement de probabilité non nulle
+Alors, pour $j \in [\![1, n]\!]$, 
+$$P(A_{j}|B) = \frac{P(A_{j})P(B | A_{j})}{P(B)} = \frac{P(A_{j})P(B | A_{j})}{\underset{i = 1}{\overset{n}{\sum}} P(A_{i})P(B | A_{i})} $$
+
+Démonstration : 
+- Si $P(A_{j}=0)$, 
+  $P(A_{j} \cap B) = 0$
+  donc, $P(A_{j} | B) = 0$
+  et par convention : 
+  $P(A_{j})P(B| A_{j}) = 0$ 
+  et les formules sont vraies car $0=0=0$
+- Sinon,
+
+Photo 05-04
+
+
+#### Exemple
+La boite $1$ contient $3$ boules bleues et $2$ rouges
+La boite $2$ contient $2$ boules bleues et $5$ rouges
+
+Les deux boites sont indiscernables.. 
+On tire une boule dans une boite et elle est bleue
+Quelle est la probabilité qu'elle provienne de la boite $1$?
+
+Pour $i \in \{ 1, 2 \}$,
+On définit
+$$A_{i} : \text{"La boule provient de la boite "}i$$
+$$B : \text{"La boule est bleue"}$$
+
+Par la formule des probabilités totales, ($(A_{i})_{i = 1}^{n}$ un SCE, et $B \in \mathcal{ P}(\Omega)$), 
+$$P(B) = P(A_{1})P(B | A_{1}) + P(A_{2})P(B | A_{2})$$
+On a choisi une des boites au hasard, donc : 
+$$P(A_{1}) = P(A_{2}) = \frac{1}{2} \neq 0$$
+Par équiprobabilité de boules lors du tirage dans une boite
+$P(B | A_{1}) = \frac{3}{5}$ et $P(B | A_{2}) = \frac{2}{7}$
+
+Ainsi, $P(A_{1})P(B | A_{1}) = \frac{3}{10}$ et $P(A_{2})P(B | A_{2}) = \frac{2}{14}= \frac{1}{7}$
+$$P(B) = \frac{3}{10}+\frac{1}{7}= \frac{31}{70} \neq 0$$
+Donc on peut appliquer la formule de bayes qui donne : 
+$$P(A_{1} | B) = \frac{3}{10} \times \frac{70}{31} = \frac{21}{31}$$
+
+#### Théorème : Formule des probabilités composées
+Soient $n \geq 2$ et $(A_{i})_{i = 1}^{n}$ une famille d'évènements tq $$P\left( \bigcap_{i=1}^{n-1} A_{i} \right) \neq 0$$
+Alors, 
+$$P\left( \bigcap_{i=1}^{n} A_{i} \right) = P(A_{1}) \prod_{i = 2}^{n}P\left( A_{i} \left|  \bigcap_{j=1}^{i-1}A_{j} \right.\right)$$
+$$= P(A_{1})P(A_{2} | A_{1})P(A_{3}| A_{1} \cap A_{2}) \dots P(A_{n}| A_{1} \cap \dots \cap A_{n-1})$$
+
+
+Démonstration : 
+$$\begin{array}{rl}
+P(A_{1} \cap \dots \cap A_{n}) &= P(A_{1} \cap \dots \cap A_{n-1})P(A_{n}|A_{1}\cap \dots \cap A_{n-1}) \\
+&= P(A_{1} \cap ... \cap A_{n-2})P(A_{n-1} | A_{1} \cap ... \cap A_{n-2}) \\
+& \space\space\space\space \times P(A_{n}|A_{1} \cap \dots \cap A_{n-1}) \\
+&= P(A_{1})P(A_{2} | A_{1})P(A_{3}| A_{1} \cap A_{2}) \\
+& \space\space\space\space \dots P(A_{n}| A_{1} \cap \dots \cap A_{n-1})
+\end{array}$$
+
+##### Exemple
+On tire au hasard successivement et sans remise quatre lettres du mot "attachant" :
+Quelle est la probabilité d'obtenir "chat" : 
+$$\begin{array}{l}
+A_{1} : \text{"La première lettre est c"} \\
+A_{2} : \text{"La deuxième est h"} \\
+A_{3} : \text{"La troisième est a"} \\
+A_{4} : \text{"La quatrième est t"}
+\end{array}$$
+
+Il est clair que $P({A_{1}\cap A_{2}\cap A_{3}\cap A_{4}}) \neq 0$ 
+Par la formules des probabilités composées, 
+$$\begin{array}{rl}
+P(A_{1} \cap A_{2} \cap A_{3} \cap A_{4}) &= P(A_{1})P(A_{2} | A_{1})P(A_{3} | A_{1} \cap A_{2}) \\
+& \space\space\space\space \times P(A_{4} | A_{1} \cap A_{2} \cap A_{3}) 
+\end{array}$$
+Or,
+- $P(A_{1}) = \frac{1}{9}$
+- $P(A_{2}|A_{1}) = \frac{1}{8}$
+- $P(A_{3} | A_{1} \cap A_{2}) = \frac{3}{7}$
+- $P(A_{4} | A_{1} \cap A_{2} \cap A_{3})=\frac{3}{6} = \frac12$
+
+Ainsi, 
+$$P(A_{1} \cap A_{2} \cap A_{3} \cap A_{4}) =\frac{1}{9} \frac{1}{8} \frac{3}{7} \frac{1}{2} = \frac{1}{336}$$
+
+## 3. Indépendance
+#### Intuition
+Si $P(B) \neq 0$, 
+Sire que $A$ est indépendant de $B$ c'est dire que "sachant $B$" la proba de $A$ ne change pas
+ie $P(A | B) = P(A)$
+ie $\frac{P(A \cap B)}{P(B)} = P(A)$
+$P(A \cap B) = P(A)P(B)$
+- Ce qui est symétrique en $A$ et $B$
+- Ne nécessite plus des l'hypothèse $P(B) \neq 0$
+
+
+#### Définition
+Soient $A, B \in \mathcal{P}(\Omega)$, 
+On dit qu'ils sont indépendants ssi :
+$$P(A \cap B) = P(A) P(B)$$
+
+#### Exemple
+On tire au hasard une carte d'un jeu de $32$ cartes. 
+Alors,
+$$\begin{cases}
+A : \text{"La carte est un pique"} \\
+B : \text{"La carte est une figure"}
+\end{cases}$$
+Sont indépendants
+
+
+En effet par équiprobabilité, 
+- $P(A) = \frac{8}{32}= \frac{1}{4}$
+- $P(B) = \frac{12}{32}= \frac{3}{8}$
+- $P(A \cap B) = \frac{3}{32}$
+
+On a bien : $\frac{1}{4} \frac{1}{8} = \frac{1}{32}$
+
+#### Remarque importante
+La plupart du temps, l'indépendance d’évènement est conséquence de l'énoncé pratique du problème qu'on admet alors dans notre modélisation
+Par exemple si les parties de l'experience aléatoire sont "physiquement indépendants" on en déduira l'indépendance mathématique des évènements, par exemple : 
+- On lance plusieurs pièces ou plusieurs dés en même temps
+- On fait des tirages successif dans une urne avec remise
+
+#### Exemple
+On lance $2$ dés, et on cherche $P(Q)$ ou
+$$Q : \text{"La somme est 4"}$$
+On décide qu'il y a un dé $a$ et un dé $b$ 
+On note $X_{a}$ le résultat de $a$ (la même pour $b$)
+Alors, 
+$$Q : \text{"}X_{a} + X_{b} = 4 \text{"}$$
+
+On pose
+- $A = (X_{a}, X_{b}) = (1, 3)$
+- $B = (X_{a}, X_{b}) = (2, 2)$
+- $C = (X_{a}, X_{b}) = (3, 1)$
+
+et on a : $Q = A \sqcup B \sqcup C$
+
+Donc, 
+$P(Q) = P(A) + P(B) + P(C)$
+On note : 
+$A_{a} : \text{"} X_{a} = 1 \text{"}$ et $A_{b} : \text{"} X_{b} = 3 \text{"}$
+On a alors, $A = A_{a} \cap A_{b}$
+Par indépendance "physique" des lancers de dés, $A_{a}$ et $A_{b}$ sont indépendants donc, $P(A) = P(A_{a})P(A_{b})$
+Comme le dé $a$ est équilibré, il y a équiprobabilité des résultats possibles pour ce dé
+donc $P(A_{a}) = \frac{1}{6}$
+et de même $P(A_{b}) = \frac{1}{6}$
+Donc, $P(A) = \frac{1}{36}$
+
+
+De même, $P(B) = P(C) = \frac{1}{36}$
+Finalement, $P(Q) = \frac{3}{36} = \frac{1}{12}$
+
+#### Remarque
+On a pas spécifié $\Omega$ ici (c'est la règle en proba)
+
+#### Remarque
+Si on aurait volu le spécifier on aurait du prendre $\Omega = [\![1, 6]\!]^{2}$ et le raisonnmet pour le calcul de $P(A)$ aurait montré que 
+$$\forall(x, y) \in \Omega, P(\{ (x, y) \}) = \frac{1}{36}$$
+Donc la proba serait uniforme, (ce qu'on a affirmé précédement)
+
+#### Propriété
+Pour tout $A \in \mathcal{P}(\Omega)$, 
+- $A$ et $\Omega$ sont indépendants
+- $A$ et $\varnothing$
+
+Démonstration : ez
+
+#### Notation 
+$A || B$ plutot utilisé pour des variables aléatoires
+
+#### Propriété
+Soient $A$ et $B$ deux évènements indépendants, 
+Alors, 
+- $\bar{A}$ et $B$ sont indépendants
+- $A$ et $\bar{B}$ sont indépendants
+- $\bar{A}$ et $\bar{B}$ sont indépandants
+
+Démonstration : ez
+
+#### Propriété
+Si $A$ ; $B \in \mathcal{P}(\Omega)$ et $P(B) \neq 0$, 
+Alors, l'indépendance de $A$ et $B$ équivaut à l'égalité : 
+$$P(A | B) = P(A)$$
+
+#### Définition
+Les évènements $(A_{i})_{i = 1}^{n}$ sont mutuellement indépendants ssi : 
+Pour toute famille extraire $(A_{i_{k}})_{k = 1}^{p}$;
+on a : 
+$$P\left( \bigcap_{k =1}^{p} A_{i_{k}} \right) = \prod_{k=1}^{p}P(A_{i_{k}})$$
+$$\forall I \subset [\![1, n]\!], P\left( \bigcap_{i \in I} A_{i} \right) = \prod_{i \in I}P(A_{i})$$
+
+#### Propriété
+Changer certains des $A_{i}$ en leur complémentaire $\bar{A}_{i}$ ne change pas l'indépendance mutuelle des $A_{i}$
+
