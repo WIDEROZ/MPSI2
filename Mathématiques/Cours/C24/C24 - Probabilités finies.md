@@ -141,16 +141,16 @@ Lorsqu’on décrit l'événement en langage courant, (ou formel) on parle d'én
 
 
 #### Remarque
-On construit souvent l'évenement à l'aide d'opérations ensemblistes. 
+On construit souvent l'évènement à l'aide d'opérations ensemblistes. 
 Cependant, par tradition le vocabulaire probabiliste diffère
 
 #### Définition
 - $\Omega$ est l'événement certain
 - $\varnothing$ est l'événement impossible
-- Pour $A \subset \Omega$ son complémentaire dans $\Omega$n $\Omega \setminus A$ est appelé l'événement contraire et noté aussi $\bar{A}$
+- Pour $A \subset \Omega$ son complémentaire dans $\Omega \setminus A$ est appelé l'événement contraire et noté aussi $\bar{A}$
 - Pour $A, B \subset \Omega$, 
   $A \cap B$ est aussi noté : $\text{"A et B"}$
-- Pour $A, B \subset \Omega$, 
+- Pour $A, B \subset \Omega$, .
   $A \cup B$ est aussi noté : $\text{"A ou B"}$
 - Deux événements disjoints sont dits incompatibles ($\text{"A et B"}$ est impossible)
 
@@ -735,7 +735,7 @@ $$P(A | B) = P(A)$$
 
 #### Définition
 Les évènements $(A_{i})_{i = 1}^{n}$ sont mutuellement indépendants ssi : 
-Pour toute famille extraire $(A_{i_{k}})_{k = 1}^{p}$;
+Pour toute famille extraire $(A_{i_{k}})_{k = 1}^{p}$, 
 on a : 
 $$P\left( \bigcap_{k =1}^{p} A_{i_{k}} \right) = \prod_{k=1}^{p}P(A_{i_{k}})$$
 $$\forall I \subset [\![1, n]\!], P\left( \bigcap_{i \in I} A_{i} \right) = \prod_{i \in I}P(A_{i})$$
@@ -743,3 +743,115 @@ $$\forall I \subset [\![1, n]\!], P\left( \bigcap_{i \in I} A_{i} \right) = \pro
 #### Propriété
 Changer certains des $A_{i}$ en leur complémentaire $\bar{A}_{i}$ ne change pas l'indépendance mutuelle des $A_{i}$
 
+#### Exercice 58 (Voir poly)
+Une urne contient 20 boules indiscernables au toucher :
+- 11 unicolores : 5 vertes, 4 jaunes, 2 rouges.
+- 6 bicolores : 1 vert-rouge, 1 vert-jaune, 4 jaune-rouge. 
+- 3 tricolores vert-jaune-rouge.
+
+$$V : \text{“la boule est (au moins partiellement) verte”}$$
+la même pour $R$ et $J$ avec rouge et jaune
+
+1. Mq : $P (V ∩ R ∩ J) = P (V ) P (R) P (J)$
+2. Mq $V, J, R$ ne sont pas mutuellement indépendants
+
+1. 
+Par équiprobabilité de la boule tirée,
+- $P(V \cap J \cap R) = \frac{3}{20}$
+- $P(V) = \frac{10}{20} = \frac12$
+- $P(J) = \frac{12}{20} = \frac{3}{5}$
+- $P(R) = \frac{10}{20} = \frac12$
+
+Donc
+$$P(V)P(J)P(R) = \frac{3}{2 \times 2 \times 5} = \frac{3}{20} = P(V \cap J \cap R)$$
+
+2. 
+$P(V \cap J) = \frac{4}{20} = \frac{1}{5}$
+$P(V)P(J) = \frac{3}{10}$
+Donc, $P(V \cap J) \neq P(V)P(J)$
+Ainsi, $V, J, R$ ne sont pas mutuellement indépendants. 
+
+#### Exercice
+On lance deux dés équilibrés, un rouge et un bleu.
+Montrer que les évènements
+- $R :\text{“le résultat du dé rouge est pair”}$
+- $B : \text{“le résultat du dé bleu est pair”}$
+- $S : \text{“la somme des résultats des deux dés est paire”}$
+
+sont deux-à-deux indépendants, mais pas mutuellement indépendants.
+
+Comme le dé rouge est équilibré : 
+$P(R) = \frac{3}{6} = \frac{1}{2}$
+De même pour le dé bleu : 
+$P(B) = \frac{3}{6} = \frac12$
+
+On a : 
+$S = R \cap B \sqcup \bar{R} \cap \bar{B}$
+donc, $P(S) = P(R \cap B) + P(\bar{R} \cap \bar{B})$
+
+Par indépendance physique du lancer du dé rouge et par lancé du dé bleu, $R$ et $B$ sont indépendants et donc, $\bar{R}$ et $\bar{B}$ sont indépendants
+Ainsi, 
+$$P(R \cap B) =  P(R)P(B) = \frac{1}{4}$$
+$$P(\bar{R} \cap \bar{B} )= P(\bar{R}) P(\bar{B}) = \frac{1}{4}$$
+Alors, 
+$$P(S) = \frac{1}{2}$$
+
+Or $R$ et $B$ sont indépendants et $R \cap S= R \cap B$
+(car sur les 3 nombres : résultat du rouge, résultat su bleu, somme des deux)
+dès que deux d'entre eux sont pairs, le troisième l'est aussi (par somme et différence de deux entiers pairs), 
+Donc, 
+$$\begin{array}{l}
+R \cap S = R \cap B \cap S \\
+B\cap S = A \cap B \cap S \\
+R \cap B = R\cap B \cap S
+\end{array}$$
+Ainsi, 
+$P(R \cap S) = P(R \cap B) = \frac{1}{4} = P(R)P(S)$
+Donc, $R$ et $S$ sont indépendants, 
+De même, $B$ et $S$ sont indépendants
+
+Ainsi, 
+$R$, $B$ et $S$ sont deux à deux indépendants
+
+Par ailleurs, 
+$$\begin{array}{rl}
+P(R \cap B \cap S) &= P(R \cap B) \\
+&= \frac{1}{4} \\
+&\neq \frac{1}{2} \times \frac{1}{2} \times \frac{1}{2} \\
+&= P(R)P(B)P(S)
+\end{array}$$
+
+#### Morale de l'histoire
+1. L'indépendance mutuelle est une notion subtile (Dangereuse)
+2. Il faut apprendre et retenir a long terme la définition
+
+#### Définition : Épreuve de Bernoulli
+C'est une experience aléatoire à deux issues.
+($|\Omega| = 2$).
+
+Par exemple on lance une pièce qui peut être truquée
+
+Par convention : $\Omega = \{ S, E \}$ (succès, échec)
+
+On appelle paramètre de cette épreuve le nombre
+$p = P(\{ S \})$
+
+#### Exemple
+Succession d'épreuves de Bernoulli indépendantes de même paramètre. 
+On considère $n$ épreuves de Bernoulli "indépendantes" de même paramètre $p$ (par exemple $n$ lancers de la même pièce truquée)
+
+On traduis cette indépendance physique par l'indépendance mutuelle des évènements : 
+$$S_{i} : \text{"Succès à l'épreuve }i \text{"}$$
+Pour $k \in [\![0, n]\!]$, on cherche la probabilité d'avoir exactement $k$ succès au cours de ces $n$ épreuves.
+
+Pour $I \subset [\![1, n]\!]$, on note $A_{I}$ l'évènement :
+$$\text{"Pour tout } i \in I \text{ on a un succès et pour tout } i \notin I \text{ on a un échec"}$$
+ie 
+$$A_{I} = \left( \bigcap_{i \in I} S_{i} \right) \cap \left( \bigcap_{i \in [\![1, n]\!] \setminus I} \bar{S}_{i}\right)$$
+Par indépendance mutuelle des $S_{i}$ ($i \in I$) et invariance de l'indépendance mutuelle par passage au complémentaire de certains évènements, 
+$$P(A_{I}) = \left( \prod_{i \in I} P(S_{i}) \right)\left( \prod_{i \in [\![1,n]\!] \setminus I}P(\bar{S}_{i}) \right) = p^{|I|}(1-p)^{n- |I|}$$
+Soit $k \in [\![0,n]\!]$, 
+Alors, 
+$$K = \text{"Avec }k \text{ succès"} = \bigsqcup_{I \in \mathcal{P}_{k}([\![1, n]\!])} A_{I}$$
+Donc, 
+$$P(K) = \sum_{I \in \mathcal{P}_{k}([\![1, n]\!])} p^{k}(1-p)^{n-k} = \binom{n}{k}p^{k}(1-p)^{n-k}$$
