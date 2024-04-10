@@ -13,7 +13,7 @@ Sous ces hypothèses les 42-uplets de jours de naissance de la classe (ordre alp
 
 Ainsi, $\Omega = [\![1, 365]\!]^{42}$ est muni d'une probabilité uniforme et en conséquence Pour $A \subset \Omega$, 
 $$\mathcal{P}(A) = \frac{|A|}{|\Omega|}$$
-En posant l’événement (énoncé d'évenement): 
+En posant l’événement (énoncé d'évènement): 
 $$A : \text{"Les jours des naissances sont 2 a 2 } \neq \text{"}$$
 on a : $A = \mathcal{A}_{42}([\![1, 365]\!])$
 Donc, $|A| = \frac{365!}{(365-42)!}$
@@ -385,6 +385,7 @@ Choisir une paire c'est choisir :
 - La couleur de la plus haute de ces $3$ cartes ($4$ possibilités)
 - La couleur de la plus haute de ces $2$ cartes ($4$ possibilités)
 - La couleur de la plus base de ces cartes ($4$ possibilités)
+
 
 
 Donc il y a :

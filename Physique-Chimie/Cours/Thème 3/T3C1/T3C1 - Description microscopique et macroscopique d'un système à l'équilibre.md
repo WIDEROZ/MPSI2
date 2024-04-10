@@ -1,6 +1,5 @@
 # Theme 3 : Energies, conversion et transfert
 # I. Vocabulaire
-### a. Libre parcours moyen
 Le libre parcours moyen $\lambda$ d'une particule est la longueur moyenne des segments parcourus par cette particule entre 2 collisions avec une autre particule du système. 
 
 Excalidraw 1.
