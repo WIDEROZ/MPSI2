@@ -332,3 +332,52 @@ $$\Delta U = Q = \int_{EI}^{EF} C_{V} \, dT$$
 #### Définition
 Le flux thermique $\phi$ (il faut associer le mot flux a la puissance) est la puissance thermique reçue par le système. Il s'exprime en watt $W$
 pendant une durée $dt$, le système reçoit une énergie $\delta Q = \phi dt$
+
+excal 7
+Les faces du haut et du bas sont calorifugés
+
+#### Définition
+La résistance thermique $R_{th}$ relie le flux thermique $\phi$ entre deux régions isothermes et la différence de température $\Delta T$ : 
+$$\Delta T = R_{th} \phi$$
+$\Delta T>0$ : Différence de température
+(pas obligé mais mieux pour la positivité)
+$\phi$ : Flux thermique en $W$
+$R_{th}>0$ : la résistance thermique en $K.W^{-1}$
+
+
+#### Remarque
+$R_{th}$ est analogue a une résistance électrique :
+$$\begin{array}{c}
+R_{th} \leftrightarrow R \\
+\Delta T = R_{th}\phi \leftrightarrow U = RI \\
+\Delta T \leftrightarrow U = \Delta V \\
+\phi \leftrightarrow I
+\end{array}$$
+
+
+#### Remarque
+Un isolant thermique à une resistance thermique élevée
+
+La résistance thermique dépend de :
+- La géométrie
+- L'épaisseur
+- La surface 
+- La conductivité thermique $\lambda$
+
+#### Remarque
+On parle aussi de conductance thermique : 
+$$G_{th} = \frac{1}{R_{th}}$$
+
+#### Applications 
+Excal 8
+$$R_{th} = \frac{T_{i}-T_{e}}{\phi} = \frac{21-7}{56} = \frac{14}{56} = \frac{1}{4} K.W^{-1}$$
+Donc, 
+$$\boxed{R_{th} = 0.25 K.W^{-1}}$$
+
+## 2. Loi phénoménologique de Newton
+Excal 9
+$$\phi_{S \to f} = h(T_{s}-T_{f})S$$
+$\phi_{S \to f}$ : Flux de chaleur entre le solide et le fluide
+$S$ : Surface d'échange en $m^{2}$
+$T_{s} - T_{f}$ : Différence de température en $K$
+$h$ : Le coefficient de conducto-convexion en $W.K^{-1}.m^{-2}$

@@ -2,7 +2,7 @@ $$Mat_{e}(x) = \begin{pmatrix}
 e_{i}^{*}(x_{j})
 \end{pmatrix}_{i, j}$$
 $$Mat_{e, f}(u) = Mat_{f}(u(e))$$
-
+	
 ___
 $$\begin{cases}
 A = Mat_{e, f}(u) \\

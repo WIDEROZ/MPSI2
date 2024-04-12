@@ -55,3 +55,12 @@ SCOTUS : Supreme court of USA
 Stunned : Sidéré
 Ox -> Oxen
 Loom : se profiler
+
+No one : Que pour une seule personne
+None : Plusieurs choses
+
+All the same : Quand même
+At all : La moindre
+All in good time : chaque chose en son temps
+$\mu \alpha \alpha \lambda \omicron \upsilon \lambda$
+en sah
