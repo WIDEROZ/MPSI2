@@ -60,11 +60,34 @@ Démonstration : ez.
 
 
 #### Exercice
-Soient $f, g \in S_{X}$ tq $supp(f) \cap supp(g) = \{ x \}$
+Soient $f, g \in S_{X}$ tq $supp(f) \cap supp(g) = \{ x \}$ 
 avec $x \in X$, 
 On note $h = fgf^{-1}g^{-1}$, 
 (Remarque : $h = 1$ ssi $f$ et $g$ commutent)
 Montrer que $|supp(h)|=3$ en décrivant les éléments de $supp(h)$ et leurs images. 
+
+Soit $y \in supp(h)$, 
+- Si $\boxed{x = y}$, On a une réponse
+- Sinon, $x \neq y$ 
+  - Si $y \in supp(f)$, alors $y \notin supp(g)$ car $x \neq y$
+  $$\begin{array}{lll}
+   h(y) &= fgf^{-1}g^{-1}(y) &\neq y \\
+   &= gf^{-1}(y) &\neq f^{-1}(y)
+   \end{array}$$
+   Alors $f^{-1}(y) \in supp(g)$
+   
+   Par l'absurde supposons que $f^{-1}(y) \not\in supp(f)$, 
+   Alors, $f(f^{-1}(y)) = f^{-1}(y)$, donc, $y = f(y)$
+   Or $y \in supp(f)$, donc, $y \neq f(y)$
+   CONTRADICTION
+   
+   Donc, $f^{-1}(y) \in supp(f)$ 
+   Alors, $f^{-1}(y) \in supp(f) \cap supp(g)$ et $x = f^{-1}(y)$   
+   Ainsi, $\boxed{y = f(x)}$ 
+-  Si $y \notin supp(f)$, alors $y \in supp(g)$ car $x \neq y$
+   Par raisonnement analogue : $\boxed{y = g(x)}$
+
+Ainsi, $|supp(h)| = 3$
 
 #### Proposition
 Soient $X, Y$ deux ensembles quelconques, 

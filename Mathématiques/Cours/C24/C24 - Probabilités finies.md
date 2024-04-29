@@ -1,7 +1,9 @@
 ### Problème 1
 $$\mathcal{P}(\text{"Deux eleves de cette classe soit nées le même jour de l'année"})$$
 $$ 1 - \frac{365!}{365^{42}(365-42)!} \approx -0.085 969+1 = 0.914 031$$
+$$
 
+$$
 Les hypothèses sont : 
 - Une année a 365 jours
 - Le jour de naissance de chaque élève est tiré avec équiprobabilité
@@ -195,7 +197,7 @@ On aimerait que si on répète un grand nombre de fois l'experience aléatoire, 
 Comme les fréquences correspondent à deux évènements incompatibles $A$ et $B$ s'ajoutent.
 La fréquence d'obtenir $A$ ou $B$ est celle d'obtenir $A$ plus celle d'obtenir $B$. 
 On veut que $P(A \sqcup B) = P(A) + P(B)$
-(avec $n$ répétitions, $n_{A}$ le nombre d'obtention de $A$, $n_{B}$ le nombre d'obtention de $B$ et $n_{A \sqcup B}$ celui d'obtenir $A \sqcup B$, $n_{A \sqcup B} = n_{A} + n_{B}$ donc $\frac{n_{a \sqcup B}}{}$)
+(avec $n$ répétitions, $n_{A}$ le nombre d'obtention de $A$, $n_{B}$ le nombre d'obtention de $B$ et $n_{A \sqcup B}$ celui d'obtenir $A \sqcup B$, $n_{A \sqcup B} = n_{A} + n_{B}$ donc $\frac{n_{A \sqcup B}}{n} = \frac{n_{A}}{n} + \frac{n_{B}}{n}$)
 (avec $n$ répétitions, $n_{A}$ le nombre d'obtention de $A$, $n_{B}$ le nombre d'obtention de $B$ et $n_{A \sqcup B}$ celui d'obtenir $A \sqcup B$, $n_{A \sqcup B} = n_{A} + n_{B}$ donc
 $\frac{n_{A \sqcup B}}{n} = \frac{n_{A}}{n} + \frac{n_{B}}{n} \Leftrightarrow P(A \sqcup B) = P(A) + P(B)$)
 
@@ -216,7 +218,7 @@ On modélise cela par :
 Si on joue avec un dé équilibré quel univers et quelle proba prendra-t-on. 
 
 #### Définition : Espace probabilisé fini
-Si $\Omega$ est un ensemble fini et $P$ une partie de sur $\Omega$, 
+Si $\Omega$ est un ensemble fini et $P$ une probabilité sur $\Omega$, 
 le couple $(\Omega, P)$ est appelé un espace probabilisé fini
 
 #### Propriété : Probabilité de l'évènement contraire
@@ -239,7 +241,7 @@ $\varnothing = \bar{\Omega}$, donc $P(\varnothing) = 1 - P(\Omega) = 1-1 = 0$
 Soient $A, B \in \mathcal{P}(\Omega)$, 
 On a :
 1. $P(A \setminus B) = P(A) - P(A \cap B)$
-2. $P(A \cup B) = P(A) + P(B) - P(A \cup B)$
+2. $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 3. $A \subset B \Rightarrow P(A) \leq P(B)$
 
 Démonstration : 
@@ -293,7 +295,7 @@ $$\forall A \in \mathcal{P}(\Omega), P(A) = \sum_{\omega \in A} P(\{ \omega \})$
 Démonstration : $\square$
 
 #### Remarque
-Il suffit même d'avoir les probabilités des évènements élémentaires saut un$!$ 
+Il suffit même d'avoir les probabilités des évènements élémentaires sauf un$!$ 
 
 #### Exemple
 $P(\{ \text{Pile} \})= p$ et $P(\{ \text{Face} \}) = 1-p$
@@ -302,7 +304,7 @@ $P(\{ \text{Pile} \})= p$ et $P(\{ \text{Face} \}) = 1-p$
 Soit $\Omega$ fini et $(p_{\omega})_{\omega \in \Omega} \in \mathbb{R}^{\Omega}$
 (TFAE en EN) <-> Les deux assertions suivantes sont équivalentes <-> (LASSE en FR)
 
-1. Il existe $P$ proba sur $\Omega$ tels que 
+1. Il existe $P$ une probabilité sur $\Omega$ telle que 
    $$\forall \omega \in \Omega, P(\{ \omega \}) = p_{\omega}$$
 2.  $$(\forall \omega \in \Omega, p_{\omega} \geq 0) \text{ et } \sum_{\omega \in \Omega}p_{\omega} = 1$$
 
@@ -467,7 +469,7 @@ Justification du mot probabilité dans probabilité conditionnelle :
 #### Proposition
 Soit $B \in \mathcal{P}(\Omega)$ tel que $P(B)>0$, 
 Alors l'application : 
-$$P_{B} \begin{cases}
+$$P_{B} : \begin{cases}
 \mathcal{P}(\Omega) \to [0, 1] \\
 A \mapsto P_{B}(A) = P(A | B)
 \end{cases}$$
@@ -508,7 +510,7 @@ Savoir $\Omega$ n'apporte aucune information.
 Soit $(A_{i})_{i=1}^{n}$ un SCE
 Soit $B \in \mathcal{P}(\Omega)$
 Alors, 
-$$P(B) = \sum_{i=1}^{n} P(A_{i})P(B | A)$$
+$$P(B) = \sum_{i=1}^{n} P(A_{i})P(B | A_{i})$$
 Avec la convention que $P(A_{i})P(B | A_{i}) = 0$ lorsque $P(A_{i}) = 0$
 
 Démonstration : 
@@ -571,7 +573,7 @@ Photo 05-04
 La boite $1$ contient $3$ boules bleues et $2$ rouges
 La boite $2$ contient $2$ boules bleues et $5$ rouges
 
-Les deux boites sont indiscernables.. 
+Les deux boites sont indiscernables. 
 On tire une boule dans une boite et elle est bleue
 Quelle est la probabilité qu'elle provienne de la boite $1$?
 
@@ -636,7 +638,7 @@ $$P(A_{1} \cap A_{2} \cap A_{3} \cap A_{4}) =\frac{1}{9} \frac{1}{8} \frac{3}{7}
 ## 3. Indépendance
 #### Intuition
 Si $P(B) \neq 0$, 
-Sire que $A$ est indépendant de $B$ c'est dire que "sachant $B$" la proba de $A$ ne change pas
+Dire que $A$ est indépendant de $B$ c'est dire que "sachant $B$" la proba de $A$ ne change pas
 ie $P(A | B) = P(A)$
 ie $\frac{P(A \cap B)}{P(B)} = P(A)$
 $P(A \cap B) = P(A)P(B)$
@@ -713,12 +715,12 @@ Donc la proba serait uniforme, (ce qu'on a affirmé précédement)
 #### Propriété
 Pour tout $A \in \mathcal{P}(\Omega)$, 
 - $A$ et $\Omega$ sont indépendants
-- $A$ et $\varnothing$
+- $A$ et $\varnothing$ sont indépendants
 
 Démonstration : ez
 
 #### Notation 
-$A || B$ plutot utilisé pour des variables aléatoires
+$A || B$ plutôt utilisé pour des variables aléatoires
 
 #### Propriété
 Soient $A$ et $B$ deux évènements indépendants, 
@@ -736,7 +738,7 @@ $$P(A | B) = P(A)$$
 
 #### Définition
 Les évènements $(A_{i})_{i = 1}^{n}$ sont mutuellement indépendants ssi : 
-Pour toute famille extraire $(A_{i_{k}})_{k = 1}^{p}$, 
+Pour toute famille extraite $(A_{i_{k}})_{k = 1}^{p}$, 
 on a : 
 $$P\left( \bigcap_{k =1}^{p} A_{i_{k}} \right) = \prod_{k=1}^{p}P(A_{i_{k}})$$
 $$\forall I \subset [\![1, n]\!], P\left( \bigcap_{i \in I} A_{i} \right) = \prod_{i \in I}P(A_{i})$$

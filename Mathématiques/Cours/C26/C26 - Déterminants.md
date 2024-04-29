@@ -822,6 +822,30 @@ $$\det(A) = \sum_{l =1}^{n}a_{k, l}\mathrm{cof}(A, k, l)$$
 Pour $l \in [\![1,n]\!]$ fixé, 
 $$\det(A) = \sum_{k = 1}^{n}a_{k, l} \mathrm{cof}(A, k, l)$$
 
+Démonstration : 
+Soit $A = (a_{i, j})_{i, j} \in \mathcal{M}_{n}(\mathbb{K})$
+Soit $k \in [\![1, k]\!]$, 
+On a : 
+$$L_{k} = \sum_{l = 1}^{n}a_{k, l}\begin{pmatrix}
+0&\dots&0&1&0&\dots&0
+\end{pmatrix}$$
+Donc par linéarité du déterminant par rapport a $L_{k}$, 
+$$$\det(A) = \sum_{l = 1}^{n}a_{k, l} \left| \begin{array}{c}
+a_{1,1}&\dots&&&a_{1, n} \\
+ \\
+a_{k-1, 1}&&&&a_{k-1, n} \\
+0&\dots&1&\dots&0 \\
+a_{k+1, 1}&&&&a_{k+1, n} \\
+ \\
+a_{n, 1}&&&&a_{n, n}
+\end{array} \right| $$
+Le $1$ à la colonne $l$
+$$=_{Lemme 2} \sum_{l = 1}^{n}a_{k, l}\mathrm{cof}(A, k, l)$$
+
+Soit $l \in [\![1, l]\!]$, En appliquant ce qui précède à $A^{T}$, 
+$$\det(A) = \det(A^{T})= \sum_{k = 1}^{n}A^{T}[l, k]\mathrm{cof}(A^{T}, l, k) = \sum_{k = 1}^{n}a_{k, l}\mathrm{cof}(A, k, l)$$
+
+
 #### Lemme 1
 Le théorème est vrai lorsqu'on développe par rapport a la dernière ligne : 
 
@@ -831,15 +855,79 @@ a_{1, 1} &\dots &\dots&a_{1, n} \\
  \\
 a_{n-1, 1}&\dots &\dots& a_{n-1, n} \\
 0&\dots&0&1
+\end{array} \right| = \left| \begin{array}{c}
+a_{1, 1} &\dots &\dots&a_{1, n} \\
+ \\
+ \\
+a_{n-1, 1}&\dots &\dots& a_{n-1, n}
 \end{array} \right| $$
+
+Démonstration : 
+$$\det(A) = \sum_{\phi \in S_{n}}\epsilon(\phi) \left( \prod_{i = 1}^{n-1}a_{i, \phi(i)} \right)a_{n, \phi(n)}$$
+$$\sum_\underset{\phi(n) = n}{\phi \in S_{n}} \epsilon(\phi)\prod_{i = 1}^{n-1}a_{i, \phi(i)}$$
+car $a_{n, \phi(n)} = \delta_{n, \phi(n)}$
+
+On considère l'application : 
+$$\begin{cases}
+\{ \phi \in S_{n}| \phi(n) = n \} \to S_{n-1} \\
+\phi \mapsto \tilde{\phi} : \begin{cases}
+[\![1, n-1]\!]\to [\![1, n-1]\!] \\
+i \mapsto \phi(i)
+\end{cases}
+\end{cases}$$
+qui est bijective (récurrence facile (en exo))
+et qui préserve la signature
+
+On a alors : 
+$$\det(A) = \sum_{\tilde{\phi} \in S_{n}}\epsilon(\tilde{\phi})\prod_{i = 1}^{n-1}a_{i, \phi(i)} =\left| \begin{array}{c}
+a_{11, }&\dots&a_{1, n-1} \\
+&\dots& \\
+a_{n-1, 1} & \dots &a_{n-1,n-1}
+\end{array} \right|  $$
+
 
 #### Lemme 2
 Théorème vrai pour le développement par rapport a $L_{k}$ de :
-$$k - \overset{l_{0}}{\left| \begin{array}{c}
+$$k \overset{l_{0}}{\left| \begin{array}{c}
 &&&qq \\
 0& \dots&0&1&0&\dots&0 \\
 &&&qq
-\end{array} \right|} $$
+\end{array} \right|}$$
+$$= (-1)^{k+l} \left| \begin{array}{c}
+a_{1, 1}& \dots& a_{1, l-1}&a_{1, l+1}&\dots&a_{1, n} \\
+ \\
+a_{k-1, 1}& \dots& a_{k-1, l-1}&a_{k-1, l+1}&\dots&a_{k-1, n} \\
+a_{k+1, 1}& \dots& a_{k+1, l-1}&a_{k+1, l+1}&\dots&a_{k+1, n} \\
+ \\
+a_{n, 1}& \dots& a_{n, l-1}&a_{n, l+1}&\dots&a_{n, n}
+\end{array} \right| $$
+*$$= \mathrm{cof}(A, k, l)$$
+
+Démonstration : 
+En effectuant la permutation circulaire sur les lignes
+$$\begin{cases}
+L_{k} \leftarrow L_{k-1} \\
+L_{k+1} \leftarrow L_{k+2} \\
+ \\
+L_{n-1} \leftarrow L_{n} \\
+L_{n} \leftarrow L_{k}
+\end{cases}$$
+$$((n-(k-1))-cycle)$$
+de signature $(-1)^{n-k}$ puis la permutation sur les colonnes
+
+$$\begin{cases}
+C_{l} \leftarrow C_{l+1} \\
+C_{l+1} \leftarrow C_{l+2} \\
+ \\
+C_{n-1} \leftarrow C_{n} \\
+C_{n} \leftarrow C_{l}
+\end{cases}$$
+$$((n-(l-1))-cycle)$$
+de signature $(-1)^{n-l}$
+
+Par antisymétrie du déterminant par rapport aux lignes et aux colonnes de la matrice, 
+Excal 12  : IMPORTANT
+
 
 
 #### Exercice
@@ -915,13 +1003,81 @@ $$\left| \begin{array}{c}
 Car c'est une matrice triangulaire
 
 ## 6. Matrices triangulaires par blocs
-#### Théorème
-Le déterminant d'une matrice par blocs est le produit des déterminants des blocs diagonaux
+#### Lemme
+Soient $p \in [\![1, n-1]\!]$
+$$\begin{array}{l}
+T_{1,1} \in \mathcal{M}_{p}(\mathbb{K}) \\
+T_{1, 2} \in \mathcal{M}_{p, n-p}(\mathbb{K}) \\
+T_{2, 2} \in \mathcal{M}_{n-p}(\mathbb{K})
+\end{array}$$
+Alors, 
+$$\left| \begin{array}{c|c}
+T_{1, 1}&T_{1, 2} \\ \hline
+0&T_{2, 2}
+\end{array} \right| = \det(T_{1, 1})\det(T_{2,2})$$
+
 
 Démonstration : 
-Idée :
-- Pour le cas de 2 blocs Excal 11., par récurrence sur $p$
-- Pour le cas général : par récurrence a partir de la matrice avec 2 blocs.
+Par récurrence sur $p$
+On note pour $p \in [\![1, n-1]\!]$, 
+$$\mathcal{P}_{n} : \text{"}\forall(T_{1, 1}, T_{1, 2}, T_{2, 2})\in \mathcal{M}_{p}(\mathbb{K}) \times \mathcal{M}_{p, n-p}\times \mathcal{M}_{n-1}(\mathbb{K}), $$
+$$\left| \begin{array}{c|c}
+T_{1, 1}&T_{1, 2} \\ \hline
+0&T_{2, 2}
+\end{array} \right| = \det(T_{1, 1})\det(T_{2,2})\text{"}$$
+
+##### Initialisation
+Pour $p=1$ il suffit de développer le déterminant par rapport a $C_{1}$ : Pour $T_{1, 1}, T_{1, 2}, T_{2, 2}$ convenables
+$$\text{Excal 13}  = a_{1, 1} \times 1 \times \det(T_{2, 2}) = \det((a_{1, 1}))\det(T_{2, 2})$$
+Ainsi, $S_{1}$ est vraie.
+
+##### Hérédité
+Soit $p \in \mathbb{N}$, tq $\mathcal{P}_{p}$, 
+Soit $n \leq p+2$,
+Soit $(T_{1, 1}, T_{1, 2}, T_{2, 2}) \in \mathcal{M}_{p+1}(\mathbb{K})\times \mathcal{M}_{p+1, n-p-1}(\mathbb{K}) \times \mathcal{M}_{n-p-1}(\mathbb{K})$
+et 
+Par développement par rapport a $C_{p+2}$ :
+$$\text{Excal 14} = \sum_{k = 1}^{p+1}a_{k, p+1}\mathrm{cof}(A, k, p+1)$$
+$$ = \sum_{k = 1}^{p+1}a_{k, p+1}(-1)^{k+p+1} \left| \begin{array}{c|c}
+\mathrm{ext}(T_{1}, k, p+1)&\tilde{T}_{1, 2} \\ \hline
+0&T_{2, 2}
+\end{array} \right| $$
+$$\overset{H.R.}{=} '\left( \sum_{k = 1}^{p+1} a_{k, p+1}\mathrm{cof}(T_{1, 1}, k, p+1)\right)\det(T_{2, 2})$$
+$$\overset{devloppement\space \% \space C_{p+1}}{=} \det(T_{1, 1})\det(T_{2, 2})$$
+
+Ainsi, $\mathcal{P_{p+1}}$ est prouvée
+
+#### Théorème
+Pour une matrice triangulaire par blocs son déterminant est le produit des déterminants des blocs diagonaux
+
+$$\left(\left| \begin{array}{c|c}
+T_{1, 1}&*&* \space \space \\
+0&\ddots&* \\
+0&0&T_{r, r}
+\end{array} \right| = \det(T_{1, 1})\dots \det(T_{r, r}) \right)$$
+
+Démonstration : 
+Soit
+$$T = \left( \begin{array}{c|c}
+T_{1, 1}&*&* \space \space \\
+0&\ddots&* \\
+0&0&T_{r, r}
+\end{array} \right)$$
+
+Alors, 
+$$\det(T) = \text{Excal 15} \overset{lemme}{=} \det(T_{1,1})\left| \begin{array}{ccc}
+T_{2, 2}&*&* \space \space \\
+0&\ddots&* \\
+0&0&T_{r, r}
+\end{array} \right|$$
+$$= \det(T_{1, 1})\det(T_{2, 2}) \left| \begin{array}{ccc}
+T_{3, 3}&*&* \space \space \\
+0&\ddots&* \\
+0&0&T_{r, r}
+\end{array} \right|= \dots$$
+Par recurrence rapide : 
+$$\det(T) = \prod_{s = 1}^{r}\det(T_{s, s})$$
+
 
 #### Exemple
 $$\text{Excal 10}$$
@@ -1052,27 +1208,106 @@ $\det(A) = ad-bc$ ce qui conclut par le th précédent.
 #### Remarque
 Le théorème précédent est inefficace pour calculer l'inverse d'une matrice (Utiliser le pivot !!!!)
 
+#### Exercice
+Soit $\theta \in \mathbb{R}$, 
+$$T = \left| \begin{array}{ccc}
+\sin(2\theta)&\sin(3\theta)&\sin(4\theta) \\
+\sin(3\theta)&\sin(4\theta)&\sin(5\theta) \\
+\sin(4\theta)&\sin(5\theta)&\sin(6\theta)
+\end{array} \right|$$
+$$\overset{C_{1} \leftarrow C_{1}+C_{3}}{=} \left| \begin{array}{c}
+2\sin(3\theta)\cos(\theta)&\sin(3\theta)&* \\
+2\sin(4\theta)\cos(\theta)&\sin(4\theta )&* \\
+2\sin(5\theta)\cos(\theta)&\sin(5\theta)&*
+\end{array} \right|$$
+Comme $C_{1} \propto C_{2}$, $\det(T) = 0$
+
+#### Exercice
+Soient $a, b, c \in\mathbb{K}$, 
+et 
+$$\Delta = \left| \begin{array}{c}
+b+c&c+a&a+b \\
+b^{2}+c^{2}&c^{2}+a^{2}&a^{2}+b^{2} \\
+b^{3}+c^{3}&c^{3}+a^{3}&a^{3}+b^{3}
+\end{array} \right|$$
+(Calculer $\Delta$ sous forme factorisée)
+
+$$\Delta \overset{C_{1} \leftarrow C_{1}-C_{2}+C_{3}}{=}\left| \begin{array}{c}
+2b&c+a&a+b \\
+2b^{2}&c^{2}+a^{2}&a^{2}+b^{2} \\
+2b^{3}&c^{3}+a^{3}&a^{3}+b^{3}
+\end{array} \right|$$
+$$\overset{\text{Linearité } \% \space C_{1}}{=} 2 \left| \begin{array}{c}
+b&c&a \\
+b^{2}&c^{2}&a^{2} \\
+b^{3}&c^{3}&a^{3}
+\end{array} \right|$$
+on a aussi fait les op élémentaires :
+$C_{3} \leftarrow C_{3} - C_{1}$ et $C_{2} \leftarrow C_{2} - C_{3}$ 
+
+Soit on fait le direct le coef de VDM,
+Soit par linéarité par rapport à $C_{1}, C_{2}, C_{3}$, 
+$$\Delta = 2abc \left| \begin{array}{c}
+1&1&1 \\
+b&c&a \\
+b^{2}&c^{2}&a^{2}
+\end{array} \right| \overset{VDM}{=} 2abc(c-b)(a-b)(a-c)$$
+Ainsi, 
+$$\Delta = 2abc(a-b)(b-c)(c-a)$$
+(C bo)
+
+#### Exercice
+Soient $a, b, c \in \mathbb{K}$ et
+$$\Delta = \left| \begin{array}{c}
+a-b-c&2a&2a \\
+2b&b-c-a&2b \\
+2c&2c&c-a-b
+\end{array} \right|$$
+(Remarque : Toujours regarder la somme des lignes / colonnes)
+$$\Delta \overset{L_{1}\leftarrow L_{1}+L_{2}+L_{3}}{=} \left| \begin{array}{c}
+a+b+c&a+b+c&a+b+c \\
+2b&b-c-a&2b \\
+2c&2c&c-a-b
+\end{array} \right|$$
+$$\overset{lin \space \% \space L_{1}}{=} (a+b+c)\left| \begin{array}{c}
+1&1&1 \\
+2b&b-c-a&2b \\
+2c&2c&c-a-b
+\end{array} \right|$$
+$$\overset{\overset{C_{2} \leftarrow C_{2} - C_{1}}{C_{3} \leftarrow C_{3} - C_{1}}}{=} (a+b+c)\left| \begin{array}{c}
+1&0&0 \\
+2b&-(a+b+c)&0 \\
+2c&0&-(a+b+c)
+\end{array} \right|$$
+Ainsi, 
+$$\Delta = (a+b+c)^{3}$$
 
 
+#### Exercice
+$$\Delta = \left| \begin{array}{c}
+(b+c)^{2}&a^{2}&a^{2} \\
+b^{2}&(c+a)^{2}&b^{2} \\
+c^{2}&c^{2}&(b+a)^{2}
+\end{array} \right|$$
 
 
+$$GAMBI C POUR TOUA CA$$
+$$zé \rho + zé \rho = la \theta \tau \tau$$
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+$$\Delta \overset{\overset{C_{1}\leftarrow C_{1}-C_{3}}{C_{2}\leftarrow C_{2}-C_{3}}}{=}$$
 $$\left| \begin{array}{c}
+(b+c-a)(b+c+a)&0&a^{2} \\
+0&(c+a-b)(c+a+b)&b^{2} \\
+(c-a-b)(a+b+c)&(c-a-b)(a+b+c)&(b+a)^{2}
+\end{array} \right|$$
 
-\end{array} \right| $$
+$$1 \lambda \phi \pi \pi \nu$$
+$$\overset{\text{lin } \% \space C_{1} \text{ et }C_{2}}{=} (a+b+c)^{2}\left| \begin{array}{c}
+
+\end{array} \right|$$
+
+
+Flemme
+
+
+

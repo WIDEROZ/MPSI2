@@ -1,15 +1,15 @@
 # I. Grandeurs extensives conservatrices
 Excal 1.
 Soit $\mathcal{S}$ un système fermé
-$X$ : une grandeur extensive, dépend de la tailler du système
+$X$ : une grandeur extensive (dépend de la taille du système)
 
 On étudie l'évolution du système entre $t_{1}$ et $t_{2}$ 
 à $t_{1}$ : $X(t_{1})$
 à $t_{2}$ : $X(t_{2})$
-La variation de $X$ entre $t_{1}$ et $t_{2}$
+La variation de $X$ entre $t_{1}$ et $t_{2}$ 
 $$\Delta X = X(t_{2}) - X(t_{1}) = X_{\text{echange}} + X_{\text{produit}} $$
 $X_{\text{échangé}}$ : terme échangé avec l’extérieur
-$X_{\text{produit}}$ : terme de production ai sein du système lui même. 
+$X_{\text{produit}}$ : terme de production au sein du système lui même. 
 ce sont des valeurs algébriques
 
 #### Exemple
@@ -47,8 +47,8 @@ Il y échange entre l'énergie mécanique du point et les énergies des particul
 #### Théorème
 Pour un système thermodynamique fermé, on peut associer une fonction d'état extensive, appelée énergie interne $U$ telle que pendant l'évolution du système entre un état initial : $i$ et un état final : $f$, la variation de l'énergie $E$ :
 $$\Delta E = E_{f} - E_{i} =\Delta U +\Delta E_{m} = W + Q $$
-$\Delta V$ : Variation d’énergie interne
-$\Delta E_{m}$ : Variation d’énergie mécanique
+$\Delta U$ : Variation d’énergie interne
+$\Delta E_{m}$ : Variation d’énergie macroscopique
 $W$ : Travail des forces extérieures
 $Q$ : Transfert de chaleur avec l'extérieur
 $U = E_{C_{\text{micro}}} + E_{P_{\text{Micro}}}$
@@ -106,7 +106,7 @@ Air à la pression $P_{0}$ :
 Excal 3.
 Système : $\{ \text{gaz} \}$
 La force du piston sur le gaz : $\vec{F} = m\vec{g}$
-Le travail élementaire du pipston : 
+Le travail élémentaire du piston : 
 $$\delta W = \vec{F} . d\vec{r} = mgdx$$
 Si le piston est à l'équilibre
 On étudie le piston : 
@@ -166,7 +166,7 @@ $C_{v}$ se mesure en $J.K^{-1}$
 
 ### a. Conséquences
 On admet que pour un gaz parfait, quelque soit la transformation, alors, 
-$$\boxed{\Delta V = \int _{EI}^{EF} C_{V} \, dT }$$
+$$\boxed{\Delta U = \int _{EI}^{EF} C_{V} \, dT }$$
 
 
 
@@ -176,7 +176,7 @@ $$\boxed{C_{V_{m}} = \frac{C_{V}}{n}}$$
 $n$ : Quantité de matière du système
 
 Pour un gaz parfait monoatomique, 
-$$\boxed{C_{V_{n}} = \frac{3}{2}R}$$
+$$\boxed{C_{V_{m}} = \frac{3}{2}R}$$
 Pour un gaz parfait diatomique, 
 $$\boxed{C_{V_{m}} = \frac{5}{2}R}$$
 Capacité thermique massique :
@@ -250,7 +250,7 @@ Pour un solide elle est de :
 
 ## 5. Thermostat
 #### Définition
-On appelle thermostat un système caractérisé par sa température fix constante et qui n'effectue que des échanges de chaleur avec l'extérieur. 
+On appelle thermostat un système caractérisé par sa température fixe constante et qui n'effectue que des échanges de chaleur avec l'extérieur. 
 
 # VI. Les différents types de transformation
 ## 1. Transformation (chemin) quasi statique
@@ -287,7 +287,7 @@ Pour une transformation monobare
 $$\boxed{W_{\text{monobare}}= - P_{\text{ext}}(V_{F} - V_{I})}$$
 
 ### b. Expression du premier principe
-Dans le cas d'une transformation monobate le premier principe s'écrit : 
+Dans le cas d'une transformation monobare le premier principe s'écrit : 
 $$\boxed{\Delta H = Q + W_{\text{autre}}}$$
 avec,
 $W_{autre}$ : Le travail des forces autre que les forces 
@@ -381,3 +381,10 @@ $\phi_{S \to f}$ : Flux de chaleur entre le solide et le fluide
 $S$ : Surface d'échange en $m^{2}$
 $T_{s} - T_{f}$ : Différence de température en $K$
 $h$ : Le coefficient de conducto-convexion en $W.K^{-1}.m^{-2}$
+
+
+La chambre de Toto est séparé de l’extérieur par des mur en béton. La température régnant à l'exterieur est supposée constante égale à $T_{0} = 280 K$. La température $T(t)$ à l'interieur est uniforme non constante. La puissance perdue par la pièce à cause des fuites thermiques est égale à $P_{th} = \frac{1}{R}(T(t)-T_{0})$ avec $R = 2.00 \times 10^{-2} K.W^{-1}$ la résistance thermique des parois, et elle est chauffée par un radiateur délivrant une puissance de $P = 2.00 kW$. La capacité thermique du système est : $C = 1.50 J.K^{-1}$. A l'instant $t=0$, la température est : $T(0) = T_{0}$ et Toto allume le radiateur.
+
+1. Déterminer l'expression de la fonction $T(t)$
+
+
