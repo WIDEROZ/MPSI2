@@ -4,8 +4,6 @@
 
 int main(int argc, char const *argv[])
 {
-
+    printf("Wow, wow, wow");
     return 0;
 }
-
-
