@@ -165,7 +165,7 @@ Soit $n \in \mathbb{N}$,
 Un système complet d'événements (S.C.E.) est une famille finie : $(A_{i})_{i = 1}^{n} \in \mathcal{P}(\Omega)^{n}$ d'éléments qui sont : 
 1. Deux a deux incompatibles
    $$\forall i, j \in [\![1, n]\!], i \neq j \Rightarrow A_{i} \cap A_{j} = \varnothing$$
-2. De réunion contraire : 
+2. De réunion certaine : 
    $$\bigcup_{i = 1}^{n}A_{i} = \Omega$$
 
 On résume souvent cela par la notation :
@@ -852,7 +852,7 @@ $$\text{"Pour tout } i \in I \text{ on a un succès et pour tout } i \notin I \t
 ie 
 $$A_{I} = \left( \bigcap_{i \in I} S_{i} \right) \cap \left( \bigcap_{i \in [\![1, n]\!] \setminus I} \bar{S}_{i}\right)$$
 Par indépendance mutuelle des $S_{i}$ ($i \in I$) et invariance de l'indépendance mutuelle par passage au complémentaire de certains évènements, 
-$$P(A_{I}) = \left( \prod_{i \in I} P(S_{i}) \right)\left( \prod_{i \in [\![1,n]\!] \setminus I}P(\bar{S}_{i}) \right) = p^{|I|}(1-p)^{n- |I|}$$
+$$P(A_{I}) = \left( \prod_{i \in I} P(S_{i}) \right)\left( \prod_{i \in [\![1,n]\!] \setminus I}P(\bar{S}_{i}) \right) = p^{|I|}(1-p)^{n- |I|}$$
 Soit $k \in [\![0,n]\!]$, 
 Alors, 
 $$K = \text{"Avec }k \text{ succès"} = \bigsqcup_{I \in \mathcal{P}_{k}([\![1, n]\!])} A_{I}$$

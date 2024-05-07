@@ -114,6 +114,7 @@ $$\begin{array}{c}
 ((i \neq j \text{ et } x_{i} = x_{j}) \Rightarrow f(x_{1}, \dots, x_{n}) = 0)
 \end{array}$$
 
+
 #### Définition
 Elle est dite antisymétrique ssi l'échange de deux composantes fournit un résultat opposé :
 $$\begin{array}{c}
@@ -123,6 +124,7 @@ $$\begin{array}{c}
 \end{array}$$
 
 On généralise l'exemple précédent facilement : 
+
 
 #### Proposition
 Pour $f$ $n$-linéaire sur $E$,
@@ -172,9 +174,9 @@ $$\forall(x_{i})_{i = 1}^{n} \in E^{n}, \forall \sigma \in S_{n}, f(x_{\sigma(1)
 
 Démonstration Idée : 
 1. On écrit $\sigma$ comme produit de $k$ transpositions. Pour passer de $f(x_{1}, \dots, x_{n})$ à $f(x_{\sigma(1)}, \dots, x_{\sigma(n)})$ on fait alors $k$ échanges de vecteurs, donc, 
-   $$f(x_{\sigma(1)}, \dots, x_{\sigma(n)}) = \epsilon()^{k}f(x_{1}, \dots, x_{n})$$
+   $$f(x_{\sigma(1)}, \dots, x_{\sigma(n)}) = \epsilon(\sigma)^{k}f(x_{1}, \dots, x_{n})$$
    Par ailleurs $\epsilon$ est un morphisme de $S_{n}$ vers $\{ \pm1 \}$ qui envoie toute transposition sur $-1$ donc, $\epsilon (\sigma) = (-1)^{k}$
-2. L'un des vecteurs de la famille liée s'écrit comme CL des autres. On utilise la linéarité par rapport 
+2. L'un des vecteurs de la famille liée s'écrit comme CL des autres. On utilise la linéarité
 
 
 # II. Déterminants d'une famille de vecteurs dans une base
@@ -199,17 +201,19 @@ $$= \sum_{\underset{\text{2 a 2 différents}}{1\leq i_{1} \leq \dots \leq i_{n}}
 $$= \sum_{\sigma \in S_{n}} \prod_{j = 1}^{n} e_{\sigma(j)}^{*}(x_{j})f(e_{\sigma(1)}, \dots, e_{\sigma(n)})$$
 $$= \sum_{\sigma \in S_{n}} \left( \prod_{j = 1}^{n} e_{\sigma(j)}^{*}(x_{j}) \right)\epsilon(\sigma) f(e_{1}, \dots, e_{n})$$
 $$= f(e)\sum_{\sigma \in S_{n}} \epsilon(\sigma)\prod_{j = 1}^{n}e_{\sigma(j)}^{*}(x_{j})$$
+____
 On définit : 
 $$\det_{e} : \begin{cases}
 E^{n} \to \mathbb{K} \\
 (x_{i})_{i = 1}^{n} \mapsto = f(e)\sum_{\sigma \in S_{n}} \epsilon(\sigma)\prod_{j = 1}^{n}e_{\sigma(j)}^{*}(x_{j})
 \end{cases}$$
 
-Pour montrer que $\mathcal{A}_{n}(E)$ est une droite vectorielle, comme on a déjà vu que 
+Pour montrer que $\mathcal{A}_{n}(E)$ est une droite vectorielle, comme on a déjà vu que $\star$ :
 $$f(x_{1}, \dots, x_{n})= f(e)\sum_{\sigma \in S_{n}} \epsilon(\sigma)\prod_{j = 1}^{n}e_{\sigma(j)}^{*}(x_{j})$$
 Il suffit de voir que $\det_{e} \in \mathcal{A}_{n}(E) \setminus \{0  \}$
 Pour $\sigma \in S_{n}$ fixé, l'application
 $$(x_{i})_{i =1}^{n} \mapsto \prod_{j = 1}^{n}e_{\sigma(j)}^{*}(x_{j})$$
+
 Comme les $e_{\sigma(j)}^{*}(x_{j})$ sont linéaires, cette application est $n$-linéaire.
 Par combinaison linéaire de formes $n$-linéaires, $\det_{e}$ est $n$-linéaire. 
 Montrons que $\det_{e}$ est alternée en montrant qu'elle est antisymétrique (elle est déjà $n$-linéaire)
@@ -238,15 +242,16 @@ $$\det_{e}(x_{\tau(1)}, \dots, x_{\tau(n)}) = -\det_{e}(x)$$
 ie $\det_{e}$ est alternée
 Ainsi, 
 $$\det_{e} \in \mathcal{A}_{n}(E)$$
+___
 Et
 $$\det_{e}(e) = \sum_{\sigma \in S_{n}} \epsilon(\sigma) \prod_{j = 1}^{n}e_{\sigma(j)}^{*}(e_{j}) = \sum_{\sigma \in S_{n}}\epsilon(\sigma) \prod_{j = 1}^{n}\delta_{\sigma(j), j}$$
 Ainsi, le seul produit non nul est celui correspondant à $\sigma = Id_{[\![1, n]\!]}$
 Finalement : 
 $$\det_{e}(e) = \epsilon(Id_{[\![1, n]\!]}) \prod_{j = 1}^{n}1 = 1$$
-Ainsi en particulier,
+Ainsi en particulier, 
 $$\det_{e} \in \mathcal{A}_{n}(E) \setminus \{ 0 \}$$
 
-Donc avec ma formule $\star$,
+Donc avec la formule $\star$,
 $$\mathcal{A}_{n}(E) = Vect(\det_{e})$$
 La formule $\star$ s'écrit : 
 $$\forall f \in \mathcal{A}_{n}(E), f = f(e)\det_{e}$$
@@ -449,7 +454,7 @@ La relation $\mathcal{R}$ a deux classes d'équivalence, orienter $E£ c'est cho
 #### Rappel
 Dans $\mathbb{R}^{3}$ et $\mathbb{R}^{2}$ il y a une convention, mais ce n'est qu'une convention
 
-# III. Determinant d'un endomorphisme
+# III. Déterminant d'un endomorphisme
 ## 1. Définition
 #### Belle Propriété
 $$\forall u \in \mathcal{L}(E), \exists ! \lambda \in \mathbb{K}, \forall f \in \mathcal{A}_{n}(E), \forall x \in E^{n}, f(u(x)) = \lambda f(x)$$
@@ -467,7 +472,7 @@ On raisonne par analyse-synthèse :
 Soit $u \in \mathcal{L}(E)$, 
 ##### Analyse
 Soit $\lambda \in \mathbb{K}$ tq $\forall f \in \mathcal{A}_{n}(E), \forall x \in E^{n}, f(u(x)) = \lambda f(x)$
-Comme $\det_{e} \in \mathcal{A}_{n}(E)$ et $e \in E^{n}$,
+Comme $\det_{e} \in \mathcal{A}_{n}(E)$ et $e \in E^{n}$, 
 $$\lambda = \lambda \det_{e}(e) = \det_{e}(u(e))$$
 
 ##### Synthèse
@@ -564,7 +569,7 @@ $$\forall u \in GL(E), \det(u^{-1}) = \frac{1}{\det(u)}$$
 Démonstration : ez
 
 #### Propriété
-L'application $u \mapsto \det(u)$ est un morphisme de groupe surjectif de $(GL(E), \circ)$ vers $(\mathbb{K}^{*}, \times)$, 
+L'application $u \mapsto \det(u)$ est un morphisme de groupe surjectif de $(GL(E), \circ)$ vers $(\mathbb{K}^{*}, \times)$.
 
 Démonstration : 
 Elle est bien définie car si $u \in GL(E)$, $\det(u) \neq 0$, 
@@ -581,7 +586,7 @@ Facile de voir que $\det(u) = \lambda$,
 #### Corollaire
 $$\forall u, v \in GL(E), \det(v^{-1} \circ u \circ v) = \det(v \circ u \circ v^{-1}) = \det(u)$$
 
-# IV. Determinant d'une matrice carrée
+# IV. Déterminant d'une matrice carrée
 ## 1. Définition
 #### Définition
 Soit $A \in \mathcal{M}_{n}(\mathbb{K})$, 
@@ -687,7 +692,7 @@ est une application qui est "$n$-linéaire alternée" par rapport aux colonnes (
 ## 2. Premières conséquences
 #### Propriété
 Pour des matrices carrés, on a :
-1. Si une colonne (resp. ligne) d'une matrice est nulle, sont determinant est nul. 
+1. Si une colonne (resp. ligne) d'une matrice est nulle, sont déterminant est nul. 
 2. Si une matrice a deux colonnes (resp. lignes) identiques, son déterminant est nul. 
 3. Si une colonne (resp. ligne) d'une matrice est CL des autres, alors son déterminant est nul.
 4. Le déterminant d'une matrice diagonale est le produit de ses coefficients diagonaux
@@ -774,7 +779,7 @@ On obtiens l'opération de transvection de $A$
 On a ainsi le det de cette matrice est :
 avec la formule du det : $1$
 
-#### Remarqu
+#### Remarque
 On peut exprimer simplement ces matrices à l'aide de $I_{n}$ et des matrices de la base canonique de $\mathcal{M}_{n}(\mathbb{K})$
 
 
@@ -830,7 +835,7 @@ $$L_{k} = \sum_{l = 1}^{n}a_{k, l}\begin{pmatrix}
 0&\dots&0&1&0&\dots&0
 \end{pmatrix}$$
 Donc par linéarité du déterminant par rapport a $L_{k}$, 
-$$$\det(A) = \sum_{l = 1}^{n}a_{k, l} \left| \begin{array}{c}
+$$\det(A) = \sum_{l = 1}^{n}a_{k, l} \left| \begin{array}{c}
 a_{1,1}&\dots&&&a_{1, n} \\
  \\
 a_{k-1, 1}&&&&a_{k-1, n} \\
@@ -1083,7 +1088,7 @@ $$\det(T) = \prod_{s = 1}^{r}\det(T_{s, s})$$
 $$\text{Excal 10}$$
 
 #### Corollaire
-Le déterminant d'un diagonale par blocs est le produit des determinants dans des blocs diagonaux
+Le déterminant d'une matrice diagonale par blocs est le produit des déterminants dans des blocs diagonaux
 
 ## 7. Déterminant de Vandermonde
 #### Définition
@@ -1099,13 +1104,13 @@ ou $\lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}$.
 
 
 #### Proposition
-$$\forall \lambda_{1}, \lambda_{n} \in \mathbb{K}, V_{n}(\lambda_{1}, \dots, \lambda_{n}) = \prod_{1 \leq i \leq j \leq n}(\lambda_{j}- \lambda_{i})$$
+$$\forall \lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}, V_{n}(\lambda_{1}, \dots, \lambda_{n}) = \prod_{1 \leq i < j \leq n}(\lambda_{j}- \lambda_{i})$$
 
 Démonstration : 
 Pour $n=1$ c trivial
 Pour $n\geq 2$, 
 Soient $\lambda_{1}, \dots, \lambda_{n} \in \mathbb{K}$, 
-On va du bas vers le haur pour les opération des lignes :
+On va du bas vers le haut pour les opération des lignes :
 $$V_{n}(\lambda_{1}, \dots, \lambda_{n}) = \left| \begin{array}{c}
 1&\dots&1 \\
 \lambda_{1}-\lambda_{n}&\dots&0 \\
@@ -1133,19 +1138,19 @@ $$= (-1)^{n+1}\left| \begin{array}{c}
 Par linéarité par rapport à $C_{1}, \dots, C_{n-1}$, 
 $$= (-1)^{n+1}(\lambda_{1}-\lambda_{n})(\lambda_{2}-\lambda_{n})\dots(\lambda_{n-1}-\lambda_{n}) \left| \begin{array}{c}
 1&1&\dots&1 \\
-\lambda_{1}&\lambda_{2}&\dots&\lambda_{n} \\
+\lambda_{1}&\lambda_{2}&\dots&\lambda_{n-1} \\
 \vdots&\vdots&&\vdots \\
 \lambda_{1}^{n-2}&\lambda_{2}^{n-2}&\dots & \lambda_{n-1}^{n-2}
 \end{array} \right| $$
 $$= \prod_{i=1}^{n-1}(\lambda_{n}-\lambda_{i})V_{n-1}(\lambda_{1}, \dots, \lambda_{n-1})$$
-$$= \prod_{1\leq i \leq j \leq n}(\lambda_{j}-\lambda_{i})V_{1}(\lambda_{1}) = \prod_{1\leq i \leq j \leq n}(\lambda_{j}-\lambda_{i})$$
-
+$$= \prod_{1\leq i < j \leq n}(\lambda_{j}-\lambda_{i})V_{1}(\lambda_{1}) = \prod_{1\leq i < j \leq n}(\lambda_{j}-\lambda_{i})$$
+	
 
 # VI. Comatrice
 #### Définition
 Soit $A \in \mathcal{M}_{n}(\mathbb{K})$,
 Sa comatrice est la matrice de ses cofacteurs : 
-$$\mathrm{Com}(A) (\mathrm{cof}(A, i, j))_{1\leq i, j \leq n}$$
+$$\mathrm{Com}(A) = (\mathrm{cof}(A, i, j))_{1\leq i, j \leq n}$$
 
 
 #### Théorème
@@ -1290,6 +1295,28 @@ b^{2}&(c+a)^{2}&b^{2} \\
 c^{2}&c^{2}&(b+a)^{2}
 \end{array} \right|$$
 
+$C_{1} \leftarrow C_{1} - C_{2}$
+$C_{2} \leftarrow C_{2}-C_{3}$
+$C_{3} \leftarrow C_{3} - C_{1}$
+$$=\left| \begin{array}{c}
+(a+b+c)(b+c-a)&0&(a+b+c)(a-b-c) \\
+(a+b+c)(b-c-a)&(a+b+c)(a+c-b)&0 \\
+0&(a+b+c)(c-a-b)&(a+b+c)(a+b-c)
+\end{array}\right|$$
+$$= (a+b+c)^{3} \left| \begin{array}{c}
+(b+c-a)&0&(a-b-c) \\
+(b-c-a)&(a+c-b)&0 \\
+0&(c-a-b)&(a+b-c)
+\end{array} \right|$$
+$\forall i \in [\![1, 3]\!], C_{i} =  C_{1} + C_{2} + C_{3}$
+$$= (a+b+c)^{3}\left|\begin{array}{c}
+0&0&0 \\
+0&0&0 \\
+0&0&0
+\end{array} \right|=0$$
+
+
+
 
 $$GAMBI C POUR TOUA CA$$
 $$zé \rho + zé \rho = la \theta \tau \tau$$
@@ -1303,8 +1330,12 @@ $$\left| \begin{array}{c}
 
 $$1 \lambda \phi \pi \pi \nu$$
 $$\overset{\text{lin } \% \space C_{1} \text{ et }C_{2}}{=} (a+b+c)^{2}\left| \begin{array}{c}
-
+(b+c-a)&0&a^{2} \\
+0&(c+a-b)&b^{2} \\
+(c-a-b)&(c-a-b)&(b+a)^{2}
 \end{array} \right|$$
+
+
 
 
 Flemme

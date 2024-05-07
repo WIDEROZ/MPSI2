@@ -46,7 +46,7 @@ Il y échange entre l'énergie mécanique du point et les énergies des particul
 ## 2. Énoncé du premier principe de la thermodynamique
 #### Théorème
 Pour un système thermodynamique fermé, on peut associer une fonction d'état extensive, appelée énergie interne $U$ telle que pendant l'évolution du système entre un état initial : $i$ et un état final : $f$, la variation de l'énergie $E$ :
-$$\Delta E = E_{f} - E_{i} =\Delta U +\Delta E_{m} = W + Q $$
+$$\Delta E = E_{f} - E_{i} =\Delta (U +\Delta E_{m}) = W + Q $$
 $\Delta U$ : Variation d’énergie interne
 $\Delta E_{m}$ : Variation d’énergie macroscopique
 $W$ : Travail des forces extérieures
@@ -80,8 +80,8 @@ $$\boxed{\Delta U = W + Q}$$
 ## 3. Energie interne d'un gaz parfait monoatomique
 Pour un gaz parfait : 
 $$U = \sum_{i} \frac{1}{2}m_{i}v^{2}_{i}$$
-(car pas d'interraction)
-c'est un corp pur, donc les particules ont toutes mêmes masses $m$
+(car pas d’interaction)
+c'est un corps pur, donc les particules ont toutes mêmes masses $m$
 Alors, 
 $$\boxed{U = \frac{m}{2}\sum_{i}v_{i}^{2} = \frac{m}{2}v^{*^{2}} = \frac{3}{2}k_{B}T}$$
 

@@ -18,7 +18,7 @@ $$\Delta U = W = \int  -p \, dV = 0$$
 Car le volume total est constant
 Ainsi , $\boxed{\Delta U = 0}$
 
-## 2. Premiere loi de Joule
+## 2. Première loi de Joule
 #### Propriété
 L'énergie interne d'un gaz parfait ne dépend que de sa température : 
 $$\boxed{\Delta U = C_{V}\Delta T}$$
@@ -92,7 +92,7 @@ $$\boxed{\gamma = \frac{C_{pm}}{C_{vm}} = \frac{C_{p}}{C_{v}} = \frac{c_{p}}{c_{
 
 #### Propriété
 $$\begin{cases}
-C_{Vm}= \frac{R}{\gamma-1} \\
+C_{vm}= \frac{R}{\gamma-1} \\
 C_{pm} = \frac{\gamma}{\gamma-1}R
 \end{cases}$$
 
@@ -143,7 +143,7 @@ $$\boxed{P_{1}V_{1}^{\gamma} = P_{2}V_{2}^{\gamma}}$$
 
 #### Echange de chaleur
 $Q = 0 J$ car la transformation est adiabatique
-
+x
 #### Travail des forces de pression
 $$W = \Delta U = nC_{vm} \Delta T$$
 Par le premier principe et par la première loi de Joule

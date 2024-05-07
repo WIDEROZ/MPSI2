@@ -1,6 +1,6 @@
 # Titre
 ###### Titre
-La masse de la terre est : $m = 15623$ 
+La masse de la terre est : $m = 12345$ 
 
 L'intégrale de gauss est : 
 $$
@@ -8,3 +8,79 @@ $$
 $$
 
 $$\mathbb{L}'\mathbb{E} \forall \mathbb{A} \mathbb{R} I \mathbb{S}\mathbb{T}\mathbb{E}$$
+
+#### Démo
+$$\forall u \in \mathcal{L}(E), \exists ! \lambda \in \mathbb{R}, \forall f \in \mathbb{A}_{n}, \forall x \in E^{n}, f(u(x)) = \lambda f(x)$$
+
+Soit $u \in \mathcal{L}(E)$, 
+
+###### Analyse
+Supp qu'il existe $\lambda \in \mathbb{R}$ tq pour tout $f \in \mathcal{A}_{n}$, et pour tout $e \in E^{n}$ une base
+Comme $\det_{e} \in \mathcal{A}_{n}$ 
+$$\det_{e}(u(e)) = \lambda \det_{e}(e) = \lambda$$
+
+##### Synthèse
+$$g : \begin{cases}
+E^{n} \to \mathbb{K} \\
+x \mapsto f(u(x))
+\end{cases}$$
+Azi c n-linéaire et alterné
+Pour $e \in E^{n}$
+$g \in \mathcal{A}_{n}$
+$$g = g(e)\det_{e} = f(u(x))\det_{e} = f(e)\det_{e}(u(e))\det_{e} = \lambda f(e)\det_{e} = \lambda_{f}$$
+
+
+#### Démo
+$$\det_{e}(x) = \sum_{\sigma \in S_{n}} \epsilon(\sigma) \prod_{j = 1}^{n} e^{*}_{\sigma(j)}(x_{j})$$
+
+$$f(x_{1}, \dots, x_{n}) = f\left( \sum_{i = 1}^{n}e^{* }_{i_{1}}(x_{1}) e_{i_{1}}, \dots, \sum_{i = 1}^{n}e^{* }_{i_{n}}(x_{n}) e_{i_{1}}\right)$$
+$$= \sum_{1\leq i_{1}\leq \dots \leq i_{n} \leq n}\prod_{j = 1}^{n}(e_{i_{j}}^{*}(x_{j}))f(e_{i_{1}}, \dots, e_{i_{2}})$$
+$$= \sum_{\sigma \in S_{n}}\prod_{j=1}^{n}(e_{\sigma(j)}(x_{j}))f(e_{\sigma(1)}, \dots, e_{\sigma(n)})$$
+$$= \sum_{\sigma \in S_{n}}\epsilon(\sigma)\prod_{j = 1}^{n}e_{\sigma(j)}(x_{j})f(e)$$
+
+#### Démo
+Soit $n \in \mathbb{N}$, 
+Soit $\sigma' \in S_{n}$, 
+Soit $x = (x_{i})_{i=1}^{n} \in E^{n}$
+$$\det_{e}(x_{\sigma'(i)})_{i = 1}^{n} = \sum_{\sigma \in S_{n}}\epsilon(\sigma) \prod_{i = 1}^{n} e_{\sigma(i)}^{*}(x_{\sigma'(i)})$$
+$i = \sigma'^{-1}(j)$ 
+
+$$= \sum_{\sigma \in S_{n}}\epsilon(\sigma) \prod_{j = 1}^{n}e^{*}_{\sigma(\sigma^{-1}(j))}(x_{j})$$
+$\phi = \sigma \sigma'^{-1}$
+
+$$= \sum_{\phi \in S_{n}} \epsilon(\phi \circ \sigma') \prod_{j = 1}^{n}e_{\phi(j)}^{*}(x_{j})$$
+$$= \epsilon(\sigma') \det_{e}(x)$$
+
+#### Vandermonde
+
+
+# Problème 2
+## 1.
+$$|S_{n}| = |Bij([\![1, n]\!], [\![1, n]\!])| = n!$$
+On prend un $n$-uplet et on compte le nombre d’arrangements c'est $n!$.
+
+## 2. 
+### a.
+Le nombre de transposition reviens a compter le nombre d'échanges de valeurs dans un $n$-uplet : 
+On choisit la transposition : $n(n-1)$ possibilités
+On choisit la place du premier échange ($n$ possibilité) et la deuxième ($n-1$ possibilités)
+
+On a donc une proba de $\frac{5\times 4}{5!} = 0.1\overline{6}$ de tomber sur une permutation
+Pour un 3-cycle : 
+$\frac{5 \times 4 \times 3}{5!} = 0.5$
+
+### b.
+En premier on choisit la valeur du premier chiffre du cycle : $n$ possibilité, ensuite on choisit la 2 eme valeur : $n-1$ possibilités enfin par réccurence rapide : $n-r+1$ est le nbre de $r$ cycles possibles ainsi, 
+On a $\frac{(n-r+1)!}{n!} = \frac{1}{\prod_{i = n-r+2}^{n}i}$ possibilités 
+
+## 3.
+### a.
+On choisit la deuxième valeur du cycle :
+$(n-1)$ possibilités
+On choisit la troisième valeur du cycle :
+$(n-2)$ possibilités
+On a donc
+$P(B) = \frac{1}{5}$
+
+### b.
+Calculer $P(A \cap B)$ reviens a 

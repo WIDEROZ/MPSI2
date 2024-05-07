@@ -4,4 +4,6 @@
 - Convertir un espace vectoriel en espace exponentiel
   https://www.youtube.com/watch?v=O85OWBJ2ayo
 
+Jeu de la vie : 
+- Faire un Filtre passe Bas
 

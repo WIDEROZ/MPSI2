@@ -275,7 +275,7 @@ où
 - $c$ est le nombre de cycles dans la décomposition de $\sigma$
 
 #### Exemple
-$$\sigma (2 \space 4 \space 5)(3 \space 7)$$
+$$\sigma = (2 \space 4 \space 5)(3 \space 7)$$
 deux points fixes : $1$ et $6$, 
 donc, 
 $$\epsilon(\sigma_{1}) = (-1)^{7-2-2} = -1$$
@@ -283,12 +283,12 @@ ou :
 $$\epsilon((2 \space 4)(4 \space 5)(3 \space 7)) = \epsilon((2 \space 4))\epsilon((4 \space 5))\epsilon((3 \space 7)) = (-1)^{3} = -1$$
 
 #### Propriété
-Si $c$ est un $r$-cycle alors
+Si $c$ est un $r$-cycle alors 
 $$\epsilon(c) = (-1)^{r-1}$$
 
 Démonstration : 
 $$c= (a_{1} \space \dots \space a_{r}) = (a_{1} \space a_{2})(a_{2} \space a_{3}) \dots (a_{r-1} \space a_{r})$$
-
+On applique la formule précédente. $\square$
 
 #### Définition
 On appelle permutation paires les éléments de $\text{Ker }\epsilon$ ie celles de signature $1$ et impaires de signature $-1$. 

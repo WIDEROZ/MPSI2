@@ -183,4 +183,4 @@ y = 5 \\
 \end{cases}$$
 Il y a donc un seul point stationnaire : 
 $$(x, y, \lambda) = (10, 5, 30)$$
-3. Conclusion
+3. Conclusion 
