@@ -66,28 +66,33 @@ let un_par_case =
 
 
 (* (c) *)
-let rec parcoursL i =
-  let rec parcoursNeg x = 
-    let rec parcoursC j = 
-      match j with
-      | 0 -> if (x == j) then
-              [Var(i, j, k)]
-            else
-              [Neg(Var(i, j, k))]
-      | _ -> if (x == j) then
-              [Var(i, j, k)] @ parcoursC (j-1)
-            else
-              [Neg(Var(i, j, k))] @ parcoursC (j-1)
+let rec parcoursVal k =
+  let rec parcoursL i =
+    let rec parcoursNeg x = 
+      let rec parcoursC j = 
+        match j with
+        | 0 -> if (x == j) then
+                [Var(i, j, k)]
+              else
+                [Neg(Var(i, j, k))]
+        | _ -> if (x == j) then
+                [Var(i, j, k)] @ parcoursC (j-1)
+              else
+                [Neg(Var(i, j, k))] @ parcoursC (j-1)
+        in
+        match x with
+        | 0 -> [Et(parcoursC 3)]
+        | _ -> [Et(parcoursC 3)] @ parcoursNeg (x-1)
       in
-      match x with
-      | 0 -> [Et(parcoursC 3)]
-      | _ -> [Et(parcoursC 3)] @ parcoursNeg (x-1)
+      match i with
+      | 0 -> [Ou(parcoursNeg 3)]
+      | _ -> [Ou(parcoursNeg 3)] @ parcoursL (i-1)
     in
-
-;;
+    match k with
+    | 1 -> Et(parcoursL 3)
 
 let un_par_ligne = 
-  
+  Et(parcoursL 3)
 ;;
 
 
