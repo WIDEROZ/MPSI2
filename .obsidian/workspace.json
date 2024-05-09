@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "f1a4712c105d2e4d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f7f3eeba21bf370d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/DM/DM2/DM2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "0da2e353c7488ee4",
         "type": "tabs",
         "children": [
@@ -18,18 +36,6 @@
             }
           },
           {
-            "id": "f7f3eeba21bf370d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/DM/DM2/DM2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e276a9ba027154de",
             "type": "leaf",
             "state": {
@@ -40,7 +46,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/DM/DM2/DM 02.pdf",
+                "file": "Info/DM/DM2/DM2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/DM/DM2/DM 02.pdf",
+                "file": "Info/DM/DM2/DM2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +152,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/DM/DM2/DM 02.pdf"
+                "file": "Info/DM/DM2/DM2.md"
               }
             }
           }
@@ -169,11 +175,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e276a9ba027154de",
+  "active": "f7f3eeba21bf370d",
   "lastOpenFiles": [
+    "Info/DM/DM2/DM 02.pdf",
     "Info/DM/DM2/DM2.md",
     "Info/DM/DM2/sudoku.ml",
-    "Info/DM/DM2/DM 02.pdf",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",

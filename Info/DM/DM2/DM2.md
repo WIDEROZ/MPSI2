@@ -67,4 +67,5 @@ Pour chaque case on applique la règle des colonnes il ne nous reste donc <u>pas
 Ainsi, on a $24 \times 2 \times 4 \times 1 = 192$ grilles de sudoku différentes donc,
 $$\boxed{192} \text{ valuations possibles}$$
 
-## Question 2
+## Question 3
+

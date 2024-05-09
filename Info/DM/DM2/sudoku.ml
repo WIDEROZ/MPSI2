@@ -24,43 +24,40 @@ let rec listEtL i =
   
 ;;
 
-let listEt = listEtL 3;;
-
-let grille_complete = Et(listEt);;
+let grille_complete = Et(listEtL 3);;
 
 
 (* (b) *)
 
-let rec listNeg i j k = 
-  let rec aux l = 
-    match l with
-    | 1 -> if(l = k) then
-            [Var(i, j, l)]
-           else
-            [Neg(Var(i, j, l))]
-    | _ -> if(l = k) then
-            [Var(i, j, l)] @ aux (l-1)
-           else
-            [Neg(Var(i, j, l))] @ aux (l-1)
+let rec parcoursL i = 
+  let rec parcoursC j = 
+    let rec parcoursNeg i j k = 
+      let rec aux l = 
+        match l with
+        | 1 -> if(l = k) then
+                [Var(i, j, l)]
+              else
+                [Neg(Var(i, j, l))]
+        | _ -> if(l = k) then
+                [Var(i, j, l)] @ aux (l-1)
+              else
+                [Neg(Var(i, j, l))] @ aux (l-1)
+      in
+        match k with
+        | 1 -> [Et(aux 4)]
+        | _ -> [Et(aux 4)] @ parcoursNeg i j (k-1)
+    in
+    match j with
+        | 0 -> [Ou(parcoursNeg i j 4)]
+        | _ -> [Ou(parcoursNeg i j 4)] @ parcoursC (j-1)
   in
-    match k with
-    | 1 -> [Et(aux 4)]
-    | _ -> [Et(aux 4)] @ listNeg i j (k-1)
-
+  match i with
+  | 0 -> parcoursC 3
+  | _ -> parcoursC 3 @ parcoursL (i-1)
 ;;
 
 
 let un_par_case = 
-  let rec parcoursL i = 
-    let rec parcoursC j = 
-      match j with
-      | 0 -> [Ou(listNeg i j 4)]
-      | _ -> [Ou(listNeg i j 4)] @ parcoursC (j-1)
-    in
-    match i with
-    | 0 -> parcoursC 3
-    | _ -> parcoursC 3 @ parcoursL (i-1)
-  in
   Et(parcoursL 3)
 ;;
 
