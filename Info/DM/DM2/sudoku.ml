@@ -134,10 +134,11 @@ let un_par_colonne =
 
 
 (* (e) *)
+(* cple possible pour un carré *)
 
 
 let un_par_carre = 
-  
+
 ;;
 
 
