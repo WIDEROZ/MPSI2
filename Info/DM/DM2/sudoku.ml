@@ -34,11 +34,11 @@ let grille_complete = Et(listEt);;
 let rec listNeg i j k = 
   let rec aux l = 
     match l with
-    | 1 -> if(l == k) then
+    | 1 -> if(l = k) then
             [Var(i, j, l)]
            else
             [Neg(Var(i, j, l))]
-    | _ -> if(l == k) then
+    | _ -> if(l = k) then
             [Var(i, j, l)] @ aux (l-1)
            else
             [Neg(Var(i, j, l))] @ aux (l-1)
@@ -157,7 +157,7 @@ let rec numCarre (i1, j1) =
       if (x, y) = (i1, j1) then
         [Et(g 1)]
       else if (x = i1) then
-       [Et(g 1)] @ parcoursNeg (x, y-1)
+       [Et(g 1)]
       else if (y = j1) then
        [Et(g 1)] @ parcoursNeg (x-1, y)
       else
@@ -166,7 +166,9 @@ let rec numCarre (i1, j1) =
     in
     [Ou(parcoursNeg (i1+1, j1+1))]
   ;;
+  numCarre (0, 0);;
 
+  numCarre (0, 0);;
 numCarre (0, 0);;
 
   
