@@ -139,11 +139,21 @@ let rec parcoursNeg (x, y) =
   let rec g j =
     let rec f i = 
       match i with
-      | 1 -> if (x == i) and (y = j) then 
-              [Var(i, j, k)]
+      | 0 -> if (x == i+i1) & (y == j+j1) then 
+              [Var(i+i1, j+j1, k)]
              else
               [Neg(Var(i, j, k))]
-      | _ -> if 
+      | _ ->  if (x == i+i1) & (y == j+j1) then 
+               [Var(i+i1, j+j1, k)] @ (f 0)
+              else
+               [Neg(Var(i+i1, j+j1, k))] @ (f 0)
+
+      in
+      match j with
+      | 0 -> f 1
+      | _ -> f 1 @ g 0
+
+
 
   
   
