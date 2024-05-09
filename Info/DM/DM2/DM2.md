@@ -69,3 +69,18 @@ $$\boxed{192} \text{ valuations possibles}$$
 
 ## Question 3
 
+```OCaml 
+let grille =
+[|
+	[|2;3;1;0|];
+	[|0;0;2;0|];
+	[|3;0;0;0|];
+	[|0;4;0;0|]
+|]
+
+;;
+```
+
+## Question 4
+On utilise les notations de l'énoncé :
+$$x_{0, 0, 2} $$
