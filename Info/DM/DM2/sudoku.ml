@@ -134,7 +134,19 @@ let un_par_colonne =
 
 
 (* (e) *)
-(* cple possible pour un carré *)
+
+let rec parcoursNeg (x, y) =
+  let rec g j =
+    let rec f i = 
+      match i with
+      | 1 -> if (x == i) and (y = j) then 
+              [Var(i, j, k)]
+             else
+              [Neg(Var(i, j, k))]
+      | _ -> if 
+
+  
+  
 
 
 let un_par_carre = 
