@@ -134,8 +134,9 @@ let un_par_colonne =
 
 
 (* (e) *)
-let 
-  let parcoursNeg (x, y) =
+let k = 1;;
+let rec numCarre (i1, j1) =
+  let rec parcoursNeg (x, y) =
     let rec g j =
       let rec f i = 
         match i with
@@ -155,8 +156,13 @@ let
       in
       match (x, y) with
       | (i1, j1) -> [Et(g 1)]
-      | _ -> 
+      | (i1, _)  -> [Et(g 1)] @ parcoursNeg (i1, y-1)
+      | (_, j1)  -> [Et(g 1)] @ parcoursNeg (x-1, j1)
+      | _        -> [Et(g 1)] @ parcoursNeg (x-1, y) @ parcoursNeg (x, y-1)
     in
+    [Ou(parcoursNeg (i1+1, j1+1))]
+  ;;
+
 
 
   
