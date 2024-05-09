@@ -122,9 +122,9 @@ let rec parcoursValC k =
       | _ -> [Ou(parcoursNeg 3)] @ parcoursC (j-1)
     in
     match k with
-    | 1 -> [Et(parcoursL 3)]
-    | _ -> [Et(parcoursL 3)] @ parcoursValC (k-1)
-  ;;
+    | 1 -> [Et(parcoursC 3)]
+    | _ -> [Et(parcoursC 3)] @ parcoursValC (k-1)
+;;
 
 
 
@@ -133,7 +133,12 @@ let un_par_colonne =
 ;;
 
 
-(* let un_par_carre = *)
+(* (e) *)
+
+
+let un_par_carre = 
+  
+;;
 
 
 
