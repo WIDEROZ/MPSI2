@@ -134,49 +134,45 @@ let un_par_colonne =
 
 
 (* (e) *)
-let k = 1;;
-let rec numCarre (i1, j1) =
-  let rec parcoursNeg (x, y) =
-    let rec g j =
-      let rec f i = 
-        match i with
-        | 0 -> if (x = i+i1) && (y = j+j1) then 
-                [Var(i+i1, j+j1, k)]
-              else
-                [Neg(Var(i+i1, j+j1, k))]
-        | _ ->  if (x = i+i1) && (y = j+j1) then 
-                [Var(i+i1, j+j1, k)] @ f 0
+let rec parcoursValCarre k =
+  let rec carre (i1, j1) =
+    let rec parcoursNeg (x, y) =
+      let rec g j =
+        let rec f i = 
+          match i with
+          | 0 -> if (x = i+i1) && (y = j+j1) then 
+                  [Var(i+i1, j+j1, k)]
                 else
-                [Neg(Var(i+i1, j+j1, k))] @ f 0
+                  [Neg(Var(i+i1, j+j1, k))]
+          | _ ->  if (x = i+i1) && (y = j+j1) then 
+                  [Var(i+i1, j+j1, k)] @ f 0
+                  else
+                  [Neg(Var(i+i1, j+j1, k))] @ f 0
 
+          in
+          match j with
+          | 0 -> f 1
+          | _ -> f 1 @ g 0
         in
-        match j with
-        | 0 -> f 1
-        | _ -> f 1 @ g 0
-      in
-      if (x, y) = (i1, j1) then
+        if (x, y) = (i1, j1) then
+          [Et(g 1)]
+        else if (x = i1) then
         [Et(g 1)]
-      else if (x = i1) then
-       [Et(g 1)]
-      else if (y = j1) then
-       [Et(g 1)] @ parcoursNeg (x-1, y)
-      else
-       [Et(g 1)] @ parcoursNeg (x, y-1) @ parcoursNeg (x-1, y)
- 
+        else if (y = j1) then
+        [Et(g 1)] @ parcoursNeg (x-1, y)
+        else
+        [Et(g 1)] @ parcoursNeg (x, y-1) @ parcoursNeg (x-1, y)
+  
+      in
+      [Ou(parcoursNeg (i1+1, j1+1))]
     in
-    [Ou(parcoursNeg (i1+1, j1+1))]
+    match k with
+    | 1 -> carre (0, 0) @ carre(2, 0) @ carre(0, 2) @ carre (2, 2)
+    | _ -> carre (0, 0) @ carre(2, 0) @ carre(0, 2) @ carre (2, 2) @ parcoursValCarre (k-1)
   ;;
-  numCarre (0, 0);;
-
-  numCarre (0, 0);;
-numCarre (0, 0);;
-
-  
-  
-
 
 let un_par_carre = 
-
+  Et(parcoursValCarre 4)
 ;;
 
 
