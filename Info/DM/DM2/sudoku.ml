@@ -64,7 +64,9 @@ let un_par_case =
 ;;
 
 
-(* let un_par_ligne = *)
+let un_par_ligne = 
+  
+;;
 
 
 (* let un_par_colonne = *)

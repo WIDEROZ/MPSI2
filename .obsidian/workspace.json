@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/DM/DM2/DM2.md",
+                "file": "Info/DM/DM2/sudoku.ml",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/DM/DM2/DM2.md",
+                "file": "Info/DM/DM2/sudoku.ml",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/DM/DM2/DM2.md"
+                "file": "Info/DM/DM2/sudoku.ml"
               }
             }
           }
@@ -169,11 +168,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f7f3eeba21bf370d",
+  "active": "4ef123ca3af6d957",
   "lastOpenFiles": [
-    "Info/DM/DM2/sudoku.ml",
     "Info/DM/DM2/DM 02.pdf",
     "Info/DM/DM2/DM2.md",
+    "Info/DM/DM2/sudoku.ml",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
