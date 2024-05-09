@@ -156,9 +156,11 @@ let rec numCarre (i1, j1) =
       in
       match (x, y) with
       | (i1, j1) -> [Et(g 1)]
-      | (i1, j1+1)  -> [Et(g 1)] @ parcoursNeg (i1, y-1)
-      | (i1+1, j1)  -> [Et(g 1)] @ parcoursNeg (x-1, j1)
-      | _        -> [Et(g 1)] @ parcoursNeg (x-1, y) @ parcoursNeg (x, y-1)
+      | _ -> if (x == i1) then
+              [Et(g 1)] @ parcoursNeg (x, y-1)
+            else if (y == j1)
+              [Et(g 1)] @ parcoursNeg (x-1, y)
+
     in
     [Ou(parcoursNeg (i1+1, j1+1))]
   ;;
