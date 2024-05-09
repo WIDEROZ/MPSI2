@@ -134,25 +134,29 @@ let un_par_colonne =
 
 
 (* (e) *)
-
-let rec parcoursNeg (x, y) =
-  let rec g j =
-    let rec f i = 
-      match i with
-      | 0 -> if (x == i+i1) & (y == j+j1) then 
-              [Var(i+i1, j+j1, k)]
-             else
-              [Neg(Var(i, j, k))]
-      | _ ->  if (x == i+i1) & (y == j+j1) then 
-               [Var(i+i1, j+j1, k)] @ (f 0)
+let 
+  let parcoursNeg (x, y) =
+    let rec g j =
+      let rec f i = 
+        match i with
+        | 0 -> if (x == i+i1) & (y == j+j1) then 
+                [Var(i+i1, j+j1, k)]
               else
-               [Neg(Var(i+i1, j+j1, k))] @ (f 0)
+                [Neg(Var(i+i1, j+j1, k))]
+        | _ ->  if (x == i+i1) & (y == j+j1) then 
+                [Var(i+i1, j+j1, k)] @ f 0
+                else
+                [Neg(Var(i+i1, j+j1, k))] @ f 0
 
+        in
+        match j with
+        | 0 -> f 1
+        | _ -> f 1 @ g 0
       in
-      match j with
-      | 0 -> f 1
-      | _ -> f 1 @ g 0
-
+      match (x, y) with
+      | (i1, j1) -> [Et(g 1)]
+      | _ -> 
+    in
 
 
   
