@@ -28,6 +28,7 @@ let listEt = listEtL 3;;
 
 let grille_complete = Et(listEt);;
 
+
 (* (b) *)
 
 let rec listNeg i j k = 
@@ -64,6 +65,7 @@ let un_par_case =
 ;;
 
 
+(* (c) *)
 let un_par_ligne = 
   
 ;;
