@@ -140,11 +140,11 @@ let rec numCarre (i1, j1) =
     let rec g j =
       let rec f i = 
         match i with
-        | 0 -> if (x == i+i1) & (y == j+j1) then 
+        | 0 -> if (x == i+i1) && (y == j+j1) then 
                 [Var(i+i1, j+j1, k)]
               else
                 [Neg(Var(i+i1, j+j1, k))]
-        | _ ->  if (x == i+i1) & (y == j+j1) then 
+        | _ ->  if (x == i+i1) && (y == j+j1) then 
                 [Var(i+i1, j+j1, k)] @ f 0
                 else
                 [Neg(Var(i+i1, j+j1, k))] @ f 0
@@ -156,8 +156,8 @@ let rec numCarre (i1, j1) =
       in
       match (x, y) with
       | (i1, j1) -> [Et(g 1)]
-      | (i1, _)  -> [Et(g 1)] @ parcoursNeg (i1, y-1)
-      | (_, j1)  -> [Et(g 1)] @ parcoursNeg (x-1, j1)
+      | (i1, j1+1)  -> [Et(g 1)] @ parcoursNeg (i1, y-1)
+      | (i1+1, j1)  -> [Et(g 1)] @ parcoursNeg (x-1, j1)
       | _        -> [Et(g 1)] @ parcoursNeg (x-1, y) @ parcoursNeg (x, y-1)
     in
     [Ou(parcoursNeg (i1+1, j1+1))]
