@@ -303,6 +303,10 @@ let rec variables f =
 
 type arbre_quine_sudoku = Valide | Invalide | Noeud of int * int * int * arbre_quine_sudoku * arbre_quine_sudoku ;;
 
+(* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! J'AI PRIS LA LIBERTE DE MODIFIER LA FONCTION : arbre, SINON JE NE POUVAIS PAS COMPILER LE CODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *)
+
+
+      
 let rec arbre f =
   (* Prend en entrée une formule et renvoie l'arbre de quine associé *)
   let f_bis = simplif_quine_sudoku f in
@@ -310,11 +314,14 @@ let rec arbre f =
   | Vrai -> Valide
   | Faux -> Invalide
   | _ -> let var = variables f_bis in
-      let (x1,x2,x3)::s = var in
-        let f1 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 true) in
-          let f2 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 false) in
-            Noeud(x1,x2,x3,arbre f1,arbre f2) ;; 
-      
+      match var with
+      | [] -> failwith ("Liste des variables vide")
+      | (x1, x2, x3)::s -> let f1 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 true) in
+                            let f2 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 false) in
+                              Noeud(x1,x2,x3,arbre f1,arbre f2) ;; 
+
+
+  
 
 (* QUESTION 8 *)
 
