@@ -303,8 +303,8 @@ let rec variables f =
 
 type arbre_quine_sudoku = Valide | Invalide | Noeud of int * int * int * arbre_quine_sudoku * arbre_quine_sudoku ;;
 
-(* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! J'AI PRIS LA LIBERTE DE MODIFIER LA FONCTION : arbre, SINON JE NE POUVAIS PAS COMPILER LE CODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *)
 
+(* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! J'AI PRIS LA LIBERTE DE MODIFIER LA FONCTION : "arbre" SINON JE NE POUVAIS PAS COMPILER LE CODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *)
 
       
 let rec arbre f =
@@ -321,7 +321,6 @@ let rec arbre f =
                               Noeud(x1,x2,x3,arbre f1,arbre f2) ;; 
 
 
-  
 
 (* QUESTION 8 *)
 
@@ -345,7 +344,6 @@ let rec valuation_sat_arbre a =
       else
         ([], false)
 ;;
-
 
 
 (* QUESTION 9 *)

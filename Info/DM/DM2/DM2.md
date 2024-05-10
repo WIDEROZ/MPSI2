@@ -89,7 +89,7 @@ x_{0, 0, 2} \wedge x_{0, 1, 3} \wedge x_{0, 2, 1} \wedge x_{1, 2, 2} \wedge x_{2
 ## Question 6
 ```OCaml
 let isThereSolutions t =
-	Et([formule_grille t; grille complete; 
+	Et([formule_grille t; grille_complete; 
 	un_par_case; un_par_ligne; un_par_colonne;
 	un_par_carre])
 ;;		
