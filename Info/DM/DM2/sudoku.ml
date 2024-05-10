@@ -353,10 +353,14 @@ let liste_to_val l =
   renvoie une matrice 4x4 avec à la case (i,j) :
   -la valeur k si la liste contient une variable x_{i,j,k}
   -la valeur 0 s'il n'y a pas de variable x_{i,j,k} *)
-  let tab = ref [||] in
-        let rec parcoursList lst = 
-          match lst with
-          | pattern -> pattern
+  let tab = ref (Array.make 4 [||]) in
+    for i = 0 to List.length l do
+      match l with
+      | [] -> failwith "la liste est vide"
+      | Var(i, j, k)::s -> !tab.(i).(j) := k
+      | _ -> failwith "pas possible"
+
+
 ;;
 
 
