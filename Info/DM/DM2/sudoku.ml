@@ -177,19 +177,21 @@ let tab = [|
             [|2;3;1;0|];
             [|0;0;2;0|];
             [|3;0;0;0|];
-            [||]
+            [|0;4;0;0|]
           |]
 ;;
 
 (* QUESTION 5 *)
 
 
-(* let formule_grille t = *)
+let formule_grille t =
   (* Prend en entrée une grille de sudoku sous la forme d'un tableau 4x4
      et renvoie la conjonction de variables correspondant à l'information
      des cases remplies
   *)
-    
+  
+;;
+   
   
 
 
