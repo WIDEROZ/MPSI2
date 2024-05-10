@@ -233,12 +233,23 @@ let rec simplif_list_ou l =
   match l with
   | []   -> []
   | t::s -> if t = Faux then simplif_list_ou s else t :: simplif_list_ou s
+;;
 
-(* let rec vrai_in l = *)
+(* (c) *)
+let rec vrai_in l =
   (* Renvoie true si la formule Vrai est dans l est false sinon *)
+  match l with
+  | [] -> false
+  | t::s -> if t = Vrai then true else vrai_in s
+;;
 
-(* let rec faux_in l = *)
+(* (d) *)
+let rec faux_in l =
   (* Renvoie true si la formule Faux est dans l est false sinon *)
+  match l with
+  | [] -> false
+  | t::s -> if t = Faux then true else faux_in s
+;;
 
 
 let rec simplif_quine_sudoku f =
