@@ -96,4 +96,4 @@ let isThereSolutions t =
 ```
 
 
-## Question 8 : FAIRE LA VERIFICATION
+
