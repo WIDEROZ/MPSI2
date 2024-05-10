@@ -403,9 +403,14 @@ let fichier_solution nom_fichier t =
   (* prend en entrée un nom de fichier sans extension sous la forme d'une
   chaîne de caractère, un tableau t correspondant à une grille de sudoku,
   et stocke dans un fichier [nom_fichier].txt la solution de la grille *)
-  let ecrireFichier = open_out (nom_fichier ^ ".txt") in
-    Printf.fprintf ecrireFichier ("%d %d %d \n %d %d %d \n %d %d %d") ;
-  close_out ecrireFichier;
+  let sol = solution_grille t in
+    let oc = open_out ("Info/DM/DM2/" ^ nom_fichier ^ ".txt") in
+      let affichage oc t =
+        for j = 0 to 3 do
+            Printf.fprintf oc "%d %d %d %d \n" (t.(0).(j)) (t.(1).(j)) (t.(2).(j)) (t.(3).(j))
+        done; in
+      affichage oc sol;
+  close_out oc;
 ;;
 
 
@@ -415,16 +420,19 @@ let t1 = [| [|3;0;2;0|];
             [|2;4;1;0|];
             [|0;0;0;0|];
             [|1;0;0;0|];|]
+;;
 
 let t2 = [| [|1;0;3;4|];
             [|0;4;0;0|];
             [|0;0;2;0|];
             [|0;0;0;0|];|]
+;;
 
 let t3 = [| [|2;0;0;0|];
             [|0;1;2;0|];
             [|3;0;0;1|];
             [|0;0;0;0|];|]
+;;
 
 
 fichier_solution "grille_1" t1 ;;
