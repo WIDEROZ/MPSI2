@@ -340,7 +340,7 @@ let rec valuation_sat_arbre a =
   else
     let (l2, b2) = valuation_sat_arbre a2 in
       if b2 then
-        (Neg(Var(i, j, k))::l2, b2)
+        (Neg(Var(i, j, k))::l2, true)
       else
         ([], false)
 ;;
