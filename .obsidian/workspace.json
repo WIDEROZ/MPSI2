@@ -4,49 +4,9 @@
     "type": "split",
     "children": [
       {
-        "id": "f1a4712c105d2e4d",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "f7f3eeba21bf370d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/DM/DM2/DM2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "15d8944ce4feeb2e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/DM/DM1/DM 1 Maxime Driussi.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "0da2e353c7488ee4",
         "type": "tabs",
         "children": [
-          {
-            "id": "4ef123ca3af6d957",
-            "type": "leaf",
-            "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "Info/DM/DM2/sudoku.ml"
-              }
-            }
-          },
           {
             "id": "e276a9ba027154de",
             "type": "leaf",
@@ -57,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,15 +148,17 @@
   },
   "active": "e276a9ba027154de",
   "lastOpenFiles": [
+    "Info/DM/DM1/DM 1 Maxime Driussi.md",
+    "Info/DM/DM2/DM2.md",
+    "Info/DM/DM2/Bec-clemente Elio.pdf",
+    "Info/DM/DM2/DM 02.pdf",
+    "Info/DM/DM2/Bec-clemente Elio sudoku.ml",
     "Info/DM/DM2/grille_3.txt",
     "Info/DM/DM2/grille_2.txt",
     "Info/DM/DM2/grille_1.txt",
     "grille_3.txt",
     "grille_2.txt",
     "grille_1.txt",
-    "Info/DM/DM2/DM2.md",
-    "Info/DM/DM2/DM 02.pdf",
-    "Info/DM/DM1/DM 1 Maxime Driussi.md",
     "Info/DM/DM2/sudoku.ml",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
@@ -220,12 +181,9 @@
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1.md",
-    "Physique-Chimie/Cours/Thème 3/T3C2",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6.md",
     "Physique-Chimie/Cours/Thème 3/Thème 3 - Energies, conversion et transfert.md",
-    "Anglais/Exos/Audio mifepristone pill",
-    "Mathématiques/Cours/C24",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",

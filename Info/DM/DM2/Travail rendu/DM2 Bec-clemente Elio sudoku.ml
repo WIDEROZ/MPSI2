@@ -306,7 +306,7 @@ type arbre_quine_sudoku = Valide | Invalide | Noeud of int * int * int * arbre_q
 
 (* !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! J'AI PRIS LA LIBERTE DE MODIFIER LA FONCTION : "arbre" SINON JE NE POUVAIS PAS COMPILER LE CODE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!! *)
 
-      
+
 let rec arbre f =
   (* Prend en entrée une formule et renvoie l'arbre de quine associé *)
   let f_bis = simplif_quine_sudoku f in
@@ -382,7 +382,7 @@ let valuation_sat f =
 
 
 (* QUESTION 11 *)
-(* Variable de la question 6 *)
+(* Fonction de la question 6 *)
 let isThereSolutions t =
 	Et([formule_grille t; grille_complete; 
 	un_par_case; un_par_ligne; un_par_colonne;
@@ -404,7 +404,7 @@ let fichier_solution nom_fichier t =
   chaîne de caractère, un tableau t correspondant à une grille de sudoku,
   et stocke dans un fichier [nom_fichier].txt la solution de la grille *)
   let sol = solution_grille t in
-    let oc = open_out ("Info/DM/DM2/" ^ nom_fichier ^ ".txt") in
+    let oc = open_out (nom_fichier ^ ".txt") in
       let affichage oc t =
         for j = 0 to 3 do
             Printf.fprintf oc "%d %d %d %d \n" (t.(0).(j)) (t.(1).(j)) (t.(2).(j)) (t.(3).(j))
