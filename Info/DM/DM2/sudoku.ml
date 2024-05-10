@@ -365,28 +365,46 @@ let liste_to_val l =
 ;;
 
 
+
 (* QUESTION 10 *)
 
+let valuation_sat f =
+  (* prend en entrée une formule du calcul propositionnel et renvoie
+  la matrice 4x4 en sortie de liste_to_val correspondant à une liste de variables
+  à satisfaire pour satisfaire la formule en entrée *)
+  let (lst, satisfiable) = valuation_sat_arbre (arbre f) in
+  if satisfiable then 
+    liste_to_val lst
+  else
+    failwith "La formule n'est pas satisfiable"
+;;
+
+
+
+(* QUESTION 11 *)
+(* Variable de la question 6 *)
 let isThereSolutions t =
 	Et([formule_grille t; grille_complete; 
 	un_par_case; un_par_ligne; un_par_colonne;
 	un_par_carre])
 ;;
 
-let valuation_sat f =
-  (* prend en entrée une formule du calcul propositionnel et renvoie
-  la matrice 4x4 en sortie de liste_to_val correspondant à une liste de variables
-  à satisfaire pour satisfaire la formule en entrée *)
-  let (lst, satisfiable) = valuation_sat_arbre (arbre )
-;;
-
-
-
-(* QUESTION 11 *)
-
-(* let solution_grille t = *)
+let solution_grille t =
   (* prend en entrée une grille de sudoku sous la forme d'une matrice 4x4 et
   renvoie la grille remplie *)
+  valuation_sat (isThereSolutions t)
+;;
+
+let grille =
+  [|
+    [|2;3;1;0|];
+    [|0;0;2;0|];
+    [|3;0;0;0|];
+    [|0;4;0;0|]
+  |]
+  ;;
+
+solution_grille grille;;
 
 
 (* QUESTION 12 *)
