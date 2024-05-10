@@ -84,5 +84,13 @@ let grille =
 ## Question 4
 On utilise les notations de l'énoncé :
 $$\begin{array}{c}
-x_{0, 0, 2} \wedge x_{0, 1, 3} \wedge x_{0, 2, 1} \wedge x_{1, 2, 2} \wedge x_{0, 2, 3} \wedge x_{1, 3, 4}
+x_{0, 0, 2} \wedge x_{0, 1, 3} \wedge x_{0, 2, 1} \wedge x_{1, 2, 2} \wedge x_{2, 0, 3} \wedge x_{3, 1, 4}
 \end{array}$$
+
+## Question 6
+```OCaml
+let isThereSolutions t = 
+	let f = formule_grille t in
+	
+
+```

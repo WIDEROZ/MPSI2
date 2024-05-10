@@ -189,20 +189,18 @@ let formule_grille t =
      et renvoie la conjonction de variables correspondant à l'information
      des cases remplies
   *)
-  let phraseProp = ref None in
+  let phraseProp = ref [] in
   for i = 0 to 3 do
     for j = 0 to 3 do
       if t.(i).(j) != 0 then
-        phraseProp := Et([phraseProp, t.(i).(j)])
+        phraseProp := !phraseProp @ [Var(i, j, t.(i).(j))]
       done;
     done;
-    !phraseProp
+    Et(!phraseProp)
 ;;
-   
-  
 
 
-(* QUESTION 7 *)
+(* QUESTION 7 *)  
 
 let rec substitution_sudoku f v1 v2 v3 b =
   (* prend en entrée une formule f, trois entiers v1, v2, v3 et un booléen b
