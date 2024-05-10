@@ -84,7 +84,5 @@ let grille =
 ## Question 4
 On utilise les notations de l'énoncé :
 $$\begin{array}{c}
-x_{0, 0, 2} & \wedge &x_{0, 1, 3}& \wedge &x_{0, 2, 1}  \\
-& \wedge & &\wedge&x_{1, 2, 2} \\
- \wedge x_{0, 2, 3} \wedge x_{1, 3, 4}
+x_{0, 0, 2} \wedge x_{0, 1, 3} \wedge x_{0, 2, 1} \wedge x_{1, 2, 2} \wedge x_{0, 2, 3} \wedge x_{1, 3, 4}
 \end{array}$$

@@ -189,7 +189,14 @@ let formule_grille t =
      et renvoie la conjonction de variables correspondant à l'information
      des cases remplies
   *)
-  
+  let phraseProp = ref None in
+  for i = 0 to 3 do
+    for j = 0 to 3 do
+      if t.(i).(j) != 0 then
+        phraseProp := Et([phraseProp, t.(i).(j)])
+      done;
+    done;
+    !phraseProp
 ;;
    
   
