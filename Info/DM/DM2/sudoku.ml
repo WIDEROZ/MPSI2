@@ -151,8 +151,6 @@ let rec parcoursValCarre k =
           | 0 -> f 1
           | _ -> f 1 @ g 0
         in
-        match (x, y) with
-        | (i1, j1) when (i1, j1) =  -> pattern
         if (x, y) = (i1, j1) then
           [Et(g 1)]
         else if (x = i1) then
@@ -221,10 +219,20 @@ let rec substitution_sudoku f v1 v2 v3 b =
   | Et(l) -> Et(subs_list l)
   | Ou(l) -> Ou(subs_list l) ;;
 
-(* let rec simplif_list_et l = *)
-  (* Prend en entrée une liste de formule et supprime les Vrai de la liste *)
 
-(* let rec simplif_list_ou l = *)
+(* (a) *)
+let rec simplif_list_et l =
+  (* Prend en entrée une liste de formule et supprime les Vrai de la liste *)
+  match l with
+  | []   -> []
+  | t::s -> if t = Vrai then simplif_list_et s else t :: simplif_list_et s
+;;
+
+(* (b) *)
+let rec simplif_list_ou l = 
+  match l with
+  | []   -> []
+  | t::s -> if t = Faux then simplif_list_ou s else t :: simplif_list_ou s
 
 (* let rec vrai_in l = *)
   (* Renvoie true si la formule Vrai est dans l est false sinon *)
