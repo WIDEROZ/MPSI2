@@ -318,12 +318,18 @@ let rec arbre f =
 
 (* QUESTION 8 *)
 
-(* let rec valuation_sat_arbre a = *)
+let rec valuation_sat_arbre a =
   (* Prend en entrée un arbre de quine associé à une formule et renvoie
      un couple (liste, booléen) avec :
   -si la formule n'est pas satisfiable, la liste vide et le booléen false
   -si la formule est satisfiable, une liste de variables à satisfaire pour
-  satisfaire la formule, et le booléen true*)
+  satisfaire la formule, et le booléen true 
+  *)
+  match a with
+  | Valide                 -> ([], true)
+  | Invalide               -> ([], false)
+  | Noeud(i, j, k, a1, a2) -> let (l, b) = valuation_sat_arbre a1 in (Var(i, j, k)::l, b)
+
 
 
 (* QUESTION 9 *)
