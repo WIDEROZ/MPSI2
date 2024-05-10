@@ -354,7 +354,7 @@ let liste_to_val l =
   renvoie une matrice 4x4 avec à la case (i,j) :
   -la valeur k si la liste contient une variable x_{i,j,k}
   -la valeur 0 s'il n'y a pas de variable x_{i,j,k} *)
-  let tab = ref (Array.make 4 (Array.make 4 0)) in
+  let tab = ref (Array.make_matrix 4 4 0) in
     let rec parcoursListe lst = 
       match lst with
       | Var(i, j, k)::s -> if s = [] then ((!tab).(i).(j) <- k) else (((!tab).(i).(j) <- k); parcoursListe s)
@@ -364,18 +364,21 @@ let liste_to_val l =
     !tab
 ;;
 
-let lst = [Var (1, 0, 4); Var (3, 1, 4); Var (0, 3, 4); Var (2, 2, 4); Var (0, 1, 3);
-Var (2, 0, 3); Var (1, 3, 3); Var (3, 2, 3); Var (0, 0, 2); Var (2, 1, 2);
-Var (1, 2, 2); Var (3, 3, 2); Var (1, 1, 1); Var (3, 0, 1); Var (0, 2, 1);
-Var (2, 3, 1)];;
-liste_to_val lst;;
 
 (* QUESTION 10 *)
 
-(* let valuation_sat f = *)
+let isThereSolutions t =
+	Et([formule_grille t; grille_complete; 
+	un_par_case; un_par_ligne; un_par_colonne;
+	un_par_carre])
+;;
+
+let valuation_sat f =
   (* prend en entrée une formule du calcul propositionnel et renvoie
   la matrice 4x4 en sortie de liste_to_val correspondant à une liste de variables
   à satisfaire pour satisfaire la formule en entrée *)
+  let (lst, satisfiable) = valuation_sat_arbre (arbre )
+;;
 
 
 
