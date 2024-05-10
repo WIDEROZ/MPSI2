@@ -357,14 +357,18 @@ let liste_to_val l =
   let tab = ref (Array.make 4 (Array.make 4 0)) in
     let rec parcoursListe lst = 
       match lst with
-      | Var(i, j, k)::s -> if s = [] then (!tab.(i).(j) <- k) else ((!tab.(i).(j) <- k); parcoursListe s)
+      | Var(i, j, k)::s -> if s = [] then ((!tab).(i).(j) <- k) else (((!tab).(i).(j) <- k); parcoursListe s)
       | _ -> failwith "La liste doit être composé uniquement de Var"
     in
     parcoursListe l;
     !tab
 ;;
 
-
+let lst = [Var (1, 0, 4); Var (3, 1, 4); Var (0, 3, 4); Var (2, 2, 4); Var (0, 1, 3);
+Var (2, 0, 3); Var (1, 3, 3); Var (3, 2, 3); Var (0, 0, 2); Var (2, 1, 2);
+Var (1, 2, 2); Var (3, 3, 2); Var (1, 1, 1); Var (3, 0, 1); Var (0, 2, 1);
+Var (2, 3, 1)];;
+liste_to_val lst;;
 
 (* QUESTION 10 *)
 
