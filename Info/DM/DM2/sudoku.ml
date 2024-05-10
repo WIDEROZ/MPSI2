@@ -328,11 +328,15 @@ let rec valuation_sat_arbre a =
   match a with
   | Valide                 -> ([], true)
   | Invalide               -> ([], false)
-  | Noeud(i, j, k, a1, a2) -> let (l, b) = valuation_sat_arbre a1 in
-  if b = false then let (l2, b2) = valuation_sat_arbre a2 in
-  if b2 = false then ([], false)
-  else 
-
+  | Noeud(i, j, k, a1, a2) -> let (l1, b1) = valuation_sat_arbre a1 in
+  if b1 = false then
+    ([], false)
+  else
+    let (l2, b2) = valuation_sat_arbre a2 in
+      if b2 = false then ([], false)
+      else
+        (Neg(Var(i, j, k))::l2, b2)
+;;
 
 
 (* QUESTION 9 *)
