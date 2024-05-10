@@ -395,24 +395,18 @@ let solution_grille t =
   valuation_sat (isThereSolutions t)
 ;;
 
-let grille =
-  [|
-    [|2;3;1;0|];
-    [|0;0;2;0|];
-    [|3;0;0;0|];
-    [|0;4;0;0|]
-  |]
-  ;;
-
-solution_grille grille;;
 
 
 (* QUESTION 12 *)
 
-(* let fichier_solution nom_fichier t = *)
+let fichier_solution nom_fichier t =
   (* prend en entrée un nom de fichier sans extension sous la forme d'une
   chaîne de caractère, un tableau t correspondant à une grille de sudoku,
   et stocke dans un fichier [nom_fichier].txt la solution de la grille *)
+  let ecrireFichier = open_out (nom_fichier ^ ".txt") in
+    Printf.fprintf ecrireFichier ("%d %d %d \n %d %d %d \n %d %d %d") ;
+  close_out ecrireFichier;
+;;
 
 
 
