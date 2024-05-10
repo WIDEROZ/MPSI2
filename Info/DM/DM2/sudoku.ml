@@ -311,9 +311,9 @@ let rec arbre f =
   | Faux -> Invalide
   | _ -> let var = variables f_bis in
       let (x1,x2,x3)::s = var in
-      let f1 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 true) in
-      let f2 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 false) in
-      Noeud(x1,x2,x3,arbre f1,arbre f2) ;; 
+        let f1 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 true) in
+          let f2 = simplif_quine_sudoku (substitution_sudoku f x1 x2 x3 false) in
+            Noeud(x1,x2,x3,arbre f1,arbre f2) ;; 
       
 
 (* QUESTION 8 *)
@@ -329,14 +329,16 @@ let rec valuation_sat_arbre a =
   | Valide                 -> ([], true)
   | Invalide               -> ([], false)
   | Noeud(i, j, k, a1, a2) -> let (l1, b1) = valuation_sat_arbre a1 in
-  if b1 = false then
-    ([], false)
+  if b1 then
+    (Var(i, j, k)::l1, true)
   else
     let (l2, b2) = valuation_sat_arbre a2 in
-      if b2 = false then ([], false)
-      else
+      if b2 then
         (Neg(Var(i, j, k))::l2, b2)
+      else
+        ([], false)
 ;;
+
 
 
 (* QUESTION 9 *)

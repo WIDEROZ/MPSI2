@@ -94,4 +94,6 @@ let isThereSolutions t =
 	un_par_carre])
 ;;		
 ```
-	
+
+
+## Question 8 : FAIRE LA VERIFICATION
