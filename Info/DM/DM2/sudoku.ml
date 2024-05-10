@@ -151,6 +151,8 @@ let rec parcoursValCarre k =
           | 0 -> f 1
           | _ -> f 1 @ g 0
         in
+        match (x, y) with
+        | (i1, j1) when (i1, j1) =  -> pattern
         if (x, y) = (i1, j1) then
           [Et(g 1)]
         else if (x = i1) then
