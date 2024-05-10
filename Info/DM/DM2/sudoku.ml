@@ -344,24 +344,7 @@ let rec valuation_sat_arbre a =
       else
         ([], false)
 ;;
-(*Neg(Var(i, j, k))::l2*)
 
-let grille =
-  [|
-    [|2;3;1;0|];
-    [|0;0;2;0|];
-    [|3;0;0;0|];
-    [|0;4;0;0|]
-  |]
-  ;;
-
-  let isThereSolutions t =
-    Et([formule_grille t; grille_complete; 
-    un_par_case; un_par_ligne; un_par_colonne;
-    un_par_carre])
-  ;;
-
-  let (x, y) = valuation_sat_arbre (arbre (isThereSolutions grille));;
 
 
 (* QUESTION 9 *)
@@ -374,9 +357,8 @@ let liste_to_val l =
   let tab = ref (Array.make 4 [||]) in
     for i = 0 to List.length l do
       match l with
-      | [] -> failwith "la liste est vide"
       | Var(i, j, k)::s -> !tab.(i).(j) := k
-      | _ -> failwith "Un élément dans la liste n'est pas "
+      | _ -> failwith "La liste doit être uniquement composé de Var"
 
 
 ;;
