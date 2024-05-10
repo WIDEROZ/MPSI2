@@ -242,7 +242,7 @@ On effectue une expérience aléatoire de Bernoulli et $X$ vaut $1$ en cas de su
 Soient $n \in \mathbb{N}^{*}$ et $p \in [0, 1]$, 
 On note $q = 1-p$
 
-Une VAR $X$ est une VA binômiale de paramètres $n$ et $p$ ssi
+Une VAR $X$ est une VA binomiale de paramètres $n$ et $p$ ssi
 $$\begin{cases}
 X(\Omega) \subset [\![0, n]\!] \\
 \forall k \in [\![0, n]\!], P(X = k) = \binom{n}{k}p^{k}q^{n-k} \\
