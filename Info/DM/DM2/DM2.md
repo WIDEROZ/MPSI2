@@ -92,7 +92,7 @@ let isThereSolutions t =
 	Et([formule_grille t; grille_complete; 
 	un_par_case; un_par_ligne; un_par_colonne;
 	un_par_carre])
-;;		
+;;
 ```
 
 
