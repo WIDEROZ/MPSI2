@@ -25,11 +25,20 @@ def Xb():
 
 
 def valide(Xa, n):
-    frequenceApparition = [0, 0, 0, 0]
-    while n > 0:
-        frequenceApparition[Xa()-1] += 1
-        n -= 1
-    return frequenceApparition
+    def frequenceApparition(Xa, n):
+        frequenceApparition = [0, 0, 0, 0]
+        while n > 0:
+            frequenceApparition[Xa()-1] += 1
+            n -= 1
+        return frequenceApparition
+    freqApp = frequenceApparition(Xa, n)
+    
+    for i in range(len(frequenceApparition)):
+        freqApp[i] = freqApp[i]/n
+
+    return freqApp
+
+
 
 print(valide(Xr, 10000))
 
