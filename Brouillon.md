@@ -84,3 +84,7 @@ $P(B) = \frac{1}{5}$
 
 ### b.
 Calculer $P(A \cap B)$ reviens a 
+
+
+___
+$$- \frac{\frac{\partial f}{\partial  x_{2}}}{\frac{\partial f}{\partial x_{1}}} = - \frac{x_{1}^{1/4} \times \frac{1}{4} \times x_{2}^{3/4}}{x_{2}^{1/4} \times \frac{1}{4} \times x_{1}^{3/4}}= - \frac{x_{1}^{1/4} \times \frac{1}{4} \times x_{1}^{-3/4}}{x_{2}^{1/4} \times \frac{1}{4} \times x_{2}^{-3/4}}$$
