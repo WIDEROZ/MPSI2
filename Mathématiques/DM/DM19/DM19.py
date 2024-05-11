@@ -11,10 +11,25 @@ def Xv():
 
 def Xb():
     tmp = randint(1, 4)
-    return randint(1, 5)
+    tmp2 = randint(1, 2)
+    if tmp == 1 :
+        if tmp2 == 1 :
+            return 1
+        else : 
+            return 3
+    else :
+        if tmp2 == 2 :
+            return 2
+        else :
+            return 4
 
 
-def valide(n):
-    frequenceApparition = (0, 0, 0)
+def valide(Xa, n):
+    frequenceApparition = [0, 0, 0, 0]
     while n > 0:
+        frequenceApparition[Xa()-1] += 1
+        n -= 1
+    return frequenceApparition
+
+print(valide(Xr, 10000))
 
