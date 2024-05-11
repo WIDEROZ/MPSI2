@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "af5a7dcbaba2b106",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0b1b1f6323e87e4f",
             "type": "leaf",
             "state": {
@@ -42,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "d8aec4d45003e4ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/DM/DM19/DM19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,7 +173,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "af5a7dcbaba2b106",
+  "active": "d8aec4d45003e4ab",
   "lastOpenFiles": [
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/DM/DM19/DM19.md",
