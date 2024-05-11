@@ -20,11 +20,15 @@
             }
           },
           {
-            "id": "00a54209f8a85b4a",
+            "id": "0b1b1f6323e87e4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -158,11 +162,11 @@
   },
   "active": "04269a927fb1a24b",
   "lastOpenFiles": [
-    "Mathématiques/DM/DM19/DM19.py",
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/DM/DM19/DM19.md",
+    "Mathématiques/DM/DM19/DM19.py",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Brouillon.md",
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Untitled.md",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19",
@@ -176,7 +180,6 @@
     "Info/DM/DM2/grille_1.txt",
     "grille_3.txt",
     "grille_2.txt",
-    "grille_1.txt",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
