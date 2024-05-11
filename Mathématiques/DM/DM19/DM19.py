@@ -11,7 +11,7 @@ def Xv():
 
 def Xb():
     tmp = randint(1, 4)
-    tmp2 = randint(1, 2)
+    tmp2 = randint(1, 3)
     if tmp == 1 :
         if tmp2 == 1 :
             return 1
@@ -32,13 +32,13 @@ def valide(Xa, n):
             n -= 1
         return frequenceApparition
     freqApp = frequenceApparition(Xa, n)
-    
-    for i in range(len(frequenceApparition)):
+
+    for i in range(len(freqApp)):
         freqApp[i] = freqApp[i]/n
 
     return freqApp
 
 
 
-print(valide(Xr, 10000))
+print(valide(Xr, 1000000), valide(Xv, 1000000), valide(Xb, 1000000))
 
