@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+                "file": "Mathématiques/DM/DM19/DM19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+                "file": "Mathématiques/DM/DM19/DM19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md"
+                "file": "Mathématiques/DM/DM19/DM19.md"
               }
             }
           }
@@ -161,10 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0b1b1f6323e87e4f",
+  "active": "04269a927fb1a24b",
   "lastOpenFiles": [
-    "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/DM/DM19/DM19.py",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Brouillon.md",
