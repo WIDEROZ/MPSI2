@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "04269a927fb1a24b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c01a26057eb06f08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "af5a7dcbaba2b106",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/DM/DM19/DM19.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,11 +173,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "04269a927fb1a24b",
+  "active": "af5a7dcbaba2b106",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/DM/DM19/DM19.md",
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/DM/DM19/DM19.py",
     "Brouillon.md",
     "Untitled.md",
