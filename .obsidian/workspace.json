@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "c01a26057eb06f08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "0b1b1f6323e87e4f",
             "type": "leaf",
             "state": {
@@ -163,9 +175,9 @@
   "active": "04269a927fb1a24b",
   "lastOpenFiles": [
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/DM/DM19/DM19.py",
-    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Brouillon.md",
     "Untitled.md",
     "LA KONSTANTE.png",
