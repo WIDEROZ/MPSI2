@@ -784,7 +784,7 @@ ez
 2. Indicatrice / Bernoulli :
    Si $A \subset \Omega$, $E(\mathbb{1}_{A}) = P(A)$
    Si $X \sim \mathcal{B}(p)$, $E(X) = p$
-3. Binomiale : Si $X \sim(n, p)$, $E(X) = np$
+3. Binomiale : Si $X \sim \mathcal{B}(n, p)$, $E(X) = np$
 
 
 Démonstration : 
