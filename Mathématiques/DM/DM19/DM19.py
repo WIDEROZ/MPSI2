@@ -1,4 +1,6 @@
 from numpy.random import randint
+import matplotlib.pyplot as plt
+
 def Xr():
     tmp = randint(1, 3)
     if tmp == 1 :
@@ -22,6 +24,11 @@ def Xb():
             return 2
         else :
             return 4
+
+
+
+def E(X, Nr, Nv, Nb):
+    return (3*Nr+(5/2)*Nv+(7/2)*Nb)/(Nr+Nv+Nb)
 
 
 def valide(Xa, n):
