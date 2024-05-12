@@ -55,8 +55,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md"
+                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md"
               }
             }
           }
@@ -185,13 +184,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8aec4d45003e4ab",
+  "active": "c01a26057eb06f08",
   "lastOpenFiles": [
-    "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
+    "Untitled.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
-    "Untitled.md",
+    "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
     "Mathématiques/DM/DM19/DM19.py",
     "Brouillon.md",
