@@ -45,7 +45,7 @@ def valide(Xa, n):
 
 #print(valide(Xr, 1000000), valide(Xv, 1000000), valide(Xb, 1000000))
 
-Nr = 10000
+Nr = 50
 Nv = 12
 Nb = 120
 
@@ -54,11 +54,13 @@ def E(Nr, Nv, Nb):
     """ Espérance de X """
     return (3*Nr+(5/2)*Nv+(7/2)*Nb)/(Nr+Nv+Nb)
 
-x = linspace(0, Nr, Nr)
+nbre_de_en_plus = 10000
 
-plt.plot(x, [E(Nr, Nv, Nb) for i in range(Nr)], label="E(X)")
-plt.plot(x, [E(Nr+1, Nv, Nb) for i in range(Nr)], label="E(X), Nr + 1")
-plt.plot(x, [E(Nr, Nv+1, Nb) for i in range(Nr)], label="E(X), Nv + 1")
-plt.plot(x, [E(Nr, Nv, Nb+1) for i in range(Nr)], label="E(X), Nb + 1")
+x = linspace(0, nbre_de_en_plus, nbre_de_en_plus)
+
+plt.plot(x, [E(Nr, Nv, Nb) for i in range(nbre_de_en_plus)], label="E(X)", color = "#000000")
+plt.plot(x, [E(Nr+x, Nv, Nb) for x in range(nbre_de_en_plus)], label="E(X), Nr + x", color = "red")
+plt.plot(x, [E(Nr, Nv+x, Nb) for x in range(nbre_de_en_plus)], label="E(X), Nv + x", color = "green")
+plt.plot(x, [E(Nr, Nv, Nb+x) for x in range(nbre_de_en_plus)], label="E(X), Nb + x", color = "blue")
 plt.legend()
 plt.show()
