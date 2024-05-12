@@ -1,3 +1,4 @@
+from numpy import linspace
 from numpy.random import randint
 import matplotlib.pyplot as plt
 
@@ -26,11 +27,6 @@ def Xb():
             return 4
 
 
-
-def E(X, Nr, Nv, Nb):
-    return (3*Nr+(5/2)*Nv+(7/2)*Nb)/(Nr+Nv+Nb)
-
-
 def valide(Xa, n):
     def frequenceApparition(Xa, n):
         frequenceApparition = [0, 0, 0, 0]
@@ -47,5 +43,15 @@ def valide(Xa, n):
 
 
 
-print(valide(Xr, 1000000), valide(Xv, 1000000), valide(Xb, 1000000))
+#print(valide(Xr, 1000000), valide(Xv, 1000000), valide(Xb, 1000000))
 
+
+def E(Nr, Nv, Nb):
+    """ Espérance de X """
+    return (3*Nr+(5/2)*Nv+(7/2)*Nb)/(Nr+Nv+Nb)
+
+linspace(0, )
+plt.plot([], [], label="E(X)")
+plt.plot([0, 1, 2, 3], [], label="E(X), Nr + 1")
+plt.plot([], [], label="E(X), Nv + 1")
+plt.plot([], [], label="E(X), Nb + 1")
