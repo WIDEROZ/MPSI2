@@ -45,13 +45,20 @@ def valide(Xa, n):
 
 #print(valide(Xr, 1000000), valide(Xv, 1000000), valide(Xb, 1000000))
 
+Nr = 10000
+Nv = 12
+Nb = 120
+
 
 def E(Nr, Nv, Nb):
     """ Espérance de X """
     return (3*Nr+(5/2)*Nv+(7/2)*Nb)/(Nr+Nv+Nb)
 
-linspace(0, )
-plt.plot([], [], label="E(X)")
-plt.plot([0, 1, 2, 3], [], label="E(X), Nr + 1")
-plt.plot([], [], label="E(X), Nv + 1")
-plt.plot([], [], label="E(X), Nb + 1")
+x = linspace(0, Nr, Nr)
+
+plt.plot(x, [E(Nr, Nv, Nb) for i in range(Nr)], label="E(X)")
+plt.plot(x, [E(Nr+1, Nv, Nb) for i in range(Nr)], label="E(X), Nr + 1")
+plt.plot(x, [E(Nr, Nv+1, Nb) for i in range(Nr)], label="E(X), Nv + 1")
+plt.plot(x, [E(Nr, Nv, Nb+1) for i in range(Nr)], label="E(X), Nb + 1")
+plt.legend()
+plt.show()
