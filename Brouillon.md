@@ -9,3 +9,5 @@ $$dN_{1 \to 2} = d\left(  n^{*} \frac{v \times t \times S}{6} \right) = \frac{n^
 
 $$dN_{1\to 2} = - dN_{ 2 \to 1} = - n^{*} \frac{vS}{6} dt$$
 car le système est fermé
+
+$$$$
