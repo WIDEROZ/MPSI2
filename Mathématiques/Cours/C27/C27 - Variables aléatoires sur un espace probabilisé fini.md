@@ -1207,6 +1207,14 @@ On tire 100 fois à pile ou face avec une pièce qui a une probabilité de $\fra
 
 ## Inégalité de Bienaymé-Tchebychev
 #### Propriété
-$$\forall X \in \mathbb{R}^{\Omega}, \forall \epsilon \in P(|X - E(X)| \geq \epsilon) \leq \frac{V(X)}{\epsilon^{2}}$$
+$$\forall X \in \mathbb{R}^{\Omega}, \forall \epsilon \in \mathbb{R}_{+}^{*}, P(|X - E(X)| \geq \epsilon) \leq \frac{V(X)}{\epsilon^{2}}$$
 
-$$$$
+Démonstration :
+Soit $\epsilon, c >0$ tels que : $c = \epsilon^{2}$, 
+Soit $X, Y \in \mathbb{R}^{\Omega}$ tel que $Y = (X-E(X))^{2}$
+Par l'inégalité de Markov : 
+$$P(Y \geq c) \leq \frac{E(Y)}{c}$$
+$$P((X - E(X))^{2} \geq c) = P(|X-E(X)| \geq \sqrt{ c }) \leq \frac{V(X)}{c}$$
+
+Ainsi, 
+$$\boxed{P(|X-E(X)|\geq \epsilon) \leq \frac{V(X)}{\epsilon^{2}}}$$
