@@ -162,5 +162,13 @@ Déterminer la nature des séries :
 - $\sum_{n \geq 2} \frac{1}{n^{3}+n^{2}-2n}$
 
 
-Soit $n \in $
-$$\frac{1}{n} \sum_{k = 2}^{n}$$
+Soit $n \in [\![2, + \infty[\![$
+$$\sum_{k = 2}^{n} \frac{1}{k} \frac{1}{k-1} = \sum_{k = 2}^{n} \frac{1}{k-1} - \frac{1}{k}= 1-\frac{1}{n} \to 1$$
+$$\sum_{n = 2}^{+ \infty} \frac{1}{n^{2}-n} = 1$$
+___
+Pour $n \geq 1$, 
+$$\sum_{k = 1}^{n} \ln\left( 1 + \frac{1}{k} \right) = \sum_{k = 1}^{n} (\ln(k + 1)- \ln(k))=\ln(n+1) \to + \infty$$
+Alors, 
+$$\sum_{n = 1}^{+\infty} \ln\left( 1+\frac{1}{n} \right) \text{ DV}$$
+___
+$$\sum_{k = 2}^{n} \frac{1}{k(k-1)(k+2)} = \sum_{k = 2}^{n} \frac{}{k+2} + \sum_{k = 2}^{n} \frac{}{k}$$
