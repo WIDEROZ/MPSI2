@@ -29,3 +29,19 @@ La <u>transformation</u> d'un système <u>d'une phase à une autre sans modifica
 
 # II. Les diagrammes d'état
 Excal 1.
+
+#### Propriété
+Lors d'un changement d'état d'un corps pur à pression constante, la température est constante
+
+#### Propriété
+Pou un système thermodynamique à l'équilibre diphasé, il existe une loi reliant la pression $P$ à la température $T$ 
+Cette loi s'exprime grace à deux paramètres intensifs : 
+- Les titres massiques des phases
+
+
+## 2. Diagramme d'état $(P, T)$
+Excal 2
+$T$ : Point tripe pour lequel les phases coexistent. 
+Eau : $0, 01$°C et $0.006$ bar 
+
+$C$ : point critique
