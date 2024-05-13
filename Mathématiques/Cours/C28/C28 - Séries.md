@@ -286,4 +286,39 @@ $R_{n}$ est défini car $\underset{p \geq n+1}{\sum} a_{p}$ CV
 car $\sum a_{p}$ CV (les premiers termes n'ont pas d'importance)
 
 #### Remarque
-Dire que la série CV car son reste tend vers $0$ n'a p
+Dire que la série CV car son reste tend vers $0$ n'a pas de sens car le reste est défini que si la série CV
+
+#### Remarque
+La manière dont la suite des reste tend vers $0$ définit la vitesse de CV c'est utile de savoir l'estimer pour faire du calcul numérique. (calculer les décimales de $\pi$)
+
+#### Exemple
+Avec l'exemple de Zénon, 
+$$R_{n}= \sum_{p = n+1}^{+ \infty} \frac{1}{2^{p}} = \frac{1}{2^{n}}$$
+Donc, $R_{n} \underset{n \to +\infty}{\longrightarrow} 0$ (très vite / exp vite)
+
+La convergence des séries géométriques est rapide !!
+Pour $\sum \frac{1}{n^{2}}$ on peut voir que $R_{n} \sim \frac{1}{n} \underset{n \to +\infty}{\longrightarrow} 0$ lentement
+La convergence des séries de Riemann est lente. 
+
+#### Propriété
+Soit $a \in \mathbb{C}$, 
+La série géométrique de raison $a$ et $\sum a^{n}$ 
+On a alors, 
+$$\sum a^{n} \text{ CV} \Leftrightarrow |a| < 1$$
+et 
+$$|a| < 1 \Rightarrow \sum_{n = 0}^{\infty} a^{n} = \frac{1}{1-a}$$
+
+Démonstration : 
+- Si $|a| \geq 1$, $a^{n} \nrightarrow 0$ donc, $\sum a^{n}$ DV
+- Si $|a| < 1$, en particulier $a \neq 1$, 
+  Donc, pour $n \in \mathbb{N}$, 
+  
+
+
+#### Propriété
+Soit $(u_{n}) \in \mathbb{K}^{\mathbb{N}}$
+Alors, 
+$(u_{n})$ et $\sum (u_{n+1}-u_{n})$
+sont de même nature
+
+Démonstration : 
