@@ -136,4 +136,7 @@ $$= \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})f(X())$$
 
 $$\mathrm{Cov}(X, Y) = E((X - E(X))(Y - E(Y)))$$
 
-$$V\left( \sum_{i = 1}^{n} X_{i} \right)= E\left( \sum \right)$$
+$$V\left( \sum_{i = 1}^{n} X_{i} \right)= \sum_{i=1}^{n}E\left( X_{i}^{2} \right) + 2 \sum_{1\leq i < j \leq n}E(X_{i}X_{j})$$
+$$V\left( \sum_{i = 1}^{n}X_{n} \right) = \sum_{i = 1}^{n}E(X_{i}^{2}) + 2 \sum_{1 \leq i < j \leq n}\mathrm{Cov}(X_{i}, X_{j})$$
+Car on a centré les $X_{i}$
+

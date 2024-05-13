@@ -1095,7 +1095,7 @@ $$\mathrm{Cov}(X, X) = V(X)$$
 $$\mathrm{Cov}(X-E(X), Y - E(Y)) = \mathrm{Cov}(X, Y)$$
 
 #### Propriété
-$$\mathrm{Cov}(X, Y) = E(X, Y)-E(X)E(Y)$$
+$$\mathrm{Cov}(X, Y) = E(XY)-E(X)E(Y)$$
 
 Démonstration : 
 $$\begin{array}{rl}

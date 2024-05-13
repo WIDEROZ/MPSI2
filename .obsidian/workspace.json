@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "482c99f7aa133f04",
+        "id": "0bfbf9a1188a41a0",
         "type": "tabs",
         "children": [
           {
-            "id": "81bfb16b2abb6e0a",
+            "id": "0c8bdadfe355ce6d",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "61611f1db7a5c9da",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,13 +140,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "61611f1db7a5c9da",
+  "active": "0c8bdadfe355ce6d",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Brouillon.md",
     "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
     "Physique-Chimie/DM/DM8/DM8_MP2I.pdf",
     "Physique-Chimie/DM/DM8",
-    "Brouillon.md",
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "FR Philo/Cours/AXE 2/AXE 2 - Cours 1 - Faire illusion.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "c.md",
@@ -194,7 +173,6 @@
     "Info/DM/DM2/DM 02.pdf",
     "Info/DM/DM1/DM 1 Maxime Driussi.md",
     "Info/DM/DM2/DM2.md",
-    "Info/DM/DM2/Bec-clemente Elio.pdf",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
