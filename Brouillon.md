@@ -4,4 +4,9 @@ $n^{*} = 44.6 \times 6.022 \times 10^{23} = 2.685\,812\cdot10^{+25}$
 $$d^{3} = V = \frac{n N_{a}}{n^{*}}$$
 
 
-$$dN_{1 \to 2} = d\left( \frac{P_{1}V_{1}}{RT}N_{a} \right) = \frac{N_{a}}{RT} d((P_{2} - P_{1}) (V_{2}-V_{1}))$$
+$$dN_{1 \to 2} = d\left( n^{*} \times \frac{1}{6} \times v \times t \times S \right) = \frac{N_{a}}{RT} d((P_{2} - P_{1}) (V_{2}-V_{1}))$$
+$$dN_{1 \to 2} = d\left(  n^{*} \frac{v \times t \times S}{6} \right) = \frac{n^{*}vS}{6} dt$$
+
+$$dN_{1\to 2} = - dN_{ 2 \to 1} = - n^{2}$$
+car le système est fermé
+$$$$
