@@ -128,5 +128,7 @@ ___
 $$E(X) = \sum_{x \in X(\Omega)}x P(X = x) = \sum_{\omega \in \Omega }P(\{ \omega \})X(\omega)$$
 $$\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$$
 $$\sum_{\omega \in \Omega}P(\{ \omega \})X(\omega) = \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})X(\omega)$$
-$$= $$
-$X(X^{-1}(x)) = X(X = x) = \{ x \}$ car 
+$$= \sum_{x \in X(\Omega)}\left( \sum_{\omega \in (X = x)}P(\{ \omega \}) \right) x$$
+
+$$\omega \in (X = x) = X^{-1}(x)$$
+$$X(\omega) = \{ x \in X^{-1}(\omega) \mid \}$$
