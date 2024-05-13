@@ -244,3 +244,31 @@ $\sum b_{n}$ CV CONTRADICTION
 
 #### Remarque
 Attention la somme de deux séries DV peut être de nature quelconque. 
+
+#### Exemple
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}+1}{n} \text{ DV}$$
+comme c'est une somme de :
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n} \text{ CV} \text{ et } \sum_{n \geq 1} \frac{1}{n} \text{ DV}$$
+
+#### Remarque
+On remarque que tous les exemples précédents de séries CV ont leur TG qui tend vers $0$. C'est général
+
+#### Propriété
+Pour toute série CV $\sum a_{n}$, on a : $a_{n} \to 0$ 
+
+Démonstration : 
+Soit $\sum a_{n}$ CV et $S_{\infty} \in \mathbb{K}$ sa somme
+Pour $n \in \mathbb{N}^{*}$, 
+$$a_{n} = S_{n}-S_{n-1} = S_{\infty} - S_{\infty}\to 0$$
+
+#### Remarque
+Cette CN n'est pas suffisante : 
+$$\frac{1}{n} \longrightarrow  0 \text{ et } \sum \frac{1}{n} \text{ DV}$$
+
+#### Corollaire
+Si $a_{n} \nrightarrow 0$, alors, $\sum a_{n}$ DV
+On dit qu'elle diverge grossièrement et on note : 
+$$\sum a{n} \text{ DVG}$$
+
+#### Exemple
+$$\sum (-1)^{k} \text{ DVG}$$
