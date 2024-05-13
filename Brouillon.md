@@ -134,4 +134,6 @@ $$= \sum_{x \in X(\Omega)}P(X = x) x$$
 $$E(f(X)) = \sum_{\omega \in \Omega}P(\{ \omega \})f(X(\omega))$$
 $$= \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})f(X())$$
 
-$$\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$$
+$$\mathrm{Cov}(X, Y) = E((X - E(X))(Y - E(Y)))$$
+
+$$V\left( \sum_{i = 1}^{n} X_{i} \right)= E\left( \sum \right)$$
