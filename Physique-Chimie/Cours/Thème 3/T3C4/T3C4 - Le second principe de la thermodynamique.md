@@ -58,14 +58,14 @@ $$\boxed{\Delta S = \frac{nR}{\gamma-1}\ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{1
 
 ## 2. Applications
 #### Définition
+Isentropique : Adiabatique réversible
+
+#### Définition
 Coefficient de compressibilité isotherme :
 $$\chi_{T} = -\frac{1}{V} \left.\frac{\partial V}{\partial P}\right)_{T}$$
 
 Coefficient de compressibilité isentropique : 
 $$\chi_{S} = -\frac{1}{V} \left.\frac{\partial V}{\partial P}\right)_{S}$$
-
-#### Définition
-Isentropique : Adiabatique réversible
 
 #### Propriété
 Avec les hypothèses ici wtf c le bordel
