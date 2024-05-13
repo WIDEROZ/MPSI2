@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "219545e97181379c",
+        "id": "482c99f7aa133f04",
         "type": "tabs",
         "children": [
           {
-            "id": "a551c252b9c43e63",
+            "id": "81bfb16b2abb6e0a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Brouillon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "61611f1db7a5c9da",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -148,19 +160,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a551c252b9c43e63",
+  "active": "81bfb16b2abb6e0a",
   "lastOpenFiles": [
-    "c.md",
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Brouillon.md",
+    "FR Philo/Cours/AXE 2/AXE 2 - Cours 1 - Faire illusion.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+    "c.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Pasted.md",
     "Physique-Chimie/Methode/Erreurs_incertitudes.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "LA KONSTANTE.png",
     "Untitled 1.md",
@@ -189,7 +202,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Mathématiques/Cours/C22/Formulaire.md",
     "Mathématiques/Cours/C22/C22.md",
-    "Mathématiques/Cours/C23/C23 - Dénombrement.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",

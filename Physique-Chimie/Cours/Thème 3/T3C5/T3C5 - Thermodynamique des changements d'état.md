@@ -2,7 +2,7 @@
 ## 1. 3 Etats de la matière
 ![[ChEtat.png]]
 
-<p align="center"> <img src="/home/elio/Documents/Prepa/MPSI2/Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png"></p>
+
 
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 

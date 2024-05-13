@@ -125,3 +125,4 @@ On note :
 $$Z = \sum_{k = 1}^{n}Y_{k} \sim \mathcal{B}(n, p)$$
 $$E(Z) = \sum_{k = 1}^{n}E(Y_{k}) = \sum_{k = 1}^{n}p = np$$
 ___
+$$E(X) = \sum_{x \in \Omega}x P(X = x)$$
