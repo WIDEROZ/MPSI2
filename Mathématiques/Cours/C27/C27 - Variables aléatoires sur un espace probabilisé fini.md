@@ -743,7 +743,7 @@ Démonstration :
 On a : $\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$
 Donc, 
 $$\sum_{\omega \in \Omega}P(\{ \omega \})X(\omega)=\sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})X(\omega)$$
-$$= \sum_{x \in X(\Omega)}\left( \sum_{\omega \in (X = x)} P(\omega)  \right)x = \sum_{x \in X(\Omega)} P(X = x)x$$
+$$= \sum_{x \in X(\Omega)}\left( \sum_{\omega \in (X = x)} P(\{ \omega \})  \right)x = \sum_{x \in X(\Omega)} P(X = x)x$$
 
 #### Définition
 Une VAR $X$ est centrée ssi $E(X) = 0$
