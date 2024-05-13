@@ -312,8 +312,8 @@ Démonstration :
 - Si $|a| \geq 1$, $a^{n} \nrightarrow 0$ donc, $\sum a^{n}$ DV
 - Si $|a| < 1$, en particulier $a \neq 1$, 
   Donc, pour $n \in \mathbb{N}$, 
-  
-
+  $$\sum_{k = 0}^{n}a^{k} = \frac{1-a^{n+1}}{1-a} \underset{n \to +\infty}{\longrightarrow}  \frac{1}{1-a}$$
+  Comme $|a| \leq 1$, $a^{n+1} \underset{n \to +\infty}{\longrightarrow} 0$
 
 #### Propriété
 Soit $(u_{n}) \in \mathbb{K}^{\mathbb{N}}$
@@ -322,3 +322,26 @@ $(u_{n})$ et $\sum (u_{n+1}-u_{n})$
 sont de même nature
 
 Démonstration : 
+$$S_{n} = \sum_{k = 0}^{n}(u_{k+1}-u_{k}) = u_{n+1}-U_{0}$$
+Ainsi, 
+$$(S_{n}) \text{ CV} \Leftrightarrow (u_{n}) \text{ CV}$$
+
+#### Exemple
+Soit $(u_{n})$ tel que $\forall n \in \mathbb{N}, 0 \leq u_{n+1}-u_{n} \leq 2^{-n}$
+Alors, $(u_{n})$ CV
+
+Démonstration : 
+Pour $n \in \mathbb{N}^{*}$, 
+$$\begin{array}{rl}
+S_{n} &= \underset{k = 0}{\overset{n}{\sum}} (u_{k+1}-u_{k}) \\
+&\leq \underset{k = 0}{\overset{n}{\sum}}  2^{-k} \\
+&\leq \underset{k = 0}{\overset{+ \infty}{\sum}} 2^{-k} \\
+&= \frac{1}{1-\frac{1}{2}} \\
+&= 2
+\end{array}$$
+Comme  les différences $u_{n+1}-u_{n}$ sont positives ou nulles, $(S_{n}) \uparrow$ et comme elle est majorée elle $CV$ donc $(u_{n})$ aussi. 
+
+#### Remarque
+Ces preuves de CV par comparaison lorsque les termes sont positifs sont générales. 
+
+# III. Séries a termes positifs

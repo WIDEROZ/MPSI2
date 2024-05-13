@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "512572de5a467d6c",
+        "id": "317d7a2178bbf975",
         "type": "tabs",
         "children": [
           {
-            "id": "572b31c239f6edc5",
+            "id": "f9ae7a6a41bda7d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Brouillon.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "95eab42a4e73c505",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C28/C28.md"
               }
             }
           }
@@ -106,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -158,12 +148,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "572b31c239f6edc5",
+  "active": "f9ae7a6a41bda7d8",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C28/C28.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/Cours/C28",
+    "LA KONSTANTE.png",
+    "Untitled 1.md",
     "Untitled.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C28/C28.md",
+    "Mathématiques/Cours/C28",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/DM/DM19/DM19.md",
@@ -172,7 +164,6 @@
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
     "Mathématiques/DM/DM19/DM19.py",
     "Brouillon.md",
-    "LA KONSTANTE.png",
     "Mathématiques/DM/DM19",
     "Info/DM/DM2/DM 02.pdf",
     "Info/DM/DM1/DM 1 Maxime Driussi.md",
@@ -197,8 +188,6 @@
     "conflict-files-obsidian-git.md",
     "FR Philo/18-01.md",
     "FR Philo/Dissertation/Correction - Une société de menteurs ne serait pas viable.md",
-    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
-    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
