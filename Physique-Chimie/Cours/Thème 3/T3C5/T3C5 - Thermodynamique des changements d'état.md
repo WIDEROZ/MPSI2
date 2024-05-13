@@ -58,6 +58,7 @@ Car le solide a un volume liquide
 # III. Changement d'état liquide-vapeur
 ## 1. Diagramme de Clapeyron $(P, V)$
 Diagramme du cours
+
 On est a un état initial : $T_{1}, P_{0}, v_{0}$
 La phase est uniquement du gaz
 - On comprime le gaz de façon isotherme : 
@@ -83,3 +84,11 @@ $v_{v} = \frac{m_{v}}{V_{v}}$ : volume massique de la phase vapeur.
 $v_{l}$ : volume massique de la phase liquide
 
 Démonstration : 
+Diagramme du cours, 
+On se place sur le segment $ER$, 
+La masse est $m= m_{v}+m_{l}=\text{cte}$
+Le volume est  $V = V_{v}+V_{l}$ 
+
+sur ce segment : $T = T_{1} = cte$ et $P = P_{sat}=cte$
+En $M$ on a une masse de $m_{v}$ vapeur et de $m_{l}$ liquide : 
+$$x_{v} = \frac{m_{v}}{m_{v}+m_{l}} = \frac{EM}{ER}$$
