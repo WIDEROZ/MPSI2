@@ -1204,3 +1204,9 @@ Dès qu'on a des informations sur la loi, on en déduis en général des inégal
 
 #### Exemple
 On tire 100 fois à pile ou face avec une pièce qui a une probabilité de $\frac{2}{3}$ de tomber sur
+
+## Inégalité de Bienaymé-Tchebychev
+#### Propriété
+$$\forall X \in \mathbb{R}^{\Omega}, \forall \epsilon \in P(|X - E(X)| \geq \epsilon) \leq \frac{V(X)}{\epsilon^{2}}$$
+
+$$$$
