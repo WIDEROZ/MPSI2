@@ -107,7 +107,6 @@ On cherche :
 $$\frac{dV}{dP} = - \frac{V}{\gamma P}$$
 A $S = \text{cte}$ on a : 
 $$\frac{dV}{dP} = \left.\frac{\partial V}{\partial P}\right)_{S}$$
-
 $$\chi_{S} = -\frac{1}{V} \left.\frac{\partial V}{\partial P}\right)_{S}= -\frac{1}{V} \times\left( - \frac{V}{\gamma P} \right)$$
 Ainsi, 
 $$\boxed{\chi_{S} = \frac{1}{\gamma P}}$$
