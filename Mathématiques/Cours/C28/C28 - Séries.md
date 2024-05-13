@@ -129,4 +129,38 @@ La nature de
 $$\sum (-1)^{n}$$
 Pour $n \in \mathbb{N}$, 
 $$\sum_{k = 0}^{n} (-1)^{k} = \frac{1-(-1)^{n+1}}{2}$$
-$= 1$ si $n$ est pair et $0$ si $n$ 
+$= 1$ si $n$ est pair et $0$ si $n$ est impair. 
+
+La suite
+$$\sum_{k = 0}^{n}(-1)^{k} \text{ DV}$$
+par exemple car ses suite extraite des rangs pairs et impairs convergent vers des limites différentes. 
+Ainisi, 
+$$\sum (-1)^{n} \text{ DV}$$
+
+#### Remarque
+Pour les suites il se peut que le terme général de la série ne soit défini qu'a partir d'un certain rang $n_{0}$ (APDCR).
+On fait partir les sommes partielles / la somme éventuelle à ce rang. 
+Pour $n \geq n_{0}$, 
+$$S_{n} = \sum_{k = n_{0}}^{n}a_{k}$$
+On note la série : 
+$$\sum_{n \geq n_{0}} a_{n}$$
+et sa somme, si elle existe : 
+$$\sum_{n = n_{0}}^{\infty} a_{n}$$
+
+#### Remarque
+Si on change un nombre fini de termes de la suite $(a_{n})_{n}$ cela ne change pas la nature de $\sum a_{n}$ mais cela change sa somme. 
+
+#### Exemple
+Série de Riemann : 
+$$\sum_{n \geq 1} \frac{1}{n^{s}}$$
+avec $s \in \mathbb{C}$, 
+
+#### Exercice
+Déterminer la nature des séries : 
+- $\sum_{n \geq 2} \frac{1}{n^{2}-n}$
+- $\sum_{n \geq 1} \ln\left( 1+\frac{1}{n} \right)$
+- $\sum_{n \geq 2} \frac{1}{n^{3}+n^{2}-2n}$
+
+
+Soit $n \in $
+$$\frac{1}{n} \sum_{k = 2}^{n}$$
