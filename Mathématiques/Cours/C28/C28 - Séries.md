@@ -272,3 +272,18 @@ $$\sum a{n} \text{ DVG}$$
 
 #### Exemple
 $$\sum (-1)^{k} \text{ DVG}$$
+
+#### Définition
+Soit $\sum a_{n}$ CV
+Pour $n \in \mathbb{N}$ on appelle reste de rang $n$ de cette série la quantité : 
+$$R_{n} = \sum_{p= 0}^{+\infty}a_{p} - S_{n} = \sum_{p = n+1}^{+ \infty}a_{p}$$
+On a évidement : 
+$$S_{n} + R_{n} = \sum_{p= 0}^{+\infty}a_{p}$$
+et $R_{n} \underset{n \to +\infty}{\longrightarrow} 0$ 
+
+#### Remarque
+$R_{n}$ est défini car $\underset{p \geq n+1}{\sum} a_{p}$ CV
+car $\sum a_{p}$ CV (les premiers termes n'ont pas d'importance)
+
+#### Remarque
+Dire que la série CV car son reste tend vers $0$ n'a p
