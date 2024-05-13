@@ -97,4 +97,11 @@ $$f : \begin{cases}
 \end{cases}$$
 On applique la formule du transfert : 
 $$E(XY) = \sum_{(x, y) \in X(\Omega) \times Y(\Omega)}xyP(X = x, Y = y)$$
-$$ = \sum_{x \in \mathbb{R}} \sum_{y \in \mathbb{R}}xyP(X = x, Y = y) = \sum_{x \in \mathbb{R}}xP(X = x)$$
+$$ = \sum_{x \in \mathbb{R}} \sum_{y \in \mathbb{R}}xyP(X = x, Y = y) $$
+$$= \left( \sum_{x \in \mathbb{R}}xP(X = x) \right)\left( \sum_{y \in \mathbb{R}}y P(Y =y) \right) = E(X)E_{Y}$$
+$$E(f(X)) = \sum_{x \in X(\Omega)}f(x)P(X = x)$$
+
+___
+Soit $n \in \mathbb{N}^{*}$ et $p \in [0, 1]$, puis $X \sim \mathcal{B}(n, p)$, 
+$$E(X) = \sum_{k = 0}^{n}kP(X = k) = \sum_{k = 0}^{n} k \binom{n}{k}p^{k}(1-p)^{n-k}$$
+$$= \sum_{k = 0}^{n}k \frac{n!}{k!(n-k)!}p^{k}(1-p)^{n-k} =$$
