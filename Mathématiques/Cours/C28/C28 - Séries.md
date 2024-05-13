@@ -215,3 +215,32 @@ E_{CV} \to \mathbb{K} \\
 \end{cases}$$
 est une forme linéaire.
 
+#### Exemple
+$$\sum_{n\geq 1} \frac{2+ (-1)^{n}n}{n^{2}} \text{ CV}$$
+car 
+$$\sum_{n \geq 1} \frac{1}{n^{2}} \text{ CV}$$
+et 
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n} \text{ CV}$$
+et 
+$$\sum_{n = 1}^{+\infty} \frac{2+(-1)^{n-1}n}{n^{2}} = 2 \sum_{n = 1}^{+\infty} \frac{1}{n^{2}} + \sum_{n = 1}^{+\infty} \frac{(-1)^{n-1}}{n}= \frac{\pi^{2}}{3}+ \ln(2)$$
+
+#### Corollaire
+La somme d'une série CV et d'une série DV est DV.
+
+Démonstration : 
+Soient 
+$$\begin{cases}
+\sum a_{n} \text{ CV} \\
+\sum b_{n} \text{ DV}
+\end{cases}$$
+On raisonne par l'absurde : 
+Supposons que $\sum a_{n} + \sum b_{n}$ CV
+Alors, 
+$$\sum b_{n} = \sum (a_{n} + b_{n}) - \sum a_{n}$$
+or 
+$\sum (a_{n} + b_{n})$ CV et $\sum a_{n}$ CV
+Alors, 
+$\sum b_{n}$ CV CONTRADICTION
+
+#### Remarque
+Attention la somme de deux séries DV peut être de nature quelconque. 
