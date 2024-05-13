@@ -109,4 +109,12 @@ $$=n \sum_{k = 1}^{n}\binom{n-1}{k-1}p^{k}(1-p)^{n-k}$$
 $$= n \sum_{k = 0}^{n-1}\binom{n-1}{k} p^{k+1}(1-p)^{n-k-1}$$
 $$= np \sum_{k = 0}^{n-1} \binom{n-1}{k}p^{k}(1-p)^{n-1-k}$$
 $$=np (p + 1-p)^{n-1} = np$$
-
+___
+Soit : 
+$$f : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto (x + (1-p))^{n} = \sum_{k = 0}^{n} \binom{n}{k}p^{k}(1-p)^{n-k}
+\end{cases}$$
+$$f'(x) = n(x + (1-p))^{n-1} = \sum_{k = 0}^{n-1} n\binom{n-1}{k}x^{k}(1-p)^{(n-1)-k}$$
+$$f'(p) = np$$
+$$f'(p)$$
