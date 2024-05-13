@@ -127,4 +127,5 @@ $$E(Z) = \sum_{k = 1}^{n}E(Y_{k}) = \sum_{k = 1}^{n}p = np$$
 ___
 $$E(X) = \sum_{x \in X(\Omega)}x P(X = x) = \sum_{\omega \in \Omega }P(\{ \omega \})X(\omega)$$
 $$\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$$
-$$\sum_{\omega \in \Omega}P(\{ \omega \})X(\omega)$$
+$$\sum_{\omega \in \Omega}P(\{ \omega \})X(\omega) = \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})X(\omega)$$
+$$= \sum_{x \in X(\Omega)} P(X = x)X$$
