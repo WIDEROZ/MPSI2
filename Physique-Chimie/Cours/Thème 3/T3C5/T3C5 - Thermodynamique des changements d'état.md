@@ -1,6 +1,9 @@
 # I. Les transformations physiques
 ## 1. 3 Etats de la matière
-![[Pasted image 20240513144700.png]]
+<p align="center">
+    <img src="Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png">
+</p>
+
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 
 
@@ -41,7 +44,11 @@ Cette loi s'exprime grace à deux paramètres intensifs :
 
 ## 2. Diagramme d'état $(P, T)$
 Excal 2
-$T$ : Point tripe pour lequel les phases coexistent. 
+$T$ : Point triple pour lequel les phases coexistent. 
 Eau : $0, 01$°C et $0.006$ bar 
 
-$C$ : point critique
+$C$ : point critique, au delà de $C$, le fluide est appelé supercritique et il n'y a pas de discontinuité entre les états liquide et gaz. 
+Eau : $374$°C et $218$ bar
+
+La courbe de fusion est quasi verticale avec une pente positive sauf pour l'eau :
+Excal 3.
