@@ -129,6 +129,9 @@ $$E(X) = \sum_{x \in X(\Omega)}x P(X = x) = \sum_{\omega \in \Omega }P(\{ \omega
 $$\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$$
 $$\sum_{\omega \in \Omega}P(\{ \omega \})X(\omega) = \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})X(\omega)$$
 $$= \sum_{x \in X(\Omega)}\left( \sum_{\omega \in (X = x)}P(\{ \omega \}) \right) x$$
+$$= \sum_{x \in X(\Omega)}P(X = x) x$$
 
-$$\omega \in (X = x) = X^{-1}(x)$$
-$$X(\omega) = \{ x \in X^{-1}(\omega) \mid \}$$
+$$E(f(X)) = \sum_{\omega \in \Omega}P(\{ \omega \})f(X(\omega))$$
+$$= \sum$$
+
+$$X(\Omega) = \bigsqcup_{\omega \in \Omega}X(\omega)$$
