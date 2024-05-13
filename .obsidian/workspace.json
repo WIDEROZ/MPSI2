@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md"
               }
             }
           }
@@ -158,10 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "346e5219128690e7",
+  "active": "04aee919bd039761",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
+    "Physique-Chimie/Cours/Thème 3/T3C5/Pasted image 20240513144700.png",
     "Physique-Chimie/Methode/Erreurs_incertitudes.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5",
     "Mathématiques/Cours/C28/C28 - Séries.md",
@@ -207,7 +209,6 @@
     "Pasted image 20240205155148 5.png",
     "Pasted image 20240205155148 4.png",
     "Pasted image 20240205155148 3.png",
-    "Pasted image 20240205155148 2.png",
     "Untitled.canvas"
   ]
 }

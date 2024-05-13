@@ -1,7 +1,6 @@
 # I. Les transformations physiques
 ## 1. 3 Etats de la matière
-Voir sur google schema liquide -> solide -> gaz -> ...
-
+![[Pasted image 20240513144700.png]]
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 
 
@@ -25,4 +24,8 @@ La <u>transformation</u> d'un système <u>d'une phase à une autre sans modifica
 
 ## 5. Les autres états de la matière
 - Le plasma : gaz formé d'ions positifs et d'electrons. 
-- Phases métastables : Surfusion (on est en phase liquide au lieu de la phase solide), Sur-congélation (inverse), Sur-ébullition (faire bouillir de l'eau distillée)
+- Phases métastables : Sur-fusion (on est en phase liquide au lieu de la phase solide), Sur-congélation (inverse), Sur-ébullition (On est en phase liquide au lieu de gazeux)
+- Phases mésomorphes : solides sans ordres (verre, plastique amorphe, cristaux liquides)
+
+# II. Les diagrammes d'état
+Excal 1.
