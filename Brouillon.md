@@ -103,5 +103,10 @@ $$E(f(X)) = \sum_{x \in X(\Omega)}f(x)P(X = x)$$
 
 ___
 Soit $n \in \mathbb{N}^{*}$ et $p \in [0, 1]$, puis $X \sim \mathcal{B}(n, p)$, 
-$$E(X) = \sum_{k = 0}^{n}kP(X = k) = \sum_{k = 0}^{n} k \binom{n}{k}p^{k}(1-p)^{n-k}$$
-$$= \sum_{k = 0}^{n}k \frac{n!}{k!(n-k)!}p^{k}(1-p)^{n-k} =$$
+$$E(X) = \sum_{k = 0}^{n}kP(X = k) = ⚡ \sum_{k = 0}^{n} k \binom{n}{k}p^{k}(1-p)^{n-k}$$
+$$= n\sum_{k = 1}^{n} \frac{(n-1)!}{(k-1)!((n-1)-(k-1))!}p^{k}(1-p)^{n-k} $$
+$$=n \sum_{k = 1}^{n}\binom{n-1}{k-1}p^{k}(1-p)^{n-k}$$
+$$= n \sum_{k = 0}^{n-1}\binom{n-1}{k} p^{k+1}(1-p)^{n-k-1}$$
+$$= np \sum_{k = 0}^{n-1} \binom{n-1}{k}p^{k}(1-p)^{n-1-k}$$
+$$=np (p + 1-p)^{n-1} = np$$
+

@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -172,11 +173,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ddaf0cab0d3e83d7",
+  "active": "13249cf12d632206",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Brouillon.md",
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "LA KONSTANTE.png",
     "Untitled 1.md",
     "Untitled.md",
