@@ -55,4 +55,13 @@ $$\boxed{\sum_{n \geq 1} \frac{1}{n^{2}} \text{ converge}}$$
 et de même, 
 $$\boxed{\sum_{n=1}^{+ \infty} \frac{1}{n^{2}} \in [1, 2]}$$
 Retenir : 
-$$\boxed{\zeta(2) = \sum_{n = 1}^{+ \infty}} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$$
+Soit $\zeta$ la fonction zeta de Riemann : 
+$$\boxed{\zeta(2) = \sum_{n = 1}^{+ \infty} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}}$$
+$$\zeta(3) \in \mathbb{R}\setminus \mathbb{Q} \text{ et } \forall k \in \mathbb{N}^{*}, \zeta(2k+1) \in \mathbb{R} \setminus \mathbb{Q}$$
+
+$$\forall k \geq 1, 0 \leq \frac{1}{k^{3}} \leq \frac{1}{k^{3}}$$
+Donc, 
+$$\forall n \in \mathbb{N}, 0 \leq \sum_{k = 1}^{n} \frac{1}{k^{3}} \leq \sum_{k = 1}^{n} \frac{1}{k^{2}}\leq 2$$
+Comme, 
+$$\sum_{k = 1}^{n} \frac{1}{k^{3}}$$
+est croissant
