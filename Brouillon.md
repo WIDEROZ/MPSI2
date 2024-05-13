@@ -11,7 +11,17 @@ $$dN_{1\to 2} = - dN_{ 2 \to 1} = - n^{*} \frac{vS}{6} dt$$
 car le système est fermé
 ## 2.
 $$\frac{dN_{1 \to 2}}{dt} - \frac{N_{1}s}{6V} v = 0$$
-$$\frac{dN_{1 \to 2}}{dt} + \frac{N_{1}s}{6V} v = 0$$
+$$\frac{dN_{2 \to 1}}{dt} + \frac{N_{2}s}{6V} v = 0$$
 
 ## 3.
-$$N_{1 \to 2}(t) = Ae^{ \frac{N_{1}s}{6v}t }$$
+$$N_{1 \to 2}(t) = \frac{N_{1}s}{6V}v \times t$$
+$$N_{1 \to 2}(t) = -\frac{N_{2}s}{6V}v \times t$$
+
+## 4.
+$$\tau_{1} = 6\frac{V}{N_{1}sv}$$
+$$\tau_{2} = 6 \frac{V}{N_{2}sv}$$
+
+$N = nN_{a} = \frac{m}{M}N_{a}$
+
+$$\tau = 6 \frac{VM}{mN_{a}sv}$$
+Quand la masse m
