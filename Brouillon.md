@@ -132,6 +132,6 @@ $$= \sum_{x \in X(\Omega)}\left( \sum_{\omega \in (X = x)}P(\{ \omega \}) \right
 $$= \sum_{x \in X(\Omega)}P(X = x) x$$
 
 $$E(f(X)) = \sum_{\omega \in \Omega}P(\{ \omega \})f(X(\omega))$$
-$$= \sum$$
+$$= \sum_{x \in X(\Omega)}\sum_{\omega \in (X = x)}P(\{ \omega \})f(X())$$
 
-$$X(\Omega) = \bigsqcup_{\omega \in \Omega}X(\omega)$$
+$$\Omega = \bigsqcup_{x \in X(\Omega)}(X = x)$$
