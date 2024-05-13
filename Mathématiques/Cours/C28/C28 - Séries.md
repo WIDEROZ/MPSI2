@@ -32,14 +32,27 @@ S_{2^{p}} = \sum_{n \geq 1} \frac{1}{n} &=1 \\
 &+ \left( \frac{1}{3} + \frac{1}{4} \right)  \\
 &+ \left( \frac{1}{5} + \frac{1}{6} + \frac{1}{7} + \frac{1}{8} \right) \\
 &+ \dots \\
-&+\left( \frac{1}{2^{p}+1} + \dots + \frac{1}{2^{p}}\right) \\
+&+\left( \frac{1}{2^{p-1}+1} + \dots + \frac{1}{2^{p}}\right) \\
 &\geq 1+ \frac{1}{2}p \to + \infty
 \end{array}$$
-Ainsi, par minoration, 
-$(S_{2^{p}})$ diverge
+Ainsi, par minoration, $(S_{2^{p}})$ diverge
+
 Comme la suite extraite : $(S_{2^{p}})_{p}$ de $(S_{n})_{n}$ est divergente ie n'admet pas de de limite finie et qu'elle est croissante : 
 $$\lim_{ n \to \infty }S_{n} = + \infty $$
 ie 
 $$\sum_{n = 1}^{\infty} \frac{1}{n} = + \infty$$
-
-$$\forall \epsilon > 0, \exists N \in \mathbb{N}, \forall n > N, u_{n} \Rightarrow | u_{n}-l| < \epsilon$$
+___
+Notons pour $n \in \mathbb{N}$, 
+$$T_{n} = \sum_{k = 1}^{n} \frac{1}{k^{2}}$$
+On a alors pour $n \geq 1$, 
+$$T_{n} = 1+ \sum_{k= 1}^{n} \frac{1}{k^{2}}$$
+$$T_{n} \leq 1+ \sum_{k = 2}^{n} \frac{1}{k(k-1)} = 1+ \sum_{k = 2}^{n} \frac{1}{k-1}-\frac{1}{k} = 1+\left( 1-\frac{1}{n} \right)$$
+Donc, 
+$$1+ \sum_{k = 2}^{n} \frac{1}{k(k-1)} = 2 + \frac{1}{n} \leq 2$$
+De plus, $(T_{n}) \uparrow$
+Etant croissante et majorée, $(T_{n})$ converge ie 
+$$\boxed{\sum_{n \geq 1} \frac{1}{n^{2}} \text{ converge}}$$
+et de même, 
+$$\boxed{\sum_{n=1}^{+ \infty} \frac{1}{n^{2}} \in [1, 2]}$$
+Retenir : 
+$$\boxed{\zeta(2) = \sum_{n = 1}^{+ \infty}} \frac{1}{n^{2}} = \frac{\pi^{2}}{6}$$
