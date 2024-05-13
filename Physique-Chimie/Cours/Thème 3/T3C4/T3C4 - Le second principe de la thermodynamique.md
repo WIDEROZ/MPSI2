@@ -120,7 +120,7 @@ Excal 1.
 
 # V. Phase condensée
 #### Propriété
-On suppose que la capacité calorique $C$ est indépendante de la température. $C= \text{cte}$
+On suppose que la capacité calorifique $C$ est indépendante de la température. $C= \text{cte}$
 Alors
 $$\Delta S = C \ln \left( \frac{T_{2}}{T_{1}} \right)$$
 est la variation d'entropie d'une phase condensée entre l'état $1$ et l'état $2$
