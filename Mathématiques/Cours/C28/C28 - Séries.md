@@ -86,3 +86,21 @@ On a deux pistes :
 
 Ici pour $n \geq 1$, 
 $$S_{n} = \frac{1}{n} \sum_{k = 1}^{n} \frac{1}{1+ \left( \frac{k}{n} \right)^{2}}= \frac{1}{n} \sum_{k = 1}^{n}f\left( \frac{k}{n} \right)$$
+$$S_{n} \underset{n \to + \infty}{\longrightarrow} \int _{0}^{1} f = \int _{0}^{1} \frac{dx}{1+x^{2}} \, dx = [\arctan(x)]_{0}^{1} = \frac{\pi}{4}$$
+$S_{n} \underset{n \to + \infty}{\longrightarrow} \int _{0}^{1} f$ est a prouver (en gros c'est la formule des rectangles)
+
+Méthode de Simpson pour le calcul intégral en informatique
+
+# I. Définitions
+Soit $\mathbb{K} \in \{ \mathbb{R}, \mathbb{C} \}$, 
+#### Définition
+Pour $(a_{n})_{n} \in \mathbb{K}^{\mathbb{N}}$, 
+La série de terme général $a_{n}$, est notée :
+$$\sum a_{n}$$
+est la suite des sommes partielles : $(S_{n})_{n \in \mathbb{N}}$ de terme général : 
+$$S_{n} = \sum_{k = 0}^{n} a_{k}$$
+En conséquence on dit que $\sum a_{n}$ converge ou diverge ssi $(S_{n})_{n}$ converge ou diverge
+
+#### Remarque
+Il existe d'autre définitions
+$$$$
