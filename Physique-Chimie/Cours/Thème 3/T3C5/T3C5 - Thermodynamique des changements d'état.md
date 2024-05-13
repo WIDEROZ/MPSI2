@@ -1,6 +1,9 @@
 # I. Les transformations physiques
 ## 1. 3 Etats de la matière
-![[ChEtat.png.png]]
+![[ChEtat.png]]
+
+<p align="center"> <img src="ChEtat.png"></p>
+
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 
 
@@ -63,3 +66,20 @@ La phase est uniquement du gaz
 - $E$ : point d'ébullition, correspond a la disparition de la dernière bulle de gaz
 - Le segment : $ER$ est le palier de changement d'état
 - La courbe de rosée correspond à l'ensemble des points $R$ 
+- La courbe d’ébullition correspond à l'ensemble des points $E$
+
+## 2. Composition d'un mélange liquide-vapeur
+#### Définition
+Pour décrire l'état d'un système décomposé : $l+v$ on utilise le taux de vapeur ou titre massique : 
+$$x_{v} = \frac{m_{v}}{m_{v}m_{l}}$$
+$m_{v}$ : masse de la vapeur
+$m_{l}$ : masse du liquide
+$m_{v}+m_{l}$ : masse totale constante. 
+
+#### Propriété : Règle des moments
+$$x_{v} = \frac{v-v_{l}}{v_{v}-v_{l}}$$
+$v = \frac{m}{V}$ : volume massique total
+$v_{v} = \frac{m_{v}}{V_{v}}$ : volume massique de la phase vapeur.
+$v_{l}$ : volume massique de la phase liquide
+
+Démonstration : 
