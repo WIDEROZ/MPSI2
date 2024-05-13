@@ -124,4 +124,4 @@ Soit $(Y_{i})_{i \in [\![1, n]\!]} \sim \mathcal{B}(p)\in \mathbb{R}^{\Omega}$ e
 On note : 
 $$Z = \sum_{k = 1}^{n}Y_{k} \sim \mathcal{B}(n, p)$$
 $$E(Z) = \sum_{k = 1}^{n}E(Y_{k}) = \sum_{k = 1}^{n}p = np$$
-	
+___
