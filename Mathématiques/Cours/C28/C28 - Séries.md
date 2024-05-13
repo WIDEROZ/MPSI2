@@ -21,7 +21,7 @@ Quick : Je peux tous les empiler dans la grande chambre
 Flupke : Menteur! Moi je peux tous les peindre avec un nombre fini de pots et même tous les remplir avec le lac d'Annecy. (Ou une petite piscine)
 
 Est ce que ces séries convergent ?
-$$\sum_{n \geq \frac{1}{n}} \frac{1}{n}$$
+$$\sum_{n \geq 1} \frac{1}{n}$$
 (Série harmonique)
 $$\sum_{n \geq 1} \frac{1}{n^{2}}$$
 $$\sum_{ n\geq 1} \frac{1}{n^{3}}$$

@@ -88,3 +88,13 @@ Calculer $P(A \cap B)$ reviens a
 
 ___
 $$- \frac{\frac{\partial f}{\partial  x_{2}}}{\frac{\partial f}{\partial x_{1}}} = - \frac{x_{1}^{1/4} \times \frac{1}{4} \times x_{2}^{3/4}}{x_{2}^{1/4} \times \frac{1}{4} \times x_{1}^{3/4}}= - \frac{x_{1}^{1/4} \times \frac{1}{4} \times x_{1}^{-3/4}}{x_{2}^{1/4} \times \frac{1}{4} \times x_{2}^{-3/4}}$$
+___
+Soit $X, Y \in \mathbb{R}^{\Omega}$, 
+Soit : 
+$$f : \begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto xy
+\end{cases}$$
+On applique la formule du transfert : 
+$$E(XY) = \sum_{(x, y) \in X(\Omega) \times Y(\Omega)}xyP(X = x, Y = y)$$
+$$ = \sum_{x \in \mathbb{R}} \sum_{y \in \mathbb{R}}xyP(X = x, Y = y) = \sum_{x \in \mathbb{R}}xP(X = x)$$
