@@ -171,4 +171,13 @@ $$\sum_{k = 1}^{n} \ln\left( 1 + \frac{1}{k} \right) = \sum_{k = 1}^{n} (\ln(k +
 Alors, 
 $$\sum_{n = 1}^{+\infty} \ln\left( 1+\frac{1}{n} \right) \text{ DV}$$
 ___
-$$\sum_{k = 2}^{n} \frac{1}{k(k-1)(k+2)} = \sum_{k = 2}^{n} \frac{}{k+2} + \sum_{k = 2}^{n} \frac{}{k}$$
+$$S_{n} = \sum_{k = 2}^{n} \frac{1}{k(k-1)(k+2)} = \sum_{k = 2}^{n} \frac{\frac{1}{6}}{k+2} - \sum_{k = 2}^{n} \frac{\frac{1}{2}}{k} + \sum_{k = 2}^{n} \frac{\frac{1}{3}}{k-1}$$
+(Décomposition en élément simples)
+Donc, 
+$$S_{n} = \frac{1}{6}\sum_{k = 4}^{n+2} \frac{1}{k}  - \frac{1}{2}\sum_{k =2}^{n} \frac{1}{k} + \frac{1}{3} \sum_{k = 1}^{n-1} \frac{1}{k}$$
+AL morse Ors, 
+$$S_{n} = \left( \frac{1}{6} - \frac{1}{2} + \frac{1}{3}\right)\sum_{k = 2}^{n} \frac{1}{k} + \frac{1}{6}\left( -\frac{1}{2}-\frac{1}{3}+\frac{1}{n+1}+\frac{1}{n+2} \right)$$
+$$+ \frac{1}{3}\left( 1-\frac{1}{n} \right) \longrightarrow -\frac{5}{36}+\frac{12}{36} = \frac{7}{36}$$
+
+#### Propriété
+Soit $\sum a_{n}$ une sér
