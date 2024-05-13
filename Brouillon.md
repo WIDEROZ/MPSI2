@@ -119,3 +119,9 @@ $$f'(x) = n(x + (1-p))^{n-1} = \sum_{k = 0}^{n} k\binom{n}{k} x^{k-1}(1-p)^{n-k}
 
 $$pf'(p) = np = \sum_{k = 0}^{n}k \binom{n}{k}p^{k}(1-p)^{n-k} = E(X)$$
 
+___
+Soit $(Y_{i})_{i \in [\![1, n]\!]} \sim \mathcal{B}(p)\in \mathbb{R}^{\Omega}$ et indépendantes.
+On note : 
+$$Z = \sum_{k = 1}^{n}Y_{k} \sim \mathcal{B}(n, p)$$
+$$E(Z) = \sum_{k = 1}^{n}E(Y_{k}) = \sum_{k = 1}^{n}p = np$$
+	
