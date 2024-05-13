@@ -55,8 +55,11 @@ Car le solide a un volume liquide
 # III. Changement d'état liquide-vapeur
 ## 1. Diagramme de Clapeyron $(P, V)$
 Diagramme du cours
-On est a un état initial : $T_{1}, P_{0}, v_{v}$
+On est a un état initial : $T_{1}, P_{0}, v_{0}$
 La phase est uniquement du gaz
 - On comprime le gaz de façon isotherme : 
   $Pv_{m} = nRT = \text{cte}$ alors, $\boxed{P = \frac{\text{cte}}{v_{m}}}$ 
-- $R$ : point de rosée qui correspond à la première apparition 
+- $R$ : point de rosée qui correspond à la première apparition du liquide la pression a ce point est nommée pression de vapeur saturante : $P_{sat}(T)$
+- $E$ : point d'ébullition, correspond a la disparition de la dernière bulle de gaz
+- Le segment : $ER$ est le palier de changement d'état
+- La courbe de rosée correspond à l'ensemble des points $R$ 
