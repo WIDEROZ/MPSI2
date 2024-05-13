@@ -4,59 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "aa37771c545710c2",
+        "id": "512572de5a467d6c",
         "type": "tabs",
         "children": [
           {
-            "id": "c01a26057eb06f08",
+            "id": "572b31c239f6edc5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0b1b1f6323e87e4f",
+            "id": "1ed8bace1687253e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d8aec4d45003e4ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ff86d44a535828ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C28/C28.md"
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -185,12 +158,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d8aec4d45003e4ab",
+  "active": "572b31c239f6edc5",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
-    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+    "Mathématiques/Cours/C28/C28.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C28",
     "Untitled.md",
+    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/DM/DM19/DM19.md",
+    "Mathématiques/DM/DM19/DM19.pdf",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
     "Mathématiques/DM/DM19/DM19.py",
@@ -205,8 +182,6 @@
     "Info/DM/DM2/grille_3.txt",
     "Info/DM/DM2/grille_2.txt",
     "Info/DM/DM2/grille_1.txt",
-    "grille_3.txt",
-    "grille_2.txt",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
@@ -224,7 +199,6 @@
     "FR Philo/Dissertation/Correction - Une société de menteurs ne serait pas viable.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
