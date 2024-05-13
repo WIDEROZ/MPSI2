@@ -2,7 +2,7 @@
 ## 1. 3 Etats de la matière
 ![[ChEtat.png]]
 
-<p align="center"> <img src="ChEtat.png"></p>
+<p align="center"> <img src="/home/elio/Documents/Prepa/MPSI2/Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png"></p>
 
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 
@@ -72,7 +72,7 @@ La phase est uniquement du gaz
 ## 2. Composition d'un mélange liquide-vapeur
 #### Définition
 Pour décrire l'état d'un système décomposé : $l+v$ on utilise le taux de vapeur ou titre massique : 
-$$x_{v} = \frac{m_{v}}{m_{v}m_{l}}$$
+$$x_{v} = \frac{m_{v}}{m_{v}+m_{l}}$$
 $m_{v}$ : masse de la vapeur
 $m_{l}$ : masse du liquide
 $m_{v}+m_{l}$ : masse totale constante. 
@@ -92,3 +92,13 @@ Le volume est  $V = V_{v}+V_{l}$
 sur ce segment : $T = T_{1} = cte$ et $P = P_{sat}=cte$
 En $M$ on a une masse de $m_{v}$ vapeur et de $m_{l}$ liquide : 
 $$x_{v} = \frac{m_{v}}{m_{v}+m_{l}} = \frac{EM}{ER}$$
+$$V = x_{l}V_{E}+x_{v}V_{R}$$
+avec
+$$x_{l} = \frac{m_{l}}{m_{l} + m_{v}}$$
+Donc, comme $x_{l} + x_{v} = 1$ 
+$$V = (1-x_{v})V_{E} + V_{R}x_{v} = x_{v}(V_{R}-V_{E})+V_{E}$$
+$$x_{v} = \frac{V-V_{E}}{V_{R}-V_{E}} > 0$$
+Comme on passe de gaz à liquide on a : $V_{E} < V < V_{R}$
+Ainsi, 
+$$\boxed{x_{v} = \frac{v-v_{l}}{v_{v}-v_{l}}}$$
+
