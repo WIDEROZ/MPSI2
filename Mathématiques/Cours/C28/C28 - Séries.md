@@ -64,4 +64,25 @@ Donc,
 $$\forall n \in \mathbb{N}, 0 \leq \sum_{k = 1}^{n} \frac{1}{k^{3}} \leq \sum_{k = 1}^{n} \frac{1}{k^{2}}\leq 2$$
 Comme, 
 $$\sum_{k = 1}^{n} \frac{1}{k^{3}}$$
-est croissant
+est croissante et majorée elle converge
+$$\boxed{\sum_{n \geq 1 } \frac{1}{n^{3}} \text{ converge}}$$
+
+## Imposture
+$$S_{n} = \sum_{k = 1}^{n} \frac{n}{n^{2}+k^{2}}$$
+a-t-elle une limite finie ?
+
+- $S_{1} = \frac{1}{2}$
+- $S_{2}= \frac{2}{5} + \frac{1}{4}$
+- $S_{3} = \frac{3}{10} + \dots$
+
+Ca n'a rien a voir avec une série.
+
+#### Important
+Quand on a une quantité dont le nombre de terme et les termes varient, CE N'EST PAS UNE SERIE!!!!
+On a deux pistes : 
+- La calculer en explicitant en fonction de $n$ (sans le signe $\sum$) 
+- Reconnaître une somme de Riemann (Chapitre $29$) 
+
+
+Ici pour $n \geq 1$, 
+$$S_{n} = \frac{1}{n} \sum_{k = 1}^{n} \frac{1}{1+ \left( \frac{k}{n} \right)^{2}}= \frac{1}{n} \sum_{k = 1}^{n}f\left( \frac{k}{n} \right)$$
