@@ -99,8 +99,34 @@ La série de terme général $a_{n}$, est notée :
 $$\sum a_{n}$$
 est la suite des sommes partielles : $(S_{n})_{n \in \mathbb{N}}$ de terme général : 
 $$S_{n} = \sum_{k = 0}^{n} a_{k}$$
-En conséquence on dit que $\sum a_{n}$ converge ou diverge ssi $(S_{n})_{n}$ converge ou diverge
+En conséquence on dit que $\sum a_{n}$ converge ou diverge ssi $(S_{n})_{n}$ converge ou diverge.
+
+SI $\sum a_{n}$ converge, sa somme est : 
+$$\sum_{n = 0}^{+ \infty} a_{n} = \lim_{ n \to \infty } S_{n}$$
 
 #### Remarque
-Il existe d'autre définitions
-$$$$
+Il existe d'autre définitions de la série
+mais les définitions : 
+- Du T.G. (terme général) de la série
+- Des S.P. (somme partielles) de la série
+- De la C.V. ou D.V. (convergence ou divergence) de la série
+- De la somme éventuelle
+
+Toujours vous exprimer avec ce language universel
+
+On appelle <u>nature</u> de la série le fait qu'elle converge. 
+
+#### Exemple
+La série : 
+$$\sum \frac{1}{3^{n}}$$
+converge.
+
+Quelle est sa somme? 
+$$\sum_{n=0}^{+\infty} \frac{1}{3^{n}}= \frac{1}{1-\frac{1}{3}}=\frac{3}{2}$$
+
+#### Exemple
+La nature de 
+$$\sum (-1)^{n}$$
+Pour $n \in \mathbb{N}$, 
+$$\sum_{k = 0}^{n} (-1)^{k} = \frac{1-(-1)^{n+1}}{2}$$
+$= 1$ si $n$ est pair et $0$ si $n$ 
