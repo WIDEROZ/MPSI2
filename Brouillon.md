@@ -27,3 +27,8 @@ $$\tau = 6 \frac{VM}{mN_{a}sv}$$
 Quand la masse molaire augmente, $\tau$ augmente
 
 $$v^{*}= \sqrt{\frac{2\mathbf{E}_{c}}{m}} = \sqrt{  3 \frac{k_{b}T}{m} } $$
+
+
+$$P'V = \frac{m'}{M}RT' \Leftrightarrow m' = $$
+
+$$PV = \frac{m'}{M} RT''$$
