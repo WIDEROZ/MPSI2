@@ -1,9 +1,6 @@
 # I. Les transformations physiques
 ## 1. 3 Etats de la matière
-<p align="center">
-    <img src="Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png">
-</p>
-
+![[ChEtat.png.png]]
 #### Définition
 Une <u>phase</u> est un état de la matière uniforme en tous points par sa composition chimique et son état physique. 
 
@@ -51,4 +48,15 @@ $C$ : point critique, au delà de $C$, le fluide est appelé supercritique et il
 Eau : $374$°C et $218$ bar
 
 La courbe de fusion est quasi verticale avec une pente positive sauf pour l'eau :
+
 Excal 3.
+Car le solide a un volume liquide 
+
+# III. Changement d'état liquide-vapeur
+## 1. Diagramme de Clapeyron $(P, V)$
+Diagramme du cours
+On est a un état initial : $T_{1}, P_{0}, v_{v}$
+La phase est uniquement du gaz
+- On comprime le gaz de façon isotherme : 
+  $Pv_{m} = nRT = \text{cte}$ alors, $\boxed{P = \frac{\text{cte}}{v_{m}}}$ 
+- $R$ : point de rosée qui correspond à la première apparition 
