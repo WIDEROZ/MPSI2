@@ -25,4 +25,4 @@ La <u>transformation</u> d'un système <u>d'une phase à une autre sans modifica
 
 ## 5. Les autres états de la matière
 - Le plasma : gaz formé d'ions positifs et d'electrons. 
-- Phases métastables : 
+- Phases métastables : Surfusion (on est en phase liquide au lieu de la phase solide), Sur-congélation (inverse), Sur-ébullition (faire bouillir de l'eau distillée)
