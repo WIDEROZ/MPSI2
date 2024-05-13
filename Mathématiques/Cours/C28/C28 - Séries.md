@@ -180,4 +180,38 @@ $$S_{n} = \left( \frac{1}{6} - \frac{1}{2} + \frac{1}{3}\right)\sum_{k = 2}^{n} 
 $$+ \frac{1}{3}\left( 1-\frac{1}{n} \right) \longrightarrow -\frac{5}{36}+\frac{12}{36} = \frac{7}{36}$$
 
 #### Propriété
-Soit $\sum a_{n}$ une sér
+Soit $\sum a_{n}$ une série a termes complexes. 
+Alors, 
+$$\sum a_{n} \text{ CV} \Leftrightarrow \begin{cases}
+\sum \mathrm{Re}(a_{n}) \text{ CV} \\
+\sum \mathrm{Im}(a_{n}) \text{ CV}
+\end{cases}$$
+
+#### Exemple
+Pour $\lambda \in \mathbb{R}$ et $\alpha > 0$, 
+La convergence de 
+$$\sum \frac{e^{ i\lambda n }}{n^{\alpha}}$$
+équivaut a celles de : 
+$$\sum \frac{\cos(\lambda n)}{n^{\alpha}} \text{ et de } \sum \frac{\sin(\lambda n)}{n^{\alpha}}$$
+
+# II. Propriétés
+#### Définition
+Pour deux séries :
+$$\sum a_{n} \text{ et } \sum b_{n}$$
+et $\lambda \in \mathbb{K}$ on définit : 
+- La série : $\lambda \left( \sum a_{n} \right) = \sum \lambda a_{n}$
+- La série : $\sum a_{n} + \sum b_{n} = \sum (a_{n}+b_{n})$
+
+On a alors : 
+
+#### Propriété
+L'ensemble des séries a terme dans $\mathbb{K}$ est un $\mathbb{K}$ espace vectoriel
+
+#### Propriété
+L'ensemble des séries CV, $E_{CV}$, est un sous espace vectoriel de l'espace des dries et l'application :
+$$\text{Somme} : \begin{cases}
+E_{CV} \to \mathbb{K} \\
+\sum_{a_{n}} \mapsto \sum_{n = 0}^{+ \infty} a_{n}
+\end{cases}$$
+est une forme linéaire.
+
