@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "7efb5814621fb722",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/TD/E27/E27.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/TD/E27/E27.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/TD/E27/E27.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md"
+                "file": "Mathématiques/TD/E27/E27.md"
               }
             }
           }
@@ -173,11 +160,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7efb5814621fb722",
+  "active": "0c8bdadfe355ce6d",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "Brouillon.md",
+    "Mathématiques/TD/E28",
     "Mathématiques/DM/DM19/DM19.md",
+    "Info/DM/DM2/Travail rendu/DM2 Bec-clemente Elio sudoku.ml",
+    "Info/DM/DM2/DM2.md",
+    "Info/DM/DM2/DM 02.pdf",
+    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "grille_3.txt",
     "grille_2.txt",
     "grille_1.txt",
@@ -192,21 +184,16 @@
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Pasted.md",
     "Physique-Chimie/Methode/Erreurs_incertitudes.pdf",
-    "Physique-Chimie/Cours/Thème 3/T3C5",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "LA KONSTANTE.png",
     "Untitled 1.md",
     "Untitled.md",
     "Mathématiques/Cours/C28/C28.md",
-    "Mathématiques/Cours/C28",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
-    "Mathématiques/DM/DM19/DM19.pdf",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
     "Info/DM/DM1/DM 1 Maxime Driussi.md",
-    "Info/DM/DM2/DM2.md",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
@@ -214,7 +201,6 @@
     "Mathématiques/Cours/C23/C23.md",
     "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
-    "Mathématiques/Cours/C22/Formulaire.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
