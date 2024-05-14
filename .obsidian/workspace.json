@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Mathématiques/DM/DM19/DM19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Mathématiques/DM/DM19/DM19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Mathématiques/DM/DM19/DM19.md"
               }
             }
           }
@@ -160,13 +161,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0c8bdadfe355ce6d",
+  "active": "1a2b60d9826c7167",
   "lastOpenFiles": [
+    "Brouillon.md",
     "Mathématiques/DM/DM19/DM19.md",
     "grille_3.txt",
     "grille_2.txt",
     "grille_1.txt",
-    "Brouillon.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
     "Physique-Chimie/DM/DM8/DM8_MP2I.pdf",
