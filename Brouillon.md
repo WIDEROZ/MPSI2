@@ -36,4 +36,5 @@ $$PV = \frac{m'}{M} RT''$$
 
 # Exo 2
 ## 1.
-$$W_{1} = - \int_{V_{0}}^{V_{1}}p_{ext}dV \, dx = - \int_{V_{0}}^{V_{1}} nRT_{0} \, dx $$
+$$W_{1} = - \int_{V_{0}}^{V_{1}}p_{ext}dV \, dx = - \int_{V_{0}}^{V_{1}} \frac{nRT_{0}}{V} \, dx = nRT_{0} \ln\left( \frac{V_{0}}{V_{1}} \right)$$
+$$W_{1} = -W'_{1} = nRT_{0}\ln\left( \frac{P_{0}}{P_{1}} \right)$$
