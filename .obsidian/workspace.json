@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM19/DM19.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -161,10 +160,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a2b60d9826c7167",
+  "active": "0c8bdadfe355ce6d",
   "lastOpenFiles": [
-    "Brouillon.md",
     "Mathématiques/DM/DM19/DM19.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+    "Brouillon.md",
     "grille_3.txt",
     "grille_2.txt",
     "grille_1.txt",
