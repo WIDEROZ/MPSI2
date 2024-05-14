@@ -353,7 +353,7 @@ R_{th} \leftrightarrow R \\
 \Delta T \leftrightarrow U = \Delta V \\
 \phi \leftrightarrow I
 \end{array}$$
-x
+
 
 #### Remarque
 Un isolant thermique à une resistance thermique élevée
