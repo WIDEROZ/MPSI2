@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1a2b60d9826c7167",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/DM/DM19/DM19.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,8 +162,12 @@
   },
   "active": "0c8bdadfe355ce6d",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Mathématiques/DM/DM19/DM19.md",
+    "grille_3.txt",
+    "grille_2.txt",
+    "grille_1.txt",
     "Brouillon.md",
+    "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
     "Physique-Chimie/DM/DM8/DM8_MP2I.pdf",
     "Physique-Chimie/DM/DM8",
@@ -172,13 +188,9 @@
     "Mathématiques/Cours/C28/C28.md",
     "Mathématiques/Cours/C28",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
-    "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/DM/DM19/DM19.pdf",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
-    "Mathématiques/DM/DM19/DM19.py",
-    "Mathématiques/DM/DM19",
-    "Info/DM/DM2/DM 02.pdf",
     "Info/DM/DM1/DM 1 Maxime Driussi.md",
     "Info/DM/DM2/DM2.md",
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
