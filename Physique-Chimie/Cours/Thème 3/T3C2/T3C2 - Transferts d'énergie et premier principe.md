@@ -330,7 +330,7 @@ $$\Delta U = Q = \int_{EI}^{EF} C_{V} \, dT$$
 # VII. Modèle linéaire des transferts thermiques
 ## 1. Flux thermique et resistance thermique
 #### Définition
-Le flux thermique $\phi$ (il faut associer le mot flux a la puissance) est la puissance thermique reçue par le système. Il s'exprime en watt $W$
+Le flux thermique $\varphi$ (il faut associer le mot flux a la puissance) est la puissance thermique reçue par le système. Il s'exprime en watt $W$
 pendant une durée $dt$, le système reçoit une énergie $\delta Q = \phi dt$
 
 excal 7
