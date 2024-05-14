@@ -7,7 +7,7 @@ Si on fixe la ligne $i$ on a donc $4$ possibilités pour choisir la colonne.
 Alors pour une ligne fixé on à : $4 \times 4 = 16$ possibilités
 Or dans la grille on a : $4$ lignes, on ajoute donc 4 fois chaque nombre de variables possibles dans une ligne 
 Ainsi, on a : 
-$64$ variables propositionnelles
+$\boxed{64}$ variables propositionnelles
 ___
 
 

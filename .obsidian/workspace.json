@@ -13,6 +13,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Info/DM/DM2/DM2.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ccbbccfa46b48c46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Mathématiques/TD/E27/E27.md",
                 "mode": "source",
                 "source": false
@@ -43,7 +55,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -172,16 +185,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0c8bdadfe355ce6d",
+  "active": "ccbbccfa46b48c46",
   "lastOpenFiles": [
+    "Brouillon.md",
+    "Info/DM/DM2/DM2.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
     "Mathématiques/TD/E27/E27.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Brouillon.md",
     "Mathématiques/TD/E28",
     "Info/DM/DM2/Travail rendu/DM2 Bec-clemente Elio sudoku.ml",
-    "Info/DM/DM2/DM2.md",
     "Info/DM/DM2/DM 02.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
