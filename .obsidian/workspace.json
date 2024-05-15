@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "fcf6b1538874faf2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md"
+              }
+            }
+          },
+          {
             "id": "00831ef8bca5647b",
             "type": "leaf",
             "state": {
@@ -31,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md"
               }
             }
           }
@@ -161,8 +170,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00831ef8bca5647b",
+  "active": "c123a62fdf32be48",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
@@ -202,7 +212,6 @@
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
     "Info/DM/DM1/DM 1 Maxime Driussi.md",
-    "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",

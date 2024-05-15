@@ -49,7 +49,7 @@ $$P_{0}V_{1} = nRT_{1}$$
 $V_{1} = 2V_{0}$
 $T_{1} = 2T_{0}$
 $$nRT_{1} = V_{0} P_{2}$$
-$P_{2} = 2P_{0}$
+$P_{2} = 2P_{0}$ 
 $$nRT_{0} = V_{0}P_{0}$$
 
 
@@ -58,6 +58,6 @@ $$PV = -W$$
 
 $$\Delta U + P_{1}V_{1}= \Delta H = Q = C_{p}(T_{1}-T_{0}) = C_{v}(T_{1}-T_{0})$$
 
-$$Q = \frac{R\gamma n }{\gamma - 1} (T_{1} - T_{0}) =\frac{\gamma }{\gamma - 1}P_{0}V_{0}  $$
+$$Q_{1} = \frac{R\gamma n }{\gamma - 1} (T_{1} - T_{0}) =\frac{\gamma }{\gamma - 1}P_{0}V_{0}  $$
 
-$$Q_{3} = $$
+$$\Delta U = Q_{3} =C_{v} (T_{0} - T_{1}) = -\frac{1}{\gamma -1}P_{0}V_{0} $$

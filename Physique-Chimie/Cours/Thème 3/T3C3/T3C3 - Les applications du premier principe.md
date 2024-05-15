@@ -250,7 +250,6 @@ Excacl 8
 
 On utilise le $1^{\text{er}}$ principe avec $H$ : 
 $$\Delta H = \Delta H_{eau} + \Delta H_{cal} + \Delta H_{solide}$$
-
 $$\Delta H_{eau} = n_{0} C_{eau}(T_{f}-T_{0})$$
 $$\Delta H_{cal} = C_{cal}(T_{f}-T_{0}) = \mu C_{eau}(T_{f}-T_{0})$$
 $$\Delta H_{solide} = Mc(T_{f}-T_{1})$$
