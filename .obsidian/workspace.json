@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Anglais/Cours/Vocabulaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c4a3cf540f611089",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Anglais/Correction DS/Correction DS Traduction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,11 +161,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "c4a3cf540f611089",
   "lastOpenFiles": [
+    "Anglais/Cours/Vocabulaire.md",
+    "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Correction DS",
     "Anglais/Exos/03-04.md",
-    "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Exos/10-04 - Traductions.md",
     "Mathématiques/Cours/C28/C28.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
@@ -179,7 +193,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Pasted.md",
-    "Physique-Chimie/Methode/Erreurs_incertitudes.pdf",
     "LA KONSTANTE.png",
     "Untitled 1.md",
     "Untitled.md",

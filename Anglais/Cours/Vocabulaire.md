@@ -40,7 +40,7 @@ Question soumise au vote : an issue on the ballot
 Les sondages : Polls
 Taux de participation aux élections : Election turnout
 Faire pencher la balance : To tip the ballot
-Entry 
+<u>Enshrines</u>
 
 Pro life (adj) : Opposing abortion and euthanasia as they argue nobody can take away a life. Abortion is seen as a crime -> Pro-lifers (noun)
 
@@ -64,3 +64,4 @@ At all : La moindre
 All in good time : chaque chose en son temps
 $\mu \alpha \alpha \lambda \omicron \upsilon \lambda$
 en sah
+
