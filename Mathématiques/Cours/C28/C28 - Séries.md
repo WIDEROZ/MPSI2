@@ -372,8 +372,32 @@ n'est pas une SATP
 
 #### Théorème : Convergence d'une SATP par majoration
 Soient $\sum a_{n}$, $\sum b_{n}$ deux séries réelles tel que, 
-$$\forall n \in \mathbb{N}, 0 \leq a_{n} \leq b_{n}$$
+$$\forall n \in \mathbb{N}, \boxed{0 \leq} a_{n} \leq b_{n}$$
 Alors, 
-$$\sum b_{n} \text{ CV} \Rightarrow \sum a_{n} \text{ CV}$$
+$$\boxed{\sum b_{n} \text{ CV} \Rightarrow \sum a_{n} \text{ CV}}$$
 Et par contraposition : 
-$$\sum a_{n} \text{ DV} \Rightarrow \sum $$
+$$\sum a_{n} \text{ DV} \Rightarrow \sum b_{n} \text{ DV}$$
+
+Donc, dans le cas de CV de $\sum b_{n}$, 
+On a : 
+$$0 \leq \sum_{n = 0}^{+ \infty} a_{n} \leq \sum_{n=0}^{+\infty} b_{n}$$
+
+Démonstration : 
+Supposons que $\sum b_{n}$ CV, 
+On note pour $n \in \mathbb{N}$, $S_{n} = \sum_{k = 0}^{n} a_{k}$ et $\tilde{S}_{n} = \sum_{k = 0}^{n}b_{k}$
+
+Par la proposition comme $\sum a_{n}$ et $\sum b_{n}$ sont deux $SATP$, 
+$(S_{n}) \uparrow$ et $(\tilde{S}_{n}) \uparrow$
+
+Par hypothèse $\sum b_{n}$ CV ie $(\tilde{S}_{n})$ CV
+Et comme elle est croissante, pour $n \in \mathbb{N}$,
+$$0\leq S_{n}\leq\tilde{S}_{n} \leq \lim_{ p \to \infty }\tilde{S}_{p} = \sum_{p=0}^{+\infty} b_{p} \in \mathbb{R}$$
+
+Ainsi, $(S_{n})$ CV par le théorème de la limite monotone car elle est croissante et majorée. 
+
+De plus par passage à la limite, 
+$$0 \leq \lim_{ n \to \infty } $$
+
+
+#### Remarque
+Il suffit que la majoration, voir la positivité soit vraie APDCR pour avoir les indications. 
