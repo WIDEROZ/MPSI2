@@ -205,10 +205,10 @@ int main(int argc, char **argv){
                     
                     
                     // Actualisation du déplacement de la caméra avec la souris
-                    if(){
-                        
+                    if(isMouseButtonPressed){
+                        MOVE_CAMERA_MOUSE(renderer, texture, &camera, event.motion.xrel, event.motion.yrel);
                     }
-                    MOVE_CAMERA_MOUSE(renderer, texture, &camera);
+                    
                     
                     
                     
