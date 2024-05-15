@@ -80,7 +80,11 @@ int main(int argc, char **argv){
 
     // Tableau des touches abaissés
     int * KEY_DOWN_STATUS = NULL;
-    KEY_DOWN_STATUS = CREATE_TAB_0(315);
+    KEY_DOWN_STATUS = CREATE_TAB_0(314);
+
+    // Variable pour savoir si la souris est pressée
+    bool isMouseButtonPressed = false;
+
 
     // Matrice des cases de la grille
     matrix *XY_CASE_TAB = malloc(sizeof(matrix));
@@ -105,13 +109,14 @@ int main(int argc, char **argv){
                     case SDLK_c:
                         KEY_DOWN_STATUS[SDLK_c] = 1;
                         GRID_DISPLAY_CREATION(renderer, texture, camera);
-                        printf("grgdhdrdh : %d", SDLK_DOWN);
+                        
                         continue;
                     
 
                     // ---------- Déplacement de la caméra ----------- //
-                    case SDLK_LEFT:
-                        KEY_DOWN_STATUS[SDLK_LEFT] = 1;
+                    case SDLK_q:
+                        KEY_DOWN_STATUS[SDLK_q] = 1;
+                        
                         if(camera.x - 10 > 0){
                             camera.x -= 10;
                         }
@@ -122,8 +127,8 @@ int main(int argc, char **argv){
                         
                         continue;
 
-                    case SDLK_RIGHT:
-                        KEY_DOWN_STATUS[SDLK_RIGHT] = 1;
+                    case SDLK_d:
+                        KEY_DOWN_STATUS[SDLK_d] = 1;
                         if(camera.x + 10 < TEXTURE_WIDTH - RENDER_WIDTH){
                             camera.x += 10;
                         }
@@ -134,8 +139,8 @@ int main(int argc, char **argv){
                         
                         continue;
 
-                    case SDLK_UP:
-                        KEY_DOWN_STATUS[SDLK_RIGHT] = 1; 
+                    case SDLK_z:
+                        KEY_DOWN_STATUS[SDLK_z] = 1; 
                         if(camera.y - 10 > 0){
                             camera.y -= 10;
                         }
@@ -144,9 +149,9 @@ int main(int argc, char **argv){
                         }
                         continue;
 
-                    case SDLK_DOWN:
+                    case SDLK_s:
                         
-                        KEY_DOWN_STATUS[SDLK_DOWN] = 1;
+                        KEY_DOWN_STATUS[SDLK_s] = 1;
                         
                         if(camera.y + 10 < TEXTURE_HEIGHT - RENDER_HEIGHT){
                             camera.y += 10;
@@ -161,8 +166,8 @@ int main(int argc, char **argv){
 
                 
                     default:
+                        
                         continue;
-                    
                     }
                 
                 case SDL_KEYUP : 
@@ -173,20 +178,20 @@ int main(int argc, char **argv){
                         continue;
 
                     
-                    case SDLK_LEFT:
-                        KEY_DOWN_STATUS[SDLK_LEFT] = 0;
+                    case SDLK_q:
+                        KEY_DOWN_STATUS[SDLK_q] = 0;
                         continue;
 
-                    case SDLK_RIGHT:
-                        KEY_DOWN_STATUS[SDLK_RIGHT] = 0;
+                    case SDLK_d:
+                        KEY_DOWN_STATUS[SDLK_d] = 0;
                         continue;
                     
-                    case SDLK_UP:
-                        KEY_DOWN_STATUS[SDLK_UP] = 0;
+                    case SDLK_z:
+                        KEY_DOWN_STATUS[SDLK_z] = 0;
                         continue;
 
-                    case SDLK_DOWN:
-                        KEY_DOWN_STATUS[SDLK_DOWN] = 0;
+                    case SDLK_s:
+                        KEY_DOWN_STATUS[SDLK_s] = 0;
                         continue;
 
                     
@@ -197,7 +202,7 @@ int main(int argc, char **argv){
                 case SDL_MOUSEMOTION :
                     //printf("Coordonée : (%d, %d) \n", event.motion.x, event.motion.y);
                     //printf("Vitesse : (%d, %d) \n", event.motion.xrel, event.motion.yrel);
-                    break;
+                    continue;
 
                 case SDL_MOUSEBUTTONDOWN :
                     printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
@@ -205,7 +210,7 @@ int main(int argc, char **argv){
                     CASE_CLICK_DISPLAY(window, renderer, texture, camera, XY_CASE_TAB, event.motion.x, event.motion.y);
                     continue;
 
-
+                case SDL_MOUSEBUTTONUP : 
 
 
 
