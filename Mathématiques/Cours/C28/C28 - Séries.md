@@ -620,4 +620,5 @@ $$\sum_{k =m}^{n-1}f(k) \geq \int_{m}^{n} f(x) \, dx \geq \sum_{k = m+1}^{n} f(k
 Pour la deuxième inégalité à prouver on somme sur $k \in [\![m+1, n]\!]$
 
 #### Remarque
-Pour $f$ croissante et continue on obtiendrait les inéa
+Pour $f$ croissante et continue on obtiendrait les inégalités inverses
+

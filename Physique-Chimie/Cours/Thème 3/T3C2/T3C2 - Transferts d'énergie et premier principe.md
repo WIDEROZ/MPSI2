@@ -46,7 +46,7 @@ Il y échange entre l'énergie mécanique du point et les énergies des particul
 ## 2. Énoncé du premier principe de la thermodynamique
 #### Théorème
 Pour un système thermodynamique fermé, on peut associer une fonction d'état extensive, appelée énergie interne $U$ telle que pendant l'évolution du système entre un état initial : $i$ et un état final : $f$, la variation de l'énergie $E$ :
-$$\Delta E = E_{f} - E_{i} =\Delta (U +\Delta E_{m}) = W + Q $$
+$$\Delta E = E_{f} - E_{i} =\Delta (U + E_{m}) = W + Q $$
 $\Delta U$ : Variation d’énergie interne
 $\Delta E_{m}$ : Variation d’énergie macroscopique
 $W$ : Travail des forces extérieures
