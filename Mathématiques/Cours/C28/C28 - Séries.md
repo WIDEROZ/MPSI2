@@ -476,3 +476,21 @@ Si $\sum b_{n}$ est une SATP et $a_{n} \underset{n \to \infty}{\sim} b_{n}$, alo
 et on a vu que $a_{n}$ et $b_{n}$ on le même signe APDCR
 donc on peut appliquer le théorème. 
 
+#### Théorème : Règle d'Alembert
+Soit $\sum a_{n}$ une série a termes strictement positifs telle que :
+$$\frac{a_{n+1}}{a_{n}} \underset{n \to +\infty}{\longrightarrow} l \in \overline{\mathbb{R}}_{+}$$
+
+Alors,
+- Si $l < 1$, alors $\sum a_{n}$ CV
+- Si $l = 1$, alors tout peut arriver
+- Si $l > 1$, alors $\sum a_{n}$ DVG
+
+
+Démonstration : 
+Supposons que $l <1$,
+Excal 1
+Par définition de la limite $\frac{a_{n+1}}{a_{n}} \underset{n \to +\infty}{\longrightarrow} l$
+Comme on prend $\varepsilon = \frac{1 -l}{2} > 0$ il existe un rang $N \in \mathbb{N}$ tel que 
+$$\forall n \in \mathbb{N},  \begin{vcase}
+
+\end{vcase}$$
