@@ -449,4 +449,30 @@ Par la convergence d'une SATP par majoration,
 $$\sum a_{n} \text{ CV}$$
 
 #### Exemple
-Comme pour $n \geq 2$, $\frac{1}{n(n - \sqrt{ n })}\geq 0$ et $\frac{1}{n^{2}}\geq 0$ et $\frac{1}{n(n-\sqrt{ n })} \underset{n \to \infty}{} \frac{1}{n^{2}}$ 
+Comme pour $n \geq 2$, $\frac{1}{n(n - \sqrt{ n })}\geq 0$ et $\frac{1}{n^{2}}\geq 0$ et $\frac{1}{n(n-\sqrt{ n })} \underset{n \to \infty}{\sim} \frac{1}{n^{2}}$ 
+(car $\sqrt{ n } = o(n)$)
+et 
+$$\sum_{n\geq 1}\frac{1}{n^{2}} \text{ CV}$$
+On a : 
+$$\sum_{n \geq 2} \frac{1}{n(n-\sqrt{ n })} \text{ CV}$$
+Par les théorème de comparaison des SAT positifs.
+
+#### Remarque
+La positivité est indispensable.
+Par exemple, on a :
+$$\frac{(-1)^{n}}{\sqrt{ n }}-\frac{1}{n} \underset{n \to \infty}{\sim} \frac{(-1)^{n}}{\sqrt{ n }}$$
+On peut montrer (voir plus tard les séries alternées (critère spécial)) que
+$$\sum_{ n \geq 1} \frac{(-1)^{n}}{\sqrt{ n }} \text{ CV}$$
+Or
+$$\sum_{n \geq 1} \left( -\frac{1}{n} \right) \text{ DV}$$
+Donc, 
+$$\sum_{n \geq 1}\left( \frac{(-1)^{n}}{\sqrt{ n }}-\frac{1}{n} \right) \text{ DV}$$
+
+#### Remarque
+Ici aussi il suffit des la positivité APDCR
+
+#### Remarque : Subtile
+Si $\sum b_{n}$ est une SATP et $a_{n} \underset{n \to \infty}{\sim} b_{n}$, alors par définition des équivalents APDCR $b_{n} > 0$
+et on a vu que $a_{n}$ et $b_{n}$ on le même signe APDCR
+donc on peut appliquer le théorème. 
+
