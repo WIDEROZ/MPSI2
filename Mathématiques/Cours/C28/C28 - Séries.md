@@ -430,4 +430,23 @@ Voir plus tard pour la preuve complète (Par comparaison de série intégrale)
 #### Théorème: Convergence d'une SATP par équivalents
 Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP tq $a_{n} \underset{n \to + \infty}{\sim} b_{n}$
 Alors, 
-$$\sum a_{n} \text{ et } \sum b_{n} \text{ sont de}$$
+$$\sum a_{n} \text{ et } \sum b_{n} \text{ sont de même nature}$$
+
+Démonstration : 
+Par disjonction de case : 
+Soit $\sum a_n$ CV et $\sum b_{n}$ CV c'est fini
+Soit $\sum a_{n}$ DV et $\sum a_{n}$ DV c'et fini
+
+Soit une des deux converge et quitte a échanger les roles on peut supposer que $\sum b_{n}$ CV
+
+Comme $\frac{a_{n}}{b_{n}} \underset{n \to +\infty}{\longrightarrow} 1$ par définition de $\sim$,
+On a par la définition de la limite :
+(avec $\varepsilon = 1$) il existe $N \in \mathbb{N}$ tq
+$$\forall n \geq N,  0\leq \frac{a_{n}}{b_{n}} \leq 1+1 = 2$$
+puis comme $\forall n \geq N, 0 \leq a_{n} \leq 2b_{n}$
+et que $\sum 2b_{n} = 2\sum b_{n}$ CV, 
+Par la convergence d'une SATP par majoration, 
+$$\sum a_{n} \text{ CV}$$
+
+#### Exemple
+Comme pour $n \geq 2$, $\frac{1}{n(n - \sqrt{ n })}\geq 0$ et $\frac{1}{n^{2}}\geq 0$ et $\frac{1}{n(n-\sqrt{ n })} \underset{n \to \infty}{} \frac{1}{n^{2}}$ 
