@@ -573,9 +573,46 @@ Soit $n \in \mathbb{N}$,
 Pour $N \geq n$, 
 $$\sum_{p = n+1} ^{N}\frac{1}{p(p+1)} = \sum_{p = n+1}^{N}\left(  \frac{1}{p} - \frac{1}{p+1} \right) = \frac{1}{n+1}-\frac{1}{N+1}$$
 $$\sum_{p = n+1} ^{N}\frac{1}{p(p+1)} \underset{N \to +\infty}{\longrightarrow}  \frac{1}{n+1}$$
+Ainsi, 
+$$\sum_{p=n+1}^{+ \infty} \frac{1}{p^{2}} \underset{n \to + \infty}{\sim} \frac{1}{n+1}-\frac{1}{n}$$
 
-Les 
+
+2. Les séries $\sum_{ n\geq 1} \frac{1}{n}$ et $\sum_{n \geq 1} \ln\left( 1+\frac{1}{n} \right)$ sont des SATP dont les termes sont équivalents, avec $\sum_{n \geq 1} \frac{1}{n}$ DV
+   Donc, $\sum_{n \geq 1}\ln\left( 1+\frac{1}{n} \right)$ DV (Déja vu au téléscopage)
+   
+   et 
+   $$\sum_{k = 1}^{n} \frac{1}{k} \underset{n \to + \infty}{\sim} \sum_{k = 1}^{n} \ln\left( 1 + \frac{1}{k} \right) = \sum_{k = 1}^{n}(\ln(k+1)-\ln(k))$$
+   $$= \ln(n+1)$$
+   (Ne pas)
+   Or, 
+   $$\ln(n+1) = \ln\left( 1+\frac{1}{n} \right)+\ln(n) = \ln(n)$$
+   car $\ln\left( 1+\frac{1}{n} \right)\underset{n \to +\infty}{\longrightarrow} 0$ et $\ln(n) \underset{n \to +\infty}{\longrightarrow} + \infty$
+   
+   Ainsi, 
+   $$\sum_{k =1}^{n} \frac{1}{k} \underset{n \to + \infty}{\sim} \ln(n)$$
 
 
+# V. Comparaison de série-intégrale
+Soit $f : [n_{0}, + \infty[ \to \mathbb{R}$ continue et monotone
+La méthode des rectangles fournit pour $n \geq n_{0}$ un encadrement de $\int_{n_{0}}^{n} f$ entre deux sommes finies
 
-2. Les séries $\sum_{ n\geq 1} \frac{1}{n}$ et $\sum_{n \geq 1} \ln\left( 1+\frac{1}{n} \right)$ sont des SATP dont les termes sont 
+Excal 2.
+
+#### Théorème
+Pour $f$ décroissante sur $[m, n+1]$,
+($m<n$ entiers)
+$$\sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n} f \leq \sum_{k = m}^{n-1} f(k)$$
+$$\int _{n+1}^{n+1}f \leq \sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n}f $$
+
+Démonstration : 
+Soit $k \in [\![m,n]\!]$, 
+Par décroissance de $f$, 
+$$\forall x \in [k, k+1], f(k) \geq f(x) \geq f(k+1)$$
+Comme $f$ est continue sur $[k ,k+1]$ on peut intégrer :
+$$\int _{k}^{k+1} f(k) \, dx \geq \int _{k}^{k+1} f(x) \, dx \geq \int _{k}^{k+1} f(k+1) \, dx   $$
+alors, 
+$$f(k) \geq \int _{k}^{k+1} f(x) \, dx \geq f(k+1) $$
+
+En sommant sur $k \in [\![m, n-1]\!]$, 
+On obtiens, 
+$$\sum_{k =m}^{n-1}f(k) \geq \int_{m}^{n} f(x) \, dx \geq \sum_{k = m+1}^{n} f(k)$$
