@@ -514,3 +514,38 @@ Donc,
 $$\sum \left( \frac{l+1}{2} \right)^{-N}a_{N}\left( \frac{l+1}{2} \right)^{n} \text{ CV}$$
 Par les théorèmes de comparaison des séries à termes positifs, 
 $$\sum a_{n} \text{ CV}$$
+
+Supposons que $l=1$ : Voir les exemples du cours
+
+Supposons que $l > 1$, 
+Comme précédemment par la définition de la limite :
+($\varepsilon = 1-l$), 
+$$\frac{a_{n+1}}{a_{n}} \geq 1$$
+APDCR, 
+Donc $(a_{n})$ est croissante APDCR $N$, avec $a_{N} \geq 0$
+Alors, $a_{n} \geq a_{N}$
+Donc, $a_{n} \underset{n \to +\infty}{\nrightarrow} 0$
+Ainsi, 
+$$\sum a_{n} \text{ DVG}$$
+
+#### Remarque
+Le cas douteux est parfaitement expliqué par les séries de Riemann
+
+$$\sum_{n \geq 1} \frac{1}{n^{\alpha}}$$
+car 
+$$\frac{n^{\alpha}}{(n+1)^{\alpha}} = \left( \frac{n}{n+1} \right)^{\alpha} \underset{n \to +\infty}{\longrightarrow} 1^{\alpha} = 1$$
+et on a vu que certaines CV et d'autres DV.
+
+#### Exercice
+Règle de cauchy : 
+Soit $\sum a_{n}$ une SATP tq $\sqrt[n]{ a_{n} } \underset{n \to +\infty}{\longrightarrow} l \in \overline{\mathbb{R}}_{+}$
+Alors, 
+- Si $l < 1$, $\sum a_{n}$ CV
+- Si $l=1$ cas douteux
+- Si $l > 1$ $\sum a_{n}$
+
+
+# IV. Complément au Théorème de CV par équivalent
+#### Théorème : Avant première
+Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP équivalents. 
+On 
