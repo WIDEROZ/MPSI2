@@ -120,7 +120,7 @@ int main(int argc, char **argv){
                     case SDLK_q:
                         KEY_DOWN_STATUS[SDLK_q] = 1;
                         
-                        if(camera.x - 10 > 0){
+                        if(camera.x - 10 >= 0){
                             camera.x -= 10;
                         }
                         else
@@ -132,7 +132,7 @@ int main(int argc, char **argv){
 
                     case SDLK_d:
                         KEY_DOWN_STATUS[SDLK_d] = 1;
-                        if(camera.x + 10 < TEXTURE_WIDTH - RENDER_WIDTH){
+                        if(camera.x + 10 <= TEXTURE_WIDTH - RENDER_WIDTH){
                             camera.x += 10;
                         }
                         else
@@ -144,7 +144,7 @@ int main(int argc, char **argv){
 
                     case SDLK_z:
                         KEY_DOWN_STATUS[SDLK_z] = 1; 
-                        if(camera.y - 10 > 0){
+                        if(camera.y - 10 >= 0){
                             camera.y -= 10;
                         }
                         else{
@@ -156,7 +156,7 @@ int main(int argc, char **argv){
                         
                         KEY_DOWN_STATUS[SDLK_s] = 1;
                         
-                        if(camera.y + 10 < TEXTURE_HEIGHT - RENDER_HEIGHT){
+                        if(camera.y + 10 <= TEXTURE_HEIGHT - RENDER_HEIGHT){
                             camera.y += 10;
                         }
                         else{

@@ -34,9 +34,10 @@ void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *c
     int x = camera -> x - xRel;
     int y = camera -> y - yRel;
 
-    if(0 < x && x < TEXTURE_WIDTH-RENDER_WIDTH && 0 < y && y < TEXTURE_HEIGHT-RENDER_HEIGHT){
+    if(0 <= x && x <= TEXTURE_WIDTH-RENDER_WIDTH && 0 <= y && y <= TEXTURE_HEIGHT-RENDER_HEIGHT){
         camera -> x = x;
         camera -> y = y;
     }
 
 }
+
