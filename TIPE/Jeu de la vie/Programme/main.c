@@ -207,6 +207,7 @@ int main(int argc, char **argv){
                     // Actualisation du déplacement de la caméra avec la souris
                     if(isMouseButtonPressed){
                         MOVE_CAMERA_MOUSE(renderer, texture, &camera, event.motion.xrel, event.motion.yrel);
+                        MOUSE_MOVING = true;
                     }
                     
                     
@@ -219,16 +220,13 @@ int main(int argc, char **argv){
                     isMouseButtonPressed = true;
                     printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
-                    
 
-
-                    
-                    
                     continue;
 
                 case SDL_MOUSEBUTTONUP : 
                     isMouseButtonPressed = false;
                     CASE_CLICK_DISPLAY(window, renderer, texture, camera, XY_CASE_TAB, event.motion.x, event.motion.y);
+
                     continue;
 
 
