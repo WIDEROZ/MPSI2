@@ -31,6 +31,12 @@ void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture 
 }
 
 void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *camera, int xRel, int yRel){
-    camera -> x -= xRel;
-    camera -> y -= yRel;
+    int x = camera -> x - xRel;
+    int y = camera -> y - yRel;
+
+    if(0 < x && x < TEXTURE_WIDTH-RENDER_WIDTH && 0 < y && y < TEXTURE_HEIGHT-RENDER_HEIGHT){
+        camera -> x = x;
+        camera -> y = y;
+    }
+
 }

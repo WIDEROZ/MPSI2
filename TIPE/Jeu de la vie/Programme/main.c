@@ -85,6 +85,9 @@ int main(int argc, char **argv){
     // Variable pour savoir si la souris est pressée
     bool isMouseButtonPressed = false;
 
+    // savoir si la souris à précédement été bougée
+    bool MOUSE_MOVING = false;
+
 
     // Matrice des cases de la grille
     matrix *XY_CASE_TAB = malloc(sizeof(matrix));
@@ -221,12 +224,19 @@ int main(int argc, char **argv){
                     printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
 
+
+
+
                     continue;
 
                 case SDL_MOUSEBUTTONUP : 
                     isMouseButtonPressed = false;
-                    CASE_CLICK_DISPLAY(window, renderer, texture, camera, XY_CASE_TAB, event.motion.x, event.motion.y);
-
+                    if (!MOUSE_MOVING)
+                    {
+                        CASE_CLICK_DISPLAY(window, renderer, texture, camera, XY_CASE_TAB, event.motion.x, event.motion.y);
+                    }
+                    MOUSE_MOVING = false;
+                    
                     continue;
 
 
