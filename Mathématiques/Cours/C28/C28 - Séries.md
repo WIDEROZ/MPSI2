@@ -616,3 +616,8 @@ $$f(k) \geq \int _{k}^{k+1} f(x) \, dx \geq f(k+1) $$
 En sommant sur $k \in [\![m, n-1]\!]$, 
 On obtiens, 
 $$\sum_{k =m}^{n-1}f(k) \geq \int_{m}^{n} f(x) \, dx \geq \sum_{k = m+1}^{n} f(k)$$
+
+Pour la deuxième inégalité à prouver on somme sur $k \in [\![m+1, n]\!]$
+
+#### Remarque
+Pour $f$ croissante et continue on obtiendrait les inéa
