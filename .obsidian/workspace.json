@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "69a2bd00fae8f807",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Anglais/Cours/Vocabulaire.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c4a3cf540f611089",
             "type": "leaf",
             "state": {
@@ -162,9 +174,9 @@
   },
   "active": "12d065fe9cf2309e",
   "lastOpenFiles": [
+    "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Cours/05-15.md",
-    "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Exos/Nombres.md",
     "Anglais/Correction DS",
     "Anglais/Exos/03-04.md",
