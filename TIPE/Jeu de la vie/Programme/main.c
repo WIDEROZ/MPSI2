@@ -208,6 +208,7 @@ int main(int argc, char **argv){
                     isMouseButtonPressed = true;
                     printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
+                    
 
                     
                     

@@ -9,20 +9,14 @@ All the American states are now free to ban or restrict the access to any aborti
 # Phrase 3
 The lawmakers from both chambers / from the two house  of the French parliament approved the law that enshrines abortion rights in the constitution. Seven hundred and eighty MP's voted for it / in favour of it / supported it. 
 
-100 : one hundred
-105 : one hundred and five
-161 : one hundred and sixty one
-208 : two hundred and eight
-207 : two hundred and seven
-298 : two hundred and ninety eight
-1.001 : One thousand and one
-9.100 : Nine thousand, one hundred
-18.105 : eighteen thousand, one hundred and five
-40.207 : forty thousand, two hundred and seven
-145.161 : one hundred and forty five thousand, one hundred and sixty one
-999.298 : nine hundred and ninety nine thousand, two hundred and ninety eight
-1.105.161 : One million, one hundred and five thousand, one hundred and sixty one.
-208.207.298 : Two hundred and eight million, two hundred and seven thousand, two hundred and ninety eight
-
 # Phrase 4
-Both surveys/polls forsee a surprisingly high turnout 
+Both surveys/polls foresee a surprisingly high turnout, which is a stark departure from the previous ballots. 
+
+# Phrase 5
+I have read the whole bill.
+Nothing is said about the fact that a midwife can be hel responsible for the death of an embryo. 
+Nowhere is it written that a midwife ....
+
+# Phrase 6
+Most of the states which have voted shield laws are now being sued by pro-life advocates / supporters. 
+
