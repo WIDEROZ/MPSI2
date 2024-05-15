@@ -491,6 +491,26 @@ Supposons que $l <1$,
 Excal 1
 Par définition de la limite $\frac{a_{n+1}}{a_{n}} \underset{n \to +\infty}{\longrightarrow} l$
 Comme on prend $\varepsilon = \frac{1 -l}{2} > 0$ il existe un rang $N \in \mathbb{N}$ tel que 
-$$\forall n \in \mathbb{N},  \begin{vcase}
+$$\forall n \geq N, \left| \frac{a_{n+1}}{n} -l \right| \leq \frac{1-l}{2}$$
+En particulier pour $n \geq N$, 
+$$0 \leq \frac{a_{n+1}}{a_{n}} \leq \frac{l+1}{2}$$
+Alors comme $a_{n} > 0$, 
+$$0 \leq a_{n+1} \leq \left( \frac{1+l}{2} \right)a_{n}$$
 
-\end{vcase}$$
+Ainsi, pour $n\geq N$, 
+$$\begin{array}{rl}
+0 \leq a_{n} & \leq \frac{l+1}{2}a_{n-1} \\
+&\leq \left( \frac{l+1}{2} \right)^{2}a_{n-2} \\
+& \dots \\
+&\leq \left( \frac{l+1}{2} \right)^{N}a_{n-N} \\
+& = \left( \left( \frac{l+1}{2}\right)^{-N} a_{N}\right)\left( \frac{l+1}{2} \right)^{n}
+\end{array}$$
+$$\left( \left( \frac{l+1}{2}\right)^{-N} a_{N}\right) = \text{ cte}$$
+Or
+$$\left| \left( l-\frac{1}{2} \right)\right| = \frac{l+1}{2} < 1$$
+Donc la série géométrique : 
+$$\sum \left( \frac{l+1}{2} \right)^{n} \text{ CV}$$
+Donc, 
+$$\sum \left( \frac{l+1}{2} \right)^{-N}a_{N}\left( \frac{l+1}{2} \right)^{n} \text{ CV}$$
+Par les théorèmes de comparaison des séries à termes positifs, 
+$$\sum a_{n} \text{ CV}$$
