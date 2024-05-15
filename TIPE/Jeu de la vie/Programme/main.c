@@ -235,9 +235,10 @@ int main(int argc, char **argv){
         }
 
         
-
+        // 
         
-
+        
+        // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
         SDL_RenderPresent(renderer);
 
