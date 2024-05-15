@@ -396,8 +396,38 @@ $$0\leq S_{n}\leq\tilde{S}_{n} \leq \lim_{ p \to \infty }\tilde{S}_{p} = \sum_{p
 Ainsi, $(S_{n})$ CV par le théorème de la limite monotone car elle est croissante et majorée. 
 
 De plus par passage à la limite, 
-$$0 \leq \lim_{ n \to \infty } $$
+$$0 \leq \lim_{ n \to \infty } S_{n} \leq \sum_{p = 0}^{\infty} b_{p}$$
+$$0 \leq \sum_{p=0}^{\infty} a_{p} \leq \sum_{p=0}^{\infty}b_{p}$$
 
 
 #### Remarque
-Il suffit que la majoration, voir la positivité soit vraie APDCR pour avoir les indications. 
+Il suffit que la majoration, voir la positivité soit vraie APDCR pour avoir les implications, mais attention les inégalités sur les sommes ne seront plus vraies. (a priori)
+
+#### Exemple
+Comme
+$$\sum_{n \geq 1} \frac{1}{n} \text{ DV}$$
+et pour $\alpha \leq 1$, $\forall n \in \mathbb{N}^{*}, 0 \leq \frac{1}{n} \leq \frac{1}{n^{\alpha}}$
+alors, 
+$$\forall \alpha \leq 1, \sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ DV}$$
+
+Comme
+$$\sum_{n \geq 1} \frac{1}{n^{2}} \text{ CV}$$
+et pour $\alpha \geq 2$, 
+$$\forall n \in \mathbb{N}^{*}, 0 \leq \frac{1}{n^{\alpha}}\leq \frac{1}{n^{2}}$$
+alors, 
+$$\forall \alpha \geq 2, \sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV}$$
+Par le TH des CV par majoration des SAT positifs. 
+
+On vera plus tard que 
+$$\forall \alpha \in ]1, 2[, \sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV}$$
+
+#### Proposition : Nature des séries de Riemann
+Pour $\alpha \in \mathbb{R}$, 
+$$\sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV}\Leftrightarrow \alpha > 1 $$
+
+Voir plus tard pour la preuve complète (Par comparaison de série intégrale)
+
+#### Théorème: Convergence d'une SATP par équivalents
+Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP tq $a_{n} \underset{n \to + \infty}{\sim} b_{n}$
+Alors, 
+$$\sum a_{n} \text{ et } \sum b_{n} \text{ sont de}$$
