@@ -36,3 +36,5 @@ $$PV = \frac{m'}{M} RT''$$
 
 # Exercice 6
 
+## 1.
+$$\Delta U = Q = mc_{v}\Delta T = nMc_{v}\Delta T = 28.01 \times $$
