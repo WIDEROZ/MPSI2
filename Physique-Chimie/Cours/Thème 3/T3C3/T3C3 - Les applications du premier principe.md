@@ -1,7 +1,7 @@
 # I. Les détentes de Joule
 ## 1. Détente de Joule, Gay-Lussac
 #### Définition
-La détente de Joule, Gay-Lussac est la détente adiabatique d'un fluide dans le vide. 
+La détente de Joule, Gay-Lussac est la détente adiabatique irreversible d'un fluide dans le vide. 
 (La détente est une augmentation de volume ou une diminution de pression)
 
 Excal 1.
