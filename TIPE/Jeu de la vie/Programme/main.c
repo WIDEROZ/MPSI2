@@ -202,6 +202,17 @@ int main(int argc, char **argv){
                 case SDL_MOUSEMOTION :
                     //printf("Coordonée : (%d, %d) \n", event.motion.x, event.motion.y);
                     //printf("Vitesse : (%d, %d) \n", event.motion.xrel, event.motion.yrel);
+                    
+                    
+                    // Actualisation du déplacement de la caméra avec la souris
+                    if(){
+                        
+                    }
+                    MOVE_CAMERA_MOUSE(renderer, texture, &camera);
+                    
+                    
+                    
+                    
                     continue;
 
                 case SDL_MOUSEBUTTONDOWN :
@@ -235,8 +246,7 @@ int main(int argc, char **argv){
         }
 
         
-        // Actualisation du déplacement de la caméra avec la souris
-        MOVE_CAMERA_MOUSE(renderer, texture, &camera);
+        
 
         
         // Actualise le rendu
