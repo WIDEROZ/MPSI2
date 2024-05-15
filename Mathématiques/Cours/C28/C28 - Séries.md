@@ -542,10 +542,40 @@ Soit $\sum a_{n}$ une SATP tq $\sqrt[n]{ a_{n} } \underset{n \to +\infty}{\longr
 Alors, 
 - Si $l < 1$, $\sum a_{n}$ CV
 - Si $l=1$ cas douteux
-- Si $l > 1$ $\sum a_{n}$
+- Si $l > 1$ $\sum a_{n}$ DVG
 
 
 # IV. Complément au Théorème de CV par équivalent
 #### Théorème : Avant première
 Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP équivalents. 
-On 
+On sait qu'elles sont de même nature
+De plus, 
+
+Si elles DV, leurs suites de sommes partielles sont équivalentes : 
+$$\sum_{k = 0}^{n} a_{k} \underset{n \to + \infty}{\sim} \sum_{k = 0}^{n}b_{k}$$
+
+Si elles CV, leur suites des restes sont équivalents : 
+$$\sum_{p = n+1}^{+ \infty} a_{p} \underset{n \to + \infty}{\sim} \sum_{p = n+1}^{+ \infty}b_{p}$$
+
+
+#### Exemple
+$$\frac{1}{n^{2}} \underset{n \to + \infty}{\sim} \frac{1}{n(n+1)}$$
+et ces termes sont positifs donc par le théorème de comparaison des SATP équivalents, 
+$$\sum_{n \geq 1} \frac{1}{n^{2}} \text{ et } \sum_{ n \geq 1} \frac{1}{n(n+1)}$$
+ont la même nature
+Or, 
+$$\sum_{n \geq 1} \frac{1}{n^{2}} \text{ CV}$$
+Donc, 
+$$\sum_{n \geq 1} \frac{1}{n(n+1)} \text{ CV}$$
+Donc, par le théorème ci dessus : 
+$$\sum_{p=n+1}^{+ \infty} \frac{1}{p^{2}} \underset{n \to + \infty}{\sim} \sum_{p = n+1}^{+ \infty} \frac{1}{p(p+1)}$$
+Soit $n \in \mathbb{N}$, 
+Pour $N \geq n$, 
+$$\sum_{p = n+1} ^{N}\frac{1}{p(p+1)} = \sum_{p = n+1}^{N}\left(  \frac{1}{p} - \frac{1}{p+1} \right) = \frac{1}{n+1}-\frac{1}{N+1}$$
+$$\sum_{p = n+1} ^{N}\frac{1}{p(p+1)} \underset{N \to +\infty}{\longrightarrow}  \frac{1}{n+1}$$
+
+Les 
+
+
+
+2. Les séries $\sum_{ n\geq 1} \frac{1}{n}$ et $\sum_{n \geq 1} \ln\left( 1+\frac{1}{n} \right)$ sont des SATP dont les termes sont 
