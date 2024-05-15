@@ -345,3 +345,35 @@ Comme  les différences $u_{n+1}-u_{n}$ sont positives ou nulles, $(S_{n}) \upar
 Ces preuves de CV par comparaison lorsque les termes sont positifs sont générales. 
 
 # III. Séries a termes positifs
+#### Définition
+Une série a termes positifs est une série $\sum a_{n}$ tel que 
+$$\forall n \in \mathbb{N}, a_{n}\geq 0$$
+
+On utilisera ici l'acronyme SATP
+
+#### Propriété
+Pour une SATP $\sum a_{n}$, 
+1. La suite $(S_{n})$ de ses sommes partielles est croissante
+2. 
+   - Soit cette suite est majorée et alors $\sum  a_{n}$ CV
+   - Soit cette suite n'est pas majorée et alors $\sum a_{n}$ DV
+3. Si $\sum a_{n}$ DV $S_{n} \underset{n \to +\infty}{\longrightarrow} + \infty$ 
+   Ce qu'on note : 
+   $$\sum_{n=0}^{+\infty} a_{n} = + \infty$$
+
+
+#### Exemple
+$$\sum_{n \geq 1} \frac{1}{n}$$
+est une SATP définie APDCR
+
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$$
+n'est pas une SATP
+
+
+#### Théorème : Convergence d'une SATP par majoration
+Soient $\sum a_{n}$, $\sum b_{n}$ deux séries réelles tel que, 
+$$\forall n \in \mathbb{N}, 0 \leq a_{n} \leq b_{n}$$
+Alors, 
+$$\sum b_{n} \text{ CV} \Rightarrow \sum a_{n} \text{ CV}$$
+Et par contraposition : 
+$$\sum a_{n} \text{ DV} \Rightarrow \sum $$
