@@ -11,10 +11,13 @@
 #include "Lib/Matrix.c"
 #include "Lib/Grid.c"
 #include "Lib/InterfaceTrade.c"
-
+#include "Lib/RenderGestion.c"
 
 
 int main(int argc, char **argv){
+    // ----- Vérifie si il y des erreur sur les définitions ----- //
+    DefinitionError();
+
     // ----- Initialisation de la fenetre, du rendu et de la texture ----- //
     SDL_Window *window = NULL;
     SDL_Renderer *renderer = NULL;
@@ -25,9 +28,7 @@ int main(int argc, char **argv){
     SDL_VERSION(&nb);
     printf("Vesrion : %d.%d.%d  \n", nb.major, nb.minor, nb.patch);
 
-    if(SDL_Init(SDL_INIT_VIDEO) != 0){  // SDL_INIT_VIDEO | SDL_INIT_AUDIO
-        SDL_ExitWithError("Init Error");
-    }
+    VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
 
 
 
@@ -36,13 +37,13 @@ int main(int argc, char **argv){
     
     window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, RENDER_WIDTH, RENDER_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
-        SDL_ExitWithError("Window creation failed");
+        ExitWithError("Window creation failed");
     }
     
     // ----- Creation du rendu ----- //: 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
     if(renderer == NULL){
-        SDL_ExitWithError("Renderer creation failed");
+        ExitWithError("Renderer creation failed");
     }
     /* Flags (pour le deuxième argument de create renderer) :
     SDL_RENDERER_SOFTWARE (plus le   proc)
@@ -58,10 +59,21 @@ int main(int argc, char **argv){
     }   
    */
 
-    
-
 
     // ----- Création de la texture ----- //
+    texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
+    if (texture == NULL){
+        ExitWithError("Texture creation failed");
+    }
+
+    // Rectangle qu'on voit quand la fenètre s'ouvre
+    SDL_Rect camera;
+    camera.x = 0;
+    camera.y = 0;
+    camera.w = RENDER_WIDTH;
+    camera.h = RENDER_HEIGHT;
+
+
 
     // ----- Déclaration des variables ----- //
     SDL_bool program_launched = SDL_TRUE;
@@ -92,23 +104,61 @@ int main(int argc, char **argv){
                     {
                     case SDLK_c:
                         KEY_DOWN_STATUS[SDLK_c] = 1;
-
-                        // Creation de la grille //
-                        int *colorLine = malloc(3 * sizeof(int));
-                        if(colorLine == NULL){
-                            SDL_ExitWithError("Allocation issue");
-                        }
-                        colorLine[0] = 255;
-                        colorLine[1] = 255;
-                        colorLine[2] = 255;
-                        
-                        //SDL_CREATE_GRID_CASE(window, renderer, SQUARE_WIDTH, SQUARE_WIDTH, colorLine);
-                        SDL_CREATE_GRID(renderer, SQUARE_WIDTH, SQUARE_WIDTH,colorLine);
-                        
-                        free(colorLine);
-                        // Fin de la création de la grille //
-
+                        GRID_DISPLAY_CREATION(renderer, texture, camera);
+                        printf("grgdhdrdh : %d", SDLK_DOWN);
                         continue;
+                    
+
+                    // ---------- Déplacement de la caméra ----------- //
+                    case SDLK_LEFT:
+                        KEY_DOWN_STATUS[SDLK_LEFT] = 1;
+                        if(camera.x - 10 > 0){
+                            camera.x -= 10;
+                        }
+                        else
+                        {
+                            camera.x = 0;
+                        }
+                        
+                        continue;
+
+                    case SDLK_RIGHT:
+                        KEY_DOWN_STATUS[SDLK_RIGHT] = 1;
+                        if(camera.x + 10 < TEXTURE_WIDTH - RENDER_WIDTH){
+                            camera.x += 10;
+                        }
+                        else
+                        {
+                            camera.x = TEXTURE_WIDTH - RENDER_WIDTH;
+                        }
+                        
+                        continue;
+
+                    case SDLK_UP:
+                        KEY_DOWN_STATUS[SDLK_RIGHT] = 1; 
+                        if(camera.y - 10 > 0){
+                            camera.y -= 10;
+                        }
+                        else{
+                            camera.y = 0;
+                        }
+                        continue;
+
+                    case SDLK_DOWN:
+                        
+                        KEY_DOWN_STATUS[SDLK_DOWN] = 1;
+                        
+                        if(camera.y + 10 < TEXTURE_HEIGHT - RENDER_HEIGHT){
+                            camera.y += 10;
+                        }
+                        else{
+                            camera.y = TEXTURE_HEIGHT - RENDER_HEIGHT;
+                        }
+                        
+                        continue;
+
+                    // ------ Fin du déplacement de la caméra ----- //
+
                 
                     default:
                         continue;
@@ -123,6 +173,23 @@ int main(int argc, char **argv){
                         continue;
 
                     
+                    case SDLK_LEFT:
+                        KEY_DOWN_STATUS[SDLK_LEFT] = 0;
+                        continue;
+
+                    case SDLK_RIGHT:
+                        KEY_DOWN_STATUS[SDLK_RIGHT] = 0;
+                        continue;
+                    
+                    case SDLK_UP:
+                        KEY_DOWN_STATUS[SDLK_UP] = 0;
+                        continue;
+
+                    case SDLK_DOWN:
+                        KEY_DOWN_STATUS[SDLK_DOWN] = 0;
+                        continue;
+
+                    
                     default:
                         continue;
                     }
@@ -133,9 +200,10 @@ int main(int argc, char **argv){
                     break;
 
                 case SDL_MOUSEBUTTONDOWN :
+                    printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
-                    SDL_CASE_CLICK(window, renderer, XY_CASE_TAB, event.motion.x, event.motion.y);
-                    break;
+                    CASE_CLICK_DISPLAY(window, renderer, texture, camera, XY_CASE_TAB, event.motion.x, event.motion.y);
+                    continue;
 
 
 
@@ -153,21 +221,29 @@ int main(int argc, char **argv){
 
         }
 
+        
+
+        
+
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
+        SDL_RenderPresent(renderer);
+
     }
 
 
     
     // ----- Clear le rendu + vérif erreur ----- //
-    if(SDL_RenderClear(renderer) != 0){
-        SDL_ExitWithError("Création du rendu échouée");
-    }
+    VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
     
 
     // Clear tout les pointeurs
     free(KEY_DOWN_STATUS);
     DESTROY_POINTER_MATRIX(XY_CASE_TAB);
+
+    // Pointeurs SDL
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
+    SDL_DestroyTexture(texture);
     SDL_Quit();
     return EXIT_SUCCESS;
 }

@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "d7de5ce46661e0df",
+        "id": "b2ab996a4befc28c",
         "type": "tabs",
         "children": [
           {
-            "id": "125d8ad75a5b7d65",
+            "id": "69731ec23fa67f57",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "4773cd6b67db5c2b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e28ee122dd86916c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -121,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -173,11 +140,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e28ee122dd86916c",
+  "active": "69731ec23fa67f57",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
-    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "Brouillon.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
+    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Info/DM/DM2/DM2.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
@@ -199,7 +167,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Pasted.md",
     "Physique-Chimie/Methode/Erreurs_incertitudes.pdf",
-    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "LA KONSTANTE.png",
     "Untitled 1.md",
     "Untitled.md",
