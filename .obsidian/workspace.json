@@ -4,28 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b2ab996a4befc28c",
+        "id": "67a392a8a9a6549d",
         "type": "tabs",
         "children": [
           {
-            "id": "3a21db323d23baa9",
+            "id": "12d065fe9cf2309e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Anglais/Correction DS/Correction DS Traduction.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "69731ec23fa67f57",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C28/C28.md"
               }
             }
           }
@@ -106,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Anglais/Correction DS/Correction DS Traduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Anglais/Correction DS/Correction DS Traduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Anglais/Correction DS/Correction DS Traduction.md"
               }
             }
           }
@@ -158,12 +148,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3a21db323d23baa9",
+  "active": "d9b3182d45be85a6",
   "lastOpenFiles": [
+    "Anglais/Correction DS",
+    "Anglais/Exos/03-04.md",
+    "Anglais/Correction DS/Correction DS Traduction.md",
+    "Anglais/Exos/10-04 - Traductions.md",
     "Mathématiques/Cours/C28/C28.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Info/DM/DM2/DM2.md",
@@ -196,10 +190,6 @@
     "Anglais/Exos/Audio mifepristone pill/Résumé des docs.md",
     "Anglais/Exos/Audio mifepristone pill/Content.md",
     "Anglais/Exos/Audio mifepristone pill/Personnes.md",
-    "Mathématiques/Cours/C24/C24.md",
-    "Mathématiques/Cours/C23/C23.md",
-    "Physique-Chimie/Cours/Thème 2/T2C7/T2C7 - Mouvement d'un solide.md",
-    "Physique-Chimie/Cours/Thème 2/T2C6/T2C6 - Mouvement dans un champ de force central conservatif.md",
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
