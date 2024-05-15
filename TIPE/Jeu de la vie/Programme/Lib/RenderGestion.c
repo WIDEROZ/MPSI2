@@ -29,3 +29,5 @@ void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture 
 
     SDL_RenderPresent(renderer);
 }
+
+

@@ -235,8 +235,9 @@ int main(int argc, char **argv){
         }
 
         
-        // 
-        
+        // Actualisation du déplacement de la caméra avec la souris
+        MOVE_CAMERA_MOUSE(renderer, texture, &camera);
+
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
