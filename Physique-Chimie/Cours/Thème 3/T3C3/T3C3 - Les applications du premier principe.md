@@ -32,7 +32,7 @@ Excalidraw 2
 $v_{2} \neq v_{1}$ mais comme c'est stationnaire, $v_{1} = \text{cte}$ et $v_{2} = \text{cte}$
 L'écoulement est lent donc on néglige l'énergie cinétique devant l'énergie interne
 
-Un rétrécissement peut jouer le role de l'obstacle. 
+Un rét Qdtrécissement peut jouer le role de l'obstacle. 
 
 #### Propriété
 La variation d'enthalpie du fluide au cours d'une détente de Joule Thomson est nulle : 

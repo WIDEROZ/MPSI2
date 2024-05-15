@@ -55,3 +55,9 @@ $$nRT_{0} = V_{0}P_{0}$$
 
 $$\Delta H = Q = \Delta U + PV$$
 $$PV = -W$$
+
+$$\Delta U + P_{1}V_{1}= \Delta H = Q = C_{p}(T_{1}-T_{0}) = C_{v}(T_{1}-T_{0})$$
+
+$$Q = \frac{R\gamma n }{\gamma - 1} (T_{1} - T_{0}) =\frac{\gamma }{\gamma - 1}P_{0}V_{0}  $$
+
+$$Q_{3} = $$
