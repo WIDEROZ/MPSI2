@@ -210,6 +210,7 @@ int main(int argc, char **argv){
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
                     
 
+
                     
                     
                     continue;
