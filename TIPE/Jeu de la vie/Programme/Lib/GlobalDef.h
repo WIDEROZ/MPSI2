@@ -21,7 +21,7 @@
 
 // Longeur et hauteur du rendu
 #ifndef RENDER_WIDTH
-#define RENDER_WIDTH 1850
+#define RENDER_WIDTH 1000
 #endif
 
 #ifndef RENDER_HEIGHT

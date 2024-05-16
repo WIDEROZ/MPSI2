@@ -35,13 +35,13 @@ int main(int argc, char **argv){
     // ----- Creation de la fenêtre : -----//
 
     
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, RENDER_WIDTH, RENDER_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, WINDOW_WIDTH, WINDOW_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
     
     // ----- Creation du rendu ----- //: 
-    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_SOFTWARE);
+    renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE);
     if(renderer == NULL){
         ExitWithError("Renderer creation failed");
     }
