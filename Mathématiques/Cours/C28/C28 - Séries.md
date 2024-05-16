@@ -599,7 +599,7 @@ La méthode des rectangles fournit pour $n \geq n_{0}$ un encadrement de $\int_{
 Excal 2.
 
 #### Théorème
-Pour $f$ décroissante<> sur $[m, n+1]$,
+Pour $f$ DÉCROISSANTE sur $[m, n+1]$,
 ($m<n$ entiers)
 $$\sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n} f \leq \sum_{k = m}^{n-1} f(k)$$
 $$\int _{n+1}^{n+1}f \leq \sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n}f $$
@@ -622,3 +622,23 @@ Pour la deuxième inégalité à prouver on somme sur $k \in [\![m+1, n]\!]$
 #### Remarque
 Pour $f$ croissante et continue on obtiendrait les inégalités inverses
 
+#### Savoir-Faire REQUIS
+- Retrouver les encadrements avec un dessin
+- Les démonter en détail
+
+(INTERDIT : connaitre par cœur la formule)
+
+# VI. Application aux séries de Riemann
+Soit $\alpha \in \mathbb{R}$, 
+On note $S_{n}$ (resp. $R_{n}$) les sommes partielles (resp restes) de la série : 
+$$\sum_{n\geq 1} \frac{1}{n^{\alpha}}$$
+et on applique les résultats précédents à la fonction : 
+$$f: \begin{cases}
+[1, + \infty[ \to \mathbb{R} \\
+t \mapsto \frac{1}{t^{\alpha}}
+\end{cases}$$
+
+###### Cas $\alpha > 1$
+Alors $f$ est décroissante et continue donc on peut appliquer le résultat précédent.
+On a, en particulier, pour $n \in \mathbb{N}^{*}$, 
+$$0 \leq S_{n} = 1+ \sum_{k = 2}^{n} f(k) \leq 1+ \int_{1} ^{n} f(t) \, dt = 1+   $$
