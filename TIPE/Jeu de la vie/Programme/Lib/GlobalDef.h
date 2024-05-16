@@ -10,12 +10,12 @@
     Pour 30 pixel d'espace mettre : 1830, 1110  */
 
 // Longeur et hauteur de la fenètre d'affichage
-#ifndef WINDOW_WIDTH
-#define WINDOW_WIDTH 1850
+#ifndef TOOLBAR_WIDTH
+#define TOOLBAR_WIDTH 910
 #endif
 
-#ifndef WINDOW_HEIGHT
-#define WINDOW_HEIGHT 1200
+#ifndef TOOLBAR_HEIGHT
+#define TOOLBAR_HEIGHT 600
 #endif
 
 

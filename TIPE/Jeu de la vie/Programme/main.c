@@ -20,6 +20,7 @@ int main(int argc, char **argv){
 
     // ----- Initialisation de la fenetre, du rendu et de la texture ----- //
     SDL_Window *window = NULL;
+    SDL_Window *toolwin = NULL;
     SDL_Renderer *renderer = NULL;
     SDL_Texture *texture = NULL;
     
@@ -39,12 +40,18 @@ int main(int argc, char **argv){
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
+
+    toolwin = SDL_CreateWindow("Toolbar", );
     
-    // ----- Creation du rendu ----- //: 
+    // ----- Creation des rendu ----- //: 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE);
     if(renderer == NULL){
         ExitWithError("Renderer creation failed");
     }
+
+    
+
+
     /* Flags (pour le deuxième argument de create renderer) :
     SDL_RENDERER_SOFTWARE (plus le   proc)
     SDL_RENDERER_ACCELERATED (plus pour la carte graphique MDRRR)
