@@ -65,4 +65,8 @@ $$\Delta U = Q_{3} =C_{v} (T_{0} - T_{1}) = -\frac{1}{\gamma -1}P_{0}V_{0} $$
 
 # Exercice 2
 ## Transformation lente
-$$dU = \delta W $$
+$$dU = \delta W \Leftrightarrow C_{v}dT = P_{i}dV$$
+Alors, 
+$$\frac{R}{\gamma-1}dT = -P_{i}dV$$
+
+$$PV^{\gamma} = \text{cte}$$
