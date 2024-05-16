@@ -136,3 +136,12 @@ Pour la solidification : $l_{m_{sol}}$
 #### Propriété
 L'enthalpie molaire d'un changement d'état est égale à l'opposé de l'enthalpie molaire d'un changement d'état est égale à l'opposée de l'enthalpie molaire du changement d'état réciproque : 
 $$\boxed{l_{m_{fus}} = -l_{m_{sol}}}$$
+
+#### Propriété
+EXCAL 4
+L'enthalpie de sublimation est : 
+$$\boxed{\Delta H = nl_{m_{sub}} = nl_{m_{fus}} + nl_{m_{vap}}+nC_{m}\Delta T}$$
+avec $\Delta T = T_{vap} - T_{fus}$
+
+#### Remarque
+$$l_{1 \to 2} = \frac{l_{m_{1 \to 2}}}{M}$$
