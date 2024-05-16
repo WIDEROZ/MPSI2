@@ -706,6 +706,38 @@ $$\frac{(n+1)^{1-\alpha}-1}{1-\alpha} \leq S_{n} \leq 1+\frac{n^{1-\alpha}-1}{1-
 puis puisque $\frac{n^{1-\alpha}}{1-\alpha} >0$
 $$\left( \frac{n+1}{n} \right)^{1-\alpha} - \frac{1}{n^{1-\alpha}} \leq \frac{S_{n}}{\left( \frac{n^{1-\alpha}}{1-\alpha} \right)} \leq \frac{1-\alpha}{n^{1-\alpha}}+1-\frac{1}{n^{1-\alpha}}$$
 Alors, par le théorème des gendarmes, 
-$$\boxed{\sum_{k = 1}^{n} \frac{1}{k^{\alpha}}\underset{n \to +\infty}{ \sim} \frac{n^{1-\alpha}}{1-\alpha}$$
+$$\boxed{\sum_{k = 1}^{n} \frac{1}{k^{\alpha}}\underset{n \to +\infty}{ \sim} \frac{n^{1-\alpha}}{1-\alpha}}$$
 
-##### Cas
+##### Cas $\alpha = 0$
+$$\sum_{n \geq 1}1 \text{ DVG}$$
+$$\sum_{n = 1}^{+ \infty} 1 = + \infty$$
+car
+$$\sum_{k =1}^{n}1 = n$$
+
+##### Cas $\alpha < 0$
+On a directement : 
+$$\sum_{n \geq 1} \frac{1}{n^{\alpha}}$$
+et 
+$$\sum_{n = 1}^{+\infty} \frac{1}{n^{\alpha}} = + \infty$$
+Comme $f$ est continue et croissante, les inégalités sont inversées et pour $n \in \mathbb{N}^{*}$, 
+$$1+ \int_{1}^{n} f(t) \, dt \leq 1+ \sum_{k = 2}^{n}f(k) = \sum_{k = 1}^{n}f(k) \leq \int_{1}^{n+1}f(t) \, dt $$
+ie
+$$1+ \frac{n^{1-\alpha}-1}{1-\alpha} \leq S_{n} \leq \frac{}{}$$
+
+#### Exemple
+$$\sum_{k = 1}^{n}k \sim \frac{n^{2}}{2}$$
+et 
+$$\sum_{k = 1}^{n}\sqrt{ k } \underset{n \to \infty}{\sim} \frac{2}{3}{n^{2/3}}$$
+
+# VII. Convergence Absolue
+#### Définition
+On dit qu'une série $\sum a_{n}$ à term dans $\mathbb{K}$, est absolument convergente (ACV) ou converge absolument (CVA) ssi 
+$$\sum |a_{n}| \text{ CV}$$
+
+#### Remarque
+On parle d'ACV même quand $\mathbb{K} = \mathbb{C}$, 
+alors qu'on prend le module $|a_{n}|$ de $a_{n}$
+
+#### Propriété : CVA des séries géométriques
+Pour $a \in \mathbb{C}$, 
+$$\sum a^{n} \text{ ACV} \Leftrightarrow \sum a^{n} \text{ CV} \Leftrightarrow |a| < 1$$
