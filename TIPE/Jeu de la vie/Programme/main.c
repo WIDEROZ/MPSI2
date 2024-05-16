@@ -37,7 +37,7 @@ int main(int argc, char **argv){
     // ----- Creation de la fenêtre : -----//
 
     
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, RENDER_WIDTH, RENDER_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1920, 1200, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
@@ -78,16 +78,33 @@ int main(int argc, char **argv){
     if (toolbarTexture == NULL){
         ExitWithError("Toolbar texture creation failed");
     }
-    SDL_Rect toolbarRect;
 
-    TOOLBAR_INIT(renderer, &toolbarRect);
 
-    // Rectangle qu'on voit quand la fenètre s'ouvre
+    // ----- Création des rectangles ----- //
     SDL_Rect camera;
+    SDL_Rect gridDestRect;
+    SDL_Rect toolbarSrcRect;
+    SDL_Rect toolbarDestRect;
+
     camera.x = 0;
     camera.y = 0;
     camera.w = RENDER_WIDTH;
     camera.h = RENDER_HEIGHT;
+
+    gridDestRect.x = 0;
+    gridDestRect.y = 0;
+    gridDestRect.w = RENDER_WIDTH;
+    gridDestRect.h = RENDER_HEIGHT;
+
+    toolbarSrcRect.x = 0;
+    toolbarSrcRect.y = 0;
+    toolbarSrcRect.w = TOOLBAR_WIDTH;
+    toolbarSrcRect.h = TOOLBAR_HEIGHT;
+
+    toolbarDestRect.x = RENDER_WIDTH;
+    toolbarDestRect.y = RENDER_HEIGHT;
+    toolbarDestRect.w = TOOLBAR_WIDTH;
+    toolbarDestRect.h = TOOLBAR_HEIGHT;
 
 
 
@@ -274,8 +291,8 @@ int main(int argc, char **argv){
 
         
         // Actualise le rendu
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarRect, NULL), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(renderer);
 
     }
