@@ -110,6 +110,7 @@ int main(int argc, char **argv){
 
 
     TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
+
     // ----- Déclaration des variables ----- //
     SDL_bool program_launched = SDL_TRUE;
 
@@ -293,8 +294,10 @@ int main(int argc, char **argv){
 
         
         // Actualise le rendu
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
+
+        
         SDL_RenderPresent(renderer);
 
     }
