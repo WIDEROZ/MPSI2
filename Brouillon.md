@@ -67,11 +67,8 @@ $$\Delta U = Q_{3} =C_{v} (T_{0} - T_{1}) = -\frac{1}{\gamma -1}P_{0}V_{0} $$
 ## Transformation lente
 $$dU = \delta W \Leftrightarrow C_{v}dT = P_{i}dV$$
 Alors, 
-$$\int_{T_{i}}^{T_{f}} \frac{R}{\gamma-1}dT = -\int_{V_{i}}^{V_{f}}  P_{i}dV$$
+$$\int_{T_{i}}^{T_{f}} \frac{R}{\gamma-1}dT = -\int_{V_{i}}^{V_{f}}  dV$$
 
 
-
-
-
-
-$$PV^{\gamma} = \text{cte}$$
+## 3.
+$$\Delta U = W = - \int _{V_{i}}^{V_{f}} P_{ext} \, dV = P_{i}(V_{i}-V_{f})$$
