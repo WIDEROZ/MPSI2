@@ -881,4 +881,23 @@ Un réel peut avoir plusieurs développements décimaux :
 Le développement décimal : 
 $$x = \varepsilon \sum_{n = n_{0}}^{+ \infty}d_{n}10^{-n}$$
 est propre dans les 2 cas suivants : 
-- $$
+- Si $x = 0$, $\varepsilon = +$, $n_{0} = 0$, $\forall n \geq 0, d_{n} =0$
+- Si $x \neq 0$, $((n_{0} < 0 \text{ et }d_{n_{0}} \neq 0) \text{ ou }n_{0} = 0)$
+  et $(d_{n})$ n'est pas stationnaire en $9$
+
+Convention d'écriture des développement décimaux propres : 
+- On met le signe devant, puis les premiers chiffres $d_{n}$ (au moins ceux tels que $n \leq 0$) sont placées les uns à la suite des autres de gauche à droite avec une virgule séparant $d_{0}$ et $d_{1}$ et on met "$\dots$" à la suite : 
+  $-\pi = -3.141592\dots$
+- Si le signe est $+$, on l'omet : $\pi = 3.141592\dots$
+- On arrête l'écriture à $d_{n}$ si $n \geq 0$, et $\forall m>n, d_{n} = 0$
+  $$$$
+- Pour 
+
+Gros ca sert a rien azi j’arrête d'écrire
+
+#### Théorème
+Tout réel admet un unique développement décimal propre, pour $x > 0$ les chifres sont donnés par :
+$$\begin{cases}
+\forall n \in \mathbb{Z},  \\
+n_{0} = \min(0, \min\{ n \in \mathbb{Z}, | d_{n} \neq  0\})
+\end{cases}$$
