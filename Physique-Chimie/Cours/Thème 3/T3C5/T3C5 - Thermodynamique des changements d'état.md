@@ -113,5 +113,26 @@ Pour étudier un changement d'état on regarde les variations des grandeurs mass
   $v_{l} \ll v_{g}$ et $V_{m_{l}}\ll V_{m_{g}}$
 
 ## 1. Enthalpie de changement d'état
+On considère que le changement d'état est à $P = \text{cte}$ 
+(On considère toujours ca sauf si le contraire est précisé dans l'enoncé)
+alors, 
+$$\Delta H = Q$$
 
-On considère que le changement d'état est à pression constante
+#### Définition
+On appelle enthalpie molaire ou changement d'état de $1 \to 2$ noté
+$$l_{m_{1 \to 2}} = l_{m_{1, 2}}$$
+la variation d'enthalpie qui accompagne le changement d'état par unité de matière
+$$\Delta H = nl_{m_{1 \to 2}}$$
+en $J.mol^{-1}$
+
+On appelle enthalpie massique ou changement d'état de $1 \to 2$ noté :
+$$l_{1\to 2} = \frac{\Delta H}{m}$$
+avec $m$ la masse totale et elle se mesure en $J.kg^{-1}$
+
+#### Notations
+Pour la fusion : $l_{m_{fus}}$
+Pour la solidification : $l_{m_{sol}}$
+
+#### Propriété
+L'enthalpie molaire d'un changement d'état est égale à l'opposé de l'enthalpie molaire d'un changement d'état est égale à l'opposée de l'enthalpie molaire du changement d'état réciproque : 
+$$\boxed{l_{m_{fus}} = -l_{m_{sol}}}$$
