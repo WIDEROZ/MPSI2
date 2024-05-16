@@ -12,3 +12,9 @@ La communauté va exercer un droit de regard sur l'individu.
 La communauté est normative. (normes de mœurs)
 Les mœurs sont la conduite / les principes que l'on se donne pour agir. 
 Cette norme que la communauté formule de manière implicite / explicite. 
+
+Le "et" peut être perçu comme une opposition 
+
+###### Les Romans américains
+Le pays à fait de l'individu son allégorie
+L'homme pionnier va construire l'Amérique par le western. 
