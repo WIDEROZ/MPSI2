@@ -80,6 +80,8 @@ int main(int argc, char **argv){
     }
 
 
+
+
     // ----- Création des rectangles ----- //
     SDL_Rect camera;
     SDL_Rect gridDestRect;
@@ -107,7 +109,7 @@ int main(int argc, char **argv){
     toolbarDestRect.h = TOOLBAR_HEIGHT;
 
 
-
+    TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
     // ----- Déclaration des variables ----- //
     SDL_bool program_launched = SDL_TRUE;
 
