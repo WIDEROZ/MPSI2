@@ -641,4 +641,19 @@ t \mapsto \frac{1}{t^{\alpha}}
 ###### Cas $\alpha > 1$
 Alors $f$ est décroissante et continue donc on peut appliquer le résultat précédent.
 On a, en particulier, pour $n \in \mathbb{N}^{*}$, 
-$$0 \leq S_{n} = 1+ \sum_{k = 2}^{n} f(k) \leq 1+ \int_{1} ^{n} f(t) \, dt = 1+   $$
+$$0 \leq S_{n} = 1+ \sum_{k = 2}^{ ⚡n} f(k) \leq 1+ \int_{1} ^{n} f(t) \, dt = 1+ \left[ \frac{t^{-\alpha+1}}{-\alpha+1} \right]_{1}^{n}  $$
+$$= 1- \frac{1-n^{-\alpha+1}}{\alpha-1} \leq \frac{\alpha}{\alpha-1}$$
+Comme $(S_{n})$ est croissante (SATP) et majorée, elle converge ie 
+$$\sum_{n \geq 1} \text{ CV}$$
+De plus, 
+$$\sum_{n = 1}^{+\infty} \frac{1}{n^{\alpha}} \in \left[ 0, \frac{\alpha}{\alpha-1} \right]$$
+
+On peut aussi obtenir un équivalent du reste,
+Pour $n \in \mathbb{N}^{*}$ et $q \geq n$
+$$\int _{n+1}^{q+1} f(t) \, dt \leq \sum_{n+1}^{q+1} \leq \int_{n}^{q}f(t) \, dt  $$
+ie
+$$\frac{(n+1)^{1-\alpha}-(q-1)^{1-\alpha}}{\alpha-1} \leq \sum_{k = n+1}^{q} \frac{1}{n^{\alpha}} \leq \frac{n^{1-\alpha }-q^{1-\alpha}}{\alpha-1}$$
+et lorsque $q \underset{}{\longrightarrow} + \infty$ on obtient, 
+$$\frac{(n+1)^{1-\alpha}}{\alpha-1} \leq R_{n} \leq \frac{n^{1-\alpha}}{\alpha-1}$$
+
+Comme $\frac{n^{1-\alpha}}{\alpha-1} >0$
