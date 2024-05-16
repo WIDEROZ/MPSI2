@@ -638,7 +638,7 @@ $$f: \begin{cases}
 t \mapsto \frac{1}{t^{\alpha}}
 \end{cases}$$
 
-###### Cas $\alpha > 1$
+##### Cas $\alpha > 1$
 Alors $f$ est décroissante et continue donc on peut appliquer le résultat précédent.
 On a, en particulier, pour $n \in \mathbb{N}^{*}$, 
 $$0 \leq S_{n} = 1+ \sum_{k = 2}^{ ⚡n} f(k) \leq 1+ \int_{1} ^{n} f(t) \, dt = 1+ \left[ \frac{t^{-\alpha+1}}{-\alpha+1} \right]_{1}^{n}  $$
@@ -677,4 +677,19 @@ Par majoration, $S_{n} \to + \infty$ ie,
 $$\sum_{n \geq 1} \frac{1}{n} \text{ DV} \text{ et } \sum_{k = 1}^{+\infty} \frac{1}{n} = + \infty$$
 
 Et pour $n \in \mathbb{N}^{*}$, 
-$$\ln(n+1) \leq S_{n} = 1+ \sum_{k = 2}^{n}$$
+$$\ln(n+1) \leq S_{n} = 1+ \sum_{k = 2}^{n}f(k) \leq 1+ \int _{1}^{n} f(t) \, dt= 1+\ln(n) $$
+en divisant pour $n \geq 2$, pour $\ln(n) > 0$, 
+$$\frac{\ln(n+1)}{\ln(n)} \leq \frac{S_{n}}{\ln(n)}\leq 1+ \frac{1}{\ln(n)}$$
+comme $\ln(n+1) \sim \ln(n)$ (à démontrer)
+et $\lim_{ n \to \infty } 1+ \frac{1}{\ln(n)} = 1$
+Par le théorème des gendarmes, 
+$$S_{n} = \sum_{k = 1}^{n} \frac{1}{k} \sim \ln(n)$$
+De plus l'encadrement précédent donne : 
+$$0\leq\ln\left( 1+\frac{1}{n} \right) \leq S_{n} -\ln(n) \leq 1$$
+Donc, $(S_{n}-\ln(n))_{n}$ est bornée, 
+On peut montrer que cette suite est convergente vers : $\gamma \approx 0,577$ qui s'appelle la constante d'Euler. 
+
+
+##### Cas ou $\alpha \in ]0, 1[$
+Ici $f$ est encore décroissante et continue ce que donne pour $n \in \mathbb{N}^{*}$, 
+$$S_{n} = $$
