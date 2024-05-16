@@ -152,3 +152,23 @@ $$\boxed{l_{fus} = 334 \, kJ.kg^{-1}} \text{ et } \boxed{l_{m_{fus}}=6 \, kJ.mol
 $P  = 1 \, bar$ et $T = 10°C$, 
 $$\boxed{l_{vap}=2265 \, kJ.kg^{-1}} \text{ et } \boxed{l_{m_{vap}}= 41 \, kJ.mol^{-1}}$$
 
+## 2. Entropie de changement d'état
+#### Définition
+On appelle entropie molaire (resp massique) de changement d'état de $1 \to 2$ la variation d'entropie par unité de matière (resp. masse) au cours du changement d'état : 
+$$\Delta s_{m_{1 \to 2}} = \frac{l_{m_{1 \to 2}}}{T}$$
+avec $T$ la température du changement d'état
+
+
+Pour un changement d'état de $n$ mol de corp pur on a : 
+$$\Delta S = n\Delta s_{m_{1 \to 2}}$$
+$\Delta s _{m_{1 \to 2}}$ se mesure en $J.K^{-1}.mol^{-1}$ 
+et comme pour l'enthalpie molaire de changement d'état : 
+
+#### Propriété
+$$\Delta s_{m_{fus}} = -\Delta s_{m_{sol}}$$
+$$\Delta s_{m_{liq}} = - \Delta S_{m_{vap}}$$
+
+# V. Les changements d'état de l'eau au contact de l'air
+#### Définition
+On considère un mélange de gaz : $i \in \mathbb{N}$ de pression totale $P$ dans un volume $V$
+La pression partielle du gaz $i$ est égale à la pression qui 
