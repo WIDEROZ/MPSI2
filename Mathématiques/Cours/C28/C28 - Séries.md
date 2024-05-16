@@ -722,7 +722,10 @@ $$\sum_{n = 1}^{+\infty} \frac{1}{n^{\alpha}} = + \infty$$
 Comme $f$ est continue et croissante, les inégalités sont inversées et pour $n \in \mathbb{N}^{*}$, 
 $$1+ \int_{1}^{n} f(t) \, dt \leq 1+ \sum_{k = 2}^{n}f(k) = \sum_{k = 1}^{n}f(k) \leq \int_{1}^{n+1}f(t) \, dt $$
 ie
-$$1+ \frac{n^{1-\alpha}-1}{1-\alpha} \leq S_{n} \leq \frac{}{}$$
+$$1+ \frac{n^{1-\alpha}-1}{1-\alpha} \leq S_{n} \leq \frac{(n+1)^{1-\alpha}-1}{1-\alpha}$$
+et comme avant : 
+$$\boxed{S_{n} \underset{n \to + \infty}{\sim} \frac{n^{1-\alpha}}{1-\alpha}}$$
+
 
 #### Exemple
 $$\sum_{k = 1}^{n}k \sim \frac{n^{2}}{2}$$
@@ -740,4 +743,33 @@ alors qu'on prend le module $|a_{n}|$ de $a_{n}$
 
 #### Propriété : CVA des séries géométriques
 Pour $a \in \mathbb{C}$, 
-$$\sum a^{n} \text{ ACV} \Leftrightarrow \sum a^{n} \text{ CV} \Leftrightarrow |a| < 1$$
+$$\sum a^{n} \text{ CVA} \Leftrightarrow \sum a^{n} \text{ CV} \Leftrightarrow |a| < 1$$
+
+Démonstration : 
+EZ car : 
+$$\sum |a^{n}| = \sum |a|^{n}$$
+et $||a|| = |a|$
+
+#### Exemple
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n^{\alpha}} \text{ CVA} \Leftrightarrow \alpha > 1$$
+On peut montrer que : 
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n^{\alpha}} \text{ CV} \Leftrightarrow \alpha >0$$
+
+(Alors on peut montrer que $\text{CV} \nRightarrow \text{CVA}$)
+
+#### Rappel
+Soit $x \in \mathbb{R}$, 
+$$\begin{cases}
+x^{+} = \max(0, x) \\
+x^{-} = \max(0, -x) = -\min(0, x)
+\end{cases}$$
+$$\begin{cases}
+x = x^{+}-x^{-} \\
+|x| = x^{+} + x^{-}
+\end{cases}$$
+
+#### Théorème
+Pour $\mathbb{K} \in \{ \mathbb{R}, \mathbb{C} \}$, 
+La CVA implique la CV
+
+Démonstration : 
