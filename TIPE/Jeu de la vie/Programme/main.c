@@ -81,6 +81,9 @@ int main(int argc, char **argv){
 
 
 
+    //////////////////////////////////////: dedsespéré
+    SDL_Renderer *toolbarRenderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_ACCELERATED);
+    SDL_Texture *toolbarBuffer = SDL_CreateTexture(toolbarRenderer, PIXEL_FORMAT, TEXTURE_ACCESS, TOOLBAR_WIDTH, TOOLBAR_HEIGHT);
 
     // ----- Création des rectangles ----- //
     SDL_Rect camera;
@@ -109,8 +112,12 @@ int main(int argc, char **argv){
     toolbarDestRect.h = TOOLBAR_HEIGHT;
 
     // Initialisation de la barre d'outils
-    TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
 
+
+    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
+    TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
+    
+    
     // ----- Déclaration des variables ----- //
     SDL_bool program_launched = SDL_TRUE;
 
@@ -294,11 +301,8 @@ int main(int argc, char **argv){
 
         
         // Actualise le rendu
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
-        SDL_RenderPresent(renderer);
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
 
-        
         SDL_RenderPresent(renderer);
 
     }
