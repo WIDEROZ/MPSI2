@@ -851,4 +851,34 @@ Donc CV
 On autorise les notations de la séries à démarrer en un entier relatif.
 
 #### Définition
-Un dévloppement décimal d'un ré
+Un dévloppement décimal d'un réel $x$ est une écriture : 
+$$x = \varepsilon \sum_{n = n_{0}}^{ + \infty}d_{n} 10^{-n}$$
+avec :
+$$\begin{cases}
+\varepsilon \in \{ -, + \} \\
+n_{0} \in \mathbb{Z} \\
+\forall n \geq n_{0}, d_{n} \in [\![0, 9]\!]
+\end{cases}$$
+
+Le symbole $\varepsilon$ est appelé le signe du développement et les $d_{n}$ sont ses chiffres
+
+#### Remarque
+Toutes ces séries sont ACV car 
+$$\varepsilon d^{n} 10^{-n} = O(10^{-n})$$
+et 
+$$\sum\left( \frac{1}{10} \right)^{n} \text{ est ACV}$$
+
+#### Remarque
+Un réel peut avoir plusieurs développements décimaux :
+- Pour $0$ on peut prendre $\varepsilon = \pm1$ 
+- On peut
+- $1 = 1 \times 10^{0} + 0 \times 10 ^{-1} + 0 \times 10^{-2} \dots$
+  $0.999\dots=0 \times 10^{0} +  \times 10^{ -1}+ 9 \times 10^{-2} + \dots$
+  $$\sum_{n = 1}^{+\infty}9 \times 10^{-n} = 9 \frac{\frac{1}{10}}{1-\frac{1}{10}} = 1$$
+
+
+#### Définition
+Le développement décimal : 
+$$x = \varepsilon \sum_{n = n_{0}}^{+ \infty}d_{n}10^{-n}$$
+est propre dans les 2 cas suivants : 
+- $$
