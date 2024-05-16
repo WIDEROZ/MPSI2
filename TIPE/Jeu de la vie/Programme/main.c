@@ -22,6 +22,7 @@ int main(int argc, char **argv){
     SDL_Window *window = NULL;
     SDL_Window *toolwin = NULL;
     SDL_Renderer *renderer = NULL;
+    SDL_Renderer *toolRenderer = NULL;
     SDL_Texture *texture = NULL;
     
 
@@ -36,19 +37,28 @@ int main(int argc, char **argv){
     // ----- Creation de la fenêtre : -----//
 
     
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, WINDOW_WIDTH, WINDOW_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, RENDER_WIDTH, RENDER_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
 
-    toolwin = SDL_CreateWindow("Toolbar", );
-    
     // ----- Creation des rendu ----- //: 
     renderer = SDL_CreateRenderer(window, -1, SDL_RENDERER_TARGETTEXTURE);
     if(renderer == NULL){
         ExitWithError("Renderer creation failed");
     }
 
+
+    toolwin = SDL_CreateWindow("Toolbar", 480, 300, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 0); 
+    if(toolwin == NULL){
+        ExitWithError("Toobar creation failed");
+    }
+    
+    toolRenderer = SDL_CreateRenderer(toolwin, -1, SDL_RENDERER_SOFTWARE);
+
+    if(toolRenderer == NULL){
+        ExitWithError("Renderer creation failed");
+    }
     
 
 
@@ -267,6 +277,7 @@ int main(int argc, char **argv){
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
         SDL_RenderPresent(renderer);
+        SDL_RenderPresent(toolRenderer);
 
     }
 
@@ -281,9 +292,10 @@ int main(int argc, char **argv){
     DESTROY_POINTER_MATRIX(XY_CASE_TAB);
 
     // Pointeurs SDL
-    SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
     SDL_DestroyTexture(texture);
+    SDL_DestroyRenderer(renderer);
+    SDL_DestroyWindow(toolwin);
+    SDL_DestroyWindow(window);
     SDL_Quit();
     return EXIT_SUCCESS;
 }
