@@ -7,6 +7,7 @@ void TOOLBAR_INIT(SDL_Renderer * renderer, SDL_Texture *toolbarTexture, SDL_Rect
 
     // Copie une partie de la texture vers l'écran
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
+    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, toolbarSrcRect, toolbarDestRect), "RenderCopy");
 
 }
 

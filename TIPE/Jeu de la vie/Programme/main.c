@@ -75,7 +75,10 @@ int main(int argc, char **argv){
     }
 
     
-
+    texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
+    if (texture == NULL){
+        ExitWithError("Texture creation failed");
+    }
 
 
 
@@ -87,27 +90,27 @@ int main(int argc, char **argv){
 
     camera.x = 0;
     camera.y = 0;
-    camera.w = RENDER_WIDTH;
-    camera.h = RENDER_HEIGHT;
+    camera.w = GRID_DISP_WIDTH;
+    camera.h = GRID_DISP_HEIGHT;
 
     gridDestRect.x = 0;
     gridDestRect.y = 0;
-    gridDestRect.w = RENDER_WIDTH;
-    gridDestRect.h = RENDER_HEIGHT;
+    gridDestRect.w = GRID_DISP_WIDTH;
+    gridDestRect.h = GRID_DISP_HEIGHT;
 
     toolbarSrcRect.x = 0;
     toolbarSrcRect.y = 0;
     toolbarSrcRect.w = TOOLBAR_WIDTH;
     toolbarSrcRect.h = TOOLBAR_HEIGHT;
 
-    toolbarDestRect.x = RENDER_WIDTH;
-    toolbarDestRect.y = RENDER_HEIGHT;
+    toolbarDestRect.x = GRID_DISP_WIDTH;
+    toolbarDestRect.y = 0;
     toolbarDestRect.w = TOOLBAR_WIDTH;
     toolbarDestRect.h = TOOLBAR_HEIGHT;
 
     // Initialisation de la barre d'outils
 
-    
+    TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
     
     
     // ----- Déclaration des variables ----- //

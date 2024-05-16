@@ -11,21 +11,11 @@
 
 // Longeur et hauteur du rendu
 #ifndef RENDER_WIDTH
-#define RENDER_WIDTH 1440
+#define RENDER_WIDTH 1870
 #endif
 
 #ifndef RENDER_HEIGHT
 #define RENDER_HEIGHT 1200
-#endif
-
-// Nombre de cases en longeur de l'écran
-#ifndef CASE_NUMBER_WIDTH
-#define CASE_NUMBER_WIDTH 500
-#endif
-
-// Nombre de cases en heuteur de l'écran
-#ifndef CASE_NUMBER_HEIGHT
-#define CASE_NUMBER_HEIGHT 100
 #endif
 
 // Nombre de pixels de large pour une case
@@ -35,7 +25,7 @@
 
 // Longeur et hauteur de l'affichage de la grille
 #ifndef GRID_DISP_WIDTH
-#define GRID_DISP_WIDTH 960
+#define GRID_DISP_WIDTH 1440
 #endif
 
 #ifndef GRID_DISP_HEIGHT
@@ -50,6 +40,16 @@
 
 #ifndef TOOLBAR_HEIGHT
 #define TOOLBAR_HEIGHT RENDER_HEIGHT
+#endif
+
+// Nombre de cases en longeur de l'écran
+#ifndef CASE_NUMBER_WIDTH
+#define CASE_NUMBER_WIDTH 500
+#endif
+
+// Nombre de cases en heuteur de l'écran
+#ifndef CASE_NUMBER_HEIGHT
+#define CASE_NUMBER_HEIGHT 100
 #endif
 
 
