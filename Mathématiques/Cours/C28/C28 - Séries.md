@@ -652,8 +652,29 @@ On peut aussi obtenir un équivalent du reste,
 Pour $n \in \mathbb{N}^{*}$ et $q \geq n$
 $$\int _{n+1}^{q+1} f(t) \, dt \leq \sum_{n+1}^{q+1} \leq \int_{n}^{q}f(t) \, dt  $$
 ie
-$$\frac{(n+1)^{1-\alpha}-(q-1)^{1-\alpha}}{\alpha-1} \leq \sum_{k = n+1}^{q} \frac{1}{n^{\alpha}} \leq \frac{n^{1-\alpha }-q^{1-\alpha}}{\alpha-1}$$
+$$\frac{(n+1)^{1-\alpha}-(q-1)^{1-\alpha}}{\alpha-1} \leq \sum_{k = n+1}^{q} \frac{1}{k^{\alpha}} \leq \frac{n^{1-\alpha }-q^{1-\alpha}}{\alpha-1}$$
 et lorsque $q \underset{}{\longrightarrow} + \infty$ on obtient, 
 $$\frac{(n+1)^{1-\alpha}}{\alpha-1} \leq R_{n} \leq \frac{n^{1-\alpha}}{\alpha-1}$$
 
-Comme $\frac{n^{1-\alpha}}{\alpha-1} >0$
+Comme $\frac{n^{1-\alpha}}{\alpha-1} >0$, on a
+$$\left( \frac{n+1}{n} \right)^{1-\alpha}\leq \frac{R_{n}}{\left( \frac{n^{1-\alpha}}{\alpha-1} \right)}\leq 1$$
+Or 
+$\left( \frac{n+1}{n} \right)^{1-\alpha} \underset{n \to +\infty}{\longrightarrow} 1^{1-\alpha} = 1$
+Alors, par le théorème des gendarmes : 
+$$\frac{R_{n}}{\left( \frac{n^{1-\alpha}}{\alpha-1} \right)} \underset{n \to +\infty}{\longrightarrow}  1$$
+ie 
+$$R_{n} \underset{n \to + \infty}{\sim} \frac{n^{1-\alpha}}{\alpha-1} = \frac{1}{(\alpha-1)n^{\alpha-1}}$$
+
+Par exemple pour $\alpha = 2$, $R_{n} \underset{n \to +\infty}{\sim} \frac{1}{n}$
+la convergence est lente par rapport aux séries géométriques. 
+
+##### Cas $\alpha = 1$
+Comme, $f$ est décroissante et continue donc pour $n \in \mathbb{N}^{*}$, 
+$$S_{n} = \sum_{k = 1}^{n}f(k) \geq \int _{1}^{n+1}f(t) \, dt = [\ln(t)]_{1}^{n+1}= \ln(n+1) $$
+Comme, 
+$$\lim_{ n \to \infty } \ln(n+1) = + \infty$$
+Par majoration, $S_{n} \to + \infty$ ie, 
+$$\sum_{n \geq 1} \frac{1}{n} \text{ DV} \text{ et } \sum_{k = 1}^{+\infty} \frac{1}{n} = + \infty$$
+
+Et pour $n \in \mathbb{N}^{*}$, 
+$$\ln(n+1) \leq S_{n} = 1+ \sum_{k = 2}^{n}$$
