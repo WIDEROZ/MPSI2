@@ -765,7 +765,7 @@ x^{-} = \max(0, -x) = -\min(0, x)
 \end{cases}$$
 $$\begin{cases}
 x = x^{+}-x^{-} \\
-|x| = x^{+} + x^{-}
+|x| = x^{+} + x^{-} = \max(x, -x)
 \end{cases}$$
 
 #### Théorème
@@ -773,3 +773,31 @@ Pour $\mathbb{K} \in \{ \mathbb{R}, \mathbb{C} \}$,
 La CVA implique la CV
 
 Démonstration : 
+###### Preuve dans le cas de $\mathbb{K} = \mathbb{R}$
+Soit $\sum a_{n}$ une séries a termes réels telle que $\sum |a_{n}| \text{ CV}$
+Alors, 
+$$\forall n \in \mathbb{N}, 0 \leq a_{n}^{+} \leq |a_{n}|$$
+
+Par comparaison des SATP, 
+Comme $\sum|a_{n}|$ CV, $\sum a_{n}^{+}$ CV et $\sum a^{-}_{n}$ CV
+
+Par combinaison linéaire, 
+$$\boxed{\sum a_{n} = \sum a_{n}^{+} - \sum a_{n}^{-} \text{ CV}}$$
+
+###### Preuve dans le cas de $\mathbb{K} = \mathbb{C}$
+Soit $\sum a_{n}$ une série a termes complexes tq $\sum|a_{n}|$ CV
+On a :
+$$ \forall n \in \mathbb{N}, 0 \leq | \mathrm{Re}-a_{n}|\leq |a_{n}|$$
+Comme $\sum|a_{n}|$ CV, alors $\sum |\mathrm{Re}(a_{n})|$ CV
+
+Ainsi 
+$$\sum\mathrm{Re}(a_{n}) \text{ CVA}$$
+et par le cas réel prouvé précédemment, 
+$$\sum\mathrm{Re}(a_{n}) \text{ CV}$$
+De même
+$$\sum|\mathrm{Im}(a_{n})| \text{ CV}$$
+par comparaison de SATP
+$$\sum \mathrm{Im}(a_{n}) \text{ CV}$$
+
+Par combinaison linéaire, 
+$$\boxed{\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i \sum \mathrm{Im}(a_{n}) \text{ CV}}$$
