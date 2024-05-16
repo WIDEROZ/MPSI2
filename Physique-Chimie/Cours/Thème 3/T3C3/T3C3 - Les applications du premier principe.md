@@ -26,7 +26,7 @@ $$\boxed{C_{v} = \frac{dU}{dT}}$$
 
 ## 3. La détente de Joule - Thomson ou Joule - Kelvin
 #### Définition
-La détente de Joule - Thomson est la détente d'un fluide en écoulement lent et stationnaire et adiabatique à travers un obstacle sous l'effet des seules forces de pression. 
+La détente de Joule - Thomson est la détente d'un fluide en écoulement lent, stationnaire et adiabatique à travers un obstacle sous l'effet des seules forces de pression. 
 Excalidraw 2
 
 $v_{2} \neq v_{1}$ mais comme c'est stationnaire, $v_{1} = \text{cte}$ et $v_{2} = \text{cte}$
