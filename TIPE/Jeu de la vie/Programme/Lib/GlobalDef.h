@@ -9,13 +9,23 @@
     Pour 25 pixel d'espace mettre : 1850, 1125
     Pour 30 pixel d'espace mettre : 1830, 1110  */
 
+// Longeur et hauteur de la fenètre d'affichage
+#ifndef WINDOW_WIDTH
+#define WINDOW_WIDTH 1850
+#endif
+
+#ifndef WINDOW_HEIGHT
+#define WINDOW_HEIGHT 1200
+#endif
+
+
 // Longeur et hauteur du rendu
 #ifndef RENDER_WIDTH
-#define RENDER_WIDTH 1840
+#define RENDER_WIDTH 1850
 #endif
 
 #ifndef RENDER_HEIGHT
-#define RENDER_HEIGHT 1120
+#define RENDER_HEIGHT 1200
 #endif
 
 // Nombre de cases en longeur de l'écran
