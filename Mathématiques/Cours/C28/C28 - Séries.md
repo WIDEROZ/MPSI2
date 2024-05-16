@@ -692,4 +692,20 @@ On peut montrer que cette suite est convergente vers : $\gamma \approx 0,577$ qu
 
 ##### Cas ou $\alpha \in ]0, 1[$
 Ici $f$ est encore décroissante et continue ce que donne pour $n \in \mathbb{N}^{*}$, 
-$$S_{n} = $$
+$$S_{n} = \sum_{k=1}^{n} f(k) \geq \int _{1}^{n+1} f(t)\, dt = \frac{(n+1)^{1-\alpha}-1}{1-\alpha}$$
+
+Comme $1-\alpha > 0$, $(n+1)^{1-\alpha} \underset{n \to +\infty}{\longrightarrow} + \infty$
+Donc, 
+$$\int_{1}^{n+1} f(t) \, dt \underset{n \to +\infty}{\longrightarrow}  + \infty$$
+et par minoration, 
+$$\boxed{\sum_{n\geq 1} \frac{1}{n^{\alpha}} \text{ DV}}$$
+
+Et comme on a pour $n \in \mathbb{N}^{*}$, 
+$$\frac{(n+1)^{1-\alpha}-1}{1-\alpha} \leq S_{n} \leq 1+\frac{n^{1-\alpha}-1}{1-\alpha}$$
+
+puis puisque $\frac{n^{1-\alpha}}{1-\alpha} >0$
+$$\left( \frac{n+1}{n} \right)^{1-\alpha} - \frac{1}{n^{1-\alpha}} \leq \frac{S_{n}}{\left( \frac{n^{1-\alpha}}{1-\alpha} \right)} \leq \frac{1-\alpha}{n^{1-\alpha}}+1-\frac{1}{n^{1-\alpha}}$$
+Alors, par le théorème des gendarmes, 
+$$\boxed{\sum_{k = 1}^{n} \frac{1}{k^{\alpha}}\underset{n \to +\infty}{ \sim} \frac{n^{1-\alpha}}{1-\alpha}$$
+
+##### Cas
