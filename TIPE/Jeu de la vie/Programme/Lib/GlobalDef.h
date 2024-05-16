@@ -33,13 +33,23 @@
 #define SQUARE_WIDTH 20
 #endif
 
+// Longeur et hauteur de l'affichage de la grille
+#ifndef GRID_DISP_WIDTH
+#define GRID_DISP_WIDTH 960
+#endif
+
+#ifndef GRID_DISP_HEIGHT
+#define GRID_DISP_HEIGHT RENDER_HEIGHT
+#endif
+
+
 // Longeur et hauteur de la bare d'outils
 #ifndef TOOLBAR_WIDTH
-#define TOOLBAR_WIDTH 480
+#define TOOLBAR_WIDTH (RENDER_WIDTH-GRID_DISP_WIDTH)
 #endif
 
 #ifndef TOOLBAR_HEIGHT
-#define TOOLBAR_HEIGHT 1200
+#define TOOLBAR_HEIGHT RENDER_HEIGHT
 #endif
 
 
