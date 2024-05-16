@@ -145,3 +145,10 @@ avec $\Delta T = T_{vap} - T_{fus}$
 
 #### Remarque
 $$l_{1 \to 2} = \frac{l_{m_{1 \to 2}}}{M}$$
+
+#### Ordre de grandeur a connaitre
+$P = 1 \, bar$ et $T = 0°C$,
+$$\boxed{l_{fus} = 334 \, kJ.kg^{-1}} \text{ et } \boxed{l_{m_{fus}}=6 \, kJ.mol^{-1}}$$
+$P  = 1 \, bar$ et $T = 10°C$, 
+$$\boxed{l_{vap}=2265 \, kJ.kg^{-1}} \text{ et } \boxed{l_{m_{vap}}= 41 \, kJ.mol^{-1}}$$
+
