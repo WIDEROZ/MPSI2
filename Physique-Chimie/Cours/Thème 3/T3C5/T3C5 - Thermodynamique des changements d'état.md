@@ -171,4 +171,24 @@ $$\Delta s_{m_{liq}} = - \Delta S_{m_{vap}}$$
 # V. Les changements d'état de l'eau au contact de l'air
 #### Définition
 On considère un mélange de gaz : $i \in \mathbb{N}$ de pression totale $P$ dans un volume $V$
-La pression partielle du gaz $i$ est égale à la pression qui 
+La pression partielle du gaz $i$ est égale à la pression que aurait ce gaz si il état seul dans le volume $V$ :
+$$\boxed{P_{i} = \frac{n_{i}}{n} P}$$
+$n_{i}$ : quantité de matière du gaz $i$
+$n$ : quantité de matière des gaz du système.
+
+Démonstration : 
+Pour le mélange de gaz parfait : 
+$$PV=nRT$$
+Pour le gaz $i$ seul à $T$ : 
+$$P_{i}V = n_{i} RT \Leftrightarrow \frac{RT}{V} = \frac{P}{n} = \frac{P_{i}}{n_{i}}$$
+Ainsi, 
+$$P_{i} = \frac{n_{i}}{n}P$$
+
+#### Exemple 
+Atmosphère : 
+$80$% de $N_{2}$ $n_{N_{2}} = 0.8n$ 
+$20$% de $O_{2}$ $n_{O_{2}} = 0.2n$
+
+Soit $n$ le nombre de molles totales à la pression $P$ :
+$$P_{O_{2}} = \frac{n_{O_{2}}}{n}P = 0.2P$$
+$$P_{N_{2}} = \frac{n_{N_{2}}}{n}P = 0.8P$$
