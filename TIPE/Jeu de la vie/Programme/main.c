@@ -20,10 +20,9 @@ int main(int argc, char **argv){
 
     // ----- Initialisation de la fenetre, du rendu et de la texture ----- //
     SDL_Window *window = NULL;
-    SDL_Window *toolwin = NULL;
     SDL_Renderer *renderer = NULL;
-    SDL_Renderer *toolRenderer = NULL;
     SDL_Texture *texture = NULL;
+    SDL_Texture *toolbarTexture = NULL;
     
 
     SDL_version nb;
@@ -49,16 +48,7 @@ int main(int argc, char **argv){
     }
 
 
-    toolwin = SDL_CreateWindow("Toolbar", 480, 300, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 0); 
-    if(toolwin == NULL){
-        ExitWithError("Toobar creation failed");
-    }
     
-    toolRenderer = SDL_CreateRenderer(toolwin, -1, SDL_RENDERER_SOFTWARE);
-
-    if(toolRenderer == NULL){
-        ExitWithError("Renderer creation failed");
-    }
     
 
 
@@ -81,6 +71,11 @@ int main(int argc, char **argv){
     texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
     if (texture == NULL){
         ExitWithError("Texture creation failed");
+    }
+
+    toolbarTexture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TOOLBAR_WIDTH, TOOLBAR_HEIGHT);
+    if (toolbarTexture == NULL){
+        ExitWithError("Toolbar texture creation failed");
     }
 
     // Rectangle qu'on voit quand la fenètre s'ouvre
@@ -277,7 +272,6 @@ int main(int argc, char **argv){
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
         SDL_RenderPresent(renderer);
-        SDL_RenderPresent(toolRenderer);
 
     }
 
@@ -293,8 +287,8 @@ int main(int argc, char **argv){
 
     // Pointeurs SDL
     SDL_DestroyTexture(texture);
+    SDL_DestroyTexture(toolbarTexture);
     SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(toolwin);
     SDL_DestroyWindow(window);
     SDL_Quit();
     return EXIT_SUCCESS;

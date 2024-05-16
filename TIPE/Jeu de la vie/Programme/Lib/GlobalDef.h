@@ -9,16 +9,6 @@
     Pour 25 pixel d'espace mettre : 1850, 1125
     Pour 30 pixel d'espace mettre : 1830, 1110  */
 
-// Longeur et hauteur de la fenètre d'affichage
-#ifndef TOOLBAR_WIDTH
-#define TOOLBAR_WIDTH 960
-#endif
-
-#ifndef TOOLBAR_HEIGHT
-#define TOOLBAR_HEIGHT 600
-#endif
-
-
 // Longeur et hauteur du rendu
 #ifndef RENDER_WIDTH
 #define RENDER_WIDTH 1000
@@ -43,6 +33,14 @@
 #define SQUARE_WIDTH 20
 #endif
 
+// Longeur et hauteur de la bare d'outils
+#ifndef TOOLBAR_WIDTH
+#define TOOLBAR_WIDTH 480
+#endif
+
+#ifndef TOOLBAR_HEIGHT
+#define TOOLBAR_HEIGHT 1200
+#endif
 
 
 // Longeur et hauteur de la texture
