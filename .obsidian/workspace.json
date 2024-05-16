@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ffdb7a5fa8fbe1b7",
+        "id": "e9220c5e86cca7cf",
         "type": "tabs",
         "children": [
           {
-            "id": "c123a62fdf32be48",
+            "id": "d801b5b56f57d0bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "fcf6b1538874faf2",
+            "id": "e5bbee4ce749c645",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md"
-              }
-            }
-          },
-          {
-            "id": "00831ef8bca5647b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C28/C28.md"
               }
             }
           }
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -170,13 +158,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c123a62fdf32be48",
+  "active": "d801b5b56f57d0bc",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C28/C28.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
-    "Brouillon.md",
-    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Cours/05-15.md",
@@ -184,8 +174,6 @@
     "Anglais/Correction DS",
     "Anglais/Exos/03-04.md",
     "Anglais/Exos/10-04 - Traductions.md",
-    "Mathématiques/Cours/C28/C28.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Info/DM/DM2/DM2.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",

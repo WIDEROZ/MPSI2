@@ -599,7 +599,7 @@ La méthode des rectangles fournit pour $n \geq n_{0}$ un encadrement de $\int_{
 Excal 2.
 
 #### Théorème
-Pour $f$ décroissante sur $[m, n+1]$,
+Pour $f$ décroissante<> sur $[m, n+1]$,
 ($m<n$ entiers)
 $$\sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n} f \leq \sum_{k = m}^{n-1} f(k)$$
 $$\int _{n+1}^{n+1}f \leq \sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n}f $$
