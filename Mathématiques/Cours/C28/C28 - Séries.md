@@ -829,4 +829,26 @@ ie
 $$\sum a_{n} \text{ CVA}$$
 
 #### Remarque
-Ce théorème recouvre de théorème
+Ce théorème recouvre de théorème de comparaison des SATP (par majoration et par équivalent) mais attention il y a toujours une hypothèse de positivité qui est contractée dans l'hypothèse de CVA de $\sum b_{n}$
+
+#### Exemple
+Pour $n \geq 1$, 
+$$a_{n} = \frac{e^{ in }\ln(n)}{n^{3/2}}$$
+On a :
+$$\ln(n) \underset{n \to + \infty}{=} O\left( n^{\frac{1}{4}} \right)$$
+Par les résultats de comparaison de croissance entre logarithme et puissance, et $e^{ in } = O(1)$
+Donc, 
+$$a_{n}= O\left( \frac{n^{\frac{1}{4}}}{n^{\frac{3}{2}}} \right)= O\left( \frac{1}{n^{\frac{5}{4}}} \right)$$
+Or, 
+$$\sum_{n \geq 1} \frac{1}{n^{\frac{5}{4}}} \text{ CV}$$
+car $\frac{5}{4} > 1$
+Donc, CVA car elle est à termes positifs.
+Par le théorème de CV par convergence par domination : 
+$$\sum_{n \geq 1} \frac{e^{ in}\ln(n)}{n^{\frac{3}{2}}} \text{ CVA}$$
+Donc CV
+
+# VIII. Représentation décimale des réels
+On autorise les notations de la séries à démarrer en un entier relatif.
+
+#### Définition
+Un dévloppement décimal d'un ré
