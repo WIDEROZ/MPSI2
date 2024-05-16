@@ -241,7 +241,8 @@ Donc, la valeur en eau du calorimètre est :
 $$\boxed{\mu = m_{0} \frac{T_{2}-T_{1}}{T_{0}-T_{2}}}$$
 
 ## 3. Déterminer la capacité thermique massique d'un solide : $c$
-
+Soit un solide de masse $M$
+On verse une masse $m_{0}$ d'eau dans le calorimètre de même température que celui-CI
 Excal 7.
 Système : $\{ \text{eau},\text{calorimètre} \}$
 Température initiale : $T_{0}$
@@ -250,8 +251,8 @@ Excacl 8
 
 On utilise le $1^{\text{er}}$ principe avec $H$ : 
 $$\Delta H = \Delta H_{eau} + \Delta H_{cal} + \Delta H_{solide}$$
-$$\Delta H_{eau} = n_{0} C_{eau}(T_{f}-T_{0})$$
-$$\Delta H_{cal} = C_{cal}(T_{f}-T_{0}) = \mu C_{eau}(T_{f}-T_{0})$$
+$$\Delta H_{eau} = m_{0} c_{eau}(T_{f}-T_{0})$$
+$$\Delta H_{cal} = C_{cal}(T_{f}-T_{0}) = \mu c_{eau}(T_{f}-T_{0})$$
 $$\Delta H_{solide} = Mc(T_{f}-T_{1})$$
 
 $$\Delta H = 0$$
