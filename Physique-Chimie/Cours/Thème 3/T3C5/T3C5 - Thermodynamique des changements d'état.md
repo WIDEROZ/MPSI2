@@ -102,3 +102,16 @@ Comme on passe de gaz à liquide on a : $V_{E} < V < V_{R}$
 Ainsi, 
 $$\boxed{x_{v} = \frac{v-v_{l}}{v_{v}-v_{l}}}$$
 
+# IV. Variation des fonctions d'état
+Au cours d'un changement d'état il y a discontinuité des grandeurs intensives entre les deux phases. 
+Pour étudier un changement d'état on regarde les variations des grandeurs massiques ou molaires
+
+#### Hypothèses
+- On considère la vapeur comme un gaz parfait. 
+- La phase liquide à une unique capacité thermique massique constante $c_{l}$
+- On néglige le volume massique (ou molaire) de la phase liquide devant celui de la phase gaz : 
+  $v_{l} \ll v_{g}$ et $V_{m_{l}}\ll V_{m_{g}}$
+
+## 1. Enthalpie de changement d'état
+
+On considère que le changement d'état est à pression constante

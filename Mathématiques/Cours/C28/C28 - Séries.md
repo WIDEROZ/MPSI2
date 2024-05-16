@@ -896,8 +896,8 @@ Convention d'écriture des développement décimaux propres :
 Gros ca sert a rien azi j’arrête d'écrire
 
 #### Théorème
-Tout réel admet un unique développement décimal propre, pour $x > 0$ les chifres sont donnés par :
+Tout réel admet un unique développement décimal propre, pour $x > 0$ les chiffres sont donnés par :
 $$\begin{cases}
-\forall n \in \mathbb{Z},  \\
+\forall n \in \mathbb{Z}, \lfloor 10^{n}x \rfloor - 10 \lfloor 10^{n-1}x \rfloor   \\
 n_{0} = \min(0, \min\{ n \in \mathbb{Z}, | d_{n} \neq  0\})
 \end{cases}$$
