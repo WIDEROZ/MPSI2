@@ -787,7 +787,7 @@ $$\boxed{\sum a_{n} = \sum a_{n}^{+} - \sum a_{n}^{-} \text{ CV}}$$
 ###### Preuve dans le cas de $\mathbb{K} = \mathbb{C}$
 Soit $\sum a_{n}$ une série a termes complexes tq $\sum|a_{n}|$ CV
 On a :
-$$ \forall n \in \mathbb{N}, 0 \leq | \mathrm{Re}-a_{n}|\leq |a_{n}|$$
+$$ \forall n \in \mathbb{N}, 0 \leq | \mathrm{Re}(a_{n})|\leq |a_{n}|$$
 Comme $\sum|a_{n}|$ CV, alors $\sum |\mathrm{Re}(a_{n})|$ CV
 
 Ainsi 
@@ -801,3 +801,32 @@ $$\sum \mathrm{Im}(a_{n}) \text{ CV}$$
 
 Par combinaison linéaire, 
 $$\boxed{\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i \sum \mathrm{Im}(a_{n}) \text{ CV}}$$
+
+#### Remarque
+La réciproque est fausse
+$$\sum_{n\geq 1} \frac{(-1)^{n+1}}{n}$$
+
+#### Théorème de convergence absolue par domination
+Soient $\sum a_{n}$ et $\sum b_{n}$ à termes dans $\mathbb{K}$, 
+alors, 
+$$\begin{rcases}
+a_{n} = O(b_{n}) \\
+\sum b_{n} \text{ CVA}
+\end{rcases} \Rightarrow \sum a_{n} \text{ CVA}$$
+
+Démonstration : 
+Supposons que $a_{n} = O(b_{n})$ et $\sum b_{n}$ CVA, 
+APDCR
+il existe un $M \in \mathbb{R}_{+}$ tel que
+$$\left|\frac{a_{n}}{b_{n}}\right| \leq M$$
+Donc, APDCR
+$$0 \leq |a_{n}| \leq M|b_{n}|$$
+
+Comme $\sum b_{n}$ CVA, $M\sum b_{n}$ CV
+par comparaison de SATP, 
+$$\sum |a_{n}| \text{ CV}$$
+ie 
+$$\sum a_{n} \text{ CVA}$$
+
+#### Remarque
+Ce théorème recouvre de théorème
