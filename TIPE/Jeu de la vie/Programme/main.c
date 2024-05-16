@@ -37,7 +37,7 @@ int main(int argc, char **argv){
     // ----- Creation de la fenêtre : -----//
 
     
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1920, 1200, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1870, 1200, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
@@ -108,7 +108,7 @@ int main(int argc, char **argv){
     toolbarDestRect.w = TOOLBAR_WIDTH;
     toolbarDestRect.h = TOOLBAR_HEIGHT;
 
-
+    // Initialisation de la barre d'outils
     TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
 
     // ----- Déclaration des variables ----- //
@@ -295,6 +295,7 @@ int main(int argc, char **argv){
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
+        SDL_RenderPresent(renderer);
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
 
         
