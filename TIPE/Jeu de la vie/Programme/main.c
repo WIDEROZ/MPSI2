@@ -12,6 +12,7 @@
 #include "Lib/Grid.c"
 #include "Lib/InterfaceTrade.c"
 #include "Lib/RenderGestion.c"
+#include "Lib/Toolbar.c"
 
 
 int main(int argc, char **argv){
@@ -77,6 +78,9 @@ int main(int argc, char **argv){
     if (toolbarTexture == NULL){
         ExitWithError("Toolbar texture creation failed");
     }
+    SDL_Rect toolbarRect;
+
+    TOOLBAR_INIT(renderer, &toolbarRect);
 
     // Rectangle qu'on voit quand la fenètre s'ouvre
     SDL_Rect camera;
@@ -271,6 +275,7 @@ int main(int argc, char **argv){
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarRect, NULL), "RenderCopy");
         SDL_RenderPresent(renderer);
 
     }

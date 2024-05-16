@@ -1,0 +1,1 @@
+void TOOLBAR_INIT(SDL_Renderer * renderer, SDL_Rect *toolbarRect);
