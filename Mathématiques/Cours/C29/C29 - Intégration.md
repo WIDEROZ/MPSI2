@@ -84,5 +84,14 @@ Toute fonction continue sur $[a, b]$ est uniformément continue
 
 Démonstration : 
 Soit $f$ continue sur $[a, b]$
-Supposons que $f$ ne soit pas uniformément continue
-$$\exists \varepsilon > 0, \forall \alpha > 0, \exists x, y \in I, (|x - y|\leq \alpha  \text{ et })$$
+Supposons que $f$ ne soit pas uniformément continue :
+$$\exists \varepsilon > 0, \forall \alpha > 0, \exists x, y \in I, (|x - y|\leq \alpha  \text{ et }|f(x)-f(y)|>\varepsilon)$$
+
+En prenant : $\alpha = \frac{1}{n+1}$ pour chaque $n \in \mathbb{N}$, on obtiens deux suites $(x_{n}), (y_{n}) \in I^{\mathbb{N}}$, tel que :
+$$\begin{cases}
+|x_{n}-y_{n}| \leq \frac{1}{n+1} \\
+|f(x_{n}) - f(y_{n})| > \varepsilon
+\end{cases}$$
+Comme $(x_{n})$ est une suit à valeurs réelle et bornée, d'après le théorème de Bolzano-Weierstrass on peut en extraire une suite convergente : $(x_{\varphi_{n}})$, dont on note $l$ la limite par passage à la limite dans des inégalités larges : $l \in [a, b]$
+
+La suite $(y_{\varphi(n)})$ est réelle bornée, donc on peut en extraire une suite CV vers $l' \in [a, b]$, $(y_{(\varphi \circ \psi)(n)})$ 
