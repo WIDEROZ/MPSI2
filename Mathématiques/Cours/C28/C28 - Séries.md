@@ -901,3 +901,27 @@ $$\begin{cases}
 \forall n \in \mathbb{Z}, \lfloor 10^{n}x \rfloor - 10 \lfloor 10^{n-1}x \rfloor   \\
 n_{0} = \min(0, \min\{ n \in \mathbb{Z}, | d_{n} \neq  0\})
 \end{cases}$$
+
+# IX. Séries alternées
+# Définition
+Un série alternée est une série dont le terme général est alternativement dans $\mathbb{R}_{+}$ et dans $\mathbb{R}_{-}$ ie de la forme : 
+$$\sum (-1)^{n}a_{n} \text{ ou } \sum (-1)^{n-1}a_{n}$$
+(avec $\forall n \in \mathbb{N}, a_{n} > 0$)
+#### Exemple
+$$\sum (-1)^{n}$$
+
+est alternée.
+Une série alternée n'est donc pas toujours convergente. 
+
+#### Exemple
+$$A = \sum (-1)^{n} \frac{\sqrt{ n }-(-1)^{n}}{n}$$
+est alternée dont le terme général tend vers $0$ mais qui est divergente. 
+$$A = \sum \frac{(-1)^{n}}{\sqrt{ n }}- \sum \frac{1}{n}$$
+Avec a gauche divergent et a droite convergent donc cela diverge.
+
+## 2. La série harmonique alternée
+#### Définition
+C'est : 
+$$\sum_{ n \geq 1} \frac{(-1)^{n-1}}{n}$$
+On note pour $n \in \mathbb{N}$, 
+$$S_{n} = \sum_{k = 1}^{n}$$

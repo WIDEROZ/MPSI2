@@ -4,59 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "7d7d30ffebf94cdc",
+        "id": "ca8669264451d438",
         "type": "tabs",
         "children": [
           {
-            "id": "26d4b258c6bc452b",
+            "id": "522f3479927fd88f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "87e60ca2af2d3597",
+            "id": "d9e8c1cec923edce",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2609720c3fbdb2ff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "97672805cda05550",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C28/C28.md"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -133,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -185,12 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "87e60ca2af2d3597",
+  "active": "522f3479927fd88f",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
-    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
+    "Mathématiques/Cours/C28/C28.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
+    "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
+    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
+    "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "TIPE/Jeu de la vie/Programme/Lib/Toolbar.c",
     "TIPE/Jeu de la vie/Programme/Lib/Toolbar.h",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
@@ -201,8 +176,6 @@
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
-    "Mathématiques/Cours/C28/C28.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md",
     "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Cours/Vocabulaire.md",
