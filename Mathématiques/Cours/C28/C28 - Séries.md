@@ -976,8 +976,34 @@ Pour $p \in \mathbb{N}$,
 $$S_{2p+2}-S_{2p} = - \alpha_{2p+1} + \alpha_{2p+2} \leq 0$$
 Donc, $(S_{p_{2}}) \downarrow$
 Pour $p \in \mathbb{N}$, 
-$$S_{2p+3}-S_{2p+1} = $$
+$$S_{2p+3}-S_{2p+1} = \alpha_{2p+2}-\alpha_{2p+3}\geq 0$$
+Donc, $(S_{2p+1}) \uparrow$
 
+Alors, 
+$$\forall p \in \mathbb{N}, S_{2p+1}-S_{p} = - \alpha_{2p+1} \underset{p \to +\infty}{\longrightarrow} 0$$
 
 Ainsi, $(S_{2p})_{p}$ et $(S_{2p+1})_{p}$ sont adjacentes.
-Par le théorème des suites adjacentes elles CV versr 
+Par le théorème des suites adjacentes elles CV vers une limit commune 
+Par le théorème de CV pour les suites extraites de rang pairs et impairs, $(S_{n})$ CV
+
+#### Exemple
+$$\sum_{n \geq 2} \frac{(-1)^{n}}{\ln(n)} \text{ CV}$$
+car $\left( \frac{1}{\ln(n)} \right) \downarrow$ et $\underset{n \to +\infty}{\longrightarrow} 0$
+
+
+## 4. Majoration du reste
+On se place dans le cadre précédent : 
+$$\sum (-1)^{n}\alpha_{n} \text{ avec }(\alpha_{n})\downarrow \text{ et } \underset{n \to +\infty}{\longrightarrow}  0$$
+Comme elle converge vers $l \in \mathbb{R}$, et ses restes sont définis et on les notes $R_{n}$ ($n \in\mathbb{N}$)
+On a ainsi, $\forall n \in \mathbb{N}, R_{n} = l-S_{n}$
+Comme les suites extraites $(S_{2p})$ et $(S_{2p+1})$ sont adjacentes, pour $p \in \mathbb{N}$ 
+$$S_{2p+1} \leq l \leq S_{2p}$$
+
+Donc, 
+$$|R_{2p}| = S_{2p}-l \leq S_{2p} - S_{2p+1} = \alpha_{2p+1}$$
+et aussi : 
+$$S_{2p+1} \leq l \leq S_{2p+2}$$
+Donc, 
+$$|R_{2p+1}| = l-S_{2p+1} \leq S_{2p+2}-S_{2p+1} = \alpha_{2p+2}$$
+On a ainsi montré le Théorèe suivant : 
+
