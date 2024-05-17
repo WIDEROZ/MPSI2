@@ -27,7 +27,7 @@ $$\forall \varepsilon >0, \exists \alpha > 0, \forall x, y \in I, | x - y| \leq 
 Ecrire la continuité de $f$ en $x_{0} \in I$, puis la continuité de $f$ sur $I$ en langage formel, 
 
 $f$ est continue en $x_{0}$ ssi
-$$\forall \varepsilon > 0, \exists \alpha > 0,\forall y \in I, |y - x_{0}| \leq \alpha ⚡ \Rightarrow |f(y)-f(x_{0})| \leq \varepsilon $$
+$$\forall \varepsilon > 0, \exists \alpha > 0,\forall y \in I, |y - x_{0}| \leq \alpha \Rightarrow |f(y)-f(x_{0})| \leq \varepsilon $$
 
 $f$ est continue sur $I$ ssi :
 $$\forall x \in I, \forall \varepsilon >0, \exists \alpha > 0, \forall y \in I, |y-x| \leq \alpha \Rightarrow|f(y)-f(x)| \leq \varepsilon$$
@@ -60,14 +60,29 @@ $$|x-a| = \alpha \Rightarrow |f(x)-l| \leq \varepsilon$$
 $$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in I, |x-a| \leq \alpha \Rightarrow |f(x)-l| \leq \varepsilon$$
 
 les deux propositions sont équivalentes
-
-
 ___
 #### Proposition
 Toute fonction lipschitzienne est uniformément continue
 
 Démonstration :
 Soit $f$ lipschitzienne sur $I$ de rapport $k \geq 0$.
-Soit $x, y \in I$, 
+
 On a :
-$$|f(x) - f(y)| \leq k |x - y|$$
+$$\forall x, y \in I, |f(x) - f(y)| \leq k |x - y|$$
+On veut montrer : 
+$$\forall \varepsilon > 0, \exists \alpha >0, \forall x, y,  \in I, |x-y| \leq \alpha \Rightarrow |f(x)-f(y)| \leq \varepsilon$$
+
+Soit $\varepsilon > 0$, 
+On pose : $\alpha = \frac{\varepsilon}{k+1}$
+Soient $x, y \in I$ tels que : $|x-y| \leq \alpha$
+$$|f(x) - f(x)| \leq k\alpha = \frac{k\varepsilon}{k+1} \leq \varepsilon$$
+
+
+## 2. Théorème de Heine
+#### Théorème
+Toute fonction continue sur $[a, b]$ est uniformément continue
+
+Démonstration : 
+Soit $f$ continue sur $[a, b]$
+Supposons que $f$ ne soit pas uniformément continue
+$$\exists \varepsilon > 0, \forall \alpha > 0, \exists x, y \in I, (|x - y|\leq \alpha  \text{ et })$$
