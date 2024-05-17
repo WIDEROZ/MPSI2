@@ -204,4 +204,10 @@ Démonstration :
 On utilise la caractérisation des sous-espaces vectoriels
 1. $\mathcal{E}_{\mathbb{K}}([a, b]) \subset \mathcal{B}_{\mathbb{K}}([a, b])$ car une fonction en escalier ne prend q'un nombre fini de valeurs (nombre fini d'intervalles $]x_{i-1}, x_{i}[$ et de points de subdivisions)
 2. $0_{\mathbb{K}^{[a, b]}} \in \mathcal{E}([a, b])$
-3. 
+3. Soient $f, g \in \mathcal{E}_{\mathbb{K}}([a, b])$ et $\lambda \in \mathbb{K}$, 
+   On prend $\sigma, \sigma' \in \sum_{a, b}$ subordonnée à $f, g$. Il existe un raffinement commun $\sigma''$ (lemme) qui est subordonné à la fois à $f$ et $g$ (lemme ...) qui est subordonné à la fois à $f$ et $g$ (lemme). En notant $\sigma'' = (x''_{k})_{k=0}^{p}$ pour $k \in [\![1, p]\!]$, $f$ et $g$ sont constantes sur $]x''_{k-1}, x''_{k}[$ et donc $\lambda f + g$ aussi
+   Ainsi, $\lambda f +g \in \mathcal{E}_{\mathbb{K}}([a, b])$
+
+#### Remarque
+En fait $\mathcal{E}_{\mathbb{K}}([a, b])$ est une sous-algèbre de $\mathcal{B}_{\mathbb{K}}([a, b])$ 
+
