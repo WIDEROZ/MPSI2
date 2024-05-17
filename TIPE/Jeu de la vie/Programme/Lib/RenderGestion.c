@@ -18,6 +18,7 @@ void GRID_DISPLAY_CREATION(SDL_Renderer *renderer, SDL_Texture * texture, SDL_Re
 
 
 void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect camera,  matrix* XY_CASE_TAB , const int x, const int y){
+    if (x <= GRID_DISP_WIDTH && y <= GRID_DISP_HEIGHT){
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
     VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255), "SetRenderDrawColor");
 
@@ -28,6 +29,7 @@ void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture 
     VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, NULL), "RenderCopy");
 
     SDL_RenderPresent(renderer);
+    }
 }
 
 void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *camera, int xRel, int yRel){

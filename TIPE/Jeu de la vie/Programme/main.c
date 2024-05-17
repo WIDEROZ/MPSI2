@@ -75,8 +75,8 @@ int main(int argc, char **argv){
     }
 
     
-    texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
-    if (texture == NULL){
+    toolbarTexture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TOOLBAR_WIDTH, TOOLBAR_HEIGHT);
+    if (toolbarTexture == NULL){
         ExitWithError("Texture creation failed");
     }
 
@@ -297,6 +297,7 @@ int main(int argc, char **argv){
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(renderer);
 
     }
