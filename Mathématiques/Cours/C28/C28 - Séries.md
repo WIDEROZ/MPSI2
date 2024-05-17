@@ -903,7 +903,8 @@ n_{0} = \min(0, \min\{ n \in \mathbb{Z}, | d_{n} \neq  0\})
 \end{cases}$$
 
 # IX. Séries alternées
-# Définition
+## 2. Définition
+#### Définition
 Un série alternée est une série dont le terme général est alternativement dans $\mathbb{R}_{+}$ et dans $\mathbb{R}_{-}$ ie de la forme : 
 $$\sum (-1)^{n}a_{n} \text{ ou } \sum (-1)^{n-1}a_{n}$$
 (avec $\forall n \in \mathbb{N}, a_{n} > 0$)
@@ -924,4 +925,32 @@ Avec a gauche divergent et a droite convergent donc cela diverge.
 C'est : 
 $$\sum_{ n \geq 1} \frac{(-1)^{n-1}}{n}$$
 On note pour $n \in \mathbb{N}$, 
-$$S_{n} = \sum_{k = 1}^{n}$$
+$$S_{n} = \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}$$
+$S_{0} = 0$
+
+On considère les suites extraites de $S_{n}$ des rangs pairs et des rangs impairs notés : 
+$$\begin{cases}
+a_{p} = S_{2p} \\
+b_{p} = S_{2p+1}
+\end{cases}$$
+Montrons qu'elles sont adjacentes. 
+___
+Pour $p \in \mathbb{N}$, 
+$$a_{p+1}-a_{p} = S_{2p+2}-S_{2p} = \frac{(-1)^{(2p+1)-1}}{2p+1} - \frac{(-1)^{(2p+2)-1}}{2p+2}$$
+$$= \frac{1}{p+2p+1}-\frac{1}{2p+2}\geq 0$$
+Donc, $(a_{p}) \uparrow$
+___
+Pour $p \in \mathbb{N}$, 
+$$b_{p+1}-b_{p} = S_{2p+3}-S_{2p+1}$$
+$$= \frac{1}{2p+2}-\frac{1}{2p+3}$$
+Donc, $(b_{p}) \downarrow$
+
+___
+Pour $p \in \mathbb{N}$, 
+$$b_{p}-a_{p} = \frac{1}{2p+1} \underset{p \to +\infty}{\longrightarrow} 0$$
+
+Ainsi, $(a_{p})$ et $(b_{p})$ sont adjacentes, $(a_{p})$ et $(b_{p})$ CV et ont la même limite. 
+Par le théorème de convergence. 
+
+#### Remarque
+$$\sum_{n = 1}^{+ \infty} \frac{(-1)^{n-1}}{n} = \ln(2)$$
