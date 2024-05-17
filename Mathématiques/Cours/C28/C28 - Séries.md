@@ -1005,5 +1005,15 @@ et aussi :
 $$S_{2p+1} \leq l \leq S_{2p+2}$$
 Donc, 
 $$|R_{2p+1}| = l-S_{2p+1} \leq S_{2p+2}-S_{2p+1} = \alpha_{2p+2}$$
-On a ainsi montré le Théorèe suivant : 
+On a ainsi montré le Théorème suivant : 
 
+#### Théorème
+Soit une série alternée $\sum (-1)^{n}\alpha_{n}$ qui vérifie les hypothèses du critère de Leibnitz
+Alors, la valeur absolue du reste est majorée par la valeur absolue du premier terme négligé ie
+$$\forall n \in \mathbb{N}, |R_{n}| \leq \alpha_{n+1}$$
+
+#### Remarque
+On connait aussi le signe de $R_{n}$ qui est le signe du premier terme négligé
+
+#### Exemple
+$$\forall n \geq 1, \left|\ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k} \right| \leq \frac{1}{n+1}$$

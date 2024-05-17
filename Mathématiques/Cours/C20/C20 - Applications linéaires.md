@@ -3,8 +3,8 @@ Soit $\mathbb{K} = \{ \mathbb{R}, \mathbb{C} \}$,
 # I. Généralités
 ## 1. Définition
 #### Définition
-Une applicacation linéaires est un morphisme d'espace vectoriel
-ie, une applicacation entre des $\mathbb{K}$-ev qui préserve $+$ et $\cdot$ 
+Une application linéaires est un morphisme d'espace vectoriel
+ie, une application entre des $\mathbb{K}$-ev qui préserve $+$ et $\cdot$ 
 ie : $u : E \to F$ avec $E, F$ deux $\mathbb{K}$-ev
 et : 
 $$\forall x, y \in E, u(x+y) = u(x)+u(y)$$
