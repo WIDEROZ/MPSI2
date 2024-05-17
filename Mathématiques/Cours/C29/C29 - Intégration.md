@@ -26,5 +26,14 @@ $$\forall \varepsilon >0, \exists \alpha > 0, \forall x, y \in I, | x - y| \leq 
 #### Exercice
 Ecrire la continuité de $f$ en $x_{0} \in I$, puis la continuité de $f$ sur $I$ en langage formel, 
 
-$$\forall \varepsilon > 0, \exists \alpha > 0, |x - x_{0}| \leq \alpha \Rightarrow |f(x)-f(x_{0})| \leq \varepsilon $$
-$$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in I, |x - x_{0}| \leq \alpha \Rightarrow |f(x)-f(x_{0})| \leq \varepsilon $$
+$$\forall \varepsilon > 0, \exists \alpha > 0,\forall x \in I, |x - x_{0}| \leq \alpha \Rightarrow |f(x)-f(x_{0})| \leq \varepsilon $$
+
+###### Pour les suites :
+$$\forall \varepsilon > 0, \exists N \in \mathbb{N}, \forall n \geq N, |u_{n} -l| \leq \varepsilon$$
+Sont équivalentes
+
+###### Pour les fonctions
+$$\forall V \in \mathcal V(l), \exists U \in \mathcal V(+ \infty), f(U) \subset V$$
+$$\forall V \in \mathcal V(l), \exists U \in \mathcal V(a), f(U) \subset V$$
+
+$$\forall \varepsilon > 0, \exists \alpha > 0, f([a- \alpha, a+\alpha] \cap I) \subset [-l\varepsilon, l+\varepsilon]$$
