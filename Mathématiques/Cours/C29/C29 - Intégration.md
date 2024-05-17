@@ -126,18 +126,12 @@ Une subdivision est une famille finie : $\sigma = (x_{i})_{i = 0}^{n}$ d'éléme
 $$a = x_{0} < x_{1} < x_{2} < \dots < x_{n} = b$$
 Excal 2.
 
-#### Notation
-On note son ensemble : 
-$$\begin{array}{c}
-\sum_{a, b}
-\end{array}$$
-
 #### Définition
 Le pas de cette subdivision est : 
 $$\mathrm{pas}(\sigma) = \max_{1 \leq i \leq n}|x_{i}-x_{i-1}|$$
 
 #### Notation du cours
-On note dans le cours $\sigma_{a, b}$ l'ensemble des subdivisions sur $[a, b]$
+On note dans le cours $\sum_{a, b}$ l'ensemble des subdivisions sur $[a, b]$
 
 #### Exemple
 Pour $n \in \mathbb{N}^{*}$, la subdivision régulière de $[a, b]$ en $n$ intervalles est :
@@ -145,7 +139,7 @@ $$\left( a + i \frac{b-a}{n} \right)_{i = 0}^{n}$$
 
 
 #### Définition
-Pour deux subdivisions $\sigma = (x_{i})_{i = 0}^{n}$ et $\sigma' = (x_{j}')_{j = 0}^{m}$ de $[a, b]$, on dit que $\sigma$ est plus finie que $\sigma'$ ssi 
+Pour deux subdivisions $\sigma = (x_{i})_{i = 0}^{n}$ et $\sigma' = (x_{j}')_{j = 0}^{m}$ de $[a, b]$, on dit que $\sigma$ est plus fine que $\sigma'$ ssi 
 $$\{ x_{i} ; i \in [\![0, n]\!] \} \supset \{ x'_{j} ; j \in [\![1, m]\!]\}$$
 Et on dit que $\sigma$ est un raffinement de $\sigma'$
 
