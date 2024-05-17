@@ -922,8 +922,11 @@ Avec a gauche divergent et a droite convergent donc cela diverge.
 
 ## 2. La série harmonique alternée
 #### Définition
-C'est : 
+La série harmonique alternée est :
 $$\sum_{ n \geq 1} \frac{(-1)^{n-1}}{n}$$
+
+#### Calcul de la somme de la série
+
 On note pour $n \in \mathbb{N}$, 
 $$S_{n} = \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}$$
 $S_{0} = 0$
@@ -949,8 +952,32 @@ ___
 Pour $p \in \mathbb{N}$, 
 $$b_{p}-a_{p} = \frac{1}{2p+1} \underset{p \to +\infty}{\longrightarrow} 0$$
 
-Ainsi, $(a_{p})$ et $(b_{p})$ sont adjacentes, $(a_{p})$ et $(b_{p})$ CV et ont la même limite. 
-Par le théorème de convergence. 
+Ainsi, $(a_{p})$ et $(b_{p})$ sont adjacentes, $(a_{p})$ et $(b_{p})$ CV et ont la même limite $l \in \mathbb{R}$.
+Par le théorème de convergence par les suites extraites de rang pairs et de rang impairs, $(S_{n})$ CV vers $l$
+ie, 
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n} \text{ CV}$$
 
 #### Remarque
 $$\sum_{n = 1}^{+ \infty} \frac{(-1)^{n-1}}{n} = \ln(2)$$
+
+#### Remarque
+Cette preuve est générale : elle ne se sert que de la décroissance de la valeur absolue du terme général de la série et du fait que la série est alternée :
+
+
+## 3. Critère de Leibniz
+#### Théorème de Leibnitz / Critère de Leibnitz / Critère spécial des séries alternées
+Soit $(\alpha_{n})$ une suite réelle <u>décroissance et de limite nulle</u>
+La série alternée : 
+$$\sum(-1)^{n}\alpha_{n} \text{ est CV}$$
+
+Démonstration : 
+On note $(S_{n})$ la suite des sommes partielles de cette série
+Pour $p \in \mathbb{N}$,
+$$S_{2p+2}-S_{2p} = - \alpha_{2p+1} + \alpha_{2p+2} \leq 0$$
+Donc, $(S_{p_{2}}) \downarrow$
+Pour $p \in \mathbb{N}$, 
+$$S_{2p+3}-S_{2p+1} = $$
+
+
+Ainsi, $(S_{2p})_{p}$ et $(S_{2p+1})_{p}$ sont adjacentes.
+Par le théorème des suites adjacentes elles CV versr 
