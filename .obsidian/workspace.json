@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ca8669264451d438",
+        "id": "6269b86bbc0d0abb",
         "type": "tabs",
         "children": [
           {
-            "id": "522f3479927fd88f",
+            "id": "df43177f719899b6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "e4dcfdec3328c216",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d9e8c1cec923edce",
+            "id": "cd1b2b01ebc8d797",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28.md"
+                "file": "Mathématiques/Cours/C29/C29.md"
               }
             }
           }
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -170,10 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "522f3479927fd88f",
+  "active": "df43177f719899b6",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C29/C29.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/Cours/C29",
     "Mathématiques/Cours/C28/C28.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
+    "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
@@ -200,14 +192,10 @@
     "Info/DM/DM2/DM2.md",
     "Mathématiques/DM/DM19/DM19.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
-    "Mathématiques/TD/E27/E27.md",
     "Mathématiques/TD/E28",
     "Info/DM/DM2/Travail rendu/DM2 Bec-clemente Elio sudoku.ml",
     "Info/DM/DM2/DM 02.pdf",
     "grille_3.txt",
-    "grille_2.txt",
-    "FR Philo/Cours/AXE 2/AXE 2 - Cours 1 - Faire illusion.md",
-    "c.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
