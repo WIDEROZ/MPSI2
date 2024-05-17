@@ -100,7 +100,9 @@ $$\begin{cases}
 x_{\varphi \circ\psi(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
 x_{\varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}  l'
 \end{cases}$$
-
+___
+Deuxième manière sur le poly
+___
 $$\begin{array}{rl}
 |y_{\phi(n)}-l| &\leq |y_{\varphi(n)}-x_{\varphi(n)}|+|x_{\varphi(n)}-l| \\
 &\leq \frac{1}{\varphi(n)+1} + |x_{\varphi(n)}-l|
@@ -109,7 +111,9 @@ $$\begin{array}{rl}
 en passant à la limite on a : 
 $y_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow}l$
 
-En passant à la limite dans $\boxed{2}$
+En passant à la limite dans $\boxed{2}$, par continuité de $f$ et de $|\cdot|$,
+$$|f(l) - f(l)| = 0 \geq \varepsilon$$
+CONTRADICTION
 
 
 #### Exemple
@@ -118,4 +122,24 @@ $\exp$ est $UC$ sur $[0, 1]$
 # II. Subdivisions et fonctions scalaires
 ## 1. Subdivision d'un segment
 #### Définition
-Une subdivision est une famille finie : $\sigma = (x_{i})_{i = 0}^{n}$ d'élément 
+Une subdivision est une famille finie : $\sigma = (x_{i})_{i = 0}^{n}$ d'élément de $[a, b]$ tels que :
+$$a = x_{0} < x_{1} < x_{2} < \dots < x_{n} = b$$
+Excal 2.
+
+#### Définition
+Le pas de cette subdivision est : 
+$$\mathrm{pas}(\sigma) = \max_{1 \leq i \leq n}|x_{i}-x_{i-1}|$$
+
+#### Notation du cours
+On note dans le cours $\sigma_{a, b}$ l'ensemble des subdivisions sur $[a, b]$
+
+#### Exemple
+Pour $n \in \mathbb{N}^{*}$, la subdivision régulière de $[a, b]$ en $n$ intervalles est :
+$$\left( a + i \frac{b-a}{n} \right)_{i = 0}^{n}$$
+
+
+#### Définition
+Pour deux subdivisions $\sigma = (x_{i})_{i = 0}^{n}$ et $\sigma' = (x_{j}')_{j = 0}^{m}$ de $[a, b]$, on dit que $\sigma$ est plus finie que $\sigma'$ ssi 
+$$\{ x_{i} ; i \in [\![0, n]\!] \} \supset \{ x'_{j} ; j \in [\![1, m]\!]\}$$
+
+On note dans ce cours, $\sigma > \sigma '$
