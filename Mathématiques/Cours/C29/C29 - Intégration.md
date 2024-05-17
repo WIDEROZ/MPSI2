@@ -89,9 +89,33 @@ $$\exists \varepsilon > 0, \forall \alpha > 0, \exists x, y \in I, (|x - y|\leq 
 
 En prenant : $\alpha = \frac{1}{n+1}$ pour chaque $n \in \mathbb{N}$, on obtiens deux suites $(x_{n}), (y_{n}) \in I^{\mathbb{N}}$, tel que :
 $$\begin{cases}
-|x_{n}-y_{n}| \leq \frac{1}{n+1} \\
-|f(x_{n}) - f(y_{n})| > \varepsilon
+|x_{n}-y_{n}| \leq \frac{1}{n+1} :\boxed{1}\\
+|f(x_{n}) - f(y_{n})| > \varepsilon :\boxed{2}
 \end{cases}$$
 Comme $(x_{n})$ est une suit à valeurs réelle et bornée, d'après le théorème de Bolzano-Weierstrass on peut en extraire une suite convergente : $(x_{\varphi_{n}})$, dont on note $l$ la limite par passage à la limite dans des inégalités larges : $l \in [a, b]$
 
 La suite $(y_{\varphi(n)})$ est réelle bornée, donc on peut en extraire une suite CV vers $l' \in [a, b]$, $(y_{(\varphi \circ \psi)(n)})$ 
+Comme $(x_{(\varphi \circ \psi)(n)})$ est extraite de la suite convergente $(x_{\varphi(n)})$ on a finalement :
+$$\begin{cases}
+x_{\varphi \circ\psi(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
+x_{\varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}  l'
+\end{cases}$$
+
+$$\begin{array}{rl}
+|y_{\phi(n)}-l| &\leq |y_{\varphi(n)}-x_{\varphi(n)}|+|x_{\varphi(n)}-l| \\
+&\leq \frac{1}{\varphi(n)+1} + |x_{\varphi(n)}-l|
+\end{array}$$
+
+en passant à la limite on a : 
+$y_{\varphi(n)} \underset{n \to +\infty}{\longrightarrow}l$
+
+En passant à la limite dans $\boxed{2}$
+
+
+#### Exemple
+$\exp$ est $UC$ sur $[0, 1]$
+
+# II. Subdivisions et fonctions scalaires
+## 1. Subdivision d'un segment
+#### Définition
+Une subdivision est une famille finie : $\sigma = (x_{i})_{i = 0}^{n}$ d'élément 
