@@ -179,4 +179,29 @@ Il y a même une infinité de raffinements communs à $\sigma$ et $\sigma'$
 
 ## 2. Fonctions escalier
 #### Définition
-Une fonction $f \in \mathbb{K}^{[a, b]}$ est dite en escalier ss'il existe $\sigma = (x_{i})_{i=0}^{n} \in \sum_{a, b}$ tel que pour tout $i \in [\![1, n]\!]$, $f$
+Une fonction $f \in \mathbb{K}^{[a, b]}$ est dite en escalier ss'il existe $\sigma = (x_{i})_{i=0}^{n} \in \sum_{a, b}$ tel que pour tout $i \in [\![1, n]\!]$, $f|_{]x_{i-1}, x_{i}[}$
+soit constante
+une telle subdivision est dite subordonnée à $f$ 
+
+#### Remarque
+les valeurs de $f$ aux points de $\alpha$ n'ont aucun interêt
+
+#### Notation
+L'ensemble des fonctions en escalier est noté : $\mathcal{E}_{\mathbb{K}}([a, b])$
+
+#### Lemme : Raffinement d'une subordonnée
+Si $\sigma$ est subordonnée à $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ alors tout raffinement de $\sigma$ est encore subordonné à $f$
+
+Démonstration : Evidente
+
+#### Corollaire
+Toute $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ admet une infinité de subdivisions subordonnées
+
+#### Propriété
+$\mathcal{E}_{\mathbb{K}}([a, b])$ est un sous espace vectoriel de $\mathcal{B}_{\mathbb{K}}([a, b])$ (ensemble des fonctions bornée sur $[a, b]$ lui même ssev de $\mathbb{K}^{[a, b]}$)
+
+Démonstration : 
+On utilise la caractérisation des sous-espaces vectoriels
+1. $\mathcal{E}_{\mathbb{K}}([a, b]) \subset \mathcal{B}_{\mathbb{K}}([a, b])$ car une fonction en escalier ne prend q'un nombre fini de valeurs (nombre fini d'intervalles $]x_{i-1}, x_{i}[$ et de points de subdivisions)
+2. $0_{\mathbb{K}^{[a, b]}} \in \mathcal{E}([a, b])$
+3. 
