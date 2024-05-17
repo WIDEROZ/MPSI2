@@ -126,6 +126,12 @@ Une subdivision est une famille finie : $\sigma = (x_{i})_{i = 0}^{n}$ d'éléme
 $$a = x_{0} < x_{1} < x_{2} < \dots < x_{n} = b$$
 Excal 2.
 
+#### Notation
+On note son ensemble : 
+$$\begin{array}{c}
+\sum_{a, b}
+\end{array}$$
+
 #### Définition
 Le pas de cette subdivision est : 
 $$\mathrm{pas}(\sigma) = \max_{1 \leq i \leq n}|x_{i}-x_{i-1}|$$
@@ -141,5 +147,36 @@ $$\left( a + i \frac{b-a}{n} \right)_{i = 0}^{n}$$
 #### Définition
 Pour deux subdivisions $\sigma = (x_{i})_{i = 0}^{n}$ et $\sigma' = (x_{j}')_{j = 0}^{m}$ de $[a, b]$, on dit que $\sigma$ est plus finie que $\sigma'$ ssi 
 $$\{ x_{i} ; i \in [\![0, n]\!] \} \supset \{ x'_{j} ; j \in [\![1, m]\!]\}$$
+Et on dit que $\sigma$ est un raffinement de $\sigma'$
 
-On note dans ce cours, $\sigma > \sigma '$
+#### Notation uniquement pour ce cours
+On note dans ce cours, $\sigma \succ \sigma '$ 
+
+Comme conséquence de fait que l'utilisation est une relation d'ordre sur $\mathcal{P}([a,b])$ on a :
+
+#### Propriété
+La relation $\succ$ est un ordre sur $\sum_{a, b}$ non total
+
+#### Lemme IMPORTANT
+$$\forall \sigma, \sigma' \in \begin{array}{c}
+\sum_{a, b}
+\end{array}, \exists \sigma '' \in \begin{array}{c}
+\sum_{a, b}
+\end{array}, \begin{cases}
+\sigma'' \succ \sigma \\
+\sigma'' \succ \sigma'
+\end{cases}$$
+
+Démonstration : 
+On prend deux éléments de $\sum_{a, b}$, 
+$$\sigma = (x_{i})_{i = 0}^{n} \text{ et } \sigma' = (x_{j})_{j=0}^{m}$$
+On numérote dans l'ordre croissant en partant de $0$ les éléments de : 
+$$\{ x_{i} ; i \in [\![0,n]\!] \} \cup \{ x_{j}; j \in [\![0, m]\!] \}$$
+et on obtiens $\sigma''$ qui convient
+
+#### Remarque
+Il y a même une infinité de raffinements communs à $\sigma$ et $\sigma'$
+
+## 2. Fonctions escalier
+#### Définition
+Une fonction $f \in \mathbb{K}^{[a, b]}$ est dite en escalier ss'il existe $\sigma = (x_{i})_{i=0}^{n} \in \sum_{a, b}$ tel que pour tout $i \in [\![1, n]\!]$, $f$
