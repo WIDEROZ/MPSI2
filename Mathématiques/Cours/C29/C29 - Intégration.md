@@ -26,14 +26,33 @@ $$\forall \varepsilon >0, \exists \alpha > 0, \forall x, y \in I, | x - y| \leq 
 #### Exercice
 Ecrire la continuité de $f$ en $x_{0} \in I$, puis la continuité de $f$ sur $I$ en langage formel, 
 
-$$\forall \varepsilon > 0, \exists \alpha > 0,\forall x \in I, |x - x_{0}| \leq \alpha \Rightarrow |f(x)-f(x_{0})| \leq \varepsilon $$
+$f$ est continue en $x_{0}$ ssi
+$$\forall \varepsilon > 0, \exists \alpha > 0,\forall y \in I, |y - x_{0}| \leq \alpha \Rightarrow |f(y)-f(x_{0})| \leq \varepsilon $$
 
+$f$ est continue sur $I$ ssi :
+$$\forall x \in I, \forall \varepsilon >0, \exists \alpha > 0, \forall y \in I, |y-x| \leq \alpha \Rightarrow|f(y)-f(x)| \leq \varepsilon$$
+cette proposition est équivalente a celle-ci : 
+$$\forall \varepsilon > 0, \forall x \in I, \exists \alpha > 0, \forall y \in I, |y-x| \leq \alpha \Rightarrow|f(y)-f(x)| \leq \varepsilon$$
+
+#### REMARQUE SUR LES QUANTIFICATEURS
+On peut échanger deux quantificateurs si ils sont de même type
+
+Aussi si on a par exemple : 
+$$\exists A, B \in \mathbb{R}, \forall n \in \mathbb{N}, u_{n} = Ar_{1}^{n}+Br_{2}^{n}$$
+Qui est juste mais 
+
+#### Rappel
 ###### Pour les suites :
 $$\forall \varepsilon > 0, \exists N \in \mathbb{N}, \forall n \geq N, |u_{n} -l| \leq \varepsilon$$
-Sont équivalentes
+
 
 ###### Pour les fonctions
 $$\forall V \in \mathcal V(l), \exists U \in \mathcal V(+ \infty), f(U) \subset V$$
 $$\forall V \in \mathcal V(l), \exists U \in \mathcal V(a), f(U) \subset V$$
 
-$$\forall \varepsilon > 0, \exists \alpha > 0, f([a- \alpha, a+\alpha] \cap I) \subset [-l\varepsilon, l+\varepsilon]$$
+$$\forall \varepsilon > 0, \exists \alpha > 0, f([a- \alpha, a+\alpha] \cap I) \subset [l-\varepsilon, l+\varepsilon], $$
+$$|x-a| = \alpha \Rightarrow |f(x)-l| \leq \varepsilon$$
+
+$$\forall \varepsilon > 0, \exists \alpha > 0, \forall x \in I, |x-a| \leq \alpha \Rightarrow |f(x)-l| \leq \varepsilon$$
+
+les deux propositions sont équivalentes
