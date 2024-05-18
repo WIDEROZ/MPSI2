@@ -353,4 +353,27 @@ Les deux derniers résultats sont immédiats une fois qu'on a trouvé le premier
    
    Donc, $f$ est bornée
 2. La fonction nulle sur $[a, b]$ est $\mathrm{CPM}$ donc, 
-   $$\mathrm{CPM}_{\mathbb{K}}()$$
+   $$\mathrm{CPM}_{\mathbb{K}}([a, b]) \neq \varnothing$$
+3. Soient $f, g \in \mathrm{CPM}_{\mathbb{K}}([a, b])$ et $\lambda \in \mathbb{K}$, 
+   Soient $\sigma, \sigma' \in \sum_{a, b}$ subordonnées à $f$ et $g$
+   Par le lemme de raffinement commun, il existe $\sigma'' \in \sum_{a, b}$ tel que $\begin{cases} \sigma'' \succ \sigma \\ \sigma'' \succ \sigma'\end{cases}$
+   Il est clair que $\sigma ''$ est subordonné à la fois à $f$ et à $g$
+   On la note : $\sigma'' = (x''_{k})_{k = 0}^{p}$
+   Alors, pour tout $k \in [\![1, p]\!]$, 
+   $$f|_{]x''_{k-1}, x''[} \text{ et }g|_{]x''_{k-1}, x''_{k}[}$$
+   se prolongent en des fonctions continues
+   
+   
+   
+   
+   Ainsi, $f + \lambda g$ est $\mathrm{CPM}$
+   
+#### Remarque
+Comme $\mathrm{CPM}_{\mathbb{K}}([a, b])$ contient la fonction constante $1$ et est stable par produit (de même que pour les $CL$), $\mathrm{CPM}_{\mathbb{K}}([a, b])$ est une sous algèbre de $\mathcal{B}_{\mathbb{K}}([a, b])$
+
+## 2. Intégrale d'une fonction $\mathrm{CPM}$ sur un segment
+### CV uniforme d'une suite de fonction
+#### Exercice
+1. Dessiner le graphe d'une fonction continue sur $[a, b]$
+2. Prendre $\varepsilon >0$ (pas trop grand) tracer $\mathcal{G}_{f-\varepsilon}$ et $\mathcal{G}_{f+\varepsilon}$
+3. Tracer le graphe de 
