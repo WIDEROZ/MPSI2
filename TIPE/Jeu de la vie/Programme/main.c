@@ -89,6 +89,8 @@ int main(int argc, char **argv){
     SDL_Rect gridDestRect;
     SDL_Rect toolbarSrcRect;
     SDL_Rect toolbarDestRect;
+    // egesgesg
+    
 
     camera.x = 0;
     camera.y = 0;
