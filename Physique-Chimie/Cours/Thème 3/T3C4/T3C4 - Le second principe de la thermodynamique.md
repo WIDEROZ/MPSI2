@@ -68,19 +68,9 @@ Coefficient de compressibilité isentropique :
 $$\chi_{S} = -\frac{1}{V} \left.\frac{\partial V}{\partial P}\right)_{S}$$
 
 #### Propriété
-Avec les hypothèses ici wtf c le bordel
 $$\chi_{T}=\frac{1}{P}$$
 
 Démonstration :
-$$PV = nRT$$
-$$\begin{array}{rl}
-\text{isotherme }&\Leftrightarrow PV = \text{cte} \\
-&\Leftrightarrow P = \frac{cte}{V}
-\end{array}$$
-isentropique ssi loi de LaPlace
-$$P = \frac{\text{cte}}{V^{\gamma}}$$
-$\gamma > 1$
-___
 $\Delta T = 0$
 $$\chi_{T} = -\frac{1}{V} \left.\frac{\partial V}{\partial P}\right)_{T}$$
 or $V = \frac{\text{cte}}{P}$
