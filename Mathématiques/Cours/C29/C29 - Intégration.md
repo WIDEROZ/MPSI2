@@ -299,3 +299,26 @@ $$\mathrm{CPM}_{\mathbb{K}}([a, b])$$
 
 #### Exemple
 Excal 3
+Est continue par morceaux
+Excal 4
+ne l'est pas
+Excal 5.
+$$x \mapsto \begin{cases}
+\text{si } \sin \left( \frac{1}{x} \right) \text{si } x \in ]0, \frac{1}{\pi}] \\
+0 \text{ si } x =0
+\end{cases}$$
+Ne l'est pas aussi
+
+#### Remarque
+Les valeurs aux points de $\sigma$ ne jouent aucuns rôle dans ce qui suit
+
+Il est évident que : 
+$$\mathcal{E}_{\mathbb{K}}([a, b]) \subset \mathrm{CPM}_{\mathbb{K}}([a, b])$$
+$$\mathcal{C}^{0}_{\mathbb{K}}([a, b]) \subset \mathrm{CPM}([a, b])$$
+#### Exemple
+La fonction : 
+$$\mathrm{sgn} : x \mapsto \begin{cases}
+0 \text{ si } x = 0 \\
+\frac{x}{|x|} \text{ si } x \neq 0
+\end{cases}$$
+c'est $\mathrm{sgn}\mathrm{CPM}$
