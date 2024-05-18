@@ -205,3 +205,19 @@ On utilise la caractérisation des sous-espaces vectoriels
 #### Remarque
 En fait $\mathcal{E}_{\mathbb{K}}([a, b])$ est une sous-algèbre de $\mathcal{B}_{\mathbb{K}}([a, b])$ 
 
+#### Définition
+Soit $f \in \mathcal{E}_{\mathbb{K}}([a, b])$, 
+et $\sigma \in \sum_{a, b}$, subordonnée à $f$, 
+Pour $i \in [\![1, n]\!]$, 
+On pose : 
+$$y_{i} = f\left( \frac{x_{i-1}-x_{i}}{2} \right)$$
+
+On définit :
+$$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} (\in \mathbb{K})$$
+
+Il reste à montrer que $I(f, \sigma)$ ne dépend pas de $\sigma$ choisi (subordonné à $f$)
+
+#### Théorème
+Dans la définition précédente, $I(f, \sigma)$ ne dépend pas de la subdivision $\sigma$ subordonné à $f$.
+
+##### Lemme
