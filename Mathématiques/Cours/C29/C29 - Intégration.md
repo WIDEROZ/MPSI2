@@ -376,4 +376,9 @@ Comme $\mathrm{CPM}_{\mathbb{K}}([a, b])$ contient la fonction constante $1$ et 
 #### Exercice
 1. Dessiner le graphe d'une fonction continue sur $[a, b]$
 2. Prendre $\varepsilon >0$ (pas trop grand) tracer $\mathcal{G}_{f-\varepsilon}$ et $\mathcal{G}_{f+\varepsilon}$
-3. Tracer le graphe de 
+3. Tracer le graphe d'une fonction en escalier $\varphi$ tq $\underset{x \in [a, b]}{\sup}|\varphi(x)-f(x)|\leq \varepsilon$ au crayon
+4. Trouver au stylo $\mathcal{G}_{\varphi-\varepsilon}$ et $\mathcal{G}_{\varphi+\varepsilon}$
+5. Déterminer graphiquement un intervalle graphiquement un encadrement de $\int _{a}^{b}f$ en fonction de $I(\varphi)$
+6. Que dire dans le cas d'une fonction $f$ $\mathrm{CPM}$
+
+EXCALIDRAW 7.
