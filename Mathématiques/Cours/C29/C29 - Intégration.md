@@ -343,4 +343,14 @@ $$\mathcal{E}_{\mathbb{K}}([a, b]) \underset{sev}{\subset} \mathrm{CPM}_{\mathbb
 $$\mathcal{C}_{\mathbb{K}}^{0}([a, b]) \underset{sev}{\subset} \mathrm{CPM}([a, b])$$
 
 Démonstration : 
-Les deux derniers résultats sont immédiats une fois qu'on a trouvé le premier puisqu'on connait déjà les inclusions et le fait que $\mathcal{E}_{\mathbb{K}}([a, b])$ et $\mathbb{C}_{\mathbb{K}}^{0}([a, b])$ sont deux sous espaces vec
+Les deux derniers résultats sont immédiats une fois qu'on a trouvé le premier puisqu'on connait déjà les inclusions et le fait que $\mathcal{E}_{\mathbb{K}}([a, b])$ et $\mathbb{C}_{\mathbb{K}}^{0}([a, b])$ sont deux sous espaces vectoriels de $\mathcal{B}_\mathbb{K}([a, b])$.
+
+1. Soit $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$, $\sigma = (x_{i})_{i=0}^{n}$ subordonnée à $f$ et on note encore $\forall i \in [\![1, n]\!], f_{i} = f\mid_{]x_{i-1}, x_{i}[}$ 
+   Comme $f$ est $\mathrm{CPM}$ les $f_{i}$ sont prolongeables en des fonctions continues $\tilde{f}_{i}$ définie sur $[x_{i}, x_{i}]$
+   Par le théorème des bornes atteintes, les $\tilde{f}_{i}$ sont bornées ie il existe des $M_{i} \geq 0$ tel que $|\tilde{f}_{i}| \leq M_{i}$ 
+   On a alors, 
+   $$|f|\leq \max(\max_{1\leq i\leq n}(M_{i}), \max_{0 \leq i \leq n}(f(x_{i})))$$
+   
+   Donc, $f$ est bornée
+2. La fonction nulle sur $[a, b]$ est $\mathrm{CPM}$ donc, 
+   $$\mathrm{CPM}_{\mathbb{K}}()$$
