@@ -452,4 +452,5 @@ on dit que la suite converge simplement ou converge ponctuellement vers $g$
 5. Plus simple sur $D=\mathbb{R}$
    $x \mapsto \frac{x}{n}$ convient mais elle n'est pas bornée
    $g_{n}(x) = \min\left( 1, \max\left( \frac{x}{n}, -1 \right) \right)$
-   
+
+
