@@ -398,6 +398,25 @@ $D$ est non vide, donc, $A$ est non vide,
 
 Soit $M_{1}$ un majorant de $|f|$, $M_{2}$ un majorant de $|g|$
 $$|f(x)-g(x)| \leq |f(x)|+|g(x)| \leq M_{1} + M_{2}$$
+Donc, $A$ est majoré 
+Ainsi, elle admet une borne supérieure dans $\mathbb{R}$
+qu'on note : $\underset{x \in D}{\sup} |f(x)-g(x)|$
 
 ###### Rappel
 Toute partie non vide et majorée de $\mathbb{R}$ admet une borne supérieure. 
+___
+##### Métamaths
+Soit $f$ $\mathrm{CPM}$ sur $[a, b]$ 
+On raisonne par analyse synthèse
+###### Méta-analyse
+Supposons qu'on sache donner un sens à $\int_{a}^{b} f$
+Si $\varphi$ est un escalier, par l'exo 1 : 
+$$I(\phi)-(b-a)\sup_{[a, b]}|\varphi-f| \leq \int_{a}^{b}f \leq I(\varphi) + (b-a)\sup_{[a, b]}|\varphi-f|$$
+Si on peut obtenir des quantités $\underset{D}{\sup}|\varphi-f|$ aussi petites qu'on veut, on connaîtra $\int _{a}^{b}f$ par passage à la limite.
+
+###### Méta-synthèse
+On approche $f$ par une suite de fonctions en escaliers $(\varphi_{n})$ tel que $\underset{[a, b]}{\sup}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} 0$
+Une belle approximation est appelé une appropriation "uniforme" de $f$. Pour cela on montre d'abord qu'il exite de telles approximations, puis que pour une telle suite
+___
+
+#### Définition : Conver
