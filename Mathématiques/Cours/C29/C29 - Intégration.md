@@ -448,4 +448,8 @@ on dit que la suite converge simplement ou converge ponctuellement vers $g$
    et celle ci aussi : 
 3. On a juste échangé deux quantificateurs le rang de $N$ qu'on choisit dans la convergence simple dépend de $x$
    Ainsi, $CVU \Rightarrow CVS$ mais $CVS \Rightarrow CVU$ a priori
-4. 
+4. Excal 8
+5. Plus simple sur $D=\mathbb{R}$
+   $x \mapsto \frac{x}{n}$ convient mais elle n'est pas bornée
+   $g_{n}(x) = \min\left( 1, \max\left( \frac{x}{n}, -1 \right) \right)$
+   
