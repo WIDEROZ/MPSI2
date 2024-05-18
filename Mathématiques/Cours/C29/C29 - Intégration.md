@@ -178,7 +178,7 @@ soit constante
 une telle subdivision est dite subordonnée à $f$ 
 
 #### Remarque
-les valeurs de $f$ aux points de $\alpha$ n'ont aucun interêt
+Les valeurs de $f$ aux points de $\sigma$ n'ont aucun intérêt.
 
 #### Notation
 L'ensemble des fonctions en escalier est noté : $\mathcal{E}_{\mathbb{K}}([a, b])$
@@ -234,7 +234,7 @@ x'_{i_{0}}=z \\
 On a alors, 
 Pour $i \in [\![1, n+1]\!]$ on pose : $y'_{i} = f\left( \frac{x'_{i-1}+x'_{i}}{2} \right)$ 
 $$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} $$
-$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} $$
+$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}}$$
 $$+ \sum_{i = i_{0}+1}^{n}(x_{i}-x_{i-1})y_{i}$$
 Comme $(x_{i_{0}}-x_{i_{0}-1}) = (z - x_{i_{0}-1})(x_{i_{0}}-z)$, 
 $$\sum_{i = 1}^{i_{0}-1}(x'_{i}-x'_{i-1})y'_{i} + (x_{i_{0}}'-x_{i_{0}-1}')y_{i_{0}}+(x_{i_{0}+1}'-x_{i_{0}}')y_{i_{0}}$$
@@ -287,3 +287,15 @@ Les nombres $I(f, \sigma)$ avec $\sigma$ subordonné à $f$ sont tous égaux par
 Démonstration en exo.
 
 # IV. Intégrale d'une fonction continue par morceaux
+## 1. Fonctions continues par morceaux
+#### Définition
+Une fonction $f \in \mathbb{K}^{[a, b]}$ est dite continue par morceaux, $\mathrm{CPM}$ ss'il existe $\sigma = (x_{i})_{i = 0}^{n} \in \sum_{a, b}$ telle que les restrictions: 
+$$f_{i} = f|_{]x_{i-1}, x_{i}[} (\text{ avec }i \in [\![1, n]\!])$$
+soient continues sur $]x_{i-1}, x_{i}[$ et ils admettent des limites à droite en $x_{i+1}$ et à gauche en $x_{i}$
+
+Cela équivaut à ce que pour tout $i \in [\![1,n]\!]$, la restriction $f_{i}$ sont prolongeables par continuité sur $[x_{i-1}, x_{i}]$
+On dit qu'une telle subdivision est subordonnée à la fonction $\mathrm{CPM}$ $f$ L'ensembles des fonctions $\mathrm{CPM}$ sur $[a, b]$ sera noté : 
+$$\mathrm{CPM}_{\mathbb{K}}([a, b])$$
+
+#### Exemple
+Excal 3

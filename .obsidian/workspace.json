@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C29/C29.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C29/C29.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Mathématiques/Cours/C29/C29.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "df43177f719899b6",
+  "active": "cd1b2b01ebc8d797",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.md",
     "Mathématiques/Cours/C29",
