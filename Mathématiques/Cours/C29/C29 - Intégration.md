@@ -234,7 +234,8 @@ x'_{i_{0}}=z \\
 On a alors, 
 Pour $i \in [\![1, n+1]\!]$ on pose : $y'_{i} = f\left( \frac{x'_{i-1}+x'_{i}}{2} \right)$ 
 $$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} $$
-$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} +  \sum_{i = + (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}}i_{0}+1}^{n}(x_{i}-x_{i-1})y_{i}$$
+$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} $$
+$$+ \sum_{i = i_{0}+1}^{n}(x_{i}-x_{i-1})y_{i}$$
 Comme $(x_{i_{0}}-x_{i_{0}-1}) = (z - x_{i_{0}-1})(x_{i_{0}}-z)$, 
 $$\sum_{i = 1}^{i_{0}-1}(x'_{i}-x'_{i-1})y'_{i} + (x_{i_{0}}'-x_{i_{0}-1}')y_{i_{0}}+(x_{i_{0}+1}'-x_{i_{0}}')y_{i_{0}}$$
 $$+ \sum_{i =i_{0}+1}^{n}(x_{i+1}'-x'_{i})y'_{i+1} $$
@@ -269,6 +270,20 @@ Les nombres $I(f, \sigma)$ avec $\sigma$ subordonné à $f$ sont tous égaux par
 #### Proposition
 1. Linéarité
    L'application : 
-   $$I_{a, b}: \begin{cases}
+   $$I_{a, b}: \begin{cases} \mathcal{E}_{\mathbb{K}}([a, b]) \to \mathbb{K} \\ f \mapsto I(f)\end{cases}$$
+   est une forme linéaire. 
+2. Positivité : 
+   $$\forall f \in\mathcal{E}_{\mathbb{R}}([a, b]), (f \geq 0) \Rightarrow I(f) \geq 0$$
+3. Croissance : 
+   $$\forall f, g \in \mathcal{E}_{\mathbb{R}}([a, b]), (f \leq g \Rightarrow I(f) \leq I(g))$$
+4. Inégalité de norme : 
+   $$\forall f \in \mathcal{E}_{\mathbb{K}}([a, b]), |f| \in \mathcal{E}_{\mathbb{K}}([a, b]) \text{ et } |I(f)| \leq I(|f|)$$
+5. Relation de Chasles : 
+   Pour $f \in \mathcal{E}_{\mathbb{K}}([a, b])$, et $c \in ]a, b[$, 
+   On a : 
+   $$\begin{cases}f|_{[a, c]} \in \mathcal{E}_{\mathbb{K}}([a, c]) \\ f|_{[c, b]} \in \mathcal{E}_{\mathbb{K}}([c, b])\end{cases}$$
+   $$I(f) = I(f|_{[a, c]} )+ I(f|_{[c, b]})$$
 
-\end{cases}$$
+Démonstration en exo.
+
+# IV. Intégrale d'une fonction continue par morceaux
