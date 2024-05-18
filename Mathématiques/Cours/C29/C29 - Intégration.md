@@ -385,3 +385,19 @@ EXCALIDRAW 7.
 
 5. On voit que que $\varphi -\varepsilon \leq f \leq \varphi$ d'ou $I(\varphi) - (b-a)\varepsilon \leq \int _{a}^{b}f q= I(\varphi) + (b-a)\varepsilon$
 6. Idem pour chaque morceau
+
+
+#### Exercice
+Soient $D \subset \mathbb{R}$ non vide et $f, g \in \mathcal{B}_{\mathbb{K}}(D)$, 
+Montrer que 
+$$A = \{ |f(x)-g(x)|; x \in D\}$$
+possède une borne supérieure dans $\mathbb{R}$
+
+On applique la propriété de la borne supérieur : 
+$D$ est non vide, donc, $A$ est non vide, 
+
+Soit $M_{1}$ un majorant de $|f|$, $M_{2}$ un majorant de $|g|$
+$$|f(x)-g(x)| \leq |f(x)|+|g(x)| \leq M_{1} + M_{2}$$
+
+###### Rappel
+Toute partie non vide et majorée de $\mathbb{R}$ admet une borne supérieure. 
