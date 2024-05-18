@@ -441,5 +441,11 @@ on dit que la suite converge simplement ou converge ponctuellement vers $g$
 
 
 1. $$\forall x \in D, \forall \varepsilon >0, \exists N \in \mathbb{N}, \forall n \geq N ,|g_{n}(x) - g(x)| \leq \varepsilon$$
-2. $$\forall n \in \mathbb{N}, \forall \varepsilon > 0, \exists \alpha > 0, \forall x, y \in D, |x-y| \leq \alpha \Rightarrow |g_{n}(x)-g(y)| \leq \varepsilon$$
-3. 
+2. $$\forall \varepsilon > 0, \exists \alpha > 0, \forall n \geq N, \sup_{D}|g_{n}-g| \leq \varepsilon$$
+   Ici cela veut dire que $\varepsilon$ majore $A=  \{ |g_{n}(x)-g(x)| ; X \in D \}$ 
+   Alors, cette proposition est équivalente : 
+   $$\forall \varepsilon > 0, \exists N \in \mathbb{N}, \forall n > N, \forall x \in D, |g_{n}(x) -g(x)| \leq \varepsilon$$
+   et celle ci aussi : 
+3. On a juste échangé deux quantificateurs le rang de $N$ qu'on choisit dans la convergence simple dépend de $x$
+   Ainsi, $CVU \Rightarrow CVS$ mais $CVS \Rightarrow CVU$ a priori
+4. 
