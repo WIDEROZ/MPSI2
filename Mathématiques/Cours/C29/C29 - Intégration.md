@@ -416,7 +416,21 @@ Si on peut obtenir des quantités $\underset{D}{\sup}|\varphi-f|$ aussi petites 
 
 ###### Méta-synthèse
 On approche $f$ par une suite de fonctions en escaliers $(\varphi_{n})$ tel que $\underset{[a, b]}{\sup}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} 0$
-Une belle approximation est appelé une appropriation "uniforme" de $f$. Pour cela on montre d'abord qu'il exite de telles approximations, puis que pour une telle suite
+Une belle approximation est appelé une appropriation "uniforme" de $f$. Pour cela on montre d'abord qu'il exite de telles approximations, puis que pour une telle suite, $I(\varphi_{n})$ convergente, puis que sa limite ne dépend pas de la suite $(\varphi_{n})$ choisie et alors on définit
+$$\int _{a}^{b} = \lim_{ n \to \infty }I(\varphi_{n})  $$
+qui est indépendant de la suite $(\varphi_{n})$ choisie
 ___
 
-#### Définition : Conver
+#### Définition : Convergence uniforme
+Soit $D \subset \mathbb{R}$, non vide quelconque
+Pour une suite $(g_{n})$ de fonctions bornées sur $D$ et $g$ une fonction bornées sur $D$ et $g$ une fonction bornée sur $D$ (à valeurs dans $\mathbb{K}$) on dit que $(g_{n})$ converge uniformément sur $D$ vers $g$ ssi 
+$$\sup_{x \in D}|g_{n}(x)-g(x)| \underset{n \to +\infty}{\longrightarrow}  0$$
+Noté
+$$\sup_{D}|g_{n}-g|$$
+
+#### Exercice
+Avec les notations, lorsque pour tout $x \in D$, 
+$$\lim_{ n \to \infty } g_{n}(x)=g(x)$$
+on dit que la suite converge simplement ou converge ponctuellement vers $g$
+
+1. Ecrire avec des quantificateurs de
