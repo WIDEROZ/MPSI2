@@ -186,6 +186,7 @@ $$T_{f} = \frac{C_{1}T_{1}+C_{2}T_{2}}{C_{1}+C_{2}}$$
 $$\Delta S  = \Delta S_{1} + \Delta S_{2} = C_{1}\ln\left( \frac{T_{f}}{T_{1}} \right)+ C_{2}\ln\left( \frac{T_{f}}{T_{2}} \right)$$
 
 Hypothèse : $C_{1} = C_{2} = C$
+d'après la question précédente : 
 $$T_{f} = \frac{T_{1}+T_{2}}{2}$$
 On simplifie : 
 $$\Delta S=  C\left( \ln\left( \frac{T_{f}}{T_{1}}\right)+ \ln\left( \frac{T_{f}}{T_{2}} \right) \right) = C\ln\left( \frac{T_{f}^{2}}{T_{1}T_{2}} \right)$$
