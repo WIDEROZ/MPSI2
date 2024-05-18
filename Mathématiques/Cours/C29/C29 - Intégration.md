@@ -216,8 +216,43 @@ On définit :
 $$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} (\in \mathbb{K})$$
 
 Il reste à montrer que $I(f, \sigma)$ ne dépend pas de $\sigma$ choisi (subordonné à $f$)
+___
+###### Lemme 2
+Si $\sigma$ est subordonnée à $f$ et $\sigma'$est obtenue à partir de $\sigma$ par ajout d'un point alors, 
+$$I(f, \sigma') = I(f, \sigma)$$
+
+Démonstration : 
+Soit $\sigma \in \sum_{a, b}$ subordonnée à $f$, et $z \in [a, b]$ qui n'est pas dans $\sigma$. 
+Il existe un unique $i_{0} \in [\![1, n]\!]$ tel que $z \in ]x_{i_{0}-1}, x_{i_{0}}[$
+La subdivision $\sigma'$ obtenue par ajout de $z$ s'écrit $\sigma' = (x_{i}')_{i= 0}^{n+1}$ avec 
+$$\begin{cases}
+\forall i \in [\![0, i_{0}-1]\!] x_{i}'=x_{i} \\
+x'_{i_{0}}=z
+\end{cases}$$
+
+
+##### Lemme 1
+Si $\sigma$ est subordonné à $f$ et $\sigma'$ est plus fine que $\sigma$, 
+alors
+$$I(f, \sigma')=I(f, \sigma)$$
+
+Démonstration : Par recurrence immédiate à partir du lemme $2$
+
+
 
 #### Théorème
 Dans la définition précédente, $I(f, \sigma)$ ne dépend pas de la subdivision $\sigma$ subordonné à $f$.
 
-##### Lemme
+Démonstration : 
+Soit $\sigma, \sigma'$ subordonné à $f$, il existe $\sigma'' \in \sum_{a, b}$ tq $\begin{cases} \sigma'' \succ \sigma \\ \sigma '' \succ \sigma'\end{cases}$
+Par le lemme $1$ : 
+$$I(f, \sigma), I(f, \sigma') = I(f, \sigma'')$$
+
+
+
+
+
+
+
+
+___
