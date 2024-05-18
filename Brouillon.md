@@ -72,3 +72,8 @@ $$\int_{T_{i}}^{T_{f}} \frac{R}{\gamma-1}dT = -\int_{V_{i}}^{V_{f}}  dV$$
 
 ## 3.
 $$\Delta U = W = - \int _{V_{i}}^{V_{f}} P_{ext} \, dV = P_{i}(V_{i}-V_{f})$$
+
+
+
+Soit $V = V_{l} + V_{v}$ le volume total du système, $V_{l}$ le volume en liquide et $V_{v}$ le volume en vapeur. 
+$$x_{v} = \frac{m_{v}}{m_{l}+m_{v}} = \frac{V_{v}v_{v}}{}$$
