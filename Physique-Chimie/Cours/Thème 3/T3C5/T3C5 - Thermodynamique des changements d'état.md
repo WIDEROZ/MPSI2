@@ -37,7 +37,7 @@ Excal 1.
 Lors d'un changement d'état d'un corps pur à pression constante, la température est constante
 
 #### Propriété
-Pou un système thermodynamique à l'équilibre diphasé, il existe une loi reliant la pression $P$ à la température $T$ 
+Pour un système thermodynamique à l'équilibre diphasé, il existe une loi reliant la pression $P$ à la température $T$ 
 Cette loi s'exprime grace à deux paramètres intensifs : 
 - Les titres massiques des phases
 
@@ -62,7 +62,7 @@ Diagramme du cours
 On est a un état initial : $T_{1}, P_{0}, v_{0}$
 La phase est uniquement du gaz
 - On comprime le gaz de façon isotherme : 
-  $Pv_{m} = nRT = \text{cte}$ alors, $\boxed{P = \frac{\text{cte}}{v_{m}}}$ 
+  $Pv_{m} = RT = \text{cte}$ alors, $\boxed{P = \frac{\text{cte}}{v_{m}}}$ 
 - $R$ : point de rosée qui correspond à la première apparition du liquide la pression a ce point est nommée pression de vapeur saturante : $P_{sat}(T)$
 - $E$ : point d'ébullition, correspond a la disparition de la dernière bulle de gaz
 - Le segment : $ER$ est le palier de changement d'état
