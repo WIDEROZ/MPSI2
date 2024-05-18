@@ -321,4 +321,26 @@ $$\mathrm{sgn} : x \mapsto \begin{cases}
 0 \text{ si } x = 0 \\
 \frac{x}{|x|} \text{ si } x \neq 0
 \end{cases}$$
-c'est $\mathrm{sgn}\mathrm{CPM}$
+$\mathrm{sgn} \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
+Et aussi $\mathrm{sgn}\circ \sin$ est aussi $\mathrm{CPM}$ sur tout son segment
+
+Excal 6.
+
+### Extension de la définition
+#### Définition
+Pour un intervalle non trivial $I$ on dit que $f$ est $\mathrm{CPM}$ sur $I$ ssi elle est $\mathrm{CPM}$ sur tout segment de $I$ 
+
+#### Remarque
+
+
+
+#### Notation
+On note $\mathrm{CPM}_{\mathbb{K}}(I)$ l'ensemble de ces fonction
+
+#### Propriété
+$$\mathrm{CPM}_{\mathbb{K}}([a, b])\underset{sev}{\subset} \mathcal{B}_{\mathbb{K}}([a, b])$$
+$$\mathcal{E}_{\mathbb{K}}([a, b]) \underset{sev}{\subset} \mathrm{CPM}_{\mathbb{K}}([a,b])$$
+$$\mathcal{C}_{\mathbb{K}}^{0}([a, b]) \underset{sev}{\subset} \mathrm{CPM}([a, b])$$
+
+Démonstration : 
+Les deux derniers résultats sont immédiats une fois qu'on a trouvé le premier puisqu'on connait déjà les inclusions et le fait que $\mathcal{E}_{\mathbb{K}}([a, b])$ et $\mathbb{C}_{\mathbb{K}}^{0}([a, b])$ sont deux sous espaces vec
