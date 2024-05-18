@@ -433,4 +433,13 @@ Avec les notations, lorsque pour tout $x \in D$,
 $$\lim_{ n \to \infty } g_{n}(x)=g(x)$$
 on dit que la suite converge simplement ou converge ponctuellement vers $g$
 
-1. Ecrire avec des quantificateurs de
+1. Ecrire avec des quantificateurs cette convergence simple
+2. Ecrire avec des quantificateurs $g_{n} \overset{\mathrm{CVU}}{\underset{D}{\longrightarrow}} g$
+3. Comparer logiquement ces deux définitions
+4. Dessiner un exemple de $(g_{n})$ qui CVU vers $0$
+5. Dessiner un exemple de $(g_{n})$ qui CVS pas uniformément vers $0$ sur $D = [0, 1]$
+
+
+1. $$\forall x \in D, \forall \varepsilon >0, \exists N \in \mathbb{N}, \forall n \geq N ,|g_{n}(x) - g(x)| \leq \varepsilon$$
+2. $$\forall n \in \mathbb{N}, \forall \varepsilon > 0, \exists \alpha > 0, \forall x, y \in D, |x-y| \leq \alpha \Rightarrow |g_{n}(x)-g(y)| \leq \varepsilon$$
+3. 
