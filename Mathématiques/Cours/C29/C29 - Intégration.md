@@ -226,10 +226,17 @@ Soit $\sigma \in \sum_{a, b}$ subordonnée à $f$, et $z \in [a, b]$ qui n'est p
 Il existe un unique $i_{0} \in [\![1, n]\!]$ tel que $z \in ]x_{i_{0}-1}, x_{i_{0}}[$
 La subdivision $\sigma'$ obtenue par ajout de $z$ s'écrit $\sigma' = (x_{i}')_{i= 0}^{n+1}$ avec 
 $$\begin{cases}
-\forall i \in [\![0, i_{0}-1]\!] x_{i}'=x_{i} \\
-x'_{i_{0}}=z
+\forall i \in [\![0, i_{0}-1]\!], x_{i}'=x_{i} \\
+x'_{i_{0}}=z \\
+\forall i \in [\![i_{0}+1, n+1]\!], x'_{i} = x_{i-1}
 \end{cases}$$
 
+On a alors, 
+Pour $i \in [\![1, n+1]\!]$ on pose : $y'_{i} = f\left( \frac{x'_{i-1}+x'_{i}}{2} \right)$ 
+$$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} $$
+$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} +  \sum_{i = 1}^{i_{0}+1}(x_{i}-x_{i-1})y_{i}$$
+Comme $(x_{i_{0}}-x_{i_{0}-1}) = (z - x_{i_{0}-1})(x_{i_{0}}-z)$, 
+$$\sum_{i = 1}^{i_{0}-1}(x'_{i}-x'_{i-1})y'_{i} + (x_{i_{0}}'-x_{i_{0}-1}')y_{i_{0}}+(x_{i_{0}+1}'-x_{i_{0}})y_{i_{0}}$$
 
 ##### Lemme 1
 Si $\sigma$ est subordonné à $f$ et $\sigma'$ est plus fine que $\sigma$, 
