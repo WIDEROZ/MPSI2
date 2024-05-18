@@ -234,9 +234,15 @@ x'_{i_{0}}=z \\
 On a alors, 
 Pour $i \in [\![1, n+1]\!]$ on pose : $y'_{i} = f\left( \frac{x'_{i-1}+x'_{i}}{2} \right)$ 
 $$I(f, \sigma) = \sum_{i = 1}^{n}(x_{i}-x_{i-1})y_{i} $$
-$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} +  \sum_{i = 1}^{i_{0}+1}(x_{i}-x_{i-1})y_{i}$$
+$$=  \sum_{i = 1}^{i_{0}-1}(x_{i}-x_{i-1})y_{i}+ (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}} +  \sum_{i = + (x_{i_{0}}- x_{i_{0}-1})y_{i_{0}}i_{0}+1}^{n}(x_{i}-x_{i-1})y_{i}$$
 Comme $(x_{i_{0}}-x_{i_{0}-1}) = (z - x_{i_{0}-1})(x_{i_{0}}-z)$, 
-$$\sum_{i = 1}^{i_{0}-1}(x'_{i}-x'_{i-1})y'_{i} + (x_{i_{0}}'-x_{i_{0}-1}')y_{i_{0}}+(x_{i_{0}+1}'-x_{i_{0}})y_{i_{0}}$$
+$$\sum_{i = 1}^{i_{0}-1}(x'_{i}-x'_{i-1})y'_{i} + (x_{i_{0}}'-x_{i_{0}-1}')y_{i_{0}}+(x_{i_{0}+1}'-x_{i_{0}}')y_{i_{0}}$$
+$$+ \sum_{i =i_{0}+1}^{n}(x_{i+1}'-x'_{i})y'_{i+1} $$
+or comme $y'_{i_{0}+1} = y_{i_{0}}$ car la fonction est constante entre $x'_{i_{0}-1}$ et $x'_{i_{0}+1}$
+$$= \sum_{i= 1}^{i_{0}-1}(x_{i}'-x'_{i-1})y'_{i}+ (x_{i_{0}}'-x'_{i_{0}-1})y'_{i_{0}}+ (x'_{i_{0}+1}-x'_{i_{0}})y'_{i_{0}+1}$$
+$$+ \sum_{i = i_{0}+2}^{n+1}(x'_{i}-x'_{i-1})y'_{i}$$
+$$= I(f, \sigma')$$
+
 
 ##### Lemme 1
 Si $\sigma$ est subordonné à $f$ et $\sigma'$ est plus fine que $\sigma$, 
@@ -254,12 +260,15 @@ Démonstration :
 Soit $\sigma, \sigma'$ subordonné à $f$, il existe $\sigma'' \in \sum_{a, b}$ tq $\begin{cases} \sigma'' \succ \sigma \\ \sigma '' \succ \sigma'\end{cases}$
 Par le lemme $1$ : 
 $$I(f, \sigma), I(f, \sigma') = I(f, \sigma'')$$
-
-
-
-
-
-
-
-
 ___
+#### Définition
+Soit $f \in \mathcal{E}_{\mathbb{K}}([a, b])$
+Les nombres $I(f, \sigma)$ avec $\sigma$ subordonné à $f$ sont tous égaux par le théorème et on note $I(f)$ leur valeur commune qu'in appelle intégrale de $f$ sur $[a, b]$.
+
+## 2. Proposition de 
+#### Proposition
+1. Linéarité
+   L'application : 
+   $$I_{a, b}: \begin{cases}
+
+\end{cases}$$
