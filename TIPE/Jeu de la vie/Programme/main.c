@@ -14,6 +14,8 @@
 #include "Lib/RenderGestion.c"
 #include "Lib/Toolbar.c"
 
+#include "Lib/SDL_Button/SDL_Button.h"
+
 
 int main(int argc, char **argv){
     // ----- Vérifie si il y des erreur sur les définitions ----- //
