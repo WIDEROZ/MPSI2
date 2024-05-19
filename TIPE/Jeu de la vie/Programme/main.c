@@ -14,7 +14,7 @@
 #include "Lib/RenderGestion.c"
 #include "Lib/Toolbar.c"
 
-#include "Lib/SDL_Button/SDL_Button.h"
+#include "Lib/Button.c"
 
 
 int main(int argc, char **argv){
@@ -39,7 +39,7 @@ int main(int argc, char **argv){
     // ----- Creation de la fenêtre : -----//
 
     
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1870, 1200, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, RENDER_WIDTH, RENDER_HEIGHT, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
@@ -89,7 +89,9 @@ int main(int argc, char **argv){
     SDL_Rect gridDestRect;
     SDL_Rect toolbarSrcRect;
     SDL_Rect toolbarDestRect;
-    // egesgesg
+    Button testButton;
+
+
     
 
     camera.x = 0;
@@ -151,12 +153,19 @@ int main(int argc, char **argv){
                 case SDL_KEYDOWN : 
                     switch (event.key.keysym.sym)
                     {
+                    
+                    case SDLK_b:
+                        KEY_DOWN_STATUS[SDLK_b] = 1;
+                        CREATE_BUTTON(texture, 0, 0, 50, 20, "Test");
+                        
+                        continue;
+
+
+
                     case SDLK_c:
                         KEY_DOWN_STATUS[SDLK_c] = 1;
                         GRID_DISPLAY_CREATION(renderer, texture, camera);
-                        
                         continue;
-                    
 
                     // ---------- Déplacement de la caméra ----------- //
                     case SDLK_q:
@@ -218,6 +227,11 @@ int main(int argc, char **argv){
                 case SDL_KEYUP : 
                     switch (event.key.keysym.sym)
                     {
+
+                    case SDLK_b:
+                        KEY_DOWN_STATUS[SDLK_b] = 0;
+                        continue;
+
                     case SDLK_c:
                         KEY_DOWN_STATUS[SDLK_c] = 0;
                         continue;
