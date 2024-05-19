@@ -28,3 +28,4 @@ bool BUTTON_CLICK(Button * button, SDL_Event * e){
     }
     return false;
 }
+
