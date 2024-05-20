@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <SDL.h>
+#include <SDL_ttf.h>
 
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
@@ -31,7 +32,9 @@ int main(int argc, char **argv){
     SDL_VERSION(&nb);
     printf("Vesrion : %d.%d.%d  \n", nb.major, nb.minor, nb.patch);
 
+    // Initialisation
     VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
+    
 
 
 
