@@ -69,6 +69,8 @@ int main(int argc, char **argv){
     }   
    */
 
+    
+
 
     // ----- Création de la texture ----- //
     texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
