@@ -54,16 +54,16 @@ int main(int argc, char const *argv[])
         ExitWithError("Surface ccreation failed");
     }
 
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 255, 255, 255, SDL_ALPHA_OPAQUE);
+    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, GRID_DISP_HEIGHT*GRID_DISP_WIDTH*3, 0, 0, 255, SDL_ALPHA_OPAQUE);
     if (gridSurface == NULL)
     {
         ExitWithError("Surface ccreation failed");
     }
 
-    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 4, 255, 0, 0, SDL_ALPHA_OPAQUE);
     if (toolSurface == NULL)
     {
-        ExitWithError("Surface ccreation failed");
+        ExitWithError("Surface creation failed");
     }
 
 
@@ -98,11 +98,12 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
-
+    SDL_SetSurfaceColorMod(gridSurface, 255, 0, 0);
     // BlitSurface
     SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
 
     SDL_UpdateWindowSurface(window);
+    SDL_RenderPresent(renderer);
 
     
     while (program_launched)
@@ -139,7 +140,9 @@ int main(int argc, char const *argv[])
                     break;
             }
 
+
         }
+        SDL_RenderPresent(renderer);
     }
     
     // ----- Clear le rendu + vérif erreur ----- //
@@ -151,6 +154,7 @@ int main(int argc, char const *argv[])
     SDL_DestroyTexture(toolbarTexture);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
+    SDL_FreeSurface(windowSurface);
     SDL_FreeSurface(gridSurface);
     SDL_FreeSurface(toolSurface);
     SDL_Quit();
