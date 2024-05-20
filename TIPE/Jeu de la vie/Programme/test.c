@@ -54,13 +54,13 @@ int main(int argc, char const *argv[])
         ExitWithError("Surface ccreation failed");
     }
 
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, GRID_DISP_HEIGHT*GRID_DISP_WIDTH*3, 0, 0, 255, SDL_ALPHA_OPAQUE);
+    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
     if (gridSurface == NULL)
     {
         ExitWithError("Surface ccreation failed");
     }
 
-    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 4, 255, 0, 0, SDL_ALPHA_OPAQUE);
+    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
     if (toolSurface == NULL)
     {
         ExitWithError("Surface creation failed");
@@ -98,14 +98,12 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
-    SDL_SetSurfaceColorMod(gridSurface, 255, 0, 0);
+    SDL_FillRect(gridSurface, NULL, )
     // BlitSurface
     SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
 
     SDL_UpdateWindowSurface(window);
-    SDL_RenderPresent(renderer);
-
-    
+    SDL_Delay(1000);
     while (program_launched)
     {
         SDL_Event event;
