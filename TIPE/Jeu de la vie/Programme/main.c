@@ -73,16 +73,17 @@ int main(int argc, char **argv){
    */
 
     // ----- Création des surfaces ----- //
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    gridSurface = SDL_CreateRGBSurfaceWithFormat(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 32, PIXEL_FORMAT);
     if (gridSurface == NULL){
         ExitWithError("gridSurface Surface creation failed");
     }
 
-    toolbarSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    toolbarSurface = SDL_CreateRGBSurfaceWithFormat(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 32, PIXEL_FORMAT);
     if (toolbarSurface == NULL){
         ExitWithError("toolbarSurface Surface creation failed");
     }
 
+    
     // ----- Création de la texture ----- //
     texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
     if (texture == NULL){

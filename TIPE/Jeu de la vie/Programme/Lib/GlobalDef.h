@@ -65,7 +65,7 @@
 
 // Variables générales de la texture
 #ifndef PIXEL_FORMAT
-#define PIXEL_FORMAT SDL_PIXELFORMAT_UNKNOWN
+#define PIXEL_FORMAT SDL_PIXELFORMAT_RGBA32
 #endif
 
 #ifndef TEXTURE_ACCESS

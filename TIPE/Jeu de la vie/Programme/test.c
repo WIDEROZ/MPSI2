@@ -48,13 +48,13 @@ int main(int argc, char const *argv[])
         ExitWithError("Surface ccreation failed");
     }
 
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 32, 0x00ff0000, 0x0000ff00, 0x000000ff, 0xff000000);
+    gridSurface = SDL_CreateRGBSurfaceWithFormat(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 32, SDL_PIXELFORMAT_RGBA32);
     if (gridSurface == NULL)
     {
         ExitWithError("Surface ccreation failed");
     }
 
-    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 32, 0x00ff0000, 0x0000ff00, 0x000000ff, 0xff000000);
+    toolSurface = SDL_CreateRGBSurfaceWithFormat(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 32, SDL_PIXELFORMAT_RGBA32);
     if (toolSurface == NULL)
     {
         ExitWithError("Surface creation failed");
@@ -104,7 +104,7 @@ int main(int argc, char const *argv[])
 
 
 
-    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGBA(gridSurface->format, 0,0,255, 15)), "test");
+    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGBA(gridSurface->format, 0,0,255, 255)), "test");
     VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
     SDL_UpdateWindowSurface(window);
     VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, NULL, &gridDestRect), "test2");
