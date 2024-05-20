@@ -13,8 +13,7 @@ void CREATE_GRID(SDL_Renderer *renderer, const int X, const int Y, int color[3])
 
     
 
-    for (int i = 0; i <= TEXTURE_WIDTH/X; i++) 
-    {
+    for (int i = 0; i <= TEXTURE_WIDTH/X; i++){
         VERIF_SDL_COMMAND(SDL_RenderDrawLine(renderer, i*X, 0, i*X, TEXTURE_HEIGHT), "RenderDrawLine");
     }
 

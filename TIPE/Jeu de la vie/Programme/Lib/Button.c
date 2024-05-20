@@ -15,6 +15,7 @@ Button * CREATE_BUTTON(SDL_Texture *texture, int x, int y, int w, int h, char *t
     button -> text= text;
 
     
+    SDL_RenderDrawRectF(SDL_Renderer * renderer, rect);
     return button;
 
 }
