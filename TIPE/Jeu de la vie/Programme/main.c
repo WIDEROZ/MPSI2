@@ -166,7 +166,6 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        CREATE_BUTTON(renderer, texture, 0, 0, 50, 20, "Test");
                         
                         continue;
 
@@ -323,8 +322,10 @@ int main(int argc, char **argv){
         
 
         
-        // Actualise la fenètre
-        SDL_UpdateWindowSurface(window);
+        // Actualise le rendu
+        VERIF_SDL_COMMAND(SDL_UpdateTexture(texture, &camera, NULL,TEXTURE_HEIGHT*4), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
+        SDL_RenderPresent(renderer);
 
     }
 
