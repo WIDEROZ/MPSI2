@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
         ExitWithError("Surface ccreation failed");
     }
 
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 0, 0, 0);
+    gridSurface = SDL_CreateRGBSurfaceFrom(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 256, 0, SDL_ALPHA_OPAQUE);
     if (gridSurface == NULL)
     {
         ExitWithError("Surface ccreation failed");
