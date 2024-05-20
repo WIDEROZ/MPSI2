@@ -156,7 +156,7 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        CREATE_BUTTON(texture, 0, 0, 50, 20, "Test");
+                        CREATE_BUTTON(renderer, texture, 0, 0, 50, 20, "Test");
                         
                         continue;
 

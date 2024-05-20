@@ -11,4 +11,4 @@ typedef struct Button
 } Button;
 
 
-Button * CREATE_BUTTON(SDL_Texture *texture, int x, int y, int w, int h, char *text);
+Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int y, int w, int h, char *ctext);
