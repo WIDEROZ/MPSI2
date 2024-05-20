@@ -1,6 +1,6 @@
 #include "Grid.h"
 
-/* Fonction qui créée la grille de départ */
+
 void CREATE_GRID(SDL_Renderer *renderer, const int X, const int Y, int color[3]){
     VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, color[0], color[1], color[2], SDL_ALPHA_OPAQUE), "SetRenderDrawColor") ;// On peut mettre 255 a la place de SDL opaque
 
@@ -17,7 +17,7 @@ void CREATE_GRID(SDL_Renderer *renderer, const int X, const int Y, int color[3])
     SDL_RenderPresent(renderer);
 }
 
-/* Fonction qui créée la grille de départ a partir des cases */
+
 void CREATE_GRID_CASE(SDL_Renderer *renderer, const int caseX, const int caseY){
     int *color = malloc(3 * sizeof(int));
     color[0] = 255;
@@ -29,7 +29,7 @@ void CREATE_GRID_CASE(SDL_Renderer *renderer, const int caseX, const int caseY){
 
 }
 
-/* Fonction qui affiche la grille sur le rendu */
+
 void GRID_DISPLAY_CREATION(SDL_Renderer *renderer, SDL_Texture * texture, SDL_Rect camera){
     
     // On met en cible du dessin la texture
@@ -56,7 +56,7 @@ void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture 
     }
 }
 
-// Bouge la grille quand on click + drag avec la souris
+
 void MOVE_CAMERA_MOUSE(SDL_Renderer *renderer, SDL_Texture *texture, SDL_Rect *camera, int xRel, int yRel){
     int x = camera -> x - xRel;
     int y = camera -> y - yRel;

@@ -9,8 +9,8 @@
 #include "Lib/Error.c"
 #include "Lib/Array.c"
 #include "Lib/Matrix.c"
-#include "Lib/Grid.c"
 #include "Lib/InterfaceTrade.c"
+#include "Lib/Grid.c"
 #include "Lib/Toolbar.c"
 
 #include "Lib/Button.c"
