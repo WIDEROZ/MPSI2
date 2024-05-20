@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
 {
     SDL_Window *window = NULL;
     SDL_Renderer *renderer = NULL;
+    SDL_Surface *windowSurface = NULL;
     SDL_Surface *gridSurface = NULL;
     SDL_Surface *toolSurface = NULL;
     SDL_Texture *texture = NULL;
@@ -46,6 +47,29 @@ int main(int argc, char const *argv[])
     }
 
 
+    // ----- Création des surfaces -----//
+    windowSurface = SDL_GetWindowSurface(window);
+    if (windowSurface == NULL)
+    {
+        ExitWithError("Surface ccreation failed");
+    }
+
+    gridSurface = SDL_CreateRGBSurface(0, TEXTURE_WIDTH, TEXTURE_HEIGHT, 4, 255, 255, 255, SDL_ALPHA_OPAQUE);
+    if (gridSurface == NULL)
+    {
+        ExitWithError("Surface ccreation failed");
+    }
+    toolSurface = SDL_CreateRGBSurface(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 4, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    if (toolSurface == NULL)
+    {
+        ExitWithError("Surface ccreation failed");
+    }
+    SDL_UpdateWindowSurface(window);
+
+
+    
+
+
 // ----- Création des rectangles ----- //
     SDL_Rect camera;
     SDL_Rect gridDestRect;
@@ -74,6 +98,10 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
+
+    // BlitSurface
+    VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit failed");
+    
     while (program_launched)
     {
         SDL_Event event;
