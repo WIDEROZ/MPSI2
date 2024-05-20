@@ -83,7 +83,7 @@ int main(int argc, char **argv){
         ExitWithError("toolbarSurface Surface creation failed");
     }
 
-    
+
     // ----- Création de la texture ----- //
     texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
     if (texture == NULL){
@@ -167,10 +167,9 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 0);
-                        VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &toolbarDestRect), "Fill rect toolbar");
-                        SDL_RenderPresent(renderer);
-                        SDL_Delay(1000);
+                        VERIF_SDL_COMMAND(SDL_FillRect(toolbarSurface, &toolbarSrcRect, SDL_MapRGB(toolbarSurface->format, 255, 0, 0)), "fill rect");
+                        VERIF_SDL_COMMAND(SDL_BlitSurface(), "Blit surface")
+                        SDL_UpdateWindowSurface(window);
                         
                         continue;
 

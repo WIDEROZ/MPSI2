@@ -104,10 +104,9 @@ int main(int argc, char const *argv[])
 
 
 
-    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGBA(gridSurface->format, 0,0,255, 255)), "test");
-    VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
+    VERIF_SDL_COMMAND(SDL_FillRect(toolSurface, NULL, SDL_MapRGBA(toolSurface->format, 0,0,255, 255)), "test");
+    VERIF_SDL_COMMAND(SDL_BlitSurface(toolSurface, NULL, windowSurface, &toolbarDestRect), "Blit Surface");
     SDL_UpdateWindowSurface(window);
-    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, NULL, &gridDestRect), "test2");
 
 
     SDL_Delay(1000);
