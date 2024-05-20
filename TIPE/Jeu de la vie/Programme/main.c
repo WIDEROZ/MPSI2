@@ -323,10 +323,8 @@ int main(int argc, char **argv){
         
 
         
-        // Actualise le rendu
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
-        SDL_RenderPresent(renderer);
+        // Actualise la fenètre
+        SDL_UpdateWindowSurface(window);
 
     }
 

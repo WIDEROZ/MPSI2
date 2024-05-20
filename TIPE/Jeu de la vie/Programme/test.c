@@ -98,62 +98,37 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
+    SDL_Rect *rects = malloc(2 * sizeof(SDL_Rect));
+    rects[0] = gridDestRect;
+    rects[1] = ;
 
     VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(windowSurface->format, 255, 255, 255)), "FillRect");
 
-    SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
+    VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
 
     SDL_UpdateWindowSurface(window);
-    while (program_launched)
-    {
-        SDL_Event event;
-        while (SDL_PollEvent(&event)) // Elle va lire tout les évènements
-        /*on a aussi : SDL_WaitEvent(&event) mais ca bloque la fenêtre*/
-        {
-            
-            switch (event.type) // Le switch c'est comme un match en ocaml mais que pour les int
-            {
+    SDL_Delay(1000);
+
+    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(windowSurface->format, 255, 0, 0)), "FillRect");
+    SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
+    SDL_UpdateWindowSurface(window);
+    SDL_UpdateWindowSurfaceRects(window, )
 
 
-                case SDL_KEYDOWN:
-                    switch (event.key.keysym.sym)
-                    {
-                    case SDLK_c:
-                        
-                        break;
-                    
-                    default:
-                        continue;
-                    }
-                    break;
+    SDL_Delay(1000);
 
-                    
-                case SDL_QUIT :
-                    program_launched = SDL_FALSE;
-                    printf("quit \n");
-                    break;
-
-
-                default:
-                    break;
-            }
-
-
-        }
-    }
-    
     // ----- Clear le rendu + vérif erreur ----- //
     VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
     
-
+    free(rects);
     // Pointeurs SDL
     SDL_DestroyTexture(texture);
     SDL_DestroyTexture(toolbarTexture);
     SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
     SDL_FreeSurface(windowSurface);
     SDL_FreeSurface(gridSurface);
     SDL_FreeSurface(toolSurface);
+    SDL_DestroyWindow(window);
     SDL_Quit();
     return EXIT_SUCCESS;
 
