@@ -4,9 +4,9 @@
 
 typedef struct Button
 {
-    // ATTENTION DONNER LES COORDONNES DU BOUTTON PAR RAPPORT A LA TEXTURE
     SDL_Texture *texture;
     SDL_Rect *position;
+    int isClicked;
     char *text;
 } Button;
 

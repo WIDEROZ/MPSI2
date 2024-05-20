@@ -17,12 +17,16 @@ Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int
     rect->h = h;
     button->position = rect;
 
+    button->isClicked = 0;
+
     button -> text= text;
 
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "Set render target");
+    
     VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor");
-    VERIF_SDL_COMMAND(SDL_RenderDrawFillRect(renderer, rect), "Pas réussi a créer le bouton");
-    SDL_RenderPresent(renderer);
+    VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, rect), "Pas réussi a créer le bouton");
+
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "Set render target");
     
     return button;
 
