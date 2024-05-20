@@ -4,7 +4,8 @@
 
 typedef struct Button
 {
-    SDL_Texture *texture;
+    SDL_Texture *backgroundTexture;
+    SDL_Texture *textTexture;
     SDL_Rect *position;
     int isClicked;
     char *text;
