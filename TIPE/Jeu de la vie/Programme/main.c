@@ -14,17 +14,19 @@
 #include "Lib/Toolbar.c"
 
 #include "Lib/Button.c"
+#include "Lib/TTF.c"
 
 
 int main(int argc, char **argv){
     // ----- Vérifie si il y des erreur sur les définitions ----- //
     DefinitionError();
 
-    // ----- Initialisation de la fenetre, du rendu et de la texture ----- //
+    // ----- Initialisation de la fenetre, du rendu et des textures ----- //
     SDL_Window *window = NULL;
     SDL_Renderer *renderer = NULL;
     SDL_Texture *texture = NULL;
     SDL_Texture *toolbarTexture = NULL;
+    
     
 
     SDL_version nb;
@@ -33,7 +35,9 @@ int main(int argc, char **argv){
 
     // Initialisation
     VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
+    // Fonts
     VERIF_SDL_COMMAND(TTF_Init(), "TTF init");
+    TTF_Font *font = TTF_OpenFont("font/Lato/Lato-Regular.ttf", 32);
 
 
 
