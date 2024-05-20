@@ -23,7 +23,7 @@ int main(int argc, char const *argv[])
 
     SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO";
 
-    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1840, 1200, 0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
+    window = SDL_CreateWindow("Fenêtre Titrée", 70, 0, 1840, 1200,0); // Pour le dernier on peut mettre un flag : SDL_WINDOW_FULLSCREEN par exemple
     if(window == NULL){
         ExitWithError("Window creation failed");
     }
@@ -48,7 +48,7 @@ int main(int argc, char const *argv[])
         ExitWithError("Surface ccreation failed");
     }
 
-    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 0, 0, SDL_ALPHA_OPAQUE);
+    gridSurface = SDL_CreateRGBSurface(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 8, 0, 0, 0, 0);
     if (gridSurface == NULL)
     {
         ExitWithError("Surface ccreation failed");
@@ -104,8 +104,8 @@ int main(int argc, char const *argv[])
 
 
 
-    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(gridSurface->format, 255, 0, 0)), "test");
-    VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
+    VERIF_SDL_COMMAND(SDL_FillRect(windowSurface, NULL, SDL_MapRGB(windowSurface->format, 255,255,255)), "test");
+    VERIF_SDL_COMMAND(SDL_BlitSurface(windowSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
     SDL_UpdateWindowSurface(window);
     VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, NULL, &gridDestRect), "test2");
 
