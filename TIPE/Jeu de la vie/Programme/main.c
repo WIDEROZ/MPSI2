@@ -91,7 +91,7 @@ int main(int argc, char **argv){
     SDL_Rect gridDestRect;
     SDL_Rect toolbarSrcRect;
     SDL_Rect toolbarDestRect;
-    Button testButton;
+    
 
 
     
