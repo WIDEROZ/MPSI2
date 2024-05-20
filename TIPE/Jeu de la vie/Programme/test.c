@@ -98,12 +98,12 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
-    SDL_FillRect(gridSurface, NULL, )
-    // BlitSurface
+
+    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(windowSurface->format, 255, 255, 255)), "FillRect");
+
     SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
 
     SDL_UpdateWindowSurface(window);
-    SDL_Delay(1000);
     while (program_launched)
     {
         SDL_Event event;
@@ -140,7 +140,6 @@ int main(int argc, char const *argv[])
 
 
         }
-        SDL_RenderPresent(renderer);
     }
     
     // ----- Clear le rendu + vérif erreur ----- //
