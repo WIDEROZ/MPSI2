@@ -11,7 +11,6 @@
 #include "Lib/Matrix.c"
 #include "Lib/Grid.c"
 #include "Lib/InterfaceTrade.c"
-#include "Lib/RenderGestion.c"
 #include "Lib/Toolbar.c"
 
 #include "Lib/Button.c"
