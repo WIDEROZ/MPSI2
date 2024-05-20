@@ -17,6 +17,9 @@
 #include "Lib/Button.c"
 
 
+void
+
+
 int main(int argc, char **argv){
     // ----- Vérifie si il y des erreur sur les définitions ----- //
     DefinitionError();
@@ -73,6 +76,7 @@ int main(int argc, char **argv){
    */
 
     // ----- Création des surfaces ----- //
+
     gridSurface = SDL_CreateRGBSurfaceWithFormat(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 32, PIXEL_FORMAT);
     if (gridSurface == NULL){
         ExitWithError("gridSurface Surface creation failed");
@@ -84,13 +88,13 @@ int main(int argc, char **argv){
     }
 
     // ----- Création de la texture ----- //
-    texture = SDL_CreateTextureFromSurface(renderer, gridSurface);
+    texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
     if (texture == NULL){
         ExitWithError("Texture creation failed");
     }
 
     
-    toolbarTexture = SDL_CreateTextureFromSurface(renderer, toolbarSurface);
+    toolbarTexture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TOOLBAR_WIDTH, TOOLBAR_HEIGHT);
     if (toolbarTexture == NULL){
         ExitWithError("Texture creation failed");
     }
@@ -165,7 +169,10 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        
+                        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 0);
+                        VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &toolbarDestRect), "Fill rect toolbar");
+                        SDL_RenderPresent(renderer);
+                        SDL_Delay(1000);
                         
                         continue;
 
@@ -173,16 +180,7 @@ int main(int argc, char **argv){
 
                     case SDLK_c:
                         KEY_DOWN_STATUS[SDLK_c] = 1;
-                        for (int i = 0; i <= TEXTURE_WIDTH/CASE_NUMBER_WIDTH; i++){
-                            VERIF_SDL_COMMAND(SDL_DrawLine(gridSurface, i*CASE_NUMBER_WIDTH, 0, i*CASE_NUMBER_WIDTH, TEXTURE_HEIGHT), "RenderDrawLine");
-                        }
-
-                        for(int j = 0; j <= TEXTURE_HEIGHT/CASE_NUMBER_HEIGHT; j++){
-                            VERIF_SDL_COMMAND(SDL_DrawLine(gridSurface, 0, j*CASE_NUMBER_HEIGHT, TEXTURE_WIDTH, j*CASE_NUMBER_HEIGHT), "RenderDrawLine");
-                        }
-
-
-
+                        GRID_DISPLAY_CREATION(renderer, texture, camera);
                         continue;
 
                     // ---------- Déplacement de la caméra ----------- //

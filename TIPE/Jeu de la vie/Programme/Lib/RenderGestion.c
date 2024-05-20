@@ -4,7 +4,6 @@ void GRID_DISPLAY_CREATION(SDL_Renderer *renderer, SDL_Texture * texture, SDL_Re
     // Création de la texture
 
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
-    VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 0, 0, 0, 255), "SetRenderDrawColor");
     VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
 
     CREATE_GRID_CASE(renderer, CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
