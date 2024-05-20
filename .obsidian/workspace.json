@@ -173,6 +173,8 @@
   },
   "active": "bb08cb8daf1aa6e6",
   "lastOpenFiles": [
+    "TIPE/Jeu de la vie/Programme/Lib/TTF.c",
+    "TIPE/Jeu de la vie/Programme/Lib/TTF.h",
     "TIPE/Jeu de la vie/Programme/SDL/SDL_ttf.h",
     "TIPE/Jeu de la vie/Programme/main2",
     "TIPE/Jeu de la vie/Programme/main2.c",
@@ -190,8 +192,6 @@
     "TIPE/Jeu de la vie/Programme/Lib/Button.h",
     "TIPE/Jeu de la vie/Programme/Lib/Button.c",
     "TIPE/Jeu de la vie/Programme/Lib/SDL_Button/SDL_Button.h",
-    "TIPE/Jeu de la vie/Programme/Lib/SDL_Button/SDL_Button.c",
-    "TIPE/Jeu de la vie/Programme/Lib/SDL_Button/LICENSE",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.md",
     "Mathématiques/Cours/C28/C28.md",

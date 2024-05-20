@@ -20,7 +20,7 @@ Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int
     button->isClicked = 0;
 
     button -> text= text;
-
+    
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "Set render target");
     
     VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor");

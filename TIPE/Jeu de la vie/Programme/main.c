@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <SDL.h>
-#include <SDL_ttf.h>
 
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
@@ -34,7 +33,8 @@ int main(int argc, char **argv){
 
     // Initialisation
     VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
-    
+    VERIF_SDL_COMMAND(TTF_Init(), "TTF init");
+
 
 
 
@@ -333,6 +333,8 @@ int main(int argc, char **argv){
     SDL_DestroyTexture(toolbarTexture);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
+
+    TTF_Quit();
     SDL_Quit();
     return EXIT_SUCCESS;
 }
