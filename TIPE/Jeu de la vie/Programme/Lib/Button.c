@@ -24,6 +24,7 @@ Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int
 
 }
 
+
 bool BUTTON_CLICK(Button * button, SDL_Event * e){
     if(e->type == SDL_MOUSEBUTTONDOWN
         && button->position->x <= (e->motion.x)-RENDER_WIDTH
