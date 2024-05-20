@@ -166,7 +166,10 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        VERIF_SDL_COMMAND(SDL_FillRect)
+                        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 0);
+                        VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &toolbarDestRect), "Fill rect toolbar");
+                        SDL_RenderPresent(renderer);
+                        SDL_Delay(1000);
                         
                         continue;
 

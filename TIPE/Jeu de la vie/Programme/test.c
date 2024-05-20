@@ -35,16 +35,10 @@ int main(int argc, char const *argv[])
     }
 
     // ----- Création de la texture ----- //
-    texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
-    if (texture == NULL){
-        ExitWithError("Texture creation failed");
-    }
+    
 
     
-    toolbarTexture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TOOLBAR_WIDTH, TOOLBAR_HEIGHT);
-    if (toolbarTexture == NULL){
-        ExitWithError("Texture creation failed");
-    }
+    
 
 
     // ----- Création des surfaces -----//
@@ -64,6 +58,16 @@ int main(int argc, char const *argv[])
     if (toolSurface == NULL)
     {
         ExitWithError("Surface creation failed");
+    }
+
+    texture = SDL_CreateTextureFromSurface(renderer, gridSurface);
+    if (texture == NULL){
+        ExitWithError("Texture creation failed");
+    }
+
+    toolbarTexture = SDL_CreateTextureFromSurface(renderer, toolSurface);
+    if (toolbarTexture == NULL){
+        ExitWithError("Texture creation failed");
     }
 
 
