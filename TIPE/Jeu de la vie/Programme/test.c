@@ -98,21 +98,12 @@ int main(int argc, char const *argv[])
 
     SDL_bool program_launched = SDL_TRUE;
 
-    SDL_Rect *rects = malloc(2 * sizeof(SDL_Rect));
-    rects[0] = gridDestRect;
-    rects[1] = ;
 
-    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(windowSurface->format, 255, 255, 255)), "FillRect");
 
+    
     VERIF_SDL_COMMAND(SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect), "Blit Surface");
+    
 
-    SDL_UpdateWindowSurface(window);
-    SDL_Delay(1000);
-
-    VERIF_SDL_COMMAND(SDL_FillRect(gridSurface, NULL, SDL_MapRGB(windowSurface->format, 255, 0, 0)), "FillRect");
-    SDL_BlitSurface(gridSurface, NULL, windowSurface, &gridDestRect);
-    SDL_UpdateWindowSurface(window);
-    SDL_UpdateWindowSurfaceRects(window, )
 
 
     SDL_Delay(1000);
@@ -120,7 +111,6 @@ int main(int argc, char const *argv[])
     // ----- Clear le rendu + vérif erreur ----- //
     VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
     
-    free(rects);
     // Pointeurs SDL
     SDL_DestroyTexture(texture);
     SDL_DestroyTexture(toolbarTexture);
