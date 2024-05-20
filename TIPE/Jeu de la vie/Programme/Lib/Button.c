@@ -20,27 +20,28 @@ Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int
 
     button -> text= text;
 
+    // ----- Text surface ----- //
     SDL_Color color;
     color.r = 255;
     color.g = 255;
     color.b = 255;
     color.a = 255;
     SDL_Surface *surfaceText = TTF_RenderText_Solid(font, text, color);
-    
+    // ----- Text Surface -----//
 
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "Set render target");
-    
+
+    // ----- Background Display ----- //
     VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor");
-    
-
-    // Text
-    VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE), "SetRenderDrawColor");
-
     VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, rect), "Pas réussi a créer le background du bouton");
-
-
+    // ----- Background Display ----- //
     
+
+    // ----- Text Display ----- //
+    VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE), "SetRenderDrawColor");
     SDL_Texture *tex = SDL_CreateTextureFromSurface(renderer, surfaceText);
+    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, NULL, rect), "RenderCopy");
+    // ----- Text Display ----- //
 
 
 
@@ -48,7 +49,7 @@ Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int
 
 
 
-
+    SDL_DestroyTexture(tex);
     SDL_FreeSurface(surfaceText);
     return button;
 

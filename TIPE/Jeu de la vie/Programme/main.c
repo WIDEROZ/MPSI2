@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <SDL.h>
+#include <SDL_ttf.h>
 
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
@@ -12,9 +13,7 @@
 #include "Lib/InterfaceTrade.c"
 #include "Lib/Grid.c"
 #include "Lib/Toolbar.c"
-
 #include "Lib/Button.c"
-#include "Lib/TTF.c"
 
 
 int main(int argc, char **argv){
@@ -158,7 +157,7 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        CREATE_BUTTON(renderer, toolbarTexture, 10, 50, 70, 20, "testestestes");
+                        CREATE_BUTTON(renderer, toolbarTexture, 10, 50, 70, 20, "Boutton test", font);
                         
                         continue;
 

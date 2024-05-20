@@ -1,7 +1,3 @@
-#include <stdlib.h>
-#include <stdbool.h>
-#include <SDL.h>
-
 typedef struct Button
 {
     SDL_Texture *backgroundTexture;
@@ -12,4 +8,4 @@ typedef struct Button
 } Button;
 
 
-Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int y, int w, int h, char *ctext);
+Button * CREATE_BUTTON(SDL_Renderer * renderer, SDL_Texture *texture, int x, int y, int w, int h, char *ctext, TTF_Font *font);
