@@ -17,7 +17,17 @@
 #include "Lib/Button.c"
 
 
-void
+void RENDER_TARGET(SDL_Renderer * renderer, SDL_Texture *texture, SDL_Rect drawRect){
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
+
+    // On dessine sur la texture
+    VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &drawRect), "fill rect");
+
+    // On remet le rendu toute la fenêtre
+    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
+    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &drawRect, NULL), "RenderCopy");
+    SDL_RenderPresent(renderer);
+}
 
 
 int main(int argc, char **argv){
