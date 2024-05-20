@@ -26,9 +26,6 @@ int main(int argc, char **argv){
     SDL_Renderer *renderer = NULL;
     SDL_Texture *texture = NULL;
     SDL_Texture *toolbarTexture = NULL;
-    SDL_Surface *windowSurface=NULL;
-    SDL_Surface *gridSurface=NULL;
-    SDL_Surface *toolbarSurface=NULL;
     
 
     SDL_version nb;
@@ -71,18 +68,6 @@ int main(int argc, char **argv){
         SDL_ExitWithError("Window or renderer creation failed");
     }   
    */
-
-    // ----- Création des surfaces ----- //
-    /*
-    gridSurface = SDL_CreateRGBSurfaceWithFormat(0, GRID_DISP_WIDTH, GRID_DISP_HEIGHT, 32, PIXEL_FORMAT);
-    if (gridSurface == NULL){
-        ExitWithError("gridSurface Surface creation failed");
-    }
-
-    toolbarSurface = SDL_CreateRGBSurfaceWithFormat(0, TOOLBAR_WIDTH, TOOLBAR_HEIGHT, 32, PIXEL_FORMAT);
-    if (toolbarSurface == NULL){
-        ExitWithError("toolbarSurface Surface creation failed");
-    }*/
 
     // ----- Création de la texture ----- //
     texture = SDL_CreateTexture(renderer, PIXEL_FORMAT, TEXTURE_ACCESS, TEXTURE_WIDTH, TEXTURE_HEIGHT);
@@ -167,10 +152,7 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 0);
-                        VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &toolbarDestRect), "Fill rect toolbar");
-                        SDL_RenderPresent(renderer);
-                        SDL_Delay(1000);
+                        
                         
                         continue;
 
@@ -347,8 +329,6 @@ int main(int argc, char **argv){
     // Pointeurs SDL
     SDL_DestroyTexture(texture);
     SDL_DestroyTexture(toolbarTexture);
-    SDL_FreeSurface(gridSurface);
-    SDL_FreeSurface(toolbarSurface);
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
     SDL_Quit();

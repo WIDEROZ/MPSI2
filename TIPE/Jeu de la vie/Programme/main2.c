@@ -17,17 +17,7 @@
 #include "Lib/Button.c"
 
 
-void RENDER_TARGET(SDL_Renderer * renderer, SDL_Texture *texture, SDL_Rect drawRect){
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
 
-    // On dessine sur la texture
-    VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &drawRect), "fill rect");
-
-    // On remet le rendu toute la fenêtre
-    VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
-    VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &drawRect, NULL), "RenderCopy");
-    SDL_RenderPresent(renderer);
-}
 
 
 int main(int argc, char **argv){
@@ -179,9 +169,7 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        SDL_SetRenderDrawColor(renderer, 255, 0, 0, 0);
-                        VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, &toolbarDestRect), "Fill rect toolbar");
-                        SDL_RenderPresent(renderer);
+                        RENDER_TARGET(renderer, toolbarTexture, toolbarSrcRect);
                         SDL_Delay(1000);
                         
                         continue;
@@ -339,7 +327,7 @@ int main(int argc, char **argv){
         
 
         
-        // Actualise le rendu
+        // Actualise le rendu et les textures
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, &camera, &gridDestRect), "RenderCopy");
         VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(renderer);
