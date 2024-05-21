@@ -85,4 +85,7 @@ Soit $(\alpha_{n})_{n} \in \mathbb{R}^{\mathbb{N}}$ décroissante et de limite n
 $$\sum (-1)^{n}\alpha_{n} \text{ CV}$$
 Soit $p \in \mathbb{N},$ 
 On note : 
-$$S_{2p} = \sum_{k = }$$
+$$\forall n \in \mathbb{N}, S_{n} = \sum_{k = 0}^{n} (-1)^{n}\alpha_{n}$$
+$$S_{2p+2} - S_{2p} = \sum_{k = 0}^{2p+2} (-1)^{k}\alpha^{k} - \sum_{k=0}^{2p}(-1)^{k}\alpha^{k} = -\alpha^{2p+1} + \alpha^{2p+2}$$
+$$S_{2p+3} - S_{2p+1} = -\alpha^{2p+3} + \alpha^{2p+2}$$
+Ani
