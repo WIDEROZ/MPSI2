@@ -88,3 +88,16 @@ Comme $\sum b_{n}$ et $\sum a_{n}$ sont des SATP, la suite de leur somme partiel
 Alors, comme on a :
 $$0 \leq \sum_{k = 1}^{n} a_{n} \leq \sum_{k = 1}^{n}b_{k}$$
 et que $\sum b_{n}$ CV, ($\sum_{k =0 }^{\infty} b_{k} \in \mathbb{R}$)
+par le théorème de la limite monotone : 
+$$\sum a_{n} CV$$
+par passage à la limite : 
+$$0 \leq \sum_{k = 0}^{\infty} a_{n} \leq \sum_{k=0}^{\infty} b_{n}$$
+
+#### Théorème
+La CVA => CV,
+
+Soit $\sum a_{n}$ ACV,
+Cas ou $\mathbb{K} = \mathbb{R}$, 
+$$\sum_{k = 0}^{\infty} |a_{n}| = l \in \mathbb{R}$$
+Si $a_{n} \in \mathbb{R}_{+}$, 
+$a_{n}^{+} =$
