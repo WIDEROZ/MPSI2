@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -171,8 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bb08cb8daf1aa6e6",
+  "active": "57bdefe74f60f003",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
+    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+    "Brouillon.md",
     "TIPE/Jeu de la vie/Programme/main",
     "TIPE/Jeu de la vie/Programme/font/lato/OFL.txt",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Regular.ttf",
@@ -183,10 +185,6 @@
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Hairline.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-BoldItalic.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Bold.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-BlackItalic.ttf",
-    "Brouillon.md",
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
