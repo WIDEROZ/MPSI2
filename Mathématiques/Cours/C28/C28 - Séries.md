@@ -602,7 +602,7 @@ Excal 2.
 #### Théorème
 Pour $f$ DÉCROISSANTE sur $[m, n+1]$,
 ($m<n$ entiers)
-$$\sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n} f \leq \sum_{k = m}^{n-1} f(k)$$
+$$\sum_{k = m+1}^{n}f(k) \leq \int _{m}^{n} f \leq \sum_{k = m}^{n-1} f(k)$$
 $$\int _{n+1}^{n+1}f \leq \sum_{k = n+1}^{n}f(k) \leq \int _{m}^{n}f $$
 
 Démonstration : 
