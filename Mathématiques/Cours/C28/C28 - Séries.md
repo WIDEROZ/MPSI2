@@ -778,6 +778,7 @@ Démonstration :
 Soit $\sum a_{n}$ une séries a termes réels telle que $\sum |a_{n}| \text{ CV}$
 Alors, 
 $$\forall n \in \mathbb{N}, 0 \leq a_{n}^{+} \leq |a_{n}|$$
+$$\forall n \in \mathbb{N}, 0 \leq a_{n}^{-} \leq |a_{n}|$$
 
 Par comparaison des SATP, 
 Comme $\sum|a_{n}|$ CV, $\sum a_{n}^{+}$ CV et $\sum a^{-}_{n}$ CV

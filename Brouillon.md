@@ -100,4 +100,8 @@ Soit $\sum a_{n}$ ACV,
 Cas ou $\mathbb{K} = \mathbb{R}$, 
 $$\sum_{k = 0}^{\infty} |a_{n}| = l \in \mathbb{R}$$
 Si $a_{n} \in \mathbb{R}_{+}$, 
-$a_{n}^{+} =$
+$a_{n}^{+} - a_{n}^{-} = a_{n}$
+$|a_{n}| = a_{n}^{+} + a_{n}^{-}$
+
+On a alors, 
+$$\sum_{k = 0}tf,$$
