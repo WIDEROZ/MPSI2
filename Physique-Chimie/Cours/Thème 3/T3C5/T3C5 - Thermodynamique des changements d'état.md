@@ -103,18 +103,6 @@ V &= V_{l}+V_{v} \\
 Alors, 
 $$v = (1-x_{v})v_{l}+x_{v}v_{v} $$
 Ainsi, 
-$$$$
-
-
-___
-$$V = x_{l}V_{E}+x_{v}V_{R}$$
-avec
-$$x_{l} = \frac{m_{l}}{m_{l} + m_{v}}$$
-Donc, comme $x_{l} + x_{v} = 1$ 
-$$V = (1-x_{v})V_{E} + V_{R}x_{v} = x_{v}(V_{R}-V_{E})+V_{E}$$
-$$x_{v} = \frac{V-V_{E}}{V_{R}-V_{E}} > 0$$
-Comme on passe de gaz à liquide on a : $V_{E} < V < V_{R}$
-Ainsi, 
 $$\boxed{x_{v} = \frac{v-v_{l}}{v_{v}-v_{l}}}$$
 
 # IV. Variation des fonctions d'état
