@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "0ad015e2c215e04e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Colles de la semaine.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "395b780a99e9b024",
             "type": "leaf",
             "state": {
@@ -31,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -108,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Colles de la semaine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Colles de la semaine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Colles de la semaine.md"
               }
             }
           }
@@ -160,10 +173,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8d7b1d7d1ff3e99",
+  "active": "0ad015e2c215e04e",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Brouillon.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Colles de la semaine.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
@@ -197,7 +211,6 @@
     "Anglais/Correction DS/Correction DS Traduction.md",
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Cours/05-15.md",
-    "Anglais/Exos/Nombres.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
