@@ -76,4 +76,10 @@ $$\sum a_{n} \text{ CV}$$
 $$\forall n \in \mathbb{N}, 0 \leq |\mathrm{Re}(a_{n})| \leq |a_{n}|$$
 $$\forall n \in \mathbb{N}, 0 \leq |\mathrm{Im}(a_{n})| \leq |a_{n}|$$
 
-D'après le théorème de cmoparaison de SATP et par le théorème réel (démontré précédement)
+D'après le théorème de comparaison de SATP et par le théorème réel (démontré précédemment)
+$$\forall n\in \mathbb{N}, \sum \mathrm{Re}(a_{n}) \text{ CV et }\sum\mathrm{Im}(a_{n})\text{ CV}$$
+Ainsi, 
+$$\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i\sum \mathrm{Im}(a_{n}) \text{ CV}$$
+___
+Soit $(\alpha_{n})_{n} \in \mathbb{R}^{\mathbb{N}}$ décroissante et de limite nulle alors :
+$$\sum (-1)^{n}\alpha_{n} \text{ CV}$$
