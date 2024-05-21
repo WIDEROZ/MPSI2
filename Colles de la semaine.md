@@ -97,4 +97,11 @@ elles convergent donc vers la même limite par le théorème des suites adjacent
 par le théorème sur les suites de extraites de rangs paires et impairs comme elles ont la même limite : $(S_{n})$ Converge
 $$\sum(-1)^{n}\alpha_{n} \text{ CV}$$
 
-$$R_{n} = \sum_{k = }$$
+Comme $\sum(-1)^{n}\alpha_{n} \text{ CV}$ le reste est bien défini, on a alors : 
+$R_{n} + S_{n} = l$
+Comme : 
+$$S_{2p+1} \leq l \leq S_{2p}$$
+Alors : 
+$$R_{2p+1} \geq 0 \geq R_{2p}$$
+Ainsi, 
+$$R_{2p+1} \geq 0  \geq R_{2p+1} + \alpha_{2p} \Rightarrow R_{2p+1} \leq - \alpha_{2p}$$
