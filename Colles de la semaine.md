@@ -83,3 +83,6 @@ $$\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i\sum \mathrm{Im}(a_{n}) \text{ CV}$$
 ___
 Soit $(\alpha_{n})_{n} \in \mathbb{R}^{\mathbb{N}}$ décroissante et de limite nulle alors :
 $$\sum (-1)^{n}\alpha_{n} \text{ CV}$$
+Soit $p \in \mathbb{N},$ 
+On note : 
+$$S_{2p} = \sum_{k = }$$
