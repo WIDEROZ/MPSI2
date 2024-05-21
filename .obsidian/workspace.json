@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "33944a1e8866a96e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "e8d7b1d7d1ff3e99",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C17/C17 - Résumé.md",
+                "file": "Brouillon.md",
                 "mode": "source",
                 "source": false
               }
@@ -172,11 +160,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "33944a1e8866a96e",
+  "active": "e8d7b1d7d1ff3e99",
   "lastOpenFiles": [
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Brouillon.md",
+    "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",

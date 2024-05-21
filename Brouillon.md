@@ -179,8 +179,15 @@ $$0\leq \sum_{k = 1}^{\infty} \frac{1}{n^{\alpha}} \leq \frac{\alpha}{\alpha-1}$
 Donc par le théorème de comparaison des SATP, 
 $$\sum \frac{1}{n^{\alpha}} \text{ CV}$$
 Soit $n \in \mathbb{N}$, 
+Soit $m \in [\![1, n]\!]$, 
 $$\frac{1}{1-\alpha} \left( \frac{1}{(n+1)^{\alpha-1}}-\frac{1}{(m+1)^{\alpha-1}} \right) \leq \sum_{k = m+1}^{n} \frac{1}{k^{\alpha}} \leq \int_{m}^{n} \frac{1}{x^{\alpha}} \, dx$$
 Or, 
 $$\int _{m}^{n} \frac{1}{x^{\alpha}} \, dx = \frac{1}{1-\alpha}\left( \frac{1}{n^{\alpha-1}}-\frac{1}{m^{\alpha-1}} \right)$$
 En faisant tendre $n$ vers $+ \infty$ : 
-$$ \frac{1}{(\alpha-1)(m+1)^{\alpha-1}} \leq $$
+$$ \frac{1}{(\alpha-1)(m+1)^{\alpha-1}} \leq R_{n} \leq \frac{1}{(\alpha-1)m^{\alpha-1}}$$
+Alors, 
+$$\frac{1}{1+\frac{1}{m^{\alpha-1}}} \leq \frac{R_{n}}{\left( \frac{m^{1-\alpha}}{\alpha-1} \right)} \leq 1$$
+Ainsi, en faisant tendre $m$ vers $+ \infty$, 
+$$1 \leq \frac{R_{n}}{\left( \frac{1}{(1-\alpha)m^{1-\alpha}} \right)} \leq 1$$
+Ainsi, 
+$$R_{n} \sim \frac{m^{1-\alpha}}{\alpha-1}$$
