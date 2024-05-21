@@ -71,3 +71,4 @@ $$\int_{T_{i}}^{T_{f}} \frac{R}{\gamma-1}dT = -\int_{V_{i}}^{V_{f}}  dV$$
 
 
 
+$$R_{n} = \sum_{k = 0}^{\infty} a_{n} - S_{n} = \sum_{k = n+1}^{\infty}a_{n}$$

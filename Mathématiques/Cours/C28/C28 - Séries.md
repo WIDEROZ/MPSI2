@@ -208,7 +208,7 @@ On a alors :
 L'ensemble des séries a terme dans $\mathbb{K}$ est un $\mathbb{K}$ espace vectoriel
 
 #### Propriété
-L'ensemble des séries CV, $E_{CV}$, est un sous espace vectoriel de l'espace des dries et l'application :
+L'ensemble des séries CV, $E_{CV}$, est un sous espace vectoriel de l'espace des séries et l'application :
 $$\text{Somme} : \begin{cases}
 E_{CV} \to \mathbb{K} \\
 \sum_{a_{n}} \mapsto \sum_{n = 0}^{+ \infty} a_{n}
@@ -268,7 +268,7 @@ $$\frac{1}{n} \longrightarrow  0 \text{ et } \sum \frac{1}{n} \text{ DV}$$
 #### Corollaire
 Si $a_{n} \nrightarrow 0$, alors, $\sum a_{n}$ DV
 On dit qu'elle diverge grossièrement et on note : 
-$$\sum a{n} \text{ DVG}$$
+$$\sum a_{n} \text{ DVG}$$
 
 #### Exemple
 $$\sum (-1)^{k} \text{ DVG}$$
