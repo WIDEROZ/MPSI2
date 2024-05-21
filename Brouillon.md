@@ -110,6 +110,7 @@ $$x_{v} = \frac{m_{v}}{m_{v}+m_{l}}$$
 $$V= x_{v}V_{R}+x_{l}V_{E}$$
 
 $$x_{v} + x_{l} = 1$$
-$$V=  V_{R}x_{v} + (1-x_{v})V_{E} = V_{R}x_{v}+ x_{v}V + V_{E} $$
+$$V=  V_{R}x_{v} + (1-x_{v})V_{E} = V_{R}x_{v}+ x_{v}V_{E} + V_{E} \Leftrightarrow x_{v} = \frac{V-V_{E}}{V_{R}+V_{E}}$$
 
+$$x_{v} = \frac{\frac{m}{v}-\frac{m_{e}}{v_{e}}}{\frac{m_{R}}{v_{r}}+\frac{m_{E}}{v_{e}}} = \frac{\frac{mv_{e}-m_{e}v}{v_{e}v}}{}$$
 
