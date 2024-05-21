@@ -151,5 +151,12 @@ comme $\sum_{k = 0}^{n}a_{k}$ est une satp, $\left( \sum_{k = 0}^{n}a_{k} \right
 Si 
 $$\begin{cases}
 a_{n} = O(b_{n}) \\
-\sum b_{n} CVA
-\end{cases}$$
+\sum b_{n} \text{ CVA}
+\end{cases} \Rightarrow \sum a_{n} \text{ CV}$$
+
+Il existe un $M \in \mathbb{R}$ tel que : 
+$$|\frac{a_{n}}{b_{n}}|\leq M \Rightarrow 0 \leq |a_{n}| \leq M|b_{n}|$$
+$$\sum a_{n} \text{ CVA}$$
+Alors, $\sum a_{n}$ CV
+___
+$$\int _{m+1}^{n+1} f(x)\, dx \leq \sum_{k = }^{}f(k) \leq \int_{m}^{n}f(x) \, dx \leq \sum_{k = }^{} f(k)$$
