@@ -159,4 +159,16 @@ $$|\frac{a_{n}}{b_{n}}|\leq M \Rightarrow 0 \leq |a_{n}| \leq M|b_{n}|$$
 $$\sum a_{n} \text{ CVA}$$
 Alors, $\sum a_{n}$ CV
 ___
-$$\int _{m+1}^{n+1} f(x)\, dx \leq \sum_{k = }^{}f(k) \leq \int_{m}^{n}f(x) \, dx \leq \sum_{k = }^{} f(k)$$
+Soit $\alpha > 1$, 
+$$f : \begin{cases}
+[1, + \infty[ \to \mathbb{R} \\
+x \mapsto \frac{1}{x^{\alpha}}
+\end{cases}$$
+$$\int _{m+1}^{n+1} f(x)\, dx \leq \sum_{k = m+1}^{n}f(k) \leq \int_{m}^{n}f(x) \, dx \leq \sum_{k = m}^{n-1} f(k)$$
+
+Mq
+$$\sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV}$$
+
+$$\sum_{k = 2}^{n} \frac{1}{n^{\alpha}} \leq \int_{1}^{n} \frac{1}{x^{\alpha}}  \, dx $$
+Alors, 
+$$\sum_{k = 1}^{n} \frac{1}{n^{\alpha}} \leq \left[ \frac{1}{1-\alpha}  \frac{1}{x^{\alpha-1}} \right]_{1}^{n}+1 \Leftrightarrow \sum_{k=  1}^{n} \frac{1}{n^{\alpha}}\leq \frac{1}{1-\alpha} \left( \frac{1}{n^{\alpha-1}}-\alpha \right)$$
