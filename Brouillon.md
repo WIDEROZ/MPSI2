@@ -135,3 +135,21 @@ Pour $\alpha > 1$,
 $$\sum \frac{1}{n^{\alpha}}$$
 SATP, 
 $$\sum_{k = 0}^{n} \frac{1}{n^{\alpha}}$$
+___
+CV par majoration : 
+Soit $\sum a_{n}$ SATP et $\sum b_{n}$ tq
+$$0 \leq a_{n} \leq b_{n}$$
+$$\sum b_{n} \text{ CV} \Rightarrow \sum a_{n} \text{ CV}$$
+Supp $\sum b_{n}$ CV, 
+Alors, par déf
+$\left( \sum_{k = 0}^{n} b_{k} \right)_{n}$ CV, 
+Comme $b_{n}\geq 0$ et que $\sum b_{n}$ est croissante (car SATP)
+$$0 \leq \sum_{k=0}^{n} a_{k} \leq \sum_{k = 0}^{n} b_{n} \leq \sum_{k = 0}^{\infty} b_{k}$$
+ainsi,
+comme $\sum_{k = 0}^{n}a_{k}$ est une satp, $\left( \sum_{k = 0}^{n}a_{k} \right)_{n}$ est croissante et majorée donc elle CV.
+
+Si 
+$$\begin{cases}
+a_{n} = O(b_{n}) \\
+\sum b_{n} CVA
+\end{cases}$$

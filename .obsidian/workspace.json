@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -161,10 +160,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "395b780a99e9b024",
+  "active": "33944a1e8866a96e",
   "lastOpenFiles": [
-    "Brouillon.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Brouillon.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
