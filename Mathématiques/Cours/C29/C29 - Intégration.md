@@ -98,13 +98,13 @@ La suite $(y_{\varphi(n)})$ est réelle bornée, donc on peut en extraire une su
 Comme $(x_{(\varphi \circ \psi)(n)})$ est extraite de la suite convergente $(x_{\varphi(n)})$ on a finalement :
 $$\begin{cases}
 x_{\varphi \circ\psi(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
-x_{\varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}  l'
+y_{\varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}  l'
 \end{cases}$$
 ___
 Deuxième manière sur le poly
 ___
 $$\begin{array}{rl}
-|y_{\phi(n)}-l| &\leq |y_{\varphi(n)}-x_{\varphi(n)}|+|x_{\varphi(n)}-l| \\
+|y_{\varphi(n)}-l| &\leq |y_{\varphi(n)}-x_{\varphi(n)}|+|x_{\varphi(n)}-l| \\
 &\leq \frac{1}{\varphi(n)+1} + |x_{\varphi(n)}-l|
 \end{array}$$
 
