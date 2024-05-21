@@ -435,7 +435,7 @@ $$\sum a_{n} \text{ et } \sum b_{n} \text{ sont de même nature}$$
 Démonstration : 
 Par disjonction de case : 
 Soit $\sum a_n$ CV et $\sum b_{n}$ CV c'est fini
-Soit $\sum a_{n}$ DV et $\sum a_{n}$ DV c'et fini
+Soit $\sum a_{n}$ DV et $\sum a_{n}$ DV 
 
 Soit une des deux converge et quitte a échanger les roles on peut supposer que $\sum b_{n}$ CV
 
