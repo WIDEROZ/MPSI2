@@ -172,3 +172,15 @@ $$\sum_{n \geq 1} \frac{1}{n^{\alpha}} \text{ CV}$$
 $$\sum_{k = 2}^{n} \frac{1}{n^{\alpha}} \leq \int_{1}^{n} \frac{1}{x^{\alpha}}  \, dx $$
 Alors, 
 $$\sum_{k = 1}^{n} \frac{1}{n^{\alpha}} \leq \left[ \frac{1}{1-\alpha}  \frac{1}{x^{\alpha-1}} \right]_{1}^{n}+1 \Leftrightarrow \sum_{k=  1}^{n} \frac{1}{n^{\alpha}}\leq \frac{1}{1-\alpha} \left( \frac{1}{n^{\alpha-1}}-\alpha \right)$$
+or
+$$\frac{1}{1-\alpha}\left( \frac{1}{n^{\alpha-1}}-\alpha \right)\underset{n \to +\infty}{\longrightarrow} \frac{\alpha}{\alpha-1}$$
+Ainsi, 
+$$0\leq \sum_{k = 1}^{\infty} \frac{1}{n^{\alpha}} \leq \frac{\alpha}{\alpha-1}$$
+Donc par le théorème de comparaison des SATP, 
+$$\sum \frac{1}{n^{\alpha}} \text{ CV}$$
+Soit $n \in \mathbb{N}$, 
+$$\frac{1}{1-\alpha} \left( \frac{1}{(n+1)^{\alpha-1}}-\frac{1}{(m+1)^{\alpha-1}} \right) \leq \sum_{k = m+1}^{n} \frac{1}{k^{\alpha}} \leq \int_{m}^{n} \frac{1}{x^{\alpha}} \, dx$$
+Or, 
+$$\int _{m}^{n} \frac{1}{x^{\alpha}} \, dx = \frac{1}{1-\alpha}\left( \frac{1}{n^{\alpha-1}}-\frac{1}{m^{\alpha-1}} \right)$$
+En faisant tendre $n$ vers $+ \infty$ : 
+$$ \frac{1}{(\alpha-1)(m+1)^{\alpha-1}} \leq $$
