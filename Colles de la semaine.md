@@ -102,5 +102,5 @@ $R_{n} + S_{n} = l$
 Comme : 
 $$S_{2p+1} \leq l \leq S_{2p}$$
 Alors : 
-$$S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p+1}$$
+$$ -\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p+1}\leq 0$$
 
