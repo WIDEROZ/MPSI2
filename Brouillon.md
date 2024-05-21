@@ -72,3 +72,19 @@ $$\int_{T_{i}}^{T_{f}} \frac{R}{\gamma-1}dT = -\int_{V_{i}}^{V_{f}}  dV$$
 
 
 $$R_{n} = \sum_{k = 0}^{\infty} a_{n} - S_{n} = \sum_{k = n+1}^{\infty}a_{n}$$
+
+
+
+
+Soit $(\alpha_{n}) \in \mathbb{R}^{\mathbb{N}}$ décroissante
+Alors, 
+$$\sum (-1)^{n}\alpha_{n} \text{ CV}$$
+Soit $(a_{n}), (b_{n}) \in \mathbb{R}^{\mathbb{N}}$ tel que
+$$0 \leq a_{n} \leq b_{n}$$
+Alors, 
+$$0 \leq \sum_{k = 1}^{n} a_{n} \leq \sum_{k = 1}^{n}b_{k}$$
+car $\forall n \in \mathbb{N}, a_{n} \leq b_{n}$ 
+Comme $\sum b_{n}$ et $\sum a_{n}$ sont des SATP, la suite de leur somme partielle est croissante. 
+Alors, comme on a :
+$$0 \leq \sum_{k = 1}^{n} a_{n} \leq \sum_{k = 1}^{n}b_{k}$$
+et que $\sum b_{n}$ CV, ($\sum_{k =0 }^{\infty} b_{k} \in \mathbb{R}$)
