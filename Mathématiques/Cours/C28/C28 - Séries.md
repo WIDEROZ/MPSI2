@@ -444,7 +444,7 @@ On a par la définition de la limite :
 (avec $\varepsilon = 1$) il existe $N \in \mathbb{N}$ tq
 $$\forall n \geq N,  0\leq \frac{a_{n}}{b_{n}} \leq 1+1 = 2$$
 puis comme $\forall n \geq N, 0 \leq a_{n} \leq 2b_{n}$
-et que $\sum 2b_{n} = 2\sum b_{n}$ CV, 
+et que $\sum 2b_{n} = 2\sum b_{n}$ CV, ($\Leftrightarrow \sum b_{n} \text{ CV}$)
 Par la convergence d'une SATP par majoration, 
 $$\sum a_{n} \text{ CV}$$
 
@@ -468,13 +468,14 @@ $$\sum_{n \geq 1} \left( -\frac{1}{n} \right) \text{ DV}$$
 Donc, 
 $$\sum_{n \geq 1}\left( \frac{(-1)^{n}}{\sqrt{ n }}-\frac{1}{n} \right) \text{ DV}$$
 
+
 #### Remarque
 Ici aussi il suffit des la positivité APDCR
 
 #### Remarque : Subtile
 Si $\sum b_{n}$ est une SATP et $a_{n} \underset{n \to \infty}{\sim} b_{n}$, alors par définition des équivalents APDCR $b_{n} > 0$
 et on a vu que $a_{n}$ et $b_{n}$ on le même signe APDCR
-donc on peut appliquer le théorème. 
+donc on peut appliquer le théorème : 
 
 #### Théorème : Règle d'Alembert
 Soit $\sum a_{n}$ une série a termes strictement positifs telle que :
