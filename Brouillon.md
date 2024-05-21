@@ -103,5 +103,14 @@ Si $a_{n} \in \mathbb{R}_{+}$,
 $a_{n}^{+} - a_{n}^{-} = a_{n}$
 $|a_{n}| = a_{n}^{+} + a_{n}^{-}$
 
+$$0 \leq a_{n}^{-} \leq |a_{n}|$$
+$$0 \leq a_{n}^{+}\leq |a_{n}|$$
+
 On a alors, 
-$$\sum_{k = 0}tf,$$
+$$\sum_{k = 0}^{n} |a_{n}| = \sum_{k = 0}^{n}a_{n}^{+} + \sum_{k = 0}^{n}a_{n}^{-}$$
+
+Cas $\mathbb{K} = \mathbb{C}$, 
+$$|a_{n}| = \sqrt{ \mathrm{Im}(a_{n})^{2} + \mathrm{Re}(a_{n})^{2} }$$
+Alors comme, 
+$0 \leq \mid \mathrm{Re}(a_{n})\mid \leq \mid a_{n}\mid$ et $0 \leq |\mathrm{Im}(a_{n})| \leq |a_{n}|$
+comme

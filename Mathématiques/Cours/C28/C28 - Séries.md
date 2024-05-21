@@ -792,7 +792,7 @@ On a :
 $$ \forall n \in \mathbb{N}, 0 \leq | \mathrm{Re}(a_{n})|\leq |a_{n}|$$
 Comme $\sum|a_{n}|$ CV, alors $\sum |\mathrm{Re}(a_{n})|$ CV
 
-Ainsi 
+Ainsi
 $$\sum\mathrm{Re}(a_{n}) \text{ CVA}$$
 et par le cas réel prouvé précédemment, 
 $$\sum\mathrm{Re}(a_{n}) \text{ CV}$$
