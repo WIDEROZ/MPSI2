@@ -86,6 +86,15 @@ $$\sum (-1)^{n}\alpha_{n} \text{ CV}$$
 Soit $p \in \mathbb{N},$ 
 On note : 
 $$\forall n \in \mathbb{N}, S_{n} = \sum_{k = 0}^{n} (-1)^{n}\alpha_{n}$$
-$$S_{2p+2} - S_{2p} = \sum_{k = 0}^{2p+2} (-1)^{k}\alpha^{k} - \sum_{k=0}^{2p}(-1)^{k}\alpha^{k} = -\alpha^{2p+1} + \alpha^{2p+2}$$
-$$S_{2p+3} - S_{2p+1} = -\alpha^{2p+3} + \alpha^{2p+2}$$
-Ani
+$$S_{2p+2} - S_{2p} = \sum_{k = 0}^{2p+2} (-1)^{k}\alpha^{k} - \sum_{k=0}^{2p}(-1)^{k}\alpha^{k} = -\alpha^{2p+1} + \alpha^{2p+2} \leq 0$$
+$$S_{2p+3} - S_{2p+1} = -\alpha^{2p+3} + \alpha^{2p+2}\geq 0$$
+Ainsi, 
+$$(S_{2p})_{p} \downarrow \text{ et }(S_{2p+1})_{p} \uparrow$$
+Comme
+$$S_{2p+1}-S_{2p} = - \alpha^{2p+1} \underset{p \to +\infty}{\longrightarrow}  0$$
+Alors, $(S_{2p})$ et $(S_{2p+1})$ sont adjacentes. 
+elles convergent donc vers la même limite par le théorème des suites adjacentes et donc, 
+par le théorème sur les suites de extraites de rangs paires et impairs comme elles ont la même limite : $(S_{n})$ Converge
+$$\sum(-1)^{n}\alpha_{n} \text{ CV}$$
+
+$$R_{n} = \sum_{k = }$$
