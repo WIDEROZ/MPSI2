@@ -123,4 +123,15 @@ $$\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i\sum \mathrm{Im}(a_{n}) \text{ CV}$$
 ___
 Soit $\sum a_{n}$ et $\sum b_{n}$ deux séries dans $\mathbb{K}$
 $\sum b_{n}$ CVA, et $a_{n} = O(b_{n})$
-$$|\frac{a_{n}}{b_{n}}| \leq M $$
+il existe un $M$ tel que :
+$$0 \leq |\frac{a_{n}}{b_{n}}| \leq M $$
+Alors, 
+$$0 \leq |a_{n}| \leq M|b_{n}|$$
+Comme $M \sum |b_{n}|$ CV, 
+$\sum a_{n}$ CVA
+
+___
+Pour $\alpha > 1$,
+$$\sum \frac{1}{n^{\alpha}}$$
+SATP, 
+$$ 0 \leq \frac{1}{n^{\alpha}}$$
