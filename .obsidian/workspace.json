@@ -11,6 +11,16 @@
             "id": "e005f4af0fa2433c",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf"
+              }
+            }
+          },
+          {
+            "id": "395b780a99e9b024",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Mathématiques/Cours/C28/C28 - Séries.md",
@@ -19,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -148,8 +159,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e005f4af0fa2433c",
+  "active": "395b780a99e9b024",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C10/C10 - Résumé.pdf",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
+    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
@@ -160,10 +177,6 @@
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-LightItalic.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Light.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Italic.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-HairlineItalic.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-Hairline.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-BoldItalic.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-Bold.ttf",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
@@ -173,7 +186,6 @@
     "Mathématiques/Cours/C28/C28.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
@@ -184,7 +196,6 @@
     "Anglais/Cours/Vocabulaire.md",
     "Anglais/Cours/05-15.md",
     "Anglais/Exos/Nombres.md",
-    "Anglais/Exos/03-04.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",

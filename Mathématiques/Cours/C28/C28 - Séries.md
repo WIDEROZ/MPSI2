@@ -929,7 +929,7 @@ $$\sum_{ n \geq 1} \frac{(-1)^{n-1}}{n}$$
 
 On note pour $n \in \mathbb{N}$, 
 $$S_{n} = \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}$$
-$S_{0} = 0$
+$S_{0} = 0$ (convention)
 
 On considère les suites extraites de $S_{n}$ des rangs pairs et des rangs impairs notés : 
 $$\begin{cases}
