@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf"
               }
             }
           }
@@ -159,10 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "395b780a99e9b024",
+  "active": "e005f4af0fa2433c",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Brouillon.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
