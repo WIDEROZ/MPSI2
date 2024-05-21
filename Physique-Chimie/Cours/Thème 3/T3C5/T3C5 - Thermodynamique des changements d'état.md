@@ -167,7 +167,7 @@ et comme pour l'enthalpie molaire de changement d'état :
 
 #### Propriété
 $$\Delta s_{m_{fus}} = -\Delta s_{m_{sol}}$$
-$$\Delta s_{m_{liq}} = - \Delta S_{m_{vap}}$$
+$$\Delta s_{m_{liq}} = - \Delta s_{m_{vap}}$$
 
 # V. Les changements d'état de l'eau au contact de l'air
 #### Définition
