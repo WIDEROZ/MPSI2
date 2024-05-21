@@ -974,6 +974,7 @@ Démonstration :
 On note $(S_{n})$ la suite des sommes partielles de cette série
 Pour $p \in \mathbb{N}$,
 $$S_{2p+2}-S_{2p} = - \alpha_{2p+1} + \alpha_{2p+2} \leq 0$$
+
 Donc, $(S_{p_{2}}) \downarrow$
 Pour $p \in \mathbb{N}$, 
 $$S_{2p+3}-S_{2p+1} = \alpha_{2p+2}-\alpha_{2p+3}\geq 0$$
@@ -983,7 +984,7 @@ Alors,
 $$\forall p \in \mathbb{N}, S_{2p+1}-S_{p} = - \alpha_{2p+1} \underset{p \to +\infty}{\longrightarrow} 0$$
 
 Ainsi, $(S_{2p})_{p}$ et $(S_{2p+1})_{p}$ sont adjacentes.
-Par le théorème des suites adjacentes elles CV vers une limit commune 
+Par le théorème des suites adjacentes elles CV vers une limite commune. 
 Par le théorème de CV pour les suites extraites de rang pairs et impairs, $(S_{n})$ CV
 
 #### Exemple
