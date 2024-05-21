@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e005f4af0fa2433c",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf"
-              }
-            }
-          },
-          {
             "id": "33944a1e8866a96e",
             "type": "leaf",
             "state": {
@@ -41,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -173,9 +162,9 @@
   },
   "active": "33944a1e8866a96e",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Brouillon.md",
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",

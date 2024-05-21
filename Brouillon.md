@@ -113,4 +113,14 @@ Cas $\mathbb{K} = \mathbb{C}$,
 $$|a_{n}| = \sqrt{ \mathrm{Im}(a_{n})^{2} + \mathrm{Re}(a_{n})^{2} }$$
 Alors comme, 
 $0 \leq \mid \mathrm{Re}(a_{n})\mid \leq \mid a_{n}\mid$ et $0 \leq |\mathrm{Im}(a_{n})| \leq |a_{n}|$
-comme
+comme, 
+$\sum |\mathrm{Re}(a_{n})|$ est une SATP, et que $|a_{n}|$ CV, $\sum |\mathrm{Re}(a_{n})|$ CV
+par le théorème dans le cas réel, 
+$\sum \mathrm{Re}(a_{n})$ CV, et $\sum \mathrm{Im}(a_{n})$ CV
+
+$$\sum a_{n} = \sum \mathrm{Re}(a_{n}) + i\sum \mathrm{Im}(a_{n}) \text{ CV}$$
+
+___
+Soit $\sum a_{n}$ et $\sum b_{n}$ deux séries dans $\mathbb{K}$
+$\sum b_{n}$ CVA, et $a_{n} = O(b_{n})$
+$$|\frac{a_{n}}{b_{n}}| \leq M $$
