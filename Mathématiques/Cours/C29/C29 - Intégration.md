@@ -95,13 +95,15 @@ $$\begin{cases}
 Comme $(x_{n})$ est une suit à valeurs réelle et bornée, d'après le théorème de Bolzano-Weierstrass on peut en extraire une suite convergente : $(x_{\varphi_{n}})$, dont on note $l$ la limite par passage à la limite dans des inégalités larges : $l \in [a, b]$
 
 La suite $(y_{\varphi(n)})$ est réelle bornée, donc on peut en extraire une suite CV vers $l' \in [a, b]$, $(y_{(\varphi \circ \psi)(n)})$ 
+___
+(On s'en fout pour cette démo :)
 Comme $(x_{(\varphi \circ \psi)(n)})$ est extraite de la suite convergente $(x_{\varphi(n)})$ on a finalement :
 $$\begin{cases}
 x_{\varphi \circ\psi(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
 y_{\varphi \circ \psi(n)} \underset{n \to +\infty}{\longrightarrow}  l'
 \end{cases}$$
-___
-Deuxième manière sur le poly
+
+Suite : deuxième manière sur le poly
 ___
 $$\begin{array}{rl}
 |y_{\varphi(n)}-l| &\leq |y_{\varphi(n)}-x_{\varphi(n)}|+|x_{\varphi(n)}-l| \\

@@ -32,6 +32,18 @@
             }
           },
           {
+            "id": "17a8f1ba069fdc22",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "ee2be897f7e3e88d",
             "type": "leaf",
             "state": {
@@ -121,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -173,7 +185,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee2be897f7e3e88d",
+  "active": "17a8f1ba069fdc22",
   "lastOpenFiles": [
     "Colles de la semaine.md",
     "Brouillon.md",

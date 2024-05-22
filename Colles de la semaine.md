@@ -102,7 +102,15 @@ $R_{n} + S_{n} = l$
 Comme : 
 $$S_{2p+1} \leq l \leq S_{2p}$$
 Alors : 
-$$ -\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p+1}\leq 0$$
+$$ -\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p}\leq 0$$
+$R_{2p} \geq - \alpha_{2p+1}$
+
+
+
+
+
+
+
 ___
 #### Théorème de Heine
 Toute fonction continue sur $[a, b]$ est uniformément continue. 
@@ -121,11 +129,15 @@ $$\begin{cases}
 \end{cases}$$
 Comme $(x_{n})$ est bornée on utilise le théorème de B-W, et on note cette suite : $(x_{\phi(n)})_{n}$ de limite $l \in [a, b]$, 
 Comme $(y_{\varphi(n)})_{n}$ est bornée, par B-W, Il existe une suite : $(y_{(\varphi \circ \psi)(n)})$ CV de limite $l' \in [a, b]$. 
-$$\begin{cases}
-x_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
-y_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow} l'
-\end{cases}$$
+
 Alors, 
 $$\begin{array}{rl}
-|y_{\varphi(n)}-l| \leq |y_{\varphi(n)} - x_{\varphi}|
+|y_{\varphi(n)}-l| &\leq |y_{\varphi(n)} - x_{\varphi(n)}| - |x_{\varphi(n)}-l| \\
+&\leq \frac{1}{\phi(n)+1} - |x_{\varphi(n)}-l|
 \end{array}$$
+
+Ainsi en passant à la limite, on a : 
+$$y_{\phi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
+En passant à la limite dans la deuxième égalité du haut :
+$$0 > \varepsilon$$
+CONTRADICTION

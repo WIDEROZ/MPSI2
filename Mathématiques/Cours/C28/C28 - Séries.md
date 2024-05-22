@@ -1000,7 +1000,7 @@ Comme elle converge vers $l \in \mathbb{R}$, et ses restes sont définis et on l
 On a ainsi, $\forall n \in \mathbb{N}, R_{n} = l-S_{n}$
 Comme les suites extraites $(S_{2p})$ et $(S_{2p+1})$ sont adjacentes, pour $p \in \mathbb{N}$ 
 $$S_{2p+1} \leq l \leq S_{2p}$$
-
+$$R_{n} = \sum_{k = }$$
 Donc, 
 $$|R_{2p}| = S_{2p}-l \leq S_{2p} - S_{2p+1} = \alpha_{2p+1}$$
 et aussi : 
