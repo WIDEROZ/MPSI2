@@ -14,5 +14,24 @@ $$\sum_{n \geq 1} \ln\left( 1+\frac{1}{n} \right) \text{ DV}$$
 
 ## 2.
 $$\sum \frac{2n}{n + 2^{n}}$$
-Soit $$
-$$$$
+C'est une SATP
+On applique la règle de d’Alembert
+Pour $n \in \mathbb{N}$, 
+$$\frac{\frac{2(n+1)}{(n+1)+2^{n+1}}}{\frac{2n}{n+2^{n}}} = \frac{n+1}{n} \times \frac{n+2^{n}}{(n+1)+2^{n+1}} \sim \frac{n}{n} \times \frac{2^{n}}{2^{n+1}} = \frac{1}{2}$$
+$\frac{1}{2} <1$ alors d'après la règle d'Alembert : 
+$$\sum \frac{2n}{n+2^{n}} \text{ CV}$$
+
+## 3. 
+Pour $n \geq 1$,
+$$a_{n} = \frac{1}{\sqrt{ n(n+1) }}$$
+$$\sum_{n \geq 1} a_{n} \text{ et } \sum_{n \geq 1} \frac{1}{n} \text{ sont deux SATP équivaelnts}$$
+Or, 
+$$\sum_{n \geq 1} \frac{1}{n} \text{ DV}$$
+Donc, 
+$$\sum_{n \geq 1} a_{n}\text{ DV}$$
+
+## 4. 
+Pour $n \geq 1$, $a_{n} = \frac{(-1)^{n}}{n^{\alpha}}$ ou $\alpha$ est réel
+Pour $\alpha \in \mathbb{R}_{-}$
+$$\sum a_{n} \text{ DVG}$$
+Pour $\alpha \in \mathbb{R}_{+}$, 
