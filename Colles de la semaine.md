@@ -99,18 +99,19 @@ $$\sum(-1)^{n}\alpha_{n} \text{ CV}$$
 
 Comme $\sum(-1)^{n}\alpha_{n} \text{ CV}$ le reste est bien défini, on a alors : 
 $R_{n} + S_{n} = l$
-Comme : 
+Comme pour $p \in [\![1, n]\!]$, 
 $$S_{2p+1} \leq l \leq S_{2p}$$
-Alors : 
-$$ -\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p}\leq 0$$
-$R_{2p} \geq - \alpha_{2p+1}$
+$$-\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l- S_{2p} = R_{2p}$$
+Alors, 
+$$|R_{2p}| = S_{2p} - l \leq \alpha_{2p+1}$$
 
-
-
-
-
-
-
+Comme : 
+$$S_{2p+1} \leq l \leq S_{2p+2}$$
+$$|R_{2p+1}|= l-S_{2p+1} \leq S_{2p+2}-S_{2p+1} = \alpha_{2p+2}$$
+Ainsi pour les deux suites adjacentes on a bien : 
+$|R_{2p}| \leq \alpha_{2p+1}$ et $|R_{2p+1}| \leq \alpha_{2p+2}$
+Ainsi, 
+$$\forall n \in \mathbb{N}, |R_{n}| \leq \alpha_{n+1}$$
 ___
 #### Théorème de Heine
 Toute fonction continue sur $[a, b]$ est uniformément continue. 
