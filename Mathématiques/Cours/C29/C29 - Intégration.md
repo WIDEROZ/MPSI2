@@ -651,9 +651,24 @@ $$\forall x \in [a, b], |x - x_{0}| \leq \alpha \Rightarrow |f(x) - f(x_{0})| \l
 A fortiori : 
 $$\forall x \in [a, b], |x - x_{0}| \leq \alpha \Rightarrow f(x) \geq \frac{f(x_{0})}{2}$$
 Le segment
-$$S = [x_{0}-x, x_{0}+x] \cap [a, b] = [\max(), \max]$$
+$$S = [x_{0}-\alpha, x_{0}+\alpha] \cap [a, b] = [\max(a, x_{0}-\alpha), \min(b, x_{0}+\alpha)]$$
+est non trivial (faire une disjonction cas)
+et quitte à le réduire un peu (tout en restant non trivial) on obtient un segment :
+$$S'= [c, d] \text{ avec } a < c < d < b$$
+et
+$$\forall x \in S, f(x) \geq \frac{f(x_{0})}{2}$$
 
-
+On a alors (en appliquant deux fois la relation de Chasles)
+$$\int _{a}^{b}f= \int _{a}^{c}f +\int _{c}^{d}f + \int _{d}^{b}f \geq (d-c) \frac{f(x_{0})}{2} $$
+Ainsi, 
+$$\boxed{\int _{a}^{b}f \neq 0}$$
 
 #### Remarque
 Faux pour $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
+
+#### Remarque
+La plupart du temps on a : $f$ continue et positive sur $[a,b]$ avec au moins un point de stricte positivité d'ou on en déduis que $\int _{a}^{b}f > 0$
+
+#### Remarque
+On a en fait monré un résultat plus fort : 
+Si $f$ est $C$
