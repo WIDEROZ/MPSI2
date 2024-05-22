@@ -116,6 +116,19 @@ Soit $n \in \mathbb{N}$,
 En prenant $\alpha = \frac{1}{n+1}$
 Soit $(x_{n}), (y_{n}) \in \mathbb{R}^{I}$, 
 $$\begin{cases}
-|y - x| \leq \frac{1}{n+1} \\
-|f(y)-f(x)| > \varepsilon
+|y_{n} - x_{n}| \leq \frac{1}{n+1} \\
+|f(y_{n})-f(x_{n})| > \varepsilon
 \end{cases}$$
+
+Alors, 
+En appliquant le th de Bolzano-Weierstrass, car $(x_{n})_{n}$ est bornée et réelle, il existe une suite extraite convergente : $(x_{\varphi(n)})_{n}$ vers $l \in [a,b]$
+Comme $(y_{\varphi(n)})$ est réelle et bornée on applique le th de Bolz-Weier, il existe donc une limite $l'$ de $(y_{(\varphi \circ \psi)(n)})_{n}$ et comme $(x_{(\varphi \circ \psi)(n)})$ est extraite de la suite CV, 
+$$\begin{cases}
+x_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow} l \\
+y_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow} l'
+\end{cases}$$
+Alors, 
+$$\begin{array}{rl}
+|y_{(\varphi \circ \psi)(n)} - l'| &\leq |y_{(\varphi \circ \psi)(n)}- x_{(\varphi \circ \psi)(n)}| + |x_{(\varphi \circ \psi)(n)} - l'| \\
+&\leq \frac{1}{(\varphi \circ \psi)(n)+1}
+\end{array}$$
