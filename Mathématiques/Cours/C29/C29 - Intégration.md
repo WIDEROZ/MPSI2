@@ -513,6 +513,25 @@ On extrait une suite convergente de $(I(\varphi_{n}))$ à l'aide du théorème d
 Comme,
 $$\sup_{[a,b]}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} 0$$
 La suite de ces sup est bornée, ie il exite un $M_{1} \in \mathbb{R}_{+}$ tq,
-$$\forall n \in , \forall x \in [a, b], |\varphi_{n}(x)-f(x)|\leq M_{1}$$
+$$\forall n \in \mathbb{N}, \forall x \in [a, b], |\varphi_{n}(x)-f(x)|\leq M_{1}$$
 Comme $\mathrm{CPM}_{\mathbb{K}}([a, b]) \subset \mathcal{B}_{\mathbb{K}}([a, b])$, il existe $M_{2} \in \mathbb{R}_{+}$ tel que 
-$$$$
+$$\forall x \in [a, b], |f(x)| \leq M_{2}$$
+Soit $n \in \mathbb{N}$, 
+Pour tout $x \in [a,b]$, 
+$$\begin{array}{rl}
+|\varphi_{n}(x)| &= |\varphi_{n}(x) - f(x) + f(x)| \\
+&\leq |\varphi_{n} - f(x)| + |f(x)| \\
+&\leq M_{1} + M_{2}
+\end{array}$$
+Par inégalité de normes : 
+$$|I(\varphi_{n})| \leq I(|\varphi_{n}|)\leq I(M_{1}+M_{2}) = (b-a)(M_{1}+M_{2})$$
+Ainsi, $(I(\varphi_{n}))_{n}$ est bornée et réelle, donc, par le théorème de B-W, 
+il existe une extractrice $\theta$ telle que $(I(\varphi_{\theta(n)}))_{n}$ CV vers $l \in \mathbb{K}$
+
+##### Etape 2
+On montre que $(I(\varphi_{n}))_{n}$ CV vers $l$ 
+Soir $\varepsilon > 0$, 
+Comme $\lim_{ n \to \infty }I(\varphi_{\theta(n)}) = l$, il existe $n_{0} \in \mathbb{N}$, tel que : 
+$$\forall n \geq n_{0}, |I(\varphi_{\theta(n)})-l| \leq \frac{\varepsilon}{2}$$
+Comme $(\varphi_{n})$ CVU vers $f$, il existe $N \in \mathbb{N}$ tel que :
+$$\forall n \geq N, \forall x \in [a, b], |\varphi_{n}(x) -f(x)| \leq \frac{\varepsilon}{4(b-a)}$$
