@@ -114,3 +114,18 @@ Supposons par l'absurde qu'elle n'est pas uniformément continue :
 $$\exists \varepsilon \in \mathbb{R}_{+}^{*}, \forall \alpha \in \mathbb{R}_{+}^{*}, \exists x, y \in I, |y - x| \leq \alpha \text{ et } |f(y)-f(x)|> \varepsilon$$
 Soit $n \in \mathbb{N}$, 
 Soit $(x_{n})_{n}, (y_{n})_{n} \in \mathbb{R}^{I}$, 
+en prenant $\alpha = \frac{1}{n+1}$, 
+$$\begin{cases}
+|y_{n}- x_{n}| \leq \frac{1}{n+1} \\
+|f(y_n)- f(x_{n})| > \varepsilon
+\end{cases}$$
+Comme $(x_{n})$ est bornée on utilise le théorème de B-W, et on note cette suite : $(x_{\phi(n)})_{n}$ de limite $l \in [a, b]$, 
+Comme $(y_{\varphi(n)})_{n}$ est bornée, par B-W, Il existe une suite : $(y_{(\varphi \circ \psi)(n)})$ CV de limite $l' \in [a, b]$. 
+$$\begin{cases}
+x_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow}  l \\
+y_{(\varphi \circ \psi)(n)} \underset{n \to +\infty}{\longrightarrow} l'
+\end{cases}$$
+Alors, 
+$$\begin{array}{rl}
+|y_{\varphi(n)}-l| \leq |y_{\varphi(n)} - x_{\varphi}|
+\end{array}$$
