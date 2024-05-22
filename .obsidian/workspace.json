@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Colles de la semaine.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "mode": "source",
                 "source": false
               }
@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "ee2be897f7e3e88d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Mathématiques/TD/E28/E28 - Séries.md"
               }
             }
           }
@@ -185,11 +173,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee2be897f7e3e88d",
+  "active": "0ad015e2c215e04e",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Colles de la semaine.md",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28",
+    "Mathématiques/TD/E26/E26 - 1.md",
+    "Mathématiques/TD/E27/E27.md",
     "Brouillon.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10 - Résumé.md",
@@ -205,7 +197,6 @@
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Regular.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-LightItalic.ttf",
     "TIPE/Jeu de la vie/Programme/font/lato/Lato-Light.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-Italic.ttf",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
@@ -220,9 +211,6 @@
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
     "FR Philo/18-01.md",
     "FR Philo/Dissertation/Jacques Rancière/Plan - Correction.md",
-    "Physique-Chimie/Cours/Thème 3/T3C3/T3C3.md",
-    "Anglais/Correction DS/Correction DS Traduction.md",
-    "Anglais/Cours/Vocabulaire.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",

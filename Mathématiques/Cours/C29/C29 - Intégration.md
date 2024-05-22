@@ -695,4 +695,9 @@ On étend la définition de l'intégrale entre $a$ et $b$ où $a, b \in I$, ains
 3. Croissance
    $$\forall f, g \in \mathrm{CPM}_{\mathbb{R}}(I), f \leq g \Rightarrow \mathrm{sgn}(b-a)\int_{a}^{b} f \leq \mathrm{sgn}(b-a) \int _{a}^{b} g$$
 4. Inégalité de norme
-   $$\forall f \in \mathrm{CPM}_{\mathbb{K}}(I), |f| \in \mathrm{CPM}_{\mathbb{K}}(I) \text{ et } $$
+   $$\forall f \in \mathrm{CPM}_{\mathbb{K}}(I), |f| \in \mathrm{CPM}_{\mathbb{K}}(I) \text{ et } \left| \int _{a}^{b}f \right|\leq \mathrm{sgn}(b-a)\int _{a}^{b}\left| f\right|$$
+
+#### Remarque
+Si on ne connais pas le signe de $(b-a)$, on peut écrire :
+$$\left| \int _{a}^{b}f\right| \leq \int _{a}^{b} \left| f\right| $$
+
