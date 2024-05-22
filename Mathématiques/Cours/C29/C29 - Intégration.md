@@ -612,4 +612,29 @@ Sans surprise elle vérifie les mêmes propriétés que $I$ :
    est une forme linéaire sur $\mathrm{CPM}_{\mathbb{K}}([a, b])$
    
 2. Positivité (rappel : ici $a < b$)
-   $$$$$
+   $$\forall f \in \mathrm{CPM}_{\mathbb{R}}([a, b]), \left( f \geq 0 \Rightarrow \int _{a}^{b}f \geq 0  \right)$$
+3. Croissance ($a < b$)
+   $$\forall f, g \in \mathrm{CPM}_{\mathbb{R}}([a, b]), \left( f \leq g \Rightarrow \int_{a}^{b} f \leq \int_{a}^{b}  g   \right)$$
+4. Inégalité de norme 
+   $$\forall f \in \mathrm{CPM}_{\mathbb{K}}([a, b]), \left|\int _{a}^{b}f\right| \leq \int _{a}^{b}|f| $$
+5. Relation de Chasles
+   Pour toute $f \in \mathrm{CPM}_{\mathbb{K}}([a,b])$ et $c \in ]a, b[$, 
+   $$\begin{cases}
+   f|_{[a, c]} \in \mathrm{CPM}_{\mathbb{K}}([a, c]) \\
+   f|_{[c, b]} \in \mathrm{CPM}_{\mathbb{K}}([c, b])
+   \end{cases}$$
+   et 
+   $$\int_{a}^{b}f = \int _{a}^{c}f|_{[a, c]}  + \int _{c}^{b}f|_{[c, b]}  $$
+
+#### Remarque
+Abus de notation : 
+On note : 
+$$\int _{a}^{c}f \text{ au lieu de : } \int_{a}^{c}f|_{[a, c]}   $$
+Ce qui donne pour la relation de Chasles : 
+$$\int_{a}^{b}f = \int _{a}^{c}f + \int _{c}^{b}f $$
+
+#### Proposition : L'intégrale d'une fonction continue de signe constant
+L'intégrale sur un segment non trivial d'une <u>fonction continue de signe constant est nulle</u> ssi <u>la fonction est nulle </u>
+
+#### Remarque
+Faux pour $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$ 
