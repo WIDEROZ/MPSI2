@@ -32,11 +32,16 @@ int main(int argc, char **argv){
     SDL_VERSION(&nb);
     printf("Vesrion : %d.%d.%d  \n", nb.major, nb.minor, nb.patch);
 
+    // ----- TTF ----- //
     // Initialisation
     VERIF_SDL_COMMAND(SDL_Init(SDL_INIT_VIDEO), "INIT_VIDEO"); // SDL_INIT_VIDEO | SDL_INIT_AUDIO
+    
     // Fonts
     VERIF_SDL_COMMAND(TTF_Init(), "TTF init");
-    TTF_Font *font = TTF_OpenFont("font/Lato/Lato-Regular.ttf", 32);
+    TTF_Font *font = TTF_OpenFont("./font/expressway/exprswy_free.ttf", 128);
+    if (font == NULL){
+        SDL_ExitWithError("Font issue");
+    }
 
 
 
@@ -116,8 +121,22 @@ int main(int argc, char **argv){
     toolbarDestRect.h = TOOLBAR_HEIGHT;
 
     // Initialisation de la barre d'outils
-
     TOOLBAR_INIT(renderer, toolbarTexture, &toolbarSrcRect, &toolbarDestRect);
+
+
+
+    Button *buttonTest;
+
+
+
+
+
+
+
+
+
+
+
     
     
     // ----- Déclaration des variables ----- //
@@ -157,7 +176,11 @@ int main(int argc, char **argv){
                     
                     case SDLK_b:
                         KEY_DOWN_STATUS[SDLK_b] = 1;
-                        CREATE_BUTTON(renderer, toolbarTexture, 10, 50, 70, 20, "Boutton test", font);
+                        SDL_Color white =  {255, 255, 255, 255};
+
+                        SDL_Color black = {0, 0, 0, 255};
+                        
+                        buttonTest = CREATE_BUTTON(renderer, toolbarTexture, 10, 50, 100, 50, "Text", font, white, black);
                         
                         continue;
 
@@ -264,8 +287,8 @@ int main(int argc, char **argv){
                     //printf("Vitesse : (%d, %d) \n", event.motion.xrel, event.motion.yrel);
                     
                     
-                    // Actualisation du déplacement de la caméra avec la souris
-                    if(isMouseButtonPressed){
+                    // ----- Actualisation du déplacement de la caméra avec la souris ----- //
+                    if(isMouseButtonPressed && event.motion.x <= GRID_DISP_WIDTH && event.motion.y <= GRID_DISP_HEIGHT){
                         MOVE_CAMERA_MOUSE(renderer, texture, &camera, event.motion.xrel, event.motion.yrel);
                         MOUSE_MOVING = true;
                     }
@@ -330,6 +353,7 @@ int main(int argc, char **argv){
     // Clear tout les pointeurs
     free(KEY_DOWN_STATUS);
     DESTROY_POINTER_MATRIX(XY_CASE_TAB);
+    free(buttonTest);
 
     // Pointeurs SDL
     SDL_DestroyTexture(texture);
@@ -337,6 +361,7 @@ int main(int argc, char **argv){
     SDL_DestroyRenderer(renderer);
     SDL_DestroyWindow(window);
 
+    TTF_CloseFont(font);
     TTF_Quit();
     SDL_Quit();
     return EXIT_SUCCESS;
