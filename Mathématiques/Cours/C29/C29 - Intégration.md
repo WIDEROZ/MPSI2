@@ -476,4 +476,21 @@ Soit $n \in \mathbb{N}$,
 Comme $f$ est uniformément continue, et $\varepsilon = \frac{1}{n+1} >0$, IL existe $\alpha >0$ tel que
 $$\forall x, y \in [a, b], |x - y| \leq \alpha \Rightarrow |f(x)-f(y)| \leq \frac{1}{n+1}$$
 On définit la subdivision régulière $\sigma = (x_{i})_{i=1}^{k}$ où $k = \left\lceil  \frac{b-a}{\alpha}  \right\rceil$ et : 
-$$\forall i \in [\![1, k]\!], x_{i} = $$
+$$\forall i \in [\![0, k]\!], x_{i} = a + i \frac{b-a}{k}$$
+On définit alors, $\varphi_{n} \in \mathcal{E}_{\mathbb{K}}([a, b])$ par : 
+$$\begin{cases}
+\forall i \in [\![1,k]\!], \varphi_{n}|_{[x_{i-1}, x_{i}[} \equiv f|_{x_{i-1}} \\
+\varphi_{n}(b) = f(b)
+\end{cases}$$
+Soit $i \in [\![0, k]\!]$ 
+Pour $x \in [x_{i-1}, x_{i}]$, puisque
+$$0 \leq x-x_{i-1} \leq x_{i} - x_{i-1} = \frac{b-a}{k}\leq \alpha$$
+alors, 
+$$|f(x)-f(x_{i-1})| \leq \frac{1}{n+1}$$
+ie 
+$$|\varphi_{n}(x) - f(x)| \leq \frac{1}{n+1}$$
+Comme $|\varphi_{n}(b)-f(b)| = 0 \leq \frac{1}{n+1}$,
+alors, 
+$$\sup_{[a, b]}|\varphi_{n}-f| \leq \frac{1}{n+1}$$
+Ainsi, 
+$$\sup_{[a, b]}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} $$
