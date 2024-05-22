@@ -580,6 +580,36 @@ On pose $p = \max(N, N')$,
 Pour $n \geq p$, par l'inégalité triangulaire : 
 $$\forall x \in [a, b], |\varphi_{n}(x) - \psi_{n}(x)| \leq \frac{2\varepsilon}{3(b-a)}$$
 (on fait $+f(x)-f(x)$)
-On a alors : 
+On a : 
 $$|I(\varphi_{n})-I(\psi_{n})| \leq \frac{2}{3}\varepsilon$$
-$$0 \leq \varepsilon = ||$$
+$$0 < |l-l'| = \varepsilon \leq \frac{2}{3} \varepsilon$$
+CONTRADICTION
+
+Ainsi, on a bien : 
+$$\boxed{l' = l}$$
+
+#### Remarque
+En particulier si $\varphi \in \mathcal{E}_{\mathbb{K}}([a, b])$, $\varphi \in \mathrm{CPM}_{\mathbb{K}}([a,b])$ et on a deux objets : "intégrale de $\varphi$ entre $a$ et $b$"
+$I(\varphi)$ et $\int _{a}^{b} \varphi$
+En effet la suite $(\varphi_{n})_{n \in \mathbb{N}}$ est une suite de fonctions en escaliers qui CVU vers $\varphi$ donc, 
+$$I(\varphi) \underset{n \to +\infty}{\longrightarrow} \int _{a}^{b}\varphi $$
+DOnc, 
+$$I(\varphi) = \int _{a}^{b} \varphi $$
+Ainsi, 
+$$\begin{cases}
+\mathrm{CPM}_{\mathbb{K}}([a, b]) \to \mathbb{K} \\
+f \mapsto \int _{a}^{b}f 
+\end{cases}$$
+est un prolongement de $I: \mathcal{E}_{\mathbb{K}}([a, b]) \to \mathbb{K}$
+
+
+## 3. Propriété de cette intégrale
+Sans surprise elle vérifie les mêmes propriétés que $I$ :
+
+#### Propriété
+1. Linéarité
+   $$\begin{cases}\mathrm{CPM}_{\mathbb{K}}([a, b]) \to \mathbb{K} \\ f \mapsto \int _{a}^{b}f \end{cases}$$
+   est une forme linéaire sur $\mathrm{CPM}_{\mathbb{K}}([a, b])$
+   
+2. Positivité (rappel : ici $a < b$)
+   $$$$$
