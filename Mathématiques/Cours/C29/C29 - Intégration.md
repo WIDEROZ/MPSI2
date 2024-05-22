@@ -419,7 +419,7 @@ Si on peut obtenir des quantités $\underset{D}{\sup}|\varphi-f|$ aussi petites 
 ###### Méta-synthèse
 On approche $f$ par une suite de fonctions en escaliers $(\varphi_{n})$ tel que $\underset{[a, b]}{\sup}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} 0$
 Une belle approximation est appelé une appropriation "uniforme" de $f$. Pour cela on montre d'abord qu'il exite de telles approximations, puis que pour une telle suite, $I(\varphi_{n})$ convergente, puis que sa limite ne dépend pas de la suite $(\varphi_{n})$ choisie et alors on définit
-$$\int _{a}^{b} = \lim_{ n \to \infty }I(\varphi_{n})  $$
+$$\int _{a}^{b}f = \lim_{ n \to \infty }I(\varphi_{n})  $$
 qui est indépendant de la suite $(\varphi_{n})$ choisie
 ___
 

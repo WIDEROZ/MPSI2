@@ -142,3 +142,4 @@ $$y_{\phi(n)} \underset{n \to +\infty}{\longrightarrow} l$$
 En passant à la limite dans la deuxième égalité du haut :
 $$0 > \varepsilon$$
 CONTRADICTION
+___
