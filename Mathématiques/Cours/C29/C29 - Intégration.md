@@ -502,5 +502,17 @@ Pour le cas continu par morceaux, on approche pour $n$ fixé sur chaque morceau 
 #### Théorème
 Soit $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
 Pour toute suite $(\varphi_{n}) \in \mathcal{E}_{\mathbb{K}}([a, b])$ tel que $\varphi_{n} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f$ la suite : $(I(\varphi_{n}))_{n}$ CV et sa limite ne dépend pas du choix de cette suite (de fonctions en escalier qui CVU vers $f$) particulière. 
-On appelle cette limite l'intégrale de $f$ sur le segment $[a, b]$ et on la note : 
-$$\int _{a}^{b}f(x) \, dx  = \int _{a}^{b}f = \int _{[a, b]}f  $$
+On appelle cette limite l'intégrale de $f$ sur le segment / entre $[a, b]$ et on la note : 
+$$\int _{a}^{b}f(x) \, dx  = \int _{a}^{b}f = \int _{[a, b]}f$$
+
+Démonstration : 
+Soit $(\varphi_{n}) \in \mathcal{E}_{\mathbb{K}}([a, b])^{\mathbb{N}}$ qui CVU vers $f$
+
+##### Etape 1
+On extrait une suite convergente de $(I(\varphi_{n}))$ à l'aide du théorème de Bolzano-Weierstrass.
+Comme,
+$$\sup_{[a,b]}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} 0$$
+La suite de ces sup est bornée, ie il exite un $M_{1} \in \mathbb{R}_{+}$ tq,
+$$\forall n \in , \forall x \in [a, b], |\varphi_{n}(x)-f(x)|\leq M_{1}$$
+Comme $\mathrm{CPM}_{\mathbb{K}}([a, b]) \subset \mathcal{B}_{\mathbb{K}}([a, b])$, il existe $M_{2} \in \mathbb{R}_{+}$ tel que 
+$$$$
