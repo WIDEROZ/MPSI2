@@ -557,5 +557,29 @@ $$\begin{array}{rl}
 \end{array} $$
 Et enfin, 
 $$\begin{array}{rl}
-|I(\varphi_{n})-l| \leq 
+|I(\varphi_{n})-l| &\leq |I(\varphi_{n})- I(\varphi_{\theta(n_{1})})| + |I(\varphi_{\theta(n_{1})})-l| \\
+&\leq \frac{\varepsilon}{2} + \frac{\varepsilon}{2} = \varepsilon
 \end{array}$$
+Ainsi, 
+$$\boxed{(I(\varphi_{n}))_{n} \text{ CV} \text{ vers }l}$$
+
+##### Etape 3
+On montre que $l$ ne dépend pas de la suite $(\varphi_{n})_{n}$ choisie. 
+Soit $(\psi_{n})_{n} \in \mathcal{E}E_{\mathbb{K}}([a, b])^{\mathbb{N}}$, tq $\psi_{n} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f$
+On sait, par ce qui précède que : 
+$$I(\psi_{n}) \underset{n \to +\infty}{\longrightarrow} l' \in \mathbb{K}$$
+et on veut montrer que $l = l'$
+___
+On raisonne par l'absurde : 
+Supposons que $l \neq l'$, 
+Notons, $\varepsilon = |l-l'| > 0$,
+Comme précédemment il existe $N, N' \in \mathbb{N}$ tel que :
+$$\forall n \geq N, \forall x \in [a, b], |\varphi_{n}(x) -f(x)| \leq \frac{\varepsilon}{3(b-a)}$$
+$$\forall n \geq N', \forall x \in [a, b], |\psi_{n}(x) -f(x)| \leq \frac{\varepsilon}{3(b-a)}$$
+On pose $p = \max(N, N')$, 
+Pour $n \geq p$, par l'inégalité triangulaire : 
+$$\forall x \in [a, b], |\varphi_{n}(x) - \psi_{n}(x)| \leq \frac{2\varepsilon}{3(b-a)}$$
+(on fait $+f(x)-f(x)$)
+On a alors : 
+$$|I(\varphi_{n})-I(\psi_{n})| \leq \frac{2}{3}\varepsilon$$
+$$0 \leq \varepsilon = ||$$
