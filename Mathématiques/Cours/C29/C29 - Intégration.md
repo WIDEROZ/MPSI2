@@ -535,3 +535,27 @@ Comme $\lim_{ n \to \infty }I(\varphi_{\theta(n)}) = l$, il existe $n_{0} \in \m
 $$\forall n \geq n_{0}, |I(\varphi_{\theta(n)})-l| \leq \frac{\varepsilon}{2}$$
 Comme $(\varphi_{n})$ CVU vers $f$, il existe $N \in \mathbb{N}$ tel que :
 $$\forall n \geq N, \forall x \in [a, b], |\varphi_{n}(x) -f(x)| \leq \frac{\varepsilon}{4(b-a)}$$
+On note alors, $n_{1} = \max(n_{0}, N)$, 
+Comme : $\theta(n_{1}) \geq n_{1} \geq N$, 
+$$\forall x \in [a, b], |\varphi_{\theta(n_{1})}(x)-f(x)| \leq \frac{\varepsilon}{4(b-a)}$$
+Soit $n \geq N$, Pour $x \in [a, b]$, on a : 
+$$\begin{array}{rl}
+|\varphi_{n}(x) - \varphi_{\theta(n_{1})}(x)| &\leq |\varphi_{n}(x) -f(x)| + |f(x)-\varphi_{\theta(n_{1})}(x)| \\
+& \leq \frac{\varepsilon}{2(b-a)}
+\end{array}$$
+
+Par : 
+- linéarité de $I$
+- Inégalité de normes pour $I$
+- Croissance de $I$
+
+On a : 
+$$\begin{array}{rl}
+|I(\varphi_{n})-I(\varphi_{\theta(n_{1})})| &= |I(\varphi_{n}-\varphi_{\theta(n_{1})})| \\
+&\leq I(|\varphi_{n}-\varphi_{\theta(n_{1})}|) \\
+&\leq \frac{(b-a)\varepsilon}{2(b-a)} = \frac{\varepsilon}{2}
+\end{array} $$
+Et enfin, 
+$$\begin{array}{rl}
+|I(\varphi_{n})-l| \leq 
+\end{array}$$
