@@ -461,4 +461,19 @@ $$g_{n} : \begin{cases}
 [0, 1] \to \mathbb{R} \\
 x \mapsto x^{n}
 \end{cases}$$
-Ainsi, $g_{n} \overset{\mathrm{CVS}}{\underset{[0, 1]}{\longrightarrow}} $
+Ainsi,
+$$g_{n} \overset{\mathrm{CVS}}{\underset{[0, 1]}{\longrightarrow}} g : x\mapsto \begin{cases}0 \text{ si } x \in [0, 1[ \\ 1 \text{ si }x = 1\end{cases}$$
+
+#### Lemme
+Pour toute fonction $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$ il existe $(\varphi_{n}) \in \mathcal{E}_{\mathbb{K}}([a, b])^{\mathbb{N}}$ telle que $\varphi_{n} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f$
+
+Démonstration :
+On commence par le cas ou $f$ est continue sur $[a, b]$, 
+Alors, par le théorème de Heine, $f$ est uniformément continue sur $[a, b]$, 
+On construit : $(\varphi_{n}) \in \mathcal{E}_{\mathbb{K}}([a, b])^{\mathbb{N}}$ tel que
+$$\forall n \in \mathbb{N}, \sup_{x \in [a, b]}|\varphi_{n}(x)-f(x)| \leq \frac{1}{n+1}$$
+Soit $n \in \mathbb{N}$, 
+Comme $f$ est uniformément continue, et $\varepsilon = \frac{1}{n+1} >0$, IL existe $\alpha >0$ tel que
+$$\forall x, y \in [a, b], |x - y| \leq \alpha \Rightarrow |f(x)-f(y)| \leq \frac{1}{n+1}$$
+On définit la subdivision régulière $\sigma = (x_{i})_{i=1}^{k}$ où $k = \left\lceil  \frac{b-a}{\alpha}  \right\rceil$ et : 
+$$\forall i \in [\![1, k]\!], x_{i} = $$
