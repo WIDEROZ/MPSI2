@@ -634,7 +634,26 @@ Ce qui donne pour la relation de Chasles :
 $$\int_{a}^{b}f = \int _{a}^{c}f + \int _{c}^{b}f $$
 
 #### Proposition : L'intégrale d'une fonction continue de signe constant
-L'intégrale sur un segment non trivial d'une <u>fonction continue de signe constant est nulle</u> ssi <u>la fonction est nulle </u>
+L'intégrale sur un segment non trivial d'une <u>fonction continue de signe constant est nulle</u> ssi <u>la fonction est nulle</u>.
+
+Démonstration : 
+Soient $a, b \in \mathbb{R}$ tq $a < b$ et $f$ continue sur $[a, b]$ de signe constant au sens large. 
+Quitte à changer $f$ en $-f$, 
+On peut supposer que $f \geq 0$
+
+Si $f = 0$ alors : 
+$$\int _{a}^{b}f  = 0 \text{ par linéarité de l'intégrale}$$
+
+Par contraposition supposons que $f \neq 0$
+Alors, il existe $x_{0} \in [a,b]$ tel que $f(x_{0}) \neq 0$, 
+Par continuité de $f$, il existe $\alpha >0$ tel que 
+$$\forall x \in [a, b], |x - x_{0}| \leq \alpha \Rightarrow |f(x) - f(x_{0})| \leq \frac{f(x_{0})}{2}$$
+A fortiori : 
+$$\forall x \in [a, b], |x - x_{0}| \leq \alpha \Rightarrow f(x) \geq \frac{f(x_{0})}{2}$$
+Le segment
+$$S = [x_{0}-x, x_{0}+x] \cap [a, b] = [\max(), \max]$$
+
+
 
 #### Remarque
-Faux pour $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$ 
+Faux pour $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
