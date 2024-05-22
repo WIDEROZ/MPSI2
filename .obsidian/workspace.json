@@ -11,8 +11,12 @@
             "id": "83acf18425b281ee",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md"
+              }
             }
           }
         ]
@@ -140,8 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "83acf18425b281ee",
   "lastOpenFiles": [
+    "Info/TD/TD9/TD9.ml",
+    "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
+    "Info/TD/TD9",
     "Info/Cours/Chapitre 14/Méthodes algorithmiques .pdf",
     "Info/Cours/Chapitre 14",
     "Brouillon.md",
@@ -163,8 +174,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "TIPE/Jeu de la vie/Programme/main",
     "TIPE/Jeu de la vie/Programme/font/lato/OFL.txt",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-Regular.ttf",
-    "TIPE/Jeu de la vie/Programme/font/lato/Lato-LightItalic.ttf",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
@@ -177,7 +186,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
-    "FR Philo/18-01.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
