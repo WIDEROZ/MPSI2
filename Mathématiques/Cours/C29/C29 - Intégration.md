@@ -670,5 +670,29 @@ Faux pour $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
 La plupart du temps on a : $f$ continue et positive sur $[a,b]$ avec au moins un point de stricte positivité d'ou on en déduis que $\int _{a}^{b}f > 0$
 
 #### Remarque
-On a en fait monré un résultat plus fort : 
-Si $f$ est $C$
+On a en fait montré un résultat plus fort : 
+Si $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$,
+$f \geq 0$, $f(x_{0}) \geq 0$
+et $f$ est continue en $x_{0}$, alors, 
+$$\int _{a}^{b}f > 0 $$
+
+## 4. Extension aux cas ou $a = b$ ou $a > b$
+Soit $f \in \mathrm{CPM}_{\mathbb{R}}(I)$ avec $I$ un intervalle non trivial de $\mathbb{R}$
+
+On peut donc intégrer sur tout segment inclus dans $I$
+
+#### Définition
+On étend la définition de l'intégrale entre $a$ et $b$ où $a, b \in I$, ainsi : 
+- Si $a < b$, $\int _{a}^{b}f$ est connue
+- Si $a = b$ on pose : $\int _{a}^{b}f=0$
+- Si $a > b$, On pose : $\int _{a}^{b}f = - \int _{b}^{a}f$
+
+#### Propriété
+1. Linéarité
+   $$\forall f, g \in \mathrm{CPM}_{\mathbb{K}}(I), \forall \lambda, \mu \in \mathbb{K}, \int_{a}^{b} \lambda f + \mu g  = \lambda\int_{a}^{b}f + \mu \int _{a}^{b}g    $$
+2. Positivité
+   $$\forall f \in \mathrm{CPM}_{\mathbb{K}}(I), f \geq 0 \Rightarrow \mathrm{sgn}(b-a) \int _{a}^{b} f\geq 0 $$
+3. Croissance
+   $$\forall f, g \in \mathrm{CPM}_{\mathbb{R}}(I), f \leq g \Rightarrow \mathrm{sgn}(b-a)\int_{a}^{b} f \leq \mathrm{sgn}(b-a) \int _{a}^{b} g$$
+4. Inégalité de norme
+   $$\forall f \in \mathrm{CPM}_{\mathbb{K}}(I), |f| \in \mathrm{CPM}_{\mathbb{K}}(I) \text{ et } $$
