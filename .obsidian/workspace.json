@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Colles de la semaine.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Colles de la semaine.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Colles de la semaine.md"
               }
             }
           }
@@ -185,11 +185,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ee2be897f7e3e88d",
+  "active": "0ad015e2c215e04e",
   "lastOpenFiles": [
+    "Brouillon.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Colles de la semaine.md",
-    "Brouillon.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10 - Résumé.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
@@ -198,7 +199,6 @@
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "TIPE/Jeu de la vie/Programme/main",
     "TIPE/Jeu de la vie/Programme/font/lato/OFL.txt",

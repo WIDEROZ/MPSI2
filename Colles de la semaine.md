@@ -103,4 +103,19 @@ Comme :
 $$S_{2p+1} \leq l \leq S_{2p}$$
 Alors : 
 $$ -\alpha_{2p+1}= S_{2p+1}-S_{2p} \leq l - S_{2p} = R_{2p+1}\leq 0$$
+___
+#### Théorème de Heine
+Toute fonction continue sur $[a, b]$ est uniformément continue. 
 
+Démo : 
+Soit $f$ une fonction continue sur $I = [a, b]$, 
+$$\forall x \in I, \forall \varepsilon \in \mathbb{R}_{+}^{*}, \exists \alpha \in \mathbb{R}_{+}^{*}, \forall y \in I, |y-x| \leq \alpha \Rightarrow |f(y)-f(x)| \leq \varepsilon$$
+Supposons par l'absurde qu'elle n'est pas uniformément continue : 
+$$\exists \varepsilon \in \mathbb{R}_{+}^{*}, \forall \alpha \in \mathbb{R}_{+}^{*}, \exists x, y \in I, |y - x| \leq \alpha \text{ et } |f(y)-f(x)|> \varepsilon$$
+Soit $n \in \mathbb{N}$, 
+En prenant $\alpha = \frac{1}{n+1}$
+Soit $(x_{n}), (y_{n}) \in \mathbb{R}^{I}$, 
+$$\begin{cases}
+|y - x| \leq \frac{1}{n+1} \\
+|f(y)-f(x)| > \varepsilon
+\end{cases}$$
