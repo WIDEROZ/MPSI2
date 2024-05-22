@@ -493,4 +493,14 @@ Comme $|\varphi_{n}(b)-f(b)| = 0 \leq \frac{1}{n+1}$,
 alors, 
 $$\sup_{[a, b]}|\varphi_{n}-f| \leq \frac{1}{n+1}$$
 Ainsi, 
-$$\sup_{[a, b]}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow} $$
+$$\sup_{[a, b]}|\varphi_{n}-f| \underset{n \to +\infty}{\longrightarrow}  0$$
+ie
+$$\boxed{\varphi_{n} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f}$$
+___
+Pour le cas continu par morceaux, on approche pour $n$ fixé sur chaque morceau $f$ par une fonction en escalier à $\frac{1}{n+1}$ près comme ci-dessus et on recolle des morceaux en choisissant, au point de la subdivision subordonnée à $f$ choisie, la valeur de $f$. 
+
+#### Théorème
+Soit $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$
+Pour toute suite $(\varphi_{n}) \in \mathcal{E}_{\mathbb{K}}([a, b])$ tel que $\varphi_{n} \overset{\mathrm{CVU}}{\underset{[a, b]}{\longrightarrow}} f$ la suite : $(I(\varphi_{n}))_{n}$ CV et sa limite ne dépend pas du choix de cette suite (de fonctions en escalier qui CVU vers $f$) particulière. 
+On appelle cette limite l'intégrale de $f$ sur le segment $[a, b]$ et on la note : 
+$$\int _{a}^{b}f(x) \, dx  = \int _{a}^{b}f = \int _{[a, b]}f  $$
