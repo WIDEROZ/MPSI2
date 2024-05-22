@@ -456,3 +456,9 @@ on dit que la suite converge simplement ou converge ponctuellement vers $g$
    $g_{n}(x) = \min\left( 1, \max\left( \frac{x}{n}, -1 \right) \right)$
 
 
+#### Remarque
+$$g_{n} : \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto x^{n}
+\end{cases}$$
+Ainsi, $g_{n} \overset{\mathrm{CVS}}{\underset{[0, 1]}{\longrightarrow}} $
