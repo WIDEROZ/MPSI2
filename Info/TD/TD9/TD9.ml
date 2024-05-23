@@ -63,3 +63,15 @@ let proc t1 t2 =
 
 proc [|1; 2; 3; 4; 5|] [|2; 3; 4; 5; 6|];;
 
+let rec binom k n =
+  if n <> 0 then 
+    match k with
+    | 0 -> 1
+    | 1 -> n
+    | _ -> binom (k-1) (n-1) + binom k (n-1)
+  else
+    0
+  ;;
+
+
+binom 2 4;;
