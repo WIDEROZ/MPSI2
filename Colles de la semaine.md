@@ -143,3 +143,4 @@ En passant à la limite dans la deuxième égalité du haut :
 $$0 > \varepsilon$$
 CONTRADICTION
 ___
+$$\lvert vdxvdg rg d rg ^{g dr g^{g ^{g dg ^{ }}}} \rvert\left| \gg^{g^{grgrgdg^{gdrg^{\gg drg^{g^{g^{g^{g^{g^{g^{g^{g^{gdrgdrgdrg^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g^{g}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}}\right|$$

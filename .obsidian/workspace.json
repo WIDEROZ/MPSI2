@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "977e96b06d5d9bd8",
+        "id": "404b7e195250a03c",
         "type": "tabs",
         "children": [
           {
-            "id": "1c71ee1c2c4d5a2b",
+            "id": "a09c12263af4b554",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30 -.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -92,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathématiques/Cours/C30/C30 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathématiques/Cours/C30/C30 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30 -.md"
+              }
             }
           }
         ]
@@ -140,8 +148,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1c71ee1c2c4d5a2b",
+  "active": "a09c12263af4b554",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C30/C30 -.md",
+    "Mathématiques/Cours/C30",
+    "Colles de la semaine.md",
     "Anglais/Cours/05-22.md",
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
@@ -152,7 +163,6 @@
     "Brouillon.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/TD/E28/E28 - Séries.md",
-    "Colles de la semaine.md",
     "Mathématiques/TD/E28",
     "Mathématiques/TD/E26/E26 - 1.md",
     "Mathématiques/TD/E27/E27.md",
@@ -165,7 +175,6 @@
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
-    "TIPE/Jeu de la vie/Programme/main",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
@@ -177,7 +186,6 @@
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C2/T3C2 - Transferts d'énergie et premier principe.md",
-    "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
