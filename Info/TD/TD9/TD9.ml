@@ -48,3 +48,10 @@ let inversions t =
   ;;
 
 
+
+let proc t1 t2 = 
+  let count = ref 0 in
+   let j = ref Array.length t1 in
+      for j = 0 to Array.length t2 do
+        while t.(i)
+          
