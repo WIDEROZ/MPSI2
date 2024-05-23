@@ -717,6 +717,8 @@ Démonstration :
 Dans le cas ou $f \in \mathcal{C}_{\mathbb{K}}^{1}([a, b])$ : 
 Supposons que $f \in \mathcal{C}_{\mathbb{K}}^{1}([a, b])$,
 
+On note $M = \max_{[a, b]}\left| f'\right| \in \mathbb{R}_{+}$
+(qui existe car $f'$ est continue sur $[a, b]$ par le théorème des bornes atteintes)
 Soit $n \in \mathbb{N}$, 
 On pose pour tout $k \in [\![0, n]\!]$, $x_{k} = a+k \frac{b-a}{n}$
 
@@ -725,3 +727,12 @@ $$\left| \frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) - \i
 $$= \left| \frac{b-a}{n} \sum_{k = 1}^{n} f\left( x_{k} \right) - \sum_{k = 1}^{n}\int _{x_{k-1}}^{x_{k}} f \right|$$
 $$= \left| \sum_{k=1}^{n} \int _{x_{k-1}}^{x_{k}}(f(x_{k})-f(x)) \, dx \right|$$
 $$\leq \sum_{k = 1}^{n}  \int _{x_{k-1}}^{x_{k}} \left|f(x_{k})-f(x) \right|\, dx $$
+(par inégalité triangulaire et de norme)
+$$\leq \sum_{k = 1}^{n} \int _{x_{k-1}}^{x} M\left| x_{k}-x\right| \, dx $$
+$$\leq M \sum_{k = 1}^{n} \int _{x_{k-1}}^{x} (x_{k}-x) \, dx = \frac{M}{2} \sum_{k = 1}^{n} (x_{k}-x_{k-1})^{2} = \frac{M}{2} \frac{(b-a)^{2}}{n}$$
+Or 
+$$\frac{M}{2} \frac{(b-a)^{2}}{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+$$\boxed{\frac{b-a}{n} \sum_{k=1}^{n} f\left( x_{k} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f }$$
+et 
+$$\frac{b-a}{n} \sum_{k =0}^{n-1} f(x_{k}) = \frac{b-a}{n}(f(a)-f(b)) \underset{n \to +\infty}{\longrightarrow} 0$$
