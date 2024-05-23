@@ -52,12 +52,14 @@ let inversions t =
 let proc t1 t2 = 
   let count = ref 0 in
    let i = ref 0 in
-      for j = 0 to Array.length t2 do
-        while t1.(!i) < t2.(j) do
+      for j = 0 to (Array.length t2-1) do
+        while t1.(!i) < t2.(j) && !i <= Array.length t1 -2 do
           i := !i +1
         done;
-        count := !count + (Array.length t1 - !i + 1)
+        count := !count + (Array.length t1 - !i + 1);
+        i := 0;
       done;
     !count;;
 
-proc [] []
+proc [|1; 2; 3; 4; 5|] [|2; 3; 4; 5; 6|];;
+
