@@ -48,3 +48,17 @@ On sépare ce thermostat en deux sous systèmes :
 $$\boxed{\text{EXCAL 6}}$$
 ___
 Supposons : Excal 7
+Le travail fournit par $\mathcal{S}_{1}$ est utilisé par $\mathcal{S}_{2}$ 
+Or rien n'interdit que $T_{1} > T_{0}$
+On a donc, $\boxed{\text{non(Clausius)}}$
+
+# II. Machine thermiques dithermes
+## 1. Définition
+#### Définition : Machine thermique
+Une machine thermique est un système thermodynamique qui réalise des <u>transformations cycliques</u> au cours desquelles il y a <u>échange de chaleur et de travail</u>
+
+#### Définition : Machines dithermes
+Une machine ditherme réalise des transferts de chaleur avec deux thermostats de température $T_{F}$ (source froide) et $T_{C}$ (source chaude) $T_{F} < T_{C}$ (mdr)
+
+modélisation : 
+$$\boxed{\text{EXCAL 8}}$$
