@@ -113,3 +113,22 @@ $$Q_{C} < 0 \text{ et } Q_{F} > 0$$
 #### Définition
 On appelle coefficient de performance d'une machine thermique, la valeur absolue du rapport de ce qui est utile sur le coût énergétique
 $$\eta = \left| \frac{\text{bénéfice}}{\text{coût}}\right|$$
+Ce coefficient est appelé généralement rendement si il est inférieur à $1$ (on garde la lettre $\eta$) sinon il est appelé efficacité (on le note $e$)
+
+#### En pratique
+##### Moteur
+$$\eta = \left| \frac{W}{Q_{C}}\right| = -\frac{W}{Q_{C}}$$
+##### Machine frigorifique
+$$e_{frigo} = \left| \frac{Q_{F}}{W}\right| = \frac{Q_{F}}{W}$$
+##### Pompe à chaleur
+$$e_{PAC} = \left| \frac{Q_{C}}{W}\right| = - \frac{Q_{C}}{W}$$
+
+
+# III. Le diagramme de Raveau
+EXCAL 9
+On trace deux droites : 
+- La droite $W = 0$ 
+  Comme c'est une machine $W =-(Q_{C} + Q_{F})$ 
+  Alors, $Q_{c} = -Q_{F}$ 
+  La droite pour laquelle $S_{créé} = 0$,
+  On$$
