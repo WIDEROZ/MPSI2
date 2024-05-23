@@ -79,8 +79,37 @@ $$ \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} \leq 0$$
 
 ## 2. Machine dithermes classiques
 ### a. Moteurs
-#### Définition
+#### Définition : Moteur
 Les moteurs sont des machines qui fournissent du travail : 
 $$W < 0$$
+##### Conséquences
 Alors, 
-$$Q_{}$$
+$$Q_{C} + Q_{F} \geq 0$$
+Ainsi, 
+$$Q_{C} \geq 0 \text{ et } Q_{F} \leq 0$$
+
+#### Définition : Puissance du moteur
+$$P = W \times N_{\text{cycle}.s^{-1}}$$
+avec
+$N_{\text{cycle}.s^{-1}}$ : le nombre de cycles par secondes
+
+### b. Les récepteurs
+#### Définition
+Un récepteur est une machine thermique qui reçoit du travail de l'extérieur : 
+$$W \geq 0$$
+###### Conséquences
+$$Q_{F} + Q_{C} \leq 0$$
+
+#### Exemple
+##### Pompe à chaleur
+On veut réchauffer la source chaude
+$$Q_{C} < 0 \text{ et } Q_{F} >0$$
+
+##### Machine frigorifique
+On veut refroidir la source froide 
+$$Q_{C} < 0 \text{ et } Q_{F} > 0$$
+
+## 3. Coefficient de performance
+#### Définition
+On appelle coefficient de performance d'une machine thermique, la valeur absolue du rapport de ce qui est utile sur le coût énergétique
+$$\eta = \left| \frac{\text{bénéfice}}{\text{coût}}\right|$$
