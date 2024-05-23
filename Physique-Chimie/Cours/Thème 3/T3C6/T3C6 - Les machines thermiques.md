@@ -130,5 +130,10 @@ On trace deux droites :
 - La droite $W = 0$ 
   Comme c'est une machine $W =-(Q_{C} + Q_{F})$ 
   Alors, $Q_{c} = -Q_{F}$ 
-  La droite pour laquelle $S_{créé} = 0$,
-  On$$
+- La droite pour laquelle $S_{créé} = 0$,
+  On a alors : $S_{ech} = \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0$
+  Ainsi, $Q_{C} = - \frac{T_{C}}{T_{F}}Q_{F}$
+
+Comme $T_{C} > T_{F}$, $- \frac{T_{C}}{T_{F}} < -1$
+
+## 1. Les moteurs en région $W > 0$
