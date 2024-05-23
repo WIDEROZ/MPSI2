@@ -736,3 +736,23 @@ Ainsi,
 $$\boxed{\frac{b-a}{n} \sum_{k=1}^{n} f\left( x_{k} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f }$$
 et 
 $$\frac{b-a}{n} \sum_{k =0}^{n-1} f(x_{k}) = \frac{b-a}{n}(f(a)-f(b)) \underset{n \to +\infty}{\longrightarrow} 0$$
+Comme : 
+$${\frac{b-a}{n} \sum_{k=1}^{n} f\left( x_{k} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f }$$
+Ainsi, 
+$$\boxed{\frac{b-a}{n} \sum_{k=0}^{n-1} f\left( x_{k} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f }$$
+
+###### Démonstration 2
+Supposons que $f \in \mathcal{C}_{\mathbb{R}}^{0}([a, b])$, 
+Par le théorème de Heine, comme $f$ est continue sur $[a, b]$, $f$ est uniformément continue. 
+Soit $\varepsilon > 0$, 
+Par l'uniforme continuité il existe $\alpha >0$ tel que 
+$$\forall x, y \in [a, b], \left( \left| x-y\right|\leq \alpha \Rightarrow \left| f(x) - f(y)\right| \leq \frac{\varepsilon}{b-a} \right)$$
+Soit $N = \left\lceil \frac{b-a}{\alpha} \right\rceil$
+Pour $n \geq N$,
+On a alors, $\alpha \leq \frac{b-a}{n}$
+On a alors avec les notations de $x_{k}$ et de la démonstration pour $\mathcal{C}_{\mathbb{R}}^{1}$
+
+$$\left| \frac{b-a}{n} \sum_{k = 0}^{n} f(x_{k})-\int _{a}^{b} f  \right| \leq \sum_{k=1}^{n}\int _{x_{k-1}}^{x_{k}} \left| f(x_{k})-f(x) \right| \, dx $$
+$$\leq \frac{\varepsilon}{b-a} \sum_{k=1}^{n} \int _{x_{k-1}}^{x_{k}} \, dx = \frac{\varepsilon}{b-a} \int _{a}^{b} \, dx = \varepsilon$$
+On a prouvé que : 
+$$\forall \varepsilon >0, \exists N \in \mathbb{N}, \forall n \geq N, \left| \frac{b-a}{n} \sum_{k=1}^{n} f(x_{k}) - \int _{a}^{b} f  \right| \leq \varepsilon$$
