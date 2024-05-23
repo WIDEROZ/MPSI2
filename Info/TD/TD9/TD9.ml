@@ -37,3 +37,14 @@ let fibo n =
 
 fibo (2);;
 
+let inversions t = 
+  let count = ref 0 in
+  for i = 0 to Array.length t do
+    for j = i to Array.length t do
+      if t.(j) < t.(i) then
+        count := !count +1;
+      done;
+    done;
+  ;;
+
+
