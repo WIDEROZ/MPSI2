@@ -838,6 +838,25 @@ est dérivable et $F'_{a} =f$
 ie $F_{a}$ est une primitive de $f$
 
 Démonstration :
+Soit $x_{0} \in I$, 
+Montrons que $F_{a}$ est dérivable en $x_{0}$ ie :
+$$(T_{x_{0}}(F_{a}))(x) \underset{x \to x_{0}}{\longrightarrow}  f(x_{0})$$
+
+Soit $h \neq 0$ tq $x_{0}+h \in I$, 
+$$\left| \frac{F_{a}(x_{0}+h)-F_{a}(x_{0})}{h} - f(x_{0})\right| $$
+$$= \left| \frac{1}{h} \int _{x_{0}}^{x_{0}+h} f(t) \, dt - \frac{1}{h} \int _{x_{0}}^{x_{0}+h} f(x_{0}) \, dt  \right|$$
+$$= \left| \frac{1}{h} \int _{x_{0}}^{x_{0}+h} (f(t)- f(x_{0})) \, dt \right| $$
+$$\leq \frac{\mathrm{sgn}(h)}{\left| h\right|} \int _{x_{0}}^{x_{0}+h} \left| f(t)-f(x_{0}) \right| \, dt $$
+Soit $\varepsilon >0$, 
+Par continuité de $f$ en $x_{0}$, 
+il existe un $\alpha >0$, tq 
+$$\forall t \in I, (\left| t - x_{0}\right| \leq \alpha \Rightarrow \left| f(t) - f(x_{0})\right| \leq \varepsilon)$$
+
+
+
+
+
+
 
 
 
