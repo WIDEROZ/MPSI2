@@ -777,4 +777,16 @@ qui est CPM,
 Donc par le théorème précédent : 
 $$u_{n} = \frac{1}{n} \sum_{p = 1}^{n} \sqrt{ 1 - \left( \frac{p}{n} \right)^{2} } \underset{n \to +\infty}{\longrightarrow}  \int_{0}^{1} \sqrt{ 1- \left( \frac{x}{n} \right)^{2} } \, dx $$
 Et, 
-$$\int _{0}^{1}  \, dx $$
+$$\int _{0}^{1} \sqrt{ 1-x^{2} } \, dx $$
+Donc, en effectuant le changement de variable : 
+$$\left[\!\left[ \begin{array}{l}
+x = \sin(t) \\
+dx = \cos(t)dt
+\end{array}\right.  \right.$$
+Justifié car $\sin$ est de classe $\mathcal{C}^{1}$ sur $\mathbb{R}$, 
+$\sin(0) = 0$ et $\sin\left( \frac{\pi}{2} \right) = 1$
+et $f$ est continue sur $[0, 1]$, on obtiens : 
+$$\int _{0}^{1} \sqrt{ 1-x^{2} } \, dx  = \int _{0}^{\frac{\pi}{2}} \left| \cos(t)\right| \cos(t) \, dt = \int _{0}^{\frac{\pi}{2}} \cos ^{2}(t) \, dt $$
+car $\cos\geq 0$ sur $\left[ 0, \frac{\pi}{2} \right]$
+Alors, 
+$$\int_{0}^{1} \sqrt{ 1-x^{2} }  \, dx = \frac{1}{2} \int _{0}^{\frac{\pi}{2}}1+\cos(2t) \, dt = \frac{1}{2}\left( \frac{\pi}{2} + [\sin] \right)$$
