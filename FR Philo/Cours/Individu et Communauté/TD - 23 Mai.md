@@ -56,3 +56,17 @@ L'explication rejeté de cette formule est celle de la généralité : toute l'e
 Si vivre avec les autres est infernal alors autant se dissocier de la société. 
 
 Sartre ne 
+
+#### Question 3
+L'altérité est matière de l'identité, je me construit relativement à autrui : 
+- Éducation
+- Les mœurs (les normes sociales)
+- Jugement : appréciation / évaluation. L’identité est soumise à appréciation et évaluation, chaque fois que je parle de moi et même quand je me défend d'une éventuelle critique, je ne cesse de prendre en compte l'appréciation / la perception de l'autre par rapport à moi. 
+  C'est a dire que tout discours n'est qu'une réaction a ce qui émane des autres. 
+
+Soit je me conforme a ce que attendent les autres soit je m'oppose à la présence d'autrui. 
+
+#### Question 4
+Les deux ne sont pas étudiables de manière distinctes : on ne peut pas penser l'individu sans l'Homme. 
+
+___
