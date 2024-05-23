@@ -70,3 +70,7 @@ Soit je me conforme a ce que attendent les autres soit je m'oppose à la présen
 Les deux ne sont pas étudiables de manière distinctes : on ne peut pas penser l'individu sans l'Homme. 
 
 ___
+L'amour est il l'expression de la singularité ou bien une construction communautaire. 
+Est-ce que l'ammour c'est se découvrir soi à travers l'autre ou c'est se conformer par rapport à l'autre.
+
+La solidude est-elle 
