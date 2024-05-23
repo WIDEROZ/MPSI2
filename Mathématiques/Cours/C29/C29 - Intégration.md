@@ -851,16 +851,32 @@ Soit $\varepsilon >0$,
 Par continuité de $f$ en $x_{0}$, 
 il existe un $\alpha >0$, tq 
 $$\forall t \in I, (\left| t - x_{0}\right| \leq \alpha \Rightarrow \left| f(t) - f(x_{0})\right| \leq \varepsilon)$$
+Ainsi si $\left| h\right| \leq \alpha$, 
+$$\left| \frac{F_{a}(x_{0}+h)-F_{a}(x_{0})}{h}-f(x_{0}) \right| \leq \varepsilon$$
 
+Par définition de la limite, 
+$$\frac{F(x_{0}+h)-F(x_{0})}{h} \underset{h \to 0}{\longrightarrow} f(x_{0})$$
 
-
-
-
-
-
-
+ie $F_{a}$ est dérivable en $x_{0}$ et $F'_{a}(x_{0}) = f(x_{0})$
+Comme cela est valable pour tout $x_{0} \in I$,
+$$\boxed{F_{0} \text{ est dérivable sur }I \text{ et } F'_{a} = f}$$
 
 
 #### Remarque
 $F_{a}$ est une primitive de $f$ 
 $F_{a}$ est la primitive de $f$ qui s'annule en $a$ 
+
+#### Exercice
+Si on suppose seulement $f$ CPM montrer que $F_{a}$ est continue
+
+#### Remarque
+
+
+#### Corollaires
+Toute fonction continue sur un intervalle $I$ admet des primitives
+Démonstration : $\square$ $\oplus$ $\otimes$
+
+#### Lemme
+Deux primitives d'une même fonction sur un intervalle diffère d'une constante. 
+
+Démonstration : Soit $F, G$ deux primitives de $f$ (cont)
