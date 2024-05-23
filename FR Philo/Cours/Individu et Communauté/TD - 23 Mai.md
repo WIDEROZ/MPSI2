@@ -71,6 +71,13 @@ Les deux ne sont pas étudiables de manière distinctes : on ne peut pas penser 
 
 ___
 L'amour est il l'expression de la singularité ou bien une construction communautaire. 
-Est-ce que l'ammour c'est se découvrir soi à travers l'autre ou c'est se conformer par rapport à l'autre.
+Est-ce que l'amour c'est se découvrir soi à travers l'autre ou c'est se conformer par rapport à l'autre.
 
-La solidude est-elle 
+Morale :
+Est ce que ce qui est tolérable pour moi l'est-il pour le groupe?
+
+Liberté :
+Peut-on accepter que la liberté individuelle se libère au nom de la communauté?
+
+Individu et société (Rousseau):
+L'individu troc sa liberté contre son f
