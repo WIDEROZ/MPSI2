@@ -82,3 +82,16 @@ let rec somme objets =
   match objets with
   | [] -> (0, 0)
   | obj::s -> let (p, v) = somme s in (obj.poids + p, obj.valeur + v)
+;;
+
+let rec rechercheMaxVal objects =
+  match objects with
+  | [] -> 0
+  | obj::s -> max (rechercheMaxVal s) (obj.valeur)
+;;
+
+
+let rec sac_a_dos_glouton objets pmax = 
+  let vMax = ref 0 in
+  for i = 0 to Array.length objets-1 do
+    
