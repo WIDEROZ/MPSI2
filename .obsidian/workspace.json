@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/TD/TD9/TD9.pdf",
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/TD/TD9/TD9.pdf",
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/TD/TD9/TD9.pdf"
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md"
               }
             }
           }
@@ -159,10 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2512c93310262f0a",
+  "active": "e40266f359b2fefc",
   "lastOpenFiles": [
-    "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "Info/TD/TD9/TD9.pdf",
+    "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
     "FR Philo/Cours/25 - 01.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
