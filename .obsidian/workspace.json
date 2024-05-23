@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b092aaa8a720dc16",
+  "active": "819329c49400e95b",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 3/T3C6",
     "Mathématiques/Cours/C29/C29 - Intégration.md",

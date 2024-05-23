@@ -156,3 +156,24 @@ $$\boxed{\eta_{\text{moteur}} = \frac{Q_{C}+Q_{F}}{Q_{C}}}$$
 Comme $Q_{F}<0$ et $Q_{C} >0$ $\boxed{\eta_{\text{moteur}} < 1}$
 
 #### Quel est le rendement maximal d'un moteur?
+$$\begin{cases}
+\Delta S = S_{ech} + S_{créé} = 0 \\
+S_{créé} \geq 0 \\
+S_{ech} \leq 0
+\end{cases}$$
+Donc, 
+$$\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} \leq 0$$
+On sait que $Q_{C} > 0$
+On divise alors par $Q_{C}$
+$$\frac{1}{T_{C}} + \frac{Q_{F}}{Q_{C}} \frac{1}{T_{F}}\leq 0$$
+On isole : $\frac{Q_{F}}{Q_{C}}$
+$$\frac{Q_{F}}{Q_{C}} \leq \frac{T_{F}}{T_{C}}$$
+Donc, 
+$$\eta_{\text{moteur}} = 1+ \frac{Q_{F}}{Q_{C}} \leq 1-\frac{T_{F}}{T_{C}} = \eta_{\text{moteur}_{\text{max}}}$$
+
+$$\boxed{\eta_{\text{moteur}_{\max}} = 1- \frac{T_{F}}{T_{C}}}$$
+Rendement maximum d'un moteur fonctionnant de manière réversible. 
+
+# Théorème de Carnot pour les moteurs
+Le rendement d'un moteur ditherme réel est toujours inférieur au rendement d'un moteur réversible qui fonctionne avec les mêmes thermostats $T_{F}$ et $T_{C}$
+$$\boxed{\eta_{\text{moteur}} = 1- \frac{Q_{F}}{Q_{C}} \leq 1-\frac{T_{F}}{T_{C}} = \eta_{\text{moteur}_{\max}}}$$
