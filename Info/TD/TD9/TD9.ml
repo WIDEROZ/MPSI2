@@ -91,7 +91,17 @@ let rec rechercheMaxVal objects =
 ;;
 
 
-let rec sac_a_dos_glouton objets pmax = 
-  let vMax = ref 0 in
-  for i = 0 to Array.length objets-1 do
+let sac_a_dos_glouton objets pMax = 
+  let iVmax = ref 0 in
+    let vMax = ref 0 in
+     let pTot = ref 0 in
+      for i = 0 to (Array.length objets)-1 do
+        if !vMax < objets.(i).valeur then
+          vMax := objets.(i).valeur;
+          iVmax := i
+
+
+
+      
     
+
