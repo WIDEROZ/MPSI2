@@ -701,3 +701,10 @@ On étend la définition de l'intégrale entre $a$ et $b$ où $a, b \in I$, ains
 Si on ne connais pas le signe de $(b-a)$, on peut écrire :
 $$\left| \int _{a}^{b}f\right| \leq \int _{a}^{b} \left| f\right| $$
 
+# V. Sommes de Riemann
+#### Remarque
+Excal 9
+
+#### Théorème
+Soit $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$, (avec $a < b$)
+$$\frac{b-a}{n} \sum_{k=0}^{n-1} f\left( a+k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f $$
