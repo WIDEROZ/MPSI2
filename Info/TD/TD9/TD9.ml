@@ -125,5 +125,14 @@ sac_a_dos_glouton [|obj1; obj2; obj3; obj4|] 100;;
 
 
 let plssc l1 l2 =
-  for i = 0 to (String.length l1 -1) do
-    
+  let str = ref "" in
+    for i = 0 to (String.length l1 -1) do
+      for j = 0 to (String.length l2 -1) do
+        if l1.[i] = l2.[j] then
+          str := !str ^ String.make 1 l1.[i]
+        done;
+      done;
+  !str
+;;
+
+plssc "feur" "ruef";;
