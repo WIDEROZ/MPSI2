@@ -102,12 +102,21 @@ let sac_a_dos_glouton objets pMax =
             vMax := objets.(i).valeur;
             iVmax := i
         done;
-        if !pTot < pMax then
+        if (objets.(!iVmax).poids + !pTot) < pMax then
+          begin
           sac := objets.(!iVmax)::!sac;
           pTot := objets.(!iVmax).poids + !pTot;
-          objets.(!iVmax).poids = -1;
-          objets.(!iVmax).valeur <- -1
+          objets.(!iVmax) <- {poids = -1; valeur = -1}
+          end;
+        vMax := 0
       done;
     !sac
 ;;
 
+let obj1 = {poids = 54; valeur = 652};;
+let obj2 = {poids = 7; valeur = 6};;
+let obj3 = {poids = 12; valeur = 15};;
+let obj4 = {poids = 32; valeur = 20};;
+
+
+sac_a_dos_glouton [|obj1; obj2; obj3; obj4|] 100;;
