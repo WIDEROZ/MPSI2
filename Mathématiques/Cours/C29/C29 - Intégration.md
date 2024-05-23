@@ -767,7 +767,7 @@ $$\boxed{\frac{b-a}{n} \sum_{k=1}^{n} f\left( x_{k} \right) \underset{n \to +\in
 3. $$a_{n} = \frac{1}{n^{2}} \prod_{k = 1}^{n} (n^{2}+k^{2})^{\frac{1}{n}}$$
 4. $$b_{n} = \sqrt[n]{ \frac{(2n)!}{n!n^{n}} }$$
 ___
-
+###### 1.
 On pose : 
 $$f : \begin{cases}
 [0, 1] \to \mathbb{R} \\
@@ -789,4 +789,32 @@ et $f$ est continue sur $[0, 1]$, on obtiens :
 $$\int _{0}^{1} \sqrt{ 1-x^{2} } \, dx  = \int _{0}^{\frac{\pi}{2}} \left| \cos(t)\right| \cos(t) \, dt = \int _{0}^{\frac{\pi}{2}} \cos ^{2}(t) \, dt $$
 car $\cos\geq 0$ sur $\left[ 0, \frac{\pi}{2} \right]$
 Alors, 
-$$\int_{0}^{1} \sqrt{ 1-x^{2} }  \, dx = \frac{1}{2} \int _{0}^{\frac{\pi}{2}}1+\cos(2t) \, dt = \frac{1}{2}\left( \frac{\pi}{2} + [\sin] \right)$$
+$$\int_{0}^{1} \sqrt{ 1-x^{2} }  \, dx = \frac{1}{2} \int _{0}^{\frac{\pi}{2}}1+\cos(2t) \, dt = \frac{1}{2}\left( \frac{\pi}{2} + \left[ \frac{\sin(2t)}{2} \right]^{\frac{\pi}{2}}_{0} \right)$$
+Donc, 
+$$\int_{0}^{1} \sqrt{ 1-x^{2} }  \, dx = \frac{\pi}{4}$$
+Ainsi, 
+$$u_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{4}$$
+___
+###### 3.
+On pose pour $n \in \mathbb{N}^{*}$, $w_{n} = \ln(a_{n})$
+$$a_{n} = \prod_{k=1}^{n}\left( 1+ \left( \frac{k}{n} \right)^{2} \right)^{\frac{1}{n}}$$
+$$w_{n} = \frac{1}{n}\sum_{k=1}^{n} \ln\left( 1+ \left( \frac{k}{n} \right)^{2} \right)$$
+On pose : 
+$$g : \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto \ln(1+x^{2})
+\end{cases}$$
+Et 
+$$\int _{0}^{1} g = \int _{0}^{1} \ln(1+x^{2}) \, dx$$
+
+Par IPP : 
+$$\left[\!\left[ \begin{array}{l}
+u = \ln(1+x^{2}) \\
+dv = dx
+\end{array} \right. \right. \space \left[\!\left[ \begin{array}{l}
+du = \frac{2x}{1+x^{2}}dx \\
+v = x
+\end{array} \right. \right.$$
+On obtiens, 
+$$\int _{0}^{1} g = [x\ln(1+x^{2})]_{0}^{1} - 2 \int _{0}^{1} \frac{x^{2}}{1+x^{2}} \, dx$$
+$$= \ln(2)$$
