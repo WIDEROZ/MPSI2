@@ -870,7 +870,8 @@ $F_{a}$ est la primitive de $f$ qui s'annule en $a$
 Si on suppose seulement $f$ CPM montrer que $F_{a}$ est continue
 
 #### Remarque
-
+Dans ce cas la preuve précédente assure que $F_{a}$ est dérivable en tout point de continuité $x_{0}$ de $f$ avec 
+$$F'_{a}(x_{0}) = f(x_{0})$$
 
 #### Corollaires
 Toute fonction continue sur un intervalle $I$ admet des primitives
@@ -879,4 +880,22 @@ Démonstration : $\square$ $\oplus$ $\otimes$
 #### Lemme
 Deux primitives d'une même fonction sur un intervalle diffère d'une constante. 
 
-Démonstration : Soit $F, G$ deux primitives de $f$ (cont)
+Démonstration : Soit $F, G$ deux primitives de $f$ (continue sur $I$), 
+Alors, 
+$$(F-G)' = F'-G' = f-f = 0$$
+donc, $F-G$ est constante car sa dérivée est nulle sur l'intervalle $I$. 
+
+#### Remarque
+Dans le cas ou il y aurait plusieurs intervalles il y aurait une constante par intervalle.
+
+#### Corollaire : Calcul d'intégrales par primitives
+Soient $f \in \mathcal{C}^{0}_{\mathbb{K}}(I)$ $F$ une primitive de $f$ et $a, b \in I$, 
+Alors, 
+$$\boxed{\int _{a}^{b} f = F(b)-F(a) = [F]_{a}^{b} }$$
+
+
+Démonstration : 
+On note : $F_{a} : x \mapsto \int _{a}^{x} f$ 
+qui est une primitive de $f$ par le TFA car $f$ est continue sur $I$
+Comme $F$ et $F_{a}$ sont deux primitives de $f$ sur in intervalle, par le lemme $F$ et $F_{a}$ diffère d'une constante additive donc,
+$$F(b)-F(a) = F_{a}(b) - F_{a}(a) = \int _{a}^{b} f $$
