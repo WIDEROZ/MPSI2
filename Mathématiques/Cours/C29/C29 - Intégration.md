@@ -708,3 +708,20 @@ Excal 9
 #### Théorème
 Soit $f \in \mathrm{CPM}_{\mathbb{K}}([a, b])$, (avec $a < b$)
 $$\frac{b-a}{n} \sum_{k=0}^{n-1} f\left( a+k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f $$
+et
+$$\frac{b-a}{n} \sum_{k=1}^{n} f\left( a+k \frac{b-a}{n} \right) \underset{n \to +\infty}{\longrightarrow}  \int _{a}^{b}f $$
+Excal 10
+
+Démonstration : 
+###### Démonstration 1
+Dans le cas ou $f \in \mathcal{C}_{\mathbb{K}}^{1}([a, b])$ : 
+Supposons que $f \in \mathcal{C}_{\mathbb{K}}^{1}([a, b])$,
+
+Soit $n \in \mathbb{N}$, 
+On pose pour tout $k \in [\![0, n]\!]$, $x_{k} = a+k \frac{b-a}{n}$
+
+Alors, 
+$$\left| \frac{b-a}{n} \sum_{k = 1}^{n} f\left( a + k \frac{b-a}{n} \right) - \int _a^{b} f \right|$$
+$$= \left| \frac{b-a}{n} \sum_{k = 1}^{n} f\left( x_{k} \right) - \sum_{k = 1}^{n}\int _{x_{k-1}}^{x_{k}} f \right|$$
+$$= \left| \sum_{k=1}^{n} \int _{x_{k-1}}^{x_{k}}(f(x_{k})-f(x)) \, dx \right|$$
+$$\leq \sum_{k = 1}^{n}  \int _{x_{k-1}}^{x_{k}} \left|f(x_{k})-f(x) \right|\, dx $$
