@@ -120,3 +120,10 @@ let obj4 = {poids = 32; valeur = 20};;
 
 
 sac_a_dos_glouton [|obj1; obj2; obj3; obj4|] 100;;
+
+
+
+
+let plssc l1 l2 =
+  for i = 0 to (String.length l1 -1) do
+    
