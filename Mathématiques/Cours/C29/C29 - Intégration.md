@@ -817,4 +817,31 @@ v = x
 \end{array} \right. \right.$$
 On obtiens, 
 $$\int _{0}^{1} g = [x\ln(1+x^{2})]_{0}^{1} - 2 \int _{0}^{1} \frac{x^{2}}{1+x^{2}} \, dx$$
-$$= \ln(2)$$
+$$= \ln(2)-2 \left( \int _{0}^{1} \, dx - \int _{0}^{1} \frac{dx}{1+x^{2}} \right) $$
+Ainsi, 
+$$\int _{0}^{1} g = \ln(2)-2+\frac{\pi}{2}$$
+On note $l$ cette limite, 
+Comme $\exp$ est continue en $l$ car $\exp \in \mathcal{C}^{\infty}(\mathbb{R})$
+Ainsi, par le théorème précédent : 
+$$a_{n} = e^{ w_{n} } \underset{n \to +\infty}{\longrightarrow} e^{ l } = 2e^{ \frac{\pi}{2} -2}$$
+___
+# VI. Théorème Fondamental de l'Analyse
+Soit $I$ un intervalle non trivial
+#### Théorème : TFA
+Soient $f \in \mathcal{C}_{\mathbb{K}}^{0}(I)$ et $a \in I$, 
+Alors,
+$$F_{a} : \begin{cases}
+I \to \mathbb{K} \\
+x \mapsto \int _{a}^{x} f = \int _{a}^{x}  f(t)\, dt 
+\end{cases}$$
+est dérivable et $F'_{a} =f$
+ie $F_{a}$ est une primitive de $f$
+
+Démonstration :
+
+
+
+
+#### Remarque
+$F_{a}$ est une primitive de $f$ 
+$F_{a}$ est la primitive de $f$ qui s'annule en $a$ 
