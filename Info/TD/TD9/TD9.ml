@@ -75,3 +75,10 @@ let rec binom k n =
 
 
 binom 2 4;;
+
+type objet = {poids : int ; valeur : int};;
+
+let rec somme objets = 
+  match objets with
+  | [] -> (0, 0)
+  | obj::s -> let (p, v) = somme s in (obj.poids + p, obj.valeur + v)
