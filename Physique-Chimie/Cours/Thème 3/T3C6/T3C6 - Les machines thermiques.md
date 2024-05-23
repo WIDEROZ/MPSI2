@@ -37,3 +37,14 @@ Et enfin $W = -Q \geq 0$.
 
 Le système reçoit donc du travail de l'extérieur, il ne peut pas en fournir. 
 
+## 3. Equivalence entre les deux principes
+Plan : 
+- $\text{non(Clausius)} \Rightarrow \text{non(Kelvin)}$
+- $\text{non(Kelvin)} \Rightarrow \text{non(Clausius)}$
+___
+Supposons : Excal 5
+Soit $T_{0}$ un thermostat, 
+On sépare ce thermostat en deux sous systèmes : 
+$$\boxed{\text{EXCAL 6}}$$
+___
+Supposons : Excal 7
