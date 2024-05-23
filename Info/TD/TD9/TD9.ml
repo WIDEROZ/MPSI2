@@ -6,6 +6,14 @@ let rec division l =
 ;;
 
 let rec fusion l1 l2 = 
-  match l1 with
-  | [] -> l2
-  | t::s ->  
+  match l1, l2 with
+  | [], _ -> l2
+  | _, [] -> l1
+  | t1::s1, t2::s2 -> if t1 < t2 then t1::(fusion s1 l2) else t2::(fusion l1 s2)
+  ;;
+
+let rec triFusion l = 
+  match l with
+  | [] -> []
+  | [v] -> [v]
+  | t::s -> let (l1, l2) = division l
