@@ -80,4 +80,15 @@ Liberté :
 Peut-on accepter que la liberté individuelle se libère au nom de la communauté?
 
 Individu et société (Rousseau):
-L'individu troc sa liberté contre son f
+Est-ce que le confort de la sécurité offerte par la société vaut ce sacrifice? 
+L'individu troc sa liberté contre son confort et sa sécurité en intégrant la société. 
+
+Communauté et société : 
+Est-ce que le pacte social engendre nécessairement un sentiment d'appartenance? 
+
+La démocratie :
+Pourquoi la politique à t-elle un lien avec la communauté?
+Si la démocratie est le pouvoir d'une communauté, est-ce qu'elle ne produirait pas une minorité. 
+
+La tyrannie de la majorité : 
+La majorité n'est elle pas elle aussi une tyrannie
