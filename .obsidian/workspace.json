@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
+                "file": "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
+                "file": "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
+                "file": "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Individu et communauté.md"
+                "file": "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md"
               }
             }
           }
@@ -150,6 +150,8 @@
   },
   "active": "b23558fe5d89f81b",
   "lastOpenFiles": [
+    "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
+    "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
     "Info/TD/TD9/TD9.pdf",
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
@@ -184,7 +186,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C1/T3C1 - Description microscopique et macroscopique d'un système à l'équilibre.md",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.md",
-    "Mathématiques/Cours/C28/C28.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
