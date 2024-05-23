@@ -26,15 +26,14 @@ let fibo n =
   let rec fibo_aux n = 
     if t.(n) = -1 then
       begin
-      
-
-
-
-
-
-
-
-      end
+      if n <= 1 then
+        t.(n) <- n
+      else t.(n) <- fibo_aux (n-1) + fibo_aux (n-2)
+      end;
       t.(n)
 
     in fibo_aux n;;
+
+
+fibo (2);;
+
