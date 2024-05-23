@@ -125,7 +125,9 @@ $$e_{PAC} = \left| \frac{Q_{C}}{W}\right| = - \frac{Q_{C}}{W}$$
 
 
 # III. Le diagramme de Raveau
-EXCAL 9
+$$\boxed{\text{EXCALIDRAW 9}}$$
+(regardez le SVP c bo)
+
 On trace deux droites : 
 - La droite $W = 0$ 
   Comme c'est une machine $W =-(Q_{C} + Q_{F})$ 
@@ -135,5 +137,22 @@ On trace deux droites :
   Ainsi, $Q_{C} = - \frac{T_{C}}{T_{F}}Q_{F}$
 
 Comme $T_{C} > T_{F}$, $- \frac{T_{C}}{T_{F}} < -1$
+$$\boxed{Q_{C} \leq -\frac{T_{c}}{T_{F}}Q_{F}}$$
 
-## 1. Les moteurs en région $W > 0$
+## 1. Les moteurs en région $W < 0$
+C'est la seule région possible accessible au diagramme pour laquelle $W<0$ donc c'est la région ou on à l'ensemble des moteurs
+
+### a. Principe
+$$\boxed{\text{EXCAL 10}}$$
+
+### b. Rendement d'un moteur
+$$\eta_{\text{moteur}} = - \frac{W}{Q_{C}}$$
+D'après le premier principe sur un cycle : 
+$$\Delta U = W + Q_{C} + Q_{F} = 0$$
+$$W = -(Q_{C} + Q_{F})$$
+Ainsi, 
+$$\boxed{\eta_{\text{moteur}} = \frac{Q_{C}+Q_{F}}{Q_{C}}}$$
+
+Comme $Q_{F}<0$ et $Q_{C} >0$ $\boxed{\eta_{\text{moteur}} < 1}$
+
+#### Quel est le rendement maximal d'un moteur?
