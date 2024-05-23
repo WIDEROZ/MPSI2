@@ -763,10 +763,18 @@ $$\boxed{\frac{b-a}{n} \sum_{k=1}^{n} f\left( x_{k} \right) \underset{n \to +\in
 #### Exercice
 Étudier les éventuelles limites des suites de T.G. suivantes:
 1. $$u_{n} = \sum_{p = 1}^{n} \sqrt{ \frac{1}{n^{2}}-\frac{p^{2}}{n^{4}} }$$
-2. $$v_{n} =$$ 
+2. $$v_{n} = \sum_{p = 1}^{n} \frac{p^{2}}{2p^{3}+n^{3}}$$
+3. $$a_{n} = \frac{1}{n^{2}} \prod_{k = 1}^{n} (n^{2}+k^{2})^{\frac{1}{n}}$$
+4. $$b_{n} = \sqrt[n]{ \frac{(2n)!}{n!n^{n}} }$$
+___
 
-
-
-
-
-1. 
+On pose : 
+$$f : \begin{cases}
+[0, 1] \to \mathbb{R} \\
+x \mapsto \sqrt{ 1-x^{2} }
+\end{cases}$$
+qui est CPM, 
+Donc par le théorème précédent : 
+$$u_{n} = \frac{1}{n} \sum_{p = 1}^{n} \sqrt{ 1 - \left( \frac{p}{n} \right)^{2} } \underset{n \to +\infty}{\longrightarrow}  \int_{0}^{1} \sqrt{ 1- \left( \frac{x}{n} \right)^{2} } \, dx $$
+Et, 
+$$\int _{0}^{1}  \, dx $$
