@@ -15,4 +15,8 @@ let rec fusion l1 l2 =
 let rec triFusion l = 
   match l with
   | [] -> []
-  | [v] -> 
+  | [v] -> [v]
+  | _ -> let (l1, l2) = division l in fusion (triFusion l1) (triFusion l2)
+;;
+
+triFusion [984; 6544; 21; 32; 12; 84; 10; 0; 1; 5; 65];;
