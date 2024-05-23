@@ -62,3 +62,25 @@ Une machine ditherme réalise des transferts de chaleur avec deux thermostats de
 
 modélisation : 
 $$\boxed{\text{EXCAL 8}}$$
+On notera toujours :
+- $Q_{C}$ : transfert thermique avec la source chaude
+- $Q_{F}$ : transfert thermique avec la source froide
+- $W$ le travail échangé avec l'extérieur
+- $Q_{c}, Q_{F}, W$ sont des grandeurs algébriques
+
+#### Méthode générale :
+Utilisation du premier principe de du second principe pour un <u>cycle</u> : 
+$$\Delta U = W + Q_{C} + Q_{F} = 0$$
+$$\Delta S = S_{ech} + S_{créé} = 0$$
+$$S_{ech} = S_{ech_{T_{F}}} + S_{ech_{T_{C}}} = \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}}$$
+$S_{créé} \geq 0$
+Ainsi, 
+$$ \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} \leq 0$$
+
+## 2. Machine dithermes classiques
+### a. Moteurs
+#### Définition
+Les moteurs sont des machines qui fournissent du travail : 
+$$W < 0$$
+Alors, 
+$$Q_{}$$
