@@ -20,3 +20,21 @@ let rec triFusion l =
 ;;
 
 triFusion [984; 6544; 21; 32; 12; 84; 10; 0; 1; 5; 65];;
+
+let fibo n =
+  let t = Array.make (n+1) (-1) in
+  let rec fibo_aux n = 
+    if t.(n) = -1 then
+      begin
+      
+
+
+
+
+
+
+
+      end
+      t.(n)
+
+    in fibo_aux n;;

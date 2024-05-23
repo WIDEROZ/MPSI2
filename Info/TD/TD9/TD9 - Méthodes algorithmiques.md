@@ -5,4 +5,5 @@ La longueur de la liste doit être supérieure à $1$
 ## 2.
 $$d(P(i), P(j)) = $$
 
-# Ex
+# Exercice 2
+## 1.
