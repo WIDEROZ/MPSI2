@@ -28,6 +28,22 @@
             }
           }
         ]
+      },
+      {
+        "id": "52734f4796286149",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0b1ba09889b3bc14",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Info/TD/TD9/TD9.pdf"
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -104,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
+                "file": "Info/TD/TD9/TD9.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
+                "file": "Info/TD/TD9/TD9.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md"
+                "file": "Info/TD/TD9/TD9.pdf"
               }
             }
           }
@@ -156,9 +172,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a205af6b660bd9b7",
+  "active": "0b1ba09889b3bc14",
   "lastOpenFiles": [
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
+    "Info/TD/TD9/TD9.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
@@ -185,7 +202,6 @@
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
-    "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
@@ -193,7 +209,6 @@
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.md",
     "Mathématiques/Cours/C28/C28.md",
-    "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
