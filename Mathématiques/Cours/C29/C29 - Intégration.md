@@ -1011,6 +1011,11 @@ Donc,
 ###### Formule de Taylor avec reste intégral
 $$\boxed{R_{n} = \int_{a}^{b} \frac{(b-t)^{n}}{n!}f^{(n+1)}(t) \, dt }$$
 
+###### Inégalité de Taylor-Lagrange à l'ordre $n$
+$$\boxed{\left| R_{n}\right| \leq M \frac{\left| b-a\right|^{n+1}}{(n+1)!}}$$
+avec $M = \max \left| f^{(n+1)}\right|$ 
+
+###### Démonstration : Taylor avec reste intégral
 Démonstration :
 On procède par récurrence finie sur $n$
 Pour $p \in [\![0, n]\!]$ on pose : 
@@ -1020,12 +1025,21 @@ $$\mathcal{A}_{p} : \text{" } R_{p} = \int _{a}^{b} \frac{(b-t)^{p}}{p!}f^{(p+1)
 Comme $f \in \mathcal{C}^{1}(I)$, (car $n+1 \geq 1$)
 $f'$ est continue sur $I$
 Donc, 
-$$$$
+$$\int_{a}^{b} f'(t) \, dt = f(b)-f(a) $$
+ie 
+$$R_{0} = \int _{a}^{b} \frac{(b-t)^{0}}{0!} f^{(0+1)}(t) \, dt =  f(b)-f(a)$$
+Donc $A_{0}$
 
-
-
-
-###### Inégalité de Taylor-Lagrange à l'ordre $n$
-$$\boxed{\left| R_{n}\right| \leq M \frac{\left| b-a\right|^{n+1}}{(n+1)!}}$$
-avec $M = \max \left| f^{(n+1)}\right|$ 
-
+###### Hérédité
+Soit $p \in [\![0, n-1]\!]$ tq $\mathcal{A}_{p}$
+On effectue l'IPP : 
+$$\left[\!\left[ \begin{array}{l}
+u = f^{(p+1)}(t) \\
+dv = \frac{(b-t)^{p}}{p!}dt
+\end{array}\right.\right. \text{ et } \left[\!\left[ \begin{array}{l}
+du = f^{(p+2)}(t)st \\
+v = -\frac{(b-t)^{p+1}}{(p+1)!}
+\end{array}\right.\right. $$
+(justifié car $f \in \mathcal{C}^{n+1}(I)$ et $p+1\leq n$)
+Donc, $f^{(p+1)} \in \mathcal{C}^{1}(I)$
+et $v \in \mathcal{C}^{1}(I)$ (foncti)

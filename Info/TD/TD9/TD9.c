@@ -1,3 +1,6 @@
+#include <stdio.h>
+#include <stdlib.h>
+
 typedef struct Keke
 {
     int *pieces; // Pièces rendues
@@ -26,7 +29,6 @@ Keke rendu_glouton(int n, int * a, int b){
     }
     rendu.pieces = malloc(sizeof(int) * count);
     rendu.pieces = tab;
-
     free(tab);
     return rendu;
 }
@@ -35,8 +37,16 @@ Keke rendu_glouton(int n, int * a, int b){
 int main(int argc, char const *argv[])
 {
     Keke A;
-    
-    rendu_glouton(15, [1, 2, 5, 10, 20], 5);
-    printf("test : %d", A.size);
+    int *tab = malloc(sizeof(int) * 5);
+    tab[0] = 1;
+    tab[1] = 2;
+    tab[2] = 5;
+    tab[3] = 10;
+    tab[4] = 20;
+
+    A = rendu_glouton(15, tab, 5);
+    free(tab);
+    printf("test : %d, %d, %d \n", A.size, A.pieces[0], A.pieces[1]);
+    free(A.pieces);
     return 0;
 }
