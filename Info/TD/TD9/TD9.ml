@@ -169,18 +169,22 @@ plssc "chien" "caniche";;
 
 
 
+type bite = {long : int; large : int};;
+
+type name = E | N of int * int * int;;
 
 
 
 
+type objet = {poids : int; valeur : int};;
 
 
+let rec somme objets = 
+  match objets with
+  | [] -> (0, 0)
+  | obj::s -> let (p, v) = somme s in (p+obj.poids, v + obj.valeur)
 
-
-
-
-
-
+;;
 
 
 

@@ -20,6 +20,7 @@ int main(int argc, char const *argv[])
     }
 
 
+
     free(mat);
     return 0;
 }
