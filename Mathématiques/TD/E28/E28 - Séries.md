@@ -66,3 +66,14 @@ $p \in \mathbb{N}^{*}$ fixé
 $\sum a_{n}$ est une SATP 
 Alembert : 
 $$\frac{a_{n+1}}{a_{n}} = \frac{ \frac{n^{p(n+1)}}{(p(n+1))!}}{ \frac{n^{pn}}{(pn)!}} = \frac{n^{p(n+1)}(np)!}{n^{np}(p(n+1))!}$$
+$$ = \left( \left( 1+\frac{1}{n} \right)^{n} \right)^{p} \frac{(n+1)^{p}}{(pn+p)(pn+p-1)\dots(pn+1)}$$
+$$=== \left( 1+\frac{1}{n} \right)^{np} \frac{1}{p^{p}} \frac{(n+1)^{p}}{(n+1)\left( n+1-\frac{1}{p} \right)\dots\left( n+\frac{1}{p} \right)}$$
+A détailler : 
+$$\frac{a_{n+1}}{a_{n}} \underset{n \to +\infty}{\longrightarrow} \frac{e^{p}}{p^{p}}$$
+
+Disjonction de cas pour $p \in \{ 1, 2 \}$ et $p \geq 3$
+
+## 13. 
+Soit $\alpha \in \mathbb{R}_{+}^{*}$,
+$$a_{n} = \ln\left( 1+ \frac{(-1)^{n}}{n^{\alpha}} \right)$$
+$$$$
