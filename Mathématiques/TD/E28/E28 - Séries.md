@@ -40,9 +40,22 @@ Pour $\alpha \in \mathbb{R}_{+}$,
 ## 8.
 $$\sum_{n \geq 1}\frac{1}{\sqrt{ n }}\sin\left( \frac{\pi}{n} \right)$$
 $$\sin\left( \frac{\pi}{n} \right) \underset{n \to + \infty}{\sim} \frac{\pi}{n}$$
-$$\frac{1}{n^{\frac{3}{2}}}= \frac{1}{n\sqrt{ n }}\sim \frac{1}{\sqrt{ n }} \sin\left( \frac{\pi}{n} \right)$$
+$$\frac{\pi}{n^{\frac{3}{2}}}= \frac{\pi}{n\sqrt{ n }}\sim \frac{\pi}{\sqrt{ n }} \sin\left( \frac{\pi}{n} \right)$$
 $\frac{3}{2} > 1$ alors, par le théorème des équivalences
 comme 
-$$\sum_{n \geq 1} \frac{1}{n^{\frac{3}{2}}} \text{ CV} $$
+$$\sum_{n \geq 1} \frac{\pi}{n^{\frac{3}{2}}} \text{ CV} $$
 et que $\frac{1}{n\sqrt{ n }} \sim \frac{1}{\sqrt{ n }}\sin\left( \frac{\pi}{n} \right)$
+$$\sum_{n \geq 1} \frac{\pi}{\sqrt{ n }}\sin\left( \frac{\pi}{n} \right) \text{ CV}$$
+Donc, 
 $$\sum_{n \geq 1} \frac{1}{\sqrt{ n }}\sin\left( \frac{\pi}{n} \right) \text{ CV}$$
+## 9.
+$$\sum_{n \geq 1}\frac{\sqrt{ n }\sin(n)}{n^{2}}$$
+$$\begin{cases}
+\left| a_{n}\right| \leq \frac{1}{n^{\frac{3}{2}}} \\
+a_{n} = O\left( \frac{1}{n^{\frac{3}{2}}} \right)
+\end{cases}$$
+Comme
+$$\sum_{n \geq 1} \frac{1}{n^{\frac{3}{2}}} \text{ CVA} $$
+$$\sum a_{n} \text{ CVA}$$
+Donc, 
+$$\sum a_{n} \text{ CV}$$
