@@ -1010,3 +1010,22 @@ $$R_{n} = f(b) - \sum_{k = 0}^{n} \frac{(b-a)^{k}}{k!}f^{(k)}(a)$$
 Donc, 
 ###### Formule de Taylor avec reste intégral
 $$\boxed{R_{n} = \int_{a}^{b} \frac{(b-t)^{n}}{n!}f^{(n+1)}(t) \, dt }$$
+
+Démonstration :
+On procède par récurrence finie sur $n$
+Pour $p \in [\![0, n]\!]$ on pose : 
+$$\mathcal{A}_{p} : \text{" } R_{p} = \int _{a}^{b} \frac{(b-t)^{p}}{p!}f^{(p+1)}(t) \, dt  \text{ "}$$
+
+###### Initialisation
+Comme $f \in \mathcal{C}^{1}(I)$, (car $n+1 \geq 1$)
+$f'$ est continue sur $I$
+Donc, 
+$$$$
+
+
+
+
+###### Inégalité de Taylor-Lagrange à l'ordre $n$
+$$\boxed{\left| R_{n}\right| \leq M \frac{\left| b-a\right|^{n+1}}{(n+1)!}}$$
+avec $M = \max \left| f^{(n+1)}\right|$ 
+
