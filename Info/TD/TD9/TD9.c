@@ -15,16 +15,17 @@ Keke rendu_glouton(int n, int * a, int b){
     int *tab = malloc(sizeof(int) * n);
     int c = b-1;
     int count = 0;
+
     while(c >= 0 && n != 0){
         if (a[c] <= n){
-            tab[b-c-2] = a[c];
+            tab[count] = a[c];
             count ++;
         }
         while(a[c] <= n){
             n -= a[c];
             rendu.size ++;
         }
-
+//triple monstre
         c--;
     }
     rendu.pieces = malloc(sizeof(int) * count);
@@ -43,8 +44,9 @@ int main(int argc, char const *argv[])
     tab[3] = 10;
     tab[4] = 20;
 
-    A = rendu_glouton(20, tab, 5);
+    A = rendu_glouton(15, tab, 5);
     free(tab);
     printf("test : %d, %d, %d \n", A.size, A.pieces[0], A.pieces[1]);
+    free(A.pieces);
     return 0;
 }

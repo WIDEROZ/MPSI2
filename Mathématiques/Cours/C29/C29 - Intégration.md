@@ -849,12 +849,12 @@ $$f : \begin{cases}
 ]-1, + \infty[ \to \mathbb{R}\\
 x \mapsto \ln(x +1)
 \end{cases}$$
-
-$$\int_{0}^{1} \ln(1+x) \, dx = [(x+1)\ln(x+1)-x-1]_{0}^{1} $$
-
-$$(x+1)\ln(x+1)- x = \ln(x+1) + 1 -1$$
-
-
+Or,
+$$\int_{0}^{1} \ln(1+x) \, dx = [(x+1)\ln(x+1)-x]_{0}^{1} = 2\ln(2)-1 $$
+Alors,
+$$w_{n} \underset{n \to +\infty}{\longrightarrow} 2\ln(2)-1$$
+Ainsi, 
+$$\boxed{b_{n} \underset{n \to +\infty}{\longrightarrow} \frac{4}{e} = 4e^{ -1 }}$$
 
 ___
 # VI. Théorème Fondamental de l'Analyse
@@ -1086,7 +1086,5 @@ $$\sum \frac{x^{n}}{n!} \text{ CV} \text{ et } \sum_{n = 0}^{\infty} \frac{x^{n}
 2. En déduire que pour tout $n \in \mathbb{N}$, 
    $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{n+1}}{n} \right| \leq \int _{0}^{1} (1-t)^{n}\, dt$$
 3. En déduire la CV de $\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$ et sa somme
-
-
 
 
