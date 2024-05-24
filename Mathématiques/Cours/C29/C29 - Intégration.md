@@ -968,4 +968,18 @@ Trouver une primitive de $\ln^{3}$ (multiplication)
 #### Théorème
 Soit $\varphi \in \mathcal{C}_{\mathbb{R}}^{1}(I)$ et $f \in \mathcal{C}^{0}_{\mathbb{K}}(\varphi(I))$
 et $a, b \in \mathbb{R}$, 
-$$\int f(x) \, dx  = \int f(\varphi(p)) \, dx $$
+$$\int_{\varphi(a)}^{\varphi(b)} f(x) \, dx  = \int_{a}^{b} f(\varphi (t)) \varphi'(t) \, dt $$
+
+#### Remarque
+La fonction $\varphi$ est appelée changement de variable
+
+#### Rappel : Formalisme obligatoire
+$$\left[\!\left[ \begin{array}{l}
+x = \text{"fonction de t"} &(= \varphi(t))\\
+dx = \text{"fonction de t"}dt&(= \varphi'(t)dt)
+\end{array}\right.\right. $$
+et on remplace dans l'intégrale (avec les bornes)
+
+#### Exercice
+Montrer que 
+$$\int^{3\ln(2)}_{\ln(3)}  \frac{dx}{\sqrt{ 1+e^{ x } }} = \ln\left( \frac{3}{2} \right) $$
