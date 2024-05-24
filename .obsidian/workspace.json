@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "e6a20c5e1a113d76",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -150,6 +162,9 @@
   },
   "active": "10c47589546e8a86",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Info/TD/TD9/TD9.pdf",
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
@@ -172,9 +187,6 @@
     "Info/Cours/Chapitre 14/Méthodes algorithmiques .pdf",
     "Info/Cours/Chapitre 14",
     "Brouillon.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/TD/E28/E28 - Séries.md",
-    "Mathématiques/TD/E28",
     "Mathématiques/TD/E26/E26 - 1.md",
     "Mathématiques/TD/E27/E27.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
