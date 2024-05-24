@@ -138,3 +138,11 @@ let plssc l1 l2 =
 plssc "feur" "ruef";;
 
 
+
+
+
+
+
+let rec plssc l1 l2 = 
+  let l1Len = String.length l1
+  let tab = Array.make 

@@ -50,3 +50,5 @@ int main(int argc, char const *argv[])
     free(A.pieces);
     return 0;
 }
+
+

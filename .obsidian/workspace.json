@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "d97b0ec2bdbe047b",
+        "id": "3284ff77e2a34d9a",
         "type": "tabs",
         "children": [
           {
-            "id": "10c47589546e8a86",
+            "id": "3602b9f792d727be",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e6a20c5e1a113d76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md"
+                "file": "Info/TD/TD9/TD9 - Méthodes algorithmiques.md"
               }
             }
           }
@@ -160,7 +148,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "10c47589546e8a86",
+  "active": "3602b9f792d727be",
   "lastOpenFiles": [
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/TD/E28/E28 - Séries.md",

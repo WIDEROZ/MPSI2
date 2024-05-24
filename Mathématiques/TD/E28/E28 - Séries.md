@@ -75,5 +75,8 @@ Disjonction de cas pour $p \in \{ 1, 2 \}$ et $p \geq 3$
 
 ## 13. 
 Soit $\alpha \in \mathbb{R}_{+}^{*}$,
-$$a_{n} = \ln\left( 1+ \frac{(-1)^{n}}{n^{\alpha}} \right)$$
-$$$$
+$$a_{n} = \ln\left( 1+ \frac{(-1)^{n}}{n^{\alpha}} \right) $$
+$$a_{n} \underset{n \to + \infty}{=} \frac{(-1)^{n}}{n^{\alpha}} - \frac{1}{2n^{\alpha}} + o\left( \frac{1}{n^{2\alpha}} \right)$$
+
+par le critère de Leibniz. 
+
