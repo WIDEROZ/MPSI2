@@ -983,3 +983,13 @@ et on remplace dans l'intégrale (avec les bornes)
 #### Exercice
 Montrer que 
 $$\int^{3\ln(2)}_{\ln(3)}  \frac{dx}{\sqrt{ 1+e^{ x } }} = \ln\left( \frac{3}{2} \right) $$
+#### Théorème
+Soient $\varphi \in \mathcal{C}^{1}_{\mathbb{R}}(I)$, $f \in \mathcal{C}_{\mathbb{K}}^{0}(\varphi(I))$
+tq $\forall x \in I, \varphi'(x) \neq 0$
+Alors, pour toute primitive $\psi$ de $(f \circ \varphi)\varphi'$ la composé $\psi \circ \varphi^{-1}$ est une primitive de $f$
+Cela se traduit par l'abus suivant : 
+$$\int f(x) \, dx = \int  f(\varphi(t))\varphi'(t) \, dt = \psi(t) + \text{Cte} = \psi(\varphi^{-1}(x))  + \text{Cte}$$
+
+#### Exercice
+Calculer
+$$\int  \frac{dx}{2+\sin x} \text{ sur }\mathbb{R} $$ $t = \tan \frac{x}{2}$
