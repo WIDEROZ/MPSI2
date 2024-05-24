@@ -7,16 +7,18 @@ typedef struct Keke
 // b la longeur du tableau a
 Keke rendu_glouton(int n, int * a, int b){
     Keke rendu;
+    rendu.size = 0;
 
     int *tab = malloc(sizeof(int) *n);
     int c = b-1;
     int count = 0;
     while(c >= 0){
         if (a[c] <= n){
-            rendu.pieces[b-c-1] = a[c];
+            tab[b-c-1] = a[c];
         }
         while(a[c] <= n){
             n -= a[c];
+            rendu.size ++;
         }
 
         c--;

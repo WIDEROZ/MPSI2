@@ -992,4 +992,21 @@ $$\int f(x) \, dx = \int  f(\varphi(t))\varphi'(t) \, dt = \psi(t) + \text{Cte} 
 
 #### Exercice
 Calculer
-$$\int  \frac{dx}{2+\sin x} \text{ sur }\mathbb{R} $$ $t = \tan \frac{x}{2}$
+$$\int  \frac{dx}{2+\sin x} \text{ sur }\mathbb{R} $$
+$t = \tan \frac{x}{2}$
+
+# VIII. Calcul de primitives
+# IX. Formules de Taylor
+
+#### Rappel
+Formule de Taylor polynomiale connue
+
+#### Théorème
+Soient $I$ un intervalle non trivial de $\mathbb{R}$, 
+$n \in \mathbb{N}$, $f \in \mathcal{C}^{n+1}(I)$, et $a, b \in I$, 
+On note :
+$$R_{n} = f(b) - \sum_{k = 0}^{n} \frac{(b-a)^{k}}{k!}f^{(k)}(a)$$
+
+Donc, 
+###### Formule de Taylor avec reste intégral
+$$\boxed{R_{n} = \int_{a}^{b} \frac{(b-t)^{n}}{n!}f^{(n+1)}(t) \, dt }$$
