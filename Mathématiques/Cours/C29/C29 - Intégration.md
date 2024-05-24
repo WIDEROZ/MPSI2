@@ -798,14 +798,13 @@ ___
 2.
 $$v_{n} = \sum_{p = 1}^{n} \frac{p^{2}}{2p^{3}+n^{3}}$$
 $$v_{n} = \frac{1}{6} \times \frac{1}{n} \sum_{p=1}^{n} 6\left( \frac{p}{n} \right)^{2} \frac{1}{2 \left( \frac{p}{n} \right)^{3}+ 1}$$
-
+$$\frac{1}{n} \sum_{k = 0}^{n} f\left( a + k \frac{b-a}{n} \right)\underset{n \to +\infty}{\longrightarrow} \int _{a}^{b} f\left( a + x \frac{b-a}{n} \right) \, dx $$
 $$f : \begin{cases}
 \mathbb{R} \to \mathbb{R} \\
-x \mapsto 6 \left( \frac{p}{n} \right)^{2} \times \frac{1}{2\left( \frac{p}{n} \right)^{3} +1}
+x \mapsto 6 x ^{2} \times \frac{1}{2x^{3} +1}
 \end{cases}$$
 
-$$\int _{0}^{1} f\left( \frac{x}{n} \right) \, dx = \left[ \ln\left( 1+ \left( \frac{x}{n} \right) \right) \right]_{0}^{1}$$
-
+$$\int _{0}^{1} f\left( \frac{x}{n} \right) \, dx = \left[ \ln\left( 1+ 2\left( \frac{x}{n} \right)^{3} \right) \right]_{0}^{1} = \ln\left(  1+ \frac{2}{n^{3}} \right)$$
 
 
 ___
@@ -838,6 +837,13 @@ On note $l$ cette limite,
 Comme $\exp$ est continue en $l$ car $\exp \in \mathcal{C}^{\infty}(\mathbb{R})$
 Ainsi, par le théorème précédent : 
 $$a_{n} = e^{ w_{n} } \underset{n \to +\infty}{\longrightarrow} e^{ l } = 2e^{ \frac{\pi}{2} -2}$$
+___
+4.
+$$b_{n} = \sqrt[n]{ \frac{(2n)!}{n!n^{n}} }$$
+$$w_{n} = \ln(b_{n}) = \frac{1}{n} (\ln((2n)!) - \ln(n!n^{n})) = \frac{1}{n}\left( \sum_{k = 0}^{2n}\ln(k) \right)$$
+
+
+
 ___
 # VI. Théorème Fondamental de l'Analyse
 Soit $I$ un intervalle non trivial
