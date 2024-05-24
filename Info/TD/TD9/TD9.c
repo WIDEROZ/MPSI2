@@ -4,9 +4,17 @@ typedef struct Keke
     int size;
 } Keke;
 
-Keke rendu_glouton(int n, int * a){
+// b la longeur du tableau
+Keke rendu_glouton(int n, int * a, int b){
     int *tab = malloc(sizeof(int) * n);
-    
+    int c = b-1;
+    for (int i = 0; i <= b; i++){
+        while(a[c] <= n){
+
+
+
+        }
+    }
 
 
 

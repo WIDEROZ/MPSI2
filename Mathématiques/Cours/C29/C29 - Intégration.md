@@ -950,3 +950,22 @@ v'(x) = \text{"fonction de x"}
 u'(x) = \text{"fonction de x"} \\
 v(x) = \text{"fonction de x"}
 \end{array}\right.\right.$$
+
+Et vérifier que $u$ et $v$ sont de classe $\mathcal{C}^{1}$.
+
+#### Exercice
+Montrer par deux IPP
+$$\int _{0}^{1} x(\arctan(x))^{2}dx = \frac{\pi^{2}}{16} - \frac{\pi}{4} + \frac{\ln(2)}{2} $$
+
+#### Théorème
+$$\forall u, v \in \mathcal{C}^{1}(I) = \int uv' = uv - \int u'v  $$
+
+##### Remarque
+Meme formalisme
+Trouver une primitive de $\ln^{3}$ (multiplication)
+
+## 2. Changement de variables
+#### Théorème
+Soit $\varphi \in \mathcal{C}_{\mathbb{R}}^{1}(I)$ et $f \in \mathcal{C}^{0}_{\mathbb{K}}(\varphi(I))$
+et $a, b \in \mathbb{R}$, 
+$$\int f(x) \, dx  = \int f(\varphi(p)) \, dx $$
