@@ -143,13 +143,25 @@ plssc "feur" "ruef";;
 
 
 
-let rec plssc l1 l2 = 
+let plssc l1 l2 = 
   let l1Len = String.length l1 in
     let l2Len = String.length l2 in
-      let tab = Array.make_matrix l1Len l2Len 0 in 
+      let tab = Array.make_matrix (l1Len+1) (l2Len+1) 0 in 
         for i = 0 to l1Len do
           for j = 0 to l2Len do
             if i = 0 || j = 0 then
               tab.(i).(j) <- 0
             else
-              if 
+              if l1.[i-1] = l2.[j-1] then
+                tab.(i).(j) <- 1 + tab.(i-1).(j-1)
+              else
+                tab.(i).(j) <- max (tab.(i-1).(j)) (tab.(i).(j-1))
+              done;
+            done; 
+  tab.(l1Len).(l2Len)
+;;
+
+plssc "chien" "caniche";;
+
+
+
