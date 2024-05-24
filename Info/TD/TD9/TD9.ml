@@ -144,5 +144,12 @@ plssc "feur" "ruef";;
 
 
 let rec plssc l1 l2 = 
-  let l1Len = String.length l1
-  let tab = Array.make 
+  let l1Len = String.length l1 in
+    let l2Len = String.length l2 in
+      let tab = Array.make_matrix l1Len l2Len 0 in 
+        for i = 0 to l1Len do
+          for j = 0 to l2Len do
+            if i = 0 || j = 0 then
+              tab.(i).(j) <- 0
+            else
+              if 
