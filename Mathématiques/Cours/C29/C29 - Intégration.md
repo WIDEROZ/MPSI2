@@ -936,5 +936,17 @@ Cas particulier : $I = [a, b]$ avec $a < b$
 
 #### Rappel sur le formalisme
 $$\left[\!\left[ \begin{array}{l}
-u = 
+u = \text{"fonction de x"} \\
+dv = \text{"fonction de x"}dx
+\end{array}\right.\right. \text{ et }\left[\!\left[ \begin{array}{l}
+du = \text{"fonction de x"}dx \\
+v = \text{"fonction de x"}
+\end{array}\right.\right.$$
+ou
+$$\left[\!\left[ \begin{array}{l}
+u(x) = \text{"fonction de x"} \\
+v'(x) = \text{"fonction de x"}
+\end{array}\right.\right. \text{ et }\left[\!\left[ \begin{array}{l}
+u'(x) = \text{"fonction de x"} \\
+v(x) = \text{"fonction de x"}
 \end{array}\right.\right.$$
