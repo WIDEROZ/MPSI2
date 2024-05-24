@@ -795,6 +795,14 @@ $$\int_{0}^{1} \sqrt{ 1-x^{2} }  \, dx = \frac{\pi}{4}$$
 Ainsi, 
 $$u_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{4}$$
 ___
+2.
+$$v_{n} = \sum_{p = 1}^{n} \frac{p^{2}}{2p^{3}+n^{3}}$$
+$$v_{n} = \sum_{p = 1}^{n} \frac{1}{p} \times \frac{1}{2 + \left( \frac{n}{p} \right)^{3}}$$
+$$v_{n} = \frac{1}{n} \sum_{p = 1}^{n} \frac{p^{2}}{\frac{2p^{3}}{n}+n^{2}} = \frac{1}{n} \sum_{p = 1}^{n} \frac{np^{2}}{2p^{3} + n^{3}} $$
+
+
+
+___
 ###### 3.
 On pose pour $n \in \mathbb{N}^{*}$, $w_{n} = \ln(a_{n})$
 $$a_{n} = \prod_{k=1}^{n}\left( 1+ \left( \frac{k}{n} \right)^{2} \right)^{\frac{1}{n}}$$
