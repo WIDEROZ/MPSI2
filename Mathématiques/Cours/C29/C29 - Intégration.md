@@ -797,8 +797,14 @@ $$u_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{\pi}{4}$$
 ___
 2.
 $$v_{n} = \sum_{p = 1}^{n} \frac{p^{2}}{2p^{3}+n^{3}}$$
-$$v_{n} = \sum_{p = 1}^{n} \frac{1}{p} \times \frac{1}{2 + \left( \frac{n}{p} \right)^{3}}$$
-$$v_{n} = \frac{1}{n} \sum_{p = 1}^{n} \frac{p^{2}}{\frac{2p^{3}}{n}+n^{2}} = \frac{1}{n} \sum_{p = 1}^{n} \frac{np^{2}}{2p^{3} + n^{3}} $$
+$$v_{n} = \frac{1}{6} \times \frac{1}{n} \sum_{p=1}^{n} 6\left( \frac{p}{n} \right)^{2} \frac{1}{2 \left( \frac{p}{n} \right)^{3}+ 1}$$
+
+$$f : \begin{cases}
+\mathbb{R} \to \mathbb{R} \\
+x \mapsto 6 \left( \frac{p}{n} \right)^{2} \times \frac{1}{2\left( \frac{p}{n} \right)^{3} +1}
+\end{cases}$$
+
+$$\int _{0}^{1} f\left( \frac{x}{n} \right) \, dx = \left[ \ln\left( 1+ \left( \frac{x}{n} \right) \right) \right]_{0}^{1}$$
 
 
 
