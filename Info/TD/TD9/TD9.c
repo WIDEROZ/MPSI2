@@ -12,7 +12,7 @@ Keke rendu_glouton(int n, int * a, int b){
     Keke rendu;
     rendu.size = 0;
 
-    int *tab = malloc(sizeof(int) *n);
+    int *tab = malloc(sizeof(int) * n);
     int c = b-1;
     int count = 0;
     while(c >= 0){

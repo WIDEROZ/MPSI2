@@ -1059,4 +1059,21 @@ qui existe par le théorème des bornes atteintes car $f^{(p+1)}$ est continue s
 On a : 
 $$\left|  R_{n} \right| = \left|  \int _{a}^{b} \frac{(b-t)^{n}}{n!} f^{(n+1)}(t) \, dt \right|$$
 $$\leq M\left| \int _{a}^{b} \left| \frac{(b-t)^{n}}{n!}\right| \, dt \right|$$
-$$\leq $$
+Comme le truc dans l'intégral est de signe constant entre $a$ et $b$ on a :
+$$|R_{n}| \leq M\left| \int _{a}^{b} \frac{(b-t)^{n}}{n!} \, dt  \right| = M \left|  \left[ - \frac{(b-t)^{n+1}}{(n+1)!} \right]_{0}^{1}\right|$$
+Ainsi, 
+$$\left| R_{n} \right|\leq M \frac{\left| b-a\right|^{n+1}}{(n+1)!}$$
+
+#### Exercice
+Avec la formule de $TRI$
+Montrons que :
+$$\forall n \in \mathbb{N}, \forall x \in \mathbb{R}_{+}, e^{ x } \geq 1+ x + \frac{x^{2}}{2} + \dots + \frac{x^{n}}{n!}$$
+Avec l'inégalité de Taylor-Lagrange
+Montrons que pour tout $x \in \mathbb{R}$, 
+$$\sum \frac{x^{n}}{n!} \text{ CV} \text{ et } \sum_{n = 0}^{\infty} \frac{x^{n}}{n!} = e^{ x }$$
+
+#### Exercice
+1. $TRI$ à $x \mapsto \ln(1+x)$ entre $0$ et $1$ à l'ordre $n$
+2. En déduire que pour tout $n \in \mathbb{N}$, 
+   $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{n+1}}{n} \right| \leq \int _{0}^{1} (1-t)^{n}\, dt$$
+3. En déduire la CV de $\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$ et sa somme
