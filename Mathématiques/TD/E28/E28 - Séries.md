@@ -51,11 +51,18 @@ $$\sum_{n \geq 1} \frac{1}{\sqrt{ n }}\sin\left( \frac{\pi}{n} \right) \text{ CV
 ## 9.
 $$\sum_{n \geq 1}\frac{\sqrt{ n }\sin(n)}{n^{2}}$$
 $$\begin{cases}
-\left| a_{n}\right| \leq \frac{1}{n^{\frac{3}{2}}} \\
+\left| a_{n}\right| \leq \frac{1}{n^{\frac{3}{2}}} \text{ SATP} \\
 a_{n} = O\left( \frac{1}{n^{\frac{3}{2}}} \right)
 \end{cases}$$
 Comme
 $$\sum_{n \geq 1} \frac{1}{n^{\frac{3}{2}}} \text{ CVA} $$
+Alors, 
 $$\sum a_{n} \text{ CVA}$$
 Donc, 
 $$\sum a_{n} \text{ CV}$$
+## 10.
+$$a_{n} = \frac{n^{pn}}{(pn)!}$$
+$p \in \mathbb{N}^{*}$ fixé
+$\sum a_{n}$ est une SATP 
+Alembert : 
+$$\frac{a_{n+1}}{a_{n}} = \frac{ \frac{n^{p(n+1)}}{(p(n+1))!}}{ \frac{n^{pn}}{(pn)!}} = \frac{n^{p(n+1)}(np)!}{n^{np}(p(n+1))!}$$
