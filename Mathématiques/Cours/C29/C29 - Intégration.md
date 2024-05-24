@@ -1042,4 +1042,21 @@ v = -\frac{(b-t)^{p+1}}{(p+1)!}
 \end{array}\right.\right. $$
 (justifié car $f \in \mathcal{C}^{n+1}(I)$ et $p+1\leq n$)
 Donc, $f^{(p+1)} \in \mathcal{C}^{1}(I)$
-et $v \in \mathcal{C}^{1}(I)$ (foncti)
+et $v \in \mathcal{C}^{1}(I)$ (fonction polynome)
+qui donne : 
+$$R_{p} = \int _{a}^{b} \frac{(b-t)^{p}}{p!}f^{(p+1)}(t) \, dt  $$
+$$= \left[ - \frac{(b-t)^{p+1}}{(p+1)!}f^{p+1}(t) \right]_{a}^{b} + \int _{a}^{b} \frac{(b-t)^{p+1}}{(p+1)!}f^{(p+2)}(t) \, dt$$
+$$= \frac{(b-a)^{p+1}}{(p+1)!}f^{(p+1)}(a)+\int _{a}^{b} \frac{(b-t)^{p+1}}{(p+1)!}f^{(p+2)}(t) \, dt$$
+Donc,
+$$R_{p+1} = R_{p} - \frac{(b-a)^{p+1}}{(p+1)!}f^{(p+1)}(a) = \int _{a}^{b} \frac{(b-t)^{p+1}}{(p+1)!}f^{(p+2)}(t) \, dt$$
+$$\boxed{\mathcal{A}_{p+1} \text{ est vérifiée}}$$
+
+###### Démonstration : Inégalité de Taylor-Lagrange à l'ordre $n$
+On pose :
+$$M = \underset{[\min(a, b), \max(a, b)]}{\max} \left| f^{(n+1)}\right|$$
+qui existe par le théorème des bornes atteintes car $f^{(p+1)}$ est continue sur me segment $[\min(a, b), \max(a, b)]$
+(Par le TBA)
+On a : 
+$$\left|  R_{n} \right| = \left|  \int _{a}^{b} \frac{(b-t)^{n}}{n!} f^{(n+1)}(t) \, dt \right|$$
+$$\leq M\left| \int _{a}^{b} \left| \frac{(b-t)^{n}}{n!}\right| \, dt \right|$$
+$$\leq $$

@@ -17,7 +17,7 @@ Keke rendu_glouton(int n, int * a, int b){
     int count = 0;
     while(c >= 0){
         if (a[c] <= n){
-            tab[b-c-1] = a[c];
+            tab[b-c-2] = a[c];
             count ++;
         }
         while(a[c] <= n){
@@ -29,7 +29,6 @@ Keke rendu_glouton(int n, int * a, int b){
     }
     rendu.pieces = malloc(sizeof(int) * count);
     rendu.pieces = tab;
-    free(tab);
     return rendu;
 }
 
@@ -47,6 +46,5 @@ int main(int argc, char const *argv[])
     A = rendu_glouton(15, tab, 5);
     free(tab);
     printf("test : %d, %d, %d \n", A.size, A.pieces[0], A.pieces[1]);
-    free(A.pieces);
     return 0;
 }
