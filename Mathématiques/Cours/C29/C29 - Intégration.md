@@ -840,8 +840,9 @@ $$a_{n} = e^{ w_{n} } \underset{n \to +\infty}{\longrightarrow} e^{ l } = 2e^{ \
 ___
 4.
 $$b_{n} = \sqrt[n]{ \frac{(2n)!}{n!n^{n}} }$$
-$$w_{n} = \ln(b_{n}) = \frac{1}{n} (\ln((2n)!) - \ln(n!n^{n})) = \frac{1}{n}\left( \sum_{k = 0}^{2n}\ln(k) \right)$$
-
+$$w_{n} = \ln(b_{n}) = \frac{1}{n} (\ln((2n)!) - \ln(n!n^{n}))$$
+$$= \frac{1}{n}\left( \sum_{k = 1}^{2n}\ln(k) - \sum_{k = 1}^{n}\ln(k) - n\ln(n) \right)$$
+$$= \frac{1}{n} \left( \sum_{k = n+1}^{2n} \ln(k)-n\ln(n) \right) = \frac{1}{n} \sum_{k = 0}^{n-1} \ln(k + (n+1))- \ln(n)$$
 
 
 ___
