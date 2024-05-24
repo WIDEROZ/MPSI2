@@ -842,8 +842,10 @@ ___
 $$b_{n} = \sqrt[n]{ \frac{(2n)!}{n!n^{n}} }$$
 $$w_{n} = \ln(b_{n}) = \frac{1}{n} (\ln((2n)!) - \ln(n!n^{n}))$$
 $$= \frac{1}{n}\left( \sum_{k = 1}^{2n}\ln(k) - \sum_{k = 1}^{n}\ln(k) - n\ln(n) \right)$$
-$$= \frac{1}{n} \left( \sum_{k = n+1}^{2n} \ln(k)-n\ln(n) \right) = \frac{1}{n} \sum_{k = 0}^{n-1} \ln(k + (n+1))- \ln(n)$$
-
+$$= \frac{1}{n} \left( \sum_{k = n+1}^{2n} \ln(k)-n\ln(n) \right) $$
+$$= \frac{1}{n} \left( \sum_{k = 1}^{n}  \ln(n)  + \sum_{k = 1}^{n}\ln\left( \frac{k}{n} + 1 \right) \right) - \ln(n)$$
+$$= \frac{1}{n}\sum_{k = 1}^{n} \ln\left( \frac{k}{n} +1\right)$$
+A FINIR
 
 ___
 # VI. Théorème Fondamental de l'Analyse
@@ -920,3 +922,19 @@ On note : $F_{a} : x \mapsto \int _{a}^{x} f$
 qui est une primitive de $f$ par le TFA car $f$ est continue sur $I$
 Comme $F$ et $F_{a}$ sont deux primitives de $f$ sur in intervalle, par le lemme $F$ et $F_{a}$ diffère d'une constante additive donc,
 $$F(b)-F(a) = F_{a}(b) - F_{a}(a) = \int _{a}^{b} f $$
+
+# VII. Intégration par parties et changement de variable
+Soit $I$ un intervalle non trivial
+## 1. Intégration par parties
+#### Théorème
+$$\forall u, v \in \mathcal{C}^{1}(I), \forall a, b \in I, \int _{a}^{b}uv' = [uv]_{a}^{b} - \int _{a}^{n}u'v  $$
+
+
+
+#### Remarque
+Cas particulier : $I = [a, b]$ avec $a < b$
+
+#### Rappel sur le formalisme
+$$\left[\!\left[ \begin{array}{l}
+u = 
+\end{array}\right.\right.$$
