@@ -182,11 +182,6 @@ type objet = {poids : int; valeur : int};;
 let rec somme objets = 
   match objets with
   | [] -> (0, 0)
-  | obj::s -> let (p, v) = somme s in (p+obj.poids, v + obj.valeur)
-
+  | obj::s -> let (p, v) = somme s in (p + obj.poids, v + obj.valeur)
 ;;
-
-
-
-
 

@@ -1,3 +1,5 @@
+#include "GlobalDef.h"
+
 typedef struct Button
 {
     SDL_Texture *backgroundTexture;
