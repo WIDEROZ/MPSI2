@@ -13,6 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec8157867fae908e",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf"
+              }
+            }
+          },
+          {
+            "id": "1fc7af615d61aafd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Mathématiques/DM/DM21/DM21.md",
                 "mode": "source",
                 "source": false
@@ -43,7 +65,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -172,11 +195,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e3a72e42c3a8cce",
+  "active": "1fc7af615d61aafd",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/DM/DM21/DM21.md",
+    "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Mathématiques/DM/DM21",
     "Mathématiques/Cours/C17/C17 - Analyse Asymptotique.md",
@@ -201,15 +227,12 @@
     "Colles de la semaine.md",
     "Anglais/Cours/05-22.md",
     "Info/TD/TD9/TD9.ml",
-    "Info/TD/TD9",
     "Brouillon.md",
     "Mathématiques/TD/E26/E26 - 1.md",
     "Mathématiques/TD/E27/E27.md",
-    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10 - Résumé.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
-    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
