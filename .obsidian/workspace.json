@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM21/DM21.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM21/DM21.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM21/DM21.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -172,11 +173,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5e3a72e42c3a8cce",
+  "active": "831267286618e3c7",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/DM/DM21/DM21.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Mathématiques/DM/DM21",
     "Mathématiques/Cours/C17/C17 - Analyse Asymptotique.md",
