@@ -23,16 +23,6 @@
             "id": "ec8157867fae908e",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf"
-              }
-            }
-          },
-          {
-            "id": "1fc7af615d61aafd",
-            "type": "leaf",
-            "state": {
               "type": "markdown",
               "state": {
                 "file": "Mathématiques/DM/DM21/DM21.md",
@@ -66,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -195,13 +185,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1fc7af615d61aafd",
+  "active": "ec8157867fae908e",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
-    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/Cours/C17/C17 - Résumé.md",
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/DM/DM21/DM21.md",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
+    "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Mathématiques/DM/DM21",
