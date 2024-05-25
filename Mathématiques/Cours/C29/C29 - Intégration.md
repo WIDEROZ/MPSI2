@@ -1051,7 +1051,7 @@ v = -\frac{(b-t)^{p+1}}{(p+1)!}
 \end{array}\right.\right. $$
 (justifié car $f \in \mathcal{C}^{n+1}(I)$ et $p+1\leq n$)
 Donc, $f^{(p+1)} \in \mathcal{C}^{1}(I)$
-et $v \in \mathcal{C}^{1}(I)$ (fonction polynome)
+et $v \in \mathcal{C}^{1}(I)$ (fonction polynôme)
 qui donne : 
 $$R_{p} = \int _{a}^{b} \frac{(b-t)^{p}}{p!}f^{(p+1)}(t) \, dt  $$
 $$= \left[ - \frac{(b-t)^{p+1}}{(p+1)!}f^{p+1}(t) \right]_{a}^{b} + \int _{a}^{b} \frac{(b-t)^{p+1}}{(p+1)!}f^{(p+2)}(t) \, dt$$
