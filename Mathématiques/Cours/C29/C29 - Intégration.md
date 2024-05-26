@@ -936,7 +936,7 @@ $$F(b)-F(a) = F_{a}(b) - F_{a}(a) = \int _{a}^{b} f $$
 Soit $I$ un intervalle non trivial
 ## 1. Intégration par parties
 #### Théorème
-$$\forall u, v \in \mathcal{C}^{1}(I), \forall a, b \in I, \int _{a}^{b}uv' = [uv]_{a}^{b} - \int _{a}^{n}u'v  $$
+$$\forall u, v \in \mathcal{C}^{1}(I), \forall a, b \in I, \int _{a}^{b}uv' = [uv]_{a}^{b} - \int _{a}^{b}u'v  $$
 
 
 
