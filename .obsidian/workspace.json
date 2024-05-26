@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "ec8157867fae908e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/DM/DM21/DM21.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f13b0f6cff0cb485",
             "type": "leaf",
             "state": {
@@ -56,6 +44,18 @@
             }
           },
           {
+            "id": "ec8157867fae908e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/DM/DM21/DM21.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "5152d9750b2a31c2",
             "type": "leaf",
             "state": {
@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/DM/DM21/DM21.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/DM/DM21/DM21.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Mathématiques/DM/DM21/DM21.md"
               }
             }
           }
@@ -197,13 +197,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5152d9750b2a31c2",
+  "active": "ec8157867fae908e",
   "lastOpenFiles": [
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
-    "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
