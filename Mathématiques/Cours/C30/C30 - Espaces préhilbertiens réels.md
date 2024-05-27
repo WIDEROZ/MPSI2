@@ -339,3 +339,30 @@ $$(ac+bd)^{2} \leq (a^{2}+b^{2})(c^{2}+d^{2})$$
 ### b. Inégalité de Cauchy Schwartz pour un PS $L^{2}$
 #### Propriété
 $$\forall f, g \in \mathcal{C}_{\mathbb{R}}^{0}([a, b]), \left( \int _{a}^{b} \left| fg\right|  \right)^{2} \leq \left( \int _{a}^{b}f ^{2} \right)\left( \int _{a}^{b} g^{2}  \right)$$
+
+#### Exercice
+Soit $a > 0$ et $f \in \mathcal{C}_{\mathbb{R}}^{0}([0, a])$ tel que $f(0) = 0$
+Montrer que 
+$$\int_{0}^{a} f^{2} \leq \frac{a^{2}}{2} \int _{0}^{a} (f')^{2}  $$
+
+## 4. Distance
+#### Définition
+Soit $(E, <\cdot, \cdot>)$ un préhilbertien réel
+La distance (préhilbertien ou euclidienne) entre deux vecteurs $x, y \in E$ est : 
+$$d(x, y) = \left|\left| y-x \right|\right| $$
+La distance sur $E$ est l'application : 
+$$d : \begin{cases}
+E^{2} \to \mathbb{R} \\
+(x, y) \mapsto d(x, y)
+\end{cases}$$
+
+#### Propriété
+1. Symétrie
+   $$\forall x, y  \in E, d(x, y) = d(y,x)$$
+2. Séparation
+   $$\forall x, y \in E, d(x, y) = 0 \Leftrightarrow x = y$$
+3. Inégalité triangulaire
+   $$\forall x, y, z \in E, d(x, z) \leq d(x, y) + d(y, z)$$
+
+Démonstration : en exo
+
