@@ -98,6 +98,7 @@ est un produit scalaire sur $\mathbb{R}_{2}[X]$
 La restriction d'un PS à un sous espace vectoriel de $E$ est encore un produit scalaire. 
 
 ## 2. Trois exemples fondamentaux
+### a. $\mathbb{R}^{n}$
 Soit $n \in \mathbb{N}^{*}$,
 Le produit scalaire canonique sur $\mathbb{R}^{n}$
 
@@ -112,3 +113,27 @@ Démonstration : exo
 
 #### Remarque
 $$(\mathbb{R}^{n}, <\cdot, \cdot>_{can}) \text{ est euclidien}$$
+
+#### Remarque : Interprétation matricielle IMPORTANT
+Si on identifie $\mathbb{R}^{n}$ à $\mathcal{M}_{n, 1}(\mathbb{R})$, 
+et en particulier les matrices à une ligne et une colonne aux réels, 
+$$\forall X, Y \in \mathbb{R}^{n}, <X, Y>_{\mathrm{can}} = X^{T}Y$$
+
+#### Exercice
+Soit $A \in GL_{n}(\mathbb{R})$, 
+Montrer que :
+$$(X, Y) \mapsto <AX, AY>$$
+est un PS sur $\mathbb{R}^{n}$
+
+### b. $L^{2}$
+Le produit scalaire "$L^{2}$" sur $\mathbb{C}_{\mathbb{R}}^{0}([a, b])$
+
+#### Proposition
+Pour $a < b$, 
+$$<\cdot, \cdot>_{2} : \begin{cases}
+(\mathcal{C}_{\mathbb{R}}^{0}([a, b]))^{2} \to \mathbb{R} \\
+(f, g) \mapsto \int _{a}^{b} fg 
+\end{cases}$$
+est un produit scalaire qu'on appelle produit scalaire $L^{2}$
+
+Démonstration : en exo
