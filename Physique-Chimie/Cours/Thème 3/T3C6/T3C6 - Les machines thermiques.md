@@ -293,3 +293,31 @@ $$\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0$$
 On a :
 $$\frac{Q_{C}}{T_{C}}+ \frac{Q_{F}}{T_{F}} = nR\left( \ln\left( \frac{V_{B}V_{D}}{V_{A}V_{C}} \right) \right)$$
 $V_{B}$ et $V_{C}$ puis $V_{D}$ et $V_{A}$ sont reliés par des transformation adiabatiques réversibles, on utilise les lois de Laplace
+On a :
+entre $B$ et $C$
+$$T_{B}V_{B}^{\gamma -1} = T_{C}V_{C}^{\gamma -1}$$
+entre $D$ et $A$
+$$T_{D}V_{D}^{\gamma -1} = T_{A}V_{A}^{\gamma -1}$$
+Alors, 
+$$\begin{cases}
+T_{B} = T_{A} = T_{C} \\
+T_{C} = T_{D} = T_{F}
+\end{cases}$$
+$$\begin{cases}
+T_{C}V_{B}^{\gamma -1} = T_{F}V_{C}^{\gamma -1}  \\
+T_{C} V_{A}^{\gamma -1} = T_{F}V_{D}^{\gamma -1}
+\end{cases}$$
+On divise la première équation par la deuxième
+$$\left( \frac{V_{B}}{V_{A}} \right)^{\gamma -1} = \left( \frac{V_{C}}{V_{D}} \right)^{\gamma -1}$$
+Alors, 
+$$\frac{V_{B}}{V_{A}} \times \frac{V_{D}}{V_{C}}= 1$$
+Ainsi, 
+$$\boxed{\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0}$$
+___
+Exprimer le travail total du cycle en fonction de $T_{C}, T_{F}$ et du rapport : $\frac{V_{B}}{V_{A}}$
+
+Par le premier principe : 
+$$\Delta U = W + Q$$
+
+En utilisant les expressions de $Q_{C}$ et $Q_{F}$ : 
+$$W = -nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right)-nrT_{F}\ln$$
