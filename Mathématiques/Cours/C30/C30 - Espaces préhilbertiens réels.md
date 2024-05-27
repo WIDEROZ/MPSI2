@@ -59,22 +59,19 @@ Formule de polarisation
 Un produit scalaire sur un ev réel $E$ est une forme bilinéaire, symétrique et définie positivement qu'on note :
 $$<\cdot, \cdot>$$
 c'est à dire : 
-###### 1.
-$$<\cdot, \cdot> : E \times E \to \mathbb{R}$$
+1. $$<\cdot, \cdot> : E \times E \to \mathbb{R}$$
 
-###### 2.
-$$\forall x, y \in E, <y, x> = <x, y>$$
-###### 3.
-$$\forall x \in E, <x, \cdot> \in \mathcal{L}(E, \mathbb{R})$$
-$$\forall y \in E, <\cdot, y> \in \mathcal{L}(E, \mathbb{R})$$
-par symétrie
-###### 4. 
-$$\forall x \in E, \begin{cases}
-<x, x> \geq 0 \\
-<x, x> \Leftrightarrow x = 0
-\end{cases}$$
-On a plus : 
-$$\begin{cases}
-\forall x \in E, <x, 0> = 0 \\
-\forall y \in E, <0, y> = 0
-\end{cases}$$
+2. $$\forall x, y \in E, <y, x> = <x, y>$$
+3. $$\forall x \in E, <x, \cdot> \in \mathcal{L}(E, \mathbb{R})$$
+   $$\forall y \in E, <\cdot, y> \in \mathcal{L}(E, \mathbb{R})$$
+   par symétrie
+4. $$\forall x \in E, \begin{cases}
+    <x, x> \geq 0 \\
+    <x, x> \Leftrightarrow x = 0 \end{cases}$$
+    On a plus : 
+    $$\begin{cases}
+    \forall x \in E, <x, 0> = 0 \\
+    \forall y \in E, <0, y> = 0
+    \end{cases}$$
+
+####
