@@ -74,4 +74,41 @@ c'est à dire :
     \forall y \in E, <0, y> = 0
     \end{cases}$$
 
-####
+#### Remarque
+On utilise les notations $(x | y)$ ou $x \cdot y$
+
+#### Définition
+Un espace préhilbertien réel est un ev réel muni d'un produit scalaire (PS) $(E, <\cdot, \cdot>)$ 
+Un espace euclidien est un préhilbertien réel de dimension finie. 
+
+#### Exercice
+Vérifier que les PS "canoniques" sur $\mathbb{R}^{2}$ et $\mathbb{R}^{3}$ rappelés en intro sont bien des PS
+
+#### Exercice
+Montrer que 
+$$((x, y, z), (x', y', z')) \mapsto 2xx'+xy'+yx'+yy'+3zz'$$
+est un PS sur $\mathbb{R}^{3}$
+
+#### Exercice
+Montrer que :
+$$(P, Q) \mapsto P(0)Q(0)+P(1)Q(1) + P(2)Q(2)$$
+est un produit scalaire sur $\mathbb{R}_{2}[X]$
+
+#### Remarque
+La restriction d'un PS à un sous espace vectoriel de $E$ est encore un produit scalaire. 
+
+## 2. Trois exemples fondamentaux
+Soit $n \in \mathbb{N}^{*}$,
+Le produit scalaire canonique sur $\mathbb{R}^{n}$
+
+#### Proposition
+$$<\cdot, \cdot>_{can} : \begin{cases}
+(\mathbb{R}^{n})^{2} \to \mathbb{R} \\
+((x_{i})_{i = 1}^{n}, (y_{i})_{i = 1}^{n}) \mapsto \sum_{i = 1}^{n} x_{i}y_{i}
+\end{cases}$$
+est un PS sur $\mathbb{R}^{n}$ appelé : produit scalaire canonique sur $\mathbb{R}^{n}$
+
+Démonstration : exo
+
+#### Remarque
+$$(\mathbb{R}^{n}, <\cdot, \cdot>_{can}) \text{ est euclidien}$$
