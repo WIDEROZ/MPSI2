@@ -351,4 +351,7 @@ Combustion d'un mélange air-carburant
 C'est un moteur à $4$ temps
 
 Représentation du cycle : 
-$$\boxed{\text{Excal }}$$
+$$\text{VOIR LA FICHE DE COURS}$$
+
+On pose : 
+$$\alpha = \frac{V_{\max}}{V_{\min}}$$
