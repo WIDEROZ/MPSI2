@@ -282,3 +282,14 @@ $$W_{AB} = - \int _{A}^{B} P_{ext} \, dV$$
 Comme c'est isotherme, donc quasi statique : $P = P_{ext}$
 
 Le travail s'écrit :
+$$W_{AB} = -nRT_{C} \int _{A}^{B} \frac{dV}{V} = -nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right) $$
+Ainsi, 
+$$\boxed{Q_{C} = Q_{AB} = nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right)}$$
+Par analogie :
+$$\boxed{Q_{F}= Q_{CD} = nRT_{F}\ln\left( \frac{V_{D}}{V_{C}} \right)}$$
+___
+Montrer que l'égalité de Carnot Clausus : 
+$$\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0$$
+On a :
+$$\frac{Q_{C}}{T_{C}}+ \frac{Q_{F}}{T_{F}} = nR\left( \ln\left( \frac{V_{B}V_{D}}{V_{A}V_{C}} \right) \right)$$
+$V_{B}$ et $V_{C}$ puis $V_{D}$ et $V_{A}$ sont reliés par des transformation adiabatiques réversibles, on utilise les lois de Laplace
