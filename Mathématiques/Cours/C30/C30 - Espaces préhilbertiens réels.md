@@ -206,10 +206,34 @@ $$\begin{array}{rl}
 \end{array}$$
 Ainsi, comme : 
 $$\boxed{2 >0}$$
-OMG 720 no scope
-$$\boxed{\left|\left| x + y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| \Leftrightarrow \space <x, y> \space\leq \left|\left| x \right|\right| \space \left|\left| y \right|\right|}$$
+OMG 720 no scoped (clap)
+$$\boxed{\left|\left| x + y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| \Leftrightarrow (2) :  <x, y> \space\leq \left|\left| x \right|\right| \space \left|\left| y \right|\right|}$$
 Et on a aussi vu au passage que :
 $$\boxed{<x+y, x+y> = \left|\left| x \right|\right| ^{2}\left|\left| y \right|\right| ^{2} + 2 <x, y>}$$
+qui permet d'exprimer $<x, y>$ à l'aide de la norme
+
+
+#### Propriété
+$$\forall x, y \in E, <x, y> = \frac{1}{2}(\left|\left| x+y \right|\right| ^{2} -\left|\left| x \right|\right| ^{2}-\left|\left| y \right|\right| ^{2})$$
 
 #### Remarque
-Cela signifie que la norme associé 
+Cela signifie que la norme associé à un PS détermine de manière unique ce PS ie deux PS qui ont la même norme sont égaux. 
+
+On va maintenant prouver $(2)$
+Pour tous $x, y \in E$,
+Comme : $\left|\left| -x \right|\right| = \left|\left| x \right|\right|$ (car $\left| -1\right| = 1$)
+alors, on aura aussi pour tous $x, y$ : 
+$$-<x, y> = <-x, y> \space\leq \left|\left| -x \right|\right| \left|\left| y \right|\right| = \left|\left| x \right|\right| \left|\left| y \right|\right|$$
+Donc, 
+$$\left| <x, y> \right| \leq \left|\left| x \right|\right|\left|\left| y \right|\right|  $$
+
+Cette inégalité de <u>Cauchy-Schwartz</u> est très i
+
+#### Théorème (Inégalités classiques)
+1. <u>Inégalité de Cauchy-Schwartz</u>
+   $$\forall x, y \in E, \left| <x, y>\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+2. <u>Inégalité de Minkowski</u> (dite triangulaire)
+   $$\forall x, y \in E, \left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
+3. <u>Cas d'égalités</u>
+   1. Il y a égalité ssi $x$ et $y$ sont linéairement indépendants
+   2. 
