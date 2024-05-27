@@ -317,7 +317,27 @@ ___
 Exprimer le travail total du cycle en fonction de $T_{C}, T_{F}$ et du rapport : $\frac{V_{B}}{V_{A}}$
 
 Par le premier principe : 
-$$\Delta U = W + Q$$
+$$\Delta U = W + Q = W+ Q_{C} + Q_{F} = 0$$
+Car c'est un cycle.
+Donc, 
+$$W = -(Q_{C}+Q_{F})$$
 
 En utilisant les expressions de $Q_{C}$ et $Q_{F}$ : 
-$$W = -nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right)-nrT_{F}\ln$$
+$$W = -nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right)-nrT_{F}\ln\left( \frac{V_{D}}{V_{C}} \right)$$
+Or $\frac{V_{B}}{V_{A}} = \frac{V_{C}}{V_{D}}$
+Donc, 
+$$\boxed{W = nR(T_{C}-T_{F})\ln\left( \frac{V_{A}}{V_{B}} \right) \leq 0}$$
+___
+Déterminer le rendement de ce cycle $\eta_{\text{carnot}} = \eta$
+C'est un cycle moteur donc le rendement :
+$$\eta = -\frac{W}{Q_{C}}$$
+Comme : $W = -Q_{C} - Q_{F}$
+Alors, 
+$$\eta = 1+ \frac{Q_{F}}{Q_{C}}$$
+Mais on sait que :
+$$\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0$$
+Donc, 
+$$\frac{Q_{F}}{Q_{C}} = - \frac{T_{F}}{Q_{C}}$$
+Alors, 
+$$\boxed{\eta_{\text{carnot}} = 1- \frac{T_{F}}{T_{C}}<1}$$
+C'est le rendement maximal d'un moteur entre $T_{C}$ et $T_{F}$
