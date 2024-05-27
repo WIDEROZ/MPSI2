@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 -.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "3d7b5cf956cca547",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 -.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 -.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 -.md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -148,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "82e098b83a2f5631",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C30/C30.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/DM21.md",
@@ -177,7 +189,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 3/T3C6",
     "Mathématiques/Cours/C29/C29.md",
-    "Mathématiques/Cours/C30/C30 -.md",
     "Mathématiques/Cours/C30",
     "Colles de la semaine.md",
     "Anglais/Cours/05-22.md",
