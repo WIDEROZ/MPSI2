@@ -149,6 +149,9 @@ $$\begin{cases}
 est un PS
 C'est le PS canonique sur $\mathcal{M}_{n ,p}(\mathbb{R})$,
 
+### c. $\mathcal{M}_{n, p}(\mathbb{R})$
+Le produit scalaire sur $\mathcal{M}_{n, p}(\mathbb{R})$
+
 #### Propriété
 Pour $n, p \in \mathbb{N}^{*}$,
 $$(A, B) \mapsto \mathrm{tr}(A^{T}B)=\sum_\underset{1 \leq j \leq p}{1 \leq i \leq n} A[i, j]B[i, j]$$
@@ -158,3 +161,36 @@ appelé PS canonique sur $\mathcal{M}_{n, p}(\mathbb{R})$
 Démonstration :
 C'est seulement le PS lorsqu'on identifie $\mathcal{M}_{n, p}(\mathbb{R})$ à $\mathbb{R}^{np}$ en tant qu'ev. 
 
+
+## II. Norme associé à un PS
+On considère ici un préhilbertien réel $(E, <\cdot, \cdot>)$
+
+## 1. Définition
+#### Définition
+La norme associé au PS $<\cdot, \cdot>$ est l'application : 
+$$\left|\left| \cdot \right|\right| : \begin{cases}
+E \to \mathbb{R} \\
+x \mapsto \left|\left| x \right|\right| = \sqrt{ <x, x> }
+\end{cases}$$
+
+#### Proposition
+1. Séparation
+   $$\forall x \in E, \left|\left| x \right|\right| =0 \Leftrightarrow x = 0$$
+2. Homogénéité : 
+   $$\forall x \in E, \forall \lambda \in \mathbb{R}, \left|\left| \lambda x \right|\right| = \left| \lambda \right| \space \left|\left| x \right|\right|  $$
+
+Démonstration : exo
+En oubliant pas que : $\sqrt{ a^{2} } = \left| a\right|$
+
+#### Exemples
+Norme associé au PS classique
+1. Pour $\mathbb{R}^{n}$ avec le PS canonique : 
+   $$\forall x = (x_{i})_{i = 1}^{n} \in \mathbb{R}^{n}, \left|\left| x \right|\right|  = \sqrt{ \sum_{i = 1}^{n} x^{2}_{i} }$$
+2. Sur $\mathcal{C}_{\mathbb{R}}^{0}([a, b])$ avec le PS $L^{2}$
+   $$\forall f \in \mathcal{C}_{\mathbb{R}}^{0}([a, b]), \left|\left| f \right|\right|  = \sqrt{ \int _{a}^{b}f^{2}  }$$
+3. Sur $\mathcal{M}_{n, p}(\mathbb{R})$ muni du PS canonique
+   $$\forall A \in \mathcal{M}_{n, p}(\mathbb{R}), \left|\left| A \right|\right|  = \sqrt{ \sum_{i, j} A[i, j]^{2}}$$
+
+
+## 2. Inégalités classiques
+On aimerait que la norme vérifie : 
