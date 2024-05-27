@@ -7,7 +7,8 @@ to spot and juge those who know less than him
 
 Other people are saying that they regret their superficial classical studies
 
-The latin is taking a significant place in 
+The latin is taking a significant place in the curriculum
+
 
 
 
