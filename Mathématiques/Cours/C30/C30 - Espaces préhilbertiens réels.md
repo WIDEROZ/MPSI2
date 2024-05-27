@@ -227,7 +227,7 @@ $$-<x, y> = <-x, y> \space\leq \left|\left| -x \right|\right| \left|\left| y \ri
 Donc, 
 $$\left| <x, y> \right| \leq \left|\left| x \right|\right|\left|\left| y \right|\right|  $$
 
-Cette inégalité de <u>Cauchy-Schwartz</u> est très i
+Cette inégalité de <u>Cauchy-Schwartz</u> est très important en pratique. 
 
 #### Théorème (Inégalités classiques)
 1. <u>Inégalité de Cauchy-Schwartz</u>
@@ -236,4 +236,18 @@ Cette inégalité de <u>Cauchy-Schwartz</u> est très i
    $$\forall x, y \in E, \left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
 3. <u>Cas d'égalités</u>
    1. Il y a égalité ssi $x$ et $y$ sont linéairement indépendants
-   2. 
+   2. Il y a égalité ssi $x$ et $y$ sont positivement liés ie : $(\exists \lambda \in \mathbb{R}_{+}, y = \lambda x) \text{ ou }(\exists \lambda \in \mathbb{R}_{+}, x = \lambda y)$ ce qui équivaut à : $(y =0) \text{ ou } (\exists \lambda \in \mathbb{R}_{+}, x =\lambda y)$
+
+
+Démonstration :
+###### Inégalité de Cauchy-Schwartz 
+Soient $x, y \in E$
+
+Par disjonction de cas : 
+Soit $y = 0$, comme $\left| 0\right|=0$, l'inégalité est vraie
+
+Soit $y \neq 0$, 
+On définit la fonction polynomiale de degré 2 :
+$$f : \lambda \mapsto \left|\left| x+y \right|\right| ^{2} = \left|\left| y \right|\right| ^{2}\lambda^{2}+2<x, y>\lambda+\left|\left| x \right|\right| ^{2}$$
+
+Comme le trinôme $f$ est à valeur dans $\mathbb{R}_{+}$, son discriminant
