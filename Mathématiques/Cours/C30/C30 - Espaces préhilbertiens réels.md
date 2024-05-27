@@ -42,5 +42,39 @@ Alors,
    + Si $x \neq 0$, $<x, x> > 0$ 
 ___
 6. 
-$$\begin{array}{rl}\left|\left| x+y \right|\right|^{2} &= <x+y, x+y> \\ &= <x, x> + <x, y> + <y, x> + <y, y> \\ &= \left|\left| x \right|\right|^{2} + 2 <x, y> + \left|\left| y \right|\right|^{2}\end{array}$$
+$$ \begin{array}{rl}\left|\left| x+y \right|\right|^{2} &= <x+y, x+y> \\ &= <x, x> + <x, y> + <y, x> + <y, y> \\ &= \left|\left| x \right|\right|^{2} + 2 <x, y> + \left|\left| y \right|\right|^{2}\end{array}$$
+Alors, 
+$$<x, y> = \frac{1}{2}(\left|\left| x+y \right|\right|^{2} - \left|\left| x \right|\right| ^{2}-\left|\left| y \right|\right| ^{2} )$$
+Formule de polarisation
 
+7. 
+   + Bilinéaire
+   + Symétrique
+   + Définie positivement
+
+
+# I. Produit scalaire
+## 1. Définition
+#### Définition
+Un produit scalaire sur un ev réel $E$ est une forme bilinéaire, symétrique et définie positivement qu'on note :
+$$<\cdot, \cdot>$$
+c'est à dire : 
+###### 1.
+$$<\cdot, \cdot> : E \times E \to \mathbb{R}$$
+
+###### 2.
+$$\forall x, y \in E, <y, x> = <x, y>$$
+###### 3.
+$$\forall x \in E, <x, \cdot> \in \mathcal{L}(E, \mathbb{R})$$
+$$\forall y \in E, <\cdot, y> \in \mathcal{L}(E, \mathbb{R})$$
+par symétrie
+###### 4. 
+$$\forall x \in E, \begin{cases}
+<x, x> \geq 0 \\
+<x, x> \Leftrightarrow x = 0
+\end{cases}$$
+On a plus : 
+$$\begin{cases}
+\forall x \in E, <x, 0> = 0 \\
+\forall y \in E, <0, y> = 0
+\end{cases}$$
