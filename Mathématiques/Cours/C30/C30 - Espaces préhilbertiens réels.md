@@ -151,7 +151,10 @@ C'est le PS canonique sur $\mathcal{M}_{n ,p}(\mathbb{R})$,
 
 #### Propriété
 Pour $n, p \in \mathbb{N}^{*}$,
-$$(A, B) \mapsto \mathrm{tr}(A^{T}B)$$
+$$(A, B) \mapsto \mathrm{tr}(A^{T}B)=\sum_\underset{1 \leq j \leq p}{1 \leq i \leq n} A[i, j]B[i, j]$$
 est un PS sur $\mathcal{M}_{n, p}(\mathbb{R})$
 appelé PS canonique sur $\mathcal{M}_{n, p}(\mathbb{R})$
-$$\sum_{k=1}^{n} a_{i, k}b_{k, j}$$
+
+Démonstration :
+C'est seulement le PS lorsqu'on identifie $\mathcal{M}_{n, p}(\mathbb{R})$ à $\mathbb{R}^{np}$ en tant qu'ev. 
+
