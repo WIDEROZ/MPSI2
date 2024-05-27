@@ -193,4 +193,23 @@ Norme associé au PS classique
 
 
 ## 2. Inégalités classiques
-On aimerait que la norme vérifie : 
+On aimerait que la norme vérifie l'inégalité triangulaire :
+Excal 1
+Comme les deux membres sont positifs, 
+$$\begin{array}{rl}
+\left|\left| x + y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| & \Leftrightarrow \left|\left| x+y \right|\right|^{2}  \\
+&\leq (\left|\left| x \right|\right| + \left|\left| y \right|\right| )^{2} \\
+&\Leftrightarrow <x+y, x+y>  \\
+&\leq (\left|\left| x \right|\right| + \left|\left| y \right|\right| )^{2} \\
+&\Leftrightarrow \left|\left| x \right|\right|^{2} + \left|\left| y \right|\right|^{2} + 2 <x, y> \\
+&\leq   \left|\left| x \right|\right|^{2} + \left|\left| y \right|\right|^{2}+2\left|\left| x \right|\right|\space \left|\left| y \right|\right|  
+\end{array}$$
+Ainsi, comme : 
+$$\boxed{2 >0}$$
+OMG 720 no scope
+$$\boxed{\left|\left| x + y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| \Leftrightarrow \space <x, y> \space\leq \left|\left| x \right|\right| \space \left|\left| y \right|\right|}$$
+Et on a aussi vu au passage que :
+$$\boxed{<x+y, x+y> = \left|\left| x \right|\right| ^{2}\left|\left| y \right|\right| ^{2} + 2 <x, y>}$$
+
+#### Remarque
+Cela signifie que la norme associé 
