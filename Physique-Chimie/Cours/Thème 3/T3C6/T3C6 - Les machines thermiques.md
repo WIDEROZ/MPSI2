@@ -1,5 +1,5 @@
 Un cycle : Excal 1.
-Les systèmes sauf indication contraires vont suivre des cycles
+Les systèmes sauf indication contraires vont suivre des cycles et un gaz parfait sera dans le système
 # I. Énoncés de Clausus et Kelvin du $2^{nd}$ principe
 ## 1. Énoncés
 #### Principe de Kelvin
@@ -241,3 +241,17 @@ $$\boxed{e = \frac{1}{1+\frac{Q_{F}}{Q_{C}}} \leq \frac{1}{1-\frac{T_{F}}{T_{C}}
 L'efficacité d'une PAC est toujours inférieure a celle d'une PAC fonctionnant de manière réversible entre les deux mêmes températures : 
 $$\boxed{e = -\frac{Q_{C}}{W} \leq \frac{1}{1-\frac{T_{F}}{T_{C}}} = e_{\max}}$$
 
+## 3. Régions Violettes et grises
+Sans intéret
+
+# IV. Les cycles classiques
+## 1. Le cycle de Carnot
+C'est un cycle réversible entre 2 thermostats
+$2$ transformations isothermes $T_{C}$ et $T_{F}$
+$2$ transferts isentropiques
+
+#### Représentation du cycle
+Diagramme : $(T, S)$ 
+$$\boxed{\text{Excal 12}}$$
+Diagramme de Clapeyron : 
+$$\boxed{\text{Excal 13}}$$
