@@ -274,3 +274,38 @@ Soient $x, y \in E$
 On a déja vu que l'inégalité triangulaire équivaut à
 $$<x, y> \leq \left|\left| x \right|\right|\left|\left| y \right|\right|$$
 ce que est impliqué par CS car $<x, y> \leq \left| <x, y>\right|$
+Ainsi, l'inégalité triangulaire est prouvée
+De plus l'égalité dans l'inégalité
+
+ce qui équivaut à : 
+$$\begin{cases}
+\left| <x, y>\right| = \left|\left| x \right|\right| \left|\left| y \right|\right| \\
+<x, y> = \left| <x, y>\right| 
+\end{cases}$$
+ie à ce que :
+$$\begin{cases}
+(y = 0) \text{ ou } (\exists \lambda \in \mathbb{R}, x = \lambda y) \\
+<x, y> \geq 0
+\end{cases}$$
+ie à $(y = 0)$ ou
+$$\begin{cases} y \neq 0 \\
+\exists \lambda \in \mathbb{R}, x = \lambda y \\
+\lambda {\left|\left| y \right|\right| ^{2}} \end{cases}$$
+
+#### Remarque
+Voir sur le poly un preuve par double implication de ce cas d'égalité
+
+#### Avant-première
+Notion de norme d'un EV :
+C'est une application : $\left|\left| \cdot \right|\right| : E \to \mathbb{R}_{+}$
+tel que
+$$\begin{cases}
+\forall x \in E, \left|\left| x \right|\right|=0 \Leftrightarrow x = 0 &\text{Séparation}\\
+\forall x \in E, \forall \lambda \in \mathbb{R},\left|\left| \lambda x \right|\right| =\left| \lambda\right|\left|\left| x \right|\right|  & \text{Homogénéité}\\
+\forall x, y \in E, \left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| & \text{Inégalité triangulaire}
+\end{cases}$$
+
+Tout PS fournit une norme
+Cependant il existe des normes ne provenant pas d'un PS
+
+##
