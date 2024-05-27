@@ -137,3 +137,21 @@ $$<\cdot, \cdot>_{2} : \begin{cases}
 est un produit scalaire qu'on appelle produit scalaire $L^{2}$
 
 Démonstration : en exo
+
+#### Exercice
+PS $L^{2}$ avec poids
+Soient $a <b$ et $w \in \mathcal{C}_{\mathbb{R}}^{0}([a, b])$ strictement positive sur $[a, b]$
+Alors, 
+$$\begin{cases}
+(\mathcal{C}_{\mathbb{R}}^{0}([a, b])) \to \mathbb{R} \\
+(f, g) \mapsto \int _{a}^{b} fgw 
+\end{cases}$$
+est un PS
+C'est le PS canonique sur $\mathcal{M}_{n ,p}(\mathbb{R})$,
+
+#### Propriété
+Pour $n, p \in \mathbb{N}^{*}$,
+$$(A, B) \mapsto \mathrm{tr}(A^{T}B)$$
+est un PS sur $\mathcal{M}_{n, p}(\mathbb{R})$
+appelé PS canonique sur $\mathcal{M}_{n, p}(\mathbb{R})$
+$$\sum_{k=1}^{n} a_{i, k}b_{k, j}$$
