@@ -354,4 +354,5 @@ Représentation du cycle :
 $$\text{VOIR LA FICHE DE COURS}$$
 
 On pose : 
-$$\alpha = \frac{V_{\max}}{V_{\min}}$$
+$$\boxed{\alpha = \frac{V_{\max}}{V_{\min}}}$$
+le rapport volumétrique des cylindres. 
