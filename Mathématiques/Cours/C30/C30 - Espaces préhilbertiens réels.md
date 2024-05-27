@@ -250,4 +250,27 @@ Soit $y \neq 0$,
 On définit la fonction polynomiale de degré 2 :
 $$f : \lambda \mapsto \left|\left| x+y \right|\right| ^{2} = \left|\left| y \right|\right| ^{2}\lambda^{2}+2<x, y>\lambda+\left|\left| x \right|\right| ^{2}$$
 
-Comme le trinôme $f$ est à valeur dans $\mathbb{R}_{+}$, son discriminant
+Comme le trinôme $f$ est à valeur dans $\mathbb{R}_{+}$, son discriminant est négatif ou nul ie : 
+$$\Delta = 4<x, y>^{2}-4\left|\left| y \right|\right| ^{2}\left|\left| x \right|\right| ^{2}\leq 0$$
+
+Alors
+$$<x, y>^{2} \leq (\left|\left| x \right|\right| \left|\left| y \right|\right| )^{2}$$
+Donc, 
+$$\left| <x, y> \right| \leq \left| \left|\left| x \right|\right| \left|\left| y \right|\right| \right| = \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+Ainsi, 
+$$\forall x, y \in E, \left| <x, y>\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right|$$
+De plus l'égalité entre ssi $\Delta = 0$ ie ssi le trinôme admet une racine ie ssi :
+$$(\exists \lambda \in \mathbb{R}, x = -\lambda y)$$
+ie ssi $(x, y)$ est liée.
+
+Ainsi, 
+Dans tous les cas : 
+$$\boxed{\begin{array}{c}
+\left| <x, y> \right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right|  \\ \\
+\text{Avec égalité ssi } (x, y) \text{ est liée}
+\end{array}}$$ ___
+###### Inégalité de Minkowski
+Soient $x, y \in E$
+On a déja vu que l'inégalité triangulaire équivaut à
+$$<x, y> \leq \left|\left| x \right|\right|\left|\left| y \right|\right|$$
+ce que est impliqué par CS car $<x, y> \leq \left| <x, y>\right|$
