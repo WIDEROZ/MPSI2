@@ -177,3 +177,35 @@ Rendement maximum d'un moteur fonctionnant de manière réversible.
 # Théorème de Carnot pour les moteurs
 Le rendement d'un moteur ditherme réel est toujours inférieur au rendement d'un moteur réversible qui fonctionne avec les mêmes thermostats $T_{F}$ et $T_{C}$
 $$\boxed{\eta_{\text{moteur}} = 1- \frac{Q_{F}}{Q_{C}} \leq 1-\frac{T_{F}}{T_{C}} = \eta_{\text{moteur}_{\max}}}$$
+
+## 2. Région Verte PAC ou réfrigirateur
+$W>0$
+### a. Principe
+$$\boxed{\text{Excal 11}}$$
+On refroidit la source froide et on réchauffe la source chaude
+
+## b. Machine frigorifique
+But : Refroidir la source froide (l'intérieur du frigo)
+Donc le coefficient de performance : 
+$$e = \left| \frac{Q_{F}}{W}\right| = \frac{Q_{F}}{W}$$
+Exprimons $e$ uniquement en fonction de $Q_{C}$ et $Q_{F}$
+
+###### $1^{er}$ principe
+$$\Delta U = Q + W = 0$$
+Car c'est un cycle
+$$W = -Q_{C} - Q_{F}$$
+Donc, 
+$$e = \frac{Q_{F}}{W} = -\frac{Q_{F}}{Q_{C}+Q_{F}} = -\frac{1}{1+\frac{Q_{C}}{Q_{F}}}$$
+
+Quel est le maximum de $e$
+$$e \leq e_{\max}$$
+En fonction de $T_{F}$ et $T_{C}$
+
+###### $2^{nd}$ principe
+$$\Delta S = S_{ech} + S_{créé} = 0$$
+$S_{ech} \leq 0$ 
+Alors à 
+$$S_{ech} = \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}}$$
+
+
+$$\frac{Q_{C}}{}$$
