@@ -341,3 +341,14 @@ $$\frac{Q_{F}}{Q_{C}} = - \frac{T_{F}}{Q_{C}}$$
 Alors, 
 $$\boxed{\eta_{\text{carnot}} = 1- \frac{T_{F}}{T_{C}}<1}$$
 C'est le rendement maximal d'un moteur entre $T_{C}$ et $T_{F}$
+
+## 2. Les moteurs à combustion
+Moteur à essence ou diesel
+Un gaz parfait
+Combustion d'un mélange air-carburant
+
+### a. Cycle de Beau de Rochas
+C'est un moteur à $4$ temps
+
+Représentation du cycle : 
+$$\boxed{\text{Excal }}$$
