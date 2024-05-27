@@ -203,9 +203,30 @@ En fonction de $T_{F}$ et $T_{C}$
 
 ###### $2^{nd}$ principe
 $$\Delta S = S_{ech} + S_{créé} = 0$$
-$S_{ech} \leq 0$ 
-Alors à 
+Comme $S_{ech} \leq 0$ 
+et que
 $$S_{ech} = \frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}}$$
+Alors, 
+$$\frac{Q_{C}}{Q_{F}} \leq - \frac{T_{C}}{T_{F}}$$
+Donc, 
+$$\frac{1}{1+\frac{Q_{C}}{Q_{F}}} \geq \frac{1}{1-\frac{T_{C}}{T_{F}}}$$
+Ainsi, 
+$$\boxed{e \leq \frac{1}{\frac{T_{C}}{T_{F}}-1} = e_{\max}}$$
 
+#### Théorème de Carnot pour une machine frigorifique
+L'efficacité d'un réfrigérateur est toujours inférieure a celle d'un réfrigérateur fonctionnant de manière réversible entre les deux mêmes températures : 
+$$e = \frac{Q_{F}}{W} = -\frac{1}{1+\frac{Q_{C}}{Q_{F}}} \leq \frac{1}{\frac{T_{C}}{T_{F}}-1}$$
 
-$$\frac{Q_{C}}{}$$
+### c. La PAC
+Le but est de réchauffer la source chaude : 
+$$e_{PAC} = - \frac{Q_{C}}{W}$$
+###### Le premier principe
+$$\Delta U = W + Q = W + Q_{C} + Q_{F} = 0$$
+Car c'est un cycle
+Alors,
+$$e = \frac{1}{1+\frac{Q_{F}}{Q_{C}}}$$
+On veut que $e \leq e_{\max}$ (en fonction des températures)
+###### $2^{eme}$ principe
+Comme : 
+$$\Delta S = S_{créé} + S_{ec}$$
+$$S_{ech} = \frac{Q_{c}}{T_{C}} + \frac{Q_{F}}{T_{F}}$$
