@@ -255,3 +255,9 @@ Diagramme : $(T, S)$
 $$\boxed{\text{Excal 12}}$$
 Diagramme de Clapeyron : 
 $$\boxed{\text{Excal 13}}$$
+
+Lien entre le sens de parcours du cycle et le signe du travail des forces de pression.
+
+Pour le cycle $ABCD$ : 
+$$W_{tot} = W_{AB} + W_{BC} + W_{CD} + W_{DA} = - \text{aire du cycle } ABCD$$
+Voir le schema : EXCAL 13
