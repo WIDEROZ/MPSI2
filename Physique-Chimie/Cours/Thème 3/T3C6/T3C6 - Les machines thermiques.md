@@ -228,5 +228,16 @@ $$e = \frac{1}{1+\frac{Q_{F}}{Q_{C}}}$$
 On veut que $e \leq e_{\max}$ (en fonction des températures)
 ###### $2^{eme}$ principe
 Comme : 
-$$\Delta S = S_{créé} + S_{ec}$$
-$$S_{ech} = \frac{Q_{c}}{T_{C}} + \frac{Q_{F}}{T_{F}}$$
+$$\Delta S = S_{créé} + S_{ech} =0$$
+On a :
+$$S_{ech} = \frac{Q_{c}}{T_{C}} + \frac{Q_{F}}{T_{F}} \leq 0$$
+
+Alors, 
+$$\frac{Q_{F}}{Q_{C}}\geq -\frac{T_{F}}{T_{C}}$$
+Ainsi, 
+$$\boxed{e = \frac{1}{1+\frac{Q_{F}}{Q_{C}}} \leq \frac{1}{1-\frac{T_{F}}{T_{C}}} = e_{\max}}$$
+
+#### Théorème de Carnot pour une PAC
+L'efficacité d'une PAC est toujours inférieure a celle d'une PAC fonctionnant de manière réversible entre les deux mêmes températures : 
+$$\boxed{e = -\frac{Q_{C}}{W} \leq \frac{1}{1-\frac{T_{F}}{T_{C}}} = e_{\max}}$$
+
