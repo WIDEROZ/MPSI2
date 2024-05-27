@@ -260,4 +260,25 @@ Lien entre le sens de parcours du cycle et le signe du travail des forces de pre
 
 Pour le cycle $ABCD$ : 
 $$W_{tot} = W_{AB} + W_{BC} + W_{CD} + W_{DA} = - \text{aire du cycle } ABCD$$
-Voir le schema : EXCAL 13
+Voir le schema : $\boxed{\text{Excal 13}}$
+
+#### Propriété
+Quand le cycle est parcouru dans le sens horaire (resp antihoraire) dans le diagramme de Clapeyron $W < 0$ (resp. $W > 0$), le cycle est moteur (resp. récepteur)
+
+#### Exercice de colle
+Déterminer les transferts thermiques $Q_{C}$ et $Q_{F}$ : 
+$$Q_{C} = Q_{AB} \text{ et } Q_{F} = Q_{CD}$$
+$AB$ et $CD$ sont des isothermes.
+De plus le gaz est un gaz parfait donc, 
+$$\Delta U_{AB} = \Delta U_{CD} = 0$$
+par la première loi de joules. 
+Or : 
+$$\Delta U = Q_{AB} + W_{AB} = 0$$
+Alors, 
+$$Q_{AB} = -W_{AB} \text{ et } Q_{CD} = -W_{CD}$$
+
+Calculons
+$$W_{AB} = - \int _{A}^{B} P_{ext} \, dV$$
+Comme c'est isotherme, donc quasi statique : $P = P_{ext}$
+
+Le travail s'écrit :
