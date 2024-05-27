@@ -4,16 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "92c3d486e3ceef3d",
+        "id": "e6b5e52dbdb577c3",
         "type": "tabs",
         "children": [
           {
-            "id": "c284e01ac8955084",
+            "id": "82e098b83a2f5631",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf"
+                "file": "Mathématiques/Cours/C30/C30 -.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -94,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
+                "file": "Mathématiques/Cours/C30/C30 -.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
+                "file": "Mathématiques/Cours/C30/C30 -.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf"
+                "file": "Mathématiques/Cours/C30/C30 -.md"
               }
             }
           }
@@ -146,10 +148,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c284e01ac8955084",
+  "active": "d9b3182d45be85a6",
   "lastOpenFiles": [
-    "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
+    "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
