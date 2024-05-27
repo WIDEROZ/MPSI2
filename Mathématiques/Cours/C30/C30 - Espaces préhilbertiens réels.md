@@ -308,4 +308,34 @@ $$\begin{cases}
 Tout PS fournit une norme
 Cependant il existe des normes ne provenant pas d'un PS
 
-##
+#### Exercice
+$$\begin{cases}
+N_{1} : (x, y) \mapsto \left| x\right| + \left| y\right| \\
+N_{\infty} : (x, y) \mapsto \max(\left| x\right|, \left| y\right|)
+\end{cases}$$
+
+Sont deux normes sur $\mathbb{R}^{2}$
+
+## 3. Cas particuliers de l'inégalité de Cauchy Schwartz
+### a. Inégalité de Cauchy Schwartz usuelle dans $\mathbb{R}^{n}$
+Pour deux vecteurs
+$$\begin{rcases}
+x = (x_{i})_{i=1}^{n} \\
+y = (y_{i})_{i=1}^{n}
+\end{rcases} \in \mathbb{R}^{n}$$
+on a :
+$$\left| <x, y>_{\mathrm{can}}\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+ie 
+$$\left( \sum_{i=1}^{n}x_{i}y_{i} \right) \leq \left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)$$
+En appliquant cela à $(\left| x_{i}\right|)_{i = 1}^{n}$ et $(\left| y_{i}\right|)_{i=1}^{n}$
+
+#### Propriété
+$$\forall (x_{i})_{i = 1}^{n}, (y_{i})_{i=1}^{n} \in \mathbb{R}^{n}, \left( \sum_{i=1}^{n}|x_{i}y_{i} |\right)^{2} \leq \left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)$$
+
+#### Exercice
+Démontrer à la main (sans ce th) que pour $a, b, c, d \in \mathbb{R}$,
+$$(ac+bd)^{2} \leq (a^{2}+b^{2})(c^{2}+d^{2})$$
+
+### b. Inégalité de Cauchy Schwartz pour un PS $L^{2}$
+#### Propriété
+$$\forall f, g \in \mathcal{C}_{\mathbb{R}}^{0}([a, b]), \left( \int _{a}^{b} \left| fg\right|  \right)^{2} \leq \left( \int _{a}^{b}f ^{2} \right)\left( \int _{a}^{b} g^{2}  \right)$$
