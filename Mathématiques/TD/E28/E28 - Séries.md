@@ -177,4 +177,10 @@ $$\sum_{n \geq 3}$$
 
 
 $$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
-$$\frac{\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) }}{2 \sqrt{  }{\ln(n)}}$$
+Mq : 
+$$\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) } \sim 2 \sqrt{\ln(n)}$$
+On a : 
+$$\frac{\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) }}{2 \sqrt{\ln(n)}} = \frac{1}{2}\left( {\sqrt{ \frac{\ln(n+1)}{\ln(n)} }} +1\right)$$
+Alors, 
+$$\frac{\ln(n+1)}{\ln(n)} = \frac{\ln(n)}{\ln(n)}+ \frac{\ln\left( 1+ \frac{1}{n} \right)}{\ln(n)}= 1+ \frac{\ln\left( 1+\frac{1}{n} \right)}{\ln(n)} \underset{n \to +\infty}{\longrightarrow} 1$$
+Ainsi, 
