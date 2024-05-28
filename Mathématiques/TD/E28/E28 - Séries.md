@@ -168,5 +168,5 @@ $\frac{1}{8}=C$
 Alors, 
 $$-\frac{1}{n(n^{2}-4)}= \frac{1}{4n} - \frac{1}{8(n-2)}+\frac{1}{8(n+2)}$$
 $$\sum_{k = 3}^{n} - \frac{1}{n(n^{2}-4)} = \sum_{k = 
-3}^{n} \frac{1}{4n} - \frac{1}{8} \sum_{k = 3}^{n}\left( \frac{1}{n-2}+\frac{1}{n+2} \right)$$
-$$$$
+3}^{n} \frac{1}{4n} + \frac{1}{8} \sum_{k = 3}^{n}\left(\frac{1}{n+2} - \frac{1}{n-2} \right)$$
+$$= 4 \sum_{k = 3}^{n} \frac{1}{n} + \frac{1}{8} \sum_{ k= 3}^{n} \left( \frac{1}{n+2} - \frac{1}{n-2} \right)$$
