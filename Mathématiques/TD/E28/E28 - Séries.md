@@ -139,3 +139,11 @@ $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n(n
 
 
 # Exercice 3
+$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
+
+$$\sum_{n \geq 2} \frac{1}{n\sqrt{ \ln(n) }}$$
+C'est une SATP
+$$\sum_{k = 1}^{n} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = \ln(n+1)$$
+$$\sum_{k = 1}^{\infty} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = +\infty$$
+Ainsi, comme : 
+$$\frac{1}{2n\sqrt{ \ln(n) }} \sim$$
