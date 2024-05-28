@@ -136,4 +136,8 @@ $$\left| R_{n-1} \right| \leq \frac{1}{n}$$
 Alors, 
 $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n} - \frac{1}{n+1}$$
 $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n(n+1)}$$
-$$
+
+
+# Exercice 3
+$$\ln(1+n) - \ln(n) \sim \sqrt{ \ln(1+n) } - \sqrt{ \ln(n) }$$
+$$\frac{\ln(1+n) - \ln(n)}{\sqrt{ \ln(1+n) } - \sqrt{ \ln(n) }} = \frac{1}{\frac{1}{\sqrt{ \ln(1+n) }}-\frac{1}{\sqrt{\ln(n)} + \frac{\ln\left( \frac{1}{n}+1 \right)}{\sqrt{\ln(n)}}}} - \frac{}{}$$
