@@ -86,12 +86,20 @@ Alors,
 $\sum_{n \geq 1} a_{n}$ DVG pour $\alpha = 0$
 
 Pour $\alpha < 0$
+Pour $n \in \mathbb{N}^{*}$
 $$a_{n} = e^{ b_{n} } \text{ avec } b_{n} = n^{\alpha}\ln\left( n\sin\left( \frac{1}{n} \right) \right)$$
 $b_{n} \underset{n \to +\infty}{\longrightarrow} 0$
 $a_{n} \underset{n \to +\infty}{\longrightarrow} 1$ 
 $\sum_{n \geq 1} a_{n}$ DVG pour $\alpha < 0$
 
 Pour $\alpha > 1$ :
+$$\frac{\sin u}{u} \underset{u \to 0}{=} 1- \frac{u^{2}}{6} + o(u^{2})$$
+$$\ln(1-h) \underset{h \to 0}{=}-h +o(h)$$
+Alors, 
+Comme
+$$\frac{u^{2}}{6}-o(u^{2}) = 1-\frac{\sin u}{u} \underset{u \to 0}{\longrightarrow} 0$$
+$$\ln\left( \frac{\sin u}{u} \right) = \ln\left( 1-\left( 1-\frac{\sin u}{u} \right) \right)\underset{u \to 0}{=} -\frac{u^{2}}{6} + o(u^{2})$$
+Comme $\frac{1}{n} \underset{u \to 0}{\longrightarrow} u$
 
 ## 13. 
 Soit $\alpha \in \mathbb{R}_{+}^{*}$,
