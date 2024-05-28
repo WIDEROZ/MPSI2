@@ -109,7 +109,8 @@ $$e^{ b_{n} } \underset{n \to +\infty}{\longrightarrow} \begin{cases}
 e^{ -\frac{1}{6} } \text{ si } \alpha = 2 \\
 0 \text{ si } \alpha > 2
 \end{cases}$$
-
+$$n^{2}e^{ b_{n} } = (n^{\alpha-2})^{\frac{2}{\alpha-2}}e^{ -\frac{n^{\alpha-2}}{6} } e^{ o\left( n^{\alpha-2} \right) } \leq n^{2}e^{ -\frac{n^{\alpha-2}}{6} }\underset{n \to +\infty}{\longrightarrow} 0$$
+......
 
 
 
