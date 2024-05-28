@@ -184,11 +184,11 @@ $$\sum_{n \geq 3} \frac{1}{n(n^{2}-4)} \text{ CV}$$
 ___
 Donc, 
 $$\sum_{n \geq 3} \frac{2n-1}{n(n^{2}-4)} \text{ CV}$$
-Car $-1$ est un constante.
+Car $-1$ est un constante. 
 ___
 $$\frac{2n-1}{n(n^{2}-4)} = \frac{\alpha}{n} + \frac{\beta}{n-2} + \frac{\gamma}{n+2}$$
 Par multiplication évaluation : 
 Multiplication par $n$ et évaluation en $n = 0$ :
 $\frac{1}{4}=\alpha$
 Multiplication par $n-2$ et évaluation en $n = 2$ :
-$\frac{2 \times 2 -1}{2 \times (2 + 2)} =  = \beta$ 
+$\frac{2 \times 2 -1}{2 \times (2 + 2)} =  = \beta$
