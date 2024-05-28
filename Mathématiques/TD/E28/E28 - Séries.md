@@ -157,4 +157,13 @@ Soit $n \in \mathbb{N} \setminus \{ 0, 1, 2 \}$,
 $$\sum_{k = 3}^{n} \frac{2n-1}{n(n^{2}-4)}$$
 $$\frac{2}{n^{2}-4} - \frac{1}{n(n^{2}-4)}$$
 
-$$-\frac{1}{n(n^{2}-4)}$$
+On cherche $A, B, C \in \mathbb{R}$, tels que :
+$$-\frac{1}{n(n^{2}-4)} = \frac{-1}{n(n-2)(n+2)} = \frac{A}{n} + \frac{B}{n-2}+ \frac{C}{n+2}$$
+Donc, 
+Par multiplication évaluation :
+$\frac{1}{4} = A$
+$-\frac{1}{8} = B$
+$\frac{1}{8}=C$
+
+Alors, 
+$$-\frac{1}{n(n^{2}-4)}= \frac{1}{4n} - \frac{1}{8(n-2)}+\frac{1}{8(n+2)}$$
