@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "78f77eeff3b56612",
+        "id": "191538749573c6a2",
         "type": "tabs",
         "children": [
           {
-            "id": "d5b55dd4c4446c3a",
+            "id": "8095af5f89ab4663",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "0899597f26d961b8",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/TD/E28/E28-Series.pdf"
               }
             }
           }
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md"
+                "file": "Mathématiques/TD/E28/E28 - Séries.md"
               }
             }
           }
@@ -148,14 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d5b55dd4c4446c3a",
+  "active": "8095af5f89ab4663",
   "lastOpenFiles": [
     "Mathématiques/TD/E28/E28-Series.pdf",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/TD/E28/E28 - Séries.md",
+    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Physique-Chimie/TP/TP19/TP19.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Anglais/Khôlle/Semaine 27/Audio n°1.md",

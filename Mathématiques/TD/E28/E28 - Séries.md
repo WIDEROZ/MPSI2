@@ -122,5 +122,8 @@ $$a_{n} \underset{n \to + \infty}{=} \frac{(-1)^{n}}{n^{\alpha}} - \frac{1}{2n^{
 par le critère de Leibniz. 
 
 # Exercice 2
-$$\sum_{n \geq 1} \frac{(-1)^{n}}{n}$$
+$$\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$$
 $$\lim_{ n \to + \infty } \sum_{k = 1}^{n} \frac{(-1)^{k}}{k} = \ln(2)$$
+
+On a une valeur approchée de $\ln(2)$ à $10^{-3}$ près qui est : 
+$$\sum_{k = 0}^{3} \frac{\left\lfloor \ln(2) 10^{k} \right\rfloor}{10^{k}} $$
