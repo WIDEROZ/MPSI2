@@ -233,8 +233,7 @@ $$\Delta H = Q = 0$$
 Alors,
 $$m_{0}C_{eau}(T_{2}-T_{1})+C_{cal}(T_{2}-T_{0}) = 0$$
 Ainsi, 
-$$\boxed{C_{cal} = m_{0}C_{eau} \frac{T_{2}-T_{1}}{T_{0}-T_{2}}}$$
-
+$$\boxed{C_{cal} = m_{0}C_{eau} \frac{T_{2}-T_{1}}{T_{0}-T_{2}}}$$è
 Comme $C_{cal} = \mu C_{eau}$
 $\mu = \frac{C_{cal}}{C_{eau}}$
 Donc, la valeur en eau du calorimètre est : 
