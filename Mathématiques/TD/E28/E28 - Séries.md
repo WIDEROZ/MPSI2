@@ -139,12 +139,24 @@ $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n(n
 
 
 # Exercice 3
-$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
 
+$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
+Mq : 
+$$\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) } \sim 2 \sqrt{\ln(n)}$$
+On a : 
+$$\frac{\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) }}{2 \sqrt{\ln(n)}} = \frac{1}{2}\left( {\sqrt{ \frac{\ln(n+1)}{\ln(n)} }} +1\right)$$
+Alors, 
+$$\frac{\ln(n+1)}{\ln(n)} = \frac{\ln(n)}{\ln(n)}+ \frac{\ln\left( 1+ \frac{1}{n} \right)}{\ln(n)}= 1+ \frac{\ln\left( 1+\frac{1}{n} \right)}{\ln(n)} \underset{n \to +\infty}{\longrightarrow} 1$$
+Ainsi, 
+$$\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) } \sim 2 \sqrt{\ln(n)}$$
+Alors, 
+$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
+Comme : 
 $$\sum_{n \geq 2} \frac{1}{n\sqrt{ \ln(n) }}$$
-C'est une SATP
+est une SATP
 $$\sum_{k = 1}^{n} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = \ln(n+1)$$
 $$\sum_{k = 1}^{\infty} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = +\infty$$
+Alors, 
 $$\sum_{n \geq 1} \sqrt{ \ln(n+1) }-\sqrt{ \ln(n) } \text{ DV}$$
 
 Ainsi, comme ce sont des SATP, et
@@ -156,8 +168,6 @@ $$\boxed{\sum_{n \geq 2} \frac{1}{n\sqrt{ n }} \text{ DV}}$$
 
 # Exercice 4
 Soit $n \in \mathbb{N} \setminus \{ 0, 1, 2 \}$, 
-$$\sum_{k = 3}^{n} \frac{2n-1}{n(n^{2}-4)}$$
-$$\frac{2}{n^{2}-4} - \frac{1}{n(n^{2}-4)}$$
 On a : 
 $$\frac{2}{n ^{2}-4} \sim \frac{2}{n^{2}}$$
 Alors, comme
@@ -173,14 +183,11 @@ Donc, par le th
 $$\sum_{n \geq 3} \frac{1}{n(n^{2}-4)} \text{ CV}$$
 ___
 Donc, 
-$$\sum_{n \geq 3}$$
-
-
-$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
-Mq : 
-$$\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) } \sim 2 \sqrt{\ln(n)}$$
-On a : 
-$$\frac{\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) }}{2 \sqrt{\ln(n)}} = \frac{1}{2}\left( {\sqrt{ \frac{\ln(n+1)}{\ln(n)} }} +1\right)$$
-Alors, 
-$$\frac{\ln(n+1)}{\ln(n)} = \frac{\ln(n)}{\ln(n)}+ \frac{\ln\left( 1+ \frac{1}{n} \right)}{\ln(n)}= 1+ \frac{\ln\left( 1+\frac{1}{n} \right)}{\ln(n)} \underset{n \to +\infty}{\longrightarrow} 1$$
-Ainsi, 
+$$\sum_{n \geq 3} \frac{2n-1}{n(n^{2}-4)} \text{ CV}$$
+Car $-1$ est un constante.
+___
+$$\frac{2n-1}{n(n^{2}-4)} = \frac{\alpha}{n} + \frac{\beta}{n-2} + \frac{\gamma}{n+2}$$
+Par multiplication évaluation : 
+Multiplication par $n$ et évaluation en $0$ :
+$\frac{1}{4}=\alpha$
+Multiplication par $n-2$ et évaluation en $2$ :
