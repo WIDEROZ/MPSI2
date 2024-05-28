@@ -4,27 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "bc4b1fb1cb02f5c1",
+        "id": "423818306eb4e0d3",
         "type": "tabs",
         "children": [
           {
-            "id": "1babd2f293d87c2e",
+            "id": "f39f92d090ead024",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
+                "file": "Physique-Chimie/TP/TP19/TP19.md",
                 "mode": "source",
                 "source": false
               }
-            }
-          },
-          {
-            "id": "22890ebb8796efd4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {}
             }
           }
         ]
@@ -104,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
+                "file": "Physique-Chimie/TP/TP19/TP19.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
+                "file": "Physique-Chimie/TP/TP19/TP19.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md"
+                "file": "Physique-Chimie/TP/TP19/TP19.md"
               }
             }
           }
@@ -156,12 +148,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1babd2f293d87c2e",
+  "active": "f39f92d090ead024",
   "lastOpenFiles": [
+    "Physique-Chimie/TP/TP19/TP19.md",
+    "Anglais/Khôlle/Semaine 27/Audio n°1.md",
     "Physique-Chimie/TP/TP19/Mesures.ods",
     "Physique-Chimie/TP/TP19/lu33171dj33s.tmp",
     "Physique-Chimie/TP/TP19",
-    "Anglais/Khôlle/Semaine 27/Audio n°1.md",
     "Anglais/Khôlle/Semaine 23/Audio n°51.md",
     "Anglais/Khôlle/Untitled.canvas",
     "Anglais/Khôlle/Semaine 27",
@@ -186,7 +179,6 @@
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Info/TD/TD9/TD9.pdf",
-    "Info/TD/TD9/main",
     "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
     "FR Philo/Cours/25 - 01.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
