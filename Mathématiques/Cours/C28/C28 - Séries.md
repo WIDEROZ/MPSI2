@@ -1019,6 +1019,6 @@ On connait aussi le signe de $R_{n}$ qui est le signe du premier terme négligé
 
 #### Exemple
 $$\forall n \geq 1, \left|\ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k} \right| \leq \frac{1}{n+1}$$
-
+	
 # X. Algorithme de résolution d'une série
 ![[Algorithme.png]]
