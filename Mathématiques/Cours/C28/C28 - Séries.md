@@ -904,7 +904,7 @@ n_{0} = \min(0, \min\{ n \in \mathbb{Z}, | d_{n} \neq  0\})
 \end{cases}$$
 
 # IX. Séries alternées
-## 2. Définition
+## 1. Définition
 #### Définition
 Un série alternée est une série dont le terme général est alternativement dans $\mathbb{R}_{+}$ et dans $\mathbb{R}_{-}$ ie de la forme : 
 $$\sum (-1)^{n}a_{n} \text{ ou } \sum (-1)^{n-1}a_{n}$$

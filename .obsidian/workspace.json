@@ -28,8 +28,21 @@
                 "file": "Mathématiques/TD/E28/E28-Series.pdf"
               }
             }
+          },
+          {
+            "id": "f62fb60757147ad2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -158,10 +171,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8095af5f89ab4663",
+  "active": "f62fb60757147ad2",
   "lastOpenFiles": [
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
@@ -185,7 +199,6 @@
     "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
