@@ -128,4 +128,6 @@ $$\lim_{ n \to + \infty } \sum_{k = 1}^{n} \frac{(-1)^{k}}{k} = \ln(2)$$
 On a une valeur approchée de $\ln(2)$ à $10^{-3}$ près qui est : 
 $$\sum_{k = 0}^{3} \frac{\left\lfloor \lim_{ n \to \infty } \sum_{i = 1}^{n} \frac{(-1)^{i}}{i} 10^{k} \right\rfloor}{10^{k}}$$
 
-$$\left|\ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k} \right| \leq \frac{1}{n+1}$$
+$$\left|\ln(2) - \sum_{k = 0}^{n-1} \frac{(-1)^{k}}{k+1} \right| \leq \frac{1}{n+1}$$
+
+$$R_{n} = \sum_{k = n+1}^{\infty} \frac{(-1)^{k}}{k} - \sum_{k = 1}^{n} (-1)^{k}$$
