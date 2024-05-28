@@ -198,11 +198,18 @@ $\frac{2 \times (-2) -1}{-2 \times (-2-2)} = -\frac{5}{8} = \gamma$
 Ainsi, 
 $$\frac{2n-1}{n(n^{2}-4)} = \frac{1}{4n} + \frac{3}{8(n-2)} -\frac{5}{8(n+2)}$$
 ___
-$$\frac{1}{4}\sum_{k = 3}^{n} \frac{1}{k} + \frac{3}{8}\sum_{k = 3}^{n} \frac{1}{k-2} - \frac{5}{8} \sum_{k = 3}^{n} \frac{1}{k+2} $$
+On pose :
+$$S_{n} = \frac{1}{4}\sum_{k = 3}^{n} \frac{1}{k} + \frac{3}{8}\sum_{k = 3}^{n} \frac{1}{k-2} - \frac{5}{8} \sum_{k = 3}^{n} \frac{1}{k+2} $$
 $$= \frac{1}{4} \sum_{k = 3}^{n}\left(  \frac{1}{k} -\frac{1}{k-1} +\frac{1}{k-1} - \frac{1}{k-2} + \frac{5}{2(k-2)}- \frac{5}{2(k+2)} \right)$$
 Alors, 
 $$= \frac{1}{4}\left( \frac{1}{n}-\frac{1}{2}+ \sum_{k = 3}^{n}\left(  \frac{1}{k-1} -\frac{1}{k-2} \right)  + \frac{5}{2}\sum_{k = 3}^{n}\left(  \frac{1}{k-2} - \frac{1}{k+2} \right) \right)$$
-$$= \frac{1}{4}\left( \frac{1}{n} - \frac{1}{2} + \frac{1}{n-1} - 1 + \frac{5}{2} \sum_{k = 3}^{n} A \right)$$
+$$= \frac{1}{4}\left( \frac{1}{n} - \frac{1}{2} + \frac{1}{n-1} - 1 + \frac{5}{2} \sum_{k = 3}^{n} A_{k} \right)$$
 Ou 
-$$\forall k \in [\![3, ]\!]A = $$
-$$\frac{1}{k-2} -  \frac{1}{k-1} + \frac{1}{k-1}-\frac{1}{k} + \frac{1}{k} -\frac{1}{k-1} + \frac{1}{k-1}-\frac{1}{k+2}$$
+$$\forall k \in [\![3, n]\!], A_{k} = $$
+$$\frac{1}{k-2} -  \frac{1}{k-1} + \frac{1}{k-1}-\frac{1}{k} + \frac{1}{k} -\frac{1}{k+1} + \frac{1}{k+1}-\frac{1}{k+2}$$
+et 
+$$\sum_{k = 3}^{n} A_{k} =  \frac{1}{n-2} - \frac{1}{2} + \frac{1}{n-1} - \frac{1}{3} + \frac{1}{n} -\frac{1}{4} +\frac{1}{n+1} - \frac{1}{5}$$
+$$= \frac{1}{n-2} + \frac{1}{n-1} + \frac{1}{n} + \frac{1}{n+1} - \frac{77}{60}$$
+
+Alors, 
+$$S_{n} = \frac{1}{4}\left( \frac{1}{n} - \frac{1}{2} + \frac{1}{n-1}-1 + \frac{5}{2}  \right)$$
