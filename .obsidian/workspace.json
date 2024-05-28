@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/TD/E28/E28-Series.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/TD/E28/E28-Series.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md"
+                "file": "Mathématiques/TD/E28/E28-Series.pdf"
               }
             }
           }
@@ -171,11 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "96c8a7c177627ae4",
+  "active": "0899597f26d961b8",
   "lastOpenFiles": [
-    "Mathématiques/TD/E28/E28-Series.pdf",
-    "Mathématiques/TD/E28/E28 - Séries.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",

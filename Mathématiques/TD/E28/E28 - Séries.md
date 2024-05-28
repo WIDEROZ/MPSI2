@@ -212,4 +212,6 @@ $$\sum_{k = 3}^{n} A_{k} =  \frac{1}{n-2} - \frac{1}{2} + \frac{1}{n-1} - \frac{
 $$= \frac{1}{n-2} + \frac{1}{n-1} + \frac{1}{n} + \frac{1}{n+1} - \frac{77}{60}$$
 
 Alors, 
-$$S_{n} = \frac{1}{4}\left( \frac{1}{n} - \frac{1}{2} + \frac{1}{n-1}-1 + \frac{5}{2}  \right)$$
+$$S_{n} = \frac{1}{4}\left( \frac{5}{2(n-2)}+ \frac{7}{2(n-1)} + \frac{7}{2n} + \frac{5}{2(n+1)}  - \frac{77}{24}-\frac{3}{2} \right)$$
+Ainsi, 
+$$S_{n} = \frac{1}{8}\left( \frac{5}{n-2}+ \frac{7}{n-1} + \frac{7}{n} + \frac{5}{n+1}  - \frac{113}{12} \right)$$
