@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E28/E28-Series.pdf",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E28/E28-Series.pdf",
+                "file": "Mathématiques/TD/E28/E28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E28/E28-Series.pdf"
+                "file": "Mathématiques/TD/E28/E28 - Séries.md"
               }
             }
           }
@@ -171,11 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e8ffc24871ba5e15",
+  "active": "4fe991ebe538673c",
   "lastOpenFiles": [
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/TD/E28/E28 - Séries.md",
-    "Mathématiques/TD/E28/E28-Series.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",

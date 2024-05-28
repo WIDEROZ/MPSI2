@@ -73,6 +73,26 @@ $$\frac{a_{n+1}}{a_{n}} \underset{n \to +\infty}{\longrightarrow} \frac{e^{p}}{p
 
 Disjonction de cas pour $p \in \{ 1, 2 \}$ et $p \geq 3$
 
+## 11.
+Soit $\alpha \in \mathbb{R}$, 
+$$\sum_{n \geq 1} a_{n}$$
+avec 
+$$\forall n \in \mathbb{N}^{*}, a_{n} = \left( n\sin\left( \frac{1}{n} \right) \right)^{n^{\alpha}}$$
+
+Pour $\alpha = 0$
+Alors, 
+$$n\sin\left( \frac{1}{n} \right) \underset{n \to +\infty}{\longrightarrow}  1$$
+Alors, 
+$\sum_{n \geq 1} a_{n}$ DVG pour $\alpha = 0$
+
+Pour $\alpha < 0$
+$$a_{n} = e^{ b_{n} } \text{ avec } b_{n} = n^{\alpha}\ln\left( n\sin\left( \frac{1}{n} \right) \right)$$
+$b_{n} \underset{n \to +\infty}{\longrightarrow} 0$
+$a_{n} \underset{n \to +\infty}{\longrightarrow} 1$ 
+$\sum_{n \geq 1} a_{n}$ DVG pour $\alpha < 0$
+
+Pour $\alpha > 1$ :
+
 ## 13. 
 Soit $\alpha \in \mathbb{R}_{+}^{*}$,
 $$a_{n} = \ln\left( 1+ \frac{(-1)^{n}}{n^{\alpha}} \right) $$
