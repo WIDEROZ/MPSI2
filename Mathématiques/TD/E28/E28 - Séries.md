@@ -136,3 +136,4 @@ $$\left| R_{n-1} \right| \leq \frac{1}{n}$$
 Alors, 
 $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n} - \frac{1}{n+1}$$
 $$\left| \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}\right| \leq \frac{1}{n(n+1)}$$
+$$
