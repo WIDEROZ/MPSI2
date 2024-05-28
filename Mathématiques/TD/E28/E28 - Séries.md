@@ -145,28 +145,36 @@ $$\sum_{n \geq 2} \frac{1}{n\sqrt{ \ln(n) }}$$
 C'est une SATP
 $$\sum_{k = 1}^{n} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = \ln(n+1)$$
 $$\sum_{k = 1}^{\infty} \sqrt{ \ln(k+1) }-\sqrt{ \ln(k) } = +\infty$$
+$$\sum_{n \geq 1} \sqrt{ \ln(n+1) }-\sqrt{ \ln(n) } \text{ DV}$$
+
 Ainsi, comme ce sont des SATP, et
 $$\frac{1}{2n\sqrt{ \ln(n) }} \sim \sqrt{ \ln(n+1) }-\sqrt{ \ln(n) }$$
 et 
 $$\sum_{n \geq 1} \sqrt{ \ln(k+1) } -\sqrt{ \ln(k)} \text{ DV}$$
 On utilise le théorème sur les équivalents : 
-$$\boxed{\sum_{n \geq 2} \frac{1}{2n\sqrt{ n }} \text{ DV}}$$
+$$\boxed{\sum_{n \geq 2} \frac{1}{n\sqrt{ n }} \text{ DV}}$$
 
 # Exercice 4
 Soit $n \in \mathbb{N} \setminus \{ 0, 1, 2 \}$, 
 $$\sum_{k = 3}^{n} \frac{2n-1}{n(n^{2}-4)}$$
 $$\frac{2}{n^{2}-4} - \frac{1}{n(n^{2}-4)}$$
-
-On cherche $A, B, C \in \mathbb{R}$, tels que :
-$$-\frac{1}{n(n^{2}-4)} = \frac{-1}{n(n-2)(n+2)} = \frac{A}{n} + \frac{B}{n-2}+ \frac{C}{n+2}$$
-Donc, 
-Par multiplication évaluation :
-$\frac{1}{4} = A$
-$-\frac{1}{8} = B$
-$\frac{1}{8}=C$
-
+On a : 
+$$\frac{2}{n ^{2}-4} \sim \frac{2}{n^{2}}$$
+Alors, comme
+$$2\sum_{n \geq 1} \frac{1}{n^{2}} \text{ CV}$$
+se sont des SATP, Par le théorème sur les équivalents : 
+$$\sum_{n \geq 3} \frac{2}{n^{2}-4} \text{ CV}$$
+___
+Comme : 
+$$\frac{1}{n(n^{2}-4)} \sim \frac{1}{n^{3}}$$
 Alors, 
-$$-\frac{1}{n(n^{2}-4)}= \frac{1}{4n} - \frac{1}{8(n-2)}+\frac{1}{8(n+2)}$$
-$$\sum_{k = 3}^{n} - \frac{1}{n(n^{2}-4)} = \sum_{k = 
-3}^{n} \frac{1}{4n} + \frac{1}{8} \sum_{k = 3}^{n}\left(\frac{1}{n+2} - \frac{1}{n-2} \right)$$
-$$= 4 \sum_{k = 3}^{n} \frac{1}{n} + \frac{1}{8} \sum_{ k= 3}^{n} \left( \frac{1}{n+2} - \frac{1}{n-2} \right)$$
+$$\sum_{n \geq 3} \frac{1}{n^{3}} \text{ CV}$$
+Donc, par le th
+$$\sum_{n \geq 3} \frac{1}{n(n^{2}-4)} \text{ CV}$$
+___
+Donc, 
+$$\sum_{n \geq 3}$$
+
+
+$$\frac{\ln(n+1)-\ln(n)}{\sqrt{ \ln(n+1) }+\sqrt{ \ln(n) }} = \frac{\ln\left( 1+\frac{1}{n} \right)}{\sqrt{ \ln(1+n) }+ \sqrt{ \ln(n) }} \sim \frac{\frac{1}{n}}{2\sqrt{ \ln(n) }}$$
+$$\frac{\sqrt{ \ln(n+1)} + \sqrt{ \ln(n) }}{2 \sqrt{  }{\ln(n)}}$$
