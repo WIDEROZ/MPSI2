@@ -198,4 +198,5 @@ $\frac{2 \times (-2) -1}{-2 \times (-2-2)} = -\frac{5}{8} = \gamma$
 Ainsi, 
 $$\frac{2n-1}{n(n^{2}-4)} = \frac{1}{4n} + \frac{3}{8(n-2)} -\frac{5}{8(n+2)}$$
 ___
-$$\frac{1}{4}\sum_{k = 3}^{n} \frac{1}{k} + \frac{3}{8}\sum_{k = 3}^{n} \frac{1}{n-2} + \frac{5}{8 su} $$
+$$\frac{1}{4}\sum_{k = 3}^{n} \frac{1}{k} + \frac{3}{8}\sum_{k = 3}^{n} \frac{1}{k-2} - \frac{5}{8} \sum_{k = 3}^{n} \frac{1}{k+2} $$
+$$= \frac{1}{4} \sum_{k = 3}^{n} \frac{1}{k} + \frac{3}{2(k-2)}- \frac{5}{2(k+2)} =  $$
