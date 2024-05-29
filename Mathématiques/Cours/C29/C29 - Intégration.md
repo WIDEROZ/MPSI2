@@ -1093,4 +1093,6 @@ $$\sum \frac{x^{n}}{n!} \text{ CV} \text{ et } \sum_{n = 0}^{\infty} \frac{x^{n}
 3. En déduire la CV de $\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$ et sa somme
 
 
- 
+ $$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(1)^{k}}{k!} f^{(k)}(0)= \int_{0}^{1} \frac{(1-t)^{n}}{n!}f^{(n+1)}(t) \, dt $$
+
+$$(1 \times \ln(1+x))^{(k)} = \sum_{i = 1}^{k} \binom{k}{i}  $$

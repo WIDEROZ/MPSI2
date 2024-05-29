@@ -1285,7 +1285,7 @@ $$(\lambda f+\mu g)^{(p)} = \lambda f^{(p)} + \mu g^{(p)}$$
 Soit $f, g \in \mathcal{C}^k(I)$, 
 Soit $p \in [\![0, k]\!]$, 
 $$(fg)^{(p)} = \sum_{i = 0}^{p}\binom{p}{i}f^{(i)} g^{(p-i)}$$
-
+ 
 
 #### Exercice
 Prouver la formule de Leibniz en copiant la preuve de la formule du binôme (la seule subtilité est la formulation de l'assertion de récurrence)
