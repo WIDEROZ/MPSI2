@@ -447,3 +447,37 @@ Une famille quelconque de vecteurs de $E$ est dite orthogonale ssi ses vecteurs 
 Un famille quelconque $(e_{i})_{i \in I}$ de vecteurs de $E$ est dite orthonormale (orthonormée) ssi elle est orthogonale et tout ses vecteurs sont de norme $1$. 
 
 ###### Reformulation
+$$\forall i, j \in I, <e_{i}, e_{j}> = \delta_{i, j}$$
+
+#### Exemple Important
+Les bases canoniques de $\mathbb{R}^{n}$ et $\mathcal{M}_{n, p}(\mathbb{R})$ sont orthonormées pour leurs produits scalaires canoniques. 
+
+#### Exercice
+Soit $E = \mathcal{C}_{\mathbb{R}}^{0}([0, 2\pi])$ avec le PS $L^{2}$, 
+On définit : 
+$$\forall n \in \mathbb{N}, f_{0, n} : \begin{cases}
+[0, 2\pi] \to \mathbb{R} \\
+t \mapsto \cos(t)
+\end{cases}$$
+$$\forall n \in \mathbb{N}^{*}, f_{1, n} : \begin{cases}
+[0, 2\pi] \to \mathbb{R} \\
+t \mapsto \cos(nt)
+\end{cases}$$
+
+On note : 
+$$I = (\{ 0 \} \times \mathbb{N}) \sqcup (\{ 1 \} \times \mathbb{N}^{*})$$
+###### 1. Montrons que : $(f_{i, n})_{(i, n) \in I}$ est orthogonale
+$$\int _{0}^{2\pi} \cos(t) \, dt = 0 $$
+et
+$$\int _{0}^{2\pi} \cos(nt) \, dt = [] $$
+
+###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
+
+
+
+#### Propriété
+Une famille orthogonale de vecteurs non nuls est libre
+Une famille orthonormée est donc libre
+
+Démonstration : exo
+
