@@ -15,6 +15,5 @@ G, 25&\setminus&\setminus&\setminus&\setminus&\setminus&\setminus&\setminus&\set
 \end{array}$$
 # Algorithme de Floyd-Warshall
 $$\begin{pmatrix}
-\infty & 5 & 6 & \infty & 15 & 12 & \infty & \infty \\
-5 & \infty & \infty & 10 & \infty & \infty & 
+
 \end{pmatrix}$$
