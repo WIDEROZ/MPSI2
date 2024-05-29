@@ -191,9 +191,9 @@ Si $\sigma$ est subordonnée à $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ alors t
 Démonstration : Evidente
 Soit $\sigma \in \sum_{a, b}$ subordonnée à $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ et $\sigma' = (x'_{j})_{j = 0}^{m} \succ \sigma = (x_{i})_{i = 0}^{n}$, 
 
-Comme pour tout $i \in [\![1, n]\!]$ $f|_{]x_{i-1}, x_{i}[}$ est constante, 
-Comme $\sigma' \succ \sigma$, 
-il existe $j \in \{ k \in [\![1, m]\!] | f|_{][} \}$
+$$\forall i \in [\![1, n]\!], \exists j \in [\![1, m]\!], f|_{]x_{i-1}, x_{i}[}=f|_{]x'_{j-1}, x'_{j}[}$$
+car $\sigma' \succ \sigma$, 
+Alors, 
 
 #### Corollaire
 Toute $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ admet une infinité de subdivisions subordonnées
