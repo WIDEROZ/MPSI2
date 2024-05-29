@@ -422,5 +422,28 @@ Lorsque $X$ est
 5. Pour tout $F \underset{sev}{\subset}E$ $F \cap F^{\perp} = \{ 0 \}$ ie $F$ et $F^{\perp}$ sont en somme directe (mais pas forcément supplémentaires)
 6. $\forall X, Y \subset E, X \subset Y \Rightarrow X^{\perp} \supset Y^{\perp}$
 7. $\forall X \subset E, X^{\perp} = (Vect(X))^{\perp}$
-8. $\forall X \subset E, X^{\perp \perp} = X$
-9. $\forall X, Y \subset$
+8. $\forall X \subset E, X^{\perp \perp} \supset X$
+9. $\forall X, Y \subset E, (X \cup Y)^{\perp}= X^{\perp} \cap Y^{\perp}$
+10. $\forall X, Y \subset E, (X \cap Y)^{\perp}= X^{\perp} + Y^{\perp}$
+
+Démonstration : exo
+
+#### Définition : Parties orthogonales
+On dit que $X, Y \subset E$ sont orthogonales ssi 
+$$\forall (x, y) \in X \times Y, <x, y> = 0$$
+ssi : 
+$$X \subset Y^{\perp}$$
+ssi :
+$$Y \subset X^{\perp}$$
+
+#### Exemples
+Deux droites de $\mathbb{R}^{3}$ peuvent être orthogonales. Mais aucune ne peut être orthogonales de l'autre.
+
+## 2. Famille de vecteurs
+#### Définition
+Une famille quelconque de vecteurs de $E$ est dite orthogonale ssi ses vecteurs sont deux à deux orthogonaux
+
+#### Définition
+Un famille quelconque $(e_{i})_{i \in I}$ de vecteurs de $E$ est dite orthonormale (orthonormée) ssi elle est orthogonale et tout ses vecteurs sont de norme $1$. 
+
+###### Reformulation
