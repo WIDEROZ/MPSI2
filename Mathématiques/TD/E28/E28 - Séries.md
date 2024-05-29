@@ -233,4 +233,29 @@ $$\frac{\sqrt{ n+1 } + \sqrt{ n }}{2\sqrt{ n }} = \frac{1}{2}\left( \sqrt{ 1 + \
 Donc,
 $$\sqrt{ n+1 } + \sqrt{ n } \sim 2\sqrt{ n }$$
 Donc, 
-$$\frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}} \sim \frac{1}{(2\sqrt{ n })^{\alpha}}$$
+$$(\sqrt{ n+1 } - \sqrt{ n })^{\alpha} = \frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}}  \sim \frac{1}{(2\sqrt{ n })^{\alpha}}$$
+Si $\alpha \in ]0, 2]$, 
+Pour 
+$$ \frac{1}{2^{\alpha}}\sum_{n \geq 1} \frac{1}{n^{\frac{\alpha}{2}}}$$
+Comme la série de Riemann diverge, cette série DV
+Alors, 
+Comme se sont des SATP et que :
+$$(\sqrt{ n+1 }-\sqrt{ n })^{\alpha}\sim \frac{1}{2^{\alpha}} \times \frac{1}{n^{\frac{\alpha}{2}}}$$
+par le théorème des équivalents : 
+Pour $\alpha \in ]0, 2]$
+$$\boxed{\sum (\sqrt{ n+1 }-\sqrt{ n })^{\alpha} \text{ DV}}$$
+
+Pour $\alpha >2$, 
+Comme
+$$(\sqrt{ n+1 } - \sqrt{ n })^{\alpha} = \frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}}  \sim \frac{1}{(2\sqrt{ n })^{\alpha}}$$
+et que 
+$$\frac{1}{2^{\alpha}}\sum_{n \geq 1} \frac{1}{n^{\frac{\alpha}{2}}}$$
+converge
+Par le th des équivalents, 
+Pour $\alpha > 2$, 
+$$\sum (\sqrt{ n+1 } - \sqrt{ n })^{\alpha}$$
+Converge
+Ainsi, 
+$$ \sum (\sqrt{ n+1 } - \sqrt{ n })^{\alpha} \space \begin{cases}
+\text{CV si}
+\end{cases}$$
