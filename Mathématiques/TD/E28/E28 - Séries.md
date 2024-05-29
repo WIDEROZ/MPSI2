@@ -234,6 +234,7 @@ Donc,
 $$\sqrt{ n+1 } + \sqrt{ n } \sim 2\sqrt{ n }$$
 Donc, 
 $$(\sqrt{ n+1 } - \sqrt{ n })^{\alpha} = \frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}}  \sim \frac{1}{(2\sqrt{ n })^{\alpha}}$$
+___
 Si $\alpha \in ]0, 2]$, 
 Pour 
 $$ \frac{1}{2^{\alpha}}\sum_{n \geq 1} \frac{1}{n^{\frac{\alpha}{2}}}$$
@@ -253,9 +254,21 @@ $$\frac{1}{2^{\alpha}}\sum_{n \geq 1} \frac{1}{n^{\frac{\alpha}{2}}}$$
 converge
 Par le th des équivalents, 
 Pour $\alpha > 2$, 
-$$\sum (\sqrt{ n+1 } - \sqrt{ n })^{\alpha}$$
-Converge
+$$\boxed{\sum (\sqrt{ n+1 } - \sqrt{ n })^{\alpha} \text{ CV}}$$
+___
 Ainsi, 
 $$ \sum (\sqrt{ n+1 } - \sqrt{ n })^{\alpha} \space \begin{cases}
-\text{CV si}
+\text{CV si } \alpha \in ]2, + \infty[ \\
+\text{DV si } \alpha \in ]- \infty, 2]
 \end{cases}$$
+
+# Exercice 6
+Soit $p \in \mathbb{N} \setminus \{ 0, 1 \}$,
+On fait un changement de variable : 
+$m = n-p+1$
+$n = m+p-1$
+Alors, 
+$$\sum_{n \geq p} \frac{1}{n(n-1) \dots(n-p+1)}$$
+$$= \sum_{m \geq 1} \frac{1}{m(m-1)\dots (m+p-2)(m+p-1)}$$
+Alors, 
+$$\sum_{m \geq 1}$$
