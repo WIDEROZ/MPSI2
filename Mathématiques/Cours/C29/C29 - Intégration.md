@@ -1115,9 +1115,11 @@ $$= \int _{0}^{1} \frac{n(1-t)^{n-1}}{n(1+t)^{n}} \, dt - \left[ \frac{(1-t)^{n}
 
 On fait une deuxième IPP :
 $$\left[\!\left[ \begin{array}{l} 
-u = \frac{1}{(1+t)^{n+1}} \\
-dv = (1-t)^{n}dt
+u = (1-t)^{n+1} \\
+dv = \frac{1}{(1+t)^{n}}dt
 \end{array} \right. \right. \text{ et } \left[\!\left[ \begin{array}{l} 
-du = -n(1-t)^{n-1} dt \\
-v = -\frac{1}{n(1+t)^{n}}
+du = -(n+1)(1+t)^{n} dt \\
+v = - \frac{1}{(n-1)(1+t)^{n-1}}
 \end{array} \right. \right.$$
+
+$$\int _{0}^{1} \frac{(1-t)^{n}}{(1+t)^{n+1}} \, dt = \int _{0}^{1} \frac{(n+1)(1+t)^{n}}{(n-1)(1+t)^{n-1}} \, dt  - []_{0}^{1} $$

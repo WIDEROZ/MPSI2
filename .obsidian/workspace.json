@@ -4,69 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "0ffc1559914edc2c",
+        "id": "8c5d4a982cd6b52b",
         "type": "tabs",
         "children": [
           {
-            "id": "4f5bc5930c310b03",
+            "id": "a73e89b707c5ed58",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E29/E29 - Intégration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eed009077a1900db",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/TD/E29/E29-Integration.pdf"
-              }
-            }
-          },
-          {
-            "id": "ba008561f533645c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bab1f0d35b05665e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f331b6a7c024841a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Résumé.md",
+                "file": "Anglais/Cours/05 - 22.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -143,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Anglais/Cours/05 - 22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -160,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Anglais/Cours/05 - 22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Anglais/Cours/05 - 22.md"
               }
             }
           }
@@ -195,13 +148,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba008561f533645c",
+  "active": "a73e89b707c5ed58",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
-    "Mathématiques/TD/E29/E29-Integration.pdf",
-    "Mathématiques/TD/E29/E29 - Intégration.md",
+    "Anglais/Cours/05-22.md",
+    "Anglais/Cours/05 - 22.md",
     "Mathématiques/Cours/C14/C14 - Résumé.md",
+    "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
+    "Mathématiques/TD/E29/E29 - Intégration.md",
+    "Mathématiques/TD/E29/E29-Integration.pdf",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/TD/E29",
     "Info/Cours/Chapitre 15/script.c",
@@ -233,7 +188,6 @@
     "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
-    "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
