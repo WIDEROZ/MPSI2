@@ -366,3 +366,16 @@ E^{2} \to \mathbb{R} \\
 
 Démonstration : en exo
 
+
+# III. Orthogonalité
+Soit $(E, <\cdot , \cdot>)$ un espace préhilbertien réel. 
+## 1. Définitions
+#### Définition
+$x, y \in E$ sont dits orthogonaux ssi $<x, y> = 0$ 
+on note : $x \perp y$
+
+#### Exemple
+Dans $\mathbb{R}^{2}$ avec le produit scalaire canonique : 
+$$(1, -2) \perp (4, 2)$$
+
+Excal 2
