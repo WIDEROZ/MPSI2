@@ -1097,4 +1097,6 @@ $$\sum \frac{x^{n}}{n!} \text{ CV} \text{ et } \sum_{n = 0}^{\infty} \frac{x^{n}
 
 $$(x \mapsto \ln(1+x))^{(n)} = (-1)^{n-1} \frac{(n-1)!}{(1+x)^{n}}$$
 (a démontrer par récurrence)
-$$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}= \int_{0}^{1} \frac{(1-t)^{n}}{n!} (-1)^{n} (n!) \, dt $$
+$$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}= \int_{0}^{1} \frac{(1-t)^{n}}{n!} (-1)^{n} \frac{n!}{(1+t)^{n+1}} \, dt$$
+Alors, 
+$$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k} = (-1)^{n} \int _{0}^{1} \frac{(1-t)^{n}}{(1+t)^{n+1}} \, dx $$
