@@ -13,9 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/TD/E29/E29 - Intégration.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "eed009077a1900db",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/TD/E29/E29-Integration.pdf"
               }
             }
           },
@@ -31,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -160,13 +171,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f5bc5930c310b03",
+  "active": "ba008561f533645c",
   "lastOpenFiles": [
+    "Mathématiques/TD/E29/E29-Integration.pdf",
+    "Mathématiques/TD/E29/E29 - Intégration.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/TD/E29",
     "Info/Cours/Chapitre 15/script.c",
     "Info/Cours/Chapitre 15/script.ml",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C30/C30.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
@@ -189,18 +203,14 @@
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Mathématiques/Cours/C17/C17 - Analyse Asymptotique.md",
-    "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
-    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C28/Algorithme.png",
-    "Mathématiques/DM/DM21",
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
-    "FR Philo/Cours/25 - 01.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",

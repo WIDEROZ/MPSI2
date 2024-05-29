@@ -6,14 +6,30 @@ typedef struct Graphe
     int taille;
     bool **mat;
 
-}mat_graphe;
+} mat_graphe;
 
 typedef struct LGraphe
 {
     int taille;
     int valeur;
-    liste_graphe next;
-}liste_graphe;
+    liste_graphe *l;
+
+} liste_graphe;
+
+typedef struct l_sommet
+{
+    int v;
+    l_sommet *next;
+
+} l_sommet;
+
+typedef struct list_graphe
+{
+    int taille;
+    l_sommet *l;
+
+} list_graphe;
+
 
 
 
