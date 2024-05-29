@@ -189,6 +189,11 @@ L'ensemble des fonctions en escalier est noté : $\mathcal{E}_{\mathbb{K}}([a, b
 Si $\sigma$ est subordonnée à $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ alors tout raffinement de $\sigma$ est encore subordonné à $f$
 
 Démonstration : Evidente
+Soit $\sigma \in \sum_{a, b}$ subordonnée à $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ et $\sigma' = (x'_{j})_{j = 0}^{m} \succ \sigma = (x_{i})_{i = 0}^{n}$, 
+
+Comme pour tout $i \in [\![1, n]\!]$ $f|_{]x_{i-1}, x_{i}[}$ est constante, 
+Comme $\sigma' \succ \sigma$, 
+il existe $j \in \{ k \in [\![1, m]\!] | f|_{][} \}$
 
 #### Corollaire
 Toute $f \in \mathcal{E}_{\mathbb{K}}([a, b])$ admet une infinité de subdivisions subordonnées
