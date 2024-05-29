@@ -378,4 +378,17 @@ on note : $x \perp y$
 Dans $\mathbb{R}^{2}$ avec le produit scalaire canonique : 
 $$(1, -2) \perp (4, 2)$$
 
-Excal 2
+Excal 2.
+
+#### Exercice
+Démontrer que tous les vecteurs orthogonaux à $(1, -2)$
+sont $Vect(v)$
+
+#### Exercice
+Décrire l'ensemble des vecteurs orthogonaux à $u(1,1,1)$ 
+$$Vect((-1, 0, 1), (-1, 1, 0))$$
+
+Deux manières : 
+- Soit : On résout le système : $x + y + z = 0$ 
+- Soit : On calcule le noyau de $v \mapsto <u, v>$
+
