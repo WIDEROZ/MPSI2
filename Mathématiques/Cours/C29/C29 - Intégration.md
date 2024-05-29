@@ -1093,3 +1093,4 @@ $$\sum \frac{x^{n}}{n!} \text{ CV} \text{ et } \sum_{n = 0}^{\infty} \frac{x^{n}
 3. En déduire la CV de $\sum_{n \geq 1} \frac{(-1)^{n-1}}{n}$ et sa somme
 
 
+ 

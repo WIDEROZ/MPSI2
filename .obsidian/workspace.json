@@ -20,12 +20,14 @@
             }
           },
           {
-            "id": "0374b92336917af3",
+            "id": "ba008561f533645c",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -160,13 +162,13 @@
   },
   "active": "4f5bc5930c310b03",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Info/Cours/Chapitre 15/Graphe.md",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
