@@ -40,7 +40,14 @@
                 "source": false
               }
             }
-          },
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "d2cea551168e1056",
+        "type": "tabs",
+        "children": [
           {
             "id": "8364f4ad8d16b0a2",
             "type": "leaf",
@@ -51,8 +58,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -183,10 +189,10 @@
   },
   "active": "f62fb60757147ad2",
   "lastOpenFiles": [
-    "Mathématiques/TD/E28/E28 - Séries.md",
-    "Mathématiques/TD/E28/E28-Series.pdf",
     "Info/Cours/Chapitre 15/Graphe.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
