@@ -52,7 +52,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -129,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md",
+                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md",
+                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md"
+                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md"
               }
             }
           }
@@ -181,16 +181,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "f62fb60757147ad2",
   "lastOpenFiles": [
-    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Info/Cours/Chapitre 15/Graphe.md",
+    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/TD/E28/E28 - Séries.md",
-    "Mathématiques/TD/E28/E28-Series.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
@@ -221,7 +221,6 @@
     "Info/TD/TD9/TD92.c",
     "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
     "FR Philo/Cours/25 - 01.md",
-    "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
