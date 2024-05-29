@@ -217,9 +217,16 @@ Ainsi,
 $$S_{n} = \frac{1}{8}\left( \frac{5}{n-2}+ \frac{7}{n-1} + \frac{7}{n} + \frac{5}{n+1}  - \frac{113}{12} \right)$$
 
 # Exercice 5
+$$\sum (\sqrt{ n+1 }-\sqrt{ n })^{\alpha}$$
 Si $\alpha = 0$, 
 La série DV
-Si $\alpha = 1$ : 
-$$\sum_{k = 0}^{n} \sqrt{ k+1 } - \sqrt{ k } = \sqrt{ n+1 } \underset{n \to +\infty}{\longrightarrow} + \infty$$
+___
+Si $\alpha < 0$ : 
+$$\frac{1}{(\sqrt{ n+1 } - \sqrt{ n })^{\alpha}} = (\sqrt{ n+1 } + \sqrt{ n })^{\alpha} $$
 Alors, 
-la série DV
+On a la série qui DVG car $(\sqrt{ n +1 } + \sqrt{ n })^{\alpha} \underset{n \to +\infty}{\longrightarrow} + \infty$
+___
+Si $\alpha > 0$ :
+$$(\sqrt{ n+1 } - \sqrt{ n })^{\alpha} = \frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}} $$
+Alors, 
+$$$$
