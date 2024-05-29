@@ -469,7 +469,10 @@ $$I = (\{ 0 \} \times \mathbb{N}) \sqcup (\{ 1 \} \times \mathbb{N}^{*})$$
 ###### 1. Montrons que : $(f_{i, n})_{(i, n) \in I}$ est orthogonale
 $$\int _{0}^{2\pi} \cos(t) \, dt = 0 $$
 et
-$$\int _{0}^{2\pi} \cos(nt) \, dt = [] $$
+$$\int _{0}^{2\pi} \cos(nt) \, dt = \left[ \frac{1}{n}\sin(nt) \right]_{0}^{2\pi} = 0 $$
+(car $n \in \mathbb{N}^{*}$)
+
+Ainsi, 
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
 
@@ -481,3 +484,20 @@ Une famille orthonormée est donc libre
 
 Démonstration : exo
 
+#### Corollaire
+Dans $E$ euclidien de diemnsion $n$, toute famille orthonormé de $n$ vecteurs est une base qu'on appelle base orthonormée ($BON$)
+
+#### Théorème de Pythagore
+Si $(x_{i})_{i = 1}^{p} \in E^{p}$ est une famille orthogonale finie, alors, 
+$$\left|\left| \sum_{i = 1}^{n} x_{i} \right|\right|^{2} = \sum_{i = 1}^{p} \left|\left| x_{i} \right|\right| ^{2} $$
+
+Démonstration : 
+$$\left|\left| \sum_{i =1}^{p}x_{i} \right|\right| ^{2} = \left<\sum_{i = 1}^{p}x_{i}, \sum_{j = 1}^{p}x_{j}\right> = \sum_{i = 1}^{p}\sum_{j=1}^{p} <x_{i}, x_{j}> $$
+$$= \sum_{i = 1}^{p} <x_{i}, x_{i}> = \sum_{i=1}^{p} \left|\left| x_{i} \right|\right| ^{2}$$
+
+
+#### Théorème : Réciproque du théorème de Pythagore pour deux vecteurs
+Pour $x, y \in E$, 
+$$\left|\left| x+y \right|\right|^{2} = \left|\left| x \right|\right| ^{2} + \left|\left| y \right|\right| ^{2}  \Rightarrow <x, y> = 0$$
+
+Démonstration : par l'identité de polarisation
