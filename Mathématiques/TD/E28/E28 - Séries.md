@@ -229,4 +229,8 @@ ___
 Si $\alpha > 0$ :
 $$(\sqrt{ n+1 } - \sqrt{ n })^{\alpha} = \frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}} $$
 Alors, 
-$$$$
+$$\frac{\sqrt{ n+1 } + \sqrt{ n }}{2\sqrt{ n }} = \frac{1}{2}\left( \sqrt{ 1 + \frac{1}{n} }+ 1 \right) \underset{n \to +\infty}{\longrightarrow} 1$$
+Donc,
+$$\sqrt{ n+1 } + \sqrt{ n } \sim 2\sqrt{ n }$$
+Donc, 
+$$\frac{1}{(\sqrt{ n+1 } + \sqrt{ n })^{\alpha}} \sim \frac{1}{(2\sqrt{ n })^{\alpha}}$$
