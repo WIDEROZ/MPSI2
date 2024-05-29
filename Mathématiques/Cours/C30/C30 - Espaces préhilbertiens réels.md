@@ -501,3 +501,16 @@ Pour $x, y \in E$,
 $$\left|\left| x+y \right|\right|^{2} = \left|\left| x \right|\right| ^{2} + \left|\left| y \right|\right| ^{2}  \Rightarrow <x, y> = 0$$
 
 Démonstration : par l'identité de polarisation
+
+# IV. Orthonormalisation
+
+#### Lemme IMPORTANT :
+Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormale de $E$ et $f \in E \setminus Vect(e_{i})_{i = 1}^{p}$
+
+Alors il existe un unique $e_{p +1} \in E$ tel que :
+1. La famille : $(e_{i})_{i= 1}^{p+1}$ est orthonormée
+2. $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, \dots, e_{p}, f)$
+3. $\left<e_{p+1}, f \right>>0$
+
+qui est donné par la formule : 
+$$e_{p+1} = $$

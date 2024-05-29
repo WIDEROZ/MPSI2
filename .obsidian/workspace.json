@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4f5bc5930c310b03",
+  "active": "0374b92336917af3",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
