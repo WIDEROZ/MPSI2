@@ -267,8 +267,3 @@ Soit $p \in \mathbb{N} \setminus \{ 0, 1 \}$,
 On fait un changement de variable : 
 $m = n-p+1$
 $n = m+p-1$
-Alors, 
-$$\sum_{n \geq p} \frac{1}{n(n-1) \dots(n-p+1)}$$
-$$= \sum_{m \geq 1} \frac{1}{m(m-1)\dots (m+p-2)(m+p-1)}$$
-Alors, 
-$$\sum_{m \geq 1}$$

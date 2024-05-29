@@ -35,14 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -119,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -171,11 +171,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "96c8a7c177627ae4",
+  "active": "f62fb60757147ad2",
   "lastOpenFiles": [
-    "Mathématiques/TD/E28/E28-Series.pdf",
+    "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/TD/E28/E28-Series.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
@@ -210,7 +211,6 @@
     "FR Philo/Cours/25 - 01.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
-    "Mathématiques/Cours/C29/C29.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
