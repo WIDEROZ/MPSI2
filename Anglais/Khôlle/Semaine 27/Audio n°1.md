@@ -23,4 +23,7 @@ It makes the pupil feel clever.
 The latin is taking a significant place in the curriculum. 
 
 # Commentaire
-Is the latin useful to 
+Why ancient languages are useful today? 
+
+#### 1.
+It let people think that those who learn latin are cultured because it is a rare 
