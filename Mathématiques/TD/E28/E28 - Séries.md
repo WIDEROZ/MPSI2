@@ -215,3 +215,11 @@ Alors,
 $$S_{n} = \frac{1}{4}\left( \frac{5}{2(n-2)}+ \frac{7}{2(n-1)} + \frac{7}{2n} + \frac{5}{2(n+1)}  - \frac{77}{24}-\frac{3}{2} \right)$$
 Ainsi, 
 $$S_{n} = \frac{1}{8}\left( \frac{5}{n-2}+ \frac{7}{n-1} + \frac{7}{n} + \frac{5}{n+1}  - \frac{113}{12} \right)$$
+
+# Exercice 5
+Si $\alpha = 0$, 
+La série DV
+Si $\alpha = 1$ : 
+$$\sum_{k = 0}^{n} \sqrt{ k+1 } - \sqrt{ k } = \sqrt{ n+1 } \underset{n \to +\infty}{\longrightarrow} + \infty$$
+Alors, 
+la série DV
