@@ -1100,3 +1100,12 @@ $$(x \mapsto \ln(1+x))^{(n)} = (-1)^{n-1} \frac{(n-1)!}{(1+x)^{n}}$$
 $$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k}= \int_{0}^{1} \frac{(1-t)^{n}}{n!} (-1)^{n} \frac{n!}{(1+t)^{n+1}} \, dt$$
 Alors, 
 $$R_{n} = \ln(2) - \sum_{k = 1}^{n} \frac{(-1)^{k-1}}{k} = (-1)^{n} \int _{0}^{1} \frac{(1-t)^{n}}{(1+t)^{n+1}} \, dx $$
+
+On fait une IPP
+$$\left[\!\left[ \begin{array}{l} 
+u = (1-t)^{n} \\
+dv = \frac{1}{(1+t)^{n+1}}dt
+\end{array} \right. \right. \text{ et } \left[\!\left[ \begin{array}{l} 
+du = -n(1-t)^{n-1} dt \\
+v = \frac{1}{n+2} \frac{1}{(1+t)^{n+2}}
+\end{array} \right. \right.$$
