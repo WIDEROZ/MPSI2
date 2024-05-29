@@ -513,4 +513,18 @@ Alors il existe un unique $e_{p +1} \in E$ tel que :
 3. $\left<e_{p+1}, f \right>>0$
 
 qui est donné par la formule : 
-$$e_{p+1} = $$
+$$e_{p+1} = \left|\left| f-\sum_{i = 1}^{p} \left< f, e_{i} \right>e_{i} \right|\right|^{-1}\left( f-\sum_{i = 1}^{p} \left< f, e_{i} \right>e_{i} \right) $$
+EXCAL 3. 
+
+Démonstration : 
+Par analyse synthèse : 
+###### Analyse
+Soit $e_{p+1} \in E$ vérifiant 1. 2. et 3.
+Par le 2. : $e_{p+1} \in Vect(e_{1}, \dots, e_{p}, f)$
+Donc, il s'écrit :
+$$e_{p+1} = \sum_{i = 1}^{p} \lambda_{i} e_{i} + \lambda f$$
+avec $\lambda_{1}, \dots, \lambda_{p}, \lambda \in \mathbb{R}$, 
+Soit $j \in [\![1, p]\!]$, comme $(e_{i})_{i = 1}^{p+1}$ est orthonormale, 
+
+Donc en reportant dans la formule de $e_{p+1}$ : 
+$$e_{p+1} = \lambda $$
