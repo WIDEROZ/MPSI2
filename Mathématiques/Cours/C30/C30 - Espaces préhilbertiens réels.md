@@ -525,6 +525,33 @@ Donc, il s'écrit :
 $$e_{p+1} = \sum_{i = 1}^{p} \lambda_{i} e_{i} + \lambda f$$
 avec $\lambda_{1}, \dots, \lambda_{p}, \lambda \in \mathbb{R}$, 
 Soit $j \in [\![1, p]\!]$, comme $(e_{i})_{i = 1}^{p+1}$ est orthonormale, 
+$$0 = \left< e_{j}, e_{j-1} \right> = \lambda_{j} + \lambda \left< f, e_{j} \right>  $$
+Donc, 
+$$\lambda_{j} = - \lambda \left< f, e_{j} \right> $$
 
 Donc en reportant dans la formule de $e_{p+1}$ : 
-$$e_{p+1} = \lambda $$
+$$e_{p+1} = \lambda \left( f-\sum_{i = 1}^{p} \left< f, e_{i}\right>e_{i}\right) = \lambda u$$
+Comme $\left|\left| e_{p+1} \right|\right|=1 = \left| \lambda\right|\left|\left| u \right|\right|$
+Donc, $\left|\left| u \right|\right| \neq 0$ ie $u \neq 0$
+Donc, 
+$$\left| \lambda \right| = \frac{1}{\left|\left| u \right|\right| }$$
+
+Comme : $e_{p+1} \perp Vect(e_{i})_{i = 1}^{p}$, 
+$$1 = \left< e_{p+1}, e_{p+1} \right> = \left< e_{p+1}, \lambda \left( f-\sum_{i = 1}^{p} \left< f, e_{1} \right>e_{1}  \right) \right> = \lambda \left< e_{p+1}, f \right> >0$$
+
+
+Or $\left< e_{p+1}, f \right> >0$ 
+Donc, $\lambda >0$ et $\lambda = \left| \lambda\right| = \frac{1}{\left|\left| u \right|\right|}$
+Donc, 
+$$e_{p+1} = \frac{1}{\left|\left| u \right|\right| }u$$
+
+###### Synthèse 
+On pose $e_{p+1} = \frac{1}{\left|\left| u \right|\right|}u$
+Avec 
+$$u = f- \sum_{i = 1}^{p} \left< f, e_{i} \right> e_{i}$$
+On sait que : $(e_{i})_{i = 1}^{p}$ est ON donc, 
+Pour $f \in [\![1, p]\!]$
+$$\left< e_{p+1}, e_{p} \right> = \frac{1}{\left|\left| u \right|\right| } (\left< f, e_{j} \right> -\left< f, e_{j} \right> ) =0$$
+
+Faire la suite en exo.
+
