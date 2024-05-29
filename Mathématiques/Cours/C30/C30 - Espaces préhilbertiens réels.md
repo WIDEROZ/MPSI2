@@ -402,4 +402,25 @@ C'est le sous espace vectoriel des fonctions d'intégrales nulles :
 $$\left\{  f \in \mathcal{C}_{\mathbb{R}}^{0}([0, 1]) \left|  \int _{0}^{1} f = 0   \right\}\right.$$
 
 #### Remarque
-Dans ces trois exemples l'ensemble des vecteurs orthogonaux est un s
+Dans ces trois exemples l'ensemble des vecteurs orthogonaux est un sev qui est un supplémentaire de $Vect(u_{0})$
+Sera-ce toujours le cas ?
+Oui par les résultats du cours sur les formes linéaires et hyperplans.
+
+Attention : Si on prend plus qu'un vecteur on n'obtiens pas forcément un supplémentaire du ssev qu'ils engendrent, lorsque la dimension est infinie
+
+#### Définition
+Pour $X \in \mathcal{P}(E)$, on appelle orthogonal de $X$ l'ensemble : 
+$$X^{\perp} = \{ y \in E \left| \forall x \in X, <x, y>  = 0\right.\}$$
+
+Lorsque $X$ est
+
+#### Propriété
+1. $\forall X \subset E, X^{\perp}$ est ssev de $E$
+2. $\varnothing^{\perp} = E$
+3. $0^{\perp} = E$
+4. $E^{\perp} = \{ 0 \}$
+5. Pour tout $F \underset{sev}{\subset}E$ $F \cap F^{\perp} = \{ 0 \}$ ie $F$ et $F^{\perp}$ sont en somme directe (mais pas forcément supplémentaires)
+6. $\forall X, Y \subset E, X \subset Y \Rightarrow X^{\perp} \supset Y^{\perp}$
+7. $\forall X \subset E, X^{\perp} = (Vect(X))^{\perp}$
+8. $\forall X \subset E, X^{\perp \perp} = X$
+9. $\forall X, Y \subset$
