@@ -35,14 +35,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "8364f4ad8d16b0a2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Info/Cours/Chapitre 15/Graphe.md"
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -119,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Info/Cours/Chapitre 15/Graphe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Info/Cours/Chapitre 15/Graphe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Info/Cours/Chapitre 15/Graphe.md"
               }
             }
           }
@@ -171,14 +181,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f62fb60757147ad2",
+  "active": "d9b3182d45be85a6",
   "lastOpenFiles": [
+    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+    "Info/Cours/Chapitre 15/Graphe.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
     "Physique-Chimie/TP/TP19/TP19.md",
@@ -206,11 +219,9 @@
     "Mathématiques/DM/DM21",
     "Info/TD/TD9/TD9 - Méthodes algorithmiques.md",
     "Info/TD/TD9/TD92.c",
-    "Info/TD/TD9/TD9.pdf",
     "FR Philo/Cours/Individu et Communauté/TD - 23 Mai.md",
     "FR Philo/Cours/25 - 01.md",
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
-    "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
