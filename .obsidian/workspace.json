@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "8c5d4a982cd6b52b",
+        "id": "8375c01d49dd6dd4",
         "type": "tabs",
         "children": [
           {
-            "id": "a73e89b707c5ed58",
+            "id": "8e16cbd01312a1e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Anglais/Cours/05 - 29.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5db35dfb39a86af7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Anglais/Cours/05-22.md",
+                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Anglais/Cours/05 - 29.md",
+                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Anglais/Cours/05 - 29.md",
+                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Anglais/Cours/05 - 29.md"
+                "file": "Anglais/Khôlle/Semaine 27/Audio n°1.md"
               }
             }
           }
@@ -160,8 +148,9 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a73e89b707c5ed58",
+  "active": "8e16cbd01312a1e4",
   "lastOpenFiles": [
+    "Anglais/Khôlle/Semaine 27/1.mp3",
     "Anglais/Cours/05-22.md",
     "Anglais/Cours/05 - 29.md",
     "Mathématiques/Cours/C14/C14 - Résumé.md",
@@ -199,7 +188,6 @@
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/DM21.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
-    "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
