@@ -33,5 +33,9 @@ On calcule $W^{(2)}$ :
 $$W^{(2)} = \begin{pmatrix}
 \infty & \infty & 11 & \infty & 25 \\
 \infty & \infty & \infty & 13 & \infty \\
-6 & 20 & \infty & 
+6 & 20 & 17 & 15& 31 \\
+\infty & 9 & \infty & 12 & \infty \\
+\infty&20 & \infty & 8 & \infty
 \end{pmatrix}$$
+pour $W_{3, 4}^{(2)} = 15$ car $15 < 20 + 13 = 33$ qui est le poids du chemin de $3$ à $4$ passant par $2$ 
+pour $W^{(2)}_{5, 4} = 8$ car $8 < 20+13 = 33$ qui est le poids du chemin de $5$ à $4$ passant par $2$

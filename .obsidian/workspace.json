@@ -4,57 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "191538749573c6a2",
+        "id": "0ffc1559914edc2c",
         "type": "tabs",
         "children": [
           {
-            "id": "0899597f26d961b8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/TD/E28/E28-Series.pdf"
-              }
-            }
-          },
-          {
-            "id": "96c8a7c177627ae4",
+            "id": "4f5bc5930c310b03",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E28/E28 - Séries.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "f62fb60757147ad2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "d2cea551168e1056",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8364f4ad8d16b0a2",
+            "id": "0374b92336917af3",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md"
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -135,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -187,12 +158,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f62fb60757147ad2",
+  "active": "4f5bc5930c310b03",
   "lastOpenFiles": [
-    "Info/Cours/Chapitre 15/Graphe.md",
-    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
-    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Mathématiques/Cours/C30/C30.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/TD/E28/E28-Series.pdf",
+    "Mathématiques/TD/E28/E28 - Séries.md",
+    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+    "Info/Cours/Chapitre 15/Graphe.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
@@ -211,9 +184,7 @@
     "Anglais/Khôlle/Semaine 27",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
-    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C17/C17 - Analyse Asymptotique.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/DM/DM21/Bec-clemente Elio DM21.pdf",
     "LA KONSTANTE.png",
     "Mathématiques/DM/DM21/DM21.md",
