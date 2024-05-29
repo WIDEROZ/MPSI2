@@ -1107,17 +1107,17 @@ u = (1-t)^{n} \\
 dv = \frac{1}{(1+t)^{n+1}}dt
 \end{array} \right. \right. \text{ et } \left[\!\left[ \begin{array}{l} 
 du = -n(1-t)^{n-1} dt \\
-v = -\frac{1}{(n+2)(1+t)^{n+2}}
+v = -\frac{1}{n(1+t)^{n}}
 \end{array} \right. \right.$$
 Alors, 
 $$\int _{0}^{1} \frac{(1-t)^{n}}{(1+t)^{n+1}} \, dt$$
-$$= \int _{0}^{1} \frac{n(1-t)^{n-1}}{(n+2)(1+t)^{n+2}} \, dt - \left[ \frac{(1-t)^{n}}{(n+2)(1+t)^{n+2}} \right]_{0}^{1}$$
+$$= \int _{0}^{1} \frac{n(1-t)^{n-1}}{n(1+t)^{n}} \, dt - \left[ \frac{(1-t)^{n}}{n(1+t)^{n}} \right]_{0}^{1}$$
 
 On fait une deuxième IPP :
 $$\left[\!\left[ \begin{array}{l} 
-u =  \frac{1}{n+2}\\
-dv = (1-t)^{n-1}dt
+u = \frac{1}{(1+t)^{n+1}} \\
+dv = (1-t)^{n}dt
 \end{array} \right. \right. \text{ et } \left[\!\left[ \begin{array}{l} 
-du = (n+2)(1+t)^{n+1} \\
-
+du = -n(1-t)^{n-1} dt \\
+v = -\frac{1}{n(1+t)^{n}}
 \end{array} \right. \right.$$
