@@ -19,11 +19,19 @@ $$W^{(0)} = P=\begin{pmatrix}
 \infty & \infty & \infty & 13&\infty   \\
 6&20&\infty & 15&\infty  \\
 \infty & 9&\infty & \infty & \infty  \\
-\infty & \infty & \infty & 8&\infty
+\infty & 20 & \infty & 8&\infty
 \end{pmatrix}$$
 On calcule $W^{(1)}$ : 
 $$W^{(1)}=\begin{pmatrix}
 \infty & \infty & 11 & \infty & 25 \\
 \infty & \infty & \infty & 13&\infty \\
-6 & 20
+6 & 20 & 17 & 15 & 31 \\
+\infty&9&\infty & \infty  & \infty \\
+\infty & 20 & \infty & 8 & \infty
+\end{pmatrix}$$
+On calcule $W^{(2)}$ : 
+$$W^{(2)} = \begin{pmatrix}
+\infty & \infty & 11 & \infty & 25 \\
+\infty & \infty & \infty & 13 & \infty \\
+6 & 20 & \infty & 
 \end{pmatrix}$$
