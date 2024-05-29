@@ -386,9 +386,20 @@ sont $Vect(v)$
 
 #### Exercice
 Décrire l'ensemble des vecteurs orthogonaux à $u(1,1,1)$ 
-$$Vect((-1, 0, 1), (-1, 1, 0))$$
+
 
 Deux manières : 
 - Soit : On résout le système : $x + y + z = 0$ 
 - Soit : On calcule le noyau de $v \mapsto <u, v>$
 
+On trouve : 
+$$Vect((-1, 0, 1), (-1, 1, 0))$$
+
+#### Exercice
+Dans $E = \mathcal{C}^{0}_{\mathbb{R}}([0, 1])$ muni du PS $L^{2}$, décrire l'ensemble des fonctions orthogonales à la fonction constante : $\mathbb{1} :x \mapsto 1$
+Excal 3. 
+C'est le sous espace vectoriel des fonctions d'intégrales nulles : 
+$$\left\{  f \in \mathcal{C}_{\mathbb{R}}^{0}([0, 1]) \left|  \int _{0}^{1} f = 0   \right\}\right.$$
+
+#### Remarque
+Dans ces trois exemples l'ensemble des vecteurs orthogonaux est un s
