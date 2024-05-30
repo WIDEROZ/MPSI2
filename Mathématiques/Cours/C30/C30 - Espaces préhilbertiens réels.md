@@ -667,10 +667,34 @@ $\left< x, \frac{u}{\left|\left| u \right|\right|} \right>$ projection $\perp$ s
 
 #### Propriété : Inégalité de Bessel
 Avec les notations et hyperplan de la définition : 
-$$\forall x \in E, \left|\left| p_{F}(x) \right|\right| \leq x$$
+$$\forall x \in E, \left|\left| p_{F}(x) \right|\right| \leq \left|\left| x \right|\right| $$
 
 Démonstration : Pythagore
 $$x = p_{F}(x) - (x-p_{F}(x))$$
 les deux composantes sont orthogonales donc, 
 $$\left|\left| x \right|\right| ^{2} = \left|\left| p_{F}(x) \right|\right| ^{2} + \left|\left| x-p_{F}(x) \right|\right| ^{2} \geq \left|\left| p_{F}(x) \right|\right|^{2} $$
 
+
+## 3. Distance d'un vecteur à un sous-espace vectoriel
+#### Définition
+Soient $E$ un préhilbertien, $Y \in \mathcal{P}(E) \setminus \{ 0 \}$ et $x \in E$
+La distance de $x$ à $Y$ est : 
+$$d(x, Y) = \inf_{y \in Y}(x, y)$$
+Qui existe grâce à la propriété de la borne inférieure
+
+### Théorème 
+Soit $E$ un préhilbertien et $F \underset{sev}{\subset} E$ de dimension finie. 
+Pour tout $x \in E$, la distance de $x$ à $F$ est réalisée et $p_{F}(x)$ est l'unique élément de $F$ qui la réalise ie 
+$$\begin{cases}
+d(x, p_{F}(x)) = d(x, F) \\
+\forall y \in F, (d(x, y) = d(x, Y)\Rightarrow y = p_{F}(x))
+\end{cases}$$
+
+Démonstration : 
+On a : $p_{F}(x) \in F$ par définition de $p_{F}$
+et pour $y \in F$, 
+$$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right| $$
+Comme : $x-p_{F}(x) \in F^{\perp}$ et $p_{F} - y \in F$
+On a par pythagore : 
+$$\left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right|^{2} = \left|| x-p_{F}(x)\right||^{2} + \left|\left| p_{F}(x) - y \right|\right| ^{2}$$
+$$\geq \left|\left|  \right|\right| $$
