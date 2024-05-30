@@ -41,4 +41,14 @@ La comparaison avec l'autre c'est de mettre en évidence sa singularité.
 Cristallisation identitaire : avoir une conscience aigu et de faire un peu d'exes par sa singularité. 
 L'indice "$40^{\text{eme}}$ rue" joue un role d'espace de sectorisation, et ce serait la limite que la haute bourgeoisie. 
 New-York, semble a cette époque monotone dans les couleurs et sa structure. 
-Le nouvel opera semble opérer un rôle important 
+Le nouvel opera semble opérer un rôle important.
+
+C'est un point de vue omniscient. 
+Narrateur extradiégétique. 
+Diégèse : Récit / Histoire racontée
+Le narrateur est en position d'observateur distancié. 
+Sa position marginale lui permettra de s'abstraire du groupe des personnage dépeints. 
+
+Peut-on tous échapper à la communauté? 
+
+# 
