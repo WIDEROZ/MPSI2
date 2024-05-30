@@ -67,3 +67,7 @@ Dispositif panoptique : bâtiment placé au centre pour mieux regarder les autre
 
 Est-il individu si il joue un rôle?
 
+Nous avons la dans cette aria qui justifie l'arrivée dans cet opéra un certain nombre de stéréotypes. $espace vectoriel$
+Newland dira que la haute société cet aria semble bien trop lyrique. 
+
+Les gens se rendent à l'opéra, moins pour qu'entendre le chant mais pour 
