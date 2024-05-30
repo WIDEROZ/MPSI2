@@ -428,7 +428,7 @@ Le cycle théorique de Diesel est formé de
    $$\Delta H_{BC} = nC_{p_{m}}\Delta T$$
    et 
    $$\Delta H_{BC} =  Q_{C}$$
-   Car c'est monobare
+   Car c'est isobare
    $$Q_{C} = nC_{p_{m}}\Delta T$$
    Ensuite : 
    $$\Delta U_{DA} = W + Q_{F} = 0 + Q_{F}$$
@@ -438,5 +438,22 @@ Le cycle théorique de Diesel est formé de
    Ainsi,
    $$\eta = 1+ \frac{T_{A}-T_{D}}{\gamma(T_{C}-T_{B})}$$
 5. Exprimer $\eta$ en fonction de $\alpha = \frac{V_{\max}}{V_{\min}}$ et $\beta = \frac{V_{C}}{V_{\min}}$
-   
-   
+   On sait que : $T_{B} = \alpha^{\gamma-1}T_{A}$ 
+   Entre $C$ et $B$ la transformation est isobare 
+   $$PV = nRT \Rightarrow \frac{V}{T} = \frac{nR}{P} = \text{cte}$$
+   $$\frac{V_{C}}{T_{C}} = \frac{V_{B}}{T_{B}}$$
+   Alors, 
+   $$T_{C} = \beta T_{B} = \beta \alpha^{\gamma-1}T_{A}$$
+   Entre $C$ et $D$ on a une transformation isentropique alors
+   on peut utiliser la loi de Laplace : 
+   $$TV^{\gamma-1} = \text{cte}$$
+   $$T_{D}V_{D}^{\gamma-1} = T_{C}V_{C}^{\gamma-1}$$
+   $$V_{D} = V_{A} = V_{\max}$$
+   car la transformation est isobare
+   Alors, 
+   $$T_{D} = T_{C} \left( \frac{\beta}{\alpha} \right)^{\gamma-1}$$
+   Donc, 
+   $$T_{C}-T_{B} = (\beta-1)\alpha^{\gamma-1}T_{A}$$
+   $$T_{A} - T_{D} = T_{A} - \left( \frac{\beta}{\alpha} \right)^{\gamma-1}\beta \alpha^{\gamma-1}T_{A} = (1-\beta^{\gamma}) T_{A}$$
+   Donc, 
+   $$\eta = 1+\frac{1}{\gamma} \frac{(1-\beta^{\gamma})}{}$$
