@@ -456,4 +456,11 @@ Le cycle théorique de Diesel est formé de
    $$T_{C}-T_{B} = (\beta-1)\alpha^{\gamma-1}T_{A}$$
    $$T_{A} - T_{D} = T_{A} - \left( \frac{\beta}{\alpha} \right)^{\gamma-1}\beta \alpha^{\gamma-1}T_{A} = (1-\beta^{\gamma}) T_{A}$$
    Donc, 
-   $$\eta = 1+\frac{1}{\gamma} \frac{(1-\beta^{\gamma})}{}$$
+   $$\eta = 1+\frac{1}{\gamma} \frac{(1-\beta^{\gamma})}{(\beta-1)\alpha^{\gamma-1}} = 1-\frac{\alpha^{1-\gamma}}{\gamma} \space \space \frac{1-\beta^{\gamma}}{1-\beta}$$
+5. Étudier l'évolution de $\eta$ en fonction de $\beta$ et de $\alpha$
+   - $\beta = \text{cte}$ : $\eta$ évolue comme : $-\alpha^{1-\gamma}$ $1-\alpha<0 \Rightarrow \eta \uparrow \text{quand }\alpha \uparrow$ 
+   - $\alpha = \text{cte}$ : $\eta$ évolue comme $\frac{1-\beta^{\gamma}}{1-\beta}$, $\gamma > 1 \Rightarrow \beta^{\gamma} \text{ augmente plus vite que }\beta$ alors, $\frac{1-\beta^{\gamma}}{1-\beta}$ diminue quand $\beta \uparrow$
+6. Calculer les valeurs numériques de $\eta, T_{B}, T_{C}$ et $T_{D}$ avec $T_{A} = 300 K$, $\alpha = 20$, $\beta = 3$ et $\gamma = 1.4$ 
+   $\eta = 61\%$, $T_{B} = 994 K$, $T_{C} = 2983 K$, $T_{D} = 1397 K$
+7. Pourquoi ce moteur n'a pas besoin de bougies : 
+   Ce moteur n'as pas bes
