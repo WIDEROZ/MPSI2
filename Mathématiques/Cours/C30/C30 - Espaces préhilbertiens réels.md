@@ -697,4 +697,27 @@ $$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x-p_{F}(x) + p_{F}(x)
 Comme : $x-p_{F}(x) \in F^{\perp}$ et $p_{F} - y \in F$
 On a par pythagore : 
 $$\left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right|^{2} = \left|| x-p_{F}(x)\right||^{2} + \left|\left| p_{F}(x) - y \right|\right| ^{2}$$
-$$\geq \left|\left|  \right|\right| $$
+$$\geq \left|\left| x-p_{F}(x) \right|\right|^{2} = d(x, p_{F}(x))^{2}$$
+
+avec égalité ssi $y = p_{F}(x)$
+
+Pour tout $y \in F$, 
+$$d(x, y) \geq d(x, p_{F}(x))$$
+avec égalité ssi $y = p_{F}(x)$
+Donc, 
+$$\begin{array}{rl}
+d(x, p_{F}(x))&=\min_{y \in F} d(x, y) \\
+&= inf_{y \in F} d(x, y) \\
+&= d(x, F)
+\end{array}$$
+Et si $y \in F$ vérifie : $d(x, y) = d(x, F)$ 
+Alors, 
+$$d(x, y) = d(x, p_{F}(x)) \text{ Ainsi, }y = p_{F}(x)$$
+
+#### Propriété
+Soit $E$ euclidien, $H$ est un hyperplan de $E$ et $u$ normal à $H$ 
+Alors, 
+$$\forall x \in E, d(x, H) = \frac{\left| \left< x, u \right> \right|}{\left|\left| u \right|\right| }$$
+
+Dans une BON si $H$ est d'équation : $\sum_{i} a_{i}x_{i} = 0$ alors, 
+$$d(x, H) = \frac{\left| \sum_{i}a_{i}x_{i}\right|}{\sqrt{ \sum_{i}a_{i}^{2} }}$$
