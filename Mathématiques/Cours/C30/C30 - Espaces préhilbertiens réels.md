@@ -555,4 +555,18 @@ $$\left< e_{p+1}, e_{p} \right> = \frac{1}{\left|\left| u \right|\right| } (\lef
 
 Finir la suite en exo.
 
-#### Théorème : Procédé d'orthonormali
+#### Théorème : Procédé d'orthonormalisation de Gran-Schmidt
+Pour toute famille $(f_{i})_{i \in I}$ de $E$ (où $I = [\![1, m]\!]$ ou $I = \mathbb{N}$) il existe une unique famille orthonormée $(e_{i})_{i \in I}$ tq 
+$$\forall p \in I, \begin{cases}
+Vect(e_{i})_{i \leq p} = Vect(f_{i})_{i \leq p} \\
+\left< e_{p}, f_{p} \right> >0
+\end{cases}$$
+
+Cette famille est obtenue par la construction par récurrence suivante : 
+Si $I = [\![1, m]\!]$, $e_{1} = \frac{1}{\left|\left| f_{1} \right|\right|}f_{1}$
+Si $I = \mathbb{N}$, $e_{0} = \frac{1}{\left|\left| f_{0} \right|\right|}f_{0}$
+
+et pour $p \in I$, 
+$$e_{p+1}  = \frac{1}{\left|\left| u_{p+1} \right|\right| }u_{p+1}$$
+avec 
+$$u_{p+1} = f_{p+1}-\sum_{i \leq p} \left< f_{p+1}, e_{i} \right> e_{i}$$
