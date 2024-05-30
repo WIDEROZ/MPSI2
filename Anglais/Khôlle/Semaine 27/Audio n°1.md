@@ -32,4 +32,4 @@ The knowledge of ancient languages, permit people to learn modern languages fast
 Moreover, obviously there is the historical aspect, when philosophers or scientists before, were discovering groundbreaking theorems or explaining their thought through paper, we do need of people who can translate written informations. For example Aristote a philosopher and mathematician would never be known if there was no one who can translate his works. 
 
 #### Conclusion
-To conclude, to better understand the past of the humanity, to optimise our way to learn, the study of ancient languages are useful 
+To conclude, to better understand the past of the humanity, to optimise our way to learn, the study of ancient languages is absolutely useful. 
