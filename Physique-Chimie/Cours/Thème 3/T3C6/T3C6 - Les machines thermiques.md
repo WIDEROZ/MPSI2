@@ -399,4 +399,17 @@ le rapport volumétrique des cylindres.
    
    Faire une étude de croissance $\eta = 1-\alpha^{1-\gamma}$.
    
-   Pour augmenter $\alpha$
+   Pour augmenter $\alpha$ il faut surtout augmenter $V_{\max}$ ce qui pose un problème de taille pour le moteur
+   Si $\alpha$ est trop grand, le carburant pourrait s'enflammer instantanément. 
+8. Calculer $\eta$ pour $\alpha = 7$ et $\gamma = 1.4$
+   $$\eta = 1- 7^{-0.4} \approx 1-\frac{1}{\sqrt{ 7 }} = 54 \% $$
+
+### b. Cycle de Diesel
+Le cycle théorique de Diesel est formé de 
+- Une compression adiabatique réversible
+- Une combustion isobare
+- Une détente adiabatique réversible
+- Un refroidissement isochore
+
+1. Tracer ce cycle dans le diagramme de Clapeyron
+   EXCAL 14
