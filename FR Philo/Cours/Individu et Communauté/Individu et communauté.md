@@ -74,4 +74,8 @@ Les gens se rendent à l'opéra, moins pour qu'entendre le chant mais pour scrut
 
 Mai semble le signe d'un cohérence entre son nom et son identité. 
 
-Hiérarchie financière, et 
+Hiérarchie financière, entre la possession. 
+Je me noté bien que nous voyons dès le début que est-ce que c'est clair pour tout le monde. 
+Oui j'ai un domestique à la maison mais je subordonne pas des personnages. 
+La première image que nous avons de mai (le mois???) c'est une image de, elle caresse les fleur. Mai connais les usages (finalement c'est un perso et pas le mois) ptn 10 ans de plus mdrr la grosse baiseuse. Est-ce que c'est bon pour vous???
+Le feu ca chauffe, la glace c'est froid
