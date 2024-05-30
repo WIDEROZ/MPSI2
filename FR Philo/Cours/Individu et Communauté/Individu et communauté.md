@@ -23,7 +23,7 @@ Le roman en général n'a aucune contrainte formelle, c'est un genre particuliè
 
 
 # Le temps de l'innocence
-# Incipit
+## Incipit
 C'est dès les premières lignes que vont permettre au lecteur de donner son consentement pour lire son roman.
 Il se construit comme une référence excentrique. 
 Elle va être par certains aspect proche de la réalité. 
@@ -32,4 +32,9 @@ Mais aussi par d'autres points le roman sera de l'ordre du fictionnel.
 L'individu est au cœur d'une civilisation qui donne au libéralisme. 
 USA : mythe de l'individu en tant que terre apte a vouloir révéler son potentiel. (western)
 
-Le monde élégant (à retenir) il semble se dis
+Le monde élégant (à retenir) il semble se distinguer par son esthétique. 
+<p align="center">"An exceptionally brilliant audience"</p>
+Cette communauté se limite t'elle à une haute société? 
+Peut-on se dire que l'Amérique forme une communauté au sein du monde occidental. 
+New-York identifie l'ancien monde comme son rival. 
+La comparaison avec l'autre c'est de mettre en évidence sa singularité. 
