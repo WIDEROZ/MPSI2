@@ -26,6 +26,7 @@ The latin is taking a significant place in the curriculum.
 Why ancient languages are useful today? 
 
 #### 1.
-The knowledge of Latin or ancient Greek permit people to learn modern languages faster than those who don't have tried to learn old languages because there are some words that sounds the same in many different language for example to learn Italian or Greek.
+The knowledge of ancient languages, permit people to learn modern languages faster than those who don't have tried to learn old languages because there are some words that sounds the same in many different language for example to learn Italian someone
 
 #### 2.
+Moreover, obviously there is the historical aspect for research,  hebrew 
