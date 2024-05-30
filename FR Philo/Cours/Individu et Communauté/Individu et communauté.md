@@ -56,3 +56,11 @@ Le fait de mette en scene des chanteurs lyriques de l'ancien continent qui ont r
 
 Hélène souhaite divorcer. 
 Identification de cette audience / communauté à un lieu signalé comme tel. 
+C'est un lieu fédérateur culturel. 
+Le centre serait le Manhattan
+Le début du roman est centré sur un spectacle, or le point d'intérêt n'est pas la marguerite de Faust, mais la salle. On comprend aussi que le spectacle à voir c'est cette société qui se trouve dans les loges.
+
+Monstre : celui qu'on exhibe. 
+Dans le Roman regarder sera vérifier la conformité d'un comportement individuel par rapport aux normes.
+
+Dispositif panoptique : bâtiment placé au centre pour mieux 
