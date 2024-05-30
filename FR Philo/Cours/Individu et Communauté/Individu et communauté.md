@@ -38,3 +38,7 @@ Cette communauté se limite t'elle à une haute société?
 Peut-on se dire que l'Amérique forme une communauté au sein du monde occidental. 
 New-York identifie l'ancien monde comme son rival. 
 La comparaison avec l'autre c'est de mettre en évidence sa singularité. 
+Cristallisation identitaire : avoir une conscience aigu et de faire un peu d'exes par sa singularité. 
+L'indice "$40^{\text{eme}}$ rue" joue un role d'espace de sectorisation, et ce serait la limite que la haute bourgeoisie. 
+New-York, semble a cette époque monotone dans les couleurs et sa structure. 
+Le nouvel opera semble opérer un rôle important 
