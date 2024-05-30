@@ -29,4 +29,4 @@ Why ancient languages are useful today?
 The knowledge of ancient languages, permit people to learn modern languages faster than those who don't have tried to learn old languages because there are some words that sounds the same in many different language for example to learn Italian someone
 
 #### 2.
-Moreover, obviously there is the historical aspect for research,  hebrew 
+Moreover, obviously there is the historical aspect, when philosophers or scientists before, were discovering groundbreaking theorems or explaining their thought through paper, we do need of people who can translate written informations. 
