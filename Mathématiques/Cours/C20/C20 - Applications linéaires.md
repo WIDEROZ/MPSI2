@@ -1,4 +1,4 @@
-Soit $\mathbb{K} = \{ \mathbb{R}, \mathbb{C} \}$, 
+**Soit** $\mathbb{K} = \{ \mathbb{R}, \mathbb{C} \}$, 
 
 # I. Généralités
 ## 1. Définition
