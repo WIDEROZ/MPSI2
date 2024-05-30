@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "mode": "source",
                 "source": false
               }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -161,6 +161,9 @@
   },
   "active": "f89b286c4a687d1d",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Mathématiques/Cours/C30/C30.md",
@@ -171,9 +174,7 @@
     "Anglais/Cours/05-22.md",
     "Anglais/Cours/05 - 29.md",
     "Mathématiques/Cours/C14/C14 - Résumé.md",
-    "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
     "Mathématiques/TD/E29/E29-Integration.pdf",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/TD/E29",
     "Info/Cours/Chapitre 15/script.c",
     "Info/Cours/Chapitre 15/script.ml",
@@ -183,7 +184,6 @@
     "Info/Cours/Chapitre 15/Graphe.md",
     "Info/Cours/Chapitre 15",
     "Mathématiques/Cours/C29/C29.md",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4.md",
     "Physique-Chimie/Cours/Thème 3/T3C3/T3C3 - Les applications du premier principe.md",
