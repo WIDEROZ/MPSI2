@@ -413,3 +413,13 @@ Le cycle théorique de Diesel est formé de
 
 1. Tracer ce cycle dans le diagramme de Clapeyron
    EXCAL 14
+2. Exprimer la pression $P_{B}$ en fonction de $P_{A}$, $\alpha = \frac{V_{\max}}{V_{\min}} = \frac{V_{A}}{V_{B}}$ et de $\gamma$
+   C'est une transformation isentropique, donc la loi de Laplace donne : 
+   $$P_{A}V_{A}^{\gamma} = P_{B}V_{B}^{\gamma}$$
+   Ainsi, 
+   $$P_{B} = P_{A}\alpha^{\gamma}$$
+3. Exprimer la température $T_{B}$ en $B$ en fonction de $T_{A}$ de $\alpha$ et de $\gamma$
+   $$\frac{PV}{T} = \text{cte}$$
+   $$\frac{P_{A}V_{A}}{T_{A}} = \frac{P_{B}V_{B}}{T_{B}} \Leftrightarrow T_{B} = T_{A} \frac{P_{B}V_{B}}{P_{A}V_{A}} = T_{A}\frac{P_{B}}{P_{A}\alpha} = T_{A}\alpha^{\gamma-1}$$
+4. Calculer le rendement
+   $$\eta = -\frac{W}{Q_{C}}$$
