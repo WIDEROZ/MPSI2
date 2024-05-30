@@ -618,4 +618,17 @@ Dans ce cas : $F^{\perp}$ est appelé le supplémentaire orthogonal de $F$
 $$\mathcal{C}^{0}_{\mathbb{R}}([a, b]) = Vect(x \mapsto 1) \oplus (Vect(x \mapsto 1))^{\perp}$$
 
 #### Propriété : Cas euclidien
-Supposons que $E$ est euclidien 
+Supposons que $E$ est euclidien
+on note $\dim E = n$ qui existe par définition de euclidien
+Soit $F \underset{sev}{\subset}E$, 
+Par ce qui précède on a : $E = F \oplus F^{\perp}$, 
+Donc, 
+$$\dim F^{\perp} = n - \dim F$$
+$$F^{\perp \perp} = F$$
+ATTENTION $2$ est en général faux
+
+#### Exemple
+Dans $\mathbb{R}^{3}$ usuel l'orthogonal d'une droite est un plan et vice versa
+
+Soit $X \subset E$,
+$$X^{\perp} = \{ y \in E | \forall x \in X, \left< x, y \right> = 0 \}$$
