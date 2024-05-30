@@ -422,4 +422,21 @@ Le cycle théorique de Diesel est formé de
    $$\frac{PV}{T} = \text{cte}$$
    $$\frac{P_{A}V_{A}}{T_{A}} = \frac{P_{B}V_{B}}{T_{B}} \Leftrightarrow T_{B} = T_{A} \frac{P_{B}V_{B}}{P_{A}V_{A}} = T_{A}\frac{P_{B}}{P_{A}\alpha} = T_{A}\alpha^{\gamma-1}$$
 4. Calculer le rendement
-   $$\eta = -\frac{W}{Q_{C}}$$
+   $$\eta = -\frac{W}{Q_{C}} = 1+ \frac{Q_{F}}{Q_{C}}$$
+   Grace au premier principe
+   On a par la première loi de joules :
+   $$\Delta H_{BC} = nC_{p_{m}}\Delta T$$
+   et 
+   $$\Delta H_{BC} =  Q_{C}$$
+   Car c'est monobare
+   $$Q_{C} = nC_{p_{m}}\Delta T$$
+   Ensuite : 
+   $$\Delta U_{DA} = W + Q_{F} = 0 + Q_{F}$$
+   Car isochore
+   Par la première loi de joules :
+   $$Q_{F} = nC_{v_{m}}\Delta T$$
+   Ainsi,
+   $$\eta = 1+ \frac{T_{A}-T_{D}}{\gamma(T_{C}-T_{B})}$$
+5. Exprimer $\eta$ en fonction de $\alpha = \frac{V_{\max}}{V_{\min}}$ et $\beta = \frac{V_{C}}{V_{\min}}$
+   
+   
