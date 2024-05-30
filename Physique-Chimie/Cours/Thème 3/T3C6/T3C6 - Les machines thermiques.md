@@ -384,4 +384,19 @@ le rapport volumétrique des cylindres.
    D'après l'énoncé, les phases $BC$ et $DE$ sont adiabatiques réversibles donc on peut utiliser les lois de Laplace entre $T$ et $V$ : 
    $$TV^{\gamma-1} = \text{cte}$$
    Entre $B$ et $C$
-   $$T_{B}V_{B}^{\gamma-1} = T_{C}V_{C}^{\gamma-1} = $$
+   $$T_{B}V_{B}^{\gamma-1} = T_{C}V_{C}^{\gamma-1} = T_{C}V_{A}^{\gamma-1}$$
+   entre $D$ et $E$ :
+   $$T_{D}V_{D}^{\gamma-1} = T_{D}V_{A}^{\gamma-1}  = T_{E}V_{B}^{\gamma-1}$$
+   Alors, 
+   $$T_{D} = T_{E} \times \left( \frac{V_{B}}{V_{A}} \right)^{\gamma-1} = T_{E}\alpha^{\gamma-1}$$
+   $$T_{C} = T_{B} \alpha^{\gamma-1}$$
+   Alors, 
+   $$T_{D} - T_{C} = \alpha^{\gamma-1}(T_{E}-T_{B})$$
+   Donc, 
+   $$\eta = 1- \frac{T_{E}-T_{B}}{T_{D}-T_{C}} = 1-\alpha^{1-\gamma}$$
+   $\alpha > 0 \Rightarrow \eta <1$   
+7. Comment évolue $\eta$ avec $\alpha$. Quel problème technique empêche de se rapprocher de $\eta=1$.
+   
+   Faire une étude de croissance $\eta = 1-\alpha^{1-\gamma}$.
+   
+   Pour augmenter $\alpha$
