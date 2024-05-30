@@ -63,4 +63,7 @@ Le début du roman est centré sur un spectacle, or le point d'intérêt n'est p
 Monstre : celui qu'on exhibe. 
 Dans le Roman regarder sera vérifier la conformité d'un comportement individuel par rapport aux normes.
 
-Dispositif panoptique : bâtiment placé au centre pour mieux 
+Dispositif panoptique : bâtiment placé au centre pour mieux regarder les autres autour. 
+
+Est-il individu si il joue un rôle?
+
