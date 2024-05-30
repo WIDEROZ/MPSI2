@@ -553,5 +553,6 @@ On sait que : $(e_{i})_{i = 1}^{p}$ est ON donc,
 Pour $f \in [\![1, p]\!]$
 $$\left< e_{p+1}, e_{p} \right> = \frac{1}{\left|\left| u \right|\right| } (\left< f, e_{j} \right> -\left< f, e_{j} \right> ) =0$$
 
-Faire la suite en exo.
+Finir la suite en exo.
 
+#### Théorème : Procédé d'orthonormali
