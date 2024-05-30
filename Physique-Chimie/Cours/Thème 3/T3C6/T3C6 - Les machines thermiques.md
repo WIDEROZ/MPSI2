@@ -356,3 +356,8 @@ $$\text{VOIR LA FICHE DE COURS}$$
 On pose : 
 $$\boxed{\alpha = \frac{V_{\max}}{V_{\min}}}$$
 le rapport volumétrique des cylindres. 
+1. Tracer le diagramme de Clapeyron.
+   On étudie le cycle $BCDE$ du cours
+2. Identifier les phases de contact avec les sources chaudes et froides. Ces phases sont elles réversibles. 
+   entre $C$ et $D$ il y a combustion donc le système est en contact avec la source chaude
+   Entre $E$ et $B$ le système ses refroidit au contact de la source froide
