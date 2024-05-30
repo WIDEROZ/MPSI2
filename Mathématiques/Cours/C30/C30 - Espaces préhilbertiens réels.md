@@ -641,3 +641,15 @@ Soit $E$ euclidien et $e$ une BON de $E$
 2. Soit $H$ un hyperplan d'équation $\sum a_{i}x_{i} = 0$ dans la BON $e$. 
    Alors son supplémentaire orthogonal est : $Vect\left( \sum_{i} a_{i}e_{i} \right)$
 
+## 2. Projections orthogonales sur un sous espace vectoriel de dimension finie
+#### Définition
+Soit $E$ préhilbertien et $F \underset{sev}{\subset} E$ de dimension finie.
+On sait que $E = F \oplus F^{\perp} = F \overset{\perp}{\oplus} F^{\perp}$
+la projection sur $F$ parallèlement à $F^{\perp}$ est appelée la projection orthogonale sur $F$. 
+
+#### Proposition
+Avec les notation et hypothèses ci-dessus, si $(e_{i})_{i = 1}^{p}$ est une BON du ssesp alors, 
+$$\forall x \in E, p_{F}(x) = \sum_{i = 1}^{p} \left< x, e_{i} \right> e_{i}$$
+
+#### Proposition
+Cas particulier des hyperplans en dimen
