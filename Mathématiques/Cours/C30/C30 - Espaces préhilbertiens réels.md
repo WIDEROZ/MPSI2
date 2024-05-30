@@ -580,8 +580,26 @@ On orthonormalise la famille libre : $(t \mapsto t^{n})_{n \in \mathbb{N}}$,
 on obtiens une suite de fonctions polynômes $(P_{n})$ qui est orthogonale mais historiquement on retravaille en général pas sur la famille normée. 
 
 # V. Bases orthonormé d'un espace euclidien
+Soit $(E, \left< \cdot , \cdot \right>)$ un espace euclidien
+## 1. Corollaires du procédé d'orthonormalisation de Gran-Schmidt
 #### Corollaire
 Tout espace euclidien possède des bases orthonormés
 
 Démonstration : 
-Comme il est de dimension finie, il admet des bases et il suffit d'en orthonormaliser une 
+Comme il est de dimension finie, il admet des bases et il suffit d'en orthonormaliser une. 
+
+#### Corollaire : Théorème de la BON incomplète
+Toute famille orthonormée de $E$ peut être complété en une base orthonormé. 
+
+Démonstration :
+On complète la famille en une base, on l'orthonormalise et les vecteurs de la famille de départ sont inchangés. 
+
+## 2. Calculs en coordonnés
+#### Propriété : Calculs en base orthonormé
+Soit $e = (e_{i})_{i=1}^{n}$ une BON de $E$, 
+On note : $(x_{i})_{i = 1}^{n} = (e^{*}_{i}(x))_{i=1}^{n}$
+les coordonnés de $x \in E$ dans la base $e$, 
+Alors, 
+$$\forall x \in E, \forall i \in [\![1, n]\!], x_{i} = \left< x, e_{i} \right> $$
+$$\forall x, y \in E, \left< x, y \right> = \sum_{i = 1}^{n} x_{i}y_{i}$$
+$$\forall x \in E, \left|\left| x \right|\right| $$
