@@ -28,9 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "970c85b5ded13ddb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -107,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
+                "file": "Mathématiques/Cours/C14/C14 - Dérivabilité.md"
               }
             }
           }
@@ -159,10 +171,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f89b286c4a687d1d",
+  "active": "970c85b5ded13ddb",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
