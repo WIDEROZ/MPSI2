@@ -925,7 +925,6 @@ Montrer que $(u_{1}, u_{2}, u_{4})$ engendre $\mathbb{R}^{3}$ : Comme avant
 
 ###### Question : Peut on enlever un vecteur a $(u_{1}, u_{2}, u_{4})$ tout en conservant une famille dans $\mathbb{R}^{3}$?
 $$\text{Non} \space \square$$
-$$\text{ Trivialité sans pareil} \text{ ez clap 36 no scope dans ta mere}$$
 
 #### Conclusion
 $(u_{1}, u_{2}, u_{4})$ est belle 
