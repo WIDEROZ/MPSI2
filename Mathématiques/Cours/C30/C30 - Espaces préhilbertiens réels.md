@@ -570,3 +570,18 @@ et pour $p \in I$,
 $$e_{p+1}  = \frac{1}{\left|\left| u_{p+1} \right|\right| }u_{p+1}$$
 avec 
 $$u_{p+1} = f_{p+1}-\sum_{i \leq p} \left< f_{p+1}, e_{i} \right> e_{i}$$
+
+#### Exemple des polynômes orthogonaux
+$E = \mathcal{C}^{0}([a, b])$
+Pour $f, g \in E$,
+$$\left< f,g  \right>_{w} = \int _{a}^{b} fgw$$
+
+On orthonormalise la famille libre : $(t \mapsto t^{n})_{n \in \mathbb{N}}$,
+on obtiens une suite de fonctions polynômes $(P_{n})$ qui est orthogonale mais historiquement on retravaille en général pas sur la famille normée. 
+
+# V. Bases orthonormé d'un espace euclidien
+#### Corollaire
+Tout espace euclidien possède des bases orthonormés
+
+Démonstration : 
+Comme il est de dimension finie, il admet des bases et il suffit d'en orthonormaliser une 
