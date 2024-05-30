@@ -359,5 +359,17 @@ le rapport volumétrique des cylindres.
 1. Tracer le diagramme de Clapeyron.
    On étudie le cycle $BCDE$ du cours
 2. Identifier les phases de contact avec les sources chaudes et froides. Ces phases sont elles réversibles. 
-   entre $C$ et $D$ il y a combustion donc le système est en contact avec la source chaude
-   Entre $E$ et $B$ le système ses refroidit au contact de la source froide
+   Entre <u>C et D</u> il y a combustion donc le système est en contact avec la <u>source chaude.</u> 
+   Entre <u>E et B</u> le système ses refroidit au contact de la <u>source froide.</u>
+   La <u>combustion est une réaction chimique</u>, le <u>refroidissement</u> entraîne une <u>diffusion de température</u> dans les deux cas ces transformations sont <u>irréversibles.</u> 
+3. Déterminer le transfert thermique $Q_{c}$ en fonction des températures.
+   On applique le premier principe entre $C$ et $D$ : 
+   $$\Delta U_{CD} = W_{CD} + Q_{C} = 0 +Q_{c}$$
+   Car $V = cte$ entre $C$ et $D$
+   Comme c'est un gaz parfait, on utilise la première loi de Joule :
+   $$\Delta U_{CD} = nC_{v_{m}}\Delta T$$
+   On a ainsi, 
+   $$\boxed{Q_{C} = nC_{v_{m}}(T_{D}-T_{C})}$$
+4. Exprimer $Q_{F}$ en fonction des températures, par analogie :
+   $$\boxed{Q_{F} = nC_{v_{m}}(T_{B}-T_{E})}$$
+5. Exprimer le rendement en fon
