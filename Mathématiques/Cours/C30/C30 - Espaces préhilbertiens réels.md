@@ -648,8 +648,29 @@ On sait que $E = F \oplus F^{\perp} = F \overset{\perp}{\oplus} F^{\perp}$
 la projection sur $F$ parallèlement à $F^{\perp}$ est appelée la projection orthogonale sur $F$. 
 
 #### Proposition
-Avec les notation et hypothèses ci-dessus, si $(e_{i})_{i = 1}^{p}$ est une BON du ssesp alors, 
+Avec les notation et hypothèses ci-dessus, si $(e_{i})_{i = 1}^{p}$ est une BON du ssesp $F$ alors, 
 $$\forall x \in E, p_{F}(x) = \sum_{i = 1}^{p} \left< x, e_{i} \right> e_{i}$$
 
 #### Proposition
-Cas particulier des hyperplans en dimen
+Cas particulier des hyperplans en dimension finie
+Soit $E$ euclidien et $u \in E \setminus \{ 0 \}$ 
+Alors, la projection orthogonale sur l'hyperplan $H= u^{\perp}$ est :
+$$p_{H} : \begin{cases}
+E \to E \\
+x \mapsto x - \frac{\left< x, u \right>}{\left|\left| u \right|\right| ^{2}}u 
+\end{cases}$$
+
+#### Remarque
+$$\left< x, \frac{u}{\left|\left| u \right|\right| } \right> \frac{u}{\left|\left| u \right|\right| } = \frac{\left< x, u \right>}{\left|\left| u^{2} \right|\right| ^{2}} u$$
+$\frac{u}{\left|\left| u \right|\right|}$ BON de $Vect(u)$
+$\left< x, \frac{u}{\left|\left| u \right|\right|} \right>$ projection $\perp$ sur $Vect(u)$ 
+
+#### Propriété : Inégalité de Bessel
+Avec les notations et hyperplan de la définition : 
+$$\forall x \in E, \left|\left| p_{F}(x) \right|\right| \leq x$$
+
+Démonstration : Pythagore
+$$x = p_{F}(x) - (x-p_{F}(x))$$
+les deux composantes sont orthogonales donc, 
+$$\left|\left| x \right|\right| ^{2} = \left|\left| p_{F}(x) \right|\right| ^{2} + \left|\left| x-p_{F}(x) \right|\right| ^{2} \geq \left|\left| p_{F}(x) \right|\right|^{2} $$
+
