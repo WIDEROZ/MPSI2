@@ -19,3 +19,4 @@ Le "et" peut être perçu comme une opposition
 Le pays à fait de l'individu son allégorie
 L'homme pionnier va construire l'Amérique par le western. 
 
+Le roman en général n'a aucune contrainte formelle, c'est un genre particulièrement libre contrairement à la poésie et le théâtre
