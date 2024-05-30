@@ -73,3 +73,5 @@ Newland dira que la haute société cet aria semble bien trop lyrique.
 Les gens se rendent à l'opéra, moins pour qu'entendre le chant mais pour scruter les autres. 
 
 Mai semble le signe d'un cohérence entre son nom et son identité. 
+
+Hiérarchie financière, et 
