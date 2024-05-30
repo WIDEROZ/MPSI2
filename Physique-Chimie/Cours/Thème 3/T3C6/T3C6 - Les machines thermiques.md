@@ -349,7 +349,7 @@ Combustion d'un mélange air-carburant
 
 ### a. Cycle de Beau de Rochas
 C'est un moteur à $4$ temps
-
+On suppose que les phases $BC$ et $DE$ sont adiabatiques réversibles.
 Représentation du cycle : 
 $$\text{VOIR LA FICHE DE COURS}$$
 
@@ -372,4 +372,16 @@ le rapport volumétrique des cylindres.
    $$\boxed{Q_{C} = nC_{v_{m}}(T_{D}-T_{C})}$$
 4. Exprimer $Q_{F}$ en fonction des températures, par analogie :
    $$\boxed{Q_{F} = nC_{v_{m}}(T_{B}-T_{E})}$$
-5. Exprimer le rendement en fon
+5. Exprimer le rendement en fonction des températures : 
+   $$\eta = -\frac{W}{Q_{c}}$$
+   Comme c'est un cycle : 
+   $$\Delta U = 0 = W + 0 + Q_{C} + 0 + Q_{F}$$
+   Alors, 
+   $$\eta = \frac{Q_{F} + Q_{C}}{Q_{C}} = 1+ \frac{T_{B}-T_{E}}{T_{D}-T_{C}} $$
+
+6. Exprimer $\eta$ en fonction du rapport de compression 
+   $\alpha = \frac{V_{\max}}{V_{\min}} = \frac{V_{B}}{V_{A}}$ et et du coefficient $\gamma$. 
+   D'après l'énoncé, les phases $BC$ et $DE$ sont adiabatiques réversibles donc on peut utiliser les lois de Laplace entre $T$ et $V$ : 
+   $$TV^{\gamma-1} = \text{cte}$$
+   Entre $B$ et $C$
+   $$T_{B}V_{B}^{\gamma-1} = T_{C}V_{C}^{\gamma-1} = $$
