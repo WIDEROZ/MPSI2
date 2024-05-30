@@ -632,3 +632,12 @@ Dans $\mathbb{R}^{3}$ usuel l'orthogonal d'une droite est un plan et vice versa
 
 Soit $X \subset E$,
 $$X^{\perp} = \{ y \in E | \forall x \in X, \left< x, y \right> = 0 \}$$
+
+#### Propriété
+Soit $E$ euclidien et $e$ une BON de $E$
+1. Soit $n = \sum_{i} a_{i}e_{i} \in E$ non nul
+   Alors, $n^{\perp}$ est un hyperplan d'équation : 
+   $\sum_{i}a_{i}x_{i}$ dans la BON $e$
+2. Soit $H$ un hyperplan d'équation $\sum a_{i}x_{i} = 0$ dans la BON $e$. 
+   Alors son supplémentaire orthogonal est : $Vect\left( \sum_{i} a_{i}e_{i} \right)$
+
