@@ -602,4 +602,20 @@ les coordonnés de $x \in E$ dans la base $e$,
 Alors, 
 $$\forall x \in E, \forall i \in [\![1, n]\!], x_{i} = \left< x, e_{i} \right> $$
 $$\forall x, y \in E, \left< x, y \right> = \sum_{i = 1}^{n} x_{i}y_{i}$$
-$$\forall x \in E, \left|\left| x \right|\right| $$
+$$\forall x \in E, \left|\left| x \right|\right| = \sqrt{ \sum_{i = 1}^{n} x_{i}^{2} }$$
+
+Démonstration : $\oplus$ $\square$ $\otimes$ PYTHON IS TRASH CYKA
+
+# VI. Projections orthogonales
+## 1. Supplémentaire orthogonal d'un sous espace de dimension finie
+#### Propriété
+Soit $F \underset{sev}{\subset}E$ de dim finie d'un espace préhilbertien $(E, \left< \cdot, \cdot \right>)$
+Alors, 
+$$E = F\oplus F^{\perp}$$
+Dans ce cas : $F^{\perp}$ est appelé le supplémentaire orthogonal de $F$
+
+#### Exemple
+$$\mathcal{C}^{0}_{\mathbb{R}}([a, b]) = Vect(x \mapsto 1) \oplus (Vect(x \mapsto 1))^{\perp}$$
+
+#### Propriété : Cas euclidien
+Supposons que $E$ est euclidien 
