@@ -26,4 +26,4 @@ The latin is taking a significant place in the curriculum.
 Why ancient languages are useful today? 
 
 #### 1.
-It let people think that those who learn latin are cultured because it is a rare thing to encounter someone who learn latin. 
+Latin permit people to learn modern languages faster than those who don't have tried to learn latin because they are some words tha,
