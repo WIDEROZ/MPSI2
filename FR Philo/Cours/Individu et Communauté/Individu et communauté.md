@@ -51,4 +51,8 @@ Sa position marginale lui permettra de s'abstraire du groupe des personnage dép
 
 Peut-on tous échapper à la communauté? 
 
-# 
+M. Capoul est un tenor Français 1839-1924 
+Le fait de mette en scene des chanteurs lyriques de l'ancien continent qui ont réellement existé
+
+Hélène souhaite divorcer. 
+Identification de cette audience / communauté à un lieu signalé comme tel. 
