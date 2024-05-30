@@ -462,5 +462,9 @@ Le cycle théorique de Diesel est formé de
    - $\alpha = \text{cte}$ : $\eta$ évolue comme $\frac{1-\beta^{\gamma}}{1-\beta}$, $\gamma > 1 \Rightarrow \beta^{\gamma} \text{ augmente plus vite que }\beta$ alors, $\frac{1-\beta^{\gamma}}{1-\beta}$ diminue quand $\beta \uparrow$
 6. Calculer les valeurs numériques de $\eta, T_{B}, T_{C}$ et $T_{D}$ avec $T_{A} = 300 K$, $\alpha = 20$, $\beta = 3$ et $\gamma = 1.4$ 
    $\eta = 61\%$, $T_{B} = 994 K$, $T_{C} = 2983 K$, $T_{D} = 1397 K$
-7. Pourquoi ce moteur n'a pas besoin de bougies : 
-   Ce moteur n'as pas bes
+7. Pourquoi ce moteur n'a pas besoin de bougies? 
+   Ce moteur n'as pas besoin de bougies car a cette température en fin de compression le mélange air / carburant s’enflamme spontanément. 
+8. Pourquoi le carburant est injecté au point $B$ et pas en $A$ ?
+   On injecte le carburant en fin de la compression pour éviter l’enflamment avant la phase de combustion
+9. Déterminer la puissance théorique de ce moteur avec $V_{\max} = 2L$ $3600 \, \mathrm{tr}.\min^{-1}$ 
+   $\mathcal{P} = \frac{W}{T}$ $T$ : duré d'un cycle $W = -(Q_{F} + Q_{C})= - nC_{v_{m}}(T_{A}-T_{D})-nC_{p_{m}}(T_{C}-T_{B})$ 
