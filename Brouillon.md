@@ -203,11 +203,19 @@ Comme la probabilité est équiprobable :
 
 $$\begin{array}{|c|c|}\hline
 _V\setminus U& 1&2&3&4&P_{V} \\ \hline 
-1 &0& \frac{1}{6}& \frac{1}{6} & \frac{1}{6} & \\ \hline
-2 &\frac{1}{6}&0&\frac{1}{6}&\frac{1}{6}\\\hline
-3 &\frac{1}{6}&\frac{1}{6}&0&\frac{1}{6}\\\hline
-4&\frac{1}{6}& \frac{1}{6} & \frac{1}{6} &0 \\\hline 
+1 &0& 0& 0 & 0 &0 \\ \hline
+2 &\frac{1}{6}&0&0&0& \frac{1}{6}\\\hline
+3 &\frac{1}{6}&\frac{1}{6}&0&0& \frac{1}{3}\\\hline
+4&\frac{1}{6}& \frac{1}{6} & \frac{1}{6} &0 & \frac{1}{2} \\\hline 
 P_{U}
  \\
 \hline
 \end{array}$$
+
+
+Supposons que 
+$$\forall x, y \in X(\Omega) \times Y(\Omega), P(X = x, Y = y) = \frac{1}{\left| E \times  F\right|}$$
+Car c'est un espace proba fini
+Alors, 
+Pour $x \in X(\Omega)$ fixé, 
+$$\sum_{y_{i}\in X(\Omega)}P(X = x, Y = y_{i}) = P(X = x) = \frac{1}{\left| E \right|} $$
