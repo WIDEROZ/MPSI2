@@ -508,7 +508,7 @@ u = \sin(nt) \\
 dv = \sin(t)dt
 \end{cases} \text{ et } \begin{cases}
 du = n\cos(nt)dt \\
-v = \sin(t)
+v = \cos(t)
 \end{cases}$$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
