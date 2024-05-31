@@ -443,7 +443,7 @@ $$X^{\perp} = \{ y \in E \left| \forall x \in X, <x, y>  = 0\right.\}$$
 5. Pour tout $F \underset{sev}{\subset}E$, $F \cap F^{\perp} = \{ 0 \}$ ie $F$ et $F^{\perp}$ sont en somme directe (mais pas forcément supplémentaires)
 6. $\forall X, Y \subset E, X \subset Y \Rightarrow X^{\perp} \supset Y^{\perp}$
 7. $\forall X \subset E, X^{\perp} = (Vect(X))^{\perp}$
-8. $\forall X \subset E, X^{\perp \perp} \supset X$
+8. $\forall X \subset E, X^{\perp \perp} \supset X$ 
 9. $\forall X, Y \subset E, (X \cup Y)^{\perp}= X^{\perp} \cap Y^{\perp}$
 10. $\forall X, Y \subset E, (X \cap Y)^{\perp}= X^{\perp} + Y^{\perp}$
 
@@ -485,6 +485,7 @@ $$\forall n \in \mathbb{N}^{*}, f_{1, n} : \begin{cases}
 t \mapsto \cos(nt)
 \end{cases}$$
 
+
 On note : 
 $$I = (\{ 0 \} \times \mathbb{N}) \sqcup (\{ 1 \} \times \mathbb{N}^{*})$$
 ###### 1. Montrons que : $(f_{i, n})_{(i, n) \in I}$ est orthogonale
@@ -520,6 +521,8 @@ Ainsi,
 $$\left< f_{0, n}, f_{1, n} \right> = \int _{0}^{2\pi} \cos(t)\cos(nt) dt = 0$$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
+$$e_{1, n} = $$
+
 
 
 #### Propriété
