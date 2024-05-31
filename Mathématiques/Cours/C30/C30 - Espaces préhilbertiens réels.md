@@ -67,7 +67,7 @@ c'est à dire :
    par symétrie
 4. $$\forall x \in E, \begin{cases}
     <x, x> \geq 0 \\
-    <x, x> \Leftrightarrow x = 0 \end{cases}$$
+    <x, x>=0 \Leftrightarrow x = 0 \end{cases}$$
     On a plus : 
     $$\begin{cases}
     \forall x \in E, <x, 0> = 0 \\
@@ -137,17 +137,28 @@ $$<\cdot, \cdot>_{2} : \begin{cases}
 est un produit scalaire qu'on appelle produit scalaire $L^{2}$
 
 Démonstration : en exo
+Soit $f, g \in \mathcal{C}_{\mathbb{R}}^{0}([a, b])$, et $\lambda \in \mathbb{R}$, 
+$$\left< f, \lambda g \right>  = \lambda \int _{a}^{b} fg = \lambda \left< f, g \right>  $$
+$$\left< f+f', g+g' \right>  \int _{a}^{b}fg + \int _{a}^{b} fg'  + \int _{a}^{b} f'g + \int_{a}^{b}f'g'  $$
+$$= \left< f, g \right> + \left< f, g' \right> + \left< f', g \right> + \left< f', g' \right> $$
+
+
+$$\left< f, f \right> = \int _{a}^{b} f \times f$$
+Comme $f^{2} > 0$, et que $a < b$, 
+$$\left< f, f \right> \geq 0$$
+
 
 #### Exercice
 PS $L^{2}$ avec poids
 Soient $a <b$ et $w \in \mathcal{C}_{\mathbb{R}}^{0}([a, b])$ strictement positive sur $[a, b]$
 Alors, 
-$$\begin{cases}
-(\mathcal{C}_{\mathbb{R}}^{0}([a, b])) \to \mathbb{R} \\
+$$<\cdot , \cdot>_{L^{2}} : \begin{cases}
+(\mathcal{C}_{\mathbb{R}}^{0}([a, b]))^{2} \to \mathbb{R} \\
 (f, g) \mapsto \int _{a}^{b} fgw 
 \end{cases}$$
 est un PS
-C'est le PS canonique sur $\mathcal{M}_{n ,p}(\mathbb{R})$,
+C'est le PS canonique sur $\mathcal{C}_{\mathbb{R}}^{0}([a, b])$, 
+
 
 ### c. $\mathcal{M}_{n, p}(\mathbb{R})$
 Le produit scalaire sur $\mathcal{M}_{n, p}(\mathbb{R})$
@@ -162,7 +173,7 @@ Démonstration :
 C'est seulement le PS lorsqu'on identifie $\mathcal{M}_{n, p}(\mathbb{R})$ à $\mathbb{R}^{np}$ en tant qu'ev. 
 
 
-## II. Norme associé à un PS
+# II. Norme associé à un PS
 On considère ici un préhilbertien réel $(E, <\cdot, \cdot>)$
 
 ## 1. Définition
@@ -179,8 +190,15 @@ x \mapsto \left|\left| x \right|\right| = \sqrt{ <x, x> }
 2. Homogénéité : 
    $$\forall x \in E, \forall \lambda \in \mathbb{R}, \left|\left| \lambda x \right|\right| = \left| \lambda \right| \space \left|\left| x \right|\right|  $$
 
-Démonstration : exo
-En oubliant pas que : $\sqrt{ a^{2} } = \left| a\right|$
+Démonstration : 
+1. Soit $x \in R$, 
+   On le démontre par équivalence :
+   $x = 0$ ssi $<x, x> = 0$ car $<\cdot, \cdot> \in E^{*}$
+   ssi
+   $$\left|\left| x \right|\right| = \sqrt{ \left< x, x \right>  } = 0$$
+2. Soit $x \in E$, et $\lambda \in \mathbb{R}$, 
+   $$\left|\left| \lambda x \right|\right| = \sqrt{ \left< \lambda x, \lambda x \right>  } = \left| \lambda\right|\left|\left| x \right|\right|  $$
+
 
 #### Exemples
 Norme associé au PS classique
@@ -209,7 +227,7 @@ $$\boxed{2 >0}$$
 OMG 720 no scoped (clap)
 $$\boxed{\left|\left| x + y \right|\right| \leq \left|\left| x \right|\right| + \left|\left| y \right|\right| \Leftrightarrow (2) :  <x, y> \space\leq \left|\left| x \right|\right| \space \left|\left| y \right|\right|}$$
 Et on a aussi vu au passage que :
-$$\boxed{<x+y, x+y> = \left|\left| x \right|\right| ^{2}\left|\left| y \right|\right| ^{2} + 2 <x, y>}$$
+$$\boxed{<x+y, x+y> = \left|\left| x \right|\right| ^{2}+\left|\left| y \right|\right| ^{2} + 2 <x, y>}$$
 qui permet d'exprimer $<x, y>$ à l'aide de la norme
 
 
@@ -266,9 +284,11 @@ ie ssi $(x, y)$ est liée.
 Ainsi, 
 Dans tous les cas : 
 $$\boxed{\begin{array}{c}
-\left| <x, y> \right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right|  \\ \\
+\left| <x, y> \right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right|\\\\
 \text{Avec égalité ssi } (x, y) \text{ est liée}
-\end{array}}$$ ___
+\end{array}}$$
+
+___
 ###### Inégalité de Minkowski
 Soient $x, y \in E$
 On a déja vu que l'inégalité triangulaire équivaut à
@@ -326,8 +346,9 @@ y = (y_{i})_{i=1}^{n}
 on a :
 $$\left| <x, y>_{\mathrm{can}}\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
 ie 
-$$\left( \sum_{i=1}^{n}x_{i}y_{i} \right) \leq \left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)$$
+$$\left( \sum_{i=1}^{n}x_{i}y_{i} \right) \leq \sqrt{\left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)} \leq \left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)$$
 En appliquant cela à $(\left| x_{i}\right|)_{i = 1}^{n}$ et $(\left| y_{i}\right|)_{i=1}^{n}$
+
 
 #### Propriété
 $$\forall (x_{i})_{i = 1}^{n}, (y_{i})_{i=1}^{n} \in \mathbb{R}^{n}, \left( \sum_{i=1}^{n}|x_{i}y_{i} |\right)^{2} \leq \left( \sum_{i=1}^{n}x_{i}^{2} \right)\left( \sum_{i=1}^{n}y_{i}^{2} \right)$$
@@ -339,6 +360,7 @@ $$(ac+bd)^{2} \leq (a^{2}+b^{2})(c^{2}+d^{2})$$
 ### b. Inégalité de Cauchy Schwartz pour un PS $L^{2}$
 #### Propriété
 $$\forall f, g \in \mathcal{C}_{\mathbb{R}}^{0}([a, b]), \left( \int _{a}^{b} \left| fg\right|  \right)^{2} \leq \left( \int _{a}^{b}f ^{2} \right)\left( \int _{a}^{b} g^{2}  \right)$$
+
 
 #### Exercice
 Soit $a > 0$ et $f \in \mathcal{C}_{\mathbb{R}}^{0}([0, a])$ tel que $f(0) = 0$
@@ -387,7 +409,6 @@ sont $Vect(v)$
 #### Exercice
 Décrire l'ensemble des vecteurs orthogonaux à $u(1,1,1)$ 
 
-
 Deux manières : 
 - Soit : On résout le système : $x + y + z = 0$ 
 - Soit : On calcule le noyau de $v \mapsto <u, v>$
@@ -408,18 +429,18 @@ Oui par les résultats du cours sur les formes linéaires et hyperplans.
 
 Attention : Si on prend plus qu'un vecteur on n'obtiens pas forcément un supplémentaire du ssev qu'ils engendrent, lorsque la dimension est infinie
 
+
 #### Définition
 Pour $X \in \mathcal{P}(E)$, on appelle orthogonal de $X$ l'ensemble : 
 $$X^{\perp} = \{ y \in E \left| \forall x \in X, <x, y>  = 0\right.\}$$
 
-Lorsque $X$ est
 
 #### Propriété
 1. $\forall X \subset E, X^{\perp}$ est ssev de $E$
 2. $\varnothing^{\perp} = E$
 3. $0^{\perp} = E$
 4. $E^{\perp} = \{ 0 \}$
-5. Pour tout $F \underset{sev}{\subset}E$ $F \cap F^{\perp} = \{ 0 \}$ ie $F$ et $F^{\perp}$ sont en somme directe (mais pas forcément supplémentaires)
+5. Pour tout $F \underset{sev}{\subset}E$, $F \cap F^{\perp} = \{ 0 \}$ ie $F$ et $F^{\perp}$ sont en somme directe (mais pas forcément supplémentaires)
 6. $\forall X, Y \subset E, X \subset Y \Rightarrow X^{\perp} \supset Y^{\perp}$
 7. $\forall X \subset E, X^{\perp} = (Vect(X))^{\perp}$
 8. $\forall X \subset E, X^{\perp \perp} \supset X$
@@ -467,12 +488,28 @@ t \mapsto \cos(nt)
 On note : 
 $$I = (\{ 0 \} \times \mathbb{N}) \sqcup (\{ 1 \} \times \mathbb{N}^{*})$$
 ###### 1. Montrons que : $(f_{i, n})_{(i, n) \in I}$ est orthogonale
-$$\int _{0}^{2\pi} \cos(t) \, dt = 0 $$
-et
-$$\int _{0}^{2\pi} \cos(nt) \, dt = \left[ \frac{1}{n}\sin(nt) \right]_{0}^{2\pi} = 0 $$
-(car $n \in \mathbb{N}^{*}$)
-
-Ainsi, 
+On pose :
+$$I = \int _{0}^{2\pi} \cos(t)\cos(nt) \, dt$$
+On effectue une IPP : 
+$$\begin{cases}
+u = \cos(nt) \\
+dv = \cos(t)dt
+\end{cases} \text{ et } \begin{cases}
+du = -n\sin(nt)dt \\
+v = \sin(t)
+\end{cases}$$
+Alors, 
+$$I = [\cos(nt)\sin(t)]_{0}^{2\pi} + n\int _{0}^{2\pi}\sin(nt)\sin(t)  \, dt $$
+On fais une deuxième IPP : 
+On pose : 
+$$J = \int _{0}^{2\pi} \sin(nt)\sin(t) \, dt$$
+$$\begin{cases}
+u = \sin(nt) \\
+dv = \sin(t)dt
+\end{cases} \text{ et } \begin{cases}
+du = n\cos(nt)dt \\
+v = \sin(t)
+\end{cases}$$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
 
@@ -485,7 +522,7 @@ Une famille orthonormée est donc libre
 Démonstration : exo
 
 #### Corollaire
-Dans $E$ euclidien de diemnsion $n$, toute famille orthonormé de $n$ vecteurs est une base qu'on appelle base orthonormée ($BON$)
+Dans $E$ euclidien de dimension $n$, toute famille orthonormé de $n$ vecteurs est une base qu'on appelle base orthonormée ($BON$)
 
 #### Théorème de Pythagore
 Si $(x_{i})_{i = 1}^{p} \in E^{p}$ est une famille orthogonale finie, alors, 
