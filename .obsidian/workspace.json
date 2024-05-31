@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "eecd433b56f33e78",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -148,11 +159,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "ba0a2b7a88e7a8fb",
+  "active": "eecd433b56f33e78",
   "lastOpenFiles": [
-    "Untitled.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C30/C30.md",
+    "Untitled.md",
     "Brouillon.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Mathématiques/Cours/C27/C27.md",
