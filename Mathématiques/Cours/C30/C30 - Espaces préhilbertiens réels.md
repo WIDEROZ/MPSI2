@@ -490,6 +490,7 @@ $$I = (\{ 0 \} \times \mathbb{N}) \sqcup (\{ 1 \} \times \mathbb{N}^{*})$$
 ###### 1. Montrons que : $(f_{i, n})_{(i, n) \in I}$ est orthogonale
 On pose :
 $$I = \int _{0}^{2\pi} \cos(t)\cos(nt) \, dt$$
+$$J = \int _{0}^{2\pi} \sin(nt)\sin(t) \, dt$$
 On effectue une IPP : 
 $$\begin{cases}
 u = \cos(nt) \\
@@ -499,10 +500,9 @@ du = -n\sin(nt)dt \\
 v = \sin(t)
 \end{cases}$$
 Alors, 
-$$I = [\cos(nt)\sin(t)]_{0}^{2\pi} + n\int _{0}^{2\pi}\sin(nt)\sin(t)  \, dt $$
+$$I = [\cos(nt)\sin(t)]_{0}^{2\pi} + n\int _{0}^{2\pi}\sin(nt)\sin(t)  \, dt = nJ$$
 On fais une deuxième IPP : 
 On pose : 
-$$J = \int _{0}^{2\pi} \sin(nt)\sin(t) \, dt$$
 $$\begin{cases}
 u = \sin(nt) \\
 dv = \sin(t)dt
@@ -511,10 +511,16 @@ du = n\cos(nt)dt \\
 v = -\cos(t)
 \end{cases}$$
 Alors, 
-$$J = n\int _{0}^{2\pi} \cos(nt)\cos(t) \, dt - [] $$
+$$J = n\int _{0}^{2\pi} \cos(nt)\cos(t) \, dt - [\sin(nt)\cos(t)]_{0}^{2\pi} = nI $$
+Ainsi, 
+$$I = n^{2}I \Leftrightarrow I = 0$$
+(car $n \in \mathbb{N}^{*}$)
+
+Ainsi, 
+$$\left< f_{0, n}, f_{1, n} \right> = \int _{0}^{2\pi} \cos(t)\cos(nt) dt = 0$$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
-
+$$$$
 
 
 #### Propriété
