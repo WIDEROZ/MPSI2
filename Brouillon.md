@@ -195,3 +195,5 @@ $$R_{n} \sim \frac{m^{1-\alpha}}{\alpha-1}$$
 
 $(x_{i})_{i = 1}^{n}$ est libre ssi :
 $$\forall (\lambda_{i})_{i = 1}^{n}, (\forall i \in [\![1, n]\!], \lambda_{i} \neq 0) \Rightarrow \sum_{k = 1}^{n} \lambda_{i}x_{i}$$
+
+

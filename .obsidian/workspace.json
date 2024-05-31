@@ -20,19 +20,18 @@
             }
           },
           {
-            "id": "dd9c35f2baf78757",
+            "id": "f6c118d0576295c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Brouillon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
+                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C24/C24 - Probabilités finies.md"
+                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md"
               }
             }
           }
@@ -163,7 +162,9 @@
   },
   "active": "d9b3182d45be85a6",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Brouillon.md",
     "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
@@ -173,7 +174,6 @@
     "Mathématiques/Cours/C12/C12 - B - Résumé.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.pdf",
     "Mathématiques/Cours/C12/C12 - A - Résumé.pdf",
-    "Brouillon.md",
     "Anglais/Khôlle/Semaine 27/Audio n°1.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/Cours/C19/C19 - Espaces vectoriels de dimension finie Résumé.md",
@@ -198,7 +198,6 @@
     "Mathématiques/TD/E29/E29-Integration.pdf",
     "Mathématiques/TD/E29",
     "Mathématiques/TD/E28/E28 - Séries.md",
-    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Mathématiques/Cours/C28/Algorithme.png",
