@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "365c53f10eda8e9f",
+        "id": "11f5b1fad9ef5ef1",
         "type": "tabs",
         "children": [
           {
-            "id": "2abf3fe75999a174",
+            "id": "fc12a6f06023d9b2",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/Cours/C12/C12 - B - Résumé.pdf"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C12/C12 - B - Résumé.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C12/C12 - B - Résumé.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathématiques/Cours/C12/C12 - B - Résumé.pdf"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +140,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2abf3fe75999a174",
+  "active": "fc12a6f06023d9b2",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C10/C10 - Résumé.pdf",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
+    "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
+    "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
+    "Mathématiques/Cours/C12/C12 - B - Résumé.pdf",
     "Mathématiques/Cours/C12/C12 - B - Résumé.md",
     "Mathématiques/Cours/C12/C12 - B - Continuité.pdf",
     "Mathématiques/Cours/C12/C12 - A - Résumé.pdf",
@@ -176,14 +175,9 @@
     "Mathématiques/TD/E29/E29-Integration.pdf",
     "Mathématiques/TD/E29",
     "Info/Cours/Chapitre 15/script.c",
-    "Info/Cours/Chapitre 15/script.ml",
-    "Mathématiques/TD/E28/E28-Series.pdf",
     "Mathématiques/TD/E28/E28 - Séries.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Info/Cours/Chapitre 15/Graphe.md",
-    "Info/Cours/Chapitre 15",
-    "Mathématiques/Cours/C29/C29.md",
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Mathématiques/Cours/C28/Algorithme.png",
