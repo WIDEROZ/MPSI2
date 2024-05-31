@@ -520,7 +520,6 @@ Ainsi,
 $$\left< f_{0, n}, f_{1, n} \right> = \int _{0}^{2\pi} \cos(t)\cos(nt) dt = 0$$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
-$$$$
 
 
 #### Propriété
