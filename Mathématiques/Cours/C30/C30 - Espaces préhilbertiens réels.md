@@ -658,6 +658,8 @@ Alors,
 $$E = F\oplus F^{\perp}$$
 Dans ce cas : $F^{\perp}$ est appelé le supplémentaire orthogonal de $F$
 
+
+
 #### Exemple
 $$\mathcal{C}^{0}_{\mathbb{R}}([a, b]) = Vect(x \mapsto 1) \oplus (Vect(x \mapsto 1))^{\perp}$$
 
@@ -684,6 +686,7 @@ Soit $E$ euclidien et $e$ une BON de $E$
    $\sum_{i}a_{i}x_{i}$ dans la BON $e$
 2. Soit $H$ un hyperplan d'équation $\sum a_{i}x_{i} = 0$ dans la BON $e$. 
    Alors son supplémentaire orthogonal est : $Vect\left( \sum_{i} a_{i}e_{i} \right)$
+
 
 ## 2. Projections orthogonales sur un sous espace vectoriel de dimension finie
 #### Définition
@@ -739,7 +742,7 @@ On a : $p_{F}(x) \in F$ par définition de $p_{F}$
 et pour $y \in F$, 
 $$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right| $$
 Comme : $x-p_{F}(x) \in F^{\perp}$ et $p_{F} - y \in F$
-On a par pythagore : 
+On a par Pythagore : 
 $$\left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right|^{2} = \left|| x-p_{F}(x)\right||^{2} + \left|\left| p_{F}(x) - y \right|\right| ^{2}$$
 $$\geq \left|\left| x-p_{F}(x) \right|\right|^{2} = d(x, p_{F}(x))^{2}$$
 
