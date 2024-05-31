@@ -197,3 +197,17 @@ $(x_{i})_{i = 1}^{n}$ est libre ssi :
 $$\forall (\lambda_{i})_{i = 1}^{n}, (\forall i \in [\![1, n]\!], \lambda_{i} \neq 0) \Rightarrow \sum_{k = 1}^{n} \lambda_{i}x_{i}$$
 
 
+
+On à 6 manières de tirer deux boules au même temps alors, 
+Comme la probabilité est équiprobable : 
+
+$$\begin{array}{|c|c|}\hline
+_V\setminus U& 1&2&3&4&P_{V} \\ \hline 
+1 &0& \frac{1}{6}& \frac{1}{6} & \frac{1}{6} & \\ \hline
+2 &\frac{1}{6}&0&\frac{1}{6}&\frac{1}{6}\\\hline
+3 &\frac{1}{6}&\frac{1}{6}&0&\frac{1}{6}\\\hline
+4&\frac{1}{6}& \frac{1}{6} & \frac{1}{6} &0 \\\hline 
+P_{U}
+ \\
+\hline
+\end{array}$$
