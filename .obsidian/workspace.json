@@ -4,35 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "11f5b1fad9ef5ef1",
+        "id": "d5b4bba481d1afe9",
         "type": "tabs",
         "children": [
           {
-            "id": "fc12a6f06023d9b2",
+            "id": "ba0a2b7a88e7a8fb",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f6c118d0576295c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Brouillon.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Brouillon.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -161,12 +140,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f6c118d0576295c7",
+  "active": "ba0a2b7a88e7a8fb",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C28/Algorithme.png",
+    "Mathématiques/Cours/C27/C27.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
+    "Mathématiques/Cours/C16/C16 - Polynômes.md",
+    "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
     "Brouillon.md",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
-    "Mathématiques/Cours/C16/C16 - Polynômes.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
@@ -195,13 +177,9 @@
     "Anglais/Khôlle/Semaine 27/1.mp3",
     "Anglais/Cours/05-22.md",
     "Anglais/Cours/05 - 29.md",
-    "Mathématiques/Cours/C14/C14 - Résumé.md",
     "Mathématiques/TD/E29/E29-Integration.pdf",
-    "Mathématiques/TD/E29",
-    "Mathématiques/TD/E28/E28 - Séries.md",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
-    "Mathématiques/Cours/C28/Algorithme.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150419.png",

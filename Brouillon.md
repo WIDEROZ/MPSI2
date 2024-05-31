@@ -225,7 +225,6 @@ $$\sum_{x_{i}\in Y(\Omega)}P(X = x, Y = y_{i}) = P(Y = y) = \frac{1}{\left| F\ri
 Comme $(X, Y)$ suit une loi uniforme : 
 $$\forall n \in \mathbb{N}^{*}, \forall x, y \in [\![1, n]\!]P(X = x, Y = y) = \frac{1}{n^{2}}$$
 Alors, 
-$$\forall x \in [\![1, n]\!], \sum_{i = 1}^{n} P(X = x, Y = y_{i}) = P(X = x)$$
-
-$$E(X) = \sum_{x \in X(\Omega)} P(X = x) x = \sum_{\omega \in \Omega} P(\{ \omega \})X(\omega)$$
-$$\mathrm{Cov}(X, Y) = E((X - E(X))(Y - E(Y)))$$
+$$\forall x \in [\![1, n]\!], \sum_{i = 1}^{n} P(X = x, Y = y_{i}) = \sum_{i = 1}^{n} \frac{1}{n^{2}} = \frac{1}{n} $$
+Soit $x, y \in [\![1,n]\!]$
+$$P(X+Y = x+y) =  $$
