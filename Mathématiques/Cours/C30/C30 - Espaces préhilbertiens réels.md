@@ -511,7 +511,7 @@ du = n\cos(nt)dt \\
 v = -\cos(t)
 \end{cases}$$
 Alors, 
-$
+$$J = $$
 
 ###### 2. Déterminer les constantes $\alpha_{i, n} > 0$ tq $(\alpha_{i, n}f_{i, n})_{(i, n) \in I}$ sont orthonormées
 
