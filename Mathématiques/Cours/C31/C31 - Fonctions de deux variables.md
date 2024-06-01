@@ -20,6 +20,28 @@ Excal 1
 - La continuité sera définie de manière analogue au cas d'une variable à l'aide de distance. 
 
 # I. Ouverts de $\mathbb{R}^{2}$ et continuité
+## 1. Définitions
 #### Définition
 Pour $X_{0} \in \mathbb{R}^{2}$ et $r \in \mathbb{R}_{+}$, 
-la boule ouv
+la boule ouverte (resp fermée) de centre $X_{0}$ et de rayon $r$ est :
+$$
+B_{o}(X_{0}, r) = \{ X \in \mathbb{R}^{2} | d(X_{0}, X) < r \}
+$$
+resp :
+$$B_{f}(X_{0}, r) = \{ X \in \mathbb{R}^{2} | d(X_{0}, X) \leq r \}$$
+
+#### Définition
+Soit $A \subset \mathbb{R}^{2}$ et $X_{0} \in A$, 
+On dit que $X_{0}$ est un point intérieur de $A$ ssi 
+$$
+\exists \varepsilon >0, B_{o}(X_{0}, \varepsilon) \subset A
+$$
+Excal 2
+
+#### Remarque
+Cela équivaut à : 
+$$
+\exists \varepsilon' >0, B_{f}(X_{0}, \varepsilon') \subset A
+$$
+
+#### Exemple
