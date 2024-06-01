@@ -156,4 +156,25 @@ Ainsi, $B_{o}(X_{1}, \varepsilon) \subset B$ avec $\varepsilon >0$
 Donc, 
 $X_{1}$ est intérieur à $B$
 ___
-Soit $\bar{B} = B_{f}(X_{0}, r)$ avec $\begin{cases} X_{0} \in \mathbb{R}^{2} \\r \in \mathbb{R}_{+} \end{cases}$
+Soit $\bar{B} = B_{f}(X_{0}, r)$ avec $\begin{cases} X_{0} \in \mathbb{R}^{2} \\ r \in \mathbb{R}_{+} \end{cases}$
+et $U = \mathbb{R}^{2} \setminus \bar{B}$
+Excal 7
+Soit $X_{1} \in U$, 
+On pose : $\varepsilon = d(X_{0}, X_{1})-r>0$ $(X_{1} \not\in B)$
+
+EXERCICE : Montrer que $B_{o}(X_{1}, \varepsilon) \subset U$
+
+#### Définition
+Une fonction de deux variables est une application : $f : U \to \mathbb{R}$ avec $U \subset \mathbb{R}^{2}$ qu'on supposera (cette année) toujours ouvert (sauf mention contraire explicite)
+
+#### Définition
+Le graphe de $f$ est : 
+$$\mathcal{G}_{f} = \{ (x, y, f(x, y)); (x, y) \in U \}$$
+
+#### Remarque
+$$\mathcal{G}_{f} = \{ (x, y, f(x, y)); (x, y) \in U \} = \{ (X, f(X)) ; X \in U \}$$
+En identifiant $\mathbb{R}^{3}$ à $\mathbb{R}^{2} \times \mathbb{R}$
+
+Lorsque $U$ est un rectangle (produit d'intervalle) et même si ce n'est pas le cas, il peut être pratique de représenter un quadrillage de $U$ et de son image par $f$. 
+
+Excal 8
