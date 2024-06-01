@@ -20,7 +20,6 @@ Excal 1
 - La continuité sera définie de manière analogue au cas d'une variable à l'aide de distance. 
 
 # I. Ouverts de $\mathbb{R}^{2}$ et continuité
-## 1. Définitions
 #### Définition
 Pour $X_{0} \in \mathbb{R}^{2}$ et $r \in \mathbb{R}_{+}$, 
 la boule ouverte (resp fermée) de centre $X_{0}$ et de rayon $r$ est :
@@ -143,4 +142,18 @@ Soit $B = B_{o}(X_{0}, r)$
 avec $X_{0} \in \mathbb{R}^{2}$, et $r \in \mathbb{R}_{+}$, 
 Montrons que tout point de $B$ est intérieur
 Soit $X_{1} \in B$ (ie $d(X_{0}, X_{1}) < r$)
-Excal 6
+Excal 6. 
+
+Soit $X \in B_{o}(X_{1}, \varepsilon)$, (ie $d(X_{1}, X) <\varepsilon$)
+$$\begin{array}{rl}
+d(X_{0}, X) &\leq d(X_{0}, X_{1}) + d(X_{1}, X) \\
+&< d(X_{0}, X_{1}) + \varepsilon = r
+\end{array}$$
+$(\varepsilon = r - d(X_{0}, X_{1}))$
+Ainsi, 
+$X \in B$
+Ainsi, $B_{o}(X_{1}, \varepsilon) \subset B$ avec $\varepsilon >0$
+Donc, 
+$X_{1}$ est intérieur à $B$
+___
+Soit $\bar{B} = B_{f}(X_{0}, r)$ avec $\begin{cases} X_{0} \in \mathbb{R}^{2} \\r \in \mathbb{R}_{+} \end{cases}$
