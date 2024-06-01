@@ -45,3 +45,15 @@ $$
 $$
 
 #### Exemple
+$A=[1, + \infty[ \times \mathbb{R}$ 
+Quel est l'ensemble de ses points intérieurs. 
+
+C'est $]1, + \infty[\times \mathbb{R}$, 
+Démonstration : 
+Par disjonction de cas : 
+Soit $X_{0} = (x_{0}, y_{0}) \in A$, (ie $x_{0}\geq 1$)
+
+Cas $x_{0} > 1$, 
+On pose $\varepsilon = x_{0}-1>0$ et
+et on a : $B_{o}(X_{0}, \varepsilon) \subset A$
+En effet pour $X = (x, y) \in B_{o}$
