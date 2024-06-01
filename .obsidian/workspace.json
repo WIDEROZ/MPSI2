@@ -11,8 +11,22 @@
             "id": "7120572fc231b9c3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5f209468a2556b7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C31/C31.md"
+              }
             }
           }
         ]
@@ -92,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+              }
             }
           }
         ]
@@ -142,6 +160,9 @@
   },
   "active": "7120572fc231b9c3",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C31/C31.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/Cours/C31",
     "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Untitled.md",
@@ -176,9 +197,6 @@
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Mathématiques/TD/E29/E29 - Intégration.md",
     "Anglais/Khôlle/Semaine 27/1.mp3",
-    "Anglais/Cours/05-22.md",
-    "Anglais/Cours/05 - 29.md",
-    "Mathématiques/TD/E29/E29-Integration.pdf",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
