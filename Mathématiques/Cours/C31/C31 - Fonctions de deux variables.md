@@ -69,4 +69,27 @@ $$(x-x_{0})^{2}\leq (x_{0}-1)^{2}$$
 Donc, en prenant les racines : 
 $$\left| x-x_{0}\right|\leq \left| x_{0}-1\right| = x_{0}-1$$
 car $x_{0} \in A$
+Or, 
+$$x_{0}-x\leq x-x_{0}$$
 Donc, 
+$$x_{0}-x\leq x-x_{0}$$
+Ainsi , 
+$$x \geq 1$$
+Donc,
+$$\boxed{x \in A}$$
+Ainsi, 
+$X_{0}$ est un point intérieur de $A$
+
+Cas $x_{0} = 1$ : 
+Soit $\varepsilon>0$, 
+Alors, 
+$$X_{1} = \left( 1-\frac{\varepsilon}{2} , y_{0}\right) \in B_{o}(X_{0}, \varepsilon) \setminus A$$
+En effet, 
+$$\begin{array}{rl}
+\left|\left| X_{1} - X_{0} \right|\right| &= \sqrt{ \left(  \left( 1-\frac{\varepsilon}{2}  \right)+1 \right)^{2} + (y_{0}-y_{0})} \\
+&= \sqrt{ \frac{\varepsilon^{2}}{4} } \\
+&= \frac{\varepsilon}{2} \leq \varepsilon
+\end{array}$$
+Donc, 
+$$X_{1} \in B_{o}(X_{0}, \varepsilon)$$
+et par ailleurs $-1$
