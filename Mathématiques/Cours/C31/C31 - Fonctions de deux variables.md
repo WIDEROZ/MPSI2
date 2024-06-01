@@ -217,10 +217,25 @@ $$+ \left| x_{0}y_{0}(x_{0}^{2}+y_{0}^{2}) - x_{0}y_{0}(x^{2}+y^{2})\right|$$
 $$\leq \left|x_{0}^{2}+y_{0}^{2}\right|(\left| xy-x_{0}\right|+\left| x_{0}y-x_{0}y_{0}\right|)$$
 $$+ \left| x_{0}y_{0}\right|(\left| x^{2}-x_{0}^{2}\right|+\left| y^{2} - y_{0}^{2}\right|)$$
 $$\leq \left| x_{0}^{2}-y_{0}^{2}\right|\left| y\right| \left| x-x_{0}\right|+ \left| x_{0}^{2}+y_{0}^{2}\right|\left| x_{0}\right|\left| y-y_{0}\right|\left| x+x_{0}\right|\left| x-x_{0}\right|$$
-$$+\left| x_{0}y_{0}\right|\left| y+y_{0}\right|\left| y-y_{0}\right|$$
-$$\leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} \leq d(X_{0}, X) \leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} \leq $$
+$$+\left| x_{0}y_{0}\right|\left| y+y_{0}\right|\left| y-y_{0}\right|\leq c \space d(X_{0}, X)$$
+avec $c >0$
+$$\leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} \leq d(X_{0}, X) \leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} $$
+$$\leq d(X_{0}, X) \left| x_{0}y_{0}\right|2\left|\left| X_{1} \right|\right| \leq d(X_{0}, X)$$
+
 Ainsi, 
 $$\exists c'>0, \left| f(X) - f(X_{0})\right| \leq c' d(X_{0}, X)$$
 Soit $\varepsilon>0$
 On pose : $\alpha = \min\left( \frac{\left|\left| X_{0} \right|\right|}{2}, \frac{\varepsilon}{c'} \right)$
-On a pour tout $X \in \mathbb{R}^{2}$ tel que : 
+On a pour tout $X \in \mathbb{R}^{2}$ tel que $d(X_{0},X) \leq \alpha$, 
+$$\left| f(X)-f(X_{0})\right| \leq c' \frac{\varepsilon}{c'} = \varepsilon$$
+Ainsi, 
+$f$ est continue en tout $X_{0} \neq (0, 0)$
+
+#### Remarque
+Bientôt on aura avec les théorèmes de construction des fonctions continues que permettent d'éviter ces majorations fastidieuses
+
+En revanche la continuité en $(0, 0)$ ne peut pas s'étudier avec une construction.
+
+#### Remarque
+Intuitivement : Il est utile de regarder ce qui se passe quand $X$ tend vers $(0, 0)$ suivant une direction donnée. Si $f$ est continue en $(0, 0)$ on devrait avoir des limites directionnelles finies et égales
+
