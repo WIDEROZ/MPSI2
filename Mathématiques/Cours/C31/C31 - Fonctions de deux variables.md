@@ -239,3 +239,19 @@ En revanche la continuité en $(0, 0)$ ne peut pas s'étudier avec une construct
 #### Remarque
 Intuitivement : Il est utile de regarder ce qui se passe quand $X$ tend vers $(0, 0)$ suivant une direction donnée. Si $f$ est continue en $(0, 0)$ on devrait avoir des limites directionnelles finies et égales
 
+Excal 8.
+Regardons les limites suivant les axes de coordonnées : elles sont nulles ce qui ne nous avant pas trop. 
+Regardons la première bissectrice!
+
+Pour $x \neq 0$, $f(x, x) = \frac{1}{2}$
+on comprend que $f$ n'est pas continue en $(0, 0)$
+On va montrer proprement cela : 
+$$\exists \varepsilon >0, \forall \alpha >0, \exists X \in \mathbb{R}^{2}, d(0, X) = \left|\left| X \right|\right|  \leq \alpha \text{ et } \left| f(X) \right| > \varepsilon$$
+On pose : $\varepsilon = \frac{1}{4}$
+Soit $\alpha  >0$, 
+En posant : $X_{\alpha} = \frac{1}{\sqrt{ 2 }}(\alpha, \alpha)$
+On a : 
+- D'une part : $\left|\left| X_{\alpha} \right|\right| = \alpha$
+- D'autre part : $f(X_{\alpha})= \frac{1}{2}$ Donc, $\left| f(X_{\alpha})\right| > \varepsilon$
+
+Ainsi, $f$ n'est pas continue en $(0, 0)$
