@@ -56,4 +56,17 @@ Soit $X_{0} = (x_{0}, y_{0}) \in A$, (ie $x_{0}\geq 1$)
 Cas $x_{0} > 1$, 
 On pose $\varepsilon = x_{0}-1>0$ et
 et on a : $B_{o}(X_{0}, \varepsilon) \subset A$
-En effet pour $X = (x, y) \in B_{o}$
+En effet pour $X = (x, y) \in B_{o}(X_{0}, \varepsilon)$, 
+$$\left|\left| X-X_{0} \right|\right| \leq \varepsilon$$
+Alors, 
+$$
+\left|\left| X-X_{0} \right|\right| ^{2} = (x-x_{0})^{2}+(y-y_{0})^{2} \leq (x_{0}-1)^{2}
+$$
+Comme :
+$$(x-x_{0})^{2}\leq (x-x_{0})^{2} + (y-y_{0})^{2}$$
+Alors, 
+$$(x-x_{0})^{2}\leq (x_{0}-1)^{2}$$
+Donc, en prenant les racines : 
+$$\left| x-x_{0}\right|\leq \left| x_{0}-1\right| = x_{0}-1$$
+car $x_{0} \in A$
+Donc, 
