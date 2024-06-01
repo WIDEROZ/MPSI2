@@ -214,4 +214,13 @@ On a :
 $$\left| xy(x_{0}^{2}+y_{0}^{2})- x_{0}y_{0}(x^{2}+y^{2})\right| $$
 $$\leq \left| xy(x_{0}^{2}+y_{0}^{2})-x_{0}y_{0}(x^{2}+y^{2})\right|$$
 $$+ \left| x_{0}y_{0}(x_{0}^{2}+y_{0}^{2}) - x_{0}y_{0}(x^{2}+y^{2})\right|$$
-$$\leq \left|x_{0}^{2}+y_{0}^{2}\right|(\left| xy-\right|)$$
+$$\leq \left|x_{0}^{2}+y_{0}^{2}\right|(\left| xy-x_{0}\right|+\left| x_{0}y-x_{0}y_{0}\right|)$$
+$$+ \left| x_{0}y_{0}\right|(\left| x^{2}-x_{0}^{2}\right|+\left| y^{2} - y_{0}^{2}\right|)$$
+$$\leq \left| x_{0}^{2}-y_{0}^{2}\right|\left| y\right| \left| x-x_{0}\right|+ \left| x_{0}^{2}+y_{0}^{2}\right|\left| x_{0}\right|\left| y-y_{0}\right|\left| x+x_{0}\right|\left| x-x_{0}\right|$$
+$$+\left| x_{0}y_{0}\right|\left| y+y_{0}\right|\left| y-y_{0}\right|$$
+$$\leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} \leq d(X_{0}, X) \leq \frac{\left|\left| X_{0} \right|\right|^{3}}{2} \leq $$
+Ainsi, 
+$$\exists c'>0, \left| f(X) - f(X_{0})\right| \leq c' d(X_{0}, X)$$
+Soit $\varepsilon>0$
+On pose : $\alpha = \min\left( \frac{\left|\left| X_{0} \right|\right|}{2}, \frac{\varepsilon}{c'} \right)$
+On a pour tout $X \in \mathbb{R}^{2}$ tel que : 
