@@ -284,4 +284,19 @@ Alors,
 
 #### Corollaire
 $$\mathcal{C}^{0}_{\mathbb{R}}(U)\underset{sev}{\subset}\mathbb{R}^{U}$$
-et même 
+et même c'est une sous algèbre. 
+
+#### Remarque
+Si $g$ est continue en $X_{0}$ et $g(X_{0}) \neq 0$,
+Il existe un $\varepsilon>0$ tel que : $B = B_{o}(X_{0}, \varepsilon) \subset U$
+et $g$ ne s'annule pas sur $B$, donc, $\frac{f}{g}$ est définie au moins sur l'ouvert $B$
+
+#### Théorème
+Avec les bonnes hypothèses sur les domaines, la composée de fonction de deux variables continue est continue. 
+
+##### Remarque
+Le formalisme général  sera donné l'an prochain
+
+#### Remarque
+On le voit précisément dans $3$ cas de figure
+
