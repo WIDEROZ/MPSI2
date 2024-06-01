@@ -112,6 +112,8 @@ $U \subset \mathbb{R}^{2}$ est un ouvert de $\mathbb{R}^{2}$ ssi tous ses points
 #### Exemple
 $[1, +\infty[\times \mathbb{R}$ n'est pas ouvert mais $]1, + \infty[ \times \mathbb{R}$ est ouvert
 (en fait : $\overset{\space \space o}{A}$ est toujours un ouvert (exo))
+-> Excal 4
+
 
 #### Exercice
 1. Montrer que $\varnothing$ et $\mathbb{R}^{2}$ sont ouverts
@@ -121,3 +123,9 @@ $[1, +\infty[\times \mathbb{R}$ n'est pas ouvert mais $]1, + \infty[ \times \mat
 #### Remarque
 1, 2, et 3 sont des axiomes d'une "topologie"
 
+#### Exercice
+Intermédiaire
+Montrer que
+$$\bigcup_{n \in \mathbb{N}^{*}} B_{o}\left( \left( \frac{1}{n}, 0 \right), \frac{1}{n} \right)$$
+est ouvert
+Excal 5.
