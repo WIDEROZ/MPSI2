@@ -255,3 +255,33 @@ On a :
 - D'autre part : $f(X_{\alpha})= \frac{1}{2}$ Donc, $\left| f(X_{\alpha})\right| > \varepsilon$
 
 Ainsi, $f$ n'est pas continue en $(0, 0)$
+
+#### Définition
+$f$ est continue sur $U$ ssi elle est continue en tout point de $U$
+
+#### Exemple
+$$f_{2} : \begin{cases}
+ \mathbb{R}^{2} \to \mathbb{R} \\
+X = (x, y) \mapsto \frac{\sin(xy - 2x +y^{3})}{1+x^{2}y^{2}}
+\end{cases}$$
+est continue sur $\mathbb{R}^{2}$ (peut être fait à la main mais de manière beaucoup plus rapide par construction)
+
+#### Définition
+On note : $\mathcal{C}_{\mathbb{R}}^{0}(U)$ l'ensemble de fonctions continues sur $U$
+
+#### Théorème
+Soit $f, g \in \mathbb{R}^{U}$, $\lambda , \mu \in \mathbb{R}$ et $X_{0} \in U$
+(Rappel $U$ est un ouvert de $\mathbb{R}^{2}$)
+
+Si $f$ et $g$ sont continues en $X_{0}$ (resp sur $U$)
+Alors, 
+- $\lambda f + \mu g$ est continue en $x_{0}$ (resp sur $U$)
+- $fg$ est continue en $x_{0}$ (resp sur $U$)
+
+Si de plus $g$ ne s'annule pas en $X_{0}$ 
+Alors, 
+- $\frac{f}{g}$ est continue en $x_{0}$ (resp sur $U$)
+
+#### Corollaire
+$$\mathcal{C}^{0}_{\mathbb{R}}(U)\underset{sev}{\subset}\mathbb{R}^{U}$$
+et même 
