@@ -188,4 +188,21 @@ ie
 $$\forall \varepsilon > 0, \exists \alpha >0, f(B_{f}(X_{0}, \alpha) \cap U) \subset B_{f}(f(X_{0}), \varepsilon)$$
 
 #### Exercice
-Soit $f_{1} : (x, y) \mapsto$
+Soit 
+$$
+f :\begin{cases}
+\mathbb{R}^{2} \to \mathbb{R} \\
+(x, y) \mapsto \begin{cases}
+{\frac{xy}{x^{2}+y^{2}}} \text{ si } (x, y) \neq (0, 0) \\
+0 \text{ si } (x, y) = (0, 0)
+\end{cases}
+\end{cases}
+$$
+Montrer que $f$ est continue en tout $(x_{0}, y_{0}) \neq (0, 0)$ mais pas en $(0, 0)$
+
+Soit $X_{0} = (x_{0}, y_{0}) \neq (0, 0)$ et $X \in \mathbb{R}^{2}$
+quitte à prendre $X$ proche de $X_{0}$ on peut supposer que $X \neq (0, 0)$
+
+$$
+\left| f(X) - f(X_{0})\right| = \left| \frac{xy}{x^{2}+y^{2}} - \frac{x_{0}y_{0}}{x^{2}+y^{2}}\right|
+$$
