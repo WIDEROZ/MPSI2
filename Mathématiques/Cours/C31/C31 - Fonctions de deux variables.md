@@ -178,3 +178,14 @@ En identifiant $\mathbb{R}^{3}$ à $\mathbb{R}^{2} \times \mathbb{R}$
 Lorsque $U$ est un rectangle (produit d'intervalle) et même si ce n'est pas le cas, il peut être pratique de représenter un quadrillage de $U$ et de son image par $f$. 
 
 Excal 8
+Ces deux exemples de fonctions sont continues : 
+
+#### Définition
+Soit $f : U \to \mathbb{R}$ avec $U$ ouvert de $\mathbb{R}^{2}$ et $X_{0} \in U$
+On dit que $f$ est continue en $X_{0}$ ssi 
+$$\forall \varepsilon >0, \exists \alpha >0, \forall X \in U, d(X_{0}, X) \leq \alpha \Rightarrow \left| f(X) - f(X_{0})\right| \leq \varepsilon$$
+ie
+$$\forall \varepsilon > 0, \exists \alpha >0, f(B_{f}(X_{0}, \alpha) \cap U) \subset B_{f}(f(X_{0}), \varepsilon)$$
+
+#### Exercice
+Soit $f_{1} : (x, y) \mapsto$
