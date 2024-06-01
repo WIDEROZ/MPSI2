@@ -126,6 +126,21 @@ $[1, +\infty[\times \mathbb{R}$ n'est pas ouvert mais $]1, + \infty[ \times \mat
 #### Exercice
 Intermédiaire
 Montrer que
-$$\bigcup_{n \in \mathbb{N}^{*}} B_{o}\left( \left( \frac{1}{n}, 0 \right), \frac{1}{n} \right)$$
+$$\bigcup_{n \in \mathbb{N}^{*}} B_{o}\left( \left( \frac{1}{n}, 0 \right), \frac{1}{n} \right)= B_{o}\left( (1, 0), 1 \right) \text{ ouvert}$$
 est ouvert
 Excal 5.
+$$\bigcap_{n \in \mathbb{N}^{*}} B_{o}\left( \left( \frac{1}{n}, 0 \right), \frac{1}{n} \right) = \varnothing$$
+Mais, 
+$$\bigcap_{n \in \mathbb{N}^{*}}B_{o}\left( (0, 0), \frac{1}{n} \right) = \{ (0, 0) \}$$
+est non ouvert
+
+#### Propriété
+1. Une boule ouverte est un ouvert
+2. Le complémentaire dans $\mathbb{R}^{2}$ d'une boule fermée est un ouvert
+
+Démonstration :
+Soit $B = B_{o}(X_{0}, r)$ 
+avec $X_{0} \in \mathbb{R}^{2}$, et $r \in \mathbb{R}_{+}$, 
+Montrons que tout point de $B$ est intérieur
+Soit $X_{1} \in B$ (ie $d(X_{0}, X_{1}) < r$)
+Excal 6
