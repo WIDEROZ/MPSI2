@@ -204,5 +204,14 @@ Soit $X_{0} = (x_{0}, y_{0}) \neq (0, 0)$ et $X \in \mathbb{R}^{2}$
 quitte à prendre $X$ proche de $X_{0}$ on peut supposer que $X \neq (0, 0)$
 
 $$
-\left| f(X) - f(X_{0})\right| = \left| \frac{xy}{x^{2}+y^{2}} - \frac{x_{0}y_{0}}{x^{2}+y^{2}}\right|
+\left| f(X) - f(X_{0})\right| = \left| \frac{xy}{x^{2}+y^{2}} - \frac{x_{0}y_{0}}{x_{0}^{2}+y_{0}^{2}}\right|
 $$
+$$
+= \frac{\left| xy(x_{0}^{2}+y_{0}^{2})- x_{0}y_{0}(x^{2}+y^{2})\right|}{\left| (x^{2}+y^{2})(x_{0}^{2}+y_{0}^{2})\right|}
+$$
+(il faut majorer le numérateur et minorer le dénominateur)
+On a : 
+$$\left| xy(x_{0}^{2}+y_{0}^{2})- x_{0}y_{0}(x^{2}+y^{2})\right| $$
+$$\leq \left| xy(x_{0}^{2}+y_{0}^{2})-x_{0}y_{0}(x^{2}+y^{2})\right|$$
+$$+ \left| x_{0}y_{0}(x_{0}^{2}+y_{0}^{2}) - x_{0}y_{0}(x^{2}+y^{2})\right|$$
+$$\leq \left|x_{0}^{2}+y_{0}^{2}\right|(\left| xy-\right|)$$
