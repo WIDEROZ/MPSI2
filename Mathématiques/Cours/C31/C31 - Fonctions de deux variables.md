@@ -344,4 +344,8 @@ Toute fonction polynôme en $x,y$ est continue sur $\mathbb{R}^{2}$.
 
 #### Corollaire
 Pour $U$ un ouvert, 
-Pour $f \in \mathcal{C}_{\mathbb{R}}^{0}(\mathbb{R}^{2})$ et $g \in \mathcal{C}_{\mathbb{R}}^{0}(U)$,tell
+Pour $f \in \mathcal{C}_{\mathbb{R}}^{0}(\mathbb{R}^{2})$ et $g \in \mathcal{C}_{\mathbb{R}}^{0}(U)$,
+telles que $0 \notin g(U)$, 
+$$\frac{f}{g}$$
+est continue sur $U$
+
