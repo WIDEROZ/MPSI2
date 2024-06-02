@@ -50,4 +50,17 @@ Supposons qu'il existe un unique $e_{p+1} \in E$ tel que :
 - $(e_{i})_{i=1}^{p+1}$ soit orthonormé
 - $\left< f, e_{p+1} \right> > 0$
 
-Comme $e_{p+1} \in Vect(e_{1}, \dots, )$
+Comme $e_{p+1} \in Vect(e_{1}, \dots, e_{p}, f)$, 
+Soit $(\lambda_{j})_{j = 1}^{p}$ une famille de coefficients
+Soit $\lambda \in \mathbb{R}$, 
+$$e_{p+1} = \sum_{i =1}^{p} \lambda_{i} e_{i} + \lambda f$$
+Comme $(e_{i})_{i=1}^{p+1}$ est orthonormale :
+Soit $j \in [\![1, p]\!]$, 
+$$0 = \left< e_{j}, e_{p+1} \right> = \left< e_{j}, \sum_{i =1}^{p} \lambda_{i}e_{i} \right>+\left< e_{j}, \lambda f \right> = \lambda_{j} + \lambda \left< e_{j}, f \right>  $$
+Alors, 
+$\lambda_{j} = -\lambda \left< e_{j}, f \right>$
+Donc, 
+$$e_{p+1} = \lambda\left( f-\sum_{i = 1}^{p} \left< e_{i}, f \right> e_{i} \right) = \lambda u$$
+
+$\left< f, e_{p+1} \right> > 0$ alors, 
+$$1=\left< e_{p+1}, e_{p+1} \right> = \left|\left| e_{p+1} \right|\right| ^{2} =  $$
