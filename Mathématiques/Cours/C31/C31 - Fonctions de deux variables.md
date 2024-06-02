@@ -294,20 +294,25 @@ et $g$ ne s'annule pas sur $B$, donc, $\frac{f}{g}$ est définie au moins sur l'
 #### Théorème
 Avec les bonnes hypothèses sur les domaines, la composée de fonction de deux variables continue est continue. 
 
+Soit $U$ un ouvert
+
 On a trois cas : 
 ##### Cas 1
 Pour $I$ un intervalle non trivial de $\mathbb{R}$,
-Pour $U$ un ouvert
 Pour $x, y \in \mathcal{C}_{\mathbb{R}}^{0}(I)$, 
 Pour $f \in \mathcal{C}^{0}_{\mathbb{R}}(U)$, 
 Si $\gamma(I) \subset U$,
 $$
-\varphi : \begin{cases}
-\mathbb{R} \to \mathbb{R}\\
 t \mapsto f(\gamma(t)) = f(x(t), y(t))
-\end{cases}
 $$
-est continue sur $U$
+est continue sur $I$
+
+##### Cas 2
+
+Pour $\varphi, \psi \in \mathbb{C}_{\mathbb{R}}^{0}(U)$
+$$(u, v) \mapsto f(\varphi(u, v), \psi(u, v))$$
+
+
 
 
 ##### Remarque
