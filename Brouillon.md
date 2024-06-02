@@ -19,5 +19,11 @@ Donc,
 $$\lambda_{j} = -\lambda \left< f, e_{j} \right> $$
 
 $$e_{p+1} =\lambda\left(f-  \sum_{i = 1}^{p} \left< f, e_{i} \right> e_{i} \right) = \lambda u$$
-Alors, 
-$$1 = \left|\left| e_{p+1} \right|\right| = \left| \lambda\right| \left|\left| u \right|\right|  $$
+Alors,  
+$$1 = \left< e_{p+1}, e_{p+1} \right> = \lambda \left< e_{p+1}, f \right> > 0 $$
+par hypothèse $\left< e_{p+1}, f \right> > 0$
+Alors, $\lambda > 0$, 
+Ainsi, 
+$$
+
+$$
