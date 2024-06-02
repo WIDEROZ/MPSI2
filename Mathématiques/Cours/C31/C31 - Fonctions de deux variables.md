@@ -299,22 +299,48 @@ Soit $U$ un ouvert
 On a trois cas : 
 ##### Cas 1
 Pour $I$ un intervalle non trivial de $\mathbb{R}$,
+
 Pour $x, y \in \mathcal{C}_{\mathbb{R}}^{0}(I)$, 
 Pour $f \in \mathcal{C}^{0}_{\mathbb{R}}(U)$, 
 Si $\gamma(I) \subset U$,
+Alors
 $$
 t \mapsto f(\gamma(t)) = f(x(t), y(t))
 $$
-est continue sur $I$
+est continue sur $U$
 
 ##### Cas 2
+Pour $V$ un ouvert,
 
-Pour $\varphi, \psi \in \mathbb{C}_{\mathbb{R}}^{0}(U)$
+Pour $\varphi, \psi \in \mathbb{C}_{\mathbb{R}}^{0}(V)$,
+Pour $f \in \mathbb{C}_{\mathbb{R}}^{0}(U)$, 
+Si $(\varphi, \psi)(V) \subset U$, 
+Alors, 
 $$(u, v) \mapsto f(\varphi(u, v), \psi(u, v))$$
+est continue sur $V$
 
+##### Cas 3
+Pour $I$ un intervalle non trivial de $\mathbb{R}$,
 
-
+Pour $f \in \mathcal{C}_{\mathbb{R}}^{0}(U)$, 
+Pour $g \in \mathcal{C}_{\mathbb{R}}^{0}(I)$, 
+$f(U) \subset I$,
+$$g \circ f$$
+est continue sur $U$
 
 ##### Remarque
 Le formalisme général  sera donné l'an prochain
 
+#### Propriété
+Les projections : 
+$$\begin{cases}
+(x, y) \mapsto x \\
+(x, y) \mapsto y
+\end{cases}$$
+sont continues sur $\mathbb{R}^{2}$
+
+#### Corollaire
+Toute fonction polynôme en $x,y$ est continue sur $\mathbb{R}^{2}$.
+
+#### Corollaire
+Soit $f \in \mathcal{C}_{\mathbb{R}}^{0}(\mathbb{R}^{2})$ et 
