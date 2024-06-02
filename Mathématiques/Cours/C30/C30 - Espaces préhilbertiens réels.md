@@ -740,7 +740,7 @@ $$\left|\left| x \right|\right| ^{2} = \left|\left| p_{F}(x) \right|\right| ^{2}
 #### Définition
 Soient $E$ un préhilbertien, $Y \in \mathcal{P}(E) \setminus \{ 0 \}$ et $x \in E$
 La distance de $x$ à $Y$ est : 
-$$d(x, Y) = \inf_{y \in Y}(x, y)$$
+$$d(x, Y) = \inf_{y \in Y}(d(x, y))$$
 Qui existe grâce à la propriété de la borne inférieure
 
 ### Théorème 
