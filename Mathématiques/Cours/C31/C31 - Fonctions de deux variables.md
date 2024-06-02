@@ -343,4 +343,5 @@ sont continues sur $\mathbb{R}^{2}$
 Toute fonction polynôme en $x,y$ est continue sur $\mathbb{R}^{2}$.
 
 #### Corollaire
-Soit $f \in \mathcal{C}_{\mathbb{R}}^{0}(\mathbb{R}^{2})$ et 
+Pour $U$ un ouvert, 
+Pour $f \in \mathcal{C}_{\mathbb{R}}^{0}(\mathbb{R}^{2})$ et $g \in \mathcal{C}_{\mathbb{R}}^{0}(U)$,tell
