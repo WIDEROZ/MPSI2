@@ -41,43 +41,36 @@ Ainsi,
 Comme : $\left|\left| \cdot \right|\right| \geq 0$, 
 $$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
 #### Lemme 1
-Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormale de $E$, 
-et $f \in E \setminus Vect(e_{i})_{i = 1}^{p}$
-Alors il existe un unique $e_{p+1} \in E$ tel que : 
-- $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, e_{2},\dots, e_{p}, f)$
-- $(e_{i})_{i=1}^{p+1}$ soit orthonormé
+Soit $p \in \mathbb{N}^{*}$, 
+Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormée, 
+Soit $f \in E \setminus Vect(e_{i})_{i  =1}^{p}$, 
+Il existe un unique $e_{p+1} \in  E \setminus Vect(e_{i})_{i  =1}^{p}$ tel que : 
+- $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, \dots, e_{p}, f)$
 - $\left< f, e_{p+1} \right> > 0$
+- $(e_{i})_{i = 1}^{p+1}$ soit orthonormée
 
-Démonstration :
-
+Démonstration : 
 ###### Analyse
-Supposons qu'il existe un unique $e_{p+1} \in E$ tel que : 
-- $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, e_{2},\dots, e_{p}, f)$
-- $(e_{i})_{i=1}^{p+1}$ soit orthonormé
-- $\left< f, e_{p+1} \right> > 0$
-
-Comme $e_{p+1} \in Vect(e_{1}, \dots, e_{p}, f)$, 
-Soit $(\lambda_{j})_{j = 1}^{p}$ une famille de coefficients
-Soit $\lambda \in \mathbb{R}$, 
-$$e_{p+1} = \sum_{i =1}^{p} \lambda_{i} e_{i} + \lambda f$$
-Comme $(e_{i})_{i=1}^{p+1}$ est orthonormale :
+Supposons que les hypothèses du haut soient vérifiés : 
+il existe $(\lambda_{i})_{i=  1}^{p} \in \mathbb{R}^{[\![1, p]\!]}$ et $\lambda \in \mathbb{R}$ tels que :
+$$e_{p+1} = \sum_{i = 1}^{p} \lambda_{i} e_{i} + \lambda f$$
+Alors comme $(e_{i})_{i= 1}^{p+1}$ est orthonormée, 
 Soit $j \in [\![1, p]\!]$, 
-$$0 = \left< e_{j}, e_{p+1} \right> = \left< e_{j}, \sum_{i =1}^{p} \lambda_{i}e_{i} \right>+\left< e_{j}, \lambda f \right> = \lambda_{j} + \lambda \left< e_{j}, f \right>  $$
+$$0 = \left< e_{j}, e_{p+1} \right> = \left< e_{j},  \sum_{i = 1}^{p} \lambda_{i} e_{i} + \lambda f \right> = \lambda_{j} + \lambda\left< e_{j}, f \right> $$
 Alors, 
-$\lambda_{j} = -\lambda \left< e_{j}, f \right>$
-Donc, 
-$$e_{p+1} = \lambda\left( f-\sum_{i = 1}^{p} \left< e_{i}, f \right> e_{i} \right) = \lambda u$$
-
-$\left< f, e_{p+1} \right> > 0$ alors, 
-$$1=\left< e_{p+1}, e_{p+1} \right> = \left|\left| e_{p+1} \right|\right| ^{2} = \left|\left| \lambda u \right|\right| ^{2} = \left| \lambda\right|^{2}\left|\left| u \right|\right| ^{2}$$
-Alors, 
-$$1 = \left| \lambda\right|\left|\left| u \right|\right| \Leftrightarrow \left| \lambda\right| = \frac{1}{\left|\left| u \right|\right| }$$
-On a : 
-$$1 = \left< e_{p+1}, e_{p+1} \right> = \left< e_{p+1}, \lambda\left( f-\sum_{i = 1}^{p} \left< e_{i}, f \right> e_{i} \right) \right> = \lambda\left< e_{p+1}, f \right> $$
-$1>0$ alors, comme $\left< e_{p+1}, f \right>>0$ 
-$$\lambda >0$$
-Alors, 
-$$\lambda = \frac{1}{\left|\left| u \right|\right| }$$
+$$\lambda_{j} = -\lambda \left< f, e_{j} \right> $$
+Donc en posant $u$ :
+$$e_{p+1} =\lambda\left(f-  \sum_{i = 1}^{p} \left< f, e_{i} \right> e_{i} \right) = \lambda u$$
+Alors comme,
+$$1 = \left< e_{p+1}, e_{p+1} \right> = \lambda \left< e_{p+1}, f \right> > 0 $$
+par hypothèse $\left< e_{p+1}, f \right> > 0$
+Alors, $\lambda > 0$, 
+Ainsi, 
+$$
+1 = \left|\left| e_{p+1} \right|\right| = \lambda \left|\left| u \right|\right| 
+$$
+Donc, comme
+$\lambda = \left|\left| u \right|\right|^{-1}$
 Ainsi, 
 $$e_{p+1} = \left|\left| u \right|\right| ^{-1}u$$
 
@@ -110,6 +103,8 @@ On a :
 $$d(x, y) = d(x, p_{F}(x))$$
 alors, 
 $y = p_{F}(x)$ car $y \in F$
+
+
 
 
 
