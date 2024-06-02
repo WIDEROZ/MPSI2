@@ -36,3 +36,8 @@ $$\begin{array}{rl}
 Ainsi, 
 Comme : $\left|\left| \cdot \right|\right| \geq 0$, 
 $$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
+#### Lemme 1
+Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormale de $E$, 
+et $f \in E \setminus Vect(e_{i})_{i = 1}^{}$
+Alors, il existe un unique $e_{p+1}$ tel que :
+- $Vect(e_{i})_{i=1}^{p+1} = Vect(e_{1}, e_{2}, \dots, e_{p}, f)$

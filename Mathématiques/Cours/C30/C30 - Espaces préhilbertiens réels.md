@@ -608,7 +608,7 @@ On pose $e_{p+1} = \frac{1}{\left|\left| u \right|\right|}u$
 Avec 
 $$u = f- \sum_{i = 1}^{p} \left< f, e_{i} \right> e_{i}$$
 On sait que : $(e_{i})_{i = 1}^{p}$ est ON donc, 
-Pour $f \in [\![1, p]\!]$
+Pour $j \in [\![1, p]\!]$
 $$\left< e_{p+1}, e_{p} \right> = \frac{1}{\left|\left| u \right|\right| } (\left< f, e_{j} \right> -\left< f, e_{j} \right> ) =0$$
 
 Finir la suite en exo.
