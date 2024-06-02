@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5f209468a2556b7",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C31/C31.md"
-              }
-            }
-          },
-          {
             "id": "d300b7cbf8d8040c",
             "type": "leaf",
             "state": {
@@ -28,9 +18,75 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5004d62614c79d6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "dfadfa57250cc0e8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5f209468a2556b7",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C31/C31.md"
+              }
+            }
+          },
+          {
+            "id": "cccc2c9f66ed1c68",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30.md"
+              }
+            }
+          },
+          {
+            "id": "9e85ccfff65ed8dd",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C29/C29.md"
+              }
+            }
+          },
+          {
+            "id": "2bfdd909dfe78c8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Brouillon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -107,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Brouillon.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Brouillon.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+                "file": "Brouillon.md"
               }
             }
           }
@@ -159,15 +215,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d300b7cbf8d8040c",
+  "active": "2bfdd909dfe78c8f",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Brouillon.md",
+    "Mathématiques/Cours/C29/C29.md",
+    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C31/C31.md",
+    "Untitled.md",
+    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C31",
-    "Mathématiques/Cours/C30/C30.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-    "Untitled.md",
-    "Brouillon.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Mathématiques/Cours/C27/C27.md",
     "Mathématiques/Cours/C27/C27 - Variables aléatoires sur un espace probabilisé fini.md",
@@ -192,11 +250,9 @@
     "FR Philo/Cours/Individu et Communauté/Individu et communauté.md",
     "Info/script.ml",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
-    "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C14/C14 - Dérivabilité.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
-    "Mathématiques/TD/E29/E29 - Intégration.md",
     "Anglais/Khôlle/Semaine 27/1.mp3",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
