@@ -560,7 +560,7 @@ Démonstration : par l'identité de polarisation
 
 # IV. Orthonormalisation
 
-#### Lemme IMPORTANT :
+#### Lemme 1 IMPORTANT :
 Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormale de $E$ et $f \in E \setminus Vect(e_{i})_{i = 1}^{p}$
 
 Alors il existe un unique $e_{p +1} \in E$ tel que :
@@ -593,7 +593,7 @@ Donc,
 $$\left| \lambda \right| = \frac{1}{\left|\left| u \right|\right| }$$
 
 Comme : $e_{p+1} \perp Vect(e_{i})_{i = 1}^{p}$, 
-$$1 = \left< e_{p+1}, e_{p+1} \right> = \left< e_{p+1}, \lambda \left( f-\sum_{i = 1}^{p} \left< f, e_{1} \right>e_{1}  \right) \right> = \lambda \left< e_{p+1}, f \right> >0$$
+$$1 = \left< e_{p+1}, e_{p+1} \right> = \left< e_{p+1}, \lambda \left( f-\sum_{i = 1}^{p} \left< f, e_{i} \right>e_{i}  \right) \right> = \lambda \left< e_{p+1}, f \right> >0$$
 
 
 Or $\left< e_{p+1}, f \right> >0$ 

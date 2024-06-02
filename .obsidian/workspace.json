@@ -86,7 +86,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -163,7 +163,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Colles de la semaine.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Colles de la semaine.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -192,7 +192,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Colles de la semaine.md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -215,15 +215,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bfdd909dfe78c8f",
+  "active": "5004d62614c79d6b",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Colles de la semaine.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C29/C29.md",
     "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Brouillon.md",
     "Untitled.md",
     "Mathématiques/Cours/C31",
