@@ -89,3 +89,13 @@ $$\begin{cases}
 
 Démonstration :
 
+Soit $x \in E$, et $y \in F$
+$$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right|  $$
+Comme $x-p_{F} \in F^{\perp}$ et $p_{F} - y \in F$, 
+Par le théorème de Pythagore : 
+$$\begin{array}{c}
+d(x, y)^{2} = \left|\left| x-p_{F}(x) \right|\right|^{2} + \left|\left| p_{F}(x)-y \right|\right|^{2} \geq \left|\left| x-p_{F}(x) \right|\right|^{2}
+\end{array}$$
+$$= d(x, p_{F}(x))^{2}$$
+$$d(x, y) \geq f(x, p_{F}(x))$$
+Ainsi, $f(x, p_{F}(x)) = d(x, F)$
