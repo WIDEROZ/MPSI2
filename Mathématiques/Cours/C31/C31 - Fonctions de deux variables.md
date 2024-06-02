@@ -296,7 +296,18 @@ Avec les bonnes hypothèses sur les domaines, la composée de fonction de deux v
 
 On a trois cas : 
 ##### Cas 1
-
+Pour $I$ un intervalle non trivial de $\mathbb{R}$,
+Pour $U$ un ouvert
+Pour $x, y \in \mathcal{C}_{\mathbb{R}}^{0}(I)$, 
+Pour $f \in \mathcal{C}^{0}_{\mathbb{R}}(U)$, 
+Si $\gamma(I) \subset U$,
+$$
+\varphi : \begin{cases}
+\mathbb{R} \to \mathbb{R}\\
+t \mapsto f(\gamma(t)) = f(x(t), y(t))
+\end{cases}
+$$
+est continue sur $U$
 
 
 ##### Remarque
