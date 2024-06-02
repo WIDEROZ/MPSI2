@@ -97,8 +97,7 @@
               }
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -175,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -192,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Brouillon.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,7 +203,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Brouillon.md"
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
               }
             }
           }
@@ -227,10 +226,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3cdb1a96dc285312",
+  "active": "d300b7cbf8d8040c",
   "lastOpenFiles": [
-    "Colles de la semaine.md",
     "Brouillon.md",
+    "Colles de la semaine.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",

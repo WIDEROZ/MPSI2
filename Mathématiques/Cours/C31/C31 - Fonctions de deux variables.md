@@ -294,9 +294,11 @@ et $g$ ne s'annule pas sur $B$, donc, $\frac{f}{g}$ est définie au moins sur l'
 #### Théorème
 Avec les bonnes hypothèses sur les domaines, la composée de fonction de deux variables continue est continue. 
 
+On a trois cas : 
+##### Cas 1
+
+
+
 ##### Remarque
 Le formalisme général  sera donné l'an prochain
-
-#### Remarque
-On le voit précisément dans $3$ cas de figure
 

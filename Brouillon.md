@@ -14,5 +14,7 @@ $$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x - p_{F}(x) + p_{F}(
 Comme $x-p_{F}(x) \in F^{\perp}$ et $p_{F} - y \in F$, 
 On applique le théorème de Pythagore : 
 $$d(x, y) ^{2} = \left|\left| x-p_{F}(x) \right|\right|^{2} + \left|\left| p_{F}(x) - y \right|\right| ^{2} \geq \left|\left| x - p_{F}(x) \right|\right|^{2} $$
-Alors, comme la distance est toujousr
-$$$$
+Alors, comme la distance est toujours positive : 
+$$d(x, y) \geq d(x, p_{F}(x))$$
+Ainsi, par définition de $d(x, F)$
+$$d(x, p_{F}(x)) = d(x, F) = \inf_{f \in F}(d(x, f))$$
