@@ -25,4 +25,14 @@ $$ \left| \left< x, y \right> \right| \leq \left|\left| x \right|\right|\left|\l
 car $\left|\left| \cdot \right|\right|\geq 0$
 
 #### Inégalité de Minkovski
-$$\forall x, y \in E, no$$
+$$\forall x, y \in E, \left|\left| x + y \right|\right|  \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
+Soit $x, y \in E$, 
+$$\begin{array}{rl}
+\left| \left< x, y \right> \right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right| &\Leftrightarrow \left|\left| x \right|\right| ^{2} + \left|\left| y \right|\right| ^{2} + 2 \left< x, y \right> \\
+& \leq \left|\left| x \right|\right| ^{2} + \left|\left| y \right|\right| ^{2} +2\left|\left| x \right|\right| \left|\left| y \right|\right|  \\
+& \Leftrightarrow \left|\left| x+y \right|\right| ^{2} \\
+&\leq (\left|\left| x \right|\right| + \left|\left| y \right|\right| )^{2} \\
+\end{array}$$
+Ainsi, 
+Comme : $\left|\left| \cdot \right|\right| \geq 0$, 
+$$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
