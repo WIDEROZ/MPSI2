@@ -581,7 +581,7 @@ Donc, il s'écrit :
 $$e_{p+1} = \sum_{i = 1}^{p} \lambda_{i} e_{i} + \lambda f$$
 avec $\lambda_{1}, \dots, \lambda_{p}, \lambda \in \mathbb{R}$, 
 Soit $j \in [\![1, p]\!]$, comme $(e_{i})_{i = 1}^{p+1}$ est orthonormale, 
-$$0 =\left< e_{j}, e_{p+1} \right> = \left< e_{j}, \sum_{i =1}^{p} \lambda_{i}e_{i} +\lambda f\right> = \left< e_{j} , \sum_{i =1}^{p}\lambda_{i}e_{i} \right>  +\lambda\left< e_{j}, f \right> $$
+$$0 =\left< e_{j}, e_{p+1} \right> = \left< e_{j}, \sum_{i =1}^{p} \lambda_{i}e_{i} +\lambda f\right> = \left< e_{j} , \sum_{i =1}^{p}\lambda_{i}e_{i} \right>  +\lambda\left< e_{j}, f \right>  ⚡$$
 Alors, 
 $$\left< e_{j}, e_{p+1} \right> = \lambda_{j} + \lambda \left< f, e_{j} \right> = 0$$
 Donc, 

@@ -39,7 +39,15 @@ $$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| +\left|\lef
 #### Lemme 1
 Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormale de $E$, 
 et $f \in E \setminus Vect(e_{i})_{i = 1}^{p}$
-Alors, il existe un unique $e_{p+1}$ tel que :
-- $Vect(e_{i})_{i=1}^{p+1} = Vect(e_{1}, e_{2}, \dots, e_{p}, f)$
-- La famille : $(e_{i})_{i=1}^{p+1}$ soit orthonormale
-- $\forall $
+Alors il existe un unique $e_{p+1} \in E$ tel que : 
+- $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, e_{2},\dots, e_{p}, f)$
+- $(e_{i})_{i=1}^{p+1}$ soit orthonormé
+- $\left< f, e_{p+1} \right> > 0$
+
+###### Analyse
+Supposons qu'il existe un unique $e_{p+1} \in E$ tel que : 
+- $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, e_{2},\dots, e_{p}, f)$
+- $(e_{i})_{i=1}^{p+1}$ soit orthonormé
+- $\left< f, e_{p+1} \right> > 0$
+
+Comme $e_{p+1} \in Vect(e_{1}, \dots, )$
