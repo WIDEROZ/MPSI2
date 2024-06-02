@@ -1,7 +1,6 @@
-$$\int_{0}^{1} \frac{\ln(1+x)}{1+x^{2}} \, dx$$
-$$\begin{cases}
-u = \frac{1}{1+x^{2}} \\
-dv = \ln(1+x)dx
-\end{cases} \text{ et } \begin{cases}
-du = 
-\end{cases}$$
+# Lemme 1
+Soit $p \in \mathbb{N}^{*}$, 
+Soit $(e_{i})_{i = 1}^{p}$ une famille orthonormée, 
+Soit $f \in E \setminus Vect(e_{i})_{i  =1}^{p}$, 
+Il existe un unique $e_{p+1} \in  E \setminus Vect(e_{i})_{i  =1}^{p}$ tel que : 
+- $Vect(e_{i})_{i = 1}^{p+1} = Vect()$
