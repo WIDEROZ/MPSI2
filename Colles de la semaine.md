@@ -110,3 +110,7 @@ On a :
 $$d(x, y) = d(x, p_{F}(x))$$
 alors, 
 $y = p_{F}(x)$ car $y \in F$
+
+
+
+
