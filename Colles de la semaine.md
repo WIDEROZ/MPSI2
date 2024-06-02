@@ -66,3 +66,11 @@ $\left< f, e_{p+1} \right> > 0$ alors,
 $$1=\left< e_{p+1}, e_{p+1} \right> = \left|\left| e_{p+1} \right|\right| ^{2} = \left|\left| \lambda u \right|\right| ^{2} = \left| \lambda\right|^{2}\left|\left| u \right|\right| ^{2}$$
 Alors, 
 $$1 = \left| \lambda\right|\left|\left| u \right|\right| \Leftrightarrow \left| \lambda\right| = \frac{1}{\left|\left| u \right|\right| }$$
+On a : 
+$$1 = \left< e_{p+1}, e_{p+1} \right> = \left< e_{p+1}, \lambda\left( f-\sum_{i = 1}^{p} \left< e_{i}, f \right> e_{i} \right) \right> = \lambda\left< e_{p+1}, f \right> $$
+$1>0$ alors, comme $\left< e_{p+1}, f \right>>0$ 
+$$\lambda >0$$
+Alors, 
+$$\lambda = \frac{1}{\left|\left| u \right|\right| }$$
+Ainsi, 
+$$e_{p+1} = \left|\left| u \right|\right| ^{-1}u$$
