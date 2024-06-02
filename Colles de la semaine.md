@@ -2,6 +2,7 @@
 #### Inégalité de Cahchy-Swartz
 Soit $x, y \in E$, 
 $$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
+Démonstration :
 
 On pose : 
 $$f : \begin{cases}
@@ -26,6 +27,9 @@ car $\left|\left| \cdot \right|\right|\geq 0$
 
 #### Inégalité de Minkovski
 $$\forall x, y \in E, \left|\left| x + y \right|\right|  \leq \left|\left| x \right|\right| +\left|\left| y \right|\right| $$
+
+Démonstration :
+
 Soit $x, y \in E$, 
 $$\begin{array}{rl}
 \left| \left< x, y \right> \right|\leq \left|\left| x \right|\right| \left|\left| y \right|\right| &\Leftrightarrow \left|\left| x \right|\right| ^{2} + \left|\left| y \right|\right| ^{2} + 2 \left< x, y \right> \\
@@ -43,6 +47,8 @@ Alors il existe un unique $e_{p+1} \in E$ tel que :
 - $Vect(e_{i})_{i = 1}^{p+1} = Vect(e_{1}, e_{2},\dots, e_{p}, f)$
 - $(e_{i})_{i=1}^{p+1}$ soit orthonormé
 - $\left< f, e_{p+1} \right> > 0$
+
+Démonstration :
 
 ###### Analyse
 Supposons qu'il existe un unique $e_{p+1} \in E$ tel que : 
@@ -74,3 +80,12 @@ Alors,
 $$\lambda = \frac{1}{\left|\left| u \right|\right| }$$
 Ainsi, 
 $$e_{p+1} = \left|\left| u \right|\right| ^{-1}u$$
+
+#### Projection
+$$\begin{cases}
+\forall x \in E,& d(x, p_{F}(x)) = d(x , F) \\
+\forall x, y \in E, &d(x,Y) = d(x, y) \Rightarrow y = p_{F}(x)
+\end{cases}$$
+
+Démonstration :
+

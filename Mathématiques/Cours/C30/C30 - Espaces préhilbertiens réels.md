@@ -752,6 +752,7 @@ d(x, p_{F}(x)) = d(x, F) \\
 \end{cases}$$
 
 Démonstration : 
+Soit $x \in E$,
 On a : $p_{F}(x) \in F$ par définition de $p_{F}$
 et pour $y \in F$, 
 $$d(x, y) = \left|\left| x-y \right|\right| = \left|\left| x-p_{F}(x) + p_{F}(x)-y \right|\right| $$
