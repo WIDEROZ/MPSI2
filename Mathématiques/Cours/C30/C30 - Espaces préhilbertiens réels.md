@@ -266,7 +266,16 @@ Soit $y = 0$, comme $\left| 0\right|=0$, l'inégalité est vraie
 
 Soit $y \neq 0$, 
 On définit la fonction polynomiale de degré 2 :
-$$f : \lambda \mapsto \left|\left| x+y \right|\right| ^{2} = \left|\left| y \right|\right| ^{2}\lambda^{2}+2<x, y>\lambda+\left|\left| x \right|\right| ^{2}$$
+$$f : \lambda \mapsto \left|\left| x+\lambda y \right|\right| ^{2} = \left|\left| y \right|\right| ^{2}\lambda^{2}+2<x, y>\lambda+\left|\left| x \right|\right| ^{2}$$
+car : 
+$$
+\begin{array}{rl}
+\left|\left| x + \lambda y \right|\right|^{2} &= <x+\lambda y, x+\lambda y>  \\
+&= \left< x, x+\lambda y \right> +\lambda \left< y, x+\lambda y \right>  \\
+&= \left|\left| x \right|\right| ^{2}+\lambda\left< x, y \right> + \lambda \left< y, x \right> +\lambda^{2}\left|\left| y \right|\right| \\
+&= \left|\left| y \right|\right| ^{2}\lambda^{2}+2\left< x, y \right> \lambda+\left|\left| x \right|\right| ^{2} 
+\end{array}
+$$
 
 Comme le trinôme $f$ est à valeur dans $\mathbb{R}_{+}$, son discriminant est négatif ou nul ie : 
 $$\Delta = 4<x, y>^{2}-4\left|\left| y \right|\right| ^{2}\left|\left| x \right|\right| ^{2}\leq 0$$
