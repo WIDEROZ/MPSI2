@@ -526,4 +526,32 @@ $$\left( -\frac{\partial f}{\partial y} (x_{0}, y_{0}), \frac{\partial f}{\parti
 est tangent aux lignes de niveaux
 
 On a les lignes de nivaux qui sont les ensembles : 
-$$\forall \lambda \in \mathbb{R}, E_{\lambda} = \{ (x, y) \in U \}$$
+$$\forall \lambda \in \mathbb{R}, E_{\lambda} = \{ (x, y) \in U | f(x,y) = \lambda \} = f^{-1}(\{ \lambda \})$$
+
+#### Définition
+Soit $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $(x_{0}, y_{0}) \in U$, 
+Le vecteur gradient de $f$ en $(x_{0}, y_{0})$ est :
+$$\nabla f(x_{0}, y_{0}) = \begin{pmatrix}
+\frac{\partial f}{\partial x} (x_{0}, y_{0}) \\
+\frac{\partial f}{\partial y} (x_{0}, y_{0})
+\end{pmatrix}$$
+
+#### Remarques IMPORTANTES
+Le $DL_{1}(x_{0}, y_{0})$ de $f$ se reformule : 
+$$\boxed{\begin{array}{rl}
+f(x_{0}+h, y_{0}+k) =& f(x_{0}, y_{0})  \\
+&+\left< \nabla f(x_{0}, y_{0}), \begin{pmatrix}
+h \\
+k
+\end{pmatrix} \right>  \\
+&+ o\left(\left|\left| \begin{pmatrix}
+h \\
+k
+\end{pmatrix} \right|\right| \right)
+\end{array}}$$
+
+et si il est non nul
+$\nabla f(x_{0}, y_{0})$ définit la direction dans laquelle $f$ croît le plus vite
+Avec un vecteur $\begin{pmatrix} h \\k\end{pmatrix}$ unitaire (norme $1$), le produit scalaire est maximal lorsque $\begin{pmatrix}h \\ k\end{pmatrix}$ est colinéaire à $\nabla f(x_{0}, y_{0})$ 
+
+#### Déf
