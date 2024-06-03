@@ -497,7 +497,7 @@ $$
 $$\left( -\frac{\partial f}{\partial x} (x_{0}, y_{0}), -\frac{\partial f}{\partial y} (x_{0}, y_{0}), 1 \right)$$
 est normal au plan tangent 
 On projette sur $\mathbb{R}^{2}$ : 
-$$\Delta f(x_{0}, y_{0}) = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)$$
+$$\nabla f(x_{0}, y_{0}) = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)$$
 Excal 10
 
 #### Remarque
@@ -524,3 +524,6 @@ Sous ces hypothèses, dans $\mathbb{R}^{2}$
 $$\left( -\frac{\partial f}{\partial y} (x_{0}, y_{0}), \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)$$
 (projeté de $t_{2}$ sur $\mathbb{R}^{2}$)
 est tangent aux lignes de niveaux
+
+On a les lignes de nivaux qui sont les ensembles : 
+$$\forall \lambda \in \mathbb{R}, E_{\lambda} = \{ (x, y) \in U \}$$
