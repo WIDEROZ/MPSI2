@@ -471,4 +471,24 @@ Le cycle théorique de Diesel est formé de
 
 ## 3. Machine frigorifique
 ### a. Bilan énergitique sur un fluide en écoulement permanent
-Excal
+Excal 15
+Le système fermé $S$ correspondant est : 
+$$S = \sum +dV_{1}$$
+$dV_{1}$ : tout le fluide qui entre dans $\sum$ pendant $dt$
+à $t+dt$ : $S = \sum + dV_{2}$ 
+$dV_{2}$ : tout le fluide qui sort de $\sum$ pendant $dt$
+
+On applique le premier principe au système $S$ entre $t$ et $t + dt$
+$$
+\Delta U_{S} = U(t+ dt)-U(t) = U_{\sum} + U_{dV_{2}} + \left( U_{\sum} + U_{dV_{1}} \right)
+$$
+On exprime l'énergie dans $dV_{1}$ et $dV_{2}$ en énergie massique. 
+$$e_{dV_{1}}=e_{1}=e_{c_{1}} + e_{p_1} + u_{1}$$
+$$e_{dV_{2}}=e_{2}=e_{c_{2}} + e_{p_2} + u_{2}$$
+
+Et : 
+$$\begin{cases}
+U_{dV_{1}} = m_{1}e_{1} \\
+U_{dV_{2}} = m_{2}e_{2}
+\end{cases}$$
+
