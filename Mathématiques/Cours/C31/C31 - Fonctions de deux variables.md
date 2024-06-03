@@ -492,5 +492,24 @@ $$
 z - z_{0} = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)(x-x_{0})
 +\left( \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)(y - y_{0})
 $$
+
+#### Remarque
+$$\left( -\frac{\partial f}{\partial x} (x_{0}, y_{0}), -\frac{\partial f}{\partial y} (x_{0}, y_{0}), 1 \right)$$
+est normal au plan tangent 
 On projette sur $\mathbb{R}^{2}$ : 
-$$\Delta $$
+$$\Delta f(x_{0}, y_{0}) = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)$$
+Excal 10
+
+#### Remarque
+Un vecteur tangent est naturellement : 
+$$t = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y} (x_{0}, y_{0}), \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)^{2}+\left( \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)^{2} \right)$$
+éventuellement nul si $\frac{\partial f}{\partial x}(x_{0}, y_{0}) = \frac{\partial f}{\partial y}(x_{0}, y_{0})=0$
+($\perp$ au vecteur précédent)
+
+#### Conclusion
+On a des soucis lorsque $f'(x_{0}) = 0$ en dimension $1$
+$$\frac{\partial f}{\partial x} (x_{0}, y_{0}) = \frac{\partial f}{\partial y}(x_{0}, y_{0}) = 0 $$
+en dimension $2$
+
+#### Question
+En supposant que ce n'est pas le cas, 
