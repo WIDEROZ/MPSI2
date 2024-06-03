@@ -18,3 +18,12 @@ Alors, comme la distance est toujours positive :
 $$d(x, y) \geq d(x, p_{F}(x))$$
 Ainsi, par définition de $d(x, F)$
 $$d(x, p_{F}(x)) = d(x, F) = \inf_{f \in F}(d(x, f))$$
+
+# Exos
+## 1.
+$$
+\int _{m}^{n} \left\lfloor x \right\rfloor  \, dx = \sum_{k = m}^{n} \frac{k^{2}}{n-m+1} = \sum_{i=0}^{n-m} \frac{(i+m)^{2}}{n-m+1} = \sum_{i = 0}^{n-m}
+$$
+Alors, 
+
+$i = k-m$
