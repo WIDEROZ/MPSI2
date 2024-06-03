@@ -544,4 +544,16 @@ $\mathcal{P}_{u}$ : Puissance utile
 $\mathcal{P}_{th}$ : puissance thermique
 
 ### b. Diagramme $(P, h)$
-Excal 16
+Schema $R729$ du cours :
+#### L'air vérifie t-il l'équation d'état des $GP$ dans les conditions ambiantes?
+$P_{A} = 1 \text{ bar}$
+$T_{A} = 20°C \approx 293°k$
+On peut connaître $v_{A}$ en $m^{3}.kg^{-1}$
+$0,8 \leq v_{A}\leq 1$
+$$v_{A} = \frac{V_{A}}{m}$$
+$$
+\frac{PV}{m} = \frac{n}{m} RT \Leftrightarrow P_{A}V_{a} = \frac{RT_{A}}{M_{air}}
+$$*
+On calcule $Pv_{A}$ puis $\frac{RT_{A}}{M_{air}}$
+
+On détermne $v_{A}$
