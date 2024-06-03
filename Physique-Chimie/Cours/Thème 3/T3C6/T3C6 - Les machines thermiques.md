@@ -469,3 +469,6 @@ Le cycle théorique de Diesel est formé de
 9. Déterminer la puissance théorique de ce moteur avec $V_{\max} = 2L$ $3600 \, \mathrm{tr}.\min^{-1}$ 
    $\mathcal{P} = \frac{W}{T}$ avec $T$ : duré d'un cycle et $W = -(Q_{F} + Q_{C})= - nC_{v_{m}}(T_{A}-T_{D})-nC_{p_{m}}(T_{C}-T_{B})$ 
 
+## 3. Machine frigorifique
+### a. Bilan énergitique sur un fluide en écoulement permanent
+Excal

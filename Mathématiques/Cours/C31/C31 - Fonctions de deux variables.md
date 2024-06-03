@@ -590,6 +590,15 @@ $$
 Démonstration en exercice
 
 #### Théorème
-Pour $f \in \mathbb{C}^{1}_{\mathbb{R}}(U)$ et $X_{0} \in \mathbb{R}$ et $H = \begin{pmatrix}h \\ k\end{pmatrix} \in \mathbb{R}^{2}$
+Pour $f \in \mathbb{C}^{1}_{\mathbb{R}}(U)$ et $X_{0} \in \mathbb{R}^{2}$ et $H = \begin{pmatrix}h \\ k\end{pmatrix} \in \mathbb{R}^{2}$
 On a : 
-$$\partial_{H}f()$$
+$$\partial_{H}f(X_{0}) = \frac{\partial f}{\partial x} (X_{0})h + \frac{\partial f}{\partial y} (X_{0})k = \left< \nabla f(X_{0}), H \right> $$
+
+Démonstration : 
+Soit $t \neq 0$ petit, 
+$$\frac{f(X_{0}+tH)-f(X)}{t} \underset{t \to0}{=} \frac{\left< \nabla f(X_{0}) \right> + o(\left|\left| H \right|\right| )}{t} $$
+$$=\left< \nabla f(X_{0}), H \right> +o(1) \underset{n \to +\infty}{\longrightarrow} \left< \nabla f(X_{0}), H \right> $$
+Ainsi, pour $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $X_{0} \in U$, 
+Lorsque : 
+$$\nabla f(x_{0}, y_{0}) \neq 0$$
+parmi les vecteurs unitaires, $\frac{\nabla f(X_{0})}{\left|\left| \nabla f(X_{0}) \right|\right| }$ est celui pour lequel $\partial_{H}f(X_{0})$ est maximal. 

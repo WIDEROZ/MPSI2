@@ -4,32 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "7fe02a6f3f3da5bb",
+        "id": "3d8eb7a6672a409d",
         "type": "tabs",
         "children": [
           {
-            "id": "598ea9a7aa48f220",
+            "id": "15ac25f38af2a9f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4c29a2371a7f66b0",
+            "id": "6216b0f9245a5919",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md"
               }
             }
           }
@@ -158,15 +159,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "598ea9a7aa48f220",
+  "active": "6216b0f9245a5919",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Colles de la semaine.md",
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
-    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
@@ -194,7 +196,6 @@
     "Mathématiques/Cours/C19/C19 - Espaces Vectoriels de dimension finie.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels.md",
     "Mathématiques/Cours/C18/C18 - Espaces vectoriels - Resumé.md",
-    "Mathématiques/Cours/C22/C22 - Matrices et applications linéaires.md",
     "Info/script.ml",
     "Anglais/Khôlle/Semaine 27/1.mp3",
     "Anglais/Khôlle/Untitled.canvas",
