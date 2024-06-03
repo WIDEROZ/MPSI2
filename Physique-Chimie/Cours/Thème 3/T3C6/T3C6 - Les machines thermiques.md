@@ -553,7 +553,22 @@ $0,8 \leq v_{A}\leq 1$
 $$v_{A} = \frac{V_{A}}{m}$$
 $$
 \frac{PV}{m} = \frac{n}{m} RT \Leftrightarrow P_{A}V_{a} = \frac{RT_{A}}{M_{air}}
-$$*
+$$
 On calcule $Pv_{A}$ puis $\frac{RT_{A}}{M_{air}}$
 
 On détermne $v_{A}$
+$v_{A} = 0.87m^{3}.kg^{-1}$
+
+Donc, $P_{A}v_{A} = 0.87.10^{5} \,Pa.m^{-3}$
+et 
+$$\frac{RT_{A}}{M_{air}} = \frac{8.31 \times 293}{29 \times 10^{-3}} = 0.84 . 10^{-5} \, J$$
+L’erreur relative de l'faite en supposant que l'air est un gaz parfait est de :
+$$\left| \frac{0.84-0.87}{0.84}\right| = 3.6 \%$$
+
+#### Sur les courbes isenthalpiques sont elles en accord avec le modèle du GP en $A$ et ailleurs
+Pour un gaz parfait : 
+$$
+\Delta h  = c_{p} \Delta T
+$$
+Par la deuxième loi de joules
+Les courbes insenthalpiques corespondent aux courbes isothermes.
