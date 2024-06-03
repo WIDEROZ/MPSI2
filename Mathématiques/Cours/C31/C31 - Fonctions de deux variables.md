@@ -492,3 +492,5 @@ $$
 z - z_{0} = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)(x-x_{0})
 +\left( \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)(y - y_{0})
 $$
+On projette sur $\mathbb{R}^{2}$ : 
+$$\Delta $$
