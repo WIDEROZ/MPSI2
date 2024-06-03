@@ -593,5 +593,13 @@ Faire une moyenne des valeurs de ces quelques points à un écart type près.
 ### c. Le réfrigérateur
 Il utilise en général les transformations suivantes : 
 1 -> 2 : Compression de la vapeur
-2 -> 3 : Liquefaction dans le condenseur
-3 -> 4 : 
+2 -> 3 : Liquefaction dans le condenseur, ce qui donne $Q_{c}$ (a l'ext)
+3 -> 4 : Détente de Joules Thomson, vaporisation ponctuelle
+4 -> 1 : Vaporisation : $Q_{F}$ fournie par l'extérieur
+___
+On applique le premier principe industriel :
+$${\left( h_{s}+ \frac{1}{2}v_{s}^{2}-gz_{s}\right)-\left( h_{e}+\frac{1}{2}v_{e}^{2} + gz_{e} \right) = w_{u}+q}$$
+
+On suppose que :
+$w_{u} = 0$ 
+et que $q = 0$ (il n'y a pas de pertes thermiques)
