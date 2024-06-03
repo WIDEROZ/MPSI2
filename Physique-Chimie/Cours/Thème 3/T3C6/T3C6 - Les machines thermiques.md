@@ -603,3 +603,4 @@ $${\left( h_{s}+ \frac{1}{2}v_{s}^{2}-gz_{s}\right)-\left( h_{e}+\frac{1}{2}v_{e
 On suppose que :
 $w_{u} = 0$ 
 et que $q = 0$ (il n'y a pas de pertes thermiques)
+w
