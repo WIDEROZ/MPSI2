@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/Cours/C31/C31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/Cours/C31/C31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+                "file": "Mathématiques/Cours/C31/C31.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "598ea9a7aa48f220",
+  "active": "4c29a2371a7f66b0",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/Cours/C31/C31.md",
     "Colles de la semaine.md",
     "Brouillon.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",

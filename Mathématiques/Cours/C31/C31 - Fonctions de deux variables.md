@@ -512,4 +512,15 @@ $$\frac{\partial f}{\partial x} (x_{0}, y_{0}) = \frac{\partial f}{\partial y}(x
 en dimension $2$
 
 #### Question
-En supposant que ce n'est pas le cas, 
+En supposant que ce n'est pas le cas, peut-on trouver un autre vecteur tangent $t_{2}$ tq $(t_{1}, t_{2})$ dirige le plan tangent. 
+###### Réponse
+$$\left( -\frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y}(x_{0}, y_{0}), 0  \right)$$
+Convient
+$$((n, t_{1}, t_{2}) \text{ est une base orthogonale})$$
+
+
+#### Proposition
+Sous ces hypothèses, dans $\mathbb{R}^{2}$
+$$\left( -\frac{\partial f}{\partial y} (x_{0}, y_{0}), \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)$$
+(projeté de $t_{2}$ sur $\mathbb{R}^{2}$)
+est tangent aux lignes de niveaux
