@@ -572,3 +572,11 @@ $$
 $$
 Par la deuxième loi de joules
 Les courbes insenthalpiques corespondent aux courbes isothermes.
+
+D'après le diagramme, au niveau du point $A$, isothèrmes et isenthalpiques sont des droites verticales? Le modèle du GP est correct. isothèrmes
+Mais à haute pression ($\geq 5$ bar) les isothèrmes s'incurvent et s"loigent des isenthalpiques. Le modèle des GP n'est plus bon à haute pression. 
+
+#### Calculuer $c_{p}$ la capacité calorifique massique à pression constante au voisinage de $A$
+en $A$ on peut utiliser le modèle du gaz parfait : 
+$$c_{p} = \frac{dh}{dT} = \frac{\Delta h}{\Delta T}$$
+$\Delta T = 40°C - 0°C = 40°C = 40K$ et en $cm$ $\Delta T = 40K$
