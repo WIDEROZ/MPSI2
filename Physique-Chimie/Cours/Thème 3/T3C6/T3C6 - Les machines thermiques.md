@@ -580,3 +580,18 @@ Mais à haute pression ($\geq 5$ bar) les isothèrmes s'incurvent et s"loigent d
 en $A$ on peut utiliser le modèle du gaz parfait : 
 $$c_{p} = \frac{dh}{dT} = \frac{\Delta h}{\Delta T}$$
 $\Delta T = 40°C - 0°C = 40°C = 40K$ et en $cm$ $\Delta T = 40K$
+et $\Delta h = 40.7 kJ.kg^{-1}$
+
+#### Montrer que la loi de Laplace est valide
+L'air est un gaz diatomique alors, $\gamma = 1.4$
+Mq
+$$Pv^{\gamma} = \text{cte}$$
+Le calculer pour quelques points de la courbe. 
+
+Faire une moyenne des valeurs de ces quelques points à un écart type près. 
+
+### c. Le réfrigérateur
+Il utilise en général les transformations suivantes : 
+1 -> 2 : Compression de la vapeur
+2 -> 3 : Liquefaction dans le condenseur
+3 -> 4 : 
