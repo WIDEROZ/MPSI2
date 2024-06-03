@@ -12,7 +12,7 @@ Le champ est uniforme si la grandeur correspondante garde la même valeur en tou
 Le champ est statique ou stationnaire ou permanent si la grandeur ne dépend pas du temps. 
 
 ## 2. Topographie d'un champ
-### a. Ligne et cartet de champ
+### a. Lignes et cartes  de champ
 #### Définition
 On appelle ligne de champ une courbe en tout point duquel le champ est tangent. 
 
