@@ -569,6 +569,27 @@ $$
 #### Proposition
 Avec ces notations, si $\partial_{H}f(X_{0})$ existe et $\lambda \in \mathbb{R}$, 
 Alors, $\partial_{\lambda H}f(X_{0})$ existe et
-$$\partial_{\lambda H}f(X_{0})=\lambda \partial_{H}f(X_{0})$$
+$$\boxed{\partial_{\lambda H}f(X_{0})=\lambda \partial_{H}f(X_{0})}$$
 et on a toujours (sans les hypothèses)
-$$\partial_{(0, 0)}f(X_{0}) = 0$$
+$$\boxed{\partial_{(0, 0)}f(X_{0}) = 0}$$
+
+Démonstration : exercice
+Par associativité mixte :
+$$t(\lambda H) = (t\lambda) H =(\lambda t)H$$
+
+#### Lien avec les dérivées partielles
+En notant $E_{1} = \begin{pmatrix}1 \\ 0\end{pmatrix}$ et $E_{2} = \begin{pmatrix}0 \\ 1\end{pmatrix}$
+les vecteurs de la base canonique de $\mathbb{R}^{2}$, 
+$$
+\begin{cases}
+\partial_{E_{1}}f(X_{0}) = \frac{\partial f}{\partial x} (x_{0}, y_{0}) \\
+\partial_{E_{2}}f(X_{0}) = \frac{\partial f}{\partial y} (x_{0}, y_{0})
+\end{cases}
+$$
+
+Démonstration en exercice
+
+#### Théorème
+Pour $f \in \mathbb{C}^{1}_{\mathbb{R}}(U)$ et $X_{0} \in \mathbb{R}$ et $H = \begin{pmatrix}h \\ k\end{pmatrix} \in \mathbb{R}^{2}$
+On a : 
+$$\partial_{H}f()$$
