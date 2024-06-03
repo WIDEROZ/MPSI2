@@ -492,7 +492,7 @@ U_{dV_{1}} = m_{1}e_{1} \\
 U_{dV_{2}} = m_{2}e_{2}
 \end{cases}$$
 
-en régime stationaire : 
+en régime stationnaire : 
 $$
 U_{\sum}(t) = U_{\sum}(t+dt)
 $$
@@ -521,4 +521,27 @@ Donc, en revenant au premier principe :
 $$
 \Delta e_{c} + \Delta e_{p} + \Delta u = w_{u} + p_{1}v_{1}-p_{2}v_{2} + q
 $$
-$$\Delta e_{c} + \Delta_{e_{p}} + u_{2} + p_{2}v_{2} -(u_{1}+p_{1})$$
+$$\Delta e_{c} + \Delta_{e_{p}} + u_{2} + p_{2}v_{2} -(u_{1}+p_{1}v_{1}) = w_{u}+ q$$
+Ainsi, 
+$$\boxed{\Delta e_{c} + \Delta e_{p} + \Delta h = w_{u} + q}$$
+
+#### Principe : Premier principe industriel
+Pour un système ouvert en notant $e$ les propriétés à l'entée du système et $s$ les propriétés en sortie :
+$$
+\boxed{(h_{s}+e_{c_{s}}+e_{p_{s}})-(h_{e}+e_{c_{e}} + e_{p_{e}}) = w_{u}+q}
+$$
+Avec :
+$w_{u}$ : Le travail utile massique, le travail autre qui celui deds forces de pression. 
+
+
+#### Bilan de puissance
+$$
+q_{m}(\Delta e_{c} + \Delta e_{p} + \Delta h) = \mathcal{P}_{u} + \mathcal{P}_{th}
+$$
+Avec : 
+$q_{m} = \frac{dm}{dt}$ le débit massique en $k.g^{-1}$
+$\mathcal{P}_{u}$ : Puissance utile
+$\mathcal{P}_{th}$ : puissance thermique
+
+### b. Diagramme $(P, h)$
+Excal 16
