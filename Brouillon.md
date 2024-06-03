@@ -1,7 +1,8 @@
-# 1.
+# T1.3
 $$
-\left( P + \frac{a}{V_{m}^{2}} \right)(V_{m}-b)=RT
+v^{*} = \sqrt{\frac{1}{N}\sum_{i = 1}^{N} v^{2}_{i}}
 $$
-Alors, 
-$$\left( P + \frac{an^{2}}{V^{2}} \right)\left( \frac{V}{n}-b \right) = RT$$
-$$P\left( \frac{V}{n} - b \right) + \frac{a n}{V}-\frac{abn^{2}}{V^{2}}$$
+
+$$
+\left< E_{c} \right> = \frac{3}{2}k_{B}T
+$$
