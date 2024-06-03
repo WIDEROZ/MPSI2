@@ -364,4 +364,39 @@ Si la première $f(\cdot, y_{0})$ est dérivable en $x_{0}$, on note son nombre 
 $$
 \frac{\partial f}{\partial x} (x_{0}, y_{0})
 $$
-on l'appelle (abus) la dérivée partielle de $f$ par rapport à $x$ au point $(x_{0}, y_{0})$, de même pour la dérivée partielle de $f$ par rapport à $y$ en $(x_{0}, y_{0})$, nombre dérivé si il
+on l'appelle (abus) la dérivée partielle de $f$ par rapport à $x$ au point $(x_{0}, y_{0})$, de même pour la dérivée partielle de $f$ par rapport à $y$ en $(x_{0}, y_{0})$, nombre dérivé si il existe de $f(x_{0}, \cdot)$ en $(x_{0}, y_{0})$ noté : 
+$$\frac{\partial f}{\partial y} (x_{0}, y_{0})$$
+
+#### Remarque
+L'existence de ces deux dérivées partielles en $(x_{0}, y_{0})$ n’entraîne pas la continuité en $(x_{0}, y_{0})$ car cela ne dépend que des valeurs prises par $f$ sur "la croix". 
+
+
+#### Exemple
+$$
+f_{1} : (x, y) \mapsto \begin{cases}
+\frac{xy}{x^{2}+y^{2}} \text{ si }(x, y) \neq (0, 0) \\
+0 \text{ si } (x, y) = (0, 0)
+\end{cases}
+$$
+On a l'existence de $\frac{\partial f_{1}}{\partial x}(0, 0) = 0$ 
+et $\frac{\partial f_{1}}{\partial y}(0, 0) = 0$ sans la continuité en $(0, 0)$
+
+#### Définition
+On dit que $f$ est de classe $\mathcal{C}^{1}$ sur $U$ ssi elle admet des dérivées partielles en tout point de $U$ et :
+$$\begin{cases}
+\frac{\partial f}{\partial x} : (x, y) \mapsto \frac{\partial f}{\partial x} (x, y) \\
+\frac{\partial f}{\partial y} : (x, y) \mapsto \frac{\partial f}{\partial y} (x, y)
+\end{cases}$$
+sont continues sur $U$.
+
+#### Remarque
+Abus : Dans 
+$$\frac{\partial f}{\partial x} (x, y)$$
+Les deux $x$ ne sont pas les mêmes : l'un est la coordonnée générique et l'autre un réel fixé. 
+
+#### Notation : 
+L'ensemble des fonction de classe $\mathcal{C}^{1}(U)$ est noté : 
+$$\mathcal{C}_{\mathbb{R}}^{1}(U)$$
+
+#### Théorème
+$$$$
