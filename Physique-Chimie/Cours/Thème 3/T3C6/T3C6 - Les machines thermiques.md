@@ -492,3 +492,33 @@ U_{dV_{1}} = m_{1}e_{1} \\
 U_{dV_{2}} = m_{2}e_{2}
 \end{cases}$$
 
+en régime stationaire : 
+$$
+U_{\sum}(t) = U_{\sum}(t+dt)
+$$
+donc le premier principe devient : 
+$$\Delta U_{S} = m_{2}e_{c_{2}} +m_{2}e_{p_{2}} + m_{2}u_{2} - m_{1}e_{c_{1}} +m_{1}e_{p_{1}} + m_{1}u_{1}$$
+En régime stationnaire : $m = m_{1} = m_{2}$
+$$
+\Delta U_{S} = m(e_{c_{2}}-e_{c_{1}}+e_{p_{2}}-e_{p_{1}}+u_{2}-u_{1}) = W+Q
+$$
+Alors, on divise par $m$
+$$\Delta e_{c} + \Delta e_{p} + \Delta u = w + q$$
+Le travail peut s'écrire comme la somme :
+$$
+w = w_{t} + w_{u}
+$$
+$w_{t}$ : Le travail de transfert qui est liée au mouvement du fluide, au transfert de masse entre l'entrée et la sortie.
+$w_{u}$ : Le travail utile lié aux transformations thermodynamiques à l'intérieur de $\sum$
+$$
+w_{t} = p_{1}v_{1}-p_{2}v_{2}
+$$
+avec
+$p_{1}$ et $p_{2}$ la pression en entrée et en sortie et
+$v_{1}$ et $v_{2}$ les volumes massiques d'entrée et de sortie.
+
+Donc, en revenant au premier principe :
+$$
+\Delta e_{c} + \Delta e_{p} + \Delta u = w_{u} + p_{1}v_{1}-p_{2}v_{2} + q
+$$
+$$\Delta e_{c} + \Delta_{e_{p}} + u_{2} + p_{2}v_{2} -(u_{1}+p_{1})$$
