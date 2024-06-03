@@ -469,3 +469,26 @@ f(x_{0}+h, y_{0}+k) \underset{(h, k) \to (0, 0)}{=}
 &+ \frac{\partial f}{\partial x_{0}} (x_{0}, y_{0})h + \frac{\partial f}{\partial y_{0}} (x_{0}, y_{0})k   \\&+ o(\left|\left| (h, k) \right|\right| )
 \end{array}
 $$
+
+#### Remarque
+On peut remplacer, si c'est plus parlant $o(\left|\left| (h, k) \right|\right|)$ par : 
+$$\left|\left| (h, k) \right|\right|\varepsilon(h, k)$$
+avec $\varepsilon$ définie continue au voisinage de $(0, 0)$ avec $\varepsilon(0, 0) = 0$
+
+#### Remarque
+Interprétation : 
+$$
+f(x_{0}+h, y_{0}+k) - f(x_{0}, y_{0}) \approx
+ \frac{\partial f}{\partial x} (x_{0}, y_{0})h + \frac{\partial f}{\partial y} (x_{0}, y_{0})k 
+$$
+le $\approx$ est un "vrai" équivalent si :
+$$
+\left( \frac{\partial f}{\partial x} (x_{0}, y_{0}), \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right) \neq (0, 0)
+$$
+
+#### Définition
+Sous ces hypothèses, on appelle plan tangent à $\mathcal{G}_{f}$ au point $(x_{0}, y_{0}, f(x_{0}, y_{0})=z_{0})$ le plan d'équation : 
+$$
+z - z_{0} = \left( \frac{\partial f}{\partial x} (x_{0}, y_{0}) \right)(x-x_{0})
++\left( \frac{\partial f}{\partial y} (x_{0}, y_{0}) \right)(y - y_{0})
+$$
