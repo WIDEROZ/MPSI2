@@ -554,4 +554,21 @@ et si il est non nul
 $\nabla f(x_{0}, y_{0})$ définit la direction dans laquelle $f$ croît le plus vite
 Avec un vecteur $\begin{pmatrix} h \\k\end{pmatrix}$ unitaire (norme $1$), le produit scalaire est maximal lorsque $\begin{pmatrix}h \\ k\end{pmatrix}$ est colinéaire à $\nabla f(x_{0}, y_{0})$ 
 
-#### Déf
+#### Définition
+Soit $f : U \to \mathbb{R}$, $X_{0} \in U$, et $H = \begin{pmatrix}h \\ k\end{pmatrix} \in \mathbb{R}^{2}$, 
+La dérivée de $f$ suivant le vecteur $H$ en $X_{0}$ est, si il existe, le nombre dérivé de la fonction : 
+$$t \mapsto f(X_{0} + tH)$$
+ie :
+$$\lim_{ \underset{\neq}{t \to 0} } \frac{f(X_{0}+tH)-f(X_{0})}{t}$$
+
+On note ce nombre : 
+$$
+\partial_{H}f(X_{0}) = \partial_{(h, k)}f(x_{0},y_{0})
+$$
+
+#### Proposition
+Avec ces notations, si $\partial_{H}f(X_{0})$ existe et $\lambda \in \mathbb{R}$, 
+Alors, $\partial_{\lambda H}f(X_{0})$ existe et
+$$\partial_{\lambda H}f(X_{0})=\lambda \partial_{H}f(X_{0})$$
+et on a toujours (sans les hypothèses)
+$$\partial_{(0, 0)}f(X_{0}) = 0$$
