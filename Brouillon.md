@@ -22,8 +22,10 @@ $$d(x, p_{F}(x)) = d(x, F) = \inf_{f \in F}(d(x, f))$$
 # Exos
 ## 1.
 $$
-\int _{m}^{n} \left\lfloor x \right\rfloor  \, dx = \sum_{k = m}^{n} \frac{k^{2}}{n-m+1} = \sum_{i=0}^{n-m} \frac{(i+m)^{2}}{n-m+1} = \sum_{i = 0}^{n-m}
+\int _{m}^{n} \left\lfloor x \right\rfloor  \, dx = \sum_{k = m}^{n} \frac{k^{2}}{n-m+1} = \sum_{i=0}^{n-m} \frac{(i+m)^{2}}{n-m+1}
 $$
+$$= \frac{1}{n-m+1}\left( \sum_{i = 0}^{n-m} i^{2} + \sum_{i = 0}^{n-m} 2mi + \sum_{i = 0}^{n-m} m^{2} \right)$$
+$$= \frac{1}{n-m+1}\left( \frac{(n-m)(n-m+1)(2(n-m)+1)}{6} + m(n-m)(n-m+1) + m^{2}(n-m+1) \right)$$
 Alors, 
 
 $i = k-m$
