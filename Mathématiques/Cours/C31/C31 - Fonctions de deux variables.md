@@ -349,3 +349,19 @@ telles que $0 \notin g(U)$,
 $$\frac{f}{g}$$
 est continue sur $U$
 
+# II. Dérivées partielles
+Soit $f : U \to \mathbb{R}$,
+avec $U$ un ouvert de $\mathbb{R}^{2}$, 
+et $X_{0} = (x_{0}, y_{0}) \in U$, 
+
+#### Définition
+Les applications partielles de $f$ en $X_{0}$ sont : 
+$$\begin{cases}
+x \mapsto f(x, y_{0}) \\
+y \mapsto f(x_{0}, y)
+\end{cases}$$
+Si la première $f(\cdot, y_{0})$ est dérivable en $x_{0}$, on note son nombre dérivé ainsi :
+$$
+\frac{\partial f}{\partial x} (x_{0}, y_{0})
+$$
+on l'appelle (abus) la dérivée partielle de $f$ par rapport à $x$ au point $(x_{0}, y_{0})$, de même pour la dérivée partielle de $f$ par rapport à $y$ en $(x_{0}, y_{0})$, nombre dérivé si il
