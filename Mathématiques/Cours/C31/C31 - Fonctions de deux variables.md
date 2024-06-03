@@ -399,4 +399,18 @@ L'ensemble des fonction de classe $\mathcal{C}^{1}(U)$ est noté :
 $$\mathcal{C}_{\mathbb{R}}^{1}(U)$$
 
 #### Théorème
-$$$$
+$$\mathcal{C}_{\mathbb{R}}^{1}(U) \subset \mathcal{C}_{\mathbb{R}}^{0}(U)$$
+ie
+Toute fonction de classe $\mathcal{C}^{1}$ est continue. 
+
+Idée de la démonstration : 
+Pour $f \in \mathcal{C}^{1}_{\mathbb{R}}(U)$, $(x_{0}, y_{0}) \in U$,
+Pour $(x, y) \in U$, 
+Assez proche de $(x_{0}, y_{0})$ (dans la boule de centre $(x_{0}, y_{0})$)
+
+$$\begin{array}{rl}
+\left| f(x, y) - f(x_{0}, y_{0})\right|&\leq |f(x, y)- f(x_{0}, y)| \\
+&+ \left| f(x_{0}, y) - f(x_{0}, y_{0}) \right| \\
+&\leq \left| x - x_{0}\right|\left| \frac{\partial f}{\partial x} (c, y)\right| \\
++ \left| \right|
+\end{array}$$
