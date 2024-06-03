@@ -441,4 +441,31 @@ On aurait aussi un résultat ponctuel au point $(x_{0}, y_{0})$.
 #### Remarque
 La composition est plus subtile. 
 
-#### Généralisation des relations de comparaison
+## 2. Généralisation des relations de comparaison
+Soient $f, g : u \to \mathbb{R}$, $X_{0} \in U$
+tq $g \neq 0$ au voisinage de $X_{0}$ (sur une petite boule centrée en $X_{0}$)
+
+#### Définition
+$$
+f(X) \underset{X \to X_{0}}{=} O(g(X)) \Leftrightarrow \frac{f}{g} \text{ est bornée}
+$$
+$$f(X) \underset{X \to X_{0}}{=} o(g(X)) \Leftrightarrow \frac{f}{g} \begin{array}{l} \\
+ \\
+ \\
+ \\
+\text{ est continue et nulle} \\
+\text{ au voisinage de }X_{0} \\
+\text{ ou continue au voisinage de }X_{0} \\
+\text{ privé de }X_{0} \text{ et prolongeable} \\
+\text{ par continuité en }X_{0} \text{ avec valeur }0 
+\end{array}$$
+
+#### Théorème
+Soient $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $X_{0} \in U$, 
+Alors on a ($DL_{1}(X_{0})$ de $f$) :
+$$\begin{array}{rl}
+f(x_{0}+h, y_{0}+k) \underset{(h, k) \to (0, 0)}{=}
+ &f(x_{0}, y_{0}) \\
+&+ \frac{\partial f}{\partial x_{0}} (x_{0}, y_{0})h + \frac{\partial f}{\partial y_{0}} (x_{0}, y_{0})k   \\&+ o(\left|\left| (h, k) \right|\right| )
+\end{array}
+$$
