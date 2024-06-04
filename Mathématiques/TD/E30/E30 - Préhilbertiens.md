@@ -124,7 +124,38 @@ $$
 Donc, $\left< A, B \right> = tr(AB+BA)$ est un produit scalaire. 
 Donc, 
 Par l'inégalité de Cauchy-Swartz : 
-$$tr(AB+BA)=\left< A, B \right> \leq |\left< A, B \right>| \leq \left|\left| A \right|\right| \left|\left| B \right|\right|  $$
+$$tr(AB+BA)=\left< A, B \right> \leq |\left< A, B \right>| \leq \left|\left| A \right|\right| \left|\left| B \right|\right|  = 2 \sqrt{ tr(A^{2})tr(B^{2}) }$$
+Ainsi, 
+$$
+\boxed{tr(AB + BA)^{2} \leq 4 tr(A^{2})tr(B^{2})}
 $$
 
+# Exercice 4
+## 1.
+$$2x+3y+4z+5t=0$$
+Alors, 
+Une base de $H$ est : 
+$$ f = (f_{1}, f_{2}, f_{3})
+\begin{pmatrix}
+\begin{pmatrix}
+-3 \\
+2 \\
+0 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+-2 \\
+0 \\
+1 \\
+0
+\end{pmatrix}, \begin{pmatrix}
+-5 \\
+0 \\
+0 \\
+2
+\end{pmatrix}
+\end{pmatrix}
 $$
+On note : 
+$$\forall i \in [\![1, 3]\!], u_{i} = f_{i} - \sum_{k = 1}^{i} \left< f_{i}, e_{k} \right>e_{k} $$
+Alors par le procédé d'orthogonalisation de gran-Schmidt
+$$$$
