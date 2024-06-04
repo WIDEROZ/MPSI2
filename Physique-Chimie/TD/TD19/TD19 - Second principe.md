@@ -17,12 +17,10 @@ $$\Delta S_{lac} = 0 = S_{créé}+ \frac{-C(T_{th}-T_{0})}{T_{th}}$$
 Ainsi, 
 $$S_{créé} = 0 $$
 # Exercice 6
-#### 1.
-La transformation est brutale donc irreversible
-$S_{créé} > 0$
-$$\Delta S = 0 = \Delta S_{c}+\Delta S_{eau} = S_{c_{créé}}+ S_{eau_{créé}} +S_{c_{ech}} + S_{eau_{ech}}$$
+#### 2.
 $$
-S_{{ech}} = \frac{Q_{c}}{T_{th}} + \frac{Q_{eau}}{T_{th}} =
-$$
+\Delta S = \Delta S_{c} + \Delta S_{eau}$$
 
-$$Q_{c} = -W_{c} = \int_{} P \, dV $$
+$$\Delta S_{c} = m_{c}c_{c}\ln\left( \frac{T_{f}}{T_{i}} \right) = S_{créé} + S_{ech}$$
+$$\Delta U_{c} = m_{c}c_{c}(T_{f}-T_{i}) = W + Q = RI^{2}\Delta t + Q_{c}$$
+$$$$
