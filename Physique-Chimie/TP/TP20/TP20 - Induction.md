@@ -24,3 +24,16 @@ C'est plus violent
 Le nombre de spires, la force de l'aimant
 
 #### 8.
+La même chose. 
+
+# II. Champ magnétique créé par un solénoïde
+#### 1. 
+Un champ magnétique
+
+#### 2.
+Un champ magnétique qui change de sens a chaque frame
+
+#### 3.
+Mettre en mouvement la bobine
+
+## 1. Evolution du champ magnétique en fonction du courant
