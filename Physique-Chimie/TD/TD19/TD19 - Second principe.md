@@ -20,4 +20,9 @@ $$S_{créé} = 0 $$
 #### 1.
 La transformation est brutale donc irreversible
 $S_{créé} > 0$
-$$\Delta S = \Delta S_{c}+\Delta S_{eau} = S_{c_{créé}}+S_{c_{ech}} + $$
+$$\Delta S = 0 = \Delta S_{c}+\Delta S_{eau} = S_{c_{créé}}+ S_{eau_{créé}} +S_{c_{ech}} + S_{eau_{ech}}$$
+$$
+S_{{ech}} = \frac{Q_{c}}{T_{th}} + \frac{Q_{eau}}{T_{th}} =
+$$
+
+$$Q_{c} = -W_{c} = \int_{} P \, dV $$
