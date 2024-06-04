@@ -39,8 +39,11 @@ $$\Delta S = S_{créé} = (m_{e}c_{e}+m_{c}c_{c})\ln\left( \frac{RI^{2}\Delta t}
 #### 1.
 $$0 = P_{0}S + Mg - P_{1}S$$
 $$P_{1} = P_{0} + \frac{Mg}{S}$$
-$$P_{0}V_{0} = nRT_{0}$$
+$$P_{1}V_{1} = nRT_{1}$$
+
+
 
 Alors, 
 $$\Delta U = W = - \int_{V_{0}}^{V_{1}} P_{0} + \frac{Mg}{S}\, dV$$
-$$= \left( P_{0}+\frac{Mg}{S} \right)(V_{0}-V_{1}) = nC_{v_{m}}(T_{1}-T_{0}) $$
+$$= \left( P_{0}+\frac{Mg}{S} \right)(V_{0}-V_{1}) = \frac{P_{0}V_{0}}{RT_{0}}C_{v_{m}}(T_{1}-T_{0}) $$
+$$\Leftrightarrow \frac{\frac{P_{0}V_{0}}{RT_{0}}C_{v_{m}}(T_{0}-T_{1})}{\left( P_{0}+\frac{Mg}{S} \right)} +V_{0} = V_{1} $$
