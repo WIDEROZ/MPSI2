@@ -111,4 +111,20 @@ $$= tr(AB + BA) + \lambda tr(A'B+BA') = \left< A, B \right> + \lambda \left< A',
 
 C'est bilinéaire.
 On montre que c'est défini positivement : 
-$$\left< A, A \right> = 2tr(A^{2}) = \sum_{i =1}^{n}\sum_{} $$
+$$\left< A, A \right> = 2tr(A^{2}) = 2\sum_{i =1}^{n}A^{2}[i, i] = 2\sum_{i = 1}^{n} \sum_{k = 1}^{n} A[n, k]A[k, n] $$
+$$= 2\sum_{i = 1}^{n}\sum_{k = 1}^{n}(A[n, k])^{2} \geq 0$$
+Supposons que $\left< A, A \right> = 0$
+Alors, 
+$$\forall k\in [\![1, n]\!], A[n, k] = 0$$
+Ainsi,
+$$
+A = 0_{S_{n}}
+$$
+
+Donc, $\left< A, B \right> = tr(AB+BA)$ est un produit scalaire. 
+Donc, 
+Par l'inégalité de Cauchy-Swartz : 
+$$tr(AB+BA)=\left< A, B \right> \leq |\left< A, B \right>| \leq \left|\left| A \right|\right| \left|\left| B \right|\right|  $$
+$$
+
+$$
