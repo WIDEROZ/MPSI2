@@ -59,15 +59,9 @@ $$T_{2} = \frac{P_{2}V_{2}}{nR} = \frac{P_{2}V_{2}}{P_{0}V_{0}}T_{0} = \frac{V_{
 
 $$\Delta U = W$$
 Car la transformation est adiabatique
-$$C_{v} \Delta T = \Delta U = -\int P_{ext} \, dV = - P_{0}\int _{V_{0}}^{V_{2}} dV = P_{0}(V_{0}-V_{2}) $$
-$$nC_{vm}(T_{2} - T_{0}) = P_{0}(V_{0}-V_{2})$$
-$$\frac{5}{2}nR(T_{2}-T_{0}) = P_{0}(V_{0}-V_{2})$$
-$$\frac{5}{2}(P_{2}V_{2}-P_{0}T_{0}) = P_{0}V_{0}-P_{0}V_{2}$$
+$$C_{v} \Delta T = \Delta U = -\int_{V_{1}}^{V_{2}} P_{ext} \, dV = - P_{0}\int _{V_{1}}^{V_{2}} dV = P_{0}(V_{1}-V_{2}) $$
+$$nC_{vm}(T_{2}-T_{1}) = P_{0}(V_{1}-V_{2})$$
+$$\frac{5}{2}(P_{0}V_{2}-P_{1}V_{1})=P_{0}(V_{1}-V_{2})$$
 Alors, 
-$$V_{2}\left( \frac{5}{2}P_{2}+P_{0} \right) =\frac{5}{2}P_{0}T_{0} +P_{0}V_{0}$$
-$$
-V_{2} = \frac{\frac{5}{2}P_{0}T_{0}+P_{0}V_{0}}{\frac{5}{2}P_{2}+P_{0}}
-$$
-Ainsi, 
-
-$$\boxed{T_{2} = \frac{P_{0}}{V_{0}} \times \frac{\frac{5}{2}T_{0}+V_{0}}{\frac{5}{2}P_{2}+P_{0}} }$$
+$$V_{2} = \frac{2}{3}V_{1}+\frac{5}{3}\frac{P_{1}}{P_{0}}V_{1}$$
+$$V_{1}\left( \frac{2}{3}+\frac{5}{3} \frac{P_{0}+\frac{Mg}{SP_{0}}}{P_{0}} \right)$$
