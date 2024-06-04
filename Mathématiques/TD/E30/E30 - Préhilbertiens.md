@@ -95,7 +95,7 @@ $$\phi(x, y) = (a-3)x_{1}y_{1} + \beta(x_{1}y_{2}+x_{2}y_{1}+x_{2}y_{2}) + x_{1}
 
 
 # Exercice 2
-Soient $A,B \in S_{n}(\mathbb{R})$
+Soient $A, A',B \in S_{n}(\mathbb{R})$ et $\lambda \in \mathbb{R}$
 Montrer que :
 $$
 (tr(AB+BA))^{2}\leq 4tr(A^{2})tr(B^{2})
@@ -107,4 +107,8 @@ C'est bien symétrique
 On montre que c'est bilinéaire :
 $$\left< A + \lambda A', B \right> = tr((A+\lambda A')B+ B(A+\lambda A'))$$
 $$= tr(AB + BA +\lambda (A'B+BA'))$$
-$$= tr(AB - BA) + \lambda$$
+$$= tr(AB + BA) + \lambda tr(A'B+BA') = \left< A, B \right> + \lambda \left< A', B \right> $$
+
+C'est bilinéaire.
+On montre que c'est défini positivement : 
+$$\left< A, A \right> = 2tr(A^{2}) = \sum_{i =1}^{n}\sum_{} $$
