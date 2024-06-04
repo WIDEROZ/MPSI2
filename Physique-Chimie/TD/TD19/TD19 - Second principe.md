@@ -22,5 +22,14 @@ $$
 \Delta S = \Delta S_{c} + \Delta S_{eau}$$
 
 $$\Delta S_{c} = m_{c}c_{c}\ln\left( \frac{T_{f}}{T_{i}} \right) = S_{créé} + S_{ech}$$
-$$\Delta U_{c} = m_{c}c_{c}(T_{f}-T_{i}) = W + Q = RI^{2}\Delta t + Q_{c}$$
+$$\Delta U_{c} = m_{c}c_{c}(T_{f}-T_{i}) = W + Q_{c} = RI^{2}\Delta t + Q_{c}$$
+$$Q_{c} = \frac{m_{c}c_{c}(T_{f}-T_{i})}{RI^{2}\Delta t}$$
+$$\Delta S_{c} = S_{créé} + \frac{m_{c}c_{c}\left( \frac{T_{f}}{T_{i}}-1 \right)}{RI^{2}\Delta t}$$
+
+Alors, 
+$$S_{c_{créé}} = m_{c}c_{c}\left( \ln\left( \frac{T_{f}}{T_{i}} \right)- \frac{\frac{T_{f}}{T_{i}}-1}{RI^{2}\Delta t} \right)$$
+$$\Delta S_{c} = m_{c}c_{c}\ln\left( \frac{T_{f}}{T_{i}} \right) $$
+
+$$\Delta S_{eau} = S_{créé} + S_{ech}$$
+$$S_{ech}= \frac{Q_{eau}}{T_{i}}$$
 $$$$
