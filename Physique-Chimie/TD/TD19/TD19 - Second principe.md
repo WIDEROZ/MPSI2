@@ -32,4 +32,8 @@ $$\Delta U_{c} = m_{c}c_{c}(T_{f}-T_{i}) = RI^{2}\Delta t + Q_{c}$$
 $$\Delta U = (m_{e}c_{e} + m_{c}c_{c})(T_{f}-T_{i}) = Q_{e} + RI^{2}\Delta t + Q_{c}$$
 Comme $Q = Q_{e} + Q_{c} = 0$
 $$(m_{e}c_{e} + m_{c}c_{c})(T_{f}-T_{i}) = RI^{2}\Delta t$$
-$$T_{f} = $$
+$$T_{f} = \frac{RI^{2}\Delta t}{m_{e}c_{e}+m_{c}c_{c}}+T_{i}$$
+Alors, 
+$$\Delta S = S_{créé} = (m_{e}c_{e}+m_{c}c_{c})\ln\left( \frac{RI^{2}\Delta t}{T_{i}(m_{e}c_{e}+m_{c}c_{c})} +1\right)$$
+# Exercice 7
+#### 1.
