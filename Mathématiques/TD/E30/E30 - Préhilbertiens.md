@@ -41,7 +41,36 @@ Ainsi,
 $$\alpha = a-3 \text{ et } 2 = \beta \text{ et } \gamma = 1$$
 
 ## 3.
-Pour $b = 2$ et $a \in \mathbb{R}$ car $\phi(x, x) \geq 0$ et $\phi$ est bilinéaire symétrique pour ces valeurs
+Pour $b = 2$ et $a \in \mathbb{R}$ $\phi$ est bilinéaire symétrique pour ces valeurs. 
+On veut que :
+$$
+\begin{cases}
+\forall x \in E, \phi(x, x) \geq 0 \\
+\forall x \in E, \phi(x, x) = 0 \Leftrightarrow x = 0
+\end{cases}
+$$
+
+#### Analyse
+Supposons que $\phi$ soit définie positivement :
+$$\begin{cases}
+\forall x \in E, \phi(x, x) \geq 0 \\
+\forall x \in E, \phi(x, x) = 0 \Leftrightarrow x = 0
+\end{cases}$$
+On pose : $x = (1, -1, -1) \in E \setminus \{ 0 \}$
+Alors, 
+$$
+\phi(x, x) = a-3 > 0
+$$
+Donc, 
+$$a>3$$
+
+#### Synthèse
+Supposons que $a > 3$, 
+Alors,
+
+
+
+
 
 ## 4.
 $$
