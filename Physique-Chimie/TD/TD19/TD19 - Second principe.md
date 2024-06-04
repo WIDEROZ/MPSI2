@@ -20,6 +20,16 @@ $$S_{créé} = 0 $$
 #### 2.
 $$
 \Delta S = \Delta S_{c} + \Delta S_{eau} = S_{créé} + S_{ech}$$
-Comme $Q= 0$ $S_{ech} = 0$
+Comme $Q= 0$, $S_{ech} = 0$
 Alors, 
-$$$$
+$$\Delta S = \Delta S_{c} + \Delta S_{eau} = S_{créé} = (m_{c}c_{c} + m_{e}c_{e})\ln\left( \frac{T_{f}}{T_{i}} \right)$$
+
+$$\Delta U = \Delta U_{e} + \Delta U_{c} = Q_{e} + RI^{2}\Delta t + Q_{c}$$
+
+
+$$\Delta U_{e} = m_{e}c_{e}(T_{f} - T_{i}) = Q_{e}$$
+$$\Delta U_{c} = m_{c}c_{c}(T_{f}-T_{i}) = RI^{2}\Delta t + Q_{c}$$
+$$\Delta U = (m_{e}c_{e} + m_{c}c_{c})(T_{f}-T_{i}) = Q_{e} + RI^{2}\Delta t + Q_{c}$$
+Comme $Q = Q_{e} + Q_{c} = 0$
+$$(m_{e}c_{e} + m_{c}c_{c})(T_{f}-T_{i}) = RI^{2}\Delta t$$
+$$T_{f} = $$
