@@ -67,13 +67,44 @@ $$a>3$$
 #### Synthèse
 Supposons que $a > 3$, 
 Alors,
-
-
-
-
+On a bien : 
+$$\phi(x, x) \geq 0$$
+Si $\phi(x, x) = 0$ 
+Alors, 
+$$
+(a-3) x_{1}^{2} +2(x_{1}+x_{2})^{2} + (x_{1}+x_{3})^{2} = 0
+$$
+Alors, 
+$$\begin{cases}
+x_{1}=0 \\
+x_{1}+x_{2}=0 \\
+x_{1}0x_{3} = 0
+\end{cases}$$
+Donc, 
+$$\begin{cases}
+x_{1}=0 \\
+x_{2}=0 \\
+x_{3}=0
+\end{cases}$$
 
 ## 4.
 $$
 \phi(x, y) = (a-3)x_{1}y_{1} + \beta x_{1}y_{2} + \beta x_{2}y_{1} + \beta x_{2}y_{2}+x_{1}y_{3}+x_{3}y_{1} + x_{3}y_{3}+3x_{1}y_{1}
 $$
 $$\phi(x, y) = (a-3)x_{1}y_{1} + \beta(x_{1}y_{2}+x_{2}y_{1}+x_{2}y_{2}) + x_{1}y_{3}+x_{3}y_{1}+x_{3}y_{3}+3x_{1}y_{1}$$
+
+
+# Exercice 2
+Soient $A,B \in S_{n}(\mathbb{R})$
+Montrer que :
+$$
+(tr(AB+BA))^{2}\leq 4tr(A^{2})tr(B^{2})
+$$
+___
+On pose : 
+$$\left< A, B \right> = tr(AB+BA)$$
+C'est bien symétrique
+On montre que c'est bilinéaire :
+$$\left< A + \lambda A', B \right> = tr((A+\lambda A')B+ B(A+\lambda A'))$$
+$$= tr(AB + BA +\lambda (A'B+BA'))$$
+$$= tr(AB - BA) + \lambda$$
