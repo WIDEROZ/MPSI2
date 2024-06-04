@@ -49,3 +49,4 @@ Pour $15$ cm, $I = 2A$ On a : $-11.6 \, mT$
 Pour $20$ cm, $I = 2A$ On a : $-3.7 \, mT$ 
 
 #### 10.
+Une solénoïde est une bobine qui créé un champ magnétique lorsqu'on lui fournit du courant. 
