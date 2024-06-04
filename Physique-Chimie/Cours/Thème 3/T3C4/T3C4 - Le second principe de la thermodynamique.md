@@ -59,6 +59,9 @@ $$\boxed{\Delta S = \frac{nR}{\gamma-1}\ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{1
 ## 2. Applications
 #### Définition
 Isentropique : Adiabatique réversible
+$$
+\Delta S = 0
+$$
 
 #### Définition
 Coefficient de compressibilité isotherme :

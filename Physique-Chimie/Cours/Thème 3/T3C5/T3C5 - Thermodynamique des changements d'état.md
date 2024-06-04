@@ -117,7 +117,7 @@ Pour étudier un changement d'état on regarde les variations des grandeurs mass
 
 ## 1. Enthalpie de changement d'état
 On considère que le changement d'état est à $P = \text{cte}$ 
-(On considère toujours ca sauf si le contraire est précisé dans l'enoncé)
+(On considère toujours ca sauf si le contraire est précisé dans l'énoncé)
 alors, 
 $$\Delta H = Q$$
 
@@ -125,7 +125,7 @@ $$\Delta H = Q$$
 On appelle enthalpie molaire ou changement d'état de $1 \to 2$ noté
 $$l_{m_{1 \to 2}} = l_{m_{1, 2}}$$
 la variation d'enthalpie qui accompagne le changement d'état par unité de matière
-$$\Delta H = nl_{m_{1 \to 2}}$$
+$$\frac{\Delta H}{n} = l_{m_{1 \to 2}}$$
 en $J.mol^{-1}$
 
 On appelle enthalpie massique ou changement d'état de $1 \to 2$ noté :
