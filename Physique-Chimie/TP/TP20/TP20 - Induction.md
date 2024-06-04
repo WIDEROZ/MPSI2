@@ -37,3 +37,15 @@ Un champ magnétique qui change de sens a chaque frame
 Mettre en mouvement la bobine
 
 ## 1. Evolution du champ magnétique en fonction du courant
+#### 7.
+$$B = f(I) = -5I + 2$$
+En $mT$, 
+Avec $I$ en $A$
+
+#### 9.
+Pour $5$ cm, $I = 2A$ On a : $-12.3 \, mT$ 
+Pour $10$ cm, $I = 2A$ On a : $-12.1 \, mT$ 
+Pour $15$ cm, $I = 2A$ On a : $-11.6 \, mT$ 
+Pour $20$ cm, $I = 2A$ On a : $-3.7 \, mT$ 
+
+#### 10.
