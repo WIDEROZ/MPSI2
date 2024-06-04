@@ -61,4 +61,13 @@ $$\Delta U = W$$
 Car la transformation est adiabatique
 $$C_{v} \Delta T = \Delta U = -\int P_{ext} \, dV = - P_{0}\int _{V_{0}}^{V_{2}} dV = P_{0}(V_{0}-V_{2}) $$
 $$nC_{vm}(T_{2} - T_{0}) = P_{0}(V_{0}-V_{2})$$
-$$$$
+$$\frac{5}{2}nR(T_{2}-T_{0}) = P_{0}(V_{0}-V_{2})$$
+$$\frac{5}{2}(P_{2}V_{2}-P_{0}T_{0}) = P_{0}V_{0}-P_{0}V_{2}$$
+Alors, 
+$$V_{2}\left( \frac{5}{2}P_{2}+P_{0} \right) =\frac{5}{2}P_{0}T_{0} +P_{0}V_{0}$$
+$$
+V_{2} = \frac{\frac{5}{2}P_{0}T_{0}+P_{0}V_{0}}{\frac{5}{2}P_{2}+P_{0}}
+$$
+Ainsi, 
+
+$$\boxed{T_{2} = \frac{P_{0}}{V_{0}} \times \frac{\frac{5}{2}T_{0}+V_{0}}{\frac{5}{2}P_{2}+P_{0}} }$$
