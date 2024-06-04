@@ -41,4 +41,10 @@ Ainsi,
 $$\alpha = a-3 \text{ et } 2 = \beta \text{ et } \gamma = 1$$
 
 ## 3.
-Pour $b = 2$ et $$
+Pour $b = 2$ et $a \in \mathbb{R}$ car $\phi(x, x) \geq 0$ et $\phi$ est bilinéaire symétrique pour ces valeurs
+
+## 4.
+$$
+\phi(x, y) = (a-3)x_{1}y_{1} + \beta x_{1}y_{2} + \beta x_{2}y_{1} + \beta x_{2}y_{2}+x_{1}y_{3}+x_{3}y_{1} + x_{3}y_{3}+3x_{1}y_{1}
+$$
+$$\phi(x, y) = (a-3)x_{1}y_{1} + \beta(x_{1}y_{2}+x_{2}y_{1}+x_{2}y_{2}) + x_{1}y_{3}+x_{3}y_{1}+x_{3}y_{3}+3x_{1}y_{1}$$
