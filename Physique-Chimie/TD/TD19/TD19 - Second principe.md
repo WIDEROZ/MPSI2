@@ -81,4 +81,7 @@ $P_{3} = P_{1}$
 $$\Delta S =0$$
 $$P_{3}V_{3}^{\gamma}=P_{0}V_{0}^{\gamma}$$
 Alors, 
-$$P_{3}()^{\gamma} = P_{0}V_{0}^{\gamma}$$
+$$P_{3}^{1-\gamma}T_{3}^{\gamma} = P_{0}^{1-\gamma}T_{0}^{\gamma}$$
+Alors, 
+$$T_{3} = \left(  \frac{P_{0}^{}}{P_{3}} \right)^{\frac{\gamma-1}{\gamma}}T_{0}$$
+
