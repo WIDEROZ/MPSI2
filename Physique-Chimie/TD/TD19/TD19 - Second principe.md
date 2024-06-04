@@ -74,3 +74,11 @@ $$V_{2} = V_{0} \times\left( 1-\frac{5}{7} \frac{Mg}{P_{0}S} \right)\left( \frac
 $$= \left( 1+ \frac{5}{3} \frac{Mg}{P_{0}S} + \frac{50}{21} \frac{Mg}{P_{0}S}  \right)$$
 
 $-\frac{5}{7}-\frac{5}{3} = \frac{-15-35}{21}=\frac{50}{21}=$
+
+#### 3.
+$P_{3} = P_{1}$
+
+$$\Delta S =0$$
+$$P_{3}V_{3}^{\gamma}=P_{0}V_{0}^{\gamma}$$
+Alors, 
+$$P_{3}()^{\gamma} = P_{0}V_{0}^{\gamma}$$
