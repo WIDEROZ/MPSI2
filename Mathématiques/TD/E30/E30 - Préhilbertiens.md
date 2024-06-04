@@ -156,6 +156,29 @@ $$ f = (f_{1}, f_{2}, f_{3})
 \end{pmatrix}
 $$
 On note : 
-$$\forall i \in [\![1, 3]\!], u_{i} = f_{i} - \sum_{k = 1}^{i} \left< f_{i}, e_{k} \right>e_{k} $$
+$$\forall i \in [\![1, 3]\!], u_{i} = f_{i} - \sum_{k = 1}^{i-1} \left< f_{i}, e_{k} \right>e_{k} \text{ et } e_{i} = \frac{u_{i}}{\left|\left| u_{i} \right|\right| } $$
 Alors par le procédé d'orthogonalisation de gran-Schmidt
-$$$$
+$$e_{1} = \frac{f_{1}}{\left|\left| f_{1} \right|\right| } = \begin{pmatrix}
+-\frac{3}{\sqrt{ 13 }} \\
+\frac{2}{\sqrt{ 13 }} \\
+0 \\
+0
+\end{pmatrix}$$
+$$e_{2} = \begin{pmatrix}
+-\frac{2}{\sqrt{ 5 }} \\
+0 \\
+\frac{1}{\sqrt{ 5 }} \\
+0
+\end{pmatrix}$$
+$$e_{3} = \begin{pmatrix}
+-\frac{5}{\sqrt{ 29 }} \\
+0 \\
+0 \\
+\frac{2}{\sqrt{ 29 }}
+\end{pmatrix}$$
+
+# Exercice 8
+Un vecteur normal au plan est :
+$$n\begin{pmatrix}
+
+\end{pmatrix}$$
