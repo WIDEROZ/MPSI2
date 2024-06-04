@@ -30,4 +30,35 @@ $$
 $\chi_{T} = \frac{1}{P}$
 
 $\Delta T =0$
+$PV = Cte$ Alors, 
+$$V = \frac{cte}{P}$$
+$$\frac{\partial V}{\partial P})_{T} = -\frac{cte}{P^{2}} = -\frac{V}{P}$$
+
+Alor, 
+$$\chi_{T} = \frac{1}{P}$$
+
+
+$$\ln(PV^{\gamma}) = \ln(P) + \gamma \ln(V) = cte$$
+Alors, 
+$$d\ln(PV^{\gamma}) = \frac{dP}{P} + \gamma\frac{dV}{V} = 0$$
+Alors, 
+$$
+\frac{dV}{dP} = \frac{\partial V}{\partial P})_{_{S}}   = -\frac{V}{\gamma P}
+$$
+
+$$
+\chi_{S} = \frac{1}{\gamma P}
+$$
+
+
+$$
+x_{v} = \frac{m_{v}}{m_{v} + m_{l}}
+$$
+$$x_{l} = \frac{m_{l}}{m_{v} + m_{l}}$$
+Alors, 
+Comme : $V = V_{l}+V_{v}$
+On a : 
+$$v = \frac{v_{l}+v_{v}}{m_{v}+m_{l}}$$
+$$
+
 $$
