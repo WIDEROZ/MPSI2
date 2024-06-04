@@ -41,6 +41,6 @@ $$0 = P_{0}S + Mg - P_{1}S$$
 $$P_{1} = P_{0} + \frac{Mg}{S}$$
 $$P_{0}V_{0} = nRT_{0}$$
 
-$$T_{1} = \frac{P_{1}V_{1}}{P_{0}V_{0}}T_{0}$$
-$$P_{1}S = \frac{nRT_{1}}{h_{1}}$$
 Alors, 
+$$\Delta U = W = - \int_{V_{0}}^{V_{1}} P_{0} + \frac{Mg}{S}\, dV$$
+$$= \left( P_{0}+\frac{Mg}{S} \right)(V_{0}-V_{1}) = nC_{v_{m}}(T_{1}-T_{0}) $$
