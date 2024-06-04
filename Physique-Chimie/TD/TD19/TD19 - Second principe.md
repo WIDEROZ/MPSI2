@@ -64,4 +64,11 @@ $$nC_{vm}(T_{2}-T_{1}) = P_{0}(V_{1}-V_{2})$$
 $$\frac{5}{2}(P_{0}V_{2}-P_{1}V_{1})=P_{0}(V_{1}-V_{2})$$
 Alors, 
 $$V_{2} = \frac{2}{3}V_{1}+\frac{5}{3}\frac{P_{1}}{P_{0}}V_{1}$$
-$$V_{1}\left( \frac{2}{3}+\frac{5}{3} \frac{P_{0}+\frac{Mg}{SP_{0}}}{P_{0}} \right)$$
+$$V_{2} = V_{1}\left( \frac{2}{3}+\frac{5}{3} \left( 1+\frac{Mg}{SP_{0}} \right) \right)$$
+
+$$V_{1} = \frac{V_{0}}{T_{0}\left( 1 + \frac{Mg}{SP_{0}} \right)}T_{1} = \frac{V_{0}}{1+\frac{Mg}{SP_{0}}}\left( 1+\frac{2}{7} \frac{Mg}{P_{0}S} \right)$$
+$$V_{1} = V_{0} \times \left( 1 -\frac{5}{7} \frac{Mg}{P_{0}S} \right)$$
+
+$$V_{2} = V_{0} \times\left( 1-\frac{5}{7} \frac{Mg}{P_{0}S} \right)\left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right)$$
+
+$$= \left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right) - \frac{5}{7} \frac{Mg}{P_{0}S}\left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right)$$
