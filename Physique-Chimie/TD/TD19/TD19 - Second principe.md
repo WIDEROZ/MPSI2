@@ -47,3 +47,18 @@ Alors,
 $$\Delta U = W = - \int_{V_{0}}^{V_{1}} P_{0} + \frac{Mg}{S}\, dV$$
 $$= \left( P_{0}+\frac{Mg}{S} \right)(V_{0}-V_{1}) = \frac{P_{0}V_{0}}{RT_{0}}C_{v_{m}}(T_{1}-T_{0}) $$
 $$\Leftrightarrow \frac{\frac{P_{0}V_{0}}{RT_{0}}C_{v_{m}}(T_{0}-T_{1})}{\left( P_{0}+\frac{Mg}{S} \right)} +V_{0} = V_{1} $$
+
+#### 2.
+$$
+0 = P_{2}S - P_{0}S
+$$
+
+$$P_{0}=P_{2}$$
+___
+$$T_{2} = \frac{P_{2}V_{2}}{nR} = \frac{P_{2}V_{2}}{P_{0}V_{0}}T_{0} = \frac{V_{2}}{V_{0}}T_{0}$$
+
+$$\Delta U = W$$
+Car la transformation est adiabatique
+$$C_{v} \Delta T = \Delta U = -\int P_{ext} \, dV = - P_{0}\int _{V_{0}}^{V_{2}} dV = P_{0}(V_{0}-V_{2}) $$
+$$nC_{vm}(T_{2} - T_{0}) = P_{0}(V_{0}-V_{2})$$
+$$$$
