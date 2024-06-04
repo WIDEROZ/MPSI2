@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "d75f70279d41ddfd",
+        "id": "0d7b3f93d82da3c2",
         "type": "tabs",
         "children": [
           {
-            "id": "8d32fc2e25aab49a",
+            "id": "3b3e4c01d060f434",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "9185a9efee1e030a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+                "file": "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -109,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+                "file": "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+                "file": "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md"
+                "file": "Physique-Chimie/TD/TD19/TD19 - Second principe.md"
               }
             }
           }
@@ -161,8 +148,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9185a9efee1e030a",
+  "active": "3b3e4c01d060f434",
   "lastOpenFiles": [
+    "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
+    "Physique-Chimie/TD/TD19",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
     "Mathématiques/TD/E30",
@@ -196,10 +185,8 @@
     "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
     "Mathématiques/Cours/C24/C24 - Probabilités finies.md",
     "Mathématiques/Cours/C10/C10 - Résumé.pdf",
-    "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.pdf",
-    "Mathématiques/Cours/C12/C12 - B - Résumé.pdf",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
