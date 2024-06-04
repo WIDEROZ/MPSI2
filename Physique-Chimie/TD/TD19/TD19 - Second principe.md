@@ -71,4 +71,6 @@ $$V_{1} = V_{0} \times \left( 1 -\frac{5}{7} \frac{Mg}{P_{0}S} \right)$$
 
 $$V_{2} = V_{0} \times\left( 1-\frac{5}{7} \frac{Mg}{P_{0}S} \right)\left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right)$$
 
-$$= \left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right) - \frac{5}{7} \frac{Mg}{P_{0}S}\left( \frac{2}{3}+ \frac{5}{3}\left( 1+\frac{Mg}{SP_{0}} \right) \right)$$
+$$= \left( 1+ \frac{5}{3} \frac{Mg}{P_{0}S} + \frac{50}{21} \frac{Mg}{P_{0}S}  \right)$$
+
+$-\frac{5}{7}-\frac{5}{3} = \frac{-15-35}{21}=\frac{50}{21}=$
