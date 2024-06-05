@@ -85,3 +85,9 @@ $$P_{3}^{1-\gamma}T_{3}^{\gamma} = P_{0}^{1-\gamma}T_{0}^{\gamma}$$
 Alors, 
 $$T_{3} = \left(  \frac{P_{0}^{}}{P_{3}} \right)^{\frac{\gamma-1}{\gamma}}T_{0}$$
 
+#### 5.
+$$\Delta S_{l} = S_{créé} = nC_{Vm}\ln\left( \frac{T_{2}}{T_{0}} \right) = \frac{5}{2}nR\ln\left( \frac{T_{2}}{T_{0}} \right) $$
+$$\Delta S = \frac{5}{2} \frac{P_{0}V_{0}}{T_{0}}\ln\left( \frac{T_{2}}{T_{0}} \right)$$
+$$\Delta S = \frac{nR}{\gamma-1}\ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{0}V_{0}^{\gamma}} \right)$$
+
+	
