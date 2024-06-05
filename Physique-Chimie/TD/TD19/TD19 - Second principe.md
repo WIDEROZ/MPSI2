@@ -127,10 +127,14 @@ Le système ne reçoit que le travail électrique
 Alors, 
 $$\Delta U_{g} = W_{g} + Q_{1\to 2} = R_{0}I_{0}^{2} \tau + Q_{1 \to 2} =  \frac{5}{2} nR(T_{1_{f}}-T_{0})$$
 Comme le compartiment $1$ et $2$ n'échangent des chaleurs seulement entre eux : 
-
+$$\Delta U_{g} = W_{g} + Q_{1\to 2} = R_{0}I_{0}^{2} \tau + Q_{1 \to 2} =  \frac{5}{2} nR(T_{1_{f}}-T_{0})$$
 $$\Delta U_{2} = \frac{5}{2}nR(T_{2_{f}}-T_{0})$$
+$$\Delta U_{3} = \frac{5}{2} nR(T_{3_{f}}-T_{0})$$
+Comme $T_{2_{f}} = T_{1_{f}}$
+$$\Delta U = 5nR(T_{1_{f}}-T_{0}) +\frac{5}{2}nR(T_{3_{f}}-T_{0}) = W_{g}$$
+$$W_{g} = 5nR\left( T_{1_{f}}+\frac{1}{2}T_{3_{f}} -\frac{3}{2}T_{0} \right)$$
+$C_{v} = \frac{Rn}{\gamma-1}$
 
-$$\Delta U_{3} = \frac{5}{2} nR(T_{3})$$
 
 
 
