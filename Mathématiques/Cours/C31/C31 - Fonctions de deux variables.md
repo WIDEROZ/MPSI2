@@ -643,5 +643,14 @@ Avec $U$ un ouvert et $I$ un intervalle non trivial de $\mathbb{R}$
 tel que $f(U) \subset I$
 On a :
 $$
-g \circ f
+g \circ f \in \mathcal{C}_{\mathbb{R}}^{1}(U)
 $$
+et 
+$$\begin{cases}
+\frac{\partial (g\circ f)}{\partial x} = (g'\circ f)\times \frac{\partial f}{\partial x} \\
+\frac{\partial (g \circ f)}{\partial y}  = (g' \circ f) \times \frac{\partial f}{\partial y}   
+\end{cases}$$
+ie pour $(x, y) \in U$,
+$$\frac{\partial (g \circ f)}{\partial x}(x, y) = g'(f(x, y)) \times \frac{\partial f}{\partial x} (x, y)$$
+$$\frac{\partial (g \circ f)}{\partial y}(x, y) = g'(f(x, y)) \times \frac{\partial f}{\partial y} (x, y)$$
+
