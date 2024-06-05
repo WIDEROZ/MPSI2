@@ -106,8 +106,18 @@ $$P_{3_{f}} = P_{0}\left( a \right)^{\frac{\gamma}{\gamma-1}}$$
 $$P_{3f}V_{3f}^{\gamma}= P_{0}V_{0}^{\gamma} $$
 $$V_{3_{f}}^{\gamma} = a^{\frac{\gamma}{1-\gamma}}V_{0}^{\gamma}\Leftrightarrow V_{3_{f}} = a^{\frac{1}{1-\gamma}}V_{0}$$
 #### 3.
-$$P_{1_{f}}V_{1_{f}}^{\gamma} = nRT_{1_{f}}V_{1_{f}}^{\gamma-1}=nRT_{0}V_{0}^{\gamma-1}$$
-À la fin de la transformation : $T_{1_{f}} = T_{0_{f}}$ car les parois sont diathermanes
+
+$$V_{1_{f}} + V_{2_{f}} + V_{3_{f}} = 3V_{0}$$
+
+
+
+
+
+
+
+
+
+
 
 
 
