@@ -99,6 +99,11 @@ Comme la transformation est adiabatique réversible (car lente) :
 $$P_{3}V_{3}^{\gamma} = P_{0}V_{0}^{\gamma}$$
 $$\Leftrightarrow P_{3f}^{1-\gamma}T_{3}^{\gamma} = P_{0}^{1-\gamma}T_{0}^{\gamma}$$
 Alors, comme $T_{3} = a T_{0}$
-$$P_{3}^{\gamma-1} = P_{0}^{\gamma-1}\left( \frac{T_{0}}{a} \right)^{\gamma}$$
+$$P_{3}^{1-\gamma} = P_{0}^{1-\gamma}\left( \frac{T_{0}}{T_{0}a} \right)^{\gamma}$$
 Alors, 
-$$P_{3} = P_{0}\left( \frac{T_{0}}{a} \right)$$
+$$P_{3_{f}} = P_{0}\left( a \right)^{\frac{\gamma}{\gamma-1}}$$
+#### 2.
+$$P_{3f}V_{3f}^{\gamma}= P_{0}V_{0}^{\gamma} $$
+$$V_{3_{f}}^{\gamma} = a^{\frac{\gamma}{1-\gamma}}V_{0}^{\gamma}\Leftrightarrow V_{3_{f}} = a^{\frac{1}{1-\gamma}}V_{0}$$
+#### 3.
+$$P_{1_{f}}V_{1_{f}}^{\gamma} = $$
