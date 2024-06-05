@@ -131,9 +131,18 @@ $$\Delta U_{g} = W_{g} + Q_{1\to 2} = R_{0}I_{0}^{2} \tau + Q_{1 \to 2} =  \frac
 $$\Delta U_{2} = \frac{5}{2}nR(T_{2_{f}}-T_{0})$$
 $$\Delta U_{3} = \frac{5}{2} nR(T_{3_{f}}-T_{0})$$
 Comme $T_{2_{f}} = T_{1_{f}}$
-$$\Delta U = 5nR(T_{1_{f}}-T_{0}) +\frac{5}{2}nR(T_{3_{f}}-T_{0}) = W_{g}$$
-$$W_{g} = 5nR\left( T_{1_{f}}+\frac{1}{2}T_{3_{f}} -\frac{3}{2}T_{0} \right)$$
-$C_{v} = \frac{Rn}{\gamma-1}$
+$$\Delta U = \frac{2Rn}{\gamma-1}(T_{1_{f}}-T_{0}) + \frac{Rn}{\gamma-1}(T_{3_{f}}-T_{0}) = W_{g}$$
+$$\boxed{W_{g} = \frac{Rn}{\gamma-1}\left( 2T_{1_{f}}+T_{3_{f}} -3T_{0} \right)}$$
+
+
+#### 6.
+$$\Delta S = \Delta S_{1+2} + \Delta S_{3} $$
+$$\Delta S = \frac{2nR}{\gamma-1} \ln\left( \frac{T_{1_{f}}V_{1_{f}}^{\gamma-1}}{T_{0}V_{0}^{\gamma-1}} \right) + \Delta S_{3}$$
+
+Or la transformation dans $\Delta S_{3}$ est adiabatique réversible Donc isentropique : 
+$$\Delta S = \frac{2nR}{\gamma-1} \ln\left( \frac{T_{1_{f}}V_{1_{f}}^{\gamma-1}}{T_{0}V_{0}^{\gamma-1}} \right)$$
+
+
 
 
 
