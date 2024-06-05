@@ -681,6 +681,12 @@ Alors,
 $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(y-2) $$
 $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(x+3y^{2}) $$
 
+#### Théorème
+Les projections sont de classe $\mathcal{C}^{1}$
+
+Démonstration : exercice
+
+
 ___
 # Exercices 
 Soient $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
@@ -695,9 +701,8 @@ Alors, comme $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$ et que $\varph
 $$g \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$$
 
 #### 2. Exprimer les dérivés partielles de $g$ en fonction de celles de $f$
-
-
-
+$$\frac{\partial (f(\varphi, \psi))}{\partial r} = \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times \cos(\theta) + \left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times \sin(\theta)$$ $$\frac{\partial (f(\varphi, \psi))}{\partial \theta} =\left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times r\cos(\theta) - \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times r\sin(\theta)$$
 
 
 #### 3. Pour $(r, \theta) \in \mathbb{R}^{*}_{+} \times \mathbb{R}$ exprimer les DP de $f$ au point $(r\cos(\theta), r \sin(\theta))$ en fonction des DP de $g$ en $(r, \theta)$
+$$$$
