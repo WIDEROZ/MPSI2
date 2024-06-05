@@ -140,20 +140,5 @@ $$\Delta S = \Delta S_{1+2} + \Delta S_{3} $$
 $$\Delta S = \frac{2nR}{\gamma-1} \ln\left( \frac{T_{1_{f}}V_{1_{f}}^{\gamma-1}}{T_{0}V_{0}^{\gamma-1}} \right) + \Delta S_{3}$$
 
 Or la transformation dans $\Delta S_{3}$ est adiabatique réversible Donc isentropique : 
-$$\Delta S = \frac{2nR}{\gamma-1} \ln\left( \frac{T_{1_{f}}V_{1_{f}}^{\gamma-1}}{T_{0}V_{0}^{\gamma-1}} \right)$$
+$$\boxed{\Delta S = \frac{2nR}{\gamma-1} \ln\left( \frac{T_{1_{f}}V_{1_{f}}^{\gamma-1}}{T_{0}V_{0}^{\gamma-1}} \right)}$$
 
-
-
-
-
-
-$$
-\left< x, y \right> \leq |\left< x, y \right>| \leq \left|\left| x \right|\right| \left|\left| y \right|\right|  
-$$
-
-$$\left< x, y \right>  = \frac{1}{2}(\left|\left| x+y \right|\right| ^{2} - \left|\left| x \right|\right|^{2} -\left|\left| y \right|\right| ^{2})$$
-Alors, 
-$$\left|\left| x+y \right|\right| ^{2} -\left|\left| x \right|\right| ^{2} - \left|\left| y \right|\right| ^{2} \leq 2\left|\left| x \right|\right| \left|\left| y \right|\right| $$
-
-Ainsi,
-$$\left|\left| x+y \right|\right| ^{2} \leq (\left|\left| x \right|\right|  + \left|\left| y \right|\right|)^{2}$$
