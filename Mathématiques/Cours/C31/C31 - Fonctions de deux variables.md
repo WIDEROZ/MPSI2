@@ -602,3 +602,15 @@ Ainsi, pour $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $X_{0} \in U$,
 Lorsque : 
 $$\nabla f(x_{0}, y_{0}) \neq 0$$
 parmi les vecteurs unitaires, $\frac{\nabla f(X_{0})}{\left|\left| \nabla f(X_{0}) \right|\right| }$ est celui pour lequel $\partial_{H}f(X_{0})$ est maximal. 
+
+
+# III. Règle de la chaîne
+#### Théorème
+Avec les bonnes hypothèses de composition :
+Toute composée de fonctions de classe $\mathcal{C}^{1}$ est de classe $\mathcal{C}^{1}$ et donne cette année $3$ formules de dérivées de composées : 
+
+#### Cas 1
+Pour $\gamma : t \mapsto (x(t), y(t))$ tel que $x, y \in \mathcal{C}_{\mathbb{R}}^{1}(I)$ et $f : U \to \mathbb{R}$ avec $U$ un ouvert de $\mathbb{R}^{2}$ tel que
+
+On a :
+$$(f \circ \gamma)' = \left( \frac{\partial f}{\partial x} \gamma \right)x' + \frac{\partial f}{\partial x} $$
