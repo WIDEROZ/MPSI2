@@ -108,17 +108,20 @@ $$V_{3_{f}}^{\gamma} = a^{\frac{\gamma}{1-\gamma}}V_{0}^{\gamma}\Leftrightarrow 
 #### 3.
 
 $$V_{1_{f}} + V_{2_{f}} + V_{3_{f}} = 3V_{0}$$
+Comme $P_{1_{f}} = P_{2_{f}}$ et les parois entre $1$ et $2$ sont diathermanes, $T_{1_{f}} = T_{2_{f}}$
+Ainsi, comme on est dans un système fermé : 
+$$V_{1_{f}} = V_{2_{f}}$$
+Alors, 
+$$2V_{1_{f}} = 3V_{0} - V_{3_{f}} = 3V_{0} - a^{\frac{1}{1-\gamma}}V_{0}$$
+Alors, 
+$$\boxed{V_{1_{f}} = V_{2_{f}} = \frac{3-a^{\frac{1}{1-\gamma}}}{2}V_{0}}$$
+
+#### 4.
+$$T_{1_{f}} =  \frac{P_{f}V_{1f}}{P_{0}V_{0}}T_{0} = a^{\frac{\gamma}{\gamma-1}} \frac{3-a^{\frac{1}{1-\gamma}}}{2}T_{0}$$
+$$$$
 
 
-
-
-
-
-
-
-
-
-
+$$P_{3_{f}} = P_{0}\left( a \right)^{\frac{\gamma}{\gamma-1}}$$
 
 
 
@@ -132,7 +135,7 @@ $$
 
 $$\left< x, y \right>  = \frac{1}{2}(\left|\left| x+y \right|\right| ^{2} - \left|\left| x \right|\right|^{2} -\left|\left| y \right|\right| ^{2})$$
 Alors, 
-$$$$
 $$\left|\left| x+y \right|\right| ^{2} -\left|\left| x \right|\right| ^{2} - \left|\left| y \right|\right| ^{2} \leq 2\left|\left| x \right|\right| \left|\left| y \right|\right| $$
-Ainsi, 
+
+Ainsi,
 $$\left|\left| x+y \right|\right| ^{2} \leq (\left|\left| x \right|\right|  + \left|\left| y \right|\right|)^{2}$$
