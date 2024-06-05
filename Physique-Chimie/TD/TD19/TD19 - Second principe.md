@@ -117,13 +117,11 @@ Alors,
 $$\boxed{V_{1_{f}} = V_{2_{f}} = \frac{3-a^{\frac{1}{1-\gamma}}}{2}V_{0}}$$
 
 #### 4.
-$$T_{1_{f}} =  \frac{P_{f}V_{1f}}{P_{0}V_{0}}T_{0} = a^{\frac{\gamma}{\gamma-1}} \frac{3-a^{\frac{1}{1-\gamma}}}{2}T_{0}$$
-$$$$
+$$T_{1_{f}} =  \frac{P_{f}V_{1f}}{P_{0}V_{0}}T_{0} = a^{\frac{\gamma}{\gamma-1}} \frac{3-a^{\frac{1}{1-\gamma}}}{2}T_{0} = a^{\frac{\gamma}{\gamma-1}+\frac{1}{1-\gamma}} \frac{3a^{\frac{1}{\gamma-1}}-1}{2}T_{0}$$
+$$\boxed{T_{1_{f}} = \frac{3a^{\frac{\gamma}{\gamma-1}}-a}{2}T_{0}}$$
 
-
-$$P_{3_{f}} = P_{0}\left( a \right)^{\frac{\gamma}{\gamma-1}}$$
-
-
+#### 5.
+$$\Delta U_{g} = W_{g} + Q_{g} = - R_{0}I_{0}^{2}\tau + Q_{g}$$
 
 
 
