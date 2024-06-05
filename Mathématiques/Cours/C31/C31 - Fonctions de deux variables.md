@@ -729,7 +729,7 @@ $$(\text{resp. } \forall X \in A \setminus \{ X_{0} \}, f(X) < f(X_{0}))$$
 $f$ admet un maximum local (resp. strict) en $X_{0}$ ssi
 Il existe $\epsilon >0$ tel que 
 $$f|_{B_{0}(X_{0}, \varepsilon)\cap A}$$
-
+(resp. )
 (La même pour les minimaux)
 
 #### Définition
@@ -741,3 +741,11 @@ admettant un extremum local en $X_{0}$
 Alors, $\nabla f(X_{0}) = 0$
 
 #### Définition
+Un point qui annule $\nabla f$ est un point critique de $f$
+
+#### Propriété
+$$X_{0} \text{ extrema} \Rightarrow X_{0} \text{ point critique}$$
+La réciproque est fausse
+
+Démonstration : 
+Les fonctions partielles admettent aussi un extremum donc leur dérivées s'annulent. 
