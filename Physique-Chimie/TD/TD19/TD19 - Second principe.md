@@ -90,4 +90,15 @@ $$\Delta S_{l} = S_{créé} = nC_{Vm}\ln\left( \frac{T_{2}}{T_{0}} \right) = \fr
 $$\Delta S = \frac{5}{2} \frac{P_{0}V_{0}}{T_{0}}\ln\left( \frac{T_{2}}{T_{0}} \right)$$
 $$\Delta S = \frac{nR}{\gamma-1}\ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{0}V_{0}^{\gamma}} \right)$$
 
-	
+# Exercice 8
+#### 1.
+$$
+P_{3}V_{3} = anRT_{0} = aP_{0}V_{0}
+$$
+Comme la transformation est adiabatique réversible (car lente) : 
+$$P_{3}V_{3}^{\gamma} = P_{0}V_{0}^{\gamma}$$
+$$\Leftrightarrow P_{3f}^{1-\gamma}T_{3}^{\gamma} = P_{0}^{1-\gamma}T_{0}^{\gamma}$$
+Alors, comme $T_{3} = a T_{0}$
+$$P_{3}^{\gamma-1} = P_{0}^{\gamma-1}\left( \frac{T_{0}}{a} \right)^{\gamma}$$
+Alors, 
+$$P_{3} = P_{0}\left( \frac{T_{0}}{a} \right)$$
