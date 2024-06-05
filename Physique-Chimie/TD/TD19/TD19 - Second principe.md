@@ -121,9 +121,16 @@ $$T_{1_{f}} =  \frac{P_{f}V_{1f}}{P_{0}V_{0}}T_{0} = a^{\frac{\gamma}{\gamma-1}}
 $$\boxed{T_{1_{f}} = \frac{3a^{\frac{\gamma}{\gamma-1}}-a}{2}T_{0}}$$
 
 #### 5.
-$$\Delta U_{g} = W_{g} + Q_{g} = - R_{0}I_{0}^{2}\tau + Q_{g}$$
+$$\Delta U_{g} = W_{g} + Q_{g} = W_{g} + Q_{g} = C_{v}\Delta T$$
+$$\Delta U = \Delta U_{g} + \Delta U_{2} + \Delta U_{3} = W_{g}$$
+Le système ne reçoit que le travail électrique
+Alors, 
+$$\Delta U_{g} = W_{g} + Q_{1\to 2} = R_{0}I_{0}^{2} \tau + Q_{1 \to 2} =  \frac{5}{2} nR(T_{1_{f}}-T_{0})$$
+Comme le compartiment $1$ et $2$ n'échangent des chaleurs seulement entre eux : 
 
+$$\Delta U_{2} = \frac{5}{2}nR(T_{2_{f}}-T_{0})$$
 
+$$\Delta U_{3} = \frac{5}{2} nR(T_{3})$$
 
 
 
