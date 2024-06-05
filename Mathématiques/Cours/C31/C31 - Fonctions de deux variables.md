@@ -708,6 +708,36 @@ $$\frac{\partial g}{\partial r}(r, \theta) = \left( \frac{\partial f}{\partial r
 $$\frac{\partial f}{\partial r} (\varphi, \psi) \times \cos(\theta) = \frac{\partial  g}{\partial r}(r, \theta) - \frac{\partial f}{\partial \theta} (\varphi, \psi) \times \sin(\theta)  $$
 Or comme :
 $$\frac{\partial f}{\partial \theta}(\varphi, \psi) =\frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta) $$
+(par la deuxième équation du $2.$)
 On a :
-$$\frac{\partial f}{\partial r} (\varphi, \psi) \times \cos(\theta) $$
-$$= \frac{\partial g}{\partial r} (r, \theta) - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r}\tan(\theta)+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta)\sin(\theta)$$
+$$\frac{\partial f}{\partial r} (\varphi, \psi) $$
+$$= \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}\tan(\theta)+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta)^{2}$$
+Alors, 
+$$\frac{\partial f}{\partial r} (\varphi, \psi)  = \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)(1-\tan ^{2}(\theta))} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)(1-\tan ^{2}(\theta))}\tan(\theta)$$
+
+
+___
+# IV. Extrema
+#### Définition
+Soit $f \in \mathbb{R}^{A}$ avec $A \subset \mathbb{R}^{2}$ et $X_{0} \in A$
+Alors, 
+
+$f$ admet un maximum global (resp. strict) en $X_{0}$ ssi 
+$$\forall X \in A, f(X) \leq f(X_{0})$$
+$$(\text{resp. } \forall X \in A \setminus \{ X_{0} \}, f(X) < f(X_{0}))$$
+
+$f$ admet un maximum local (resp. strict) en $X_{0}$ ssi
+Il existe $\epsilon >0$ tel que 
+$$f|_{B_{0}(X_{0}, \varepsilon)\cap A}$$
+
+(La même pour les minimaux)
+
+#### Définition
+Un extremum est un maximum ou un minimum
+
+#### Propriété
+Soit $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ ($U$ un ouvert)
+admettant un extremum local en $X_{0}$ 
+Alors, $\nabla f(X_{0}) = 0$
+
+#### Définition
