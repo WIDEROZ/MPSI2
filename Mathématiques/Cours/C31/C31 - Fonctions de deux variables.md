@@ -407,7 +407,6 @@ Idée de la démonstration :
 Pour $f \in \mathcal{C}^{1}_{\mathbb{R}}(U)$, $(x_{0}, y_{0}) \in U$,
 Pour $(x, y) \in U$, 
 Assez proche de $(x_{0}, y_{0})$ (dans la boule de centre $(x_{0}, y_{0})$)
-
 $$\begin{array}{rl}
 \left| f(x, y) - f(x_{0}, y_{0})\right|&\leq |f(x, y)- f(x_{0}, y)| \\
 &+ \left| f(x_{0}, y) - f(x_{0}, y_{0}) \right| \\
@@ -419,7 +418,8 @@ Par le théorème des accroissement finis.
 On pourra trouver un $M$ tel que
 $$\begin{array}{rl}
 \left| f(x, y)-f(x_{0}, y_{0})\right|& \leq M(\left| x  -x_{0}+y-y_{0}\right| ) \\
-&\leq \sqrt{ 2 } M \left|\left| x-x_{0}, y-y_{0} \right|\right| 
+&\leq M(\left| x - x_{0}\right| + \left| y-y_{0}\right|) \\
+&\leq \sqrt{ 2 } M \left|\left| (x-x_{0}, y-y_{0} )\right|\right| 
 \end{array}$$
 au voisinage de $(x_{0}, y_{0})$
 ce qui entraîne la continuité de $f$ en $(x_{0}, y_{0})$. 
@@ -680,3 +680,12 @@ $$(g \circ f)'(x, y) = (g'(f(x, y)))\frac{\partial f}{\partial x}(x, y) + (g'(f(
 Alors, 
 $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(y-2) $$
 $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(x+3y^{2}) $$
+
+___
+# Exercices 
+Soient $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
+et $g : (r, \theta) \mapsto f(r\cos(\theta), r\sin ^{2}(\theta))$
+
+#### 1. Montrer que $g \in \mathcal{C}^{1}_{\mathbb{R}}(\mathbb{R}^{2})$ 
+#### 2. Exprimer les dérivés partielles de $g$ en fonction de celles de $f$
+#### 
