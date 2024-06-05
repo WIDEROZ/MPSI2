@@ -610,7 +610,23 @@ Avec les bonnes hypothèses de composition :
 Toute composée de fonctions de classe $\mathcal{C}^{1}$ est de classe $\mathcal{C}^{1}$ et donne cette année $3$ formules de dérivées de composées : 
 
 #### Cas 1
-Pour $\gamma : t \mapsto (x(t), y(t))$ tel que $x, y \in \mathcal{C}_{\mathbb{R}}^{1}(I)$ et $f : U \to \mathbb{R}$ avec $U$ un ouvert de $\mathbb{R}^{2}$ tel que
+Pour $\gamma : t \mapsto (x(t), y(t))$ 
+tel que $x, y \in \mathcal{C}_{\mathbb{R}}^{1}(I)$ et $f : U \to \mathbb{R}$
+avec $U$ un ouvert de $\mathbb{R}^{2}$ tel que $\gamma(I) \subset U$
 
 On a :
-$$(f \circ \gamma)' = \left( \frac{\partial f}{\partial x} \gamma \right)x' + \frac{\partial f}{\partial x} $$
+$$f \circ \gamma \in \mathcal{C}_{\mathbb{R}}^{1}(I)$$
+$$\boxed{(f \circ \gamma)' = \left( \frac{\partial f}{\partial x} \circ \gamma \right)x' + \left( \frac{\partial f}{\partial x} \circ\gamma \right) y'}$$
+
+#### Cas 2
+Pour $\varphi, \psi \in \mathcal{C}^{1}_{\mathbb{R}}(V)$ ($V$ ouvert de $\mathbb{R}^{2}$)
+et $f \in \mathcal{C}^{1}_{\mathbb{R}}(U)$ ($U$ ouvert de $\mathbb{R}^{2}$)
+tq $(\varphi, \psi)(V) \subset U$
+Alors,
+$$f(\varphi, \psi) \in \mathcal{C}^{1}_{\mathbb{R}}(V)$$
+$$\begin{cases}
+\frac{\partial (f(\varphi, \psi))}{\partial u} = \left( \frac{\partial f}{\partial x} (\varphi, \psi) \right) \times\frac{\partial f}{\partial u} + \left( \frac{\partial f}{\partial y} (\varphi, \psi) \right)\times\frac{\partial \psi}{\partial u}\\
+\frac{\partial (f(\varphi, \psi))}{\partial v}  = \left( \frac{\partial f}{\partial x} (\varphi, \psi) \right) \times\frac{\partial f}{\partial v} + \left( \frac{\partial f}{\partial y} (\varphi, \psi) \right)\times\frac{\partial \psi}{\partial v}
+\end{cases}$$
+ie pour tout $(u, v) \in V$, 
+$$\frac{\partial (f(\varphi, \psi))}{\partial u}(u, v)  = \left( \frac{\partial f}{\partial x} (\varphi(u, v), \psi(u, v)) \right) \frac{\partial f}{\partial u}(u, v) + \left( \frac{\partial f}{\partial y} (\varphi(u, v), \psi(u, v)) \right)\frac{\partial \psi}{\partial u} $$
