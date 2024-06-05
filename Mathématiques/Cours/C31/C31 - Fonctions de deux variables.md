@@ -654,3 +654,21 @@ ie pour $(x, y) \in U$,
 $$\frac{\partial (g \circ f)}{\partial x}(x, y) = g'(f(x, y)) \times \frac{\partial f}{\partial x} (x, y)$$
 $$\frac{\partial (g \circ f)}{\partial y}(x, y) = g'(f(x, y)) \times \frac{\partial f}{\partial y} (x, y)$$
 
+#### Application
+Soit $f \in \mathcal{C}^{1}_{\mathbb{R}}(U)$ 
+et $\gamma : I \to \mathbb{R}^{2}$ de classe $\mathcal{C}^{1}$ tel que : $\gamma(I) \subset U$
+et $f$ soit constante sur $\gamma(I)$
+(ie $\gamma(I)$ est incluse dans une ligne de niveau)
+Montrer que :
+$$\forall t \in I, \nabla f(\gamma(t)) \perp \gamma'(t)$$
+ie le gradient est orthogonale aux lignes de niveaux. 
+
+Démonstration : 
+En appliquant la formule du cas $1$, $f \circ \gamma \in \mathcal{C}^{1}_{\mathbb{R}}(I)$
+en notant : $\gamma(t) = (x(t), y(t))$
+et pour $t \in I$, 
+Comme $f \circ \gamma$ est constante : 
+$$0=(f \circ \gamma)'(t) = \frac{\partial f}{\partial x}(x(t), y(t)) \times x'(t) + \frac{\partial f}{\partial y}(x(t), y(t)) \times y'(t)$$
+Alors,
+$$(f \circ \gamma)'(t) = \left< \nabla f(\gamma(t)), \gamma'(t) \right> = \left< \nabla f(\gamma(t)), (x'(t), y'(t))\right>$$
+al-aq
