@@ -684,8 +684,20 @@ $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(x+3y^{2}) $$
 ___
 # Exercices 
 Soient $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
-et $g : (r, \theta) \mapsto f(r\cos(\theta), r\sin ^{2}(\theta))$
+et $g : (r, \theta) \mapsto f(r\cos(\theta), r\sin (\theta))$
 
-#### 1. Montrer que $g \in \mathcal{C}^{1}_{\mathbb{R}}(\mathbb{R}^{2})$ 
+#### 1. Montrer que $g \in \mathcal{C}^{1}_{\mathbb{R}}(\mathbb{R}^{2})$
+On pose : $\varphi :(r, \theta) \mapsto r\cos(\theta) \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
+car c'est un produit de fonctions continues
+On pose $\psi :(r, \theta) \mapsto r\sin(\theta) \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
+car c'est un produit de fonctions continues
+Alors, comme $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$ et que $\varphi$ et $\psi$ sont de classe $\mathcal{C}^{1}$
+$$g \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$$
+
 #### 2. Exprimer les dérivés partielles de $g$ en fonction de celles de $f$
-#### 
+
+
+
+
+
+#### 3. Pour $(r, \theta) \in \mathbb{R}^{*}_{+} \times \mathbb{R}$ exprimer les DP de $f$ au point $(r\cos(\theta), r \sin(\theta))$ en fonction des DP de $g$ en $(r, \theta)$
