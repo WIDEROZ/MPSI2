@@ -701,8 +701,13 @@ Alors, comme $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$ et que $\varph
 $$g \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$$
 
 #### 2. Exprimer les dérivés partielles de $g$ en fonction de celles de $f$
-$$\frac{\partial (f(\varphi, \psi))}{\partial r} = \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times \cos(\theta) + \left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times \sin(\theta)$$ $$\frac{\partial (f(\varphi, \psi))}{\partial \theta} =\left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times r\cos(\theta) - \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times r\sin(\theta)$$
-
+$$\frac{\partial g}{\partial r}(r, \theta) = \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times \cos(\theta) + \left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times \sin(\theta)$$ $$\frac{\partial g}{\partial \theta}(r, \theta) =\left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times r\cos(\theta) - \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times r\sin(\theta)$$
 
 #### 3. Pour $(r, \theta) \in \mathbb{R}^{*}_{+} \times \mathbb{R}$ exprimer les DP de $f$ au point $(r\cos(\theta), r \sin(\theta))$ en fonction des DP de $g$ en $(r, \theta)$
-$$$$
+
+$$\frac{\partial f}{\partial r} (\varphi, \psi) \times \cos(\theta) = \frac{\partial  g}{\partial r}(r, \theta) - \frac{\partial f}{\partial \theta} (\varphi, \psi) \times \sin(\theta)  $$
+Or comme :
+$$\frac{\partial f}{\partial \theta}(\varphi, \psi) =\frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta) $$
+On a :
+$$\frac{\partial f}{\partial r} (\varphi, \psi) \times \cos(\theta) $$
+$$= \frac{\partial g}{\partial r} (r, \theta) - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r}\tan(\theta)+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta)\sin(\theta)$$
