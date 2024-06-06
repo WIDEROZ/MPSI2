@@ -74,3 +74,17 @@ Avec $\sum$ un espace fermé
 #### Définition
 Un tube de champ est la surface engendré par les lignes de champs s'appuyant sur un contour fermé. 
 EXCAL 3
+
+#### Propriété
+Le champ $\vec{B}$ est plus intense dans les zones où les lignes de champ sont resserrées que dans les zones ou elles sont éloignées : 
+$$\left|\left| \vec{B}_{1} \right|\right| \leq \left|\left| \vec{B}_{2} \right|\right| $$
+
+#### Propriété
+Si les lignes sont parallèles alors le champ $\vec{B}$ est uniforme
+
+
+## 1. Champ $\vec{B}$ créé par des aimants
+### a. Aimant Droit
+$$\boxed{\text{EXCAL 4}}$$
+### b. Aimant en U
+$$\boxed{\text{EXCAL 5}}$$
