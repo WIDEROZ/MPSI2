@@ -228,4 +228,19 @@ $$Mat_{e}(v) = \begin{pmatrix}
 \end{pmatrix}$$
 
 Soit $p_{F}$ la projection orthogonale d'un vecteur sur $F$ (la droite de l’énoncé) 
-On cherche une base de $F$ 
+On cherche une base de $F$ :
+$$\begin{pmatrix}
+1&1&1 \\
+2&-1&3
+\end{pmatrix} \sim \begin{pmatrix}
+1&1&1 \\
+0&-3&1
+\end{pmatrix} \sim \begin{pmatrix}
+1&0& \frac{4}{3} \\
+0&-3&1
+\end{pmatrix}$$
+$$ \begin{pmatrix}
+x \\
+y \\
+z
+\end{pmatrix} \in }$$
