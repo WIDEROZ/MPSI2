@@ -83,13 +83,23 @@ $$W_{air} = 22.4 \text{ J}$$
 
 La compression de l'eau durant $P_{eau} < P_{sat}$, 
 Le volume à la pression saturante est : 
-$$V_{sat} = \frac{n_{tot}RT_{0}}{P_{sat}} = 9.397$$
-$$W_{0 \to r} = -\int _{V_{0}}^{V_{sat}} \frac{n_{eau}RT_{0}}{V} \, dV = n$$
+$$V_{sat} = \frac{n_{eau}RT_{0}}{P_{sat}} = 5.22 \text{ L}$$
+Alors, 
+$0 \to r$ : état initial vers point de rosé
+$$W_{0 \to r} = -\int _{V_{0}}^{V_{sat}} \frac{n_{eau}RT_{0}}{V} \, dV = n_{eau}RT_{0}\ln\left( \frac{V_{0}}{V_{sat}} \right)$$
+$$W_{0 \to r} = 7.92 \text{ J}$$
 
 Ensuite
 $r \to e$ : point de rosé vers ébullition :
+Il suffit trouver $V_{ebu}$ 
+
+$$x_{l} = \frac{m_{l}}{m_{l} + m_{v}} = \frac{v-v_{v}}{v_{v}-v_{l}}$$
+
+$$$$
+
 Comme $P_{sat}$ est cte alors
-$$W_{r \to e} = - \int _{V_{sat}}^{V_{2}} P_{sat} \, dV = P_{sat}(V_{0}-V_{2})$$
+$$W_{r \to e} = - \int _{V_{sat}}^{V_{2}} P_{sat} \, dV = P_{sat}(V_{sat}-V_{2})$$
+$$W_{r \to e} = $$
 
 Enfin, 
 $$W_{e \to 1L} = - \int_{V_{0}}^{V_{2}} n_{eau}RT_{0}  \, dV $$
