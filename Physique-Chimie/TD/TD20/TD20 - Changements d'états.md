@@ -98,9 +98,8 @@ Enfin,
 $$W = $$
 
 # Exercice 6
-$$x_{v} = \frac{m_{v}}{m_{v} + m_{l}} = \frac{v - v_{v}}{v_{l} - v_{v}}= \frac{v_{l}}{v_{l}-v_{v}}$$
+$$x_{v} = \frac{m_{v}}{m_{v} + m_{l}} = \frac{v - v_{v}}{v_{l} - v_{v}}$$
 Alors, 
-$$m_{v} = m \frac{v_{l}}{v_{l}-v_{v}} =  $$
+$$m_{v} = m \frac{v-v_{v}}{v_{l}-v_{v}}$$
 
-
-$$v = \frac{V}{m_{v} + m_{l}}$$
+$$v = \frac{V}{m_{l} + m_{v}}$$
