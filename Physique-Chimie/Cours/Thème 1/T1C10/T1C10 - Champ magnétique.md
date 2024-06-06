@@ -83,8 +83,17 @@ $$\left|\left| \vec{B}_{1} \right|\right| \leq \left|\left| \vec{B}_{2} \right|\
 Si les lignes sont parallèles alors le champ $\vec{B}$ est uniforme
 
 
-## 1. Champ $\vec{B}$ créé par des aimants
+## 2. Champ $\vec{B}$ créé par des aimants
 ### a. Aimant Droit
 $$\boxed{\text{EXCAL 4}}$$
 ### b. Aimant en U
 $$\boxed{\text{EXCAL 5}}$$
+
+## 3. Champ créé par des courants
+Un courant $I$ va créer un champ $\vec{B}$ dont l'intensité est proportionnelle à $I$ et dont le sens dépend du sens du courant suivant la règle de la main droite. 
+
+### a. Fil infini
+$${\vec{B}(r) = \frac{\mu_{0}I}{2\pi r}\vec{e}_{\theta}}$$
+(ne pas l'apprendre)
+avec $\vec{e}_{z}$ l'axe de fil $\vec{e}_{\theta}$ et $\vec{e}_{r}$ les vecteur de la base cylindrique liée $\vec{e}_{z}$
+$\mu_{0}$ : perméabilité du vide : $4$

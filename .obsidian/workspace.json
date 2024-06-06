@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eef69824d2615514",
+  "active": "762517343278c845",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
     "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
