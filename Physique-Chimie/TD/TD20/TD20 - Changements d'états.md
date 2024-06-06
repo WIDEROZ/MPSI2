@@ -90,16 +90,17 @@ $$W_{0 \to r} = -\int _{V_{0}}^{V_{sat}} \frac{n_{eau}RT_{0}}{V} \, dV = n_{eau}
 $$W_{0 \to r} = 7.92 \text{ J}$$
 
 Ensuite
-$r \to e$ : point de rosé vers ébullition :
-Il suffit trouver $V_{ebu}$ 
-
-$$x_{l} = \frac{m_{l}}{m_{l} + m_{v}} = \frac{v-v_{v}}{v_{v}-v_{l}}$$
-
-$$$$
-
+$r \to 2$ : point de rosé vers état final :
 Comme $P_{sat}$ est cte alors
-$$W_{r \to e} = - \int _{V_{sat}}^{V_{2}} P_{sat} \, dV = P_{sat}(V_{sat}-V_{2})$$
-$$W_{r \to e} = $$
+$$W_{r \to 2} = - \int _{V_{sat}}^{V_{2}} P_{sat} \, dV = P_{sat}(V_{sat}-V_{2})$$
 
 Enfin, 
-$$W_{e \to 1L} = - \int_{V_{0}}^{V_{2}} n_{eau}RT_{0}  \, dV $$
+$$W = $$
+
+# Exercice 6
+$$x_{v} = \frac{m_{v}}{m_{v} + m_{l}} = \frac{v - v_{v}}{v_{l} - v_{v}}= \frac{v_{l}}{v_{l}-v_{v}}$$
+Alors, 
+$$m_{v} = m \frac{v_{l}}{v_{l}-v_{v}} =  $$
+
+
+$$v = \frac{V}{m_{v} + m_{l}}$$
