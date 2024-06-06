@@ -36,9 +36,6 @@ $$\Delta H_{g} = m_{g}c_{g}(T_{fus} - T_{2})$$
 $$\Delta H_{trans} = m_{g}L_{f}$$
 $$\Delta H_{e} = m_{g}c_{e}(T_{f} - T_{fus}) + m_{e}c_{e}(T_{f}-T_{1})$$
 Alors, 
-$$m_{g}(c_{g}(T_{fus}-T_{2})+L_{f}+c_{e}(T_{f}-T_{fus})) + m_{e}c_{e}(T_{f}-T_{1}) = 0$$
-$$\frac{m_{e}}{m_{g}} = -\frac{c_{g}(T_{fus}-T_{2})+L_{f}+c_{e}(T_{f}-T_{fus})}{c_{e}(T_{f}-T_{1})}$$
-
 
 ## 2.
 $$
@@ -53,6 +50,17 @@ $$0 = m_{e}c_{e}(T_{sol}-T_{1})-m_{g}L_{g} + m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}
 
 # Exercice 5
 ## 1.
-Pour que l'eau soit entièrement sous forme de vapeur il faut que : $P_{sat} \leq P$ 
 Comme le récipient est indéformable et isotherme : 
-Alors la pression doit augmenter pour que le gaz devienne liquide, $P_{eau} > P_{sat}$
+Pour que l'eau ne soit uniquement que de la vapeur, il faut que $P_{eau} < P_{sat}$, alors, 
+On calcule la pression partielle d'eau :
+$$P_{eau} = \frac{n_{eau}}{n_{tot}}P$$
+Comme :
+$n_{tot} = 9.0 \times 10^{-3} \text{ mol}$
+$T_{0} = 293 \text{ K}$
+$R = 8.314$
+$V_{0} = 10 \times 10^{-3} \text{ m}^{3}$
+Alors, 
+$$P = \frac{n_{tot}RT_{0}}{V_{0}} = 2192 \text{ Pa}$$
+Et puis comme
+$n_{eau} = 0.05 \text{ mol}$
+$$P_{eau} = \frac{0.05}{0.009} \times 2192 = 12177 \text{ Pa} = 12.17 \times 10^{3}$$
