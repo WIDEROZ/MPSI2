@@ -713,11 +713,17 @@ On a :
 $$\frac{\partial f}{\partial r} (\varphi, \psi) $$
 $$= \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}\tan(\theta)+\left( \frac{\partial f}{\partial r}(\varphi, \psi)  \right)\times \tan(\theta)^{2}$$
 Alors, 
+$$\boxed{\frac{\partial f}{\partial r} (\varphi, \psi)  = \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)(1-\tan ^{2}(\theta))} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)(1-\tan ^{2}(\theta))}\tan(\theta)}$$
+___
+$$\frac{\partial g}{\partial r}(r, \theta) - \left( \frac{\partial f}{\partial r} (\varphi, \psi) \right) \times \cos(\theta) = \left( \frac{\partial f}{\partial \theta} (\varphi, \psi) \right)\times \sin(\theta)$$
+Comme : 
 $$\frac{\partial f}{\partial r} (\varphi, \psi)  = \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)(1-\tan ^{2}(\theta))} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)(1-\tan ^{2}(\theta))}\tan(\theta)$$
+On a :
+$$\frac{\partial f}{\partial \theta} (\varphi, \psi) = \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r(1-\tan ^{2}(\theta))}\tan(\theta) -\frac{\frac{\partial g}{\partial r}(r, \theta)}{1-\tan ^{2}(\theta)}\tan(\theta) $$
 
 
 ___
-# IV. Extrema
+# IV. Extremas
 #### Définition
 Soit $f \in \mathbb{R}^{A}$ avec $A \subset \mathbb{R}^{2}$ et $X_{0} \in A$
 Alors, 
