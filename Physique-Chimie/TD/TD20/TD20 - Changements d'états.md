@@ -53,9 +53,4 @@ $$0 = m_{e}c_{e}(T_{sol}-T_{1})-m_{g}L_{g} + m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}
 
 # Exercice 5
 ## 1.
-On calcule la pression du récipient : 
-$$P = \frac{n_{tot}RT_{0}}{V_{0}}$$
-or $n_{tot} = n_{air} + n_{eau} = \frac{m_{0}}{M_{air}} + \frac{m_{0}}{M_{eau}} = 9.0 \times 10^{-3} \text{ mol}$
-
-Alors, 
-$$$$
+Pour que l'eau soit entièrement sous forme de vapeur il faut que : $P_{sat} \leq$ 
