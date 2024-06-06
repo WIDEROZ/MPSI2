@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "ec9e22b145a1db29",
+        "id": "d3fb61df2fdca43a",
         "type": "tabs",
         "children": [
           {
-            "id": "eef69824d2615514",
+            "id": "69a51275b9cc4282",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
-              }
-            }
-          },
-          {
-            "id": "762517343278c845",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -159,7 +140,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "762517343278c845",
+  "active": "69a51275b9cc4282",
   "lastOpenFiles": [
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
