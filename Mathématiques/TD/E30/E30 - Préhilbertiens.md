@@ -178,7 +178,6 @@ $$e_{3} = \begin{pmatrix}
 \end{pmatrix}$$
 
 # Exercice 8
-Un vecteur normal au plan est :
-$$n\begin{pmatrix}
-
-\end{pmatrix}$$
+On cherche un vecteur normal au plan : $P = Vect(u, v)$
+ou 
+$$Mat_{e}$$

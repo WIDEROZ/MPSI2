@@ -710,7 +710,7 @@ $$\frac{\partial f}{\partial y} (\varphi, \psi) = \left( \frac{\partial g}{\part
 En faisant : $\cos(\theta)L_{1} - \frac{\sin(\theta)}{r}L_{2}$ dans le $2$.
 $$\frac{\partial f}{\partial x} (\varphi, \psi) = \left( \frac{\partial g}{\partial r} (r,\theta) \right) \cos(\theta)-\left( \frac{\partial g}{\partial \theta} (r, \theta) \right) \frac{\sin(\theta)}{r}$$
 
-##### Autre raisonnement possible (ici plus long)
+##### Autre raisonnement possible (ici plus long) SURTOUT NE SERT A RIEN
 En découpant le domaine de $f$
 On pose le changement de variable :
 $$\begin{cases}
@@ -725,8 +725,20 @@ sont de classe $\mathcal{C}^{1}$ et on applique la règle de la chaîne :
 
 $$\frac{\partial f}{\partial x} (x, y) = \frac{\partial g}{\partial r} \left( \sqrt{ x^{2} + y^{2}  }, \arctan\left( \frac{y}{x} \right) \right) \frac{x}{\sqrt{ x^{2} + y^{2} }}$$
 $$- \frac{\partial g}{\partial \theta}\left( \sqrt{ x^{2} + y^{2}  }, \arctan\left( \frac{y}{x} \right) \right) \frac{y}{x^{2}+ y ^{2}}$$
+$$\frac{\partial f}{\partial y}(x, y) = \frac{\partial g}{\partial r} \left( \sqrt{ x^{2} + x^{2} }, \arctan\left( \frac{y}{x} \right) \right) \frac{y}{\sqrt{ x^{2}+y^{2} }}   $$
+$$+ \frac{\partial g}{\partial \theta}\left( \sqrt{ x^{2} + x^{2} }, \arctan\left( \frac{y}{x} \right) \right) \frac{x}{x^{2}+y^{2}}$$
+
 my bad
-q
+
+Comme : 
+$$\begin{cases}
+x = r\cos(\theta) \\
+y = r \sin(\theta)
+\end{cases}$$
+
+$$\frac{\partial f}{\partial x}(r\cos(\theta), r \sin (\theta)) = \frac{\partial g}{\partial r} (r, \theta) \cos(\theta) - \frac{\partial g}{\partial \theta}(r, \theta) \frac{\sin(\theta)}{r}  $$
+On fait la même pour $\frac{\partial f}{\partial y}(r\cos (\theta), r\sin(\theta))$
+
 
 # IV. Extremas
 #### Définition
