@@ -711,11 +711,19 @@ En faisant : $\cos(\theta)L_{1} - \frac{\sin(\theta)}{r}L_{2}$ dans le $2$.
 $$\frac{\partial f}{\partial x} (\varphi, \psi) = \left( \frac{\partial g}{\partial r} (r,\theta) \right) \cos(\theta)-\left( \frac{\partial g}{\partial \theta} (r, \theta) \right) \frac{\sin(\theta)}{r}$$
 
 ##### Autre raisonnement possible (ici plus long)
-En découpant le domaine de $f$ 
+En découpant le domaine de $f$
+On pose le changement de variable :
 $$\begin{cases}
 r = \sqrt{ x^{2} + y^{2} } \\
 \theta = \arctan\left( \frac{y}{x} \right)
 \end{cases}$$
+On a alors, 
+$$f(x, y) = g\left( \sqrt{ x^{2} + y^{2} }, \arctan\left( \frac{y}{x} \right) \right)$$
+On utilise la règle de la chaîne :
+On admet que $(x, y) \mapsto \arctan\left( \frac{y}{x} \right)$ et $(x, y) \mapsto \sqrt{ x^{2} + y^{2} }$
+sont de classe $\mathcal{C}^{1}$ et on applique la règle de la chaîne :
+
+$$\frac{\partial f}{\partial x} (x, y) = \frac{\partial g}{\partial r} \left( \sqrt{ x^{2} + y^{2}  }, \arctan\left( \frac{y}{x} \right) \right) $$
 
 
 # IV. Extremas
