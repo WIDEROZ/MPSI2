@@ -704,25 +704,20 @@ $$g \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$$
 $$\boxed{\frac{\partial g}{\partial r}(r, \theta) = \left( \frac{\partial f}{\partial x} (\varphi, \psi) \right) \times \cos(\theta) + \left( \frac{\partial f}{\partial y} (\varphi, \psi) \right)\times \sin(\theta)}$$ $$\boxed{\frac{\partial g}{\partial \theta}(r, \theta) =\left( \frac{\partial f}{\partial y} (\varphi, \psi) \right)\times r\cos(\theta) - \left( \frac{\partial f}{\partial x} (\varphi, \psi) \right) \times r\sin(\theta)}$$
 
 #### 3. Pour $(r, \theta) \in \mathbb{R}^{*}_{+} \times \mathbb{R}$ exprimer les DP de $f$ au point $(r\cos(\theta), r \sin(\theta))$ en fonction des DP de $g$ en $(r, \theta)$
+##### Correction
+En faisant : $\sin(\theta)L_{1}+\frac{\cos(\theta)}{r} L_{2}$ dans le $2$.
+$$\frac{\partial f}{\partial y} (\varphi, \psi) = \left( \frac{\partial g}{\partial r} (r, \theta ) \right)\cos (\theta) + \left( \frac{\partial g}{\partial \theta} (r, \theta) \right) \frac{\sin(\theta)}{r}$$
+En faisant : $\cos(\theta)L_{1} - \frac{\sin(\theta)}{r}L_{2}$ dans le $2$.
+$$\frac{\partial f}{\partial x} (\varphi, \psi) = \left( \frac{\partial g}{\partial r} (r,\theta) \right) \cos(\theta)-\left( \frac{\partial g}{\partial \theta} (r, \theta) \right) \frac{\sin(\theta)}{r}$$
 
-$$\frac{\partial f}{\partial x} (\varphi, \psi) \times \cos(\theta) = \frac{\partial  g}{\partial r}(r, \theta) - \frac{\partial f}{\partial y} (\varphi, \psi) \times \sin(\theta)  $$
-Or comme :
-$$\frac{\partial f}{\partial y}(\varphi, \psi) =\frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}+\left( \frac{\partial f}{\partial x}(\varphi, \psi)  \right)\times \tan(\theta) $$
-(par la deuxième équation du $2.$)
-On a :
-$$\frac{\partial f}{\partial x} (\varphi, \psi) $$
-$$= \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)}\tan(\theta)+\left( \frac{\partial f}{\partial x}(\varphi, \psi)  \right)\times \tan(\theta)^{2}$$
-Ainsi, 
-$$\boxed{\frac{\partial f}{\partial x} (\varphi, \psi)  = \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)(1-\tan ^{2}(\theta))} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{x\cos(\theta)(1-\tan ^{2}(\theta))}\tan(\theta)}$$
-___
-$$\frac{\partial g}{\partial r}(r, \theta) - \left( \frac{\partial f}{\partial x} (\varphi, \psi) \right) \times \cos(\theta) = \left( \frac{\partial f}{\partial y} (\varphi, \psi) \right)\times \sin(\theta)$$
-Comme : 
-$$\frac{\partial f}{\partial x} (\varphi, \psi)  = \frac{\frac{\partial g}{\partial r} (r, \theta)}{\cos(\theta)(1-\tan ^{2}(\theta))} - \frac{\frac{\partial g}{\partial \theta} (r, \theta)}{r\cos(\theta)(1-\tan ^{2}(\theta))}\tan(\theta)$$
-Ainsi :
-$$\boxed{\frac{\partial f}{\partial y} (\varphi, \psi) = \frac{\tan(\theta)}{r(1-\tan ^{2}(\theta))}\frac{\partial g}{\partial \theta} (r, \theta) -\frac{\tan(\theta)}{1-\tan ^{2}(\theta)}\frac{\partial g}{\partial r}(r, \theta) }$$
+##### Autre raisonnement possible (ici plus long)
+En découpant le domaine de $f$ 
+$$\begin{cases}
+r = \sqrt{ x^{2} + y^{2} } \\
+\theta = \arctan\left( \frac{y}{x} \right)
+\end{cases}$$
 
 
-___
 # IV. Extremas
 #### Définition
 Soit $f \in \mathbb{R}^{A}$ avec $A \subset \mathbb{R}^{2}$ et $X_{0} \in A$
