@@ -22,3 +22,10 @@ Excal 1
 
 #### Propriété
 Au croisement entre deux lignes de champ alors le champ est nul.
+
+### b. Orientation d'une surface et vecteur élément de surface
+$$\boxed{\text{EXCAL 2}}$$
+Le vecteur $d\vec{S}$ originaire du point $M$ de la surface est perpendiculaire à la surface. 
+
+- Surface ouverte, on oriente le contour de cette surface, le sens du vecteur $d\vec{S}$ est donné par la règle de la main droite. 
+- Surface fermée, 
