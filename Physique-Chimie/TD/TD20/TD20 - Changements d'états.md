@@ -50,7 +50,7 @@ $$0 = m_{e}c_{e}(T_{sol}-T_{1})-m_{g}L_{g} + m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}
 
 # Exercice 5
 ## 1.
-Comme le récipient est indéformable et isotherme : 
+Comme le récipient est isotherme : 
 Pour que l'eau ne soit uniquement que de la vapeur, il faut que $P_{eau} < P_{sat}$, alors, 
 On calcule la pression partielle d'eau :
 $$P_{eau} = \frac{n_{eau}}{n_{tot}}P$$
@@ -74,3 +74,9 @@ Alors,
 $$P_{0}' = P - P_{eau} = 975 \text{ Pa}$$
 
 ## 2.
+$$W = - \int _{V_{0}}^{V_{2}} P_{ext} \, dV $$
+Comme la transformation est quasi statique, $P_{ext} = P$ 
+Comme l'eau et l'air sont des gaz parfaits, a températures constantes et que le système est isotherme. 
+La compression de l'air est :
+$$W_{air} = - \int_{V_{0}}^{V_{2}} \frac{n_{air}RT_{0}}{V} \, dV = n_{air}RT_{0} \ln\left( \frac{V_{0}}{V_{2}} \right)$$
+$$W = 50.5 \text{ J}$$
