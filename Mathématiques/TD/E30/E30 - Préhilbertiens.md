@@ -254,7 +254,25 @@ z
 \end{pmatrix}$$
 On note $d = -4e_{1}+e_{2}+3e_{3}$
 Alors, 
-$$p_{F}(v) = \left< v, d \right> \frac{d}{\left|\left| d \right|\right| }$$
+$$p_{F}(v) = \left< v, \frac{d}{\left|\left| d \right|\right| } \right> \frac{d}{\left|\left| d \right|\right| }$$
 Alors, comme :
 $$\left< v, d \right> = 7$$
 $$\left|\left| d \right|\right| = \sqrt{ 26 }$$
+Donc, 
+$$p_{F}(v) = \frac{7}{26} d$$
+
+Alors, 
+$$d(v, F) = \left|\left| v - p_{F}(v) \right|\right| =\left|\left| v-\frac{7}{26}d \right|\right|$$
+Ainsi, 
+$$d(v, F) = \sqrt{ \left( 1+ \frac{14}{13} \right)^{2} + \left( 2 -\frac{7}{26} \right)^{2} + \left( 3-\frac{21}{26} \right)^{2} }$$
+
+
+# Exercice 12
+On note : $A = Mat_{e}(f)$
+$$A^{2} = \frac{1}{9} \begin{pmatrix}
+9&0&0 \\
+0&9&0 \\
+0&0&9
+\end{pmatrix} = I_{3}$$
+$$f \circ f = Id_{E}$$
+$f$ est une symétrie
