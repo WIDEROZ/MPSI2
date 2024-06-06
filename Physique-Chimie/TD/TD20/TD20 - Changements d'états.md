@@ -53,4 +53,6 @@ $$0 = m_{e}c_{e}(T_{sol}-T_{1})-m_{g}L_{g} + m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}
 
 # Exercice 5
 ## 1.
-Pour que l'eau soit entièrement sous forme de vapeur il faut que : $P_{sat} \leq$ 
+Pour que l'eau soit entièrement sous forme de vapeur il faut que : $P_{sat} \leq P$ 
+Comme le récipient est indéformable et isotherme : 
+Alors la pression doit augmenter pour que le gaz devienne liquide, $P_{eau} > P_{sat}$
