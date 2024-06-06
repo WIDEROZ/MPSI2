@@ -226,3 +226,6 @@ $$Mat_{e}(v) = \begin{pmatrix}
 2 \\
 3
 \end{pmatrix}$$
+
+Soit $p_{F}$ la projection orthogonale d'un vecteur sur $F$ (la droite de l’énoncé) 
+On cherche une base de $F$ 
