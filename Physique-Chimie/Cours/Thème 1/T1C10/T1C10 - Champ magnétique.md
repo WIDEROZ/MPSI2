@@ -109,4 +109,6 @@ On suppose que les spires se touchent et on considère que le solénoïde est un
 #### Principe
 Principe de superposition, les champs créent par plusieurs distributions de courants s'additionnent. 
 
-Solénoïde : Le champ créé à l'intérieur est uniforme, le long de l'axe 
+Solénoïde : Le champ créé à l'intérieur est uniforme, le long de l'axe et sa norme est : $B = \mu_{0}nI$
+$n$ le nombre de spires par unité de longueur. 
+
