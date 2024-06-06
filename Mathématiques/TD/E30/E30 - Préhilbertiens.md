@@ -180,4 +180,49 @@ $$e_{3} = \begin{pmatrix}
 # Exercice 8
 On cherche un vecteur normal au plan : $P = Vect(u, v)$
 ou 
-$$Mat_{e}$$
+$$Mat_{e}(u) = \begin{pmatrix}
+1 \\
+-1 \\
+2
+\end{pmatrix} $$
+$$Mat_{e}(v) = \begin{pmatrix}
+-1 \\
+2 \\
+1
+\end{pmatrix}$$
+$$Mat_{e}(w) = \begin{pmatrix}
+1 \\
+1 \\
+1
+\end{pmatrix}$$
+On demande de calculer $d(w, P)$
+
+On peut choisir de résoudre le système en notant $(x, y, z)$ les coordonnés de $n$ dans la base $e$
+
+On a : 
+$$\begin{cases}
+\left< u, n \right> = 0 \\
+\left< v, n \right> = 0
+\end{cases}$$
+Comme $e$ est une base orthonormée :
+$$\begin{cases}
+x-y+2z = 0 \\
+-x+2y+ z= 0\end{cases}$$
+On fait un pivot et on obtiens que :
+$$n \in Vect(-5e_{1}-3e_{2}+e_{3})$$
+On choisit $n$ tel que :
+$$Mat_{e}(n) = \begin{pmatrix}
+-5 \\
+-3 \\
+1
+\end{pmatrix}$$
+Alors, d'après une formule du cours,
+$$d(w, P) = \frac{\left| \left< w, n \right> \right|}{\left|\left| n \right|\right| } = \frac{7}{\sqrt{ 35 }} = \frac{\sqrt{ 35 }}{5}$$
+
+# Exercice 10
+Soit $e$ la BON en question
+$$Mat_{e}(v) = \begin{pmatrix}
+1 \\
+2 \\
+3
+\end{pmatrix}$$
