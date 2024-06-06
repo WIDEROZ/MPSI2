@@ -24,6 +24,16 @@ $$\Delta S = mc_{g}\ln\left( \frac{273}{250} \right)+ \frac{mL_{f}}{273} + mc_{e
 
 # Exercice 4
 ## 1.
-On a que la température finale : $T_{f} \gg T_{fus}$ température de fusion
+On a que la température finale : $T_{f} > T_{fus}$ température de fusion
+Comme la transformation est adiabatique et isobare : 
+$$\Delta H = Q = 0$$
+Alors, 
+$$
+\Delta H = \Delta H_{g} + \Delta H_{trans} + \Delta H_{e}
+$$
 
-$$\Delta S = m_{2}c_{g}\ln\left( \frac{T_{fus}}{T_{2}} \right) + mL$$
+$$\Delta H_{g} = m_{g}c_{g}(T_{fus} - T_{2})$$
+$$\Delta H_{trans} = m_{g}L_{f}$$
+$$\Delta H_{e} = m_{g}c_{e}(T_{f} - T_{fus}) + m_{e}c_{e}(T_{f}-T_{1})$$
+Alors, 
+$$m_{g}(c_{g}(T_{fus}-T_{2})+L_{f})$$
