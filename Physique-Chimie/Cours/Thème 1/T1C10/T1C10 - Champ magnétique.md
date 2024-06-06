@@ -28,4 +28,14 @@ $$\boxed{\text{EXCAL 2}}$$
 Le vecteur $d\vec{S}$ originaire du point $M$ de la surface est perpendiculaire à la surface. 
 
 - Surface ouverte, on oriente le contour de cette surface, le sens du vecteur $d\vec{S}$ est donné par la règle de la main droite. 
-- Surface fermée, 
+- Surface fermée, le vecteur $d\vec{S}$ est toujours orienté de l'intérieur vers l'extérieur. 
+
+### c. Flux de champ de vecteur
+#### Définition
+On appelle flux élémentaire d'un champ vectoriel $\vec{A}(M)$ en $M$ la quantité
+$$d\phi = \vec{A}.d\vec{S}$$
+avec $d\vec{S}$ l'élément de surface au point $M$
+
+Le flux du champ à travers une surface $\sum$ est :
+$$\Phi_{\vec{A}, \sum} = \iint_{\sum} \vec{A}.d\vec{S}$$
+
