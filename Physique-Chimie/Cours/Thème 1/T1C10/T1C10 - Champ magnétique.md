@@ -51,3 +51,12 @@ $\vec{B}$ se mesure en Tesla $T$.
 
 ## 1. Sources
 ### a. Les aimants
+On les connait depuis l'antiquité.
+Aimantation terrestre : Dynamo
+
+### b. Les courants électriques
+On les connait depuis le $19^{\text{eme}}$ siècle. 
+
+Relation entre phénomènes électriques et magnétiques. 
+
+## 2. Ordre de grandeurs
