@@ -613,7 +613,7 @@ $$\left< e_{p+1}, e_{p} \right> = \frac{1}{\left|\left| u \right|\right| } (\lef
 
 Finir la suite en exo.
 
-#### Théorème : Procédé d'orthonormalisation de Gran-Schmidt
+#### Théorème : Procédé d'orthonormalisation de Gram-Schmidt
 Pour toute famille $(f_{i})_{i \in I}$ de $E$ (où $I = [\![1, m]\!]$ ou $I = \mathbb{N}$) il existe une unique famille orthonormée $(e_{i})_{i \in I}$ tq 
 $$\forall p \in I, \begin{cases}
 Vect(e_{i})_{i \leq p} = Vect(f_{i})_{i \leq p} \\
@@ -639,7 +639,7 @@ on obtiens une suite de fonctions polynômes $(P_{n})$ qui est orthogonale mais 
 
 # V. Bases orthonormé d'un espace euclidien
 Soit $(E, \left< \cdot , \cdot \right>)$ un espace euclidien
-## 1. Corollaires du procédé d'orthonormalisation de Gran-Schmidt
+## 1. Corollaires du procédé d'orthonormalisation de Gram-Schmidt
 #### Corollaire
 Tout espace euclidien possède des bases orthonormés
 

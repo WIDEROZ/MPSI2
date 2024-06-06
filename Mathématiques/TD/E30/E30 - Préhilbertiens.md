@@ -235,12 +235,26 @@ $$\begin{pmatrix}
 \end{pmatrix} \sim \begin{pmatrix}
 1&1&1 \\
 0&-3&1
-\end{pmatrix} \sim \begin{pmatrix}
+\end{pmatrix}  \sim \begin{pmatrix}
 1&0& \frac{4}{3} \\
-0&-3&1
+0&1&-\frac{1}{3}
 \end{pmatrix}$$
 $$ \begin{pmatrix}
 x \\
 y \\
 z
-\end{pmatrix} \in }$$
+\end{pmatrix} \in Vect\begin{pmatrix}
+-\frac{4}{3} \\
+\frac{1}{3} \\
+1
+\end{pmatrix} = Vect\begin{pmatrix}
+-4 \\
+1 \\
+3
+\end{pmatrix}$$
+On note $d = -4e_{1}+e_{2}+3e_{3}$
+Alors, 
+$$p_{F}(v) = \left< v, d \right> \frac{d}{\left|\left| d \right|\right| }$$
+Alors, comme :
+$$\left< v, d \right> = 7$$
+$$\left|\left| d \right|\right| = \sqrt{ 26 }$$
