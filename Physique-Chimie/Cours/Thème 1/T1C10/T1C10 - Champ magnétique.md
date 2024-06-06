@@ -96,4 +96,17 @@ Un courant $I$ va créer un champ $\vec{B}$ dont l'intensité est proportionnell
 $${\vec{B}(r) = \frac{\mu_{0}I}{2\pi r}\vec{e}_{\theta}}$$
 (ne pas l'apprendre)
 avec $\vec{e}_{z}$ l'axe de fil $\vec{e}_{\theta}$ et $\vec{e}_{r}$ les vecteur de la base cylindrique liée $\vec{e}_{z}$
-$\mu_{0}$ : perméabilité du vide : $4$
+$\mu_{0}$ : perméabilité du vide : $4\pi . 10^{-7}$ S.I.
+
+### b. Spire circulaire
+$$\boxed{\text{EXCAL 7}}$$
+Sur l'axe, l'orientation de $\vec{B}$ est donné par la règle de la main droite. 
+### c. Solénoïde
+#### Définition
+Un solénoïde est un dispositif électrique formé d'un fil conducteur enroulé en hélice.
+On suppose que les spires se touchent et on considère que le solénoïde est une superposition de sprites qui ont la même géométrie. 
+
+#### Principe
+Principe de superposition, les champs créent par plusieurs distributions de courants s'additionnent. 
+
+Solénoïde : Le champ créé à l'intérieur est uniforme, le long de l'axe 
