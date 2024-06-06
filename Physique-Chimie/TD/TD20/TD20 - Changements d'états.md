@@ -36,4 +36,17 @@ $$\Delta H_{g} = m_{g}c_{g}(T_{fus} - T_{2})$$
 $$\Delta H_{trans} = m_{g}L_{f}$$
 $$\Delta H_{e} = m_{g}c_{e}(T_{f} - T_{fus}) + m_{e}c_{e}(T_{f}-T_{1})$$
 Alors, 
-$$m_{g}(c_{g}(T_{fus}-T_{2})+L_{f})$$
+$$m_{g}(c_{g}(T_{fus}-T_{2})+L_{f}+c_{e}(T_{f}-T_{fus})) + m_{e}c_{e}(T_{f}-T_{1}) = 0$$
+$$\frac{m_{e}}{m_{g}} = -\frac{c_{g}(T_{fus}-T_{2})+L_{f}+c_{e}(T_{f}-T_{fus})}{c_{e}(T_{f}-T_{1})}$$
+
+
+## 2.
+$$
+\Delta H = \Delta H_{g} + \Delta H_{trans} + \Delta H_{e}
+$$
+
+$$\Delta H_{g} = m_{e}c_{e}(T_{fus} - T_{1})$$
+$$\Delta H_{trans} = -m_{g}L_{f}$$
+$$\Delta H_{g} = m_{g}c_{e}(T_{f} - T_{fus}) + m_{e}c_{e}(T_{f}-T_{1})$$
+Il faut que $T_{f} < T_{fus}$
+$$\Delta H = $$
