@@ -61,4 +61,3 @@ On a :
 $$v = \frac{v_{l}+v_{v}}{m_{v}+m_{l}}$$
 
 
-# Floyd-Warshall
