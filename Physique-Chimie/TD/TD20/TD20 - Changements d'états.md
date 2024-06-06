@@ -63,4 +63,14 @@ Alors,
 $$P = \frac{n_{tot}RT_{0}}{V_{0}} = 2192 \text{ Pa}$$
 Et puis comme
 $n_{eau} = 0.05 \text{ mol}$
-$$P_{eau} = \frac{0.05}{0.009} \times 2192 = 12177 \text{ Pa} = 12.17 \times 10^{3}$$
+$$P_{eau} = \frac{0.005}{0.009} \times 2192 = 1217 \text{ Pa} = 1.217 \times 10^{3} \text{ Pa}$$
+$P_{eau} < P_{sat}$
+Donc, l'eau est uniquement sous forme de vapeur. 
+
+Comme le système ne contient que de l'eau et de l'air : 
+(pas par ce que la pression est extensive mais par ce que la pression partielle est extensive)
+$$P = P_{eau} + P'_{0}$$
+Alors, 
+$$P_{0}' = P - P_{eau} = 975 \text{ Pa}$$
+
+## 2.
