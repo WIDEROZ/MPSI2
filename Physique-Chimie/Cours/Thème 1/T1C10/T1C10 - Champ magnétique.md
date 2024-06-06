@@ -60,3 +60,17 @@ On les connait depuis le $19^{\text{eme}}$ siècle.
 Relation entre phénomènes électriques et magnétiques. 
 
 ## 2. Ordre de grandeurs
+Les plus forts champs magnétiques sont les étoiles mortes
+Aimants : $0.1 \, T$
+Champ de la terre : $10^{-5} \, T$
+
+# III. Caractérisation du champ magnétique
+## 1. Intensité et ligne de champ
+#### Propriété
+$\vec{B}$ est un flux conservatif ssi 
+$$\oint\oint_{\sum} \vec{B} .d\vec{S} = 0$$
+Avec $\sum$ un espace fermé
+
+#### Définition
+Un tube de champ est la surface engendré par les lignes de champs s'appuyant sur un contour fermé. 
+EXCAL 3
