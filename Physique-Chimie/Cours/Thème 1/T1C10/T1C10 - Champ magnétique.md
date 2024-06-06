@@ -39,3 +39,15 @@ avec $d\vec{S}$ l'élément de surface au point $M$
 Le flux du champ à travers une surface $\sum$ est :
 $$\Phi_{\vec{A}, \sum} = \iint_{\sum} \vec{A}.d\vec{S}$$
 
+Si la surface est fermée : 
+$$\Phi_{\vec{A}, \sum} = \oint\oint_{\sum} \vec{A}.d\vec{S} $$
+
+# II. Champ Magnétique
+#### Définition
+Le champ magnétique : $\vec{B}$, décris indirectement les interactions entre les charges électriques en mouvement. 
+$\vec{B}$ se déduis de la force magnétique de Lorentz :
+$$\vec{F}_{mag} = q(\vec{v} \wedge \vec{B})$$
+$\vec{B}$ se mesure en Tesla $T$. 
+
+## 1. Sources
+### a. Les aimants
