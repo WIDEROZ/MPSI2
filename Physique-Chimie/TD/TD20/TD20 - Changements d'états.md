@@ -45,8 +45,10 @@ $$
 \Delta H = \Delta H_{g} + \Delta H_{trans} + \Delta H_{e}
 $$
 
-$$\Delta H_{g} = m_{e}c_{e}(T_{fus} - T_{1})$$
+$$\Delta H_{e} = m_{e}c_{e}(T_{sol} - T_{1})$$
 $$\Delta H_{trans} = -m_{g}L_{f}$$
-$$\Delta H_{g} = m_{g}c_{e}(T_{f} - T_{fus}) + m_{e}c_{e}(T_{f}-T_{1})$$
-Il faut que $T_{f} < T_{fus}$
-$$\Delta H = $$
+$$\Delta H_{g} = m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}c_{g}(T_{f}-T_{2})$$
+Il faut que $T_{f} < T_{sol}$
+$$0 = m_{e}c_{e}(T_{sol}-T_{1})-m_{g}L_{g} + m_{e}c_{g}(T_{f} - T_{sol}) + m_{g}c_{g}(T_{f}-T_{2})$$
+
+$$$$
