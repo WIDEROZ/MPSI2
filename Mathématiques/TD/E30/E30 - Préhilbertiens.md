@@ -130,6 +130,16 @@ $$
 \boxed{tr(AB + BA)^{2} \leq 4 tr(A^{2})tr(B^{2})}
 $$
 
+# Exercice 3
+Soit $f \in \mathcal{C}^{1}([0, a])$ tel que $f(0) = 0$, 
+Montrons que :
+$$\int_{0}^{a} f^{2} \leq \frac{a^{2}}{2} \int_{0}^{a} f'^{2}  $$
+On prend le produit scalaire $L_{2}$, 
+$$\left< f, g \right>  = \int_{0}^{a} fg $$
+
+
+
+
 # Exercice 4
 ## 1.
 $$2x+3y+4z+5t=0$$
@@ -321,6 +331,9 @@ $$Mat_{B}(s_{H}) = \begin{pmatrix}
 -2 \frac{ca}{a^{2} + b^{2} + c^{2}}&-2 \frac{cb}{a^{2} + b^{2} + c^{2}}&1-2 \frac{c^{2}}{a^{2} + b^{2} + c^{2}}
 \end{pmatrix} $$
 ie 
-$$Mat_{B}(s_{H}) = -\frac{1}{a^{2}+b^{2}+c^{2}}\begin{pmatrix}
-2a^{2} -(a^{2}+b^{2}+c^{2})
+$$Mat_{B}(s_{H}) = $$
+$$\frac{1}{a^{2}+b^{2}+c^{2}}\begin{pmatrix}
+-a^{2}+b^{2}+c^{2}&-2ab&-2ac \\
+-2ab&a^{2}-b^{2}+c^{2}&-2bc \\
+-2ac&-2bc&a^{2}+b^{2}-c^{2}
 \end{pmatrix}$$
