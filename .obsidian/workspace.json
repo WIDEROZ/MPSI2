@@ -4,55 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a4f66a40b9a781b8",
+        "id": "04e5426fd2cd8033",
         "type": "tabs",
         "children": [
           {
-            "id": "a44e8ce69effd56e",
+            "id": "d33448691412ea05",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "94a2b0eaa73b1014",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/TD/E31/E31.md"
-              }
-            }
-          },
-          {
-            "id": "6d4712052c4800c1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/DM/DM15/DM15.pdf"
-              }
-            }
-          },
-          {
-            "id": "bfdfd188cc147b59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -129,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathématiques/TD/E31/E31.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -181,14 +140,16 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "94a2b0eaa73b1014",
+  "active": "d33448691412ea05",
   "lastOpenFiles": [
-    "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
-    "Mathématiques/TD/E31/E31.md",
-    "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
-    "Mathématiques/TD/E31",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/DM/DM15/DM15.pdf",
+    "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+    "Mathématiques/TD/E31/E31.md",
+    "Colles de la semaine.md",
+    "Brouillon.md",
+    "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
+    "Mathématiques/TD/E31",
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/Cours/C32/C32.md",
@@ -202,13 +163,11 @@
     "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
     "Physique-Chimie/TD/TD20/TD20_T3C5.pdf",
     "Physique-Chimie/TD/TD20/TD20-correction.pdf",
-    "Brouillon.md",
     "Physique-Chimie/TD/TD20/Untitled",
     "Physique-Chimie/TD/TD20",
     "Info/Cours/Chapitre 15/Graphe.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Info/Autre/Exo controle.ml",
-    "Colles de la semaine.md",
     "Info/TD/TD9/script.ml",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",

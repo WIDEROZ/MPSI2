@@ -1,5 +1,5 @@
 # Mathématiques
-#### Inégalité de Cahchy-Swartz
+#### Inégalité de Cauchy-Swartz
 Soit $x, y \in E$, 
 $$\left|\left| x+y \right|\right| \leq \left|\left| x \right|\right| \left|\left| y \right|\right| $$
 Démonstration :
