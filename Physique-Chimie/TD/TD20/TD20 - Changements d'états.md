@@ -112,5 +112,8 @@ $$\Delta H = W_{a} + Q = 0$$
 ## 2.
 $$x = x_{v} = \frac{m_{v}}{m}$$
 
-$$\Delta H = \Delta H_{v} + (m - m_{v})L_{vap}$$
-$$m_{v}c(T_{2}-T_{1}) + (m - m_{v})L_{vap} = 0$$
+$$\Delta H = \Delta H_{AA'} + \Delta H_{A'B}$$
+$$\Delta H = mc(T_{2}-T_{1}) + m_{l}L_{vap} = mc(T_{2}-T_{1}) + (m-m_{v})L_{vap}$$
+Alors, 
+$$0 = c(T_{2}-T_{1}) + (1-x) L_{vap}$$
+$$\frac{c}{L_{vap}}(T_{2}-T_{1}) +1= x$$
