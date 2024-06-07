@@ -134,9 +134,6 @@ $$
 Soit $f \in \mathcal{C}^{1}([0, a])$ tel que $f(0) = 0$, 
 Montrons que :
 $$\int_{0}^{a} f^{2} \leq \frac{a^{2}}{2} \int_{0}^{a} f'^{2}  $$
-On prend le produit scalaire $L_{2}$, 
-$$\left< f, g \right>  = \int_{0}^{a} fg $$
-
 
 
 
