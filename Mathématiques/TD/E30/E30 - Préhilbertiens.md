@@ -276,3 +276,10 @@ $$A^{2} = \frac{1}{9} \begin{pmatrix}
 \end{pmatrix} = I_{3}$$
 $$f \circ f = Id_{E}$$
 $f$ est une symétrie
+
+# Exercice 13
+$s$ la symétrie de $H$ par rapport à $H^{\perp}$
+On cherche $Mat_{B}(s)$
+Il suffit de trouver $s(b_{1})$, $s(b_{2})$ et $s(b_{3})$
+On a directement un vecteur normal a $H$ : $n(a, b, c)$
+$$p_{H}(b_{1}) =  $$
