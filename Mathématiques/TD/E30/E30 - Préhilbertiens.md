@@ -282,4 +282,15 @@ $s$ la symétrie de $H$ par rapport à $H^{\perp}$
 On cherche $Mat_{B}(s)$
 Il suffit de trouver $s(b_{1})$, $s(b_{2})$ et $s(b_{3})$
 On a directement un vecteur normal a $H$ : $n(a, b, c)$
-$$p_{H}(b_{1}) =  $$
+$$p_{H^{\perp}}(b_{1}) = \left< b_{1}, \frac{n}{\left|\left| n \right|\right| } \right> \frac{n}{\left|\left| n \right|\right| } = \frac{n}{\left|\left| n \right|\right| ^{2}} \left< b_{1}, n \right>$$
+Comme 
+$$\left< b_{1}, n \right> = a $$
+et 
+$$\left|\left| n \right|\right|^{2} = a^{2} + b^{2} + c^{2}$$
+
+$$p_{H^{\perp}}(b_{1}) = \frac{a}{a^{2} + b^{2} + c^{2}}n(a, b, c) $$
+$$p_{H^{\perp}}(b_{2}) = \frac{b}{a^{2} + b^{2} + c^{2}}n(a, b, c) $$
+$$p_{H^{\perp}}(b_{3}) = \frac{c}{a^{2} + b^{2} + c^{2}}n(a, b, c) $$
+
+Comme : 
+$$p_{H^{\perp}} = s_{H^{\perp}} \circ s $$
