@@ -110,10 +110,10 @@ $$\Delta H = \Delta h_{l}m_{l} + \Delta h_{v}m_{v}$$
 Comme la transformation est adiabatique car le détendeur est calorifugé et que le système ne reçoit que les forces de pression extérieures :
 $$\Delta H = W_{a} + Q = 0$$
 ## 2.
-$$x = x_{v} = \frac{m_{v}}{m}$$
+$$x = x_{l} = \frac{m_{l}}{m}$$
 
 $$\Delta H = \Delta H_{AA'} + \Delta H_{A'B}$$
-$$\Delta H = mc(T_{2}-T_{1}) + m_{l}L_{vap} = mc(T_{2}-T_{1}) + (m-m_{v})L_{vap}$$
+$$\Delta H = mc(T_{2}-T_{1}) + m_{l}L_{vap} = mc(T_{2}-T_{1}) + mxL_{vap}$$
 Alors, 
-$$0 = c(T_{2}-T_{1}) + (1-x) L_{vap}$$
+$$0 = c(T_{2}-T_{1}) + xL_{vap}$$
 $$\frac{c}{L_{vap}}(T_{2}-T_{1}) +1= x$$

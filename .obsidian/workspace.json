@@ -4,68 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d3fb61df2fdca43a",
+        "id": "93d9637ec86ffae3",
         "type": "tabs",
         "children": [
           {
-            "id": "69a51275b9cc4282",
+            "id": "370e42778a12b4c9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "739cfb3f50af4c63",
+            "id": "c23ead6232647dd1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d1756cdae956974e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "080c48525d506e66",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "8cf7478ac9fc8f69",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20_T3C5.pdf"
-              }
-            }
-          },
-          {
-            "id": "ee23a97da60959ef",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20-correction.pdf"
+                "file": "Mathématiques/Cours/C32/C32.md"
               }
             }
           }
@@ -146,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md"
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
               }
             }
           }
@@ -198,12 +158,18 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "69a51275b9cc4282",
+  "active": "370e42778a12b4c9",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C31/C31.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/Cours/C32",
+    "Mathématiques/Cours/Untitled.canvas",
+    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
+    "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
     "Physique-Chimie/TD/TD20/TD20_T3C5.pdf",
     "Physique-Chimie/TD/TD20/TD20-correction.pdf",
-    "Physique-Chimie/TD/TD20/TD20 - Changements d'états.md",
-    "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",
     "Brouillon.md",
     "Physique-Chimie/TD/TD20/Untitled",
     "Physique-Chimie/TD/TD20",
@@ -217,14 +183,11 @@
     "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
     "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/Cours/C31/C31.md",
     "Untitled.md",
     "Physique-Chimie/TD/TD18/TD18 - Changements d'états.md",
     "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
     "Physique-Chimie/TD/TD18/Untitled",
     "Physique-Chimie/TD/TD18",
-    "Physique-Chimie/TD/TD19",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/TP/TP19/TP19.md",
     "Physique-Chimie/TP/TP20/TP20 - Induction.md",
@@ -234,7 +197,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 2/T2C6/Résumé.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
-    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
@@ -244,7 +206,6 @@
     "Pasted image 20240327082915.png",
     "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
-    "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
     "Pasted image 20240205155147 1.png",
     "Pasted image 20240205155148 5.png",
