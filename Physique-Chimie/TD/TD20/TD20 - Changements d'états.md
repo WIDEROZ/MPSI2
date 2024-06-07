@@ -102,6 +102,5 @@ $$x_{v} = \frac{m_{v}}{m_{v} + m_{l}} = \frac{v - v_{v}}{v_{l} - v_{v}}$$
 Alors, 
 $$m_{v} = m \frac{v-v_{v}}{v_{l}-v_{v}}$$
 
-$$v = \frac{V}{m}$$
-
-$$V = V_{v} + V_{l} = m_{v}v_{v} + (m-m_{v})v_{l} = $$
+## 2.
+$$\Delta H = \Delta h_{l}m_{l} + \Delta h_{v}m_{v}$$
