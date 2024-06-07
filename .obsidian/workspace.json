@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "62e3e135894e3047",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "c23ead6232647dd1",
             "type": "leaf",
             "state": {
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -158,11 +171,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "370e42778a12b4c9",
+  "active": "62e3e135894e3047",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C31/C31.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C32",
     "Mathématiques/Cours/Untitled.canvas",
