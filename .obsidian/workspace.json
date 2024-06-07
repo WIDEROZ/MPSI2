@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "b7fe6a715a5503ca",
@@ -134,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E30/E30 - Préhilbertiens.md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -186,11 +187,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a44e8ce69effd56e",
+  "active": "bfdfd188cc147b59",
   "lastOpenFiles": [
+    "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/DM/DM15/DM15.pdf",
-    "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",

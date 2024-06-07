@@ -300,8 +300,17 @@ p_{H}(b_{2}) = b_{2}-\frac{b}{a^{2}+b^{2}+c^{2}}n(a, b, c) \\
 p_{H}(b_{3}) = b_{3}-\frac{c}{a^{2}+b^{2}+c^{2}}n(a, b, c)
 \end{cases}$$
 Alors,
-$$s_{H^{\perp}} = p_{H^{\perp}}-p_{H} $$
-
+$$s_{H} = p_{H} - p_{H^{\perp}} $$
+Donc, 
 $$\begin{cases}
-s_{H^{\perp}}(b_{1}) = b_{1}- 2 \frac{a}{a^{2}+b^{2}+c^{2}}n(a, b, c)
+s_{H}(b_{1}) = b_{1} - 2 \frac{a}{a^{2}+b^{2}+c^{2}}n(a, b, c)\\
+s_{H}(b_{2}) = b_{2} -2 \frac{b}{a^{2}+b^{2}+c^{2}}n(a, b, c)  \\
+s_{H}(b_{3}) = b_{3} - 2 \frac{c}{a^{2}+b^{2}+c^{2}}n(a, b, c)
 \end{cases}$$
+
+Ainsi, 
+$$Mat_{B}(s_{H}) = \begin{pmatrix}
+1-2 \frac{a^{2}}{a^{2} + b^{2} + c^{2}}&-2 \frac{a^{2}}{a^{2} + b^{2} + c^{2}}&-2 \frac{a^{2}}{a^{2} + b^{2} + c^{2}} \\
+-2 \frac{b^{2}}{a^{2} + b^{2} + c^{2}}&1-2 \frac{b^{2}}{a^{2} + b^{2} + c^{2}}&-2 \frac{b^{2}}{a^{2} + b^{2} + c^{2}} \\
+-2 \frac{c^{2}}{a^{2} + b^{2} + c^{2}}&-2 \frac{c^{2}}{a^{2} + b^{2} + c^{2}}&1-2 \frac{c^{2}}{a^{2} + b^{2} + c^{2}}
+\end{pmatrix} $$
