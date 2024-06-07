@@ -293,4 +293,15 @@ $$p_{H^{\perp}}(b_{2}) = \frac{b}{a^{2} + b^{2} + c^{2}}n(a, b, c) $$
 $$p_{H^{\perp}}(b_{3}) = \frac{c}{a^{2} + b^{2} + c^{2}}n(a, b, c) $$
 
 Comme : 
-$$p_{H^{\perp}} = s_{H^{\perp}} \circ s $$
+$$p_{H} = Id - p_{H^{\perp}}$$
+$$\begin{cases}
+p_{H}(b_{1}) = b_{1}-\frac{a}{a^{2}+b^{2}+c^{2}}n(a, b, c) \\
+p_{H}(b_{2}) = b_{2}-\frac{b}{a^{2}+b^{2}+c^{2}}n(a, b, c) \\
+p_{H}(b_{3}) = b_{3}-\frac{c}{a^{2}+b^{2}+c^{2}}n(a, b, c)
+\end{cases}$$
+Alors,
+$$s_{H^{\perp}} = p_{H^{\perp}}-p_{H} $$
+
+$$\begin{cases}
+s_{H^{\perp}}(b_{1}) = b_{1}- 2 \frac{a}{a^{2}+b^{2}+c^{2}}n(a, b, c)
+\end{cases}$$

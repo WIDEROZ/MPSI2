@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "6d4712052c4800c1",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/DM/DM15/DM15.pdf"
+              }
+            }
+          },
+          {
             "id": "bfdfd188cc147b59",
             "type": "leaf",
             "state": {
@@ -179,7 +189,10 @@
   "active": "a44e8ce69effd56e",
   "lastOpenFiles": [
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/DM/DM15/DM15.pdf",
     "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
+    "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
+    "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
     "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
@@ -206,14 +219,11 @@
     "Physique-Chimie/TD/TD18/TD18 - Changements d'états.md",
     "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
     "Physique-Chimie/TD/TD18/Untitled",
-    "Physique-Chimie/TD/TD18",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Physique-Chimie/TP/TP19/TP19.md",
     "Physique-Chimie/TP/TP20/TP20 - Induction.md",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
-    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
-    "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
