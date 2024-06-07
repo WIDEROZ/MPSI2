@@ -106,5 +106,8 @@ $$m_{v} = m \frac{v-v_{v}}{v_{l}-v_{v}}$$
 $$\Delta H = \Delta h_{l}m_{l} + \Delta h_{v}m_{v}$$
 
 # Exercice 7
-$$\Delta S = \frac{nR}{\gamma-1} \ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{1}V_{1}^{\gamma}} \right)$$
-$$$$
+## 1.
+Comme la transformation est adiabatique car le détendeur est calorifugé et que le système ne reçoit que les forces de pression extérieures :
+$$\Delta H = W_{a} + Q = 0$$
+## 2.
+$$X $$
