@@ -104,3 +104,7 @@ $$m_{v} = m \frac{v-v_{v}}{v_{l}-v_{v}}$$
 
 ## 2.
 $$\Delta H = \Delta h_{l}m_{l} + \Delta h_{v}m_{v}$$
+
+# Exercice 7
+$$\Delta S = \frac{nR}{\gamma-1} \ln\left( \frac{P_{2}V_{2}^{\gamma}}{P_{1}V_{1}^{\gamma}} \right)$$
+$$$$
