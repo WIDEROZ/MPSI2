@@ -139,7 +139,7 @@ On trace deux droites :
 Comme $T_{C} > T_{F}$, $- \frac{T_{C}}{T_{F}} < -1$
 $$\boxed{Q_{C} \leq -\frac{T_{c}}{T_{F}}Q_{F}}$$
 
-## 1. Les moteurs en région $W < 0$
+## 1. Les moteurs en région bleue : Moteurs
 C'est la seule région possible accessible au diagramme pour laquelle $W<0$ donc c'est la région ou on à l'ensemble des moteurs
 
 ### a. Principe
@@ -167,7 +167,7 @@ On sait que $Q_{C} > 0$
 On divise alors par $Q_{C}$
 $$\frac{1}{T_{C}} + \frac{Q_{F}}{Q_{C}} \frac{1}{T_{F}}\leq 0$$
 On isole : $\frac{Q_{F}}{Q_{C}}$
-$$\frac{Q_{F}}{Q_{C}} \leq \frac{T_{F}}{T_{C}}$$
+$$\frac{Q_{F}}{Q_{C}} \leq -\frac{T_{F}}{T_{C}}$$
 Donc, 
 $$\eta_{\text{moteur}} = 1+ \frac{Q_{F}}{Q_{C}} \leq 1-\frac{T_{F}}{T_{C}} = \eta_{\text{moteur}_{\text{max}}}$$
 
