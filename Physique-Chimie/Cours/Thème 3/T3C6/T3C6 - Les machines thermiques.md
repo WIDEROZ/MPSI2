@@ -5,7 +5,7 @@ Les systèmes sauf indication contraires vont suivre des cycles et un gaz parfai
 #### Principe de Kelvin
 $$\boxed{\text{EXCAL 2}}$$
 
-Le système ne peut pas fournir su travail
+Le système ne peut pas fournir du travail
 
 #### Principe de Clausius
 $$\boxed{\text{EXCAL 3}}$$
