@@ -23,7 +23,29 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf"
+              }
+            }
+          },
+          {
+            "id": "42566f7cca5c9bc7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf"
+              }
+            }
+          },
+          {
+            "id": "884522a517eb1efa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -38,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -132,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf"
               }
             }
           }
@@ -167,11 +189,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "797e730e0071befd",
+  "active": "42566f7cca5c9bc7",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
+    "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
+    "Untitled.md",
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
-    "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110333.jpg",
@@ -186,7 +212,6 @@
     "Physique-Chimie/TP/TP4/TP4_oscillo.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Untitled.md",
     "Untitled 1.md",
     "Untitled 2.md",
     "Untitled 3.md",
@@ -198,18 +223,15 @@
     "Untitled 9.md",
     "Untitled 8.md",
     "Untitled 7.md",
-    "Physique-Chimie/Cours/Thème 1/T1C11",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/TD/E31/E31.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
-    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
