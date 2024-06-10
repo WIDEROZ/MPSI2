@@ -8,24 +8,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "80b40e4c35ef450b",
+            "id": "611bd6c8ecd98885",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "50320a9782b8a2cd",
+        "type": "tabs",
+        "children": [
           {
-            "id": "611bd6c8ecd98885",
+            "id": "9f614f96567938de",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "pdf",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31.md"
+                "file": "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf"
               }
             }
           }
@@ -106,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
               }
             }
           }
@@ -158,9 +164,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "80b40e4c35ef450b",
+  "active": "611bd6c8ecd98885",
   "lastOpenFiles": [
+    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
+    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Mathématiques/Cours/C31/C31.md",
+    "Mathématiques/TD/E31/E31.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
@@ -168,7 +177,6 @@
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/DM/DM15/DM15.pdf",
     "Mathématiques/TD/E30/E30 - Préhilbertiens.md",
-    "Mathématiques/TD/E31/E31.md",
     "Colles de la semaine.md",
     "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
     "Mathématiques/TD/E31",
@@ -188,15 +196,12 @@
     "Info/Cours/Chapitre 15/Graphe.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Info/Autre/Exo controle.ml",
-    "Info/TD/TD9/script.ml",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Untitled.md",
     "Physique-Chimie/TD/TD18/TD18 - Changements d'états.md",
     "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
     "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
-    "Physique-Chimie/TP/TP19/TP19.md",
-    "Physique-Chimie/TP/TP20/TP20 - Induction.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
