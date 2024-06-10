@@ -38,9 +38,31 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "499fce801922f4d2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Info/Cours/Chapitre 15/Graphe.md"
+              }
+            }
+          },
+          {
+            "id": "4842b00ec1d4563f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -117,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
+                "file": "Info/Cours/Chapitre 15/Graphe.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +156,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
+                "file": "Info/Cours/Chapitre 15/Graphe.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md"
+                "file": "Info/Cours/Chapitre 15/Graphe.md"
               }
             }
           }
@@ -169,11 +191,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "91d2bd7fa0729c95",
+  "active": "499fce801922f4d2",
   "lastOpenFiles": [
+    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
+    "Info/Cours/Chapitre 15/Graphe.md",
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8_resume.pdf",
@@ -211,8 +235,6 @@
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
-    "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
