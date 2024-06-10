@@ -125,4 +125,12 @@ $$\vec{A}_{\parallel}(M') = \vec{A}_{\parallel}(M)$$
 $$\vec{A}_{\perp}(M') = \vec{A}_{\perp}(M)$$
 Avec,
 $\vec{A}_{\parallel}$ la composante parallèle à $\pi$
-$\vec{A}_{\perp}$ la composante perp
+$\vec{A}_{\perp}$ la composante perpendiculaire à $\pi$
+
+## 2. Plan d'antisymétrie
+#### Propriété
+Si $\pi$ est un plan d'antisymétrie du champ $V$ alors, $V(M') = - V(M)$ alors $M$ et $M'$ symétriques par rapport à $\pi$ 
++ Si $\pi$ est un plan d'antisymétrie du champ vectoriel $\vec{A}$ alors, pour tout $M$ et $M'$ symétriques
+  $\vec{A}_{\parallel}(M') = -\vec{A}_{\parallel}(M)$
+  $\vec{A}_{\perp}(M') = \vec{A}_{\perp}(M)$
+  EXCAL 8
