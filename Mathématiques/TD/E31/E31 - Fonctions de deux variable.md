@@ -42,3 +42,19 @@ $$f_{2}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{v}{2} \rig
 $$\frac{\partial f_{1}}{\partial u}(\varphi, \psi) = \frac{1}{2} \exp \left( \frac{u}{2} \right)$$
 $$\frac{\partial f_{1}}{\partial v}(\varphi, \psi) = \frac{1}{2} \exp \left( \frac{u}{2} \right)$$
 ca marche bien !
+
+### Correction
+$$\forall(x, y) \in \mathbb{R}^{2}, \frac{\partial f}{\partial x} (x, y) + \frac{\partial f}{\partial y}(x, y) = f$$
+$$\Leftrightarrow \forall (u, v) \in \mathbb{R}^{2}, 2 \frac{\partial g}{\partial u} (u, v) = g(u, v)$$
+Car l'application : 
+$$(u, v) \mapsto \left( \frac{u+v}{2}, \frac{u-v}{2} \right)$$
+est bijective $\det(\uparrow) = -\frac{1}{2}$
+
+#### Analyse
+Supposons $g$ solution de 
+$$2 \frac{\partial g}{\partial u} (u, v) = g(u, v)$$
+Soit $v \in \mathbb{R}$ fixé :
+Alors, l'application $z : u \mapsto g(u, v)$
+vérifie l'EDL1 $z' = \frac{1}{2}z$
+Donc il existe $C(v) \in \mathbb{R}$ tel que :
+$$\forall u, 
