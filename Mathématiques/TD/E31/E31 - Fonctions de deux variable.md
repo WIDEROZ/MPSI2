@@ -73,8 +73,38 @@ envie de rejoindre papa Johnny
 $$f : (x, y) \mapsto (x^{2} + y^{2})e^{ x^{2}-y^{2} }$$
 $(x, y) \mapsto x^{2}-y^{2}$ est polynomiale de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$ comme $\exp \in \mathcal{C}^{1}(\mathbb{R})$, la règle de la chaîne affirme que : $(x, y) \mapsto e^{ x^{2}-y^{2} }$ est de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$
 Par produit de fonctions de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$, $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
+
+On calcule les dérivés partielles : 
 $$\frac{\partial f}{\partial x}(x, y) = 2xe^{ x^{2}-y^{2} }+(x^{2}+y^{2})2xe^{ x^{2}-y^{2} }$$
 Alors, 
-$$\frac{\partial f}{\partial x} = 2xe^{ x^{2}-yRD_{2} }(1+x^{2}+y^{2}) $$
+$$\boxed{\frac{\partial f}{\partial x} = 2xe^{ x^{2}-y^{2} }(1+x^{2}+y^{2}) }$$
 et 
-$$\frac{\partial f}{\partial x} = 2xe^{ x^{2}-y }(1-x^{2}-y^{2}) $$
+$$\boxed{\frac{\partial f}{\partial y} = 2ye^{ x^{2}-y^{2} }(1-x^{2}-y^{2}) }$$
+
+#### Analyse
+Supposons que $(x, y)$ est un extremum de $f$ (c'est donc un point critique)
+On résout le système : 
+$$\begin{cases}
+2xe^{ x^{2}-y^{2} }(1+x^{2}+y^{2}) = 0 \\
+2ye^{ x^{2}-y^{2} }(1-x^{2}-y^{2}) = 0
+\end{cases}$$
+Alors,  comme $2e^{ x^{2}-y^{2} } \neq 0$
+$$\begin{cases}
+x(1+x^{2}+y^{2}) = 0 \\
+y(1-x^{2}-y^{2}) = 0
+\end{cases}$$
+Alors, 
+On à donc par la première ligne que $x = 0$
+Alors, 
+$$y(1-y^{2}) = 0$$
+Donc, $y \in \{ -1, 0, 1 \}$
+Ainsi, 
+$$\boxed{(x, y) \in \{ (0, -1), (0, 0), (0, 1) \}}$$
+
+#### Synthèse
+Pour $(x, y) \neq (0, 0)$
+On a :
+$f(x, y)$ qui est un produit de facteurs strictement positifs donc, $f(x, y) > 0$
+Or $f(0, 0) = 0$ 
+Donc, 
+$f$ admet un minimum global strict en $(0, 0)$
