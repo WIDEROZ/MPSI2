@@ -318,7 +318,7 @@ On pose $\omega_{0} = \frac{1}{RC}$ la pulsation caractéristique du circuit
 $x = \frac{\omega}{\omega_{0}}$ la pulsation réduite
 $$\underline{H} = \frac{jx}{1+jx} = \frac{1}{1-\frac{j}{x}}$$
 #### Gain de phase
-$$G = |\underline{H}| = \frac{x}{\sqrt{ 1-x^2 }}$$
+$$G = |\underline{H}| = \frac{x}{\sqrt{ 1+x^2 }}$$
 $$\phi =  arg(\underline{H}) =  - arg(1+jx) = \frac{\pi}{2} - \arctan(x) = \arctan\left( \frac{1}{x} \right)$$
 
 #### Diagramme de Bode

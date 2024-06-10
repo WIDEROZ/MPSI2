@@ -38,31 +38,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "499fce801922f4d2",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md"
-              }
-            }
-          },
-          {
-            "id": "4842b00ec1d4563f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -139,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -156,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Info/Cours/Chapitre 15/Graphe.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md"
               }
             }
           }
@@ -191,12 +169,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "499fce801922f4d2",
+  "active": "8ec294c75960ce36",
   "lastOpenFiles": [
-    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
-    "Info/Cours/Chapitre 15/Graphe.md",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
+    "Info/Cours/Chapitre 15/Graphe.md",
+    "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
