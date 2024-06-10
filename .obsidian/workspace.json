@@ -18,12 +18,22 @@
             }
           },
           {
-            "id": "1ace91310790190f",
+            "id": "797e730e0071befd",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf"
+              }
+            }
+          },
+          {
+            "id": "1ace91310790190f",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg"
               }
             }
           }
@@ -157,10 +167,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1ace91310790190f",
+  "active": "797e730e0071befd",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C3/T1C3_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110333.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110329.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
+    "Physique-Chimie/Cours/Thème 1/T1C3/T1C3_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC_correction.pdf",
     "Physique-Chimie/TP/TP9/script.py",
     "Physique-Chimie/TP/TP7/TP-7.md",
@@ -193,22 +210,14 @@
     "Mathématiques/TD/E31/E31.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
-    "Mathématiques/DM/DM15/DM15.pdf",
-    "Mathématiques/TD/E30/E30-Prehilbertiens.pdf",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
     "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
-    "Mathématiques/DM/DM19/Pasted image 20240512150419.png",
-    "Pasted image 20240327082915.png",
-    "Pasted image 20240327082912.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
-    "Pasted image 20240205155147 1.png",
-    "Pasted image 20240205155148 5.png",
-    "Pasted image 20240205155148 4.png",
     "Untitled.canvas"
   ]
 }
