@@ -4,33 +4,32 @@
     "type": "split",
     "children": [
       {
-        "id": "04e5426fd2cd8033",
+        "id": "7266554607647c06",
         "type": "tabs",
         "children": [
           {
-            "id": "d33448691412ea05",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md"
-              }
-            }
-          },
-          {
-            "id": "f76c94414f4cccd9",
+            "id": "80b40e4c35ef450b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "611bd6c8ecd98885",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C31/C31.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md"
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
               }
             }
           }
@@ -159,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f76c94414f4cccd9",
+  "active": "80b40e4c35ef450b",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C31/C31.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
     "Brouillon.md",
@@ -176,8 +177,6 @@
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
-    "Mathématiques/Cours/C31/C31.md",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C32",
     "Mathématiques/Cours/Untitled.canvas",
     "Physique-Chimie/Cours/Thème 3/T3C5/T3C5 - Thermodynamique des changements d'état.md",

@@ -470,7 +470,7 @@ Le cycle théorique de Diesel est formé de
    $\mathcal{P} = \frac{W}{T}$ avec $T$ : duré d'un cycle et $W = -(Q_{F} + Q_{C})= - nC_{v_{m}}(T_{A}-T_{D})-nC_{p_{m}}(T_{C}-T_{B})$ 
 
 ## 3. Machine frigorifique
-### a. Bilan énergitique sur un fluide en écoulement permanent
+### a. Bilan énergétique sur un fluide en écoulement permanent
 Excal 15
 Le système fermé $S$ correspondant est : 
 $$S = \sum +dV_{1}$$
@@ -531,7 +531,7 @@ $$
 \boxed{(h_{s}+e_{c_{s}}+e_{p_{s}})-(h_{e}+e_{c_{e}} + e_{p_{e}}) = w_{u}+q}
 $$
 Avec :
-$w_{u}$ : Le travail utile massique, le travail autre qui celui deds forces de pression. 
+$w_{u}$ : Le travail utile massique, le travail autre qui celui des forces de pression. 
 
 
 #### Bilan de puissance
