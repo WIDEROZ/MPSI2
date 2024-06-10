@@ -33,10 +33,12 @@ $$\boxed{\frac{\partial }{\partial u}f\left( \frac{u+v}{2}, \frac{u-v}{2} \right
 C'est une EDL 1 à coef constants
 $f_{0} = 0$
 ou 
-$$f_{1}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{u}{2} \right) = $$
+$$f_{1}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{u}{2} \right) = \exp\left( \frac{1}{2}\left( \frac{u+v}{2} + \frac{u-v}{2} \right)\right)$$
 ou
 $$f_{2}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{v}{2} \right)$$
 
 
 #### Synthèse
-$$\frac{\partial f_{1}}{\partial x}(\varphi, \psi) =  $$
+$$\frac{\partial f_{1}}{\partial u}(\varphi, \psi) = \frac{1}{2} \exp \left( \frac{u}{2} \right)$$
+$$\frac{\partial f_{1}}{\partial v}(\varphi, \psi) = \frac{1}{2} \exp \left( \frac{u}{2} \right)$$
+ca marche bien !
