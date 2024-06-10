@@ -164,3 +164,6 @@ Par convention des pôles Nord et Sud, les lignes de champ $\vec{B}$ sont orient
 
 #### Exemple
 EXCAL 11
+
+## 4. Ordre de grandeur des moment dipôlaires magnétiques
+

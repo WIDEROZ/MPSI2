@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "ed4a8b6372a42217",
+        "id": "348ee18ba0c48757",
         "type": "tabs",
         "children": [
           {
-            "id": "1356cc16ee840f4b",
+            "id": "001397a62e9c807b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "86fc5d220cc810bd",
+            "id": "de0d96245cc4af91",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
               }
             }
           }
@@ -107,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
               }
             }
           }
@@ -159,10 +159,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "86fc5d220cc810bd",
+  "active": "de0d96245cc4af91",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
@@ -192,11 +195,9 @@
     "Physique-Chimie/TD/TD20",
     "Info/Cours/Chapitre 15/Graphe.md",
     "Info/Cours/Chapitre 15/Chapitre 5 - Graphes.md",
-    "Info/Autre/Exo controle.ml",
     "Untitled.md",
     "Physique-Chimie/TD/TD18/TD18 - Changements d'états.md",
     "Physique-Chimie/TD/TD19/TD19 - Second principe.md",
-    "Physique-Chimie/Cours/Thème 3/T3C4/T3C4 - Le second principe de la thermodynamique.md",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
