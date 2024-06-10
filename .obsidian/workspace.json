@@ -18,6 +18,16 @@
             }
           },
           {
+            "id": "8ec294c75960ce36",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf"
+              }
+            }
+          },
+          {
             "id": "884522a517eb1efa",
             "type": "leaf",
             "state": {
@@ -39,7 +49,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -116,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf"
               }
             }
           }
@@ -168,10 +179,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "017a50d894265c2e",
+  "active": "8ec294c75960ce36",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C1_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf",
@@ -217,7 +229,6 @@
     "Anglais/Khôlle/Untitled.canvas",
     "LA KONSTANTE.png",
     "Physique-Chimie/Cours/Thème 3/T3C5/ChEtat.png",
-    "Mathématiques/DM/DM19/Pasted image 20240512150148.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
     "Untitled.canvas"
