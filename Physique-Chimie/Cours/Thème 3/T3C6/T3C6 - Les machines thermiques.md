@@ -288,7 +288,7 @@ $$\boxed{Q_{C} = Q_{AB} = nRT_{C}\ln\left( \frac{V_{B}}{V_{A}} \right)}$$
 Par analogie :
 $$\boxed{Q_{F}= Q_{CD} = nRT_{F}\ln\left( \frac{V_{D}}{V_{C}} \right)}$$
 ___
-Montrer que l'égalité de Carnot Clausus : 
+Montrer l'égalitée de Carnot Clausus : 
 $$\frac{Q_{C}}{T_{C}} + \frac{Q_{F}}{T_{F}} = 0$$
 On a :
 $$\frac{Q_{C}}{T_{C}}+ \frac{Q_{F}}{T_{F}} = nR\left( \ln\left( \frac{V_{B}V_{D}}{V_{A}V_{C}} \right) \right)$$
