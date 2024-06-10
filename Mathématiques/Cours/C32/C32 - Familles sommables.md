@@ -52,11 +52,32 @@ On étend l'addition et la multiplication de $\mathbb{R}_{+}$ à $\overline{\mat
 1. $\forall x \in \overline{\mathbb{R}}_{+},x + (+\infty) = + \infty$
 2. $\forall x \in ]0, + \infty], x \times ( + \infty)= + \infty$
 3. $0 \times (+ \infty) = 0$
-4. L'addition et la multiplication restent les même que dans $\mathbb{R}_{+}$
+4. L'addition et la multiplication restent commutatives et associatives
 
 ## 2. Sommes d'éléments de $\overline{\mathbb{R}}_{+}$
 #### Cadre
-Soit $U = (U_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$ ou $I$ est un ensemble quelconque
+Soit $u = (u_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$ ou $I$ est un ensemble quelconque
 
 #### Notation
-$$
+$\mathcal{F}(I)$ est l'ensemble des parties finies de $I$
+
+#### Définition
+La somme de $u$ est l'élément de $\overline{\mathbb{R}}_{+}$ suivant :
+$$\sum_{i \in I} u_{i} = \sup_{F \in \mathcal{F}(I)} \sum_{i \in F} u_{i} = \sup \left\{  \sum_{i \in F}u_{i} ;  F \in \mathcal{F}(I)  \right\}$$
+
+#### Proposition
+$$\exists i \in I, u_{i} = + \infty \Rightarrow \sum_{i \in I} u_{i} = +\infty$$
+et la réciproque est vraie lorsque $I$ est fini (auquel cas on retrouve somme usuelle sur $\overline{\mathbb{R}}_{+}$, d'ou une ...)
+
+Démonstration : en exo
+
+C
+
+
+#### Corollaire
+La convergence et la somme d'une SATP :
+$\sum a_{n}$ sont invariantes par permutation : 
+$$\forall \varphi \in S_{\mathbb{N}}, \sum a_{n} \text{ CV} \Leftrightarrow \sum a_{\varphi(n)} \text{ CV}$$
+En cas de convergence :
+$$\sum_{n = 0}^{\infty} a_{n} = \sum_{n = 0}^{a_{n}} a_{\varphi(n)}$$
+Démonstration : En exo OBLIGATOIRE
