@@ -144,3 +144,16 @@ Si $\pi$ est un plan d'antisymétrie du champ $V$ alors, $V(M') = - V(M)$ alors 
 - Un plan d'antisymétrie des sources et un plan de symétrie de $\vec{B}$
 
 # V. Dipôle magnétique
+## 1. Moment dipolaire magnétique
+#### Définition
+Le moment dipolaire : $\vec{M}$ est le vecteur
+$$\overrightarrow{M} = I \overrightarrow{S}$$
+Avec $\overrightarrow{S}$ le vecteur surface du circuit fermé parcouru par le le courant $I$
+
+#### Exemple
+$$\boxed{\text{EXCAL 9}}$$
+A grande distance la spire $(r, \gg R)$, le champ magnétique créé par cette spire est équivalent à celui créé par un aimant : $\overrightarrow{M} = I \overrightarrow{S}$
+
+## 2. Pôle magnétique
+Pour une spire circulaire, le pôle nord magnétique correspond à la zone ou sort le champ $\overrightarrow{B}$. 
+EXCAL 10
