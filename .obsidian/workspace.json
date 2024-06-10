@@ -21,9 +21,11 @@
             "id": "8ec294c75960ce36",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -127,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md"
               }
             }
           }
@@ -181,8 +183,11 @@
   },
   "active": "8ec294c75960ce36",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8_resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C1_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
@@ -199,9 +204,7 @@
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C3/T1C3_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC_correction.pdf",
-    "Physique-Chimie/TP/TP9/script.py",
     "Physique-Chimie/TP/TP7/TP-7.md",
-    "Physique-Chimie/TP/TP7/TP7_RCpython.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Untitled 1.md",
@@ -223,7 +226,6 @@
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/TD/E31/E31.md",
-    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
