@@ -254,9 +254,9 @@ $$z = z$$
 Relation entre les vecteurs unitaires des bases 
 Excalibur 5
 
-$$e_{x} = \frac{\overrightarrow{OH_{x}}}{x}$$
-$$e_{y} = \frac{\overrightarrow{OH_{y}}}{y}$$
-$$e_{rhp} = \frac{\overrightarrow{OH}}{\rho}$$
+$$\vec{e}_{x} = \frac{\overrightarrow{OH_{x}}}{x}$$
+$$\vec{e}_{y} = \frac{\overrightarrow{OH_{y}}}{y}$$
+$$\vec{e}_{\rho} = \frac{\overrightarrow{OH}}{\rho}$$
 
 $$\overrightarrow{OH} = \rho \vec{e}_{\rho} = x\vec{e}_{x} + y\vec{e}_{y}$$
 On cherche a écrire
