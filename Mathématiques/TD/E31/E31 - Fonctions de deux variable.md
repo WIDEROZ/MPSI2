@@ -57,4 +57,15 @@ Soit $v \in \mathbb{R}$ fixé :
 Alors, l'application $z : u \mapsto g(u, v)$
 vérifie l'EDL1 $z' = \frac{1}{2}z$
 Donc il existe $C(v) \in \mathbb{R}$ tel que :
-$$\forall u, 
+$$\forall u \in \mathbb{R}, g(u, v) = C(v)e^{ \frac{u}{2} }$$
+On a alors, 
+$$C(v) = g(0, v)$$
+Donc, $C : v\mapsto C(v)$ est de classe $\mathcal{C}^{1}$ sur $\mathbb{R}$
+Ainsi, 
+$$g : (u, v) \mapsto C(v)e^{ \frac{u}{2} }$$
+avec $C \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R})$
+
+#### Synthèse
+Un calcul immédiat prouve qu'une telle solution est bien solution
+
+envie de rejoindre papa Johnny
