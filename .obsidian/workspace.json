@@ -4,46 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7266554607647c06",
+        "id": "78c1c857c06286ad",
         "type": "tabs",
         "children": [
           {
-            "id": "611bd6c8ecd98885",
+            "id": "b21b6cb14f725591",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "d5458ccdbc99161e",
+            "id": "eebb96e50a96435f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "50320a9782b8a2cd",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "9f614f96567938de",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf"
+                "file": "Mathématiques/Cours/C32/C32.md"
               }
             }
           }
@@ -124,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
               }
             }
           }
@@ -176,11 +158,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "611bd6c8ecd98885",
+  "active": "b21b6cb14f725591",
   "lastOpenFiles": [
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
-    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/TD/E31/E31.md",
     "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
@@ -194,8 +178,6 @@
     "Mathématiques/TD/E31",
     "Mathématiques/Cours/C20/C20 - Applications linéaires - Résumé.md",
     "Mathématiques/Cours/C20/C20 - Applications linéaires.md",
-    "Mathématiques/Cours/C32/C32.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
     "Mathématiques/Cours/C32",
     "Mathématiques/Cours/Untitled.canvas",
