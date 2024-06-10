@@ -34,9 +34,29 @@ Dans quel cas peut on parler de l'existence de $\sum_{i \in I} a_{i}$
 On note : $\mathbb{R}_{+} \cup \{ + \infty \}$ muni de la relation d'ordre obtenu en rajoutant à $\mathbb{R}_{+}$ un plus grand élément $+ \infty$ ie en étendant l'ordre de $\mathbb{R}_{+}$ en posant : 
 $$\forall x \in \overline{\mathbb{R}}_{+}, x \leq + \infty$$
 
+#### Proposition
+$$\boxed{\overline{\mathbb{R}}_{+} = [0, + \infty]}$$
+
 Démonstration : 
-Imédiate sur : $[0, + \infty] = \{ x \in \overline {\mathbb{R}}_{+} | 0 \leq x \leq + \infty \}$
+Immédiate sur : $[0, + \infty] = \{ x \in \overline {\mathbb{R}}_{+} | 0 \leq x \leq + \infty \}$
 
 Comme conséquence la propriété de la borne supérieure dans $\mathbb{R}$ : 
 #### Proposition
-1. Toute 
+1. Toute partie $A$ non vide de $\overline{\mathbb{R}}_{+}$ admet une borne supérieur
+2. De plus $\sup_{\overline{\mathbb{R}}_{+}}(A) = + \infty$
+   ssi $\begin{cases} + \infty \in A \\ ou \\ A \subset \overline{\mathbb{R}}_{+} \text{ est non majoré dans }\mathbb{R}_{+}\end{cases}$
+3. $\sup_{[0, +\infty]}(\varnothing) = 0$
+
+#### Conventions de calcul dans $\overline{\mathbb{R}}_{+}$
+On étend l'addition et la multiplication de $\mathbb{R}_{+}$ à $\overline{\mathbb{R}}_{+}$ par :
+1. $\forall x \in \overline{\mathbb{R}}_{+},x + (+\infty) = + \infty$
+2. $\forall x \in ]0, + \infty], x \times ( + \infty)= + \infty$
+3. $0 \times (+ \infty) = 0$
+4. L'addition et la multiplication restent les même que dans $\mathbb{R}_{+}$
+
+## 2. Sommes d'éléments de $\overline{\mathbb{R}}_{+}$
+#### Cadre
+Soit $U = (U_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$ ou $I$ est un ensemble quelconque
+
+#### Notation
+$$
