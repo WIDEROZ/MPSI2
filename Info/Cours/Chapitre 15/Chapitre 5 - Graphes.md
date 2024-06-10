@@ -1,4 +1,4 @@
-# Algorithme de Dijkstra
+e'# Algorithme de Dijkstra
 $$\begin{array}{|c|c|} \hline
 &A&B&C&D&E&F&G&H \\ \hline
 &0&\infty&\infty&\infty&\infty&\infty&\infty&\infty  \\ \hline 
