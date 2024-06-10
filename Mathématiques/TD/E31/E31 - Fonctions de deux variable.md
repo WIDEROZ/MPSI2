@@ -30,13 +30,12 @@ $$\boxed{\frac{\partial f}{\partial y}(\varphi, \psi) = \frac{\partial g}{\parti
 
 Ainsi, en remplaçant dans l'équation de départ :
 $$\boxed{\frac{\partial }{\partial u}f\left( \frac{u+v}{2}, \frac{u-v}{2} \right)  = \frac{1}{2}f\left( \frac{u+v}{2}, \frac{u-v}{2} \right)}$$
+
 C'est une EDL 1 à coef constants
 $f_{0} = 0$
 ou 
 $$f_{1}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{u}{2} \right) = \exp\left( \frac{1}{2}\left( \frac{u+v}{2} + \frac{u-v}{2} \right)\right)$$
 ou
-$$f_{2}\left( \frac{u+v}{2}, \frac{u-v}{2} \right) = \exp\left( \frac{v}{2} \right)$$
-
 
 #### Synthèse
 $$\frac{\partial f_{1}}{\partial u}(\varphi, \psi) = \frac{1}{2} \exp \left( \frac{u}{2} \right)$$
@@ -69,3 +68,13 @@ avec $C \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R})$
 Un calcul immédiat prouve qu'une telle solution est bien solution
 
 envie de rejoindre papa Johnny
+
+# Exercice 8
+$$f : (x, y) \mapsto (x^{2} + y^{2})e^{ x^{2}-y^{2} }$$
+$(x, y) \mapsto x^{2}-y^{2}$ est polynomiale de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$ comme $\exp \in \mathcal{C}^{1}(\mathbb{R})$, la règle de la chaîne affirme que : $(x, y) \mapsto e^{ x^{2}-y^{2} }$ est de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$
+Par produit de fonctions de classe $\mathcal{C}^{1}$ sur $\mathbb{R}^{2}$, $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$
+$$\frac{\partial f}{\partial x}(x, y) = 2xe^{ x^{2}-y^{2} }+(x^{2}+y^{2})2xe^{ x^{2}-y^{2} }$$
+Alors, 
+$$\frac{\partial f}{\partial x} = 2xe^{ x^{2}-yRD_{2} }(1+x^{2}+y^{2}) $$
+et 
+$$\frac{\partial f}{\partial x} = 2xe^{ x^{2}-y }(1-x^{2}-y^{2}) $$
