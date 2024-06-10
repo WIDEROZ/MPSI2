@@ -21,6 +21,16 @@
             "id": "8ec294c75960ce36",
             "type": "leaf",
             "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md"
+              }
+            }
+          },
+          {
+            "id": "91d2bd7fa0729c95",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
@@ -28,31 +38,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "884522a517eb1efa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1ace91310790190f",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg"
-              }
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -181,29 +169,29 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "8ec294c75960ce36",
+  "active": "91d2bd7fa0729c95",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
+    "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
+    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8_resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7 - Oscillateurs en régime sinusoïdal forcé (RSF).pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C1_Resume.pdf",
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
     "Untitled.md",
-    "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110333.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110329.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C3/T1C3_Resume.pdf",
-    "Physique-Chimie/TP/TP5/TP5_RC_correction.pdf",
     "Physique-Chimie/TP/TP7/TP-7.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
@@ -225,7 +213,6 @@
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Mathématiques/Cours/C31/C31.md",
-    "Mathématiques/TD/E31/E31.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",

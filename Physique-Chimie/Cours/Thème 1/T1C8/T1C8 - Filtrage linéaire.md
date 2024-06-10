@@ -223,7 +223,7 @@ Excalibur 13
 
 $$\underline{H} = \frac{\underline{u_{s}}}{\underline{u_{e}}}$$
 Pont diviseur de tension
-$$u_{s} = \frac{z_{c}}{z_{c}+z_{L}+z_{R}}\underline{u_{R}}$$
+$$\underline{ u_{s}} = \frac{z_{c}}{z_{c}+z_{L}+z_{R}}\underline{u_{R}}$$
 $$\underline{H} = \frac{1}{jC\omega}\times \frac{1}{\frac{1}{jC\omega}+jL\omega+R}$$
 $$\underline{H} = \frac{1}{1-LC\omega^2 + jRC\omega}$$
 On pose :

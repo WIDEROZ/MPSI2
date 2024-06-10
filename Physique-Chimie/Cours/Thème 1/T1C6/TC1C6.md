@@ -3,7 +3,7 @@
 
 Pour le circuit RLC série on a le régime apériodique pour : 
 $$ R >R_{c} =2\sqrt{ \frac{L}{C} } $$
-Déterminons uc(t).
+Déterminons $u_{c}(t)$.
 Les racines de l'EC sont réeles
 $$ \tau = -\frac{1}{2\tau} \pm \Omega $$
 avec
