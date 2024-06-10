@@ -134,3 +134,13 @@ Si $\pi$ est un plan d'antisymétrie du champ $V$ alors, $V(M') = - V(M)$ alors 
   $\vec{A}_{\parallel}(M') = -\vec{A}_{\parallel}(M)$
   $\vec{A}_{\perp}(M') = \vec{A}_{\perp}(M)$
   EXCAL 8
+- Si $M$ € $\pi$ antisymétrique 
+  Pour un champ scalaire $V$, $V(M) = 0$
+  Pour un champ vectoriel $\vec{A}$, $\vec{A}(M) \perp \pi$
+
+## 3. Symétrie du champ $\vec{B}$
+#### Propriété
+- Un plan de symétrie des sources (de courant) est un plan d'antisymétrie de $\vec{B}$
+- Un plan d'antisymétrie des sources et un plan de symétrie de $\vec{B}$
+
+# V. Dipôle magnétique
