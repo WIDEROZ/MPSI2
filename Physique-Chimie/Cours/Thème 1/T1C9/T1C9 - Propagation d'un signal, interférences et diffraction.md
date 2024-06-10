@@ -132,7 +132,6 @@ Dans le cas contraire le milieu est non dispersif.
 
 ## 1. Conséquence
 On considère un signal $s(x, t)$ 
-On peut l'écrire : 
 $$s(x, t) = \int_{0}^{+\infty} A(\omega)\cos(\omega t-k(\omega)x+\phi(\omega)) \, d\omega $$
 
 La vitesse de phase : 
