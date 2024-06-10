@@ -13,27 +13,7 @@
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Physique-Chimie/TP/TP5/TP5_RC.pdf"
-              }
-            }
-          },
-          {
-            "id": "797e730e0071befd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf"
-              }
-            }
-          },
-          {
-            "id": "42566f7cca5c9bc7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf"
               }
             }
           },
@@ -59,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -137,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf"
               }
             }
           }
@@ -189,14 +168,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "42566f7cca5c9bc7",
+  "active": "017a50d894265c2e",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C7/T1C1_Resume.pdf",
+    "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
+    "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
     "Untitled.md",
-    "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",
@@ -208,8 +190,6 @@
     "Physique-Chimie/TP/TP9/script.py",
     "Physique-Chimie/TP/TP7/TP-7.md",
     "Physique-Chimie/TP/TP7/TP7_RCpython.pdf",
-    "Physique-Chimie/TP/TP6/TP6_RLC_libre.pdf",
-    "Physique-Chimie/TP/TP4/TP4_oscillo.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Untitled 1.md",
