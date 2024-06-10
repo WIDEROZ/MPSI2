@@ -155,5 +155,12 @@ $$\boxed{\text{EXCAL 9}}$$
 A grande distance la spire $(r, \gg R)$, le champ magnétique créé par cette spire est équivalent à celui créé par un aimant : $\overrightarrow{M} = I \overrightarrow{S}$
 
 ## 2. Pôle magnétique
-Pour une spire circulaire, le pôle nord magnétique correspond à la zone ou sort le champ $\overrightarrow{B}$. 
+Pour une spire circulaire, le pôle nord magnétique correspond à la zone ou sort le champ $\overrightarrow{B}$, et le pole sud celle ou elle rentre. 
 EXCAL 10
+
+## 3. Orientation des lignes de champ
+#### Propriété
+Par convention des pôles Nord et Sud, les lignes de champ $\vec{B}$ sont orientées du pôle nord vers le pôle sud à l'extérieur et inversement à l'intérieur : 
+
+#### Exemple
+EXCAL 11
