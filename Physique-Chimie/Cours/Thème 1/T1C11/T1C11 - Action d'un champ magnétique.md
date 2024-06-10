@@ -14,10 +14,20 @@ Avec $L$ la longueur du fil,
 $$\boxed{\vec{F} = \int_{L} d\vec{F} = \int_{L}I\, d\vec{l} \wedge \vec{B}}$$
 
 #### Exemple
-EXCAL 3
+$$\boxed{\text{EXCAL 3}}$$
 On cherche la force de Laplace qui s'applique au fil entre $P$ et $Q$
 $$\vec{F} = \int _{L} I \, d\vec{l} \wedge \vec{B} $$
 Or, $d\vec{l} = dl \, \vec{e}_{y} = dy \, \vec{e}_{y}$
 $\vec{B} = B\vec{e}_{z}$
 Donc, 
-$$d\vec{l} \wedge \vec{B} = dy \vec{e}_{z} \wedge$$
+$$d\vec{l} \wedge \vec{B} = dy \vec{e}_{z} \wedge B \vec{e}_{z} = dy B(\vec{e}_{y} \wedge \vec{e}_{z}) = dyB\vec{e}_{x}$$
+Alors,
+Par la force de Laplace : 
+$$\vec{F} = \int _{P}^{Q} I \, dy \, B \,  \vec{e}_{x} = IB\vec{e}_{x} \int_{P}^{Q} \, dy = IB\vec{e}_{x}PQ$$
+$PQ$ : La longueur du segment $PQ$
+
+## 3. La puissance de la force de Laplace
+On considère un rail rectiligne sur lequel peut glisser un fil conducteur EXCAL 3
+$$P = \vec{F}.\vec{v} = IBhv$$
+
+# II. Action sur un aimant
