@@ -112,3 +112,17 @@ Principe de superposition, les champs créent par plusieurs distributions de cou
 Solénoïde : Le champ créé à l'intérieur est uniforme, le long de l'axe et sa norme est : $B = \mu_{0}nI$
 $n$ le nombre de spires par unité de longueur. 
 
+# IV. Notion de symétries
+## 1. Plan de symétrie
+### a. Champ scalaire
+#### Propriété
+Si le plan $\pi$ est un plan de symétrie pour le champ $V$, alors, $V(M) = V(M')$ avec $M'$ le symétrique de $M$
+
+#### b. Champ vectoriel
+#### Propriété
+Si $\pi$ est un plan de symétrie du champ vectoriel $\vec{A}$ alors, 
+$$\vec{A}_{\parallel}(M') = \vec{A}_{\parallel}(M)$$
+$$\vec{A}_{\perp}(M') = \vec{A}_{\perp}(M)$$
+Avec,
+$\vec{A}_{\parallel}$ la composante parallèle à $\pi$
+$\vec{A}_{\perp}$ la composante perp
