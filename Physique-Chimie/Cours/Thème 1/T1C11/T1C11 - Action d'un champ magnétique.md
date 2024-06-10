@@ -30,4 +30,11 @@ $PQ$ : La longueur du segment $PQ$
 On considère un rail rectiligne sur lequel peut glisser un fil conducteur EXCAL 3
 $$P = \vec{F}.\vec{v} = IBhv$$
 
-# II. Action sur un aimant
+# II. Action du champ magnétique sur un aimant
+#### Propriété
+Soit un moment dipolaire $\vec{M}$ plongé dans un champ magnétique uniforme $\vec{B}$. 
+
+Le champ $\vec{B}$ exerce un couple sur $\vec{M}$ du moment 
+$$\boxed{\vec{\Gamma} = \vec{M} \wedge \vec{B}}$$
+C'est le moment de Laplace. 
+Ainsi, la position d'équilibre du moment magnétique $\vec{M}$ correspond à l'orientation alignée avec $\vec{B}$. 
