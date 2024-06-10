@@ -67,11 +67,17 @@ $$\sum_{i \in I} u_{i} = \sup_{F \in \mathcal{F}(I)} \sum_{i \in F} u_{i} = \sup
 
 #### Proposition
 $$\exists i \in I, u_{i} = + \infty \Rightarrow \sum_{i \in I} u_{i} = +\infty$$
-et la réciproque est vraie lorsque $I$ est fini (auquel cas on retrouve somme usuelle sur $\overline{\mathbb{R}}_{+}$, d'ou une ...)
+et la réciproque est vraie lorsque $I$ est fini (auquel cas on retrouve somme usuelle sur $\overline{\mathbb{R}}_{+}$, d'ou une cohérence des notations)
 
 Démonstration : en exo
 
-C
+#### Cas $I = \mathbb{N}$
+Soit $\sum a_{n}$ une SATP
+Alors, 
+1. Si elle CV : $\sum_{n \in \mathbb{N}} a_{n} = \sum_{n = 0}^{\infty} a_{n}$
+2. Si elle DV : $\sum_{n \in \mathbb{N}} = + \infty$
+
+Ce qui est cohérent avec notre convention $\sum_{n = 0}^{+\infty} a_{n} = + \infty$
 
 
 #### Corollaire
