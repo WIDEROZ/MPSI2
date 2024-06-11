@@ -50,7 +50,12 @@ Donc,
 $$\left( 0, \frac{1}{n} \right) \in B_{o}(0, \varepsilon) \setminus B$$
 Ainsi, $B_{o}(0, \varepsilon) \nsubseteq B$
 
-
+# Exercice 3
+Par l'absurde supposons que $f$ soit prolongeable par continuité en $(0, 0)$ en en posant $f(0, 0) = l \in R$,
+Alors, 
+$$\forall \varepsilon >0, \exists \alpha >0, \forall (x, y) \in \mathbb{R}^{2}, \left|\left| (x,y) \right|\right|\leq \alpha \Rightarrow \left| f(x, y) - l\right| \leq \varepsilon$$
+Avec $\varepsilon = \frac{2}{3}>0$ on obtiens un $\alpha >0$ tel que 
+$$\forall(x, y) \in \mathbb{R}^{2}, \left|\left| (x, y) \right|\right|\leq \alpha \Rightarrow \left| f(x, y) - l\right|\leq \frac{2}{3}$$
 
 
 
