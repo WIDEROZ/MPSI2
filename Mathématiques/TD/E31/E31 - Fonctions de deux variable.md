@@ -29,9 +29,9 @@ Ainsi,
 $$Y \in A$$
 
 # Exercice 2
-
-
-
+Soit $X_{0} = (x_{0}, y_{0}) \in A$, 
+Mq $\exists \varepsilon >0, B_{o}(X_{0}, \varepsilon) \subset A$
+On à deux cas 
 
 # Exercice 7
 ## 1.

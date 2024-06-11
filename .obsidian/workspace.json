@@ -6,6 +6,7 @@
       {
         "id": "9131a3bb9b526caa",
         "type": "tabs",
+        "dimension": 49.5945945945946,
         "children": [
           {
             "id": "b27dece25cfba8eb",
@@ -29,11 +30,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "35aa89c8dd0ea0c3",
         "type": "tabs",
+        "dimension": 50.4054054054054,
         "children": [
           {
             "id": "12d7f84d38461fc6",
@@ -144,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md"
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
               }
             }
           }
@@ -196,12 +199,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b27dece25cfba8eb",
+  "active": "6077c5f51f3c4b5e",
   "lastOpenFiles": [
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/TD/E31/E31.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C31/C31.md",
     "Info/TD/TD9/TD9.ml",
     "Info/TD/TD9/TD9.pdf",
