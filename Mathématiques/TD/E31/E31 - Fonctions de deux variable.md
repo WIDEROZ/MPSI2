@@ -194,5 +194,21 @@ $$\begin{cases}
 \end{cases}$$
 Alors, 
 $$\begin{cases}
-
+x_{0}^{3} = x_{0}-y_{0}  \\
+y_{0}^{3} + x_{0}^{3} = 0
 \end{cases}$$
+or $t \mapsto t^{3}$ est injective car strictement croissante alors, 
+$$\begin{cases}
+x_{0}^{3}-2x_{0} = 0 \\
+x_{0} = -y_{0}
+\end{cases}$$
+Donc, 
+$$\begin{cases}
+x_{0}(x_{0}-\sqrt{ 2 })(x_{0}+\sqrt{ 2 })=0 \\
+x_{0} = -y_{0}
+\end{cases}$$
+Ainsi, les extremums sont :
+$$\{ (-\sqrt{ 2 }, \sqrt{ 1 }), (0, 0), (\sqrt{ 2 }, -\sqrt{ 2 }) \}$$
+
+#### Synthèse
+Ouais...
