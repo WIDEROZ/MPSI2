@@ -31,7 +31,17 @@ $$Y \in A$$
 # Exercice 2
 Soit $X_{0} = (x_{0}, y_{0}) \in A$, 
 Mq $\exists \varepsilon >0, B_{o}(X_{0}, \varepsilon) \subset A$
-On à deux cas 
+On à deux cas :
+- $y < 1$
+  On montre par inégalité triangulaire que $B_{o}(y, 1-y) \subset A$
+
+$y >1$, 
+On pose : $\varepsilon = \min(y_{0} - \left\lfloor y_{0} \right\rfloor, y_{0} + \left\lceil y_{0} \right\rceil)$
+Mq $B_{o}(X, \varepsilon) \subset A$
+Ainsi, $A$ est ouvert. 
+
+
+
 
 # Exercice 7
 ## 1.
