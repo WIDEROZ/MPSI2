@@ -96,6 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,6 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Untitled.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Untitled 4.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -146,10 +148,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "bf2334ad3f849d4f",
   "lastOpenFiles": [
-    "Untitled 3.md",
     "Untitled 4.md",
+    "Untitled 3.md",
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
