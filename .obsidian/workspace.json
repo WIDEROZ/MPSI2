@@ -4,17 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "3c52f8d24a2af8d0",
+        "id": "b4ee1a180b2864f3",
         "type": "tabs",
         "children": [
           {
-            "id": "c37cf92fb0cb4d58",
+            "id": "011e262937df560f",
             "type": "leaf",
             "state": {
-              "type": "vscode-editor",
-              "state": {
-                "file": "Physique-Chimie/TP/TP9/script.py"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -94,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/TP/TP9/script.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/TP/TP9/script.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Physique-Chimie/TP/TP9/script.py"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,8 +140,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c37cf92fb0cb4d58",
+  "active": "011e262937df560f",
   "lastOpenFiles": [
+    "Physique-Chimie/TP/TP19/TP19.md",
+    "Physique-Chimie/TP/TP9/script.py",
     "Physique-Chimie/TP/TP7/TP-7.md",
     "Physique-Chimie/TP/TP6/TP6_RLC_libre.pdf",
     "Physique-Chimie/Cours/Thème 2/T2C2/T2C2 - Les lois de Newton.md",
@@ -169,7 +165,6 @@
     "Physique-Chimie/TP/TP5/TP5_RC.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C6/T1C6_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C5/T1C5_Resume.pdf",
-    "Physique-Chimie/Cours/Thème 1/T1C4/T1C4_Resume.pdf",
     "Untitled.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",

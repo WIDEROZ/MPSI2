@@ -12,4 +12,4 @@ def passeBas(ve, vs0, fc, fe):
 
 
 def signalSinusoidal(f, A, phi):
-    return  
+    return
