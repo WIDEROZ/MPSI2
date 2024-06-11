@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "0d0a57acc7990c78",
+        "id": "3c52f8d24a2af8d0",
         "type": "tabs",
         "children": [
           {
-            "id": "81bc6a175783a9c1",
+            "id": "c37cf92fb0cb4d58",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "vscode-editor",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6dfa0ddce97da41c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C1/T2C1.md"
+                "file": "Physique-Chimie/TP/TP9/script.py"
               }
             }
           }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
+                "file": "Physique-Chimie/TP/TP9/script.py",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
+                "file": "Physique-Chimie/TP/TP9/script.py",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md"
+                "file": "Physique-Chimie/TP/TP9/script.py"
               }
             }
           }
@@ -158,8 +146,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "81bc6a175783a9c1",
+  "active": "c37cf92fb0cb4d58",
   "lastOpenFiles": [
+    "Physique-Chimie/TP/TP7/TP-7.md",
+    "Physique-Chimie/TP/TP6/TP6_RLC_libre.pdf",
+    "Physique-Chimie/Cours/Thème 2/T2C2/T2C2 - Les lois de Newton.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 1/T1C9/T1C9 - Propagation d'un signal, interférences et diffraction.md",
@@ -185,8 +176,6 @@
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110333.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110329.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
-    "Physique-Chimie/Cours/Thème 1/T1C3/T1C3_Resume.pdf",
-    "Physique-Chimie/TP/TP7/TP-7.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Untitled 1.md",
@@ -201,8 +190,6 @@
     "Untitled 8.md",
     "Untitled 7.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-    "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
