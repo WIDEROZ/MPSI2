@@ -56,7 +56,13 @@ Alors,
 $$\forall \varepsilon >0, \exists \alpha >0, \forall (x, y) \in \mathbb{R}^{2}, \left|\left| (x,y) \right|\right|\leq \alpha \Rightarrow \left| f(x, y) - l\right| \leq \varepsilon$$
 Avec $\varepsilon = \frac{2}{3}>0$ on obtiens un $\alpha >0$ tel que 
 $$\forall(x, y) \in \mathbb{R}^{2}, \left|\left| (x, y) \right|\right|\leq \alpha \Rightarrow \left| f(x, y) - l\right|\leq \frac{2}{3}$$
-
+Comme $\left|\left| (\alpha, 0) \right|\right|= \alpha \leq \alpha$,
+$$\left| 1-l\right| = \left| f(\alpha, 0)-l\right| \leq \frac{2}{3}$$
+Et comme $\left|\left| (0, \alpha) \right|\right| \leq \alpha$, 
+$$\left| 1+l\right| = \left| -1-l\right| = \left| f(0, \alpha) - l\right|\leq \frac{2}{3}$$
+Ainsi : 
+$$2 = \left| 1+l-l+1\right| \leq \left| 1+l\right| + \left| 1-l\right| \leq \frac{4}{3}$$
+CONTRADICTION
 
 
 # Exercice 7
@@ -169,3 +175,24 @@ $f(x, y)$ qui est un produit de facteurs strictement positifs donc, $f(x, y) > 0
 Or $f(0, 0) = 0$ 
 Donc, 
 $f$ admet un minimum global strict en $(0, 0)$
+
+# Exercice 9
+$$f : (x, y) \mapsto x^{4} + y^{4} - 2(x-y)^{2}$$
+$f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$ car c'est un polynôme. 
+
+On sait alors que tout extremum local est un point critique. 
+
+$$\frac{\partial f}{\partial x} = 4x^{3} - 4(x-y)$$
+$$\frac{\partial f}{\partial y} = 4y^{3} + 4 (x-y)$$
+
+
+#### Analyse
+Supposons que $(x_{0}, y_{0}) \in \mathbb{R}^{2}$ est un extremum de $f$
+$$\begin{cases}
+4x_{0}^{3} - 4(x_{0}-y_{0}) = 0 \\
+4y_{0}^{3}+4(x_{0}-y_{0}) = 0
+\end{cases}$$
+Alors, 
+$$\begin{cases}
+
+\end{cases}$$
