@@ -17,8 +17,21 @@
                 "file": "Mathématiques/TD/E31/E31.md"
               }
             }
+          },
+          {
+            "id": "b763b6dbd4cd8e80",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "35aa89c8dd0ea0c3",
@@ -134,7 +147,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +164,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md",
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +176,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E31/E31.md"
+                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
               }
             }
           }
@@ -186,10 +199,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b27dece25cfba8eb",
+  "active": "b763b6dbd4cd8e80",
   "lastOpenFiles": [
-    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Mathématiques/TD/E31/E31.md",
+    "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C31/C31.md",

@@ -39,6 +39,17 @@ $y >1$,
 On pose : $\varepsilon = \min(y_{0} - \left\lfloor y_{0} \right\rfloor, y_{0} + \left\lceil y_{0} \right\rceil)$
 Mq $B_{o}(X, \varepsilon) \subset A$
 Ainsi, $A$ est ouvert. 
+___
+Soit $\varepsilon > 0$, Mq $B_{o}(0, \varepsilon) \nsubseteq B$ : 
+On prend $n = \left\lceil \frac{1}{\varepsilon} \right\rceil + 1 \in \mathbb{N}^{*}$,
+On a : 
+$$0 < \frac{1}{\varepsilon} < n$$
+Donc, 
+$$\frac{1}{n} < \varepsilon$$
+Donc, 
+$$\left( 0, \frac{1}{n} \right) \in B_{o}(0, \varepsilon) \setminus B$$
+Ainsi, $B_{o}(0, \varepsilon) \nsubseteq B$
+
 
 
 
