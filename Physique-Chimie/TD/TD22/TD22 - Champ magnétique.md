@@ -2,4 +2,4 @@
 
 # Exercice 2
 ## 1.
-Les champs deviennent plus intenses entre les deux 
+Les champs deviennent plus intenses vers 
