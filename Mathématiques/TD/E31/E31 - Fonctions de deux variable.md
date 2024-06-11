@@ -9,8 +9,12 @@ Soit $X_{0} \in A \sqcup \{ X \}$,
 il existe un $\varepsilon>0$ tel que : 
 $$B_{o}(X_{0}, \varepsilon) \subset A \sqcup \{ X \}$$
 par la définition des ouverts
-Soit $X_{A} \in A$, 
-Comme 
+On prend 
+$A = B_{o}(0, 1) \setminus \{ 0 \}$, et $0 \in A \sqcup \{ 0 \}$
+Soit $X \in A$, 
+Mq $\forall X \in A, \exists \varepsilon > 0, B_{o}(X, \varepsilon) \subset A$
+
+On pose $\varepsilon = \min()$
 
 
 
