@@ -11,8 +11,12 @@
             "id": "bf2334ad3f849d4f",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Untitled 4.md"
+              }
             }
           }
         ]
@@ -140,11 +146,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bf2334ad3f849d4f",
+  "active": "d9b3182d45be85a6",
   "lastOpenFiles": [
+    "Untitled 3.md",
+    "Untitled 4.md",
+    "Untitled 2.md",
+    "Untitled 1.md",
+    "Untitled.md",
     "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-    "Untitled.md",
     "Physique-Chimie/TD/TD22",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
@@ -179,10 +189,6 @@
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Untitled 3.md",
-    "Untitled 4.md",
     "Untitled 5.md",
     "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.md",
     "Mathématiques/Cours/Untitled.canvas",
