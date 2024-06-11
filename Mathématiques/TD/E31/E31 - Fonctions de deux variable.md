@@ -18,8 +18,19 @@ On pose $\varepsilon = \min(\left|\left| X \right|\right|, 1- \left|\left| X \ri
 Soit $Y \in B_{o}(X, \varepsilon)$, 
 Mq, $B_{o}(X, \varepsilon) \subset A$, ie $0 < \left|\left| Y-X \right|\right| < 1$, 
 $$\left|\left| Y - X \right|\right| <  \varepsilon \leq \left|\left| X \right|\right| $$
-Alors, 
-Mq 
+et 
+$$\left|\left| X \right|\right| = \left|\left| X-Y+Y \right|\right| \leq \left|\left| Y-X \right|\right| + \left|\left| Y \right|\right| < \varepsilon + \left|\left| Y \right|\right| $$ Donc, 
+$$\left|\left| Y \right|\right| > \left|\left| X \right|\right| - \varepsilon \geq 0$$
+Donc, $Y \neq 0$,
+$$\left|\left| Y \right|\right| \leq \left|\left| X \right|\right| + \left|\left| Y-X \right|\right| < \left|\left| X \right|\right| + \varepsilon \leq \left|\left| X \right|\right| +1-\left|\left| X \right|\right| $$
+Donc, 
+$$Y \in B_{o}(0, 1)$$
+Ainsi, 
+$$Y \in A$$
+
+# Exercice 2
+
+
 
 
 # Exercice 7

@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "35aa89c8dd0ea0c3",
@@ -68,8 +67,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Mathématiques/TD/E31/E31.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Mathématiques/TD/E31/E31.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -175,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
+                "file": "Mathématiques/TD/E31/E31.md"
               }
             }
           }
@@ -198,12 +196,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6077c5f51f3c4b5e",
+  "active": "b27dece25cfba8eb",
   "lastOpenFiles": [
+    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/TD/E31/E31.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/Cours/C31/C31.md",
     "Info/TD/TD9/TD9.ml",
     "Info/TD/TD9/TD9.pdf",
