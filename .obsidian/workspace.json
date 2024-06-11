@@ -4,69 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "9131a3bb9b526caa",
+        "id": "5ce93c91f43fdd6e",
         "type": "tabs",
-        "dimension": 49.5945945945946,
         "children": [
           {
-            "id": "b27dece25cfba8eb",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/TD/E31/E31.md"
-              }
-            }
-          },
-          {
-            "id": "b763b6dbd4cd8e80",
+            "id": "a6d2c3a419b86619",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "35aa89c8dd0ea0c3",
-        "type": "tabs",
-        "dimension": 50.4054054054054,
-        "children": [
-          {
-            "id": "12d7f84d38461fc6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf"
-              }
-            }
-          },
-          {
-            "id": "035c4b037c8374c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a42315ffb70eea4f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C31/C31.md"
               }
             }
           }
@@ -147,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -164,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
+                "file": "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -176,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md"
+                "file": "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md"
               }
             }
           }
@@ -199,13 +148,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b763b6dbd4cd8e80",
+  "active": "a6d2c3a419b86619",
   "lastOpenFiles": [
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+    "Physique-Chimie/TD/TD22/TD22 - Champ magnétique.md",
+    "Untitled.md",
+    "Physique-Chimie/TD/TD22",
+    "Mathématiques/Cours/C31/C31.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/TD/E31/E31.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/Cours/C31/C31.md",
     "Info/TD/TD9/TD9.ml",
     "Info/TD/TD9/TD9.pdf",
     "Info/TD/TD9/TD92.c",
@@ -220,7 +173,6 @@
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1.md",
     "Physique-Chimie/Cours/Thème 2/T2C1/T2C1 - Cinématique du point materiel.md",
     "Physique-Chimie/Cours/Thème 1/T1C9/T1C9 - Propagation d'un signal, interférences et diffraction.md",
-    "Physique-Chimie/Cours/Thème 1/T1C7/T1C7_Resume.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8.excalidraw.md",
     "Physique-Chimie/Cours/Thème 1/T1C8/T1C8 - Filtrage linéaire.md",
     "Info/Cours/Chapitre 15/Graphe.md",
@@ -228,7 +180,6 @@
     "Physique-Chimie/Cours/Thème 1/T1C6/TC1C6.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
-    "Untitled.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110338.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110333.jpg",
@@ -242,7 +193,6 @@
     "Untitled 4.md",
     "Untitled 5.md",
     "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWW.md",
-    "Untitled 6.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
