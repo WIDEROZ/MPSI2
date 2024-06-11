@@ -1,3 +1,14 @@
+# Exercice 1
+Soit $A \subset \mathbb{R}^{2}$, 
+Si $A = \mathbb{R}^{2}$, on ne peut pas prendre d'élément dans $\mathbb{R} \setminus A$
+Sinon,
+Soit $X \in \mathbb{R}^{2} \setminus A$ tel que $A \sqcup \{ X \}$ soit un ouvert
+
+Est ce que $A$ est un ouvert?
+Soit $X_{0} \in A \sqcup \{ X \}$
+$$B_{o}(, )$$
+
+
 # Exercice 7
 ## 1.
 Soit $f \in \mathcal{C}_{\mathbb{R}}^{1}(\mathbb{R}^{2})$,
