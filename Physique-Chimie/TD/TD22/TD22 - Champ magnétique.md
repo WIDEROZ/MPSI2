@@ -9,3 +9,6 @@ Ce sont deux spires circulaires
 
 ## 3.
 Les courants sont de sens opposés à l'horizontale et la verticale, mais aux diagonales ils sont de même sens
+
+## 4.
+On a un plan antisymétrique alors, en $O$ Le champ magnétique est nul. 
