@@ -5,8 +5,14 @@ Sinon,
 Soit $X \in \mathbb{R}^{2} \setminus A$ tel que $A \sqcup \{ X \}$ soit un ouvert
 
 Est ce que $A$ est un ouvert?
-Soit $X_{0} \in A \sqcup \{ X \}$
-$$B_{o}(, )$$
+Soit $X_{0} \in A \sqcup \{ X \}$, 
+il existe un $\varepsilon>0$ tel que : 
+$$B_{o}(X_{0}, \varepsilon) \subset A \sqcup \{ X \}$$
+par la définition des ouverts
+Soit $X_{A} \in A$, 
+Comme 
+
+
 
 
 # Exercice 7
