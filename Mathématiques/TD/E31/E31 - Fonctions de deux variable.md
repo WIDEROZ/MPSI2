@@ -14,9 +14,12 @@ $A = B_{o}(0, 1) \setminus \{ 0 \}$, et $0 \in A \sqcup \{ 0 \}$
 Soit $X \in A$, 
 Mq $\forall X \in A, \exists \varepsilon > 0, B_{o}(X, \varepsilon) \subset A$
 
-On pose $\varepsilon = \min()$
-
-
+On pose $\varepsilon = \min(\left|\left| X \right|\right|, 1- \left|\left| X \right|\right|)>0$, 
+Soit $Y \in B_{o}(X, \varepsilon)$, 
+Mq, $B_{o}(X, \varepsilon) \subset A$, ie $0 < \left|\left| Y-X \right|\right| < 1$, 
+$$\left|\left| Y - X \right|\right| <  \varepsilon \leq \left|\left| X \right|\right| $$
+Alors, 
+Mq 
 
 
 # Exercice 7
