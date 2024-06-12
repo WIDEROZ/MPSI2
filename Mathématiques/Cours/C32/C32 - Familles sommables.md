@@ -169,4 +169,4 @@ $$ \left\{  \sum_{i \in F}u_{i} ; F \in \mathcal{F}(I)  \right\} $$
 Donc, par définition de la borne supérieure, 
 $$ \sum_{i \in I} u_{i}\leq \sum_{i \in I} u_{i} + \sum_{i \in K}u_{i} $$
 scusez moi
-zaurez pas un joint?? 
+zaurez pas un joint?? œœ nanan
