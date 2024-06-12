@@ -117,3 +117,20 @@ Ainsi,
 $$\sum_{n = 0}^{+ \infty} a_{n} = \sum_{n \in \mathbb{N}}a_{n}$$
 et 
 $$\sum a_{n} \text{ CV} \Leftrightarrow \sum_{n \in \mathbb{N}} a_{n} < + \infty$$
+
+#### Propriété
+$$\forall \sigma \in S(I), \sum_{i \in I}u_{\sigma(i)} = \sum_{i \in I}u_{i}$$
+Démonstration :
+Pour $\sigma \in S(I)$, 
+$$ \{ \sigma(F)^{-1} ; F \in \mathcal{F}(I) \} = \mathcal{F}(I)$$
+
+Ainsi, 
+$$ \left\{ \sum_{i \in F} u_{\sigma(i)} ; F \in \mathcal{F}(I)\right\} = \left\{  \sum_{j \in\sigma^{-1}(F)} u_{j} ; F \in F(I) \right\}$$
+$$=\left\{  \sum_{j \in F'} u_{j} ; F' \in \mathcal{F}(I)  \right\}$$
+car $\sigma$ est bijectif
+
+En prenant le bon sup on obtiens
+$$\sum_{ i \in I} u_{\sigma(i)} = \sum_{j \in I} u_{j} = \sum_{i \in I}  u_{i}$$
+
+#### Corollaire
+Pour une SATP CV $\sum a_{n}$, et $\varphi$
