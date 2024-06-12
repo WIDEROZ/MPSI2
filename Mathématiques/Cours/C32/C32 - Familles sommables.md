@@ -141,7 +141,7 @@ $$ \sum_{n = 0}^{+ \infty} a_{\varphi(n)} = \sum_{n = 0}^{+\infty}a_{n} $$
 #### Exercice
 Calculer
 $$ \sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n}$$
-###### Lemme
+###### Lemme 1
 Pour $(u_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$, et $J \subset I$
 $$ \sum_{j \in J} u_{i} \leq \sum_{i \in I} u_{i}$$
 Démonstration : 
@@ -156,7 +156,7 @@ $$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n} = + \infty$$
 #### Exemple
 $$ u = \left( \frac{\mathbb{1}_{\mathbb{N}^{*}}(x)}{x^{\alpha}} \right)_{x \in \mathbb{R}_{+}^{*}}$$
 Avec $\alpha \in \mathbb{R}$.
-###### Lemme
+###### Lemme 2
 Soit $u \in (\overline{\mathbb{R}}_{+})^{I}$ et $J,K \subset I$ tel que $I = J \sqcup K$
 Alors, 
 $$ \sum_{i \in I}u_{i} = \sum_{i \in J} u_{i} + \sum_{i \in K}u_{i} $$
@@ -168,5 +168,14 @@ Comme $F$ est fini, $\uparrow$ est finie. Or $\space\space\space\space\space\spa
 $$ \left\{  \sum_{i \in F}u_{i} ; F \in \mathcal{F}(I)  \right\} $$
 Donc, par définition de la borne supérieure, 
 $$ \sum_{i \in I} u_{i}\leq \sum_{i \in I} u_{i} + \sum_{i \in K}u_{i} $$
-scusez moi
-zaurez pas un joint?? œœ nanan
+Flemme c long
+
+___
+$$ \sum_{x \in \mathbb{R}_{+}^{*}} u_{x} = \sum_{x \in \mathbb{N}^{*}}\frac{1}{x^{\alpha}} + \sum _{x \in \mathbb{R}_{+}^{*} \setminus \mathbb{N}^{*}}0 =\sum_{n = 1}^{+ \infty}\frac{1}{x^{\alpha}}$$
+Qui est finie ssi $\alpha > 1$
+
+#### Exemple
+$$ u = (x)_{x \in [0,1] \cap \mathbb{Q}} $$
+$$ \sum_{x \in [0, 1] \cap \mathbb{Q}} x  \geq \sum_{x \in \left\{  \frac{1}{n} ; n \in \mathbb{N}^{*}  \right\}}x = \sum_{n = 1}^{+ \infty} \frac{1}{n} = + \infty$$
+
+par le lemme 1. 
