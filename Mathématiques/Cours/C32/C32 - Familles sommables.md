@@ -133,4 +133,21 @@ En prenant le bon sup on obtiens
 $$\sum_{ i \in I} u_{\sigma(i)} = \sum_{j \in I} u_{j} = \sum_{i \in I}  u_{i}$$
 
 #### Corollaire
-Pour une SATP CV $\sum a_{n}$, et $\varphi$
+Pour une SATP CV $\sum a_{n}$, et $\varphi \in S(\mathbb{N})$, $\sum a_{\varphi(n)} \text{ CV}$
+et 
+$$ \sum_{n = 0}^{+ \infty} a_{\varphi(n)} = \sum_{n = 0}^{+\infty}a_{n} $$
+
+
+#### Exercice
+Calculer
+$$ \sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n}$$
+###### Lemme
+Pour $(u_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$, et $J \subset I$
+$$ \sum_{j \in J} u_{i} \leq \sum_{i \in I} u_{i}$$
+Démonstration : 
+$$ \mathcal{F}(J) \subset \mathcal{F}(J) $$
+Fin. 
+___
+Comme on somme des nombres positifs, 
+$$ \sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n} \geq \sum_{m \in \mathbb{N}^{*}} \frac{1}{m+1} = \sum_{m=2}^{+ \infty} \frac{1}{m} = + \infty$$
+A
