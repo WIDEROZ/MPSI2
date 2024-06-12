@@ -200,3 +200,24 @@ $u$ est sommable ssi $\sum_{i \in I} u_{i} < + \infty$
 #### Propriété
 Soit $u, v \in (\mathbb{R}_{+})^{I}$, et $\lambda \in \mathbb{R}_{+}$
 alors, 
+$$ \sum_{i \in I} \lambda u_{i} = \lambda \sum_{i \in I} u_{i} $$
+$$ \sum_{i \in I} (u_{i}+v_{i}) = \sum_{i \in I} u_{i} + \sum_{i \in I}v_{i} $$
+
+Démonstration : en exo
+
+#### Corollaire
+Si $u, v \in (\mathbb{R}_{+})^{I}$ sont sommables et $\lambda \in \mathbb{R}_{+}$, alors
+- $\lambda u$ est sommable
+- $u+v$ est sommable
+
+Démonstration : en exo
+
+#### Théorème de sommation par paquets
+Si $I = \bigsqcup_{j \in J} I_{j}$ ($I, J$ des ensembles quelconques)
+et $u \in (\mathbb{R}_{+})^{I}$
+On a :
+$$\sum_{i \in I} u_{i} = \sum_{j \in J}\left( \sum_{i \in I_{j}} u_{i} \right)$$
+
+#### Corollaire : Théorème de Fubini positif
+Si $I = J \times K$ et $u \in (\mathbb{R}_{+})^{I}$, 
+$$ \sum_{(j,k)\in J \times K}u_{j, k} = \sum_{j \in J} \left( \sum_{k \in K} u_{j, k} \right) = \sum_{k \in K}\left( \sum_{j\in J}u_{j, k} \right)$$
