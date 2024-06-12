@@ -11,8 +11,22 @@
             "id": "bd6ede7c3b3fab8c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2c711c95a1addda4",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C32/C32.md"
+              }
             }
           }
         ]
@@ -92,6 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,6 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +134,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
+              }
             }
           }
         ]
@@ -140,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9b3182d45be85a6",
+  "active": "bd6ede7c3b3fab8c",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
@@ -161,7 +181,6 @@
     "Physique-Chimie/TD/TD22",
     "Mathématiques/Cours/C31/C31.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/TD/E31/E31-FonctionsDeDeuxVariables.pdf",
     "Mathématiques/TD/E31/E31.md",
     "Mathématiques/TD/E31/E31 - Fonctions de deux variable.md",
     "Physique-Chimie/TP/TP19/TP19.md",
@@ -184,7 +203,6 @@
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Untitled 5.md",
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",

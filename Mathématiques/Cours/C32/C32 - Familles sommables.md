@@ -75,7 +75,7 @@ Démonstration : en exo
 Soit $\sum a_{n}$ une SATP
 Alors, 
 1. Si elle CV : $\sum_{n \in \mathbb{N}} a_{n} = \sum_{n = 0}^{\infty} a_{n}$
-2. Si elle DV : $\sum_{n \in \mathbb{N}} = + \infty$
+2. Si elle DV : $\sum_{n \in \mathbb{N}} a_{} = + \infty$
 
 Ce qui est cohérent avec notre convention $\sum_{n = 0}^{+\infty} a_{n} = + \infty$
 
@@ -86,4 +86,15 @@ $\sum a_{n}$ sont invariantes par permutation :
 $$\forall \varphi \in S_{\mathbb{N}}, \sum a_{n} \text{ CV} \Leftrightarrow \sum a_{\varphi(n)} \text{ CV}$$
 En cas de convergence :
 $$\sum_{n = 0}^{\infty} a_{n} = \sum_{n = 0}^{a_{n}} a_{\varphi(n)}$$
-Démonstration : En exo OBLIGATOIRE
+Démonstration :
+On a:
+$$\sum_{p = 0}^{+ \infty} a_{p} = \lim_{ p \to \infty } S_{n}$$
+existe et est un réel positif ou $+ \infty$
+
+Par ailleurs 
+$$\sum_{n \in \mathbb{N}} a_{n} = \sup_{F \in \mathcal{F}(\mathbb{N})}\sum_{n \in F}a_{n} \in \overline{\mathbb{R}}_{+}$$
+Soit $n \in \mathbb{N}$, 
+$$S_{n} = \sum_{k = 0}^{n} a_{k} = \sum_{k \in[\![0, k]\!]} a_{k}$$
+
+Or $[\![0, n]\!] \in \mathcal{F}(\mathbb{N})$ donc, 
+$$S_{n} \leq \sum_{n \in \mathbb{N}}a_{n}$$
