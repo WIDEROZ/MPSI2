@@ -179,3 +179,24 @@ $$ u = (x)_{x \in [0,1] \cap \mathbb{Q}} $$
 $$ \sum_{x \in [0, 1] \cap \mathbb{Q}} x  \geq \sum_{x \in \left\{  \frac{1}{n} ; n \in \mathbb{N}^{*}  \right\}}x = \sum_{n = 1}^{+ \infty} \frac{1}{n} = + \infty$$
 
 par le lemme 1. 
+
+#### Exemple
+$$ u = \left( \frac{1}{x^{2}} \right)_{x \in \mathbb{Q} \cap [1, + \infty[} $$
+$$ \sum_{x \in \mathbb{Q} \cap [1, +\infty[} \frac{1}{x^{2}} \geq \sum_{x \in \left\{  \frac{n+1}{n} ; n \in \mathbb{N}^{*}  \right\}} \frac{1}{x^{2}} = \sum_{n \in \mathbb{N}^{*}} \left( \frac{n}{n+1} \right)^{2} = + \infty$$
+car c'est une SATP qui DVG
+Donc, 
+$$ \sum_{x \in \mathbb{Q} \cap [1, + \infty[}  \frac{1}{x^{2}} = + \infty$$
+
+#### Exemple
+ Soit $u = (u_{i})_{i \in I} \in (\overline{\mathbb{R}}_{+})^{I}$ tq 
+ $$\forall i \in I, u_{i} = \lambda$$
+$$\sum_{i \in I}u_{i} = \left| I\right|\lambda$$
+
+## 3. Familles de réels positifs
+Ici $u \in (\mathbb{R}_{+})^{I}$, 
+#### Définition
+$u$ est sommable ssi $\sum_{i \in I} u_{i} < + \infty$
+
+#### Propriété
+Soit $u, v \in (\mathbb{R}_{+})^{I}$, et $\lambda \in \mathbb{R}_{+}$
+alors, 
