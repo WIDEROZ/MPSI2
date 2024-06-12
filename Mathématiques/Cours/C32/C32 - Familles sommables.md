@@ -150,4 +150,18 @@ Fin.
 ___
 Comme on somme des nombres positifs, 
 $$ \sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n} \geq \sum_{m \in \mathbb{N}^{*}} \frac{1}{m+1} = \sum_{m=2}^{+ \infty} \frac{1}{m} = + \infty$$
-A
+Ainsi, 
+$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n} = + \infty$$
+
+#### Exemple
+$$ u = \left( \frac{\mathbb{1}_{\mathbb{N}^{*}}(x)}{x^{\alpha}} \right)_{x \in \mathbb{R}_{+}^{*}}$$
+Avec $\alpha \in \mathbb{R}$.
+###### Lemme
+Soit $u \in (\overline{\mathbb{R}}_{+})^{I}$ et $J,K \subset I$ tel que $I = J \sqcup K$
+Alors, 
+$$ \sum_{i \in I}u_{i} = \sum_{i \in J} u_{i} + \sum_{i \in K}u_{i} $$
+Démonstration :
+Soit $F \in \mathcal{F}(I)$, 
+$F = (F \cap J) \sqcup (F \cap K)$
+$$ \sum_{i \in F} u_{i} = \sum_{i \in F \cap J}u_{i} + \sum_{ i \in F \cap K} u_{i}$$
+Comme $F$ est fini, $\uparrow$ est finie. 
