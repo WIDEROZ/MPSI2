@@ -221,3 +221,20 @@ $$\sum_{i \in I} u_{i} = \sum_{j \in J}\left( \sum_{i \in I_{j}} u_{i} \right)$$
 #### Corollaire : Théorème de Fubini positif
 Si $I = J \times K$ et $u \in (\mathbb{R}_{+})^{I}$, 
 $$ \sum_{(j,k)\in J \times K}u_{j, k} = \sum_{j \in J} \left( \sum_{k \in K} u_{j, k} \right) = \sum_{k \in K}\left( \sum_{j\in J}u_{j, k} \right)$$
+
+$$v=\sqrt{ w }$$
+
+Démonstration : 
+On pose pour $j \in J$, $I_{j} = \{ (j, k) ; k \in K \}$ et on applique le théorème de sommation par paquets puisque
+$$I = J \times K = \bigsqcup_{j \in J}I_{j}$$
+
+$$ \sum_{(j, k) \in J \times K} u_{j, k} = \sum_{j \in J} \sum_{i \in I_{j}} u_{i}  = \sum_{j \in J} \sum_{k \in K}u_{j, k} $$
+De même dans l'autre sens
+
+#### Exemple
+Soit $\alpha \in \mathbb{R}_{+}$, 
+$$ \sum_{(m,n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} $$
+
+Soit $z \in \mathbb{N_{+}^{*}} \setminus \{0\}$, 
+$\square$ ez
+[[https://www.youtube.com/watch?v=jTuTEcwvkP4&ab_channel=blackpenredpen]]

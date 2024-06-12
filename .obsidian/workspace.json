@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "e716a77ccac6fc5c",
+        "id": "2aa04b559866a92b",
         "type": "tabs",
         "children": [
           {
-            "id": "bd6ede7c3b3fab8c",
+            "id": "e19930da6214e300",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "2c711c95a1addda4",
+            "id": "8ef866d970aeaf0b",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -158,8 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "bd6ede7c3b3fab8c",
+  "active": "e19930da6214e300",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "fgnhnghybggtfrgrdrefdgf.md",
     "Untitled 5.md",
     "Untitled 4.md",
@@ -167,8 +169,6 @@
     "Untitled 2.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-    "Mathématiques/Cours/C32/C32.md",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
