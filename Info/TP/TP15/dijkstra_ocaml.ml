@@ -62,7 +62,7 @@ let dijkstra (g:graphe_pondere) s1 =
 
   (* on crée une référence f vers une file de priorité *)
   let f = ref [] in
-  f := ajout_file_prio (!f) (s1,0.);
+  f := ajout_file_prio (!f) (s1,0.);    
 
   (* On fait défiler la file de priorité tant qu'elle est non-vide ; on ajoute
   ou modifie les distances associées aux voisins du sommet parcouru *)
