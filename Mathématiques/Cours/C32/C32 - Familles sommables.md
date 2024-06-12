@@ -163,5 +163,10 @@ $$ \sum_{i \in I}u_{i} = \sum_{i \in J} u_{i} + \sum_{i \in K}u_{i} $$
 Démonstration :
 Soit $F \in \mathcal{F}(I)$, 
 $F = (F \cap J) \sqcup (F \cap K)$
-$$ \sum_{i \in F} u_{i} = \sum_{i \in F \cap J}u_{i} + \sum_{ i \in F \cap K} u_{i}$$
-Comme $F$ est fini, $\uparrow$ est finie. 
+$$ \sum_{i \in F} u_{i} = \sum_{i \in F \cap J}u_{i} + \sum_{ i \in F \cap K} u_{i} \leq \sum_{i \in J}u_{i} + \sum_{i \in K} u_{i}$$
+Comme $F$ est fini, $\uparrow$ est finie. Or $\space\space\space\space\space\space\space\space\space\space\space\space\space$ $\uparrow$ est une constante qui majore
+$$ \left\{  \sum_{i \in F}u_{i} ; F \in \mathcal{F}(I)  \right\} $$
+Donc, par définition de la borne supérieure, 
+$$ \sum_{i \in I} u_{i}\leq \sum_{i \in I} u_{i} + \sum_{i \in K}u_{i} $$
+scusez moi
+zaurez pas un joint?? 
