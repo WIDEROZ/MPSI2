@@ -234,7 +234,33 @@ De même dans l'autre sens
 #### Exemple
 Soit $\alpha \in \mathbb{R}_{+}$, 
 $$ \sum_{(m,n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} $$
-
+___
+Démonstration :
 Soit $z \in \mathbb{N_{+}^{*}} \setminus \{0\}$, 
+
+https://www.youtube.com/watch?v=jTuTEcwvkP4&ab_channel=blackpenredpen
+
 $\square$ ez
-[[https://www.youtube.com/watch?v=jTuTEcwvkP4&ab_channel=blackpenredpen]]
+___
+###### Lemme 3
+Soit $u, v \in (\overline{\mathbb{R}}_{+})^{I}$,
+tel que 
+$$\forall i \in I, u_{i} \leq v_{i}$$
+Alors, 
+$$\sum_{i \in I} u_{i} \leq \sum_{i \in I} v_{i}$$
+Démonstration : 
+Soit $F \in \mathcal{F}(I)$,
+$$\sum_{i \in F} u_{i} \leq \sum_{i \in F} v_{i} \leq \sum_{i \in I}v_{i}$$
+
+
+Ainsi, 
+$$\sum_{i \in I} v_{i} \text{ majore } \left\{  \sum_{i \in F} u_{i} ; F \in \mathcal{F}(I)\right\}$$
+Donc sa borne supérieure : 
+$$ \sum_{i \in I} v_{i} \geq \sum_{i \in I} u_{i} $$
+___
+On a vu que 
+$$ \sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{m+n} = + \infty $$
+Or pour $\alpha \leq 1$ : 
+$$ \forall (m, n)  \in (\mathbb{N}^{*})^{2}, \frac{1}{m+n} \leq \frac{1}{(m+n)^{\alpha}}$$
+Donc, 
+$$ \forall \alpha \leq 1, \sum \frac{1}{(m+n)^{\alpha}} = + \infty $$
