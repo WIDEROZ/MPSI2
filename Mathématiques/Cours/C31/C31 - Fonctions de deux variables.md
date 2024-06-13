@@ -577,6 +577,9 @@ Démonstration : exercice
 Par associativité mixte :
 $$t(\lambda H) = (t\lambda) H =(\lambda t)H$$
 
+$$\lim_{ \underset{\neq}{t \to 0} } \frac{f(X_{0}+(t\lambda) H)-f(X_{0})}{t}$$
+
+
 #### Lien avec les dérivées partielles
 En notant $E_{1} = \begin{pmatrix}1 \\ 0\end{pmatrix}$ et $E_{2} = \begin{pmatrix}0 \\ 1\end{pmatrix}$
 les vecteurs de la base canonique de $\mathbb{R}^{2}$, 
