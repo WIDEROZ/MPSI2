@@ -468,8 +468,18 @@ Cette définition est équivalente à celle du cours, pour $E$ avec $\left|\left
 
 #### Propriété
 La somme est linéaire, positive, croissante et vérifie toujours l'inégalité triangulaire ie :
-$$\forall u \in l^{1}(\mathbb{C}), (\forall u \in I, u_{i} \in \mathbb{R}_{+})\Rightarrow \sum_{i \in I}u_{i} \geq 0$$
-$$\forall u, v \in \mathcal{C}^{1}(\mathbb{C}), \begin{array}{r}
+$$\forall u \in l^{1}(I), (\forall u \in I, u_{i} \in \mathbb{R}_{+})\Rightarrow \sum_{i \in I}u_{i} \geq 0$$
+$$\forall u, v \in \mathcal{C}^{1}(I), \left.\begin{array}{r}
 u, v \text{ à valeur dans }\mathbb{R}\\
 \forall i \in I, u_{i} \leq v_{i}
-\end{array}$$
+\end{array}\right\} \Rightarrow \sum_{i \in I} u_{i} \leq \sum_{i \in I} v_{i}$$
+$$\forall u \in l^{1}(I), \left| \sum_{i \in I} u_{i}\right| \leq \sum_{i \in I}\left| u_{i}\right|$$
+
+Démonstration du $3$ : 
+Soit $u \in l^{1}(I)$
+Soit $\varepsilon >0$, 
+Soit $F \in \mathcal{F}(I)$ tel que :
+$$\left|\sum_{i \in F} u_{i} - \sum_{i \in I} u_{i}\right| \leq \varepsilon$$
+Par la seconde inégalité triangulaire : 
+$$\left| \left| \sum_{i \in F}u_{i} \right|- \left| \sum_{i \in I}u_{i}\right| \right| \leq \left| \sum_{i \in F}u_{i} - \sum_{i \in I} u_{i}\right| \leq \varepsilon$$
+$$\left| \sum_{i \in <i}u_{i}\right| \leq \left| \sum_{i \in I} u_{i}\right| + \varepsilon \leq $$
