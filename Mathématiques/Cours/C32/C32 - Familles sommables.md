@@ -399,4 +399,18 @@ Démonstration : en exo
 Soit $u \in (R_{+})^{I}$ sommable
 Alors, 
 $$\mathrm{supp}(u) = \{ i \in I | u_{i} > 0 \}$$
-est dénombrable. 
+est dénombrable ou fini. 
+
+Démonstration : 
+Pour $n \in \mathbb{N}^{*}$, on note : $F_{n} = \left\{  i \in I | u_{i} \geq \frac{1}{n}   \right\}$
+On a :
+$$\left| F_{n}\right| \times \frac{1}{n} = \sum_{i \in F_{n}} \frac{1}{n} \leq \sum_{i \in F_{n}} u_{i} \leq \sum_{i \in I} u_{i} < + \infty$$
+car $F_{n} \subset I$
+Or, $\frac{1}{n} \neq 0$ donc, $\left| F_{n}\right| < + \infty$
+Ainsi, 
+$$supp(u) = \bigcup_{n \in \mathbb{N}^{*}}F_{n} $$
+est une réunion dénombrable d'ensemble finis, donc est dénombrable. 
+
+#### Rappel 
+Une réunion dénombrable d'ensemble finis est au plus dénombrable (ie dénombrable ou finie)
+
