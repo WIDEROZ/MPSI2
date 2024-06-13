@@ -73,7 +73,17 @@ On est dans l'ARQS et $\vec{B}$ est uniforme alors
 $$m \frac{dv}{dt} =I \left( \int_{P}^{Q} d\vec{l} \wedge \vec{B}  \right).\vec{e}_{x} = \left( I\left( \int_{P}^{Q} dy \, \vec{e}_{y}\right) \wedge \vec{B}  \right).\vec{e}_{x} = IaB$$
 Alors, 
 $$\frac{dv}{dt} = \frac{IaB}{m} = \text{cte}$$
-Donc, 
+Donc, on intègre
 $$v(t) - v(0) = \frac{IaB}{m} t$$
 Ainsi, 
-$$\vec{v}(t) = \left( \frac{IaB}{m} \right)$$
+$$\boxed{\vec{v}(t) = \left( \frac{IaB}{m}t + v(0) \right)\vec{e}_{x}}$$
+
+## 2. Spire carré
+$$\boxed{\text{EXCAL 5}}$$
+La spire peut uniquement tourner sans frottement autour de l'axe $O_{z}$.
+$J_{z}$ est le moment d'inertie 
+On plonge la spire dans un champ magnétique : $\vec{B} = B \, \vec{e}_{x}$ uniformément contant. 
+
+#### Montrer que la résultante des forces de Laplace sur la spire s'écrit comme la somme de $4$ intégrales
+La longueur de la spire est : $MN + NP + PQ + QM$
+$$\vec{F}_{spire} = \vec{F}_{MN} + \vec{F}_{NP} + \vec{F}_{PQ} + \vec{F}_{QM} = \int_{} \, dx $$
