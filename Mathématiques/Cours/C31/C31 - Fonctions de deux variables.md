@@ -670,7 +670,7 @@ et pour $t \in I$,
 Comme $f \circ \gamma$ est constante : 
 $$0=(f \circ \gamma)'(t) = \frac{\partial f}{\partial x}(x(t), y(t)) \times x'(t) + \frac{\partial f}{\partial y}(x(t), y(t)) \times y'(t)$$
 Alors,
-$$(f \circ \gamma)'(t) = \left< \nabla f(\gamma(t)), \gamma'(t) \right> = \left< \nabla f(\gamma(t)), (x'(t), y'(t))\right>$$
+$$(f \circ \gamma)'(t) = \left< \nabla f(\gamma(t)), \gamma'(t) \right> = \left< \nabla f(\gamma(t)), (x'(t), y'(t))\right>=0$$
 
 #### Exemple
 $$N(x, y) = \sin(xy-2x+y^{3}) = g \circ f$$
@@ -679,7 +679,7 @@ Alors,
 $$(g \circ f)'(x, y) = (g'(f(x, y)))\frac{\partial f}{\partial x}(x, y) + (g'(f(x, y)))\frac{\partial f}{\partial y}(x, y)$$
 Alors, 
 $$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(y-2) $$
-$$\frac{\partial N}{\partial x}(x, y) = \cos(xy-2x+y^{3})(x+3y^{2}) $$
+$$\frac{\partial N}{\partial y}(x, y) = \cos(xy-2x+y^{3})(x+3y^{2}) $$
 
 #### Théorème
 Les projections sont de classe $\mathcal{C}^{1}$

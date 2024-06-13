@@ -337,6 +337,12 @@ est une forme linéaire sur $l^{1}(I)$
 
 #### Propriété
 $$\forall u \in l^{1}(I), \forall \varepsilon>0, \exists F \in \mathcal{F}(I), \left| \sum_{i \in F} u_{i}- \sum_{i \in I} u_{i}\right|\leq \varepsilon$$
+On reformule cela en mieux $\downarrow$ (mais faut quand même le savoir)
 
 #### Théorème préconisé par Mouton
-$$\forall u \in l^{1}(I), \exists F \in \mathcal{F}(I), \forall G \in \mathcal{F}(I), G supsey$$
+$$\begin{array}{c}\forall u \in l^{1}(I), \forall \varepsilon > 0\exists F \in \mathcal{F}(I), \forall G \in \mathcal{F}(I), \\  G \supset F \Rightarrow \left| \underset{i \in G}{\sum} u_{i} - \underset {i \in I}{\sum} u_{i}\right| \leq \varepsilon \end{array}$$
+
+#### Théorème : Sommation par paquets
+Si $I = \bigsqcup_{j \in J} I_{j}$ et $u \in l^{1}(I)$
+alors, pour tout $j \in J$, 
+$$(u_{i})_{i \in I} \in l^{1}(J)$$
