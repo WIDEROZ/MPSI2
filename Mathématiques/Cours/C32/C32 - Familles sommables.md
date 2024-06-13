@@ -449,8 +449,27 @@ $$S = \sum_{k = 1}^{+ \infty} \sum_{n = 1}^{k} \frac{1}{k^{\alpha}} = \sum_{n = 
 
 
 ___
-Deuxième méthode : 
+$2^{eme}$ méthode : 
 $$\sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}}\underset{n \to + \infty}{\sim} \frac{1}{(\alpha-1)n^{\alpha-1}}$$
 
 D'après  le théorème de comparaisons des SATP équivalents, 
 $$S_{\alpha} < + \infty \Leftrightarrow \alpha-1 > 1 \Leftrightarrow \alpha > 2$$
+
+#### Remarque
+La définition générale de famille sommable pour les familles à valeurs dans un espace vectoriel normé $E$ est :
+<p align="center">u est sommable ssi </p>
+$$
+\exists S \in E, \forall \varepsilon > 0, \exists F_{\varepsilon} \in \mathcal{F}(I), \forall F \in \mathcal{F}(I),
+$$
+$$F_{\varepsilon}\subset F \Rightarrow \left|\left| \sum_{i \in F}u_{i} - S \right|\right| \leq \varepsilon$$
+et alors on pose : 
+$$\sum_{i \in I}u_{i} = S$$
+Cette définition est équivalente à celle du cours, pour $E$ avec $\left|\left| \cdot \right|\right| = \left| \cdot\right|$ (admis azi apparement ct chaud à démontrer)
+
+#### Propriété
+La somme est linéaire, positive, croissante et vérifie toujours l'inégalité triangulaire ie :
+$$\forall u \in l^{1}(\mathbb{C}), (\forall u \in I, u_{i} \in \mathbb{R}_{+})\Rightarrow \sum_{i \in I}u_{i} \geq 0$$
+$$\forall u, v \in \mathcal{C}^{1}(\mathbb{C}), \begin{array}{r}
+u, v \text{ à valeur dans }\mathbb{R}\\
+\forall i \in I, u_{i} \leq v_{i}
+\end{array}$$
