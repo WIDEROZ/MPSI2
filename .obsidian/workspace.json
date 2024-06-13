@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "409509983a6e0fd0",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf"
+              }
+            }
+          },
+          {
             "id": "4d522e2c43d79bf1",
             "type": "leaf",
             "state": {
@@ -107,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32.md",
+                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32.md",
+                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32.md"
+                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf"
               }
             }
           }
@@ -159,10 +169,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4d522e2c43d79bf1",
+  "active": "409509983a6e0fd0",
   "lastOpenFiles": [
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
@@ -186,7 +197,6 @@
     "Untitled 301.md",
     "Untitled 300.md",
     "Untitled 299.md",
-    "Untitled 298.md",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
@@ -196,7 +206,6 @@
     "Info/TP/TP15/graphes_partie_1.c",
     "Info/TP/TP15/structures.c",
     "Info/TP/TP15",
-    "Physique-Chimie/TD/TD22",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",

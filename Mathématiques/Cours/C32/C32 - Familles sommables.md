@@ -425,11 +425,12 @@ Calculer :
 $$\sum_{(p, q) \in \mathbb{N} \times \mathbb{N}^{*}} \frac{1}{(p+q^{2})(p+q^{2} + 1)}  $$
 On note : 
 $$I_{j} = \{ (p, q) \in \mathbb{N} \times \mathbb{N}^{*} | j = p+q^{2} \}$$
-Alors, 
 
+$$\sum_{(p, q) \in \mathbb{N} \times \mathbb{N}^{*}} \frac{1}{(p+q^{2})(p+q^{2} + 1)}$$
+Télescopique.
 
-$$\sum_{k = 0}$$
 
 #### Exercice
 Calculer : 
 $$\sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!}$$
+$$\sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!} = $$
