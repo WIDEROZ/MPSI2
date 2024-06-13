@@ -163,4 +163,23 @@ $$\begin{cases}
 \vec{\Gamma} = \vec{m}\wedge \vec{B}
 \end{cases}$$
 
-#### Déterminer les positions d'équilibres et identifier lesquelles stables 
+#### Déterminer les positions d'équilibres et identifier lesquelles sont stables et lesquelles sont instables
+On fait un TMC sur la boussole par rapport à $O_{z}$
+$$\frac{d{\sigma_{O_{z}}}}{dt} = \vec{\Gamma}.\vec{e}_{z} + \overrightarrow{\mathcal{M}}_{\vec{P}} .\vec{e}_{z} + \overrightarrow{\mathcal{M}}_{\vec{R}}.{\vec{e}_{z}} = 0$$
+Car $\vec{P}$ et $\vec{R}$ ne sont pas portés par $\vec{e}_{z}$
+Alors, 
+$$\frac{d\sigma_{O_{z}}}{dt} = \vec{\Gamma}.\vec{e}_{z} = 0$$
+Donc on cherche les valeurs $\theta$ telles que : 
+$$(\vec{m} \wedge \vec{B}).\vec{e}_{z} = 0$$
+Alors,
+$$\vec{m} = m(\cos (\theta) \vec{e}_{x} + \sin(\theta) \vec{e}_{z})$$
+$$\begin{cases}
+\vec{m} = m_{x}\vec{e}_{x} + m_{y}\vec{e}_{y} \\
+m_{x} = \vec{m}.\vec{e}_{x} = m\cos(\theta) \\
+m_{y} = \vec{m}.\vec{e}_{y} = m \sin(\theta)
+\end{cases}$$
+
+Donc, 
+$$(\vec{m} \wedge \vec{B}) = mB(\cos(\theta)\vec{e}_{x} + \sin(\theta)\vec{e}_{y})\wedge\vec{e}_{x} = -mB\sin(\theta)\vec{e}_{z}$$
+Ainsi, 
+$$-mB\sin(\theta) = 0\Leftrightarrow \sin(\theta) = 0 \Leftrightarrow \theta = 0 \text{ ou } \theta = \pi$$
