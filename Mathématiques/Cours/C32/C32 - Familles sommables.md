@@ -264,3 +264,11 @@ Or pour $\alpha \leq 1$ :
 $$ \forall (m, n)  \in (\mathbb{N}^{*})^{2}, \frac{1}{m+n} \leq \frac{1}{(m+n)^{\alpha}}$$
 Donc, 
 $$ \forall \alpha \leq 1, \sum \frac{1}{(m+n)^{\alpha}} = + \infty $$
+
+## 4. Familles sommables de complexes
+#### Définition
+$u \in \mathbb{C}^{I}$ est sommable ssu $\left| u\right|$ est sommable ie : 
+$$\sum_{i \in I} \left| u_{i}\right| < + \infty$$
+
+#### Notation
+$$$$
