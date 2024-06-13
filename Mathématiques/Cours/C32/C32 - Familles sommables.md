@@ -322,4 +322,21 @@ v \text{ est sommable} \\
 \end{cases}$$
 Alors, $u \in l^{1}(I)$
 
-Démonstration 
+Démonstration immédiate
+
+#### Propriété
+$$\forall u, v \in l^{1}(I), \forall \lambda, \mu \in \mathbb{C}, \lambda u + \mu v \in l^{1}(I) $$
+$$\forall u, v \in l^{1}(I), \forall \lambda, \mu \in \mathbb{C},\sum(\lambda u + \mu v) = \lambda \sum + \mu \sum v$$
+ie 
+$$l^{1}(I) \underset{sev}{\subset} \mathbb{C}^{I}$$
+$$\sum : \begin{cases}
+l^{1}(I) \to \mathbb{C} \\
+u \mapsto \sum u
+\end{cases} \in $$
+est une forme linéaire sur $l^{1}(I)$
+
+#### Propriété
+$$\forall u \in l^{1}(I), \forall \varepsilon>0, \exists F \in \mathcal{F}(I), \left| \sum_{i \in F} u_{i}- \sum_{i \in I} u_{i}\right|\leq \varepsilon$$
+
+#### Théorème préconisé par Mouton
+$$\forall u \in l^{1}(I), \exists F \in \mathcal{F}(I), \forall G \in \mathcal{F}(I), G supsey$$
