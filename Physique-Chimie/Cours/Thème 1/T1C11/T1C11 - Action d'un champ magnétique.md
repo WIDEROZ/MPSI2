@@ -95,5 +95,31 @@ $$\vec{F}_{PQ} = IB \int_{P}^{Q}d\vec{l}  \wedge \vec{e}_{x}$$
 $$\vec{F}_{QM} = -IB \int_{Q}^{M}dz$$
 
 #### Monter que les intégrales s'annulent 2 à 2
-$$\vec{F}_{NP} + \vec{F}_{QM} = 0$$
-avec les calculs faits avant
+$$\vec{F}_{NP} + \vec{F}_{QM} = \overrightarrow{0}$$
+avec les calculs faits avant 
+$$\vec{F}_{MN} + \vec{F}_{QM} = I\left( \int _{M}^{N} d\vec{l}   \right) \wedge \vec{B} + I \left( \int _{P}^{Q} d\vec{l}   \right) \wedge \vec{B}$$
+$$= I \left( \int _{M}^{N} d\vec{l}  \right) \wedge \vec{B} - I \left( \int _{M}^{N} d\vec{l}  \right) \wedge \vec{B} = \overrightarrow{0}$$
+Donc,
+$$\vec{F} = \overrightarrow{0}$$
+La résultante des forces de Laplace est nulle : La spire subit un couple
+
+#### Exprimer le moment $\vec{\Gamma}$ de Laplace sur la spire
+$$\vec{\Gamma} = \vec{M} \wedge \vec{B} = IB\vec{S} \wedge \vec{e}_{x}$$
+Avec
+- $\vec{M} = I\vec{S}$
+- $\vec{B} = B \vec{e}_{x}$
+
+$\vec{S}$ étant orthogonal à la spire, de norme $a^{2}$ et de direction donnée par l'orientation du courant
+Soit $\theta$ l'angle entre $\vec{e}_{x}$ et $\vec{S}$ exprimons $\vec{S}$ sur la base $O_{xy}$ : 
+$$\vec{S} = a^{2}(-\cos (\theta)\vec{e}_{x} + \sin (\theta) \vec{e}_{y})$$
+Donc, 
+$$\vec{M} = Ia^{2}(-\cos \theta \vec{e}_{x} + \sin(\theta)\vec{e}_{y})$$
+Donc, 
+$$\boxed{\vec{\Gamma} = - Ia^{2}B\sin(\theta)\vec{e}_{z}}$$
+
+#### Déterminer la vitesse de rotation de la spire
+On applique le théorème du moment cinétique à la spire : 
+$$\frac{d\sigma_{O_{z}}}{dt} = \mathcal{M}_{O_{z}}$$
+Or :
+- $\sigma_{Oz} = J_{z}\omega$
+- $\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z}$
