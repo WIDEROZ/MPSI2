@@ -41,7 +41,28 @@ C'est le moment de Laplace.
 Ainsi, la position d'équilibre du moment magnétique $\vec{M}$ correspond à l'orientation alignée avec $\vec{B}$. 
 
 ## 2. Puissance du couple de Laplace
-$$\mathcal{P} = \vec{\Gamma} . \vec{\omega} = \vec{M} \wedge $$
+$$\boxed{\mathcal{P} = \vec{\Gamma} . \vec{\omega} = (\vec{M} \wedge \vec{B}) . \vec{\omega}}$$
 Avec 
 - $\vec{\Gamma}$ : Le moment de Laplace
-- $\omega$ 
+- $\vec{\omega}$ : Vecteur vitesse de rotation de l'aimant ou de la spire
+- $\vec{M}$ : Moment dipolaire
+- $\vec{B}$ : Champ extérieur
+
+# III. Applications
+## 1. Rail de Laplace
+$$\boxed{\text{EXCAL 4}}$$
+Cicuit horizontal fermé par une tige conductrice $PQ$ qui peut glisser sans frottement sur les rails le long de $O_{x}$ :
+$a$ : la longueur $PQ$
+$m$ : la masse de la tige
+La tige est parcourue par une intensité $I$ et tout le circuit est plongé dans un champ $\vec{B} = B \, \vec{e}_{z}$ uniforme et constant. 
+
+#### Déterminer la vitesse $\vec{v}(t)$ de la tige
+- Système : Tige
+- Référentiel terrestre supposé galiléen 
+- Bilan des forces : 
+  + $\vec{P} = m\vec{g} = - mg\vec{e}_{z}$
+  + $\vec{R} = -\vec{P}$
+  + $\vec{F}_{Laplace} =  \int_{p}^{Q}I\, d\vec{l} \wedge \vec{B}$
+
+
+$$0 = q \vec{B} \wedge \vec{v}. \vec{e}_{z}$$
