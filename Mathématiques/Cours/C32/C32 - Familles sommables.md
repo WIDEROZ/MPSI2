@@ -345,4 +345,28 @@ $$\begin{array}{c}\forall u \in l^{1}(I), \forall \varepsilon > 0\exists F \in \
 #### Théorème : Sommation par paquets
 Si $I = \bigsqcup_{j \in J} I_{j}$ et $u \in l^{1}(I)$
 alors, pour tout $j \in J$, 
-$$(u_{i})_{i \in I} \in l^{1}(J)$$
+$$(u_{i})_{i \in I_{j}} \in l^{1}(I_{j}) \text{ et } \left( \sum_{i \in I_{j}} u_{i} \right)_{j \in J} \in l^{1}(J)$$
+et 
+$$\sum_{i \in I} u_{i} = \sum_{j \in J}\sum_{i \in I_{j}} u_{i}$$
+
+#### Théorème de Fubini
+Si $I = J \times K$ et $u \in l^{1}(I)$
+Alors, 
+$$\begin{cases}
+\forall j \in J, (u_{j, k})_{k \in K} \in l^{1}(K) \\
+\forall k \in K, (u_{j, k})_{j \in J} \in l^{1}(J) \\
+\left( \underset{k \in K}{\sum} u_{j, k} \right)_{j \in J} \in l^{1}(J) \\
+\left( \underset{j \in J}{\sum} u_{j, k} \right)_{k \in K} \in l^{1}(K) \\
+\boxed{\sum_{(j, k) \in I} u_{j, k} = \sum_{j \in J}\sum_{k \in K} u_{j, k} = \sum_{k \in K}\sum_{j \in J} u_{j, k} }
+\end{cases}$$
+
+#### Cas particulier de Fubini
+Si 
+$$\begin{cases}
+ (a_{j})_{j \in J} \in l^{1}(J) \\
+(b_{k})_{k \in K} \in l^{1}(K)
+\end{cases}$$
+Alors, 
+$$(a_{j}b_{k})_{(j, k) \in I} \in l^{1}(J \times K)$$
+et 
+$$$$
