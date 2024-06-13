@@ -433,4 +433,4 @@ Télescopique.
 #### Exercice
 Calculer : 
 $$\sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!}$$
-$$\sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!} = $$
+$$\sum_{k = 0}^{+\infty} \sum_{n = 0}^{k} \frac{1}{k!} = \sum_{k = 0}^{+\infty} \frac{1}{k!} \sum_{n =0}^{k}1 = 1+\sum_{k = 1}^{ + \infty} \frac{1}{(k-1)!} = 1+e$$

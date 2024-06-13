@@ -39,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf"
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
               }
             }
           }
@@ -169,11 +168,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "409509983a6e0fd0",
+  "active": "e25fa3f2d5940ebf",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C32/C32.md",
-    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
