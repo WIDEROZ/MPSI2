@@ -577,9 +577,6 @@ Démonstration : exercice
 Par associativité mixte :
 $$t(\lambda H) = (t\lambda) H =(\lambda t)H$$
 
-$$\lim_{ \underset{\neq}{t \to 0} } \frac{f(X_{0}+(t\lambda) H)-f(X_{0})}{t}$$
-
-
 #### Lien avec les dérivées partielles
 En notant $E_{1} = \begin{pmatrix}1 \\ 0\end{pmatrix}$ et $E_{2} = \begin{pmatrix}0 \\ 1\end{pmatrix}$
 les vecteurs de la base canonique de $\mathbb{R}^{2}$, 
@@ -590,7 +587,11 @@ $$
 \end{cases}
 $$
 
-Démonstration en exercice
+Démonstration : 
+$$\partial_{E_{1}}f(X_{0}) = \lim_{ \underset{\neq}{t \to 0} } \frac{f(X_{0}+tE_{1})-f(X_{0})}{t}$$
+Alors, 
+$$\partial_{E_{1}}f(X_{0}) = \lim_{ \underset{\neq}{t \to 0} } \frac{f(x_{0}+t, y_{0})-f(x_{0}, y_{0})}{t} = \partial_{E_{1}}f(X_{0}) $$
+
 
 #### Théorème
 Pour $f \in \mathbb{C}^{1}_{\mathbb{R}}(U)$ et $X_{0} \in \mathbb{R}^{2}$ et $H = \begin{pmatrix}h \\ k\end{pmatrix} \in \mathbb{R}^{2}$
