@@ -435,3 +435,9 @@ Calculer :
 $$S = \sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!}$$
 On a alors :
 $$S = \sum_{k = 0}^{+\infty} \sum_{n = 0}^{k} \frac{1}{k!} = \sum_{k = 0}^{+\infty} \frac{1}{k!} \sum_{n =0}^{k}1 = \sum_{k = 0}^{+\infty} \frac{k+1}{k!}= \sum_{k = 0}^{+ \infty} \frac{k}{k!} + \sum_{k = 0}^{+ \infty} \frac{1}{k!}  $$
+$$S = 2\sum_{k = 0}^{+ \infty} \frac{1}{k!}=2e$$
+
+#### Exercice
+$$S = \sum_{n=0}^{+\infty} \sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}}$$
+
+$$S = \sum_{k = 1}^{+ \infty} \frac{1}{\alpha} + \sum_{n =1}^{ + \infty} \sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}} = \sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty} \frac{1}{k^{\alpha}}- \frac{1}{n^{\alpha}}$$
