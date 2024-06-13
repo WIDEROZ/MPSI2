@@ -31,6 +31,7 @@ On considère un rail rectiligne sur lequel peut glisser un fil conducteur EXCAL
 $$P = \vec{F}.\vec{v} = IBhv$$
 
 # II. Action du champ magnétique sur un aimant
+## 1. Moment de Laplace
 #### Propriété
 Soit un moment dipolaire $\vec{M}$ plongé dans un champ magnétique uniforme $\vec{B}$. 
 
@@ -38,3 +39,9 @@ Le champ $\vec{B}$ exerce un couple sur $\vec{M}$ du moment
 $$\boxed{\vec{\Gamma} = \vec{M} \wedge \vec{B}}$$
 C'est le moment de Laplace. 
 Ainsi, la position d'équilibre du moment magnétique $\vec{M}$ correspond à l'orientation alignée avec $\vec{B}$. 
+
+## 2. Puissance du couple de Laplace
+$$\mathcal{P} = \vec{\Gamma} . \vec{\omega} = \vec{M} \wedge $$
+Avec 
+- $\vec{\Gamma}$ : Le moment de Laplace
+- $\omega$ 

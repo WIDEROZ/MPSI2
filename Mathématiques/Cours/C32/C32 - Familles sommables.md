@@ -279,10 +279,10 @@ Ainsi,
 $$S_{\alpha} < + \infty$$
 
 ___
-Pour $\alpha \in ]1, 2]$, 
+Pour $\alpha \in ]1, 2]$, (cas qui règle toudincoup)
 $$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}}$$
-
-
+On pose : $I_{j} = \{ (m, n) \in (\mathbb{N}^{*})^{2} mof*\}$
+PHOTO
 
 ## 4. Familles sommables de complexes
 #### Définition
