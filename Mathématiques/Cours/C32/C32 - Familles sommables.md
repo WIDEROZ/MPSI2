@@ -281,7 +281,28 @@ $$l^{1}(\mathbb{N}) = \left\{  a \in \mathbb{C}^{\mathbb{N}} \left| \sum_{n \in 
 $$l^{2}(I) = \left\{  u \in \mathbb{C}^{I} \left| \sum_{i \in I}\left| u_{i}\right|^{2} < + \infty  \right.  \right\}$$
 
 #### Proposition
-Toute sous famille d'une famille sommable est sommable 
+Toute sous famille d'une famille sommable est sommable. 
+Soir $(u_{i})_{i \in I} \in l^{1}(I)$ et $J \subset I$, 
+Alors $(u_{i})_{i \in J} \in l^{1}(J)$
 
+Démonstration : 
+On a vu précédemment  que :
+$$\sum_{i \in I} \left| u_{i}\right| \leq \sum_{j \in J} \left| u_{j}\right|$$
 
-#### Définiton 
+#### Définition / Propriété
+Soit $u \in l^{1}(I)$, 
+Alors, 
+$$(\mathrm{Re}(u))_{+} = ((\mathrm{Re}(u))_{+})_{ i\in I}, (\mathrm{Re}(u))_{-}, (\mathrm{Im}(u))_{+}, (\mathrm{Im}(u))_{-}$$
+sont des familles sommables de nombres positifs
+On définit alors la somme de $u$ comme : 
+$$\sum_{i \in I} u_{i} = \left( \sum_{i \in I}(\mathrm{Re}(u_{i}))_{+}- \sum_{i \in I} (\mathrm{Re}(u_{i}))_{-} \right)$$
+$$+i\left( \sum_{i \in I}(\mathrm{Im}(u_{i}))_{+}- \sum_{i \in I} (\mathrm{Im}(u_{i}))_{-} \right)$$
+
+Démonstration : 
+Pour $i \in I$, 
+$$0 \leq (\mathrm{Re}(u_{i}))_{+} \leq \left| \mathrm{Re}(u_{i})\right| \leq \left| u_{i}\right|$$
+Donc, 
+$$\sum_{i \in I} \mathrm{Re}(u_{i})_{+} \leq \sum_{i \in I} \left| u_{i}\right|< + \infty$$
+car $u \in l^{1}(\mathbb{C})$
+Donc, 
+$$(\mathrm{Re}(u_{i})_{+})_{i \in I}$$
