@@ -600,9 +600,9 @@ $$\partial_{H}f(X_{0}) = \frac{\partial f}{\partial x} (X_{0})h + \frac{\partial
 
 Démonstration : 
 Soit $t \neq 0$ petit, 
-$$\frac{f(X_{0}+tH)-f(X)}{t} \underset{t \to0}{=} \frac{\left< \nabla f(X_{0}), tH \right> + o(\left|\left| H \right|\right| )}{t} $$
-$$=\left< \nabla f(X_{0}), H \right> +o(1) \underset{n \to +\infty}{\longrightarrow} \left< \nabla f(X_{0}), H \right> $$
-Ainsi, pour $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $X_{0} \in U$, 
+$$\frac{f(X_{0}+tH)-f(X_{0})}{t} \underset{t \to0}{=} \frac{\left< \nabla f(X_{0}), tH \right> + o(\left|\left| H \right|\right| )}{t} $$
+$$=\left< \nabla f(X_{0}), H \right> +o(1) \underset{t \to +\infty}{\longrightarrow} \left< \nabla f(X_{0}), H \right> $$
+Ainsi, poura $f \in \mathcal{C}_{\mathbb{R}}^{1}(U)$ et $X_{0} \in U$, 
 Lorsque : 
 $$\nabla f(x_{0}, y_{0}) \neq 0$$
 parmi les vecteurs unitaires, $\frac{\nabla f(X_{0})}{\left|\left| \nabla f(X_{0}) \right|\right| }$ est celui pour lequel $\partial_{H}f(X_{0})$ est maximal. 
