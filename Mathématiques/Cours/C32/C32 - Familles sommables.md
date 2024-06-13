@@ -482,4 +482,40 @@ Soit $F \in \mathcal{F}(I)$ tel que :
 $$\left|\sum_{i \in F} u_{i} - \sum_{i \in I} u_{i}\right| \leq \varepsilon$$
 Par la seconde inégalité triangulaire : 
 $$\left| \left| \sum_{i \in F}u_{i} \right|- \left| \sum_{i \in I}u_{i}\right| \right| \leq \left| \sum_{i \in F}u_{i} - \sum_{i \in I} u_{i}\right| \leq \varepsilon$$
-$$\left| \sum_{i \in <i}u_{i}\right| \leq \left| \sum_{i \in I} u_{i}\right| + \varepsilon \leq $$
+$$\left| \sum_{i \in <i}u_{i}\right| \leq \left| \sum_{i \in F} u_{i}\right| + \varepsilon \leq \sum_{i \in F} \left| u_{i} + \varepsilon\right| \leq \sum_{i \in I} \left| u_{i}\right| + \varepsilon$$
+Par l'inégalité triangulaire pour les sommes finies
+
+Ainsi, 
+$$\forall \varepsilon > 0, \left|\sum_{i \in I} u_{i} \right| \leq \sum_{i \in I} \left| u_{i}\right| + \varepsilon$$
+ie
+$$\left| \sum_{i \in I} u_{i}\right| - \sum_{i \in I}\left| u_{i}\right|$$
+minore $\mathbb{R}_{+}^{*}$
+or 
+$$\inf(\mathbb{R}_{+}^{*}) = 0$$
+Donc, 
+$$\left| \sum_{i \in I} u_{i}\right| - \sum_{i \in I}\left| u_{i}\right| \leq 0$$
+Ainsi, 
+$$\boxed{\left| \sum_{i \in I} u_{i}\right| \leq \sum_{i \in I}\left| u_{i}\right|}$$
+
+#### Exercices
+Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP CV
+On pose pour $n \in \mathbb{N}$,
+$$c_{n} = \sum_{k = 0}^{n}a_{n-k}b_{k}$$
+Montrer que $\sum a_{n}$ CV et exprimer sa somme en fonction de celles de $\sum a_{n}$ et $\sum b_{n}$
+
+
+#### Exercice
+Montrer que pour tout $x \in [0, 1[$, 
+$$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+ \infty} d(n) x^{n}$$
+où $d(n)$ est le nombre de diviseurs positifs de $n$
+
+#### Exercice
+Soit $\sigma \in S(\mathbb{N})$, 
+Montrer que : 
+$$\sum \frac{\sigma(n)}{n^{2}} \text{ DV}$$
+
+#### Exercice
+Montrer que 
+$$\sum_{n =1}^{+ \infty} \frac{1}{n^{2}-p^{2}} = \frac{3}{4p^{2}}$$
+Que peut on dire sur la sommabilité de la famille 
+$$\left( \frac{1}{n^{2}-p^{2}} \right)_{\underset{\text{ tq } n \neq p}{(n, p) \in (\mathbb{N}^{*})^{2}}}$$

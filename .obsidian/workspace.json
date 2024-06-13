@@ -8,30 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e25fa3f2d5940ebf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6a178ddcaa3e3462",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f9a7b31c7c630034",
             "type": "leaf",
             "state": {
@@ -1004,7 +980,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Untitled 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -1021,7 +997,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Untitled 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -1033,7 +1009,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
+                "file": "Untitled 1.md"
               }
             }
           }
@@ -1056,8 +1032,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "e25fa3f2d5940ebf",
+  "active": "f9a7b31c7c630034",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Untitled 49.md",
@@ -1083,8 +1061,6 @@
     "Untitled 47.md",
     "Untitled 46.md",
     "Untitled 45.md",
-    "Untitled 44.md",
-    "Untitled 43.md",
     "Pasted image 20240613152753.png",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
