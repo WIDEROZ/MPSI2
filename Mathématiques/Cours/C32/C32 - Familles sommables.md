@@ -281,7 +281,7 @@ $$S_{\alpha} < + \infty$$
 ___
 Pour $\alpha \in ]1, 2]$, (cas qui règle toudincoup)
 $$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}}$$
-On pose : $I_{j} = \{ (m, n) \in (\mathbb{N}^{*})^{2} mof*\}$
+On pose : $I_{j} = \{ (m, n) \in (\mathbb{N}^{*})^{2} \left| j = m+n \right.\}$
 PHOTO
 
 ## 4. Familles sommables de complexes
@@ -422,8 +422,13 @@ Démonstration : en exo
 
 #### Exercice
 Calculer : 
-$$\sum_{(p, q) \in \mathbb{N} \times \mathbb{N}^{*}} \frac{1}{(p+q^{2})(p+q^{2} + 1)}$$
+$$\sum_{(p, q) \in \mathbb{N} \times \mathbb{N}^{*}} \frac{1}{(p+q^{2})(p+q^{2} + 1)}  $$
+On note : 
+$$I_{j} = \{ (p, q) \in \mathbb{N} \times \mathbb{N}^{*} | j = p+q^{2} \}$$
+Alors, 
 
+
+$$\sum_{k = 0}$$
 
 #### Exercice
 Calculer : 
