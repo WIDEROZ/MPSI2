@@ -122,4 +122,29 @@ On applique le théorème du moment cinétique à la spire :
 $$\frac{d\sigma_{O_{z}}}{dt} = \mathcal{M}_{O_{z}}$$
 Or :
 - $\sigma_{Oz} = J_{z}\omega$
-- $\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z}$
+- $\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z} = -Ia^{2}\sin(\theta)$ 
+
+$\theta$ dépend du temps $\omega = \frac{d\theta}{dt}$
+$$J_{z} \frac{d\omega}{dt} = - Ia^{2}B\sin(\theta) = J_{z} \frac{d^{2}\theta}{dt^{2}}$$
+Ainsi
+$$\boxed{\frac{d^{2}}{dt^{2}} + Ia^{2}B\sin(\theta) = 0}$$
+___
+On fait l'approximation des petits angles : 
+$$\frac{d^{2}}{dt^{2}} + Ia^{2}B\theta = 0$$
+Alors, 
+$$\theta(t) = c_{1}\cos(\omega_{0}t) +c_{1}\sin(\omega_{0}t)$$
+avec $c_{1}, c_{2} \in \mathbb{R}$, 
+Alors, 
+$$\boxed{\omega(t) = -\omega_{0}c_{1}\sin(\omega_{0}t) + \omega_{0}c_{2}\cos(\omega_{0}t)}$$
+En prenant les conditions initiales : 
+$$\begin{rcases}
+\omega(0) = \omega_{1} \\
+\theta(0) = 0
+\end{rcases} \Rightarrow \begin{cases}
+c_{1}= 0 \\
+c_{2}= \frac{\omega_{1}}{\omega_{0}}
+\end{cases}$$
+Ainsi, 
+$$\boxed{\omega(t) = \omega_{1}\cos(\omega_{0}t)}$$
+Avec 
+$$\omega_{0} = \sqrt{ \frac{Ia^{2}B}{} }$$
