@@ -271,4 +271,17 @@ $u \in \mathbb{C}^{I}$ est sommable ssu $\left| u\right|$ est sommable ie :
 $$\sum_{i \in I} \left| u_{i}\right| < + \infty$$
 
 #### Notation
-$$$$
+$$l^{1}(I) = \left\{  u \in \mathbb{C}^{I} \left| \sum_{i \in I} \left|u _{i}\right|  < + \infty\right\} \right.$$
+est l'ensemble des familles indexés par $I$ qui sont sommables. 
+
+#### Remarque
+$$l^{1}(\mathbb{N}) = \left\{  a \in \mathbb{C}^{\mathbb{N}} \left| \sum_{n \in \mathbb{N}} \left| a_{n} \right|\right. < +\infty \right\} =\left\{  a \in \mathbb{C}^{\mathbb{N}} \left| \sum_{n \in \mathbb{N}} \left| a_{n} \right|\right. \text{ CVA} \right\} $$
+
+(le $1$ représente le poids sur lequel on va sommer)
+$$l^{2}(I) = \left\{  u \in \mathbb{C}^{I} \left| \sum_{i \in I}\left| u_{i}\right|^{2} < + \infty  \right.  \right\}$$
+
+#### Proposition
+Toute sous famille d'une famille sommable est sommable 
+
+
+#### Définiton 
