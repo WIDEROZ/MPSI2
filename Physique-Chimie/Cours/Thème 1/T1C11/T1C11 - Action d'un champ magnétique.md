@@ -169,7 +169,7 @@ $$\frac{d{\sigma_{O_{z}}}}{dt} = \vec{\Gamma}.\vec{e}_{z} + \overrightarrow{\mat
 Car $\vec{P}$ et $\vec{R}$ ne sont pas portés par $\vec{e}_{z}$
 Alors, 
 $$\frac{d\sigma_{O_{z}}}{dt} = \vec{\Gamma}.\vec{e}_{z} = 0$$
-Donc on cherche les valeurs $\theta$ telles que : 
+Donc on cherche les valeurs $\theta_{e}$ telles que : 
 $$(\vec{m} \wedge \vec{B}).\vec{e}_{z} = 0$$
 Alors,
 $$\vec{m} = m(\cos (\theta) \vec{e}_{x} + \sin(\theta) \vec{e}_{z})$$
@@ -183,3 +183,18 @@ Donc,
 $$(\vec{m} \wedge \vec{B}) = mB(\cos(\theta)\vec{e}_{x} + \sin(\theta)\vec{e}_{y})\wedge\vec{e}_{x} = -mB\sin(\theta)\vec{e}_{z}$$
 Ainsi, 
 $$-mB\sin(\theta) = 0\Leftrightarrow \sin(\theta) = 0 \Leftrightarrow \theta = 0 \text{ ou } \theta = \pi$$
+
+Etudions $\theta = 0$
+On se déplace d'un petit angle : $\theta \ll 1$
+$$\vec{\Gamma} = \vec{m} \wedge \vec{B} = - mB\theta \vec{e}_{z}$$
+Comme $\vec{\Gamma}$ est sur $-\vec{e}_{z}$, $\vec{m}$ tourne dans le sens horaire de la figure donc $\theta$ diminue et on retrouve $\theta_{e}$. 
+$$\theta_{e_{1}} = 0 \text{ est stable}$$
+
+Etudions $\theta_{e_{2}} = \pi$ : 
+On se déplace d'un petit angle $\alpha\ll 1$
+$$\vec{\Gamma} = \vec{m} \wedge \vec{B} = -mB\sin(\pi-\alpha) \vec{e}_{z} = -mB \sin(\alpha) \vec{e}_{z} = -mB\alpha \vec{e}_{z}$$
+Le mouvement de rotation est dans le sens horaire, $\alpha$ augment, $\vec{m}$ s'éloigne de
+$$\theta_{e_{2}} = \pi \text{ est instable}$$
+
+#### Étudier le mouvement de la bousole autoure de $\theta_{e} = 0$
+On fait un TMC par rapport à $O_{z}$
