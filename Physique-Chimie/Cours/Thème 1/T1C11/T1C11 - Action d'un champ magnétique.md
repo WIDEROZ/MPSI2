@@ -64,5 +64,16 @@ La tige est parcourue par une intensité $I$ et tout le circuit est plongé dans
   + $\vec{R} = -\vec{P}$
   + $\vec{F}_{Laplace} =  \int_{p}^{Q}I\, d\vec{l} \wedge \vec{B}$
 
-
-$$0 = q \vec{B} \wedge \vec{v}. \vec{e}_{z}$$
+On applique le PFD, à la tige : 
+$$m \frac{d\vec{v}}{dt} = \vec{P}+\vec{R}+\vec{F}_{Laplace} = \vec{F}_{Laplace}$$
+On projette sur l'axe $O_{x}$ : 
+On pose : $\vec{v} = v\vec{e}_{x}$ (car le mvt ne se fait que sur $O_{x}$)
+$$m \frac{dv}{dt} = \left( \int_{P}^{Q} Id\vec{l} \wedge\vec{B}   \right). \vec{e}_{x}$$
+On est dans l'ARQS et $\vec{B}$ est uniforme alors
+$$m \frac{dv}{dt} =I \left( \int_{P}^{Q} d\vec{l} \wedge \vec{B}  \right).\vec{e}_{x} = \left( I\left( \int_{P}^{Q} dy \, \vec{e}_{y}\right) \wedge \vec{B}  \right).\vec{e}_{x} = IaB$$
+Alors, 
+$$\frac{dv}{dt} = \frac{IaB}{m} = \text{cte}$$
+Donc, 
+$$v(t) - v(0) = \frac{IaB}{m} t$$
+Ainsi, 
+$$\vec{v}(t) = \left( \frac{IaB}{m} \right)$$
