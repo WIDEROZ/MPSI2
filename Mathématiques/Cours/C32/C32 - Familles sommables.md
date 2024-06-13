@@ -306,3 +306,20 @@ $$\sum_{i \in I} \mathrm{Re}(u_{i})_{+} \leq \sum_{i \in I} \left| u_{i}\right|<
 car $u \in l^{1}(\mathbb{C})$
 Donc, 
 $$(\mathrm{Re}(u_{i})_{+})_{i \in I}$$
+De même pour les trois autres
+
+#### Propriété
+$$\forall u \in \mathbb{C}^{I}, \forall \varphi \in S(I), (u \circ\varphi \in l^{1}(I) \Leftrightarrow u \in l^{1}(I))$$
+$$\forall u \in l^{1}(I), \forall \varphi \in S(I), \sum u \circ \varphi = \sum u$$
+
+($u \circ \varphi = (u_{\varphi(i)})_{i \in I}$)
+
+#### Propriété
+Soit $u \in \mathbb{C}^{I}$ et $v \in (\mathbb{R}_{+})^{I}$ telles que 
+$$\begin{cases}
+v \text{ est sommable} \\
+\forall i \in I, \left| u_{i}\right| \leq v_{i}
+\end{cases}$$
+Alors, $u \in l^{1}(I)$
+
+Démonstration 
