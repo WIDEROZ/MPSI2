@@ -414,3 +414,17 @@ est une réunion dénombrable d'ensemble finis, donc est dénombrable.
 #### Rappel 
 Une réunion dénombrable d'ensemble finis est au plus dénombrable (ie dénombrable ou finie)
 
+#### Application
+#### Théorème
+Une fonction croissante sur un intervalle, n'as qu'un nombre au plus dénombrable de points de discontinuité
+
+Démonstration : en exo
+
+#### Exercice
+Calculer : 
+$$\sum_{(p, q) \in \mathbb{N} \times \mathbb{N}^{*}} \frac{1}{(p+q^{2})(p+q^{2} + 1)}$$
+
+
+#### Exercice
+Calculer : 
+$$\sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!}$$
