@@ -433,11 +433,24 @@ Télescopique.
 #### Exercice
 Calculer : 
 $$S = \sum_{n = 0}^{+\infty} \sum_{k = n}^{+ \infty} \frac{1}{k!}$$
+___
 On a alors :
 $$S = \sum_{k = 0}^{+\infty} \sum_{n = 0}^{k} \frac{1}{k!} = \sum_{k = 0}^{+\infty} \frac{1}{k!} \sum_{n =0}^{k}1 = \sum_{k = 0}^{+\infty} \frac{k+1}{k!}= \sum_{k = 0}^{+ \infty} \frac{k}{k!} + \sum_{k = 0}^{+ \infty} \frac{1}{k!}  $$
 $$S = 2\sum_{k = 0}^{+ \infty} \frac{1}{k!}=2e$$
 
 #### Exercice
 $$S = \sum_{n=0}^{+\infty} \sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}}$$
+___
+$1^{er}$ méthode (la mienne ^^) : 
+$$S = \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}} + \sum_{n =1}^{ + \infty} \sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}} = \sum_{n = 1}^{+ \infty}\left( \sum_{k = n}^{+ \infty} \left( \frac{1}{k^{\alpha}} \right)- \frac{1}{n^{\alpha}} \right) + \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}}$$
+Alors, 
+$$S =  \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}} - \sum_{k = 1}^{+ \infty} \frac{1}{k^{\alpha}} + \sum_{n = 1}^{+ \infty} \sum_{k = n}^{+ \infty} \frac{1}{k^{\alpha}} = \sum_{n = 1}^{+ \infty} \sum_{k = n}^{+ \infty} \frac{1}{k^{\alpha}}$$
+$$S = \sum_{k = 1}^{+ \infty} \sum_{n = 1}^{k} \frac{1}{k^{\alpha}} = \sum_{n = 1}^{+ \infty} \frac{1}{n^{\alpha-1}} $$
 
-$$S = \sum_{k = 1}^{+ \infty} \frac{1}{\alpha} + \sum_{n =1}^{ + \infty} \sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}} = \sum_{n = 1}^{+ \infty}\sum_{k = n}^{+ \infty} \frac{1}{k^{\alpha}}- \frac{1}{n^{\alpha}}$$
+
+___
+Deuxième méthode : 
+$$\sum_{k = n+1}^{+ \infty} \frac{1}{k^{\alpha}}\underset{n \to + \infty}{\sim} \frac{1}{(\alpha-1)n^{\alpha-1}}$$
+
+D'après  le théorème de comparaisons des SATP équivalents, 
+$$S_{\alpha} < + \infty \Leftrightarrow \alpha-1 > 1 \Leftrightarrow \alpha > 2$$
