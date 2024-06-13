@@ -4,45 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "e24db53761e77e9f",
+        "id": "0473c071ba4243fa",
         "type": "tabs",
         "children": [
           {
-            "id": "c3ecd889932f82d1",
+            "id": "a2cf5f63c28a07c6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e601200a2b440491",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Mathématiques/Cours/C32/C32.md"
-              }
-            }
-          },
-          {
-            "id": "f5578c5f950dfc76",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +92,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +108,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -171,8 +140,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f5578c5f950dfc76",
+  "active": "a2cf5f63c28a07c6",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "n.md",
     "Untitled 98.md",
     "Untitled 315.md",
@@ -196,9 +168,6 @@
     "Untitled 297.md",
     "Untitled 296.md",
     "Untitled 295.md",
-    "Untitled 294.md",
-    "Untitled 293.md",
-    "Untitled 292.md",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",

@@ -645,7 +645,7 @@ On a :
 $$
 g \circ f \in \mathcal{C}_{\mathbb{R}}^{1}(U)
 $$
-et 
+et
 $$\begin{cases}
 \frac{\partial (g\circ f)}{\partial x} = (g'\circ f)\times \frac{\partial f}{\partial x} \\
 \frac{\partial (g \circ f)}{\partial y}  = (g' \circ f) \times \frac{\partial f}{\partial y}   
