@@ -4,40 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "d5282cdcb06776f4",
+        "id": "0a1ab59f82718433",
         "type": "tabs",
         "children": [
           {
-            "id": "d4d5bae4dc75e424",
+            "id": "e25fa3f2d5940ebf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "a6453b533c15aa04",
+            "id": "4d522e2c43d79bf1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
-              }
-            }
-          },
-          {
-            "id": "ae771b9e4e2a931d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C32/C32.md"
               }
             }
           }
@@ -118,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md"
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
               }
             }
           }
@@ -170,13 +158,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d4d5bae4dc75e424",
+  "active": "e25fa3f2d5940ebf",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Mathématiques/Cours/C32/C32.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "n.md",
     "Untitled 98.md",

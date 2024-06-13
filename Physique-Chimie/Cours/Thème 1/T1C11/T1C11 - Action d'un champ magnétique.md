@@ -196,5 +196,14 @@ $$\vec{\Gamma} = \vec{m} \wedge \vec{B} = -mB\sin(\pi-\alpha) \vec{e}_{z} = -mB 
 Le mouvement de rotation est dans le sens horaire, $\alpha$ augment, $\vec{m}$ s'éloigne de
 $$\theta_{e_{2}} = \pi \text{ est instable}$$
 
-#### Étudier le mouvement de la bousole autoure de $\theta_{e} = 0$
+#### Étudier le mouvement de la boussole autour de $\theta_{e} = 0$
 On fait un TMC par rapport à $O_{z}$
+$$J \frac{d\omega}{dt} = -mB\theta $$
+Alors,
+$$\frac{d^{2}\theta}{dt^{2}} + \frac{mB}{J}\theta=0$$
+On pose : 
+$$\omega_{0} = \sqrt{\frac{mB}{J}}$$
+Ainsi, 
+$$\theta(t) = A \cos(\omega_{0}t) + B\sin(\omega_{0}t)$$
+Avec $A, B \in \mathbb{R}$. 
+
