@@ -369,4 +369,6 @@ $$\begin{cases}
 Alors, 
 $$(a_{j}b_{k})_{(j, k) \in I} \in l^{1}(J \times K)$$
 et 
-$$$$
+$$\sum_{(j, k) \in I}a_{j}b_{k} = \left( \sum_{j \in J}a_{j} \right)\left( \sum_{k \in K} b_{k} \right)$$
+
+Démonstration : 

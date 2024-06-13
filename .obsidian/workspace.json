@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
+                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
               }
             }
           }
@@ -170,34 +171,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c3ecd889932f82d1",
+  "active": "f5578c5f950dfc76",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/Cours/C32/C32.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-    "Mathématiques/Cours/C31/C31.md",
-    "Anglais/Cours/06-12.md",
-    "Untitled.md",
-    "Untitled 1.md",
-    "Untitled 2.md",
-    "Untitled 3.md",
-    "Untitled 4.md",
-    "Untitled 5.md",
-    "Untitled 6.md",
-    "Untitled 7.md",
-    "Untitled 8.md",
-    "Untitled 9.md",
-    "Untitled 10.md",
-    "Untitled 11.md",
-    "Untitled 12.md",
-    "Untitled 13.md",
-    "Untitled 14.md",
-    "Untitled 15.md",
-    "Untitled 16.md",
-    "Untitled 62.md",
-    "Untitled 69.md",
-    "Untitled 70.md",
-    "Untitled 71.md",
+    "n.md",
+    "Untitled 98.md",
+    "Untitled 315.md",
+    "Untitled 314.md",
+    "Untitled 313.md",
+    "Untitled 312.md",
+    "Untitled 311.md",
+    "Untitled 310.md",
+    "Untitled 309.md",
+    "Untitled 308.md",
+    "Untitled 307.md",
+    "Untitled 306.md",
+    "Untitled 305.md",
+    "Untitled 304.md",
+    "Untitled 303.md",
+    "Untitled 302.md",
+    "Untitled 301.md",
+    "Untitled 300.md",
+    "Untitled 299.md",
+    "Untitled 298.md",
+    "Untitled 297.md",
+    "Untitled 296.md",
+    "Untitled 295.md",
+    "Untitled 294.md",
+    "Untitled 293.md",
+    "Untitled 292.md",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
