@@ -127,10 +127,12 @@ Or :
 $\theta$ dépend du temps $\omega = \frac{d\theta}{dt}$
 $$J_{z} \frac{d\omega}{dt} = - Ia^{2}B\sin(\theta) = J_{z} \frac{d^{2}\theta}{dt^{2}}$$
 Ainsi
-$$\boxed{\frac{d^{2}}{dt^{2}} + Ia^{2}B\sin(\theta) = 0}$$
+$$\boxed{\frac{d^{2}}{dt^{2}} + \frac{Ia^{2}B}{J_{z}}\sin(\theta) = 0}$$
 ___
 On fait l'approximation des petits angles : 
-$$\frac{d^{2}}{dt^{2}} + Ia^{2}B\theta = 0$$
+$$\frac{d^{2}}{dt^{2}} + \frac{Ia^{2}B}{J_{z}}\theta = 0$$
+On pose :
+$$\omega_{0} = \sqrt{ \frac{Ia^{2}B}{J_{z}} }$$
 Alors, 
 $$\theta(t) = c_{1}\cos(\omega_{0}t) +c_{1}\sin(\omega_{0}t)$$
 avec $c_{1}, c_{2} \in \mathbb{R}$, 
@@ -146,5 +148,19 @@ c_{2}= \frac{\omega_{1}}{\omega_{0}}
 \end{cases}$$
 Ainsi, 
 $$\boxed{\omega(t) = \omega_{1}\cos(\omega_{0}t)}$$
-Avec 
-$$\omega_{0} = \sqrt{ \frac{Ia^{2}B}{} }$$
+
+## 3. Aikylibre d'un ément
+$$\boxed{\text{EXCAL 6}}$$
+$O$ : centre de la boussole
+Elle est plongée dans un champ uniforme $\vec{B} = B \vec{e}_{x}$
+$\vec{m}$ peut uniquement tourner autour de $O_{z}$ sans frottement. 
+On pose : $J$ le moment d'inertie par rapport à $O_{z}$ $M$ la masse de la boussole
+
+#### Faire un bilan des actions mécaniques s’exercent sur la boussole
+$$\begin{cases}
+\vec{P} = m\vec{g} = - mg \vec{e}_{z} \\
+\vec{R} = -\vec{P} \\
+\vec{\Gamma} = \vec{m}\wedge \vec{B}
+\end{cases}$$
+
+#### Déterminer les positions d'équilibres et identifier lesquelles stables 
