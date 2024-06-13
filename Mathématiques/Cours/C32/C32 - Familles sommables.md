@@ -264,6 +264,16 @@ Or pour $\alpha \leq 1$ :
 $$ \forall (m, n)  \in (\mathbb{N}^{*})^{2}, \frac{1}{m+n} \leq \frac{1}{(m+n)^{\alpha}}$$
 Donc, 
 $$ \forall \alpha \leq 1, \sum \frac{1}{(m+n)^{\alpha}} = + \infty $$
+___
+Pour $\alpha > 2$, 
+$$m+n \geq 2\sqrt{ m }\sqrt{ n }$$
+Alors, 
+$$(m+n)^{\alpha} \geq 2^{\alpha}m^{\frac{\alpha}{2}}n^{\frac{\alpha}{2}} $$
+Donc, 
+$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} \leq \sum_{(m,n) \in (N^{*})^{2}} \frac{1}{n^{\frac{\alpha}{2}}m^{\frac{\alpha}{2}}}$$
+Donc par le théorème de Fubini positif
+$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} \leq  \left( \sum_{m \in \mathbb{N}^{*}}\frac{1}{m^{\frac{\alpha}{2}}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\frac{\alpha}{2}}} \right)$$
+Comme $\frac{\alpha}{2} > 1$, 
 
 ## 4. Familles sommables de complexes
 #### Définition
