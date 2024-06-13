@@ -272,8 +272,17 @@ $$(m+n)^{\alpha} \geq 2^{\alpha}m^{\frac{\alpha}{2}}n^{\frac{\alpha}{2}} $$
 Donc, 
 $$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} \leq \sum_{(m,n) \in (N^{*})^{2}} \frac{1}{n^{\frac{\alpha}{2}}m^{\frac{\alpha}{2}}}$$
 Donc par le théorème de Fubini positif
-$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} \leq  \left( \sum_{m \in \mathbb{N}^{*}}\frac{1}{m^{\frac{\alpha}{2}}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\frac{\alpha}{2}}} \right)$$
-Comme $\frac{\alpha}{2} > 1$, 
+$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}} \leq  \left( \sum_{m \in \mathbb{N}^{*}}\frac{1}{m^{\frac{\alpha}{2}}} \right)\left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\frac{\alpha}{2}}} \right) = \left( \sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \right)$$
+Comme $\alpha > 2$, 
+$$\sum_{n \in \mathbb{N}^{*}} \frac{1}{n^{\alpha}} \text{ CV}$$
+Ainsi, 
+$$S_{\alpha} < + \infty$$
+
+___
+Pour $\alpha \in ]1, 2]$, 
+$$\sum_{(m, n) \in (\mathbb{N}^{*})^{2}} \frac{1}{(m+n)^{\alpha}}$$
+
+
 
 ## 4. Familles sommables de complexes
 #### Définition
