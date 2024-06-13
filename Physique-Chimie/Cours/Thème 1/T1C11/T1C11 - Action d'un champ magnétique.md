@@ -86,4 +86,14 @@ On plonge la spire dans un champ magnétique : $\vec{B} = B \, \vec{e}_{x}$ unif
 
 #### Montrer que la résultante des forces de Laplace sur la spire s'écrit comme la somme de $4$ intégrales
 La longueur de la spire est : $MN + NP + PQ + QM$
-$$\vec{F}_{spire} = \vec{F}_{MN} + \vec{F}_{NP} + \vec{F}_{PQ} + \vec{F}_{QM} = \int_{} \, dx $$
+$$\vec{F}_{spire} = \vec{F}_{MN} + \vec{F}_{NP} + \vec{F}_{PQ} + \vec{F}_{QM}$$
+
+Comme on est dans l'ARQS et que $\vec{B}$ est uniforme et constant : 
+$$\vec{F}_{MN} = IB \int_{M}^{N}d\vec{l}  \wedge \vec{e}_{x}$$
+$$\vec{F}_{NP} = IB \int_{N}^{P}dz$$
+$$\vec{F}_{PQ} = IB \int_{P}^{Q}d\vec{l}  \wedge \vec{e}_{x}$$
+$$\vec{F}_{QM} = -IB \int_{Q}^{M}dz$$
+
+#### Monter que les intégrales s'annulent 2 à 2
+$$\vec{F}_{NP} + \vec{F}_{QM} = 0$$
+avec les calculs faits avant
