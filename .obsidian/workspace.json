@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7f315fe6f0a1e8b7",
+        "id": "0dfdde7ca96e1692",
         "type": "tabs",
         "children": [
           {
-            "id": "456964a426a8bb23",
+            "id": "54e79499313189e9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "022dcdbf76dd67e4",
+            "id": "5f1aa0fbc325dfef",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C32/C32.md"
               }
             }
           }
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md"
+                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
               }
             }
           }
@@ -160,12 +158,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "456964a426a8bb23",
+  "active": "54e79499313189e9",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C32/C32.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-    "Mathématiques/Cours/C32/C32.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Untitled.md",
     "Untitled 49.md",

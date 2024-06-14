@@ -502,6 +502,7 @@ Soient $\sum a_{n}$ et $\sum b_{n}$ deux SATP CV
 On pose pour $n \in \mathbb{N}$,
 $$c_{n} = \sum_{k = 0}^{n}a_{n-k}b_{k}$$
 Montrer que $\sum a_{n}$ CV et exprimer sa somme en fonction de celles de $\sum a_{n}$ et $\sum b_{n}$
+$$\sum_{k = 0}^{n}a_{n-k}b_{k}=\sum_{k = 0}^{n}$$
 
 
 #### Exercice
