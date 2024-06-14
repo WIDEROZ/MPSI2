@@ -550,13 +550,20 @@ CONTRADICTION
 $$ \text{La série CV}$$
 
 #### Exercice
-Montrer que 
-$$\sum_{n =1}^{+ \infty} \frac{1}{n^{2}-p^{2}} = \frac{3}{4p^{2}}$$
+Montrer pour $p \in \mathbb{N}$, 
+$$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}} = \frac{3}{4p^{2}}$$
 Que peut on dire sur la sommabilité de la famille 
 $$\left( \frac{1}{n^{2}-p^{2}} \right)_{\underset{\text{ tq } n \neq p}{(n, p) \in (\mathbb{N}^{*})^{2}}}$$
+Soit $p \in \mathbb{N}$,
+Pour $n \in \mathbb{N}$, tel que $n \neq p$
+On fait une DES par rapport à $n$ :
+$$\frac{1}{n^{2} - p^{2}} = \frac{1}{2p}\left( \frac{1}{n-p} - \frac{1}{n+p} \right)$$
+$$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}} =\frac{1}{2p}\left( \sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n-p} -\frac{1}{n+p} \right) $$
+On étudie : 
+$$$$
+$n-p = (n+1)-(p+1)$
 
-
-
+$n+p = n-p+2p = n-()$
 
 ##### Exercice
 $$\sum_{n = 0}^{+ \infty} (n+1) 3^{-n}$$
