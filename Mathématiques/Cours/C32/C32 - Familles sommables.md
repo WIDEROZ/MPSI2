@@ -503,15 +503,24 @@ On pose pour $n \in \mathbb{N}$,
 $$c_{n} = \sum_{k = 0}^{n}a_{n-k}b_{k}$$
 Montrer que $\sum a_{n}$ CV et exprimer sa somme en fonction de celles de $\sum a_{n}$ et $\sum b_{n}$, 
 Soit $I \subset [\![0, n]\!]$
-$$ \sum_{n = 0}^{+ \infty}\sum_{k = 0}^{n}a_{n-k}b_{k}=\left( \sum_{n = 0}^{+ \infty} a_{n}\right)\left( \sum_{n = 0}^{+ \infty} b_{n} \right) = \sum_{(n, p) \in \mathbb{N}^{2}}a_{n}b_{p}$$
-Alors, 
-$$$$
-
+$$\left(  \sum_{n= 0}^{+ \infty} a_{n}\right)\left( \sum_{n = 0}^{+ \infty} b_{n} \right) = \sum_{(n, p) \in \mathbb{N}^{2}}a_{n}b_{p}$$
+Alors, par sommation par paquets, 
+$$\sum_{n \in \mathbb{N}} \sum_{\underset{\text{ tq p+q = n}}{(p, q) \in \mathbb{N}^{2}}} a_{p} b_{q} = \sum_{n \in \mathbb{N}} \sum_{\underset{\text{ tq p+q = n}}{(p, q) \in \mathbb{N}^{2}}} a_{n-q} b_{q} = \sum_{n \in \mathbb{N}} \sum_{{q \in \mathbb{N}}} a_{n-q} b_{q} = \sum_{n \in \mathbb{N}}c_{n}$$
+Donc, 
+$$\sum_{n \geq 0} c_{n} \text{ CV}$$
+car c'est un produit de deux séries CV.
 
 #### Exercice
 Montrer que pour tout $x \in [0, 1[$, 
 $$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+ \infty} d(n) x^{n}$$
 où $d(n)$ est le nombre de diviseurs positifs de $n$
+
+qaqQAAQaqQAQAQAqaQAqaqQAqaQAQqa 
+suk
+
+
+
+
 
 #### Exercice
 Soit $\sigma \in S(\mathbb{N})$, 
