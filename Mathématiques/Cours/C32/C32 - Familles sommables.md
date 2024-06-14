@@ -558,7 +558,7 @@ Soit $p \in \mathbb{N}$,
 Pour $n \in \mathbb{N}$, tel que $n \neq p$
 On fait une DES par rapport à $n$ :
 $$\frac{1}{n^{2} - p^{2}} = \frac{1}{2p}\left( \frac{1}{n-p} - \frac{1}{n+p} \right)$$
-$$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}} =\frac{1}{2p}\left( \sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n-p} -\frac{1}{n+p} \right) $$
+$$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{ ⚡1}{n^{2}-p^{2}} =\frac{1}{2p}\left( \sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n-p} -\frac{1}{n+p} \right) $$
 On étudie : 
 $$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}}$$
 $$= \frac{1}{2p}\left( \sum_{n = 1}^{p-1} \left( \frac{1}{n-p} -\frac{1}{n+p} \right)+ \sum_{n = p+1}^{\infty}\left(  \frac{1}{n-p} - \frac{1}{n+p}  \right)\right)$$
@@ -578,3 +578,18 @@ $$\forall p \in \mathbb{N}^{*}, \sum_{\underset{n \neq p}{n = 1}} \frac{1}{n^{2}
 $$\sum_{n = 0}^{+ \infty} (n+1) 3^{-n}$$
 
 $$\sum_{n = 0}^{+ \infty} n3^{-n} + \sum_{n = 0}^{+ \infty} 3^{-n}$$
+Soit $n \in \mathbb{N}$, 
+$$\frac{1}{n}\sum_{k = 0}^{n-1} \frac{n}{3^{n}} \underset{n \to +\infty}{\longrightarrow} $$
+On pose : 
+$$f : x \mapsto \frac{3^{-\frac{1}{x}}}{x}$$
+
+___
+#### Théorème : Produit de Cauchy de séries
+Soient $(a_{n})_{n \in \mathbb{N}}$ et $(b_{n})_{n \in \mathbb{N}}$ deux familles sommables de complexes. 
+Alors, 
+$$(c_{n})_{n \in \mathbb{N}} = \left( \sum_{k  = 0}^{n} a_{n-k}b_{k} \right)_{n \in \mathbb{N}}$$
+est sommable et 
+$$\sum_{}$$
+
+Si $\sum a_{n}$ et $\sum b_{n}$ sont ACV  alors, $c_{n}$ est ACV et :
+$$\sum_{n = }$$
