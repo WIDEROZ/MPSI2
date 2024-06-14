@@ -583,7 +583,7 @@ $$\frac{1}{n}\sum_{k = 0}^{n-1} \frac{n}{3^{n}} \underset{n \to +\infty}{\longri
 On pose : 
 $$f : x \mapsto \frac{3^{-\frac{1}{x}}}{x}$$
 
-___
+# Théorème
 #### Théorème : Produit de Cauchy de séries
 Soient $(a_{n})_{n \in \mathbb{N}}$ et $(b_{n})_{n \in \mathbb{N}}$ deux familles sommables de complexes. 
 Alors, 
@@ -610,4 +610,32 @@ On montre d'abord que $(a_{p}b_{q})_{(p, q) \in \mathbb{N}}$ est sommable
 $$\sum_{(p, q) \in \mathbb{N}^{*}}\left| a_{p}b_{q}\right| = \left( \sum_{p \in \mathbb{N}^{*}}|a_{p}| \right)\left( \sum_{q \in \mathbb{N}^{*}} |b_{q} |\right) < + \infty$$
 
 Ce qui permet d'utiliser le théorème de Fubini général
-$$\left( \sum_{p \in \mathbb{N}} a_{p} \right)\left( \sum_{q \in \mathbb{N}} b\right)$$
+$$\left( \sum_{p \in \mathbb{N}} a_{p} \right)\left( \sum_{q \in \mathbb{N}} b_{q}\right) = \sum_{(p, q) \in \mathbb{N}^{2}} a_{p}b_{q}$$
+Puis la sommation par paquets générale : 
+$$\sum_{(p, q) \in \mathbb{N}^{2}} a_{p}b_{q} = \sum_{n \in \mathbb{N}}\sum_{\underset{p+q = n}{(p, q) \in \mathbb{N}^{2}}} a_{p}b_{q} = \sum_{n \in \mathbb{N}} c_{n}$$
+
+# Retour aux exercices
+#### Exercice
+On suppose que la série : $\sum a_{n}$ $\text{CVA}$
+On pose pour $n, p \in \mathbb{N}^{*}$,
+$$u_{n, p} = \begin{cases}
+\frac{p}{n(n+1)} \text{ si } p \leq n \\
+0 \text{ si } p > n
+\end{cases}$$
+Calculer
+$$\sum u_{n,p}$$
+#### Exercice
+Pour $x \in \mathbb{R}$, montrons que
+$$f(x) = \sum_{n=0}^{+ \infty} \frac{x^{n}}{n!} $$
+est bien définie puis montrons que :
+$$\forall x, y \in \mathbb{R} f(x+y) = f(x)f(y)$$
+
+#### Exercice
+Pour $u, v \in l^{1}(\mathbb{Z})$, 
+Montrons que pour tout $n \in \mathbb{Z}$, 
+$$(u * v)_{n} = \sum_{k \in \mathbb{Z}} u_{n-k}v_{k}$$
+est bien défini et puis que :
+$$u*v \in l^{1}(\mathbb{Z})$$
+
+On pose : $u \in l^{1}(\mathbb{Z})$
+$$\left|\left| u \right|\right| = \sum_{n \in \mathbb{Z}} \left| u_{n}\right|$$
