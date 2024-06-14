@@ -565,7 +565,13 @@ $$= \frac{1}{2p}\left( \sum_{n = 1}^{p-1} \left( \frac{1}{n-p} -\frac{1}{n+p} \r
 $$= \frac{1}{2p}\left( \sum_{k = p}^{n-p} \frac{1}{k} - \sum_{k = p+1}^{2p-1} \frac{1}{k} - \sum_{k = 2p+1}^{n+p} \frac{1}{k} \right)$$
 $$= \frac{1}{2p}\left( \sum_{k = p}^{n-p} \frac{1}{k} - \sum_{k = p+1}^{2p-1} \frac{1}{k} - \sum_{k = 2p+1} ^{n+p} \frac{1}{k} \right)$$
 $$= \frac{1}{2p} \left( \frac{1}{p} + \sum_{k = 2p} ^{n-p} \frac{1}{k} - \sum_{ k = 2p+1}^{n+1} \frac{1}{k} \right)$$
-
+$$= \frac{1}{2p}\left( \frac{1}{p} + \frac{1}{2p} - \sum_{k = n-p+1}^{n+p} \frac{1}{k} \right)$$
+Or 
+$$0 \leq \sum_{k = n-p+1}^{n+p} \frac{1}{k} \leq \frac{(n+p)-(n-p)}{n-p+1} = \frac{2p}{n-p+1} \underset{n \to +\infty}{\longrightarrow} 0$$
+Ainsi, 
+$$S_{n} \underset{n \to +\infty}{\longrightarrow}  \frac{1}{2p} \times \frac{3}{2p} = \frac{3}{4p^{2}}$$
+Donc, 
+$$\forall p \in \mathbb{N}^{*}, \sum_{\underset{n \neq p}{n = 1}} \frac{1}{n^{2}-p^{2}} = \frac{3}{4p^{2}}$$
 
 
 ##### Exercice
