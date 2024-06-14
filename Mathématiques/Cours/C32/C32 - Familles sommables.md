@@ -515,9 +515,11 @@ Montrer que pour tout $x \in [0, 1[$,
 $$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+ \infty} d(n) x^{n}$$
 où $d(n)$ est le nombre de diviseurs positifs de $n$
 
-qaqQAAQaqQAQAQAqaQAqaqQAqaQAQqa 
-suk
-
+Pour $n \in \mathbb{N}^{*}$, 
+$$\frac{x^{n}}{1-x^{n}} = \frac{1}{1-x^{n}}-1=\sum_{k = 1}^{+ \infty} (x^{n})^{k}$$
+Alors, 
+$$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+\infty} \sum_{k = 1}^{+ \infty} x^{nk} = \sum_{(n, k) \in (\mathbb{N}^{*})^{2}} x^{nk}$$
+Alors, 
 
 
 
