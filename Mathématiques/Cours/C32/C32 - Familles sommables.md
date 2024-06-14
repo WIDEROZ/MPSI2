@@ -589,7 +589,25 @@ Soient $(a_{n})_{n \in \mathbb{N}}$ et $(b_{n})_{n \in \mathbb{N}}$ deux famille
 Alors, 
 $$(c_{n})_{n \in \mathbb{N}} = \left( \sum_{k  = 0}^{n} a_{n-k}b_{k} \right)_{n \in \mathbb{N}}$$
 est sommable et 
-$$\sum_{}$$
+$$\sum_{n \in \mathbb{N}} c_{n} = \left( \sum_{n \in \mathbb{N}} a_{n} \right) \left( \sum_{n \in \mathbb{N}}b_{n} \right)$$
 
 Si $\sum a_{n}$ et $\sum b_{n}$ sont ACV  alors, $c_{n}$ est ACV et :
-$$\sum_{n = }$$
+$$\sum_{n = 0}^{+ \infty} c_{n} = \left( \sum_{n =0}^{+ \infty} a_{n} \right)\left( \sum_{n = 0}^{+ \infty} b_{n} \right)$$
+Démonstration :
+
+On a vu dans un exercice précédent que, comme : $\sum a_{n}$ et $\sum b_{n}$ sont AVC
+Alors, 
+$$\sum_{n \in \mathbb{N}} \left( \sum_{k=0}^{n} \left| a_{n-k}\right| \left| b_{n}\right| \right) \text{ CV}$$
+
+Or pour $n \in \mathbb{N}$, 
+$$0 \leq \left| c_{n}\right| \leq \sum_{k =0}^{n}\left| a_{n-k} b_{k}\right| = \sum_{k = 0}^{n} \left| a_{n-k}\right|\left| b_{k}\right|$$
+Par comparaison de SATP positifs, $\sum\left| c_{n}\right|$ CV
+ie
+$$\sum c_{n} \text{ CVA}$$
+ie $(c_{n})_{n \in \mathbb{N}}$ est sommable. 
+Pour montrer la formule on reprend la preuve du cas positif en utilisant le théorème de sommation par paquets général en justifiant la sommabilité au bon endroit. 
+On montre d'abord que $(a_{p}b_{q})_{(p, q) \in \mathbb{N}}$ est sommable
+$$\sum_{(p, q) \in \mathbb{N}^{*}}\left| a_{p}b_{q}\right| = \left( \sum_{p \in \mathbb{N}^{*}}|a_{p}| \right)\left( \sum_{q \in \mathbb{N}^{*}} |b_{q} |\right) < + \infty$$
+
+Ce qui permet d'utiliser le théorème de Fubini général
+$$\left( \sum_{p \in \mathbb{N}} a_{p} \right)\left( \sum_{q \in \mathbb{N}} b\right)$$
