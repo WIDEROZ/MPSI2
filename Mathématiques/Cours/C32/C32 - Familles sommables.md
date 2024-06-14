@@ -533,8 +533,10 @@ Soit $\sigma \in S(\mathbb{N})$,
 Montrer que : 
 $$\sum \frac{\sigma(n)}{n^{2}} \text{ DV}$$
 
-$$\sum_{n = 1}^{+ \infty} \frac{\sigma(n)}{n^{2}} = \sum_{n \in \mathbb{N}^{*}} \frac{k}{n^{2}}$$
+$$\sum_{n = 1}^{+ \infty} \frac{\sigma(n)}{n^{2}} = \sum_{n \in \mathbb{N}^{*}} \frac{\sigma(n)}{n^{2}}$$
 
+Soit $n \in \mathbb{N}^{*}$,
+$$\sum_{k = 1}^{2n} \frac{\sigma(k)}{k^{2}}- \sum_{k = 1}^{n} \frac{\sigma(k)}{k^{2}}= \sum_{k = n+1}^{2n} \frac{\sigma(k)}{k^{2}} \geq \frac{1}{4n^{2}} \sum_{}$$
 
 #### Exercice
 Montrer que 
