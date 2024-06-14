@@ -519,15 +519,20 @@ Pour $n \in \mathbb{N}^{*}$,
 $$\frac{x^{n}}{1-x^{n}} = \frac{1}{1-x^{n}}-1=\sum_{k = 1}^{+ \infty} (x^{n})^{k}$$
 Alors, 
 $$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+\infty} \sum_{k = 1}^{+ \infty} x^{nk} = \sum_{(n, k) \in (\mathbb{N}^{*})^{2}} x^{nk}$$
-Alors, 
-
-
-
+Alors, Par le théorème de sommation par paquets positifs, 
+$$\sum_{(n, k) \in (\mathbb{N}^{*})^{2}} x^{nk} = \sum_{q = 1}^{+ \infty} x^{q}\left( \sum_{\underset{\text{tq } nk = q}{(n, k) \in \mathbb{N}^{*}}} 1 \right) $$
+On cherche : 
+Pour $q \in \mathbb{N}^{*}$
+$$\left| \{ (n, k) \in \mathbb{N}^{*} | nk = q \}\right|=\left| \{ n \in \mathbb{N}^{*} | \exists k \in \mathbb{N}^{*}, nk=q \}\right|$$
+C'est l'ensemble des diviseurs de $q$
+Ainsi, 
+$$\sum_{n = 1}^{+ \infty} \frac{x^{n}}{1-x^{n}} = \sum_{n = 1}^{+ \infty} d(n) x^{n}$$
 
 #### Exercice
 Soit $\sigma \in S(\mathbb{N})$, 
 Montrer que : 
 $$\sum \frac{\sigma(n)}{n^{2}} \text{ DV}$$
+
 
 #### Exercice
 Montrer que 
