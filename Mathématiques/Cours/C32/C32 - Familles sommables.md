@@ -533,6 +533,8 @@ Soit $\sigma \in S(\mathbb{N})$,
 Montrer que : 
 $$\sum \frac{\sigma(n)}{n^{2}} \text{ DV}$$
 
+$$\sum_{n = 1}^{+ \infty} \frac{\sigma(n)}{n^{2}} = \sum_{n \in \mathbb{N}^{*}} \frac{k}{n^{2}}$$
+
 
 #### Exercice
 Montrer que 
