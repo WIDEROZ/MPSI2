@@ -536,10 +536,29 @@ $$\sum \frac{\sigma(n)}{n^{2}} \text{ DV}$$
 $$\sum_{n = 1}^{+ \infty} \frac{\sigma(n)}{n^{2}} = \sum_{n \in \mathbb{N}^{*}} \frac{\sigma(n)}{n^{2}}$$
 
 Soit $n \in \mathbb{N}^{*}$,
-$$\sum_{k = 1}^{2n} \frac{\sigma(k)}{k^{2}}- \sum_{k = 1}^{n} \frac{\sigma(k)}{k^{2}}= \sum_{k = n+1}^{2n} \frac{\sigma(k)}{k^{2}} \geq \frac{1}{4n^{2}} \sum_{}$$
+$$\sum_{k = 1}^{2n} \frac{\sigma(k)}{k^{2}}- \sum_{k = 1}^{n} \frac{\sigma(k)}{k^{2}}= \sum_{k = n+1}^{2n} \frac{\sigma(k)}{k^{2}} \geq \frac{1}{4n^{2}} \sum_{k = n+1}^{2n} \sigma(k) $$
+$$\geq \frac{1}{4n^{2}} \sum_{k = 1}^{n}k = \frac{1}{4n^{2}} \frac{n(n+1)}{2} = \frac{1}{8} \frac{n+1}{n}\geq \frac{1}{8}$$
+Par l'absurde si la série CV, on aurait un $S \in \mathbb{R}$ tel que : $S_{n} \underset{n \to +\infty}{\longrightarrow}S$
+On aurait aussi : $S_{2n}\underset{n \to +\infty}{\longrightarrow} S$
+Alors, 
+$$S_{2n} - S_{n} \underset{n \to +\infty}{\longrightarrow} 0$$
+Or 
+$$S_{2n} - S_{n} \geq \frac{1}{8}$$
+En passant à la limte : 
+$$0 \geq \frac{1}{8}$$
+CONTRADICTION 
+$$ \text{La série CV}$$
 
 #### Exercice
 Montrer que 
 $$\sum_{n =1}^{+ \infty} \frac{1}{n^{2}-p^{2}} = \frac{3}{4p^{2}}$$
 Que peut on dire sur la sommabilité de la famille 
 $$\left( \frac{1}{n^{2}-p^{2}} \right)_{\underset{\text{ tq } n \neq p}{(n, p) \in (\mathbb{N}^{*})^{2}}}$$
+
+
+
+
+##### Exercice
+$$\sum_{n = 0}^{+ \infty} (n+1) 3^{-n}$$
+
+$$\sum_{n = 0}^{+ \infty} n3^{-n} + \sum_{n = 0}^{+ \infty} 3^{-n}$$
