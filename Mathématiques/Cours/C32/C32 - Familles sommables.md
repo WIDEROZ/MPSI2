@@ -560,10 +560,11 @@ On fait une DES par rapport à $n$ :
 $$\frac{1}{n^{2} - p^{2}} = \frac{1}{2p}\left( \frac{1}{n-p} - \frac{1}{n+p} \right)$$
 $$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}} =\frac{1}{2p}\left( \sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n-p} -\frac{1}{n+p} \right) $$
 On étudie : 
-$$$$
-$n-p = (n+1)-(p+1)$
-
-$n+p = n-p+2p = n-()$
+$$\sum_{\underset{n \neq p}{n =1}}^{+ \infty} \frac{1}{n^{2}-p^{2}} = \frac{1}{2p}\left( \sum_{n = 1}^{p-1} \frac{1}{n-p} -\frac{1}{n+p}+ \sum_{n = p+1}^{\infty} \frac{1}{n-p} - \frac{1}{n+p} \right)$$
+Alors, 
+$$\frac{1}{p} \sum_{k =0}^{p-1} \frac{1}{\frac{k}{p}-1} \underset{p \to +\infty}{\longrightarrow} \int _{2}^{3} \frac{1}{x-1} \, dx = \ln(2) $$
+Donc, 
+$$\sum_{n = 1}^{+ \infty} \frac{1}{n^{2}-p^{2}} = $$
 
 ##### Exercice
 $$\sum_{n = 0}^{+ \infty} (n+1) 3^{-n}$$
