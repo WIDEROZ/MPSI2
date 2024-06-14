@@ -639,3 +639,12 @@ $$u*v \in l^{1}(\mathbb{Z})$$
 
 On pose : $u \in l^{1}(\mathbb{Z})$
 $$\left|\left| u \right|\right| = \sum_{n \in \mathbb{Z}} \left| u_{n}\right|$$
+
++ Montrons que $*$ est associative, commutative et admet un neutre s'on donnera. 
++ Est-ce que tout élément est inversible
++ Montrons que $\forall u, v \in l^{1}(\mathbb{Z}), \left|\left| u * v\right|\right| \leq \left|\left| u \right|\right|\left|\left| v \right|\right|$
+
+
+#### Exercice
+Calculer
+$$\sum_{n = 0}^{+ \infty} 2^{-n} \sum_{k = 0}^{n} \frac{4^{k}}{k!}$$
