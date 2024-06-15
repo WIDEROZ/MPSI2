@@ -69,7 +69,11 @@ $$\sum_{i \in I} u_{i} = \sup_{F \in \mathcal{F}(I)} \sum_{i \in F} u_{i} = \sup
 $$\exists i \in I, u_{i} = + \infty \Rightarrow \sum_{i \in I} u_{i} = +\infty$$
 et la réciproque est vraie lorsque $I$ est fini (auquel cas on retrouve somme usuelle sur $\overline{\mathbb{R}}_{+}$, d'ou une cohérence des notations)
 
-Démonstration : en exo
+Démonstration : 
+Supposons qu'il existe un $i \in I$ tel que $u_{i} = + \infty$, 
+$$\sum_{i \in I} u_{i} = \sup_{F \in \mathcal{F}(I)} \sum_{i \in F} u_{i} $$
+Comme $u_{i} = + \infty$ et que $\sup \overline{\mathbb{R}}_{+} = + \infty$, 
+$$\sum_{i \in I} u_{i} = +\infty$$
 
 #### Cas $I = \mathbb{N}$
 Soit $\sum a_{n}$ une SATP
