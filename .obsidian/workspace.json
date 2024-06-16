@@ -20,6 +20,18 @@
             }
           },
           {
+            "id": "a5f0f2c529f6e90a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
             "id": "94fb0fbed3fb7606",
             "type": "leaf",
             "state": {
@@ -174,6 +186,7 @@
   "lastOpenFiles": [
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/DM/DM22/DM 22.md",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
@@ -198,7 +211,6 @@
     "Untitled 60.md",
     "Untitled 59.md",
     "Untitled 58.md",
-    "Untitled 57.md",
     "Pasted image 20240613152753.png",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
