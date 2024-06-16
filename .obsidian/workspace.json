@@ -41,8 +41,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -119,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/DM/DM22/DM 22.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/DM/DM22/DM 22.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md"
+                "file": "Mathématiques/DM/DM22/DM 22.md"
               }
             }
           }
@@ -171,11 +170,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d2f2dc7a2e462ee6",
+  "active": "f28ca65cadefd36f",
   "lastOpenFiles": [
-    "Mathématiques/DM/DM22/DM 22.md",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
+    "Mathématiques/DM/DM22/DM 22.md",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
     "Untitled.md",
