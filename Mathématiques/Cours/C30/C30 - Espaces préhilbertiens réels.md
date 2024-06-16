@@ -722,7 +722,7 @@ x \mapsto x - \frac{\left< x, u \right>}{\left|\left| u \right|\right| ^{2}}u
 \end{cases}$$
 
 #### Remarque
-$$\left< x, \frac{u}{\left|\left| u \right|\right| } \right> \frac{u}{\left|\left| u \right|\right| } = \frac{\left< x, u \right>}{\left|\left| u^{2} \right|\right| ^{2}} u$$
+$$\left< x, \frac{u}{\left|\left| u \right|\right| } \right> \frac{u}{\left|\left| u \right|\right| } = \frac{\left< x, u \right>}{\left|\left| u\right|\right| ^{2}} u$$
 $\frac{u}{\left|\left| u \right|\right|}$ BON de $Vect(u)$
 $\left< x, \frac{u}{\left|\left| u \right|\right|} \right>$ projection $\perp$ sur $Vect(u)$ 
 

@@ -756,7 +756,7 @@ $$(\text{resp. } \forall X \in A \setminus \{ X_{0} \}, f(X) < f(X_{0}))$$
 $f$ admet un maximum local (resp. strict) en $X_{0}$ ssi
 Il existe $\epsilon >0$ tel que 
 $$f|_{B_{0}(X_{0}, \varepsilon)\cap A}$$
-(resp. )
+admet un maximum global (resp. strict)
 (La même pour les minimaux)
 
 #### Définition
