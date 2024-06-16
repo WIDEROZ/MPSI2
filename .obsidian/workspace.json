@@ -35,13 +35,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
+                "file": "Mathématiques/Cours/C29/C29 - Intégration.md"
               }
             }
           }
@@ -170,25 +171,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a5f0f2c529f6e90a",
+  "active": "d2f2dc7a2e462ee6",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/DM/DM22/DM 22.md",
+    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
+    "Mathématiques/Cours/C28/C28 - Séries.md",
+    "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
     "Mathématiques/Cours/C12/C12 - A - Résumé.pdf",
     "Mathématiques/Cours/C12/C12-B-Continuite.pdf",
     "Mathématiques/Cours/C12/C12-A-Limites.pdf",
     "Mathématiques/Cours/C12/C12.png",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
-    "Mathématiques/Cours/C32/C32 - Familles sommables.md",
-    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
-    "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
     "Untitled.md",
     "Untitled 1.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Untitled 49.md",
     "Untitled 50.md",
     "Untitled 51.md",
@@ -209,7 +210,6 @@
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
-    "Info/TP/TP15/dijkstra_ocaml.ml",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
