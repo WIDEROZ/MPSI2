@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f28ca65cadefd36f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathématiques/DM/DM22/DM 22.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "a5f0f2c529f6e90a",
             "type": "leaf",
             "state": {
@@ -130,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/DM/DM22/DM 22.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/DM/DM22/DM 22.md",
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/DM/DM22/DM 22.md"
+                "file": "Mathématiques/Cours/C28/C28 - Séries.md"
               }
             }
           }
@@ -182,12 +170,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f28ca65cadefd36f",
+  "active": "a5f0f2c529f6e90a",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C03/C03-ComplexesTrigo.pdf",
+    "Mathématiques/DM/DM22/DM 22.md",
+    "Mathématiques/Cours/C12/C12 - A - Résumé.pdf",
+    "Mathématiques/Cours/C12/C12-B-Continuite.pdf",
+    "Mathématiques/Cours/C12/C12-A-Limites.pdf",
+    "Mathématiques/Cours/C12/C12.png",
+    "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.md",
+    "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Mathématiques/Cours/C28/C28 - Séries.md",
-    "Mathématiques/DM/DM22/DM 22.md",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
     "Untitled.md",
@@ -210,16 +205,11 @@
     "Untitled 61.md",
     "Untitled 60.md",
     "Untitled 59.md",
-    "Untitled 58.md",
     "Pasted image 20240613152753.png",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
     "Info/TP/TP15/dijkstra_ocaml.ml",
-    "Info/TP/TP15/floyd_warshall_bottom_up.ml",
-    "Info/TP/TP15/graphes_parcours_profondeur.c",
-    "Info/TP/TP15/graphes_partie_1.c",
-    "Info/TP/TP15/structures.c",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",
@@ -230,7 +220,6 @@
     "Mathématiques/Cours/Untitled.canvas",
     "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
-    "LA KONSTANTE.png",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",
     "Untitled.canvas"
