@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "94fb0fbed3fb7606",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf"
+              }
+            }
+          },
+          {
             "id": "d2f2dc7a2e462ee6",
             "type": "leaf",
             "state": {
@@ -163,6 +173,7 @@
   "active": "f28ca65cadefd36f",
   "lastOpenFiles": [
     "Mathématiques/Cours/C32/C32 - Familles sommables.md",
+    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Mathématiques/DM/DM22/DM 22.md",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
@@ -170,7 +181,6 @@
     "Untitled 1.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
-    "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Untitled 49.md",
     "Untitled 50.md",
     "Untitled 51.md",
@@ -189,7 +199,6 @@
     "Untitled 59.md",
     "Untitled 58.md",
     "Untitled 57.md",
-    "Untitled 56.md",
     "Pasted image 20240613152753.png",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
