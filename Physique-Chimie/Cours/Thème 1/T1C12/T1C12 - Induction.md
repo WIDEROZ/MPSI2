@@ -19,7 +19,7 @@ Les variations du flux de $\vec{B}$ à travers la spire provoque l'apparition d'
 $$\boxed{e = -\frac{d\phi}{dt}}$$
 en $V$
 ou
-$$\phi = \int \int_{S} \vec{B}.d\vec{s}  $$
+$$\phi = \int_{S} \vec{B}.d\vec{s}  $$
 $e$ est la fem induite elle est comptée positivement dans le même sens que le courant (générateur). 
 Le courant induit se déduis de $e$ par la loi d'Ohm. 
 
@@ -57,4 +57,18 @@ Calculons le champ propre $\vec{B}_{p}$ créé par la bobine.
 $$\vec{B}_{p} = \mu_{0} \frac{NI}{l} \vec{e}_{z}$$
 $l$ la longueur de la bobine. 
 Calculons $\phi_{p}$ : 
-$$\phi_{p} = \iint \vec{B}_{p} . d\vec{S} =  $$
+$$\phi_{p} = \iint \vec{B}_{p} . d\vec{S} = B_{p} \iint dS = B_{p}S$$
+Alors, 
+$$\phi_{p} = \mu_{0} \frac{NIS}{l} = \mu_{0} \frac{NS}{l} \times I = LI$$
+
+## b. Force électromotrice
+Si le courant électrique du circuit varie dans le temps alors $\vec{B}_{p}$ et $\phi_{p}$ dépendent du temps. 
+D'après la loi de Faraday, il y a l'apparition d'une force électromotrice :
+$$e = - \frac{d\phi}{dt} = -L \frac{dI}{dt}$$
+
+#### Remarque
+La bobine s'oppose aux variations de courants qui la traverse. 
+
+### c. Aspect énergétique
+On considère circuit $RL$ : 
+$$\boxed{\text{EXCAL 4}}$$
