@@ -249,3 +249,6 @@ $$\begin{cases}
 On sait que la boussole va s'aligner qu'avec le champ extérieur $\vec{B}(t)$
 
 Comme $\vec{B}(t)$ est un champ tournant, à la vitesse $\omega_{0}$, la boussole va suivre ce champ. Elle va se mettre à tourner à la même vitesse $\omega_{0}$
+
+C'est le principe du moteur électrique synchrone. 
+
