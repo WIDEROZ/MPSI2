@@ -12,10 +12,21 @@ La norme du courant qui apparaît est d'autant plus grande que le déplacement d
 ## 2. Loi de Faraday
 On considère un circuit électrique formé d'une spire de surface $S$. 
 On place ce circuit dans un champ magnétique $\vec{B}$
-
+$$\boxed{\text{EXCAL 2}}$$
 
 #### Définition
 Les variations du flux de $\vec{B}$ à travers la spire provoque l'apparition d'un courant induit. La courant correspond au courant créé par un générateur de force électromotrice : 
 $$\boxed{e = -\frac{d\phi}{dt}}$$
+en $V$
 ou
 $$\phi = \int \int_{S} \vec{B}.d\vec{s}  $$
+$e$ est la fem induite elle est comptée positivement dans le même sens que le courant (générateur). 
+Le courant induit se déduis de $e$ par la loi d'Ohm. 
+
+## 3. Loi de Lenz
+#### Propriété
+Les phénomènes d'induction s'opposent par leur effets aux causes qui les ont créés. 
+
+___
+$$\boxed{\text{EXCAL 3}}$$
+
