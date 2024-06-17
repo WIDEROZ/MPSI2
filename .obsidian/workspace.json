@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "fa35faf623868037",
+        "id": "7be106450254918f",
         "type": "tabs",
         "children": [
           {
-            "id": "f2a80dd096300c57",
+            "id": "645bec2918fb9b17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "e9a5da72aeedfd2e",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
               }
             }
           }
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md"
               }
             }
           }
@@ -148,10 +158,19 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f2a80dd096300c57",
+  "active": "645bec2918fb9b17",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
+    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 3/T3C6/T3C6 - Les machines thermiques.md",
+    "Brouillon.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "LA KONSTANTE.png",
+    "Pasted image 20240613152753.png",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
     "Mathématiques/Cours/C29/C29 - Intégration.md",
@@ -166,8 +185,6 @@
     "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/DM/DM22",
     "Mathématiques/Cours/C32/C32.md",
-    "Untitled.md",
-    "Untitled 1.md",
     "Untitled 49.md",
     "Untitled 50.md",
     "Untitled 51.md",
@@ -179,11 +196,6 @@
     "Untitled 67.md",
     "Untitled 65.md",
     "Untitled 64.md",
-    "Untitled 63.md",
-    "Untitled 62.md",
-    "Untitled 61.md",
-    "Untitled 60.md",
-    "Pasted image 20240613152753.png",
     "Info/TP/TP15/script.c",
     "Info/TP/TP15/script.ml",
     "Info/TP/TP15/TP 15.pdf",
@@ -195,7 +207,6 @@
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110329.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110324.jpg",
     "Mathématiques/Cours/Untitled.canvas",
-    "Mathématiques/Cours/C28/Algorithme.png",
     "Anglais/Khôlle/Untitled.canvas",
     "Mathématiques/Cours/C20/Untitled.canvas",
     "Mathématiques/Cours/C18/Untitled.canvas",

@@ -207,3 +207,8 @@ Ainsi,
 $$\theta(t) = A \cos(\omega_{0}t) + B\sin(\omega_{0}t)$$
 Avec $A, B \in \mathbb{R}$. 
 
+# IV. Effet moteur d'un champ magnétique tournant
+#### Définition
+Un champ magnétique tournant est un champ de norme constante, tournant à la vitesse angulaire constante. 
+$$\vec{B}(t) = B_{0}(\cos(\omega t) \vec{e}_{x} + \sin(\omega t) \vec{e}_{y})$$
+$$\left| \vec{B}\right| = \sqrt{ B_{x}^{2} + B_{y} ^{2} } = \sqrt{ B_{0}^{2} \cos (\omega_{0} t)^{2} + B_{0}^{2} \sin(\omega_{0}t) } =$$
