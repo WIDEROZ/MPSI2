@@ -210,5 +210,20 @@ Avec $A, B \in \mathbb{R}$.
 # IV. Effet moteur d'un champ magnétique tournant
 #### Définition
 Un champ magnétique tournant est un champ de norme constante, tournant à la vitesse angulaire constante. 
-$$\vec{B}(t) = B_{0}(\cos(\omega t) \vec{e}_{x} + \sin(\omega t) \vec{e}_{y})$$
-$$\left| \vec{B}\right| = \sqrt{ B_{x}^{2} + B_{y} ^{2} } = \sqrt{ B_{0}^{2} \cos (\omega_{0} t)^{2} + B_{0}^{2} \sin(\omega_{0}t) } =$$
+$$\vec{B}(t) = B_{0}(\cos(\omega t) \vec{e}_{x} + \sin(\omega t) \vec{e}_{y}) = B_{0}\vec{e}_{r}$$
+$$\left| \vec{B}\right| = \sqrt{ B_{x}^{2} + B_{y} ^{2} } = \sqrt{ B_{0}^{2} \cos ^{2}(\omega_{0} t) + B_{0}^{2} \sin ^{2}(\omega_{0}t) } = B_{0} = \text{cte}$$
+
+Pour créer un champ tournant on place $2$ bobines identiques d'axe perpendiculaire. 
+EXCAL 7
+$$i_{1}(t) = i_{0}\cos(\omega_{0}t)$$
+$$i_{2}(t) = i_{0}\sin(\omega_{0}t)$$
+et qui sont parcourus par des corants de même norme mais déphasés de $\frac{\pi}{2}$ 
+
+#### Hypothèse
+Le champ $\vec{B}_{1}$ créé en 0 par la bobine $1$ vaut :
+$$\vec{B}_{1} = Ki_{1}\vec{e}_{x}$$
+$K$ un constante qui ne dépend que de la bobine
+$$\vec{B}_{2} = Ki_{2} \vec{e}_{y}$$
+Déterminer le champ total en $\vec{B}(t)$ en $0$
+D'après le théorème de superposition : 
+$$\vec{B}(t) = \vec{B}_{1}(t) + \vec{B}_{2}(t) = K_{1}i_{1}\vec{e}_{x} + K_{2}i_{2}\vec{e}_{y} = Ki_{0}(\cos(\omega_{0} t)+)$$
