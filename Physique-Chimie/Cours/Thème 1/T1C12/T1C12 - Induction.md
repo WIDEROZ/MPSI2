@@ -34,9 +34,27 @@ Quand l'aimant avance, la spire ressort un champ de plus en plus fort.
 Un courant $i$ créé à son tour un champ magnétique $\vec{B}_{\text{spire}}$ qui va s'opposer à $\vec{B}_{\text{ext}}$ et donc, $\vec{B}_{\text{spire}}$ va avoir tendance à repousser l'aimant. 
 
 # II. Courant fixe dans un champ variable
-## 1. Autoinduction
+## 1. Auto-induction
 ### a. Définition
 #### Définition
 On appelle champ propre, le champ créé par le circuit lui même et champ extérieur le champ imposé par un dispositif indépendant au circuit. $\vec{B}_{ext}$
 
-On appelle flux propre $\phi_{p}$ le flux du champ propre à travers e
+On appelle flux propre $\phi_{p}$ le flux du champ propre à travers le circuit. 
+On a :
+$$\phi_{p} = Li$$
+Avec :
+- $i$ : intensité du courant du circuit (en $A$)
+- $L$ : Coefficient d'auto-inductance (ou inductance propre) du circuit. (en $H$)
+
+#### Remarque
+$i$ et $\phi_{p}$ sont de même signe. 
+
+$L$ dépend du nombre de spires, de la taille des spires, de la géométrie des spires, du matériau. 
+
+#### Application
+Exprimons l'inductance propre d'une bobine formé de $N$ spires circulaires parcourues par un courant $I$. 
+Calculons le champ propre $\vec{B}_{p}$ créé par la bobine. 
+$$\vec{B}_{p} = \mu_{0} \frac{NI}{l} \vec{e}_{z}$$
+$l$ la longueur de la bobine. 
+Calculons $\phi_{p}$ : 
+$$\phi_{p} = \iint \vec{B}_{p} . d\vec{S} =  $$
