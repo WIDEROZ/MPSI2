@@ -72,3 +72,15 @@ La bobine s'oppose aux variations de courants qui la traverse.
 ### c. Aspect énergétique
 On considère circuit $RL$ : 
 $$\boxed{\text{EXCAL 4}}$$
+On fait une loi des mailles : 
+$$E = u_{L} + u_{R} = L \frac{dI}{dt} + RI$$
+Alors, 
+$$EI = LI \frac{dI}{dt} + RI^{2}$$
+$$EI = \frac{d}{dt}\left( \frac{1}{2} LI^{2} \right) + RI^{2}$$
+On intègre par rapport au temps : 
+$$\int _{0}^{t} EI \, dt = \left[ \frac{1}{2}LI^{2} \right]_{0}^{t} + \int_{0}^{t} RI^{2} \, dt  $$
+
+#### Définition
+L'énergie potentielle magnétique dans la bobine est : 
+$$E_{p_{mag}} = \frac{1}{2} LI^{2}$$
+
