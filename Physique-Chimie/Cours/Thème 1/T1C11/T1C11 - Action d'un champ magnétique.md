@@ -217,13 +217,35 @@ Pour créer un champ tournant on place $2$ bobines identiques d'axe perpendicula
 EXCAL 7
 $$i_{1}(t) = i_{0}\cos(\omega_{0}t)$$
 $$i_{2}(t) = i_{0}\sin(\omega_{0}t)$$
-et qui sont parcourus par des corants de même norme mais déphasés de $\frac{\pi}{2}$ 
+et qui sont parcourus par des courants de même norme mais déphasés de $\frac{\pi}{2}$ 
 
 #### Hypothèse
 Le champ $\vec{B}_{1}$ créé en 0 par la bobine $1$ vaut :
 $$\vec{B}_{1} = Ki_{1}\vec{e}_{x}$$
 $K$ un constante qui ne dépend que de la bobine
 $$\vec{B}_{2} = Ki_{2} \vec{e}_{y}$$
-Déterminer le champ total en $\vec{B}(t)$ en $0$
+###### Déterminer le champ total en $\vec{B}(t)$ en $0$
 D'après le théorème de superposition : 
-$$\vec{B}(t) = \vec{B}_{1}(t) + \vec{B}_{2}(t) = K_{1}i_{1}\vec{e}_{x} + K_{2}i_{2}\vec{e}_{y} = Ki_{0}(\cos(\omega_{0} t)+)$$
+$$\vec{B}(t) = \vec{B}_{1}(t) + \vec{B}_{2}(t) = Ki_{1}\vec{e}_{x} + Ki_{2}\vec{e}_{y} $$
+$$\boxed{\vec{B}(t) = Ki_{0}(\cos(\omega_{0} t)\vec{e}_{x}+\sin(\omega_{0}t)\vec{e}_{y})}$$
+$B_{0} = Ki_{0}$
+
+###### Représenter le champ $\vec{B}$ aux instants :
+$$\begin{cases}
+t_{0}=0 \\
+t_{1} = \frac{\pi}{4\omega_{0}} \\
+t_{2} = \frac{\pi}{2\omega_{0}} \\
+t_{3} = \frac{3\pi}{4 \omega_{0}}
+\end{cases}$$
+
+$$\begin{cases}
+\vec{B}(t_{0}) = B_{0}\vec{e}_{x} \\
+\vec{B}(t_{1}) = B_{0}\left( \cos\left( \frac{\pi}{4} \right)\vec{e}_{x} + \sin\left( \frac{\pi}{4} \right)\vec{e}_{y} \right) = B_{0} \frac{\sqrt{ 2 }}{2}(\vec{e}_{x} + \vec{e}_{x}) \\
+\vec{B}(t_{2}) = B_{0}\vec{e}_{y} \\
+\vec{B}(t_{3}) = B_{0}\left( \cos\left( \frac{3\pi}{4} \right) \vec{e}_{x} + \sin\left( \frac{3\pi}{4} \right)\vec{e}_{y} \right) = B_{0}\frac{\sqrt{ 2 }}{2} (\vec{e}_{y} - \vec{e}_{x})
+\end{cases}$$
+
+###### On place une boussole de moment $\vec{m}$ en $0$ dans le plan $O_{xy}$. Qu'observe t-on?
+On sait que la boussole va s'aligner qu'avec le champ extérieur $\vec{B}(t)$
+
+Comme $\vec{B}(t)$ est un champ tournant, à la vitesse $\omega_{0}$, la boussole va suivre ce champ. Elle va se mettre à tourner à la même vitesse $\omega_{0}$
