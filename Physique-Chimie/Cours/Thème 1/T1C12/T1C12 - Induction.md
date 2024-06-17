@@ -30,3 +30,13 @@ Les phénomènes d'induction s'opposent par leur effets aux causes qui les ont c
 ___
 $$\boxed{\text{EXCAL 3}}$$
 
+Quand l'aimant avance, la spire ressort un champ de plus en plus fort.
+Un courant $i$ créé à son tour un champ magnétique $\vec{B}_{\text{spire}}$ qui va s'opposer à $\vec{B}_{\text{ext}}$ et donc, $\vec{B}_{\text{spire}}$ va avoir tendance à repousser l'aimant. 
+
+# II. Courant fixe dans un champ variable
+## 1. Autoinduction
+### a. Définition
+#### Définition
+On appelle champ propre, le champ créé par le circuit lui même et champ extérieur le champ imposé par un dispositif indépendant au circuit. $\vec{B}_{ext}$
+
+On appelle flux propre $\phi_{p}$ le flux du champ propre à travers e
