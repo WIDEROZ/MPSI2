@@ -84,3 +84,19 @@ $$\int _{0}^{t} EI \, dt = \left[ \frac{1}{2}LI^{2} \right]_{0}^{t} + \int_{0}^{
 L'énergie potentielle magnétique dans la bobine est : 
 $$E_{p_{mag}} = \frac{1}{2} LI^{2}$$
 
+## 2. Inductance mutuelle
+Soient $2$ spires parcourues par des courants $I_{1}$ et $I_{2}$
+$$\boxed{\text{EXCAL 5}}$$
+
+#### Définition
+Le flux magnétique envoyé réciproquement par les spires l'une à travers l'autre vaut :
+$$\begin{cases}
+\phi_{1 \to 2} = MI_{1} & \text{ Flux de } \vec{B}_{1} \text{ dans la spire }2\\
+\phi_{2 \to 1} MI_{2}&\text{ Flux de } \vec{B}_{2} \text{ dans la spire }1
+\end{cases}$$
+$M$ est appelé inductance mutuelle, elle se mesure en Henry ($H$)
+$M$ dépend des spires (géométrie, matériaux) et de leur orientation réspective.
+
+#### Application
+Inductance mutuelle de deux solénoïdes : 
+$$\boxed{\text{EXCAL 6}}$$
