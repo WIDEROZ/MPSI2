@@ -100,3 +100,19 @@ $M$ dépend des spires (géométrie, matériaux) et de leur orientation réspect
 #### Application
 Inductance mutuelle de deux solénoïdes : 
 $$\boxed{\text{EXCAL 6}}$$
+Exprimons les champs, $\vec{B}_{1}$ et $\vec{B}_{1}$ exprimés par ces solénoïdes 
+$$\vec{B}_{1} = \mu_{0} n_{1}i_{1}\vec{e}_{z}$$
+Avec : 
+- $n_{1}$ : Nombres de spires par unité de longueur du premier solénoïde
+- $i_{1}$ : intensité du premier solénoïde
+
+$$\vec{B}_{2} = \mu_{0} n_{2}i_{2}\vec{e}_{z}$$
+
+Exprimons $\phi_{1 \to 2}$ : le flux de $\vec{B}_{1}$ à travers le $2^{eme}$ solénoïde. 
+$$\iint \vec{B}_{1} .d\vec{S}_{2} = \iint B_{1}dS_{2} = B_{1} \iint dS_{2} = B_{1}S_{2}$$
+C'est le flux d'une unique spire alors, 
+$$\phi_{1 \to 2} = B_{1}S_{2}N_{2} = \mu_{0}n_{1}N_{2}i_{1}S_{2}$$
+Avec $N_{2}$ le nombre de spires. 
+$$\phi_{1 \to 2} = Mi_{1}$$
+Ainsi, 
+$$M = \mu_{0}n_{1}N_{2}S_{2}$$
