@@ -30,3 +30,6 @@ typedef struct var{
 
 } Var;
 
+void MALLOC_VAR(Var *var);
+
+void DESTROY_VAR(Var *var);

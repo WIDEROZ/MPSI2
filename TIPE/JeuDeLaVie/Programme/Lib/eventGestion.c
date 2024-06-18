@@ -6,6 +6,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
     switch (event.type) // Le switch c'est comme un match en ocaml mais que pour les int
             {
                 case SDL_KEYDOWN :
+                    
                     switch (event.key.keysym.sym)
                     {
                     
@@ -116,7 +117,6 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     //printf("Coordonée : (%d, %d) \n", event.motion.x, event.motion.y);
                     //printf("Vitesse : (%d, %d) \n", event.motion.xrel, event.motion.yrel);
                     
-                    
                     // ----- Actualisation du déplacement de la caméra avec la souris ----- //
                     if(*isMouseButtonPressed && event.motion.x <= GRID_DISP_WIDTH && event.motion.y <= GRID_DISP_HEIGHT){
                         MOVE_CAMERA_MOUSE(var->renderer, var->texture, var->camera, event.motion.xrel, event.motion.yrel);
@@ -139,8 +139,8 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
 
                     continue;
 
-                case SDL_MOUSEBUTTONUP : 
-                    isMouseButtonPressed = false;
+                case SDL_MOUSEBUTTONUP :
+                    *isMouseButtonPressed = false;
                     if (!(*MOUSE_MOVING))
                     {
                         CASE_CLICK_DISPLAY(var->window, var->renderer, var->texture, *var->camera, var->XY_CASE_MAT, event.motion.x, event.motion.y);
@@ -160,6 +160,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MO
                     break;
             }
     }
+    
     return SDL_TRUE;
 }
     

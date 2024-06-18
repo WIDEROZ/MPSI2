@@ -10,7 +10,7 @@
 #include "Lib/Error.c"
 #include "Lib/Array.c"
 #include "Lib/Matrix.c"
-#include "Lib/Var.h"
+#include "Lib/Var.c"
 #include "Lib/InterfaceTrade.c"
 #include "Lib/Grid.c"
 #include "Lib/Toolbar.c"
@@ -77,7 +77,7 @@ int main(int argc, char **argv){
    ----- Sinon pour la création de la fenêtre et du rendu : -----
     if(SDL_CreateWindowAndRender(800, 600, &window, &renderer)!=0){
         SDL_ExitWithError("Window or renderer creation failed");
-    }   
+    } 
    */
 
     // ----- Création de la texture ----- //
@@ -93,14 +93,15 @@ int main(int argc, char **argv){
     }
 
 
-
+    
     // ----- Création des rectangles ----- //
-    SDL_Rect *camera;
-    SDL_Rect *gridDestRect;
-    SDL_Rect *toolbarSrcRect;
-    SDL_Rect *toolbarDestRect;
+    SDL_Rect *camera = malloc(sizeof(SDL_Rect));
+    SDL_Rect *gridDestRect = malloc(sizeof(SDL_Rect));
+    SDL_Rect *toolbarSrcRect = malloc(sizeof(SDL_Rect));
+    SDL_Rect *toolbarDestRect = malloc(sizeof(SDL_Rect));
 
 
+    
     camera->x = 0;
     camera->y = 0;
     camera->w = GRID_DISP_WIDTH;
@@ -120,13 +121,6 @@ int main(int argc, char **argv){
     toolbarDestRect->y = 0;
     toolbarDestRect->w = TOOLBAR_WIDTH;
     toolbarDestRect->h = TOOLBAR_HEIGHT;
-
-    // Initialisation de la barre d'outils
-    TOOLBAR_INIT(renderer, toolbarTexture, toolbarSrcRect, toolbarDestRect);
-
-
-
-
     
     
     // ----- Déclaration des variables ----- //
@@ -134,24 +128,28 @@ int main(int argc, char **argv){
 
     // Tableau des touches abaissés
     int * KEY_DOWN_STATUS = NULL;
-    KEY_DOWN_STATUS = CREATE_TAB_0(314);
+    KEY_DOWN_STATUS = CREATE_TAB_0(315);
 
 
     // Variable pour savoir si la souris est pressée
-    bool* isMouseButtonPressed = false;
+    bool* isMouseButtonPressed = malloc(sizeof(bool));
+    *isMouseButtonPressed = false;
 
     // savoir si la souris à précédement été bougée
-    bool* MOUSE_MOVING = false;
+    bool* MOUSE_MOVING = malloc(sizeof(bool));
+    *MOUSE_MOVING = false;
 
 
     // Matrice des cases de la grille
 
-    matrix mat = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
+    matrix matmp = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
     matrix *XY_CASE_TAB = malloc(sizeof(matrix));
-    XY_CASE_TAB = &mat;
-
+    XY_CASE_TAB = &matmp;
+    
     // ---------- Var ---------- //
     Var *var = malloc(sizeof(var));
+    
+    MALLOC_VAR(var);
     var->window = window;
     var->renderer = renderer;
     var->texture = texture;
@@ -162,21 +160,20 @@ int main(int argc, char **argv){
     var->gridDestRect = gridDestRect;
     var->toolbarSrcRect = toolbarSrcRect;
     var->toolbarDestRect = toolbarDestRect;
-
-
-
+    
+    // Initialisation de la barre d'outils
+    TOOLBAR_INIT(var->renderer, var->toolbarTexture, var->toolbarSrcRect, var->toolbarDestRect);
     while (program_launched)
     {
-        SDL_Event event;
         
-        program_launched = GESTION(var, event, isMouseButtonPressed, MOUSE_MOVING);
-
-
-
+        SDL_Event *event = malloc(sizeof(SDL_Event));
+        program_launched = GESTION(var, *event, isMouseButtonPressed, MOUSE_MOVING);
+        
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->texture, var->camera, var->gridDestRect), "RenderCopy");
         VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->toolbarTexture, var->toolbarSrcRect, var->toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(var->renderer);
+        
 
     }
     printf("quit \n");
@@ -187,16 +184,11 @@ int main(int argc, char **argv){
     VERIF_SDL_COMMAND(SDL_RenderClear(var->renderer), "RenderClear");
     
 
-    // Clear tout les pointeurs
-    free(var);
-    free(KEY_DOWN_STATUS);
-    DESTROY_POINTER_MATRIX(XY_CASE_TAB);
 
-    // Pointeurs SDL
-    SDL_DestroyTexture(texture);
-    SDL_DestroyTexture(toolbarTexture);
-    SDL_DestroyRenderer(renderer);
-    SDL_DestroyWindow(window);
+
+    // BIIIIIIIIIIIIIIIIIIIIIIIG FREE //
+    
+    DESTROY_VAR(var);
 
     TTF_CloseFont(font);
     TTF_Quit();
