@@ -64,3 +64,12 @@ $$\begin{cases}
 X = \frac{pb+qa}{q+p} \\
 Y = \frac{pc+qa}{q+p}
 \end{cases}$$
+$$y - x = \frac{p}{p+q}(c-b)$$
+Alors, comme $\frac{p}{p+q} \in \mathbb{R}_{+}^{*}$;  
+$$\overrightarrow{XY} \text{ et } \overrightarrow{BC} \text{ sont colinéaires}$$
+$B \neq C$ ainsi, 
+$$(XY) // (BC)$$
+
+## 8.
+$$G = \frac{a+b+c}{3}$$
+$$$$
