@@ -99,3 +99,5 @@ c_{k+1}
 Flemme c'est du calcul
 
 ## 11.
+$$\alpha_{k+1} = \frac{1}{p+q} (q(a_{k} + b_{k} + c_{k}) + p(a_{k} + b_{k} + c_{k})) = a_{k} + b_{k} + c_{k}$$
+Ainsi 
