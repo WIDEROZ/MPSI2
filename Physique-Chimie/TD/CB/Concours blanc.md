@@ -28,4 +28,19 @@ $$\left| z\right| + \left| w\right| \geq \left| z+w\right|$$
 
 Cas d'égalité : 
 Supposons que : 
-$$2(\left| z\bar{w}\right|- \mathrm{Re}(z\bar{w})) \geq 0 = 0$$
+$$2(\left| z\bar{w}\right|- \mathrm{Re}(z\bar{w})) = 0$$
+Alors, 
+$$\left| z \bar{w}\right| = \mathrm{Re}(z\bar{w}) \Leftrightarrow z \bar{w} \in \mathbb{R}_{+}$$
+Alors, 
+$$z\bar{w} \in \mathbb{R}_{+} \Leftrightarrow \begin{cases}
+(z = 0 \text{ ou } w = 0) \\
+ou \\
+Arg(z\bar{w}) \equiv0 [2\pi]
+\end{cases} \Leftrightarrow \begin{cases}
+(z = 0 \text{ ou } w = 0) \\
+ou \\
+Arg(z) \equiv Arg(w) [2\pi]
+\end{cases}$$
+Ainsi, $z$ et $w$ sont sur la même droite. (même argument)
+
+## 4.
