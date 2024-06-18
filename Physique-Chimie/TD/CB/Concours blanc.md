@@ -72,4 +72,30 @@ $$(XY) // (BC)$$
 
 ## 8.
 $$G = \frac{a+b+c}{3}$$
-$$$$
+
+## 9.
+$$a' = \frac{pb+qa}{q+p}$$
+$$b' = \frac{pc+qb}{q+p}$$
+$$c' = \frac{pa+qc}{q+p}$$
+Alors, 
+$$\frac{a'+b'+c'}{3} = \frac{1}{3(p+q)}(p(a+b+c) + q(a+b+c)) = \frac{a+b+c}{3}$$
+
+## 10. 
+$$\frac{1}{p+q}\begin{pmatrix}
+q&p&0 \\
+0&q&p \\
+p&0&q
+\end{pmatrix} \begin{pmatrix}
+a_{k} \\
+b_{k} \\
+c_{k}
+\end{pmatrix} = \frac{1}{p+q} \begin{pmatrix}
+
+\end{pmatrix} = \begin{pmatrix}
+a_{k+1} \\
+b_{k+1} \\
+c_{k+1}
+\end{pmatrix}$$
+Flemme c'est du calcul
+
+## 11.
