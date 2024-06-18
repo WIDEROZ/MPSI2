@@ -54,3 +54,13 @@ $$z = \frac{pb+qa}{q+p}$$
 
 ## 5.
 Chef un peu de respect svp
+
+## 6.
+$$z = \frac{b+a}{2}$$
+c'est le milieu du segment $[a, b]$
+
+## 7.
+$$\begin{cases}
+X = \frac{pb+qa}{q+p} \\
+Y = \frac{pc+qa}{q+p}
+\end{cases}$$
