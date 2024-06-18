@@ -92,7 +92,7 @@ $$\boxed{\text{EXCAL 5}}$$
 Le flux magnétique envoyé réciproquement par les spires l'une à travers l'autre vaut :
 $$\begin{cases}
 \phi_{1 \to 2} = MI_{1} & \text{ Flux de } \vec{B}_{1} \text{ dans la spire }2\\
-\phi_{2 \to 1} MI_{2}&\text{ Flux de } \vec{B}_{2} \text{ dans la spire }1
+\phi_{2 \to 1}= MI_{2}&\text{ Flux de } \vec{B}_{2} \text{ dans la spire }1
 \end{cases}$$
 $M$ est appelé inductance mutuelle, elle se mesure en Henry ($H$)
 $M$ dépend des spires (géométrie, matériaux) et de leur orientation réspective.

@@ -41,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/TP/TP21/TP21.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/TP/TP21/TP21.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/TP/TP21/TP21.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md"
               }
             }
           }
@@ -170,11 +171,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2946c8fb7c85db5e",
+  "active": "f6f7d81ef8f3028c",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/TP/TP21/TP21.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/TP/TP21",
     "Physique-Chimie/Cours/Thème 1/T1C12",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
