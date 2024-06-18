@@ -21,7 +21,7 @@ typedef struct var{
     SDL_Texture *toolbarTexture;
 
     int *KEY_DOWN_STATUS;
-    matrix *XY_CASE_TAB;
+    matrix *XY_CASE_MAT;
 
     SDL_Rect *camera;
     SDL_Rect *gridDestRect;
@@ -29,3 +29,4 @@ typedef struct var{
     SDL_Rect *toolbarDestRect;
 
 } Var;
+

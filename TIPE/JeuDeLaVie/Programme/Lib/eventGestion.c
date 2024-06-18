@@ -1,11 +1,11 @@
 #include "eventGestion.h"
 
-SDL_bool GESTION(Var *var, SDL_Event event, bool isMouseButtonPressed, bool MOUSE_MOVING){
+SDL_bool GESTION(Var *var, SDL_Event event, bool* isMouseButtonPressed, bool* MOUSE_MOVING){
     while (SDL_PollEvent(&event)){ // Elle va lire tout les évènements
         /*on a aussi : SDL_WaitEvent(&event) mais ca bloque la fenêtre*/
     switch (event.type) // Le switch c'est comme un match en ocaml mais que pour les int
             {
-                case SDL_KEYDOWN : 
+                case SDL_KEYDOWN :
                     switch (event.key.keysym.sym)
                     {
                     
@@ -118,9 +118,9 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool isMouseButtonPressed, bool MOUS
                     
                     
                     // ----- Actualisation du déplacement de la caméra avec la souris ----- //
-                    if(isMouseButtonPressed && event.motion.x <= GRID_DISP_WIDTH && event.motion.y <= GRID_DISP_HEIGHT){
+                    if(*isMouseButtonPressed && event.motion.x <= GRID_DISP_WIDTH && event.motion.y <= GRID_DISP_HEIGHT){
                         MOVE_CAMERA_MOUSE(var->renderer, var->texture, var->camera, event.motion.xrel, event.motion.yrel);
-                        MOUSE_MOVING = true;
+                        *MOUSE_MOVING = true;
                     }
                     
                     
@@ -130,7 +130,7 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool isMouseButtonPressed, bool MOUS
                     continue;
 
                 case SDL_MOUSEBUTTONDOWN :
-                    isMouseButtonPressed = true;
+                    *isMouseButtonPressed = true;
                     printf("x : %d, y : %d \n", event.motion.x, event.motion.y);
                     printf("Case x : %d, Case y : %d \n", GET_CASE_FROM_COORD_X(event.motion.x), GET_CASE_FROM_COORD_Y(event.motion.y));
 
@@ -141,11 +141,11 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool isMouseButtonPressed, bool MOUS
 
                 case SDL_MOUSEBUTTONUP : 
                     isMouseButtonPressed = false;
-                    if (!MOUSE_MOVING)
+                    if (!(*MOUSE_MOVING))
                     {
-                        CASE_CLICK_DISPLAY(var->window, var->renderer, var->texture, *var->camera, (var->XY_CASE_TAB), event.motion.x, event.motion.y);
+                        CASE_CLICK_DISPLAY(var->window, var->renderer, var->texture, *var->camera, var->XY_CASE_MAT, event.motion.x, event.motion.y);
                     }
-                    MOUSE_MOVING = false;
+                    *MOUSE_MOVING = false;
                     
                     continue;
 
@@ -160,5 +160,6 @@ SDL_bool GESTION(Var *var, SDL_Event event, bool isMouseButtonPressed, bool MOUS
                     break;
             }
     }
+    return SDL_TRUE;
 }
     

@@ -7,16 +7,16 @@
 /* !!! ATTENTION !!! */
 /* --- Toutes les fichiers sont dépendants --- */
 /* --- Changer l'ordre mènerait à la perte de toute logique ---*/
-#include "Lib/Var.h"
-
 #include "Lib/Error.c"
 #include "Lib/Array.c"
 #include "Lib/Matrix.c"
+#include "Lib/Var.h"
 #include "Lib/InterfaceTrade.c"
 #include "Lib/Grid.c"
 #include "Lib/Toolbar.c"
 #include "Lib/Button.c"
 #include "Lib/eventGestion.c"
+
 
 
 int main(int argc, char **argv){
@@ -41,7 +41,7 @@ int main(int argc, char **argv){
     
     // Fonts
     VERIF_SDL_COMMAND(TTF_Init(), "TTF init");
-    TTF_Font *font = TTF_OpenFont("./font/expressway/exprswy_free.ttf", 128);
+    TTF_Font *font = TTF_OpenFont("./font/open-sans/OpenSans-Regular.ttf", 128);
     if (font == NULL){
         SDL_ExitWithError("Font issue");
     }
@@ -136,17 +136,19 @@ int main(int argc, char **argv){
     int * KEY_DOWN_STATUS = NULL;
     KEY_DOWN_STATUS = CREATE_TAB_0(314);
 
+
     // Variable pour savoir si la souris est pressée
-    bool isMouseButtonPressed = false;
+    bool* isMouseButtonPressed = false;
 
     // savoir si la souris à précédement été bougée
-    bool MOUSE_MOVING = false;
+    bool* MOUSE_MOVING = false;
 
 
     // Matrice des cases de la grille
-    matrix *XY_CASE_TAB = malloc(sizeof(matrix));
-    *XY_CASE_TAB = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
 
+    matrix mat = CREATE_MATRIX(CASE_NUMBER_WIDTH, CASE_NUMBER_HEIGHT);
+    matrix *XY_CASE_TAB = malloc(sizeof(matrix));
+    XY_CASE_TAB = &mat;
 
     // ---------- Var ---------- //
     Var *var = malloc(sizeof(var));
@@ -155,7 +157,7 @@ int main(int argc, char **argv){
     var->texture = texture;
     var->toolbarTexture = toolbarTexture;
     var->KEY_DOWN_STATUS = KEY_DOWN_STATUS;
-    var->XY_CASE_TAB = XY_CASE_TAB;
+    var->XY_CASE_MAT = XY_CASE_TAB;
     var->camera = camera;
     var->gridDestRect = gridDestRect;
     var->toolbarSrcRect = toolbarSrcRect;
@@ -172,9 +174,9 @@ int main(int argc, char **argv){
 
 
         // Actualise le rendu
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, texture, camera, gridDestRect), "RenderCopy");
-        VERIF_SDL_COMMAND(SDL_RenderCopy(renderer, toolbarTexture, toolbarSrcRect, toolbarDestRect), "RenderCopy");
-        SDL_RenderPresent(renderer);
+        VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->texture, var->camera, var->gridDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->toolbarTexture, var->toolbarSrcRect, var->toolbarDestRect), "RenderCopy");
+        SDL_RenderPresent(var->renderer);
 
     }
     printf("quit \n");
@@ -182,7 +184,7 @@ int main(int argc, char **argv){
 
     
     // ----- Clear le rendu + vérif erreur ----- //
-    VERIF_SDL_COMMAND(SDL_RenderClear(renderer), "RenderClear");
+    VERIF_SDL_COMMAND(SDL_RenderClear(var->renderer), "RenderClear");
     
 
     // Clear tout les pointeurs
@@ -205,4 +207,5 @@ int main(int argc, char **argv){
 
 
 // gcc -o main main.c $(sdl2-config --cflags --libs) && ./main
+// gcc -o main main.c -l SDL2_ttf $(sdl2-config --cflags --libs) && ./main
 // Les fichiers SDL sont dans : usr/include/SDL2
