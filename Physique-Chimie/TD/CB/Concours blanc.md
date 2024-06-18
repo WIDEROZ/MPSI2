@@ -43,4 +43,14 @@ Arg(z) \equiv Arg(w) [2\pi]
 \end{cases}$$
 Ainsi, $z$ et $w$ sont sur la même droite. (même argument)
 
+# La notion de $(p:q)$ point
 ## 4.
+Supposons $a \neq b$
+#### Analyse : 
+Supposons que : 
+$$\frac{z-a}{b-z} = \frac{p}{q}$$
+Comme $q \neq 0$ et que $b-z \neq 0$
+$$z = \frac{pb+qa}{q+p}$$
+
+## 5.
+Chef un peu de respect svp
