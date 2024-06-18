@@ -9,8 +9,8 @@ $$\boxed{d\vec{F} = I \, d\vec{l} \wedge \vec{B}}$$
 avec $d\vec{l} = dl \, \vec{u}$, $\vec{u}$ le vecteur tangent au fil au point considéré et dans le sens du courant. 
 
 ## 2. Résultante de la force de Laplace
-Pour un fil conducteur de longueur $L$ parcouru par un courant $I$ et plongé dans un champ $\vec{B}$. 
-Avec $L$ la longueur du fil, 
+Pour un fil conducteur de longueur $l$ parcouru par un courant $I$ et plongé dans un champ $\vec{B}$. 
+Avec $l$ la longueur du fil, 
 $$\boxed{\vec{F} = \int_{L} d\vec{F} = \int_{L}I\, d\vec{l} \wedge \vec{B}}$$
 
 #### Exemple
