@@ -95,7 +95,7 @@ $$\begin{cases}
 \phi_{2 \to 1}= MI_{2}&\text{ Flux de } \vec{B}_{2} \text{ dans la spire }1
 \end{cases}$$
 $M$ est appelé inductance mutuelle, elle se mesure en Henry ($H$)
-$M$ dépend des spires (géométrie, matériaux) et de leur orientation réspective.
+$M$ dépend des spires (géométrie, matériaux) et de leur orientation respective.
 
 #### Application
 Inductance mutuelle de deux solénoïdes : 
