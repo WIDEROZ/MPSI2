@@ -823,7 +823,7 @@ Id_{E} \\
 -Id_{E} \\
 \forall F \underset{sev}{\subset}E, \text{La symétrie par rapport à } F // \text{ à } F^{\perp}
 \end{cases}$$
-
+## Dans $\mathbb{R}^{2}$
 Dans $\mathbb{R}^{2}$ euclidien, les symétries orthogonales dont :
 + Symétrie orthogonale par rapport à $\{ 0 \}$ : $-Id_{\mathbb{R}^{2}}$
 + Symétrie orthogonale par rapport à une droite
@@ -842,3 +842,11 @@ Que dire de :
 $$r_{\theta} \circ s_{D}$$
 $$s_{D} \circ s_{D'}$$
 EXCAL 4
+$$s_{D} \circ s_{D'} = r_{2\theta}$$
+Donc, 
+$$r_{\theta} \circ s_{D} = s_{D'} \circ s_{D}^{2} = s_{D'}$$
+
+
+## Dans $\mathbb{R}^{3}$
+
+- 
