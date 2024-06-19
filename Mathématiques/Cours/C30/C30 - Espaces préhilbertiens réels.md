@@ -848,5 +848,10 @@ $$r_{\theta} \circ s_{D} = s_{D'} \circ s_{D}^{2} = s_{D'}$$
 
 
 ## Dans $\mathbb{R}^{3}$
+Dans $\mathbb{R}^{3}$ euclidien, les symétries orthogonales dont :
+- Rotations par rapport à des droites de $\mathbb{R}^{3}$ (c'est une rotation d'angle $\pi$)
+- Symétrie orthogonale par rapport à un plan (réflexion)
+- $- Id_{\mathbb{R}^{3}}$
+- Et d'autres
 
-- 
+
