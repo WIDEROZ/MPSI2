@@ -824,3 +824,15 @@ Id_{E} \\
 \forall F \underset{sev}{\subset}E, \text{La symétrie par rapport à } F // \text{ à } F^{\perp}
 \end{cases}$$
 
+Dans $\mathbb{R}^{2}$ euclidien, les symétries orthogonales dont :
++ Symétrie orthogonale par rapport à $\{ 0 \}$ : $-Id_{E}$
++ Symétrie orthogonale par rapport à une droite
++ Symétrie orthogonale par rapport à $\mathbb{R}^{2}$ : $Id_{\mathbb{R}^{2}}$
+
+Les rotations de centre $(0, 0)$ d'angle $\theta \in ]0, 2\pi[$, 
+
+#### Question
+Y-en a t-il d'autres?
+
+###### Sous-Question
+Que dire de la composé? 
