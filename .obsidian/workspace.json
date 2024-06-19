@@ -4,40 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "80a7a0cb48e34088",
+        "id": "7e93770bbad6665b",
         "type": "tabs",
         "children": [
           {
-            "id": "a7e9e1fd8f46e8f2",
+            "id": "d710ff5dfe838b97",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-                "mode": "source",
-                "source": false
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           },
           {
-            "id": "9a117385b3a347d7",
+            "id": "f6fe55d972237733",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Physique-Chimie/TD/TD23/TD23.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "1fee1be7cfe35103",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "mode": "source",
                 "source": false
               }
@@ -121,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/TD/TD23/TD23.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/TD/TD23/TD23.md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/TD/TD23/TD23.md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -173,10 +159,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "9a117385b3a347d7",
+  "active": "f6fe55d972237733",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+    "Mathématiques/Cours/C30/C30.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/TD/TD23/TD23.md",
     "Physique-Chimie/TD/TD23",
     "Mathématiques/TD/CB/Concours blanc.md",
@@ -195,7 +183,6 @@
     "Untitled.md",
     "LA KONSTANTE.png",
     "Pasted image 20240613152753.png",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Mathématiques/Cours/C31/C31 - Fonctions de deux variables.md",
     "Mathématiques/Cours/C28/C28 - Séries.md",
     "Mathématiques/Cours/C04/C04-CalculsAlgebriques.pdf",
@@ -213,7 +200,6 @@
     "Untitled 50.md",
     "Untitled 51.md",
     "Untitled 52.md",
-    "Untitled 53.md",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
     "Physique-Chimie/Cours/Thème 1/T1C7/T1C7.excalidraw.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110342.jpg",

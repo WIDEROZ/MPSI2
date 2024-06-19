@@ -783,3 +783,28 @@ $$\forall x \in E, d(x, H) = \frac{\left| \left< x, u \right> \right|}{\left|\le
 
 Dans une BON si $H$ est d'équation : $\sum_{i} a_{i}x_{i} = 0$ alors, 
 $$d(x, H) = \frac{\left| \sum_{i}a_{i}x_{i}\right|}{\sqrt{ \sum_{i}a_{i}^{2} }}$$
+# VII. Isométries vectorielles d'un espace euclidien
+Soit $E$ euclidien
+
+#### Définition
+Une isométrie (vectorielle) ou endomorphisme orthogonal est un $u \in \mathcal{L}(E)$ qui préserve la norme, 
+ie
+$$\forall x \in E, \left|\left| u(x) \right|\right| = \left|\left| x \right|\right|$$
+
+#### Notation
+Leur ensemble est noté :
+$$O(E)$$ est appelé groupe orthogonal. 
+
+#### Propriété
+$$(O(E), \circ) \underset{sg}{\subset} (GL(E), \circ)$$
+Démonstration : 
+Par la caractérisation des sous groupes : 
+- $O(E) \subset GL(E)$
+  Soit $u \in O(E)$, 
+  Soit $x \in \mathrm{Ker}(u)$, 
+  $$\left|\left| u(x) \right|\right| = 0 = \left|\left| x \right|\right|$$
+  Donc, $x =0$.
+  Ainsi, $\mathrm{Ker}(u) = \{ 0 \}$ donc, $u$ est injectif.
+  Comme $u$ est un endomorphisme d'un espace vectoriel de dimension finie, $u$ est bijective.
+  $$O(E) \subset GL(E)$$
+- $Id_{E} \in O(E)$, c'est un endomorphisme de $E$ et  
