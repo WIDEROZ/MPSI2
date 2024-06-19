@@ -1,1 +1,3 @@
-void TOOLBAR_INIT(SDL_Renderer * renderer, SDL_Texture *toolbarTexture, SDL_Rect *toolbarSrcRect, SDL_Rect *toolbarDestRect);
+void TOOLBAR_INIT(Var *var);
+void LOAD_MENU(Var *var);
+void DESTROY_MENU(Menu *menu);

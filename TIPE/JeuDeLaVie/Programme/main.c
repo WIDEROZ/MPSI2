@@ -11,9 +11,10 @@
 #include "Lib/Array.c"
 #include "Lib/Matrix.c"
 #include "Lib/Var.c"
+#include "Lib/Toolbar.c"
+#include "Lib/Menu.c"
 #include "Lib/InterfaceTrade.c"
 #include "Lib/Grid.c"
-#include "Lib/Toolbar.c"
 #include "Lib/Button.c"
 #include "Lib/eventGestion.c"
 
@@ -152,17 +153,18 @@ int main(int argc, char **argv){
     MALLOC_VAR(var);
     var->window = window;
     var->renderer = renderer;
-    var->texture = texture;
-    var->toolbarTexture = toolbarTexture;
+    var->texture = texture; 
+    var->toolbar->toolbarTexture = toolbarTexture;
     var->KEY_DOWN_STATUS = KEY_DOWN_STATUS;
     var->XY_CASE_MAT = XY_CASE_TAB;
     var->camera = camera;
     var->gridDestRect = gridDestRect;
-    var->toolbarSrcRect = toolbarSrcRect;
-    var->toolbarDestRect = toolbarDestRect;
+    var->toolbar->toolbarSrcRect = toolbarSrcRect;
+    var->toolbar->toolbarDestRect = toolbarDestRect;
     
     // Initialisation de la barre d'outils
-    TOOLBAR_INIT(var->renderer, var->toolbarTexture, var->toolbarSrcRect, var->toolbarDestRect);
+    TOOLBAR_INIT(var);
+
     while (program_launched)
     {
         
@@ -171,7 +173,7 @@ int main(int argc, char **argv){
         
         // Actualise le rendu
         VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->texture, var->camera, var->gridDestRect), "RenderCopy");
-        VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->toolbarTexture, var->toolbarSrcRect, var->toolbarDestRect), "RenderCopy");
+        VERIF_SDL_COMMAND(SDL_RenderCopy(var->renderer, var->toolbar->toolbarTexture, var->toolbar->toolbarSrcRect, var->toolbar->toolbarDestRect), "RenderCopy");
         SDL_RenderPresent(var->renderer);
         
 
@@ -187,8 +189,9 @@ int main(int argc, char **argv){
 
 
     // BIIIIIIIIIIIIIIIIIIIIIIIG FREE //
-    
+    DESTROY_MENU(var->menu);
     DESTROY_VAR(var);
+    
 
     TTF_CloseFont(font);
     TTF_Quit();
