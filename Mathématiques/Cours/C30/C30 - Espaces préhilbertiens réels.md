@@ -807,4 +807,20 @@ Par la caractérisation des sous groupes :
   Ainsi, $\mathrm{Ker}(u) = \{ 0 \}$ donc, $u$ est injectif.
   Comme $u$ est un endomorphisme d'un espace vectoriel de dimension finie, $u$ est bijective.
   $$O(E) \subset GL(E)$$
-- $Id_{E} \in O(E)$, c'est un endomorphisme de $E$ et  
+- $Id_{E} \in O(E)$, car c'est un endomorphisme de $E$
+- Soient $u, v \in O(E)$, 
+  Pour $x \in E$, 
+  $$\left|\left| (u \circ v)(x) \right|\right| = \left|\left| v(u(x)) \right|\right| = \left|\left| u(x) \right|\right| = \left|\left| x \right|\right|  $$
+  Ainsi, $O(E)$ est stable par composition. 
+- Soit $u \in O(E)$, 
+  Pour $x \in E$, 
+  $$\left|\left| u^{-1} (x)\right|\right| = \left|\left| u(u^{-1}(x)) \right|\right| =  \left|\left| x \right|\right| $$
+  Ainsi, $O(E)$ est stable par passage à l'inverse. 
+
+#### Exemple
+$$\begin{cases}
+Id_{E} \\
+-Id_{E} \\
+\forall F \underset{sev}{\subset}E, \text{La symétrie par rapport à } F // \text{ à } F^{\perp}
+\end{cases}$$
+
