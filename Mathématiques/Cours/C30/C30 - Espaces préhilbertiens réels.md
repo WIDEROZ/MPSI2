@@ -825,7 +825,7 @@ Id_{E} \\
 \end{cases}$$
 
 Dans $\mathbb{R}^{2}$ euclidien, les symétries orthogonales dont :
-+ Symétrie orthogonale par rapport à $\{ 0 \}$ : $-Id_{E}$
++ Symétrie orthogonale par rapport à $\{ 0 \}$ : $-Id_{\mathbb{R}^{2}}$
 + Symétrie orthogonale par rapport à une droite
 + Symétrie orthogonale par rapport à $\mathbb{R}^{2}$ : $Id_{\mathbb{R}^{2}}$
 
@@ -836,3 +836,9 @@ Y-en a t-il d'autres?
 
 ###### Sous-Question
 Que dire de la composé? 
+
+#### Question
+Que dire de :
+$$r_{\theta} \circ s_{D}$$
+$$s_{D} \circ s_{D'}$$
+EXCAL 4
