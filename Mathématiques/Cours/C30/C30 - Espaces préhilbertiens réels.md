@@ -947,3 +947,34 @@ $$-Id_{E} \text{ est une isométrie } \begin{cases}
 \text{positive en dimension paire} \\
 \text{négative en dimension impaire} 
 \end{cases}$$
+
+#### Exercice
+Dans $\mathbb{R}^{3}$ avec le PS canonique
+$u$ est donnée par : 
+$$\begin{cases}
+x' = \frac{1}{2}(-x+z\sqrt{ 3 }) \\
+y' = -y \\
+z' = -\frac{1}{2}(x\sqrt{ 3 } + z)
+\end{cases}$$
+Montrer que $u \in O(E)$ et déterminer si elle est positive ou négative. 
+
+
+#### Propriété
+L'ensemble $SO(E) = O^{+}(E)$ des isométries positives est un sous groupe de $O(E)$ appelé groupe spécial orthogonal de $E$
+
+#### Propriété
+Soit $u \in \mathcal{L}(E)$,
+$$\begin{array}{rl}
+\Leftrightarrow&u \in SO(E) \\
+\Leftrightarrow \text{Il existe }
+\end{array}$$
+
+#### Définition
+Pour $F \underset{sev}{\subset} E$, 
+On appelle symétrie orthogonale par rapport à $F$, la symétrie noté $s(F)$ par rapport à $F$ parallèlement à $F^{\perp}$ (rappel en dimension finie, $F^{\perp} \overset{\perp}\oplus F = E$)
+
+#### Définition
+Si $H$ est un hyperplan de $E$ $s_{H}$ est appelé une réflexion. 
+
+#### Proposition 
+$$\forall F \underset{sev}{\subset} E, s_{F} \in O(E)$$
