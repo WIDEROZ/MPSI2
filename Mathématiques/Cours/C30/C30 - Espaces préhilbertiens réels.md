@@ -896,4 +896,20 @@ Supposons que : $u \in O(E)$
 Soit $e = (e_{i})_{i=1}^{n}$ une BON de $E$,
 Alors, pour $i,j \in [\![1, n]\!]$, 
 $$\left< u(e_{i}), u(e_{j}) \right> = \left< e_{i}, e_{j} \right> = \delta_{i, j}$$
-Donc, $(u(e_{i}))_{i = 1}^{n}$ est ON et comme $n=n$, c'est une base
+Donc, $(u(e_{i}))_{i = 1}^{n}$ est ON et comme $n=n$, c'est une base BON
+
+$3 \Rightarrow 2$ : Trivial
+
+$2 \Rightarrow 1$ :
+Supposons qu'il existe $e = (e_{i})_{i = 1}^{n}$ une BON de $E$ tq $u(e)$ soit une BON
+Soit $x \in E$, et $(x_{i})_{i = 1}^{n}$ la famille de ses coordonnées dons $e$.
+Alors, 
+$$\left|\left| u(x) \right|\right| = \left|\left| u\left( \sum_{i = 1}^{n}x_{i}e_{i} \right)\right|\right| = \left|\left| \sum_{i = 1}^{n}x_{i}u(e_{i}) \right|\right| = \sqrt{ \sum_{i = 1}^{n} x^{2}_{i}  } = \left|\left| x \right|\right| $$
+- car $u(e)$ est une BON
+- car $e$ est une BON
+
+Ainsi, comme $u \in \mathcal{L}(E)$, 
+
+
+#### Théorème
+Soit $e, e'$ deux $BON$ d'un euclidien. 
