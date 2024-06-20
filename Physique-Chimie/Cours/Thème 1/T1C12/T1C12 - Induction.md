@@ -274,4 +274,16 @@ Système mécanique :
 $$\frac{dE_{c}}{dt} = \mathcal{P}_{F_{tot}}$$
 $$\frac{dE_{c}}{dt} = \vec{F}_{L}.\vec{v} + \vec{F}_{ext} . \vec{v} = ilvB + \vec{F}_{ext}.\vec{v}$$
 Ainsi, 
-$$F_{ext}.v = $$
+$$F_{ext}.v = \frac{dE_{c}}{dt} + Ri^{2}$$
+La puissance totale fournie au système permet d'augmenter l'énergie cinétique et est dissipé par effet Joule en Régime permanent. 
+$$\mathcal{P}_{ext} = F_{ext}v_{lim}=Ri^{2}$$
+
+## 2. Freinage électromagnétique
+à $t = t_{0}$ on arrête la force extérieure
+Si on fait la même étude avec $F_{ext} = 0$, 
+$$\frac{dv}{dt} + \frac{v}{\tau} = 0$$
+$$v = A'e^{ - \frac{t}{\tau} }$$
+$$v_{0} = A'$$
+Alors, 
+$$v(t) = v_{0}e^{ -\frac{t}{\tau} }$$
+On a une décroissance exponentielle de la vitesse de temps caractéristique $\tau \propto m$
