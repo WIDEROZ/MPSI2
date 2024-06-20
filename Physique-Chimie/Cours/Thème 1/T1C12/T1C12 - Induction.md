@@ -148,5 +148,26 @@ E_{2} = R_{2}i_{2} + L_{2} \frac{di_{2}}{dt} + M \frac{di_{1}}{dt}
 \end{cases}$$
 $$\begin{cases}
 E_{1}i_{1} = R_{1}i^{2}_{1} + L_{1} i_{1}\frac{di_{1}}{dt} + M i_{1}\frac{di_{2}}{dt} \\
-E_{2} = R_{2}i^{2}_{2} + L_{2} \frac{di_{2}}{dt} + M \frac{di_{1}}{dt}
+E_{2}i_{2} = R_{2}i^{2}_{2} + L_{2} i_{2}\frac{di_{2}}{dt} + M i_{2}\frac{di_{1}}{dt}
+\end{cases}$$
+Alors, 
+$$E_{1}i_{1}+ E_{2}i_{2} = R_{1}i_{1}^{2} + R_{2}i_{2}^{2} + \frac{d}{dt}\left( \frac{1}{2}L_{1}i_{1}^{2} + \frac{1}{2}L_{2}i_{2}^{2} \right)+M \frac{di_{1}i_{2}}{dt}$$
+Donc, 
+$$\mathcal{P}_{gen} = \mathcal{P}_{joule} + \mathcal{P}_{mag} + \mathcal{P}_{couplage}$$
+Avec : 
+$$\begin{cases}
+\mathcal{P}_{gen} = E_{1}i_{1} + E_{2}i_{2} \\
+\mathcal{P}_{joule} = R_{1}i_{1}^{2} + R_{2}i_{2}^{2} \\
+\mathcal{P}_{mag} = \frac{dE_{mag}}{dt} = \frac{d}{dt}\left( \frac{1}{2}L_{1}i_{1}^{2} +\frac{1}{2}L_{2}i_{2}^{2}\right) \\
+\mathcal{P}_{couplage} = \frac{d}{dt}(Mi_{1}i_{2})
+\end{cases}$$
+
+#### Application
+- On suppose que $R_{1} = 0$ et $R_{2} =0$
+- On court-circuite le secondaire
+
+$$\boxed{\text{EXCAL 9}}$$
+$$\begin{cases}
+E_{1} = e_{1} = -L_{1} \frac{di_{1}}{dt} - L \frac{di_{2}}{dt} \\
+E_{2} = 
 \end{cases}$$
