@@ -1002,4 +1002,20 @@ $$Mat_{e}(s_{F}) = \left(\begin{array}{c|c}
 I_{p}&0 \\ \hline
 0&-I_{n-p}
 \end{array}\right)$$
-en notant $p=\dim F$
+en notant $p=\dim F$. 
+$$\det(s_{F}) = \det(I_{p})\det(-I(n-p)) = (-1)^{n-p}$$
+
+#### Exemple
+Les réflexions régulières sont des isométries négatives
+
+#### Propriété
+Une symétrie vectorielle est un endomorphisme orthogonal ssi c'est une symétrie orthogonale
+
+Démonstration : exo
+
+#### Rappel
+En général une projection orthogonale n'est pas un endomorphisme orthogonal. 
+
+#### Théorème
+Les réflexions engendrent $O(E)$ et plus précisément, toute isométrie est composé d'au plus $n$ réflexions. 
+

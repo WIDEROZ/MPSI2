@@ -116,3 +116,19 @@ Avec $N_{2}$ le nombre de spires.
 $$\phi_{1 \to 2} = Mi_{1}$$
 Ainsi, 
 $$M = \mu_{0}n_{1}N_{2}S_{2}$$
+## 3. Couplage magnétique
+EXCAL $7$
+Le flux à travers chaque bobine est :
+$$\begin{cases}
+\phi_{1} = \phi_{L_{1}} + \phi_{ 2 \to 1} \\
+\phi_{2} = \phi_{L_{2}} + \phi_{1 \to2}
+\end{cases}$$
+Par la loi de Faraday : 
+$$\begin{cases}
+\phi_{1} = L_{1}i_{1}+Mi_{2} \\
+\phi_{2} = L_{2}i_{2} + Mi_{1}
+\end{cases}$$
+Alors, 
+$$\begin{cases}
+e_{1} = - \frac{d\phi_{1}}{dt} = -L_{1}\frac{di_{1}}{dt}-M \frac{di_{1}}{dt}
+\end{cases}$$
