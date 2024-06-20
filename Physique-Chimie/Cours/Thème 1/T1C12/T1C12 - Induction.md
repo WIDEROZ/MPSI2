@@ -130,5 +130,23 @@ $$\begin{cases}
 \end{cases}$$
 Alors, 
 $$\begin{cases}
-e_{1} = - \frac{d\phi_{1}}{dt} = -L_{1}\frac{di_{1}}{dt}-M \frac{di_{1}}{dt}
+e_{1} = - \frac{d\phi_{1}}{dt} = -L_{1}\frac{di_{1}}{dt}-M \frac{di_{1}}{dt} \\
+e_{2} = - \frac{d\phi_{2}}{dt} = -L_{2}\frac{di_{2}}{dt}-M \frac{di_{2}}{dt} \\
+\end{cases}$$
+### 4. Aspect energétiques
+$$\boxed{\text{EXCAL 8}}$$
+Ces circuits sont équivalents
+On fait une loi des mailles dans chaque circuit : 
+$$\begin{cases}
+E_{1}-R_{1}i_{1}+e_{1}=0 \\
+E_{2}-R_{2}i_{2}+e_{2} = 0
+\end{cases}$$
+
+$$\begin{cases}
+E_{1} = R_{1}i_{1} + L_{1} \frac{di_{1}}{dt} + M \frac{di_{2}}{dt} \\
+E_{2} = R_{2}i_{2} + L_{2} \frac{di_{2}}{dt} + M \frac{di_{1}}{dt}
+\end{cases}$$
+$$\begin{cases}
+E_{1}i_{1} = R_{1}i^{2}_{1} + L_{1} i_{1}\frac{di_{1}}{dt} + M i_{1}\frac{di_{2}}{dt} \\
+E_{2} = R_{2}i^{2}_{2} + L_{2} \frac{di_{2}}{dt} + M \frac{di_{1}}{dt}
 \end{cases}$$
