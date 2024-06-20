@@ -188,6 +188,30 @@ $$M < \sqrt{ L_{1}L_{2} }$$
 ## 5. Transformateur de tension
 Le but est de changer l'amplitude de la tension par exemple : $220\, V \to 12\, V$ pour charger un téléphone
 EXCAL 11
-Un noyau ferromagnétique pour canaliser les lignes de champ toutes les lignes de champs qui traversent le circuit primaire travèrsent aussi le secondaire.
+Un noyau ferromagnétique pour canaliser les lignes de champ toutes les lignes de champs qui traversent le circuit primaire traversent aussi le secondaire.
 De plus $\vec{B}$ est à flux conservatif
-$\Leftrightarrow$ $\phi$ à travers une section du troe 
+$\Leftrightarrow$ $\phi$ à travers une section du tore est le même partout. 
+
+<u>Hypothèse :</u> 
+La section des spires est identique dans le primaire et le secondaire. 
+flux de $\vec{B}$ dans le circuit primaire : 
+$$\phi_{1} = \phi N_{1}$$
+et le flux de $\vec{B}$ à travers le secondaire :
+$$\phi_{2} = \phi N_{2}$$
+Ainsi, 
+$$\phi_{2} = \frac{N_{2}}{N_{1}}\phi_{1}$$
+par la loi de Faraday :
+$$\begin{cases}
+e_{1} = - \frac{d\phi_{1}}{dt} \\
+e_{2} = -\frac{d\phi_{2}}{dt} = - \frac{N_{2}}{N_{1}} \frac{d\phi_{1}}{dt}
+\end{cases}$$
+Ainsi,
+$$e_{2} = \frac{N_{2}}{N_{1}}e_{1}$$
+Si on a : $e_{1} = 220 \, V$ il faut $\frac{N_{2}}{N_{1}} = \frac{12}{220} = \frac{3}{55}$
+
+# III. Conversion de puissance mécanique à électrique
+#### Hypothèse
+Circuit mobile avec $\vec{v} \neq  \overrightarrow{0}$, champ $\vec{B}$ stationnaire $\vec{B} = \overrightarrow{\text{cte}}$
+
+## 1. Rail de Laplace
+$$\boxed{\text{EXCAL 12}}$$
