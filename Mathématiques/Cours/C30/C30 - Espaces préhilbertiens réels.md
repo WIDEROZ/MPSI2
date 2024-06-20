@@ -862,7 +862,16 @@ Démonstration :
 Si $f \in O(E)$, $f$ préserve le produit scalaire par l'identité de polarisation. 
 
 Pour $x, y \in E$, 
-$$\left< f(x), f(y) \right> = \frac{1}{2}(\left|\left| f(x)+f(y) \right|\right|^{2} - \left|\left| f(x) \right|\right|^{2} - \left|\left| f(y) \right|\right| ^{2} )$$
+$$\left< f(x), f(y) \right> = \frac{1}{2}(\left|\left| f(x+y) \right|\right|^{2} - \left|\left| f(x) \right|\right|^{2} - \left|\left| f(y) \right|\right| ^{2} )$$
 par linéarité, 
 Alors, 
-$$\forall$$
+$$\left< f(x), f(y) \right> = \frac{1}{2}(\left|\left| x+y \right|\right| ^{2} - \left|\left| x \right|\right| ^{2} - \left|\left| y \right|\right| ^{2}) = \left< x, y \right> $$
+
+Supposons que $f$ préserve le produit scalaire, 
+Alors elle préserve la norme
+Soient $x, y \in E$ et $\lambda \in \mathbb{R}$, 
+$$\left|\left| f(\lambda x + y) - (\lambda f(x) + f(y)) \right|\right|^{2}$$
+$$= \left< f(\lambda x + y) - (\lambda f(x) + f(y)), f(\lambda x + y) - (\lambda f(x) + f(y)) \right> $$
+$$\left|\left| f(\lambda x+y) \right|\right| ^{2} + \lambda^{2}\left|\left| f(x) \right|\right| ^{2} + \left|\left| f(y) \right|\right| ^{2} -2\lambda \left< f(\lambda x+y), f(x) \right>$$
+$$-2\lambda \left< f(\lambda x+y), f(y) \right> + 2 \lambda \left< f(x), f(y) \right> $$
+$$= \left|\left| \lambda x+y \right|\right|^{2}+\lambda^{2} \left|\left| x \right|\right| ^{2} +  \left|\left| y \right|\right| ^{2} - 2$$
