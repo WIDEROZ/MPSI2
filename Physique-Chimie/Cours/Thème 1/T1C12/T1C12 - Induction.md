@@ -169,5 +169,21 @@ $$\begin{cases}
 $$\boxed{\text{EXCAL 9}}$$
 $$\begin{cases}
 E_{1} = e_{1} = -L_{1} \frac{di_{1}}{dt} - L \frac{di_{2}}{dt} \\
-E_{2} = 
+E_{2} = 0 = e_{2} = -L_{2} \frac{di_{2}}{dt} - M \frac{di_{1}}{dt}
 \end{cases}$$
+Alors, 
+$$\frac{di_{2}}{dt} = - \frac{M}{L_{2}} \frac{di_{1}}{dt}$$
+EXCAL 10
+
+Déterminer la relation entre $E_{1}$ et $\frac{di_{1}}{dt}$
+On remplace $\frac{di_{2}}{dt}$ dans la première équation. 
+$$E_{1} = -L_{1} \frac{di_{1}}{dt} + \frac{M^{2}}{L_{2}} \frac{di_{1}}{dt}$$
+$$E_{1} = \left( \frac{M^{2}}{L_{2}} - L_{1} \right) \frac{di_{1}}{dt} = - L_{eq} \frac{di_{1}}{dt}$$
+avec : 
+$$L_{eq} = L_{1} - \frac{M^{2}}{L_{2}} < L_{1}$$
+Donc, on se retrouve avec un circuit primaire dont la bobine a une inductance $L_{eq}$ plus faible que l'inductance propre $L_{1}$ de plus $L_{eq} > 0$
+Ainsi, 
+$$M < \sqrt{ L_{1}L_{2} }$$
+
+## 5. Transformateur de tension
+Le but est de changer l'amplitude de la tension 
