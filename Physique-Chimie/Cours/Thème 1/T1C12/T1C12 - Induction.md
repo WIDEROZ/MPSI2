@@ -235,4 +235,19 @@ $$-Blv = Ri$$
   - $\vec{P}=m\vec{g} = -mg\vec{e}_{z}$ 
   - $\vec{R} = R\vec{e}_{z}$
   - $\vec{F}_{ext} = F_{ext}\vec{e}_{x}$
-  - $F_{L} = \int _{C}^{D} i d\vec{l} \wedge \vec{B}$ avec $d\vec{l} = dy \vec{e}_{y}$ Faire les calculs : $F_{L} = $
+  - $\vec{F}_{L} = \int _{C}^{D} i d\vec{l} \wedge \vec{B}$ avec $d\vec{l} = dy \vec{e}_{y}$ 
+    Faire les calculs : $\vec{F}_{L} = iBl\vec{e}_{x}$
+
+On applique le PDF à la tige et on projette sur $O_{x}$ : 
+$$m \frac{dv}{dt} = ilB+F_{ext}$$
+Exprimons l'équation différentielle sur $v$
+$$m \frac{dv}{dt} = - \frac{(Bl)^{2}}{R}v + F_{ext}$$
+$$\frac{dv}{dt} + \frac{(Bl)^{2}}{mR} v = \frac{F_{ext}}{m}$$
+
+Les solutions de cette équation sont : 
+$$v(t) = A e^{ -\frac{t}{\tau} } + \frac{F_{ext}}{m}\tau$$
+avec 
+$$\tau = \frac{mR}{(Bl)^{2}}$$
+$v(0) = 0= A + \frac{F_{ext}}{m}\tau$
+Alors, 
+$$v (t) = \frac{F_{ext}}{m}\left( 1-e^{ -\frac{t}{\tau} } \right)$$
