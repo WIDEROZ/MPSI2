@@ -251,3 +251,27 @@ $$\tau = \frac{mR}{(Bl)^{2}}$$
 $v(0) = 0= A + \frac{F_{ext}}{m}\tau$
 Alors, 
 $$v (t) = \frac{F_{ext}}{m}\left( 1-e^{ -\frac{t}{\tau} } \right)$$
+$$\text{EXCAL 14}$$
+
+$\tau$ est le temps du point d'intersection entre la tangente à l'origine et l'asymptote à l'infini. 
+En déduire le courant $i(t)$ dans le circuit. 
+Par l'équation électrique : 
+$$i = -\frac{Bl}{R}v$$
+Donc, 
+$$i(t) = \frac{F_{ext}}{m} \times \frac{m}{Bl} \left( 1- e^{ - \frac{t}{\tau} } \right)$$
+Ainnis, 
+$$i(t) = \frac{F_{ext}}{Bl}\left( 1-e^{ -\frac{t}{\tau} } \right)$$
+En régime permanent : 
+$$i_{lim} = -\frac{F_{ext}}{Bl}$$
+Donc, 
+$$F_{ext} + Bli_{lim} = 0$$
+La force de Laplace compense la force extérieur
+
+### b. Bilan énergétique
+- Circuit électrique : $ei = Ri^{2}$, $-Blvi = Ri^{2}$
+
+Système mécanique :
+$$\frac{dE_{c}}{dt} = \mathcal{P}_{F_{tot}}$$
+$$\frac{dE_{c}}{dt} = \vec{F}_{L}.\vec{v} + \vec{F}_{ext} . \vec{v} = ilvB + \vec{F}_{ext}.\vec{v}$$
+Ainsi, 
+$$F_{ext}.v = $$

@@ -29,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -107,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md"
               }
             }
           }
@@ -159,10 +158,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "d9ae32032204ec44",
+  "active": "c5cabe776d6e6fc7",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Anglais/Cours/06-19.md",
