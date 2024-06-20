@@ -921,4 +921,29 @@ $$\det_{e}(e') = \sum_{\sigma \in S_{n}} \varepsilon(\sigma) \prod_{i = 1}^{n} e
 $$=\sum_{\sigma \in S_{n} } \varepsilon(\sigma) \prod_{i = 1}^{n}\left< e_{i}, e'_{\sigma(i)} \right>= \sum_{\sigma \in S_{n}} \varepsilon(\sigma)\prod_{i = 1}^{n} e'^{*}_{\sigma(i)}(e_{i})$$
 $$=\det_{e'}(e)=\frac{1}{\det_{e}(e')}$$
 Ainsi, 
-$$\det_{}$$
+$$\det_{e}(e')^{2} = 1 \Leftrightarrow \det_{e}(e') = \pm1$$
+
+#### Corollaire
+$$\forall u \in O(E), \det(u) = \pm1$$
+Démonstration : 
+Pour $e$ une BON de $E$, 
+Alors comme $u \in O(E)$, $u(e)$ est une BON de 
+$$\det(u) = \det_{e}(u(e))=\pm1$$
+
+#### Remarque
+Attention la réciproque est fausse
+
+#### Définition
+Une isométrie positive est de déterminant $1$
+Une isométrie négative est de déterminant $-1$
+
+#### Rappel
+Si $\det(u)  >0$ elle préserve l'orientation
+Si $\det(u) < 0$ elle la renverse
+
+#### Exemple
+$$Id_{E} \text{ est une isométrie positive}$$
+$$-Id_{E} \text{ est une isométrie } \begin{cases}
+\text{positive en dimension paire} \\
+\text{négative en dimension impaire} 
+\end{cases}$$
