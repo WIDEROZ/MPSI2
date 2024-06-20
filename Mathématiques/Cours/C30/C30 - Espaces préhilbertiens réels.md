@@ -913,3 +913,12 @@ Ainsi, comme $u \in \mathcal{L}(E)$,
 
 #### Théorème
 Soit $e, e'$ deux $BON$ d'un euclidien. 
+Alors, 
+$$\det_{e}(e') = \pm1$$
+
+Démonstration : 
+$$\det_{e}(e') = \sum_{\sigma \in S_{n}} \varepsilon(\sigma) \prod_{i = 1}^{n} e^{*}_{i}(e'_{\sigma(i)})=\sum_{\sigma \in S_{n}} \varepsilon(\sigma) \prod_{i = 1}^{ n} \left< e'_{\sigma(i)}, e_{i} \right>$$
+$$=\sum_{\sigma \in S_{n} } \varepsilon(\sigma) \prod_{i = 1}^{n}\left< e_{i}, e'_{\sigma(i)} \right>= \sum_{\sigma \in S_{n}} \varepsilon(\sigma)\prod_{i = 1}^{n} e'^{*}_{\sigma(i)}(e_{i})$$
+$$=\det_{e'}(e)=\frac{1}{\det_{e}(e')}$$
+Ainsi, 
+$$\det_{}$$
