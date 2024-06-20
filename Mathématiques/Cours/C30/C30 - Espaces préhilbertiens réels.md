@@ -855,3 +855,14 @@ Dans $\mathbb{R}^{3}$ euclidien, les symétries orthogonales dont :
 - Et d'autres
 
 
+#### Proposition
+Soit $f \in E^{E}$, alors elle préserve le produit scalaire, ssi $f \in O(E)$. 
+
+Démonstration :
+Si $f \in O(E)$, $f$ préserve le produit scalaire par l'identité de polarisation. 
+
+Pour $x, y \in E$, 
+$$\left< f(x), f(y) \right> = \frac{1}{2}(\left|\left| f(x)+f(y) \right|\right|^{2} - \left|\left| f(x) \right|\right|^{2} - \left|\left| f(y) \right|\right| ^{2} )$$
+par linéarité, 
+Alors, 
+$$\forall$$
