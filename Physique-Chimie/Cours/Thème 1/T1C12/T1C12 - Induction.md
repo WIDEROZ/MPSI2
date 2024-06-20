@@ -186,4 +186,8 @@ Ainsi,
 $$M < \sqrt{ L_{1}L_{2} }$$
 
 ## 5. Transformateur de tension
-Le but est de changer l'amplitude de la tension 
+Le but est de changer l'amplitude de la tension par exemple : $220\, V \to 12\, V$ pour charger un téléphone
+EXCAL 11
+Un noyau ferromagnétique pour canaliser les lignes de champ toutes les lignes de champs qui traversent le circuit primaire travèrsent aussi le secondaire.
+De plus $\vec{B}$ est à flux conservatif
+$\Leftrightarrow$ $\phi$ à travers une section du troe 
