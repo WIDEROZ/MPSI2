@@ -215,3 +215,24 @@ Circuit mobile avec $\vec{v} \neq  \overrightarrow{0}$, champ $\vec{B}$ stationn
 
 ## 1. Rail de Laplace
 $$\boxed{\text{EXCAL 12}}$$
+On néglige les frottements
+
+### a. Mise en équation
+On a : 
+$$\phi = \vec{B}.\vec{S}$$
+Avec $\vec{S} = S\vec{e}_{z}$ et $S = lx$
+Par la loi de faraday : 
+$$e = - \frac{d\phi}{dt} = - \frac{dBlx}{dt} = - Blv$$
+Le circuit équivalent : 
+$$\boxed{\text{EXCAL 13}}$$
+Par la loi des mailles :
+$$e = Ri$$
+Ainsi, 
+$$-Blv = Ri$$
+
++ Système : Bare $CD$ en mouvement
++ Bilan des forces : 
+  - $\vec{P}=m\vec{g} = -mg\vec{e}_{z}$ 
+  - $\vec{R} = R\vec{e}_{z}$
+  - $\vec{F}_{ext} = F_{ext}\vec{e}_{x}$
+  - $F_{L} = \int _{C}^{D} i d\vec{l} \wedge \vec{B}$ avec $d\vec{l} = dy \vec{e}_{y}$ Faire les calculs : $F_{L} = $
