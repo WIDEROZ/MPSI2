@@ -966,7 +966,8 @@ L'ensemble $SO(E) = O^{+}(E)$ des isométries positives est un sous groupe de $O
 Soit $u \in \mathcal{L}(E)$,
 $$\begin{array}{rl}
 \Leftrightarrow&u \in SO(E) \\
-\Leftrightarrow \text{Il existe }
+\Leftrightarrow& \text{Il existe une BOND }e \text{ tq }u(e) \text{ soit une BOND} \\
+\Leftrightarrow& \text{Pour toute BOND }e,u(e) \text{ est une BOND}
 \end{array}$$
 
 #### Définition
@@ -978,3 +979,27 @@ Si $H$ est un hyperplan de $E$ $s_{H}$ est appelé une réflexion.
 
 #### Proposition 
 $$\forall F \underset{sev}{\subset} E, s_{F} \in O(E)$$
+Démonstration : 
+Soit $F \underset{sev}{\subset} E$, 
+Pour $x \in E$, 
+$$x = y + z \text{ ou } \begin{cases}
+y \in F \\
+z \in F^{\perp}
+\end{cases}$$
+Par le théorème de Pythagore : 
+$$\left|\left| x \right|\right| ^{2} = \left|\left| y \right|\right| ^{2} + \left|\left| z \right|\right| ^{2} = \left|\left| y-z \right|\right| ^{2} = \left|\left| s_{F}(x) \right|\right| ^{2}$$
+Donc, $\left|\left| x \right|\right| = \left|\left| s_{F}(x) \right|\right|$
+Ainsi, $s_{F} \in O(E)$
+
+#### Exercice
+Déterminer si $s_{F}$ est positive ou négative suivant $\dim F$ et $n = \dim E$ 
+
+#### Propriété
+$$s_{F} \in SO(E) \Leftrightarrow n-\dim F \text{ est paire}$$
+Démonstration : 
+En prenant une base $e$ adapté à la décomposition $E = F \oplus F^{\perp}$ 
+$$Mat_{e}(s_{F}) = \left(\begin{array}{c|c}
+I_{p}&0 \\ \hline
+0&-I_{n-p}
+\end{array}\right)$$
+en notant $p=\dim F$
