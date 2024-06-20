@@ -874,4 +874,26 @@ $$\left|\left| f(\lambda x + y) - (\lambda f(x) + f(y)) \right|\right|^{2}$$
 $$= \left< f(\lambda x + y) - (\lambda f(x) + f(y)), f(\lambda x + y) - (\lambda f(x) + f(y)) \right> $$
 $$\left|\left| f(\lambda x+y) \right|\right| ^{2} + \lambda^{2}\left|\left| f(x) \right|\right| ^{2} + \left|\left| f(y) \right|\right| ^{2} -2\lambda \left< f(\lambda x+y), f(x) \right>$$
 $$-2\lambda \left< f(\lambda x+y), f(y) \right> + 2 \lambda \left< f(x), f(y) \right> $$
-$$= \left|\left| \lambda x+y \right|\right|^{2}+\lambda^{2} \left|\left| x \right|\right| ^{2} +  \left|\left| y \right|\right| ^{2} - 2$$
+$$= \left|\left| \lambda x+y \right|\right|^{2}+\lambda^{2} \left|\left| x \right|\right| ^{2} +  \left|\left| y \right|\right| ^{2} - 2\lambda \left< \lambda x+y, x \right> - 2\lambda \left< \lambda x+y, y \right>$$
+$$+ 2 \lambda \left< x, y \right> $$
+$$= \left< (\lambda x+y)-(\lambda x+y), (\lambda x+y)-(\lambda x+y) \right> = 0$$
+Ainsi, 
+$$f(\lambda x+y) = \lambda f(x) +f(y)$$
+Ainsi,
+$$f \in \mathcal{L}(E) \text{ et comme elle préserve la norme : } f \in O(E)$$
+
+#### Propriété
+Soit $u \in \mathcal{L}(E)$, 
+$$\begin{array}{rl}
+\Leftrightarrow& u \in O(E) \\
+\Leftrightarrow& \text{Il existe une BON } e \text{ telle que } u(e) \text{ soit une BON} \\
+\Leftrightarrow & \text{Pour toute BON }e, u(e) \text{ est une BON}
+\end{array}$$
+Démonstration : 
+On note $n = \dim E$,
+$1 \Rightarrow 3$, 
+Supposons que : $u \in O(E)$
+Soit $e = (e_{i})_{i=1}^{n}$ une BON de $E$,
+Alors, pour $i,j \in [\![1, n]\!]$, 
+$$\left< u(e_{i}), u(e_{j}) \right> = \left< e_{i}, e_{j} \right> = \delta_{i, j}$$
+Donc, $(u(e_{i}))_{i = 1}^{n}$ est ON et comme $n=n$, c'est une base
