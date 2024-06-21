@@ -1341,5 +1341,4 @@ $$\begin{pmatrix}
 \end{pmatrix} ; \theta \in \mathbb{R}$$
 La classe de $\theta$ modulo $2\pi$ dépend de la base choisie
 
-#### Exercice
-$$f = $$
+AQqaQaQAQAqaqaqqaqQAQqaqaQqaQAAqaqaQAqaAQaqAQQaqQQAqQQAqaqqQqaqQAaaqQAqqAQQAQAQAqaQAqQQAqqaqqaqQqaQqAQAqqaqQAAqqqAQAqqaQAQAQAQqQAQQqaQAqaqQAq
