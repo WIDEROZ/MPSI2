@@ -1258,3 +1258,16 @@ $$Mat_{(e_{1}, e_{2}-e_{1})} = \begin{pmatrix}
 1&-1
 \end{pmatrix}$$
 n'est ni orthogonale ni symétrique.
+
+#### Propriété
+Soit $e$ une BON de $E$ euclidien 
+L'isomorphisme d'algèble : 
+$$Mat_{e} : \mathcal{L}(E) \to \mathcal{M}_{n}(\mathbb{R})$$
+induit un isomorphisme de groupes de $GL(E)$ vers $GL_{n}(E)$ qui envoie $O(E)$ sur $O_{n}(\mathbb{R})$(resp $SO(E)$ sur $SO_{n}(\mathbb{R})$)
+Ainsi 
+$$\boxed{\begin{array}{c}
+O(E) \text{ est isomorphe à }O_{n}(\mathbb{R}) \\
+SO(E) \text{ est isomorphe à }SO_{n}(\mathbb{R})
+\end{array}}$$
+
+# IX. Isom... vect euclidien 
