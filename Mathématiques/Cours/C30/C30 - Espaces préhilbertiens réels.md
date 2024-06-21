@@ -1226,7 +1226,35 @@ u \in O(E) &\Leftrightarrow u(e) \text{ est une BON de } E \\
 \end{array}$$
 
 #### Propriété
-
+Soient une BON $e$ de $E$ euclidien et $u \in \mathcal{L}(E)$. 
+Alors, 
+$u$ est une symétrie orthogonale
+ssi 
+$A = Mat_{e}(u)$ est symétrique et orthogonale
 
 Démonstration : 
-On à déja vu que $u$ est une symétrie orthogonale ssi $u^{2} = Id_{E}$ et $u \in O(E)$ ce qui équivaut à ce que $A^{2} = I_{n}$ et $$
+On à déja vu que $u$ est une symétrie orthogonale ssi $u^{2} = Id_{E}$ et $u \in O(E)$ ce qui équivaut à ce que $\begin{cases}A^{2} = I_{n} \\ A^{T} A = I_{n}\end{cases}$.
+Comme se sont des matrices carrée, l'inversibilité à gauche ou à droite assure l'inversibilité, donc, $u$ est une symétrie orthogonale ssi 
+$$\begin{cases}
+A^{-1} = A \\
+A^{-1} = A^{T}
+\end{cases}$$
+ce qui équivaut à :
+$$\begin{cases}
+A^{T} = A \\
+A^{-1} = A^{T}
+\end{cases}$$
+
+#### Remarque
+Si $e$ n'est pas orthonormé tout deviens faux
+Soit $E$ euclidien de dissension $2$, $e = (e_{1}, e_{2})$ une BON et $u$ la symétrie $\perp$ définie par : 
+$$\begin{cases}
+u(e_{1}) = e_{2} \\
+u(e_{2}) = e_{1}
+\end{cases}$$
+Alors, 
+$$Mat_{(e_{1}, e_{2}-e_{1})} = \begin{pmatrix}
+1&0 \\
+1&-1
+\end{pmatrix}$$
+n'est ni orthogonale ni symétrique.
