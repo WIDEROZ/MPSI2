@@ -1046,3 +1046,34 @@ $$\begin{cases}
 x = x_{1}e_{1} + x_{2}e_{2} \\
 u(x) = x_{1}f_{1}+x_{2}f_{2}
 \end{cases}$$
+EXCAL 7
+
+$2^{\text{eme}}$ cas :
+Soit $u \in \mathcal{L}(\mathbb{R}^{2})$ tel que : 
+$$\begin{cases}
+u(e_{1}) = f_{1} \\
+u(e_{2}) = f_{2}
+\end{cases}$$
+Comme $u$ transforme une BOND en une BONI
+alors, $u \in O(\mathbb{R}^{2}) \setminus SO(\mathbb{R}^{2})$
+EXCXAL 8
+
+#### Remarque
+Pour le premier cas :
+$$Mat_{e}(u) = Mat_{e}(u(e)) = Mat_{e}(f) = \begin{pmatrix}
+\cos(\theta)&-\sin(\theta) \\
+\sin (\theta) & \cos(\theta)
+\end{pmatrix} = R_{\theta}$$
+
+Pour le deuxième : 
+$$Mat_{e}(u) = Mat_{e}(u(e)) = Mat_{e}(f) = \begin{pmatrix}
+\cos(\theta)&\sin(\theta) \\
+\sin (\theta) & -\cos(\theta)
+\end{pmatrix}$$
+$\theta$ dépend du choix de $r$
+
+#### Remarque
+$1^{\text{er}}$ cas :
+$$\det(R_{g}) = \cos ^{2}(\theta) + \sin ^{2}(\theta) = 1$$
+$1^{\text{er}}$ cas :
+$$\det(R_{g}) = \cos ^{2}(\theta) + \sin ^{2}(\theta) = -1$$
