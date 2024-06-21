@@ -1172,7 +1172,11 @@ Déterminer algébriquement les éléments de $O_{2}(\mathbb{R})$ et retrouver c
 #### Corollaire
 $$\forall A \in O_{n}(\mathbb{R}), \det A = \pm1$$
 Démonstration : 
-En notant $C_{j}$ les vecteurs colonnes de $A \in O_{n}(\mathbb{R})$
+En notant $C_{j}$ les vecteurs colonnes de $A \in O_{n}(\mathbb{R})$, 
+$$A  = Mat_{\mathrm{can}}(C_{j})_{j}$$
+$$\det A = \det_{\mathrm{can}_{\mathbb{R}}}(C_{j})_{j}$$
+or $(C_{j})_{j}$ est une BON de $\mathbb{R}^{n}$ et $\mathrm{can}_{\mathbb{R}^{n}}$ est une BON, donc, 
+$$\det(A) = \pm 1$$
 
 
 Démonstration 2 :
@@ -1193,4 +1197,36 @@ Appelé sous-groupe orthogonal d'ordre $n$
 Démonstration : $\square$
 
 #### Remarque
-$O_{n}(\mathbb{R}) \setminus SO_{n}(\mathbb{R})$ l'ensemble des matrices othogonales négatives l'ordre $n$ n'est pas sous groupe de $O_{n}$
+$O_{n}(\mathbb{R}) \setminus SO_{n}(\mathbb{R})$ l'ensemble des matrices othogonales négatives l'ordre $n$ n'est pas sous groupe de $O_{n}(\mathbb{R})$
+
+#### Propriété
+Soit $A \in \mathcal{M}_{n}(\mathbb{R})$, 
+$$\begin{array}{rl}
+\Leftrightarrow &A \in SO_{n}(\mathbb{R}) \\
+\Leftrightarrow & \text{La famille de ses vecteurs} \\
+& \text{colonnes est une BOND de } (\mathbb{R}^{n}, \left< \space\space ,\space\space \right>_{\mathrm{can}} ) \\
+\Leftrightarrow & \text{La famille de ses vecteurs} \\
+& \text{lignes est une BOND de } (\mathbb{R}^{n}, \left< \space\space ,\space\space \right>_{\mathrm{can}} ) \\
+\end{array}$$
+
+Démonstration : $\square$
+
+#### Propriété
+Soit $E$ euclidien de dimension $n$, $e$ une BON de $E$ et $u \in \mathcal{L}(E)$
+Alors, 
+$$u \in O(E) \Leftrightarrow Mat_{e}(u) \in O_{n}(\mathbb{R})$$
+
+Démonstration : 
+Comme $e$ est une BON, et $u$ un endomorphisme de $E$ on à déjà vu que : 
+$$\begin{array}{rl}
+u \in O(E) &\Leftrightarrow u(e) \text{ est une BON de } E \\
+&\Leftrightarrow \text{les colonnes de }Mat_{r}(u) = Mat_{e}(u(e)) \\
+& \space \space \space \space \text{ forment une BON de }\mathbb{R}^{n} \\
+&\Leftrightarrow Mat_{e}(u) \in O_{n}(\mathbb{R})
+\end{array}$$
+
+#### Propriété
+
+
+Démonstration : 
+On à déja vu que $u$ est une symétrie orthogonale ssi $u^{2} = Id_{E}$ et $u \in O(E)$ ce qui équivaut à ce que $A^{2} = I_{n}$ et $$
