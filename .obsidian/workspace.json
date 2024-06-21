@@ -4,18 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "de9dc0c1b14d6c40",
+        "id": "b6579bb196ff4dc0",
         "type": "tabs",
         "children": [
           {
-            "id": "48ea90d0f7ce37e8",
+            "id": "574efd702093392a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "d3e8dbe78cf82039",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -96,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md"
+                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
               }
             }
           }
@@ -148,13 +158,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "48ea90d0f7ce37e8",
+  "active": "574efd702093392a",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C30/C30.md",
+    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
-    "Mathématiques/Cours/C30/C30.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "Anglais/Cours/06-19.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",

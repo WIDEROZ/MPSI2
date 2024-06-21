@@ -1019,3 +1019,23 @@ En général une projection orthogonale n'est pas un endomorphisme orthogonal.
 #### Théorème
 Les réflexions engendrent $O(E)$ et plus précisément, toute isométrie est composé d'au plus $n$ réflexions. 
 
+#### Isométrie de $\mathbb{R}^{2}$ usuel
+Soit $e$ une base canonique
+###### Analyse
+Soit $u \in O(E)$, 
+Alors, $u(e_{1})$ est normé.
+Puis $u(e_{2})$ est normé puis orthogonal à $u(e_{1})$
+
+$1^{\text{er}}$ choix : excal 5
+
+$2^{\text{eme}}$ choix : excal 6
+
+#### Synthèse
+Soit $f_{1}$ normé et $f_{2}$ tel que : $f = (f_{1}, f_{2})$ soit une BOND
+$1^{\text{er}}$ cas : 
+Soit $u \in \mathcal{L}_{\mathbb{R}^{2}}$ tel que : 
+$$\begin{cases}
+
+\end{cases}$$
+Comme $u$ transforme une BOND : 
+$$u \in SO(\mathbb{R}^{2})$$
