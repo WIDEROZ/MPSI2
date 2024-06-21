@@ -1270,4 +1270,36 @@ O(E) \text{ est isomorphe à }O_{n}(\mathbb{R}) \\
 SO(E) \text{ est isomorphe à }SO_{n}(\mathbb{R})
 \end{array}}$$
 
-# IX. Isom... vect euclidien 
+# IX. Isom... vect en dimension $2$
+## 1. Matrices orthogonales d'ordre $2$
+Voir poly
+#### Propriété
+$$SO_{2}(\mathbb{R}) = \left\{ \begin{pmatrix}
+a&-b \\
+b&a
+\end{pmatrix} ; a, b \in R, a^{2}+b^{2} = 1\right\}$$
+$$O_{2}(\mathbb{R}) \setminus So_{2}(\mathbb{R}) = \left\{ \begin{pmatrix}
+a&b \\
+b&-a
+\end{pmatrix} ; a, b \in \mathbb{R}, a^{2} + b^{2} = 1 \right\}$$
+## 2. Isom posifives en dimension $2$
+(cas de $\mathbb{R}^{2}$ déja vu)
+
+#### Propriété
+Les éléments de $SO(\mathbb{R}^{2})$ est l'identité et les notations centrés en l'origines. 
+Leur matrices dans la base canonique sont les : 
+$$R_{\theta} = \begin{pmatrix}
+\cos(\theta)&-\sin(\theta)  \\
+\sin(\theta)&\cos(\theta)
+\end{pmatrix}$$
+ou $\theta \in \mathbb{R}$ et $\theta$ est une mesure de l'angle de rotation (lorsque $\theta \equiv 0 [2 \pi]$)
+
+#### Lemme
+$$\forall \theta, \theta' \in \mathbb{R}, R_{\theta'}R_{\theta} = R_{\theta' + \theta}$$
+Comme $(\mathbb{R}, +)$ est commutatif :
+
+#### Théorème
+$$SO_{2}(\mathbb{R}) \text{ et } SO(\mathbb{R}^{2}) \text{ sont comutatifs}$$
+
+#### Remarque
+En prenant le $\mathbb{R}$ espace vectoriel de dimension $2$ $\mathbb{C}$ le produit scalaire : $(z, z') \mapsto \mathrm{Re}(z\bar{z'})$ qui rend la base $(1, i)$ ON. Les traductions 
