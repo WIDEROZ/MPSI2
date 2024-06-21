@@ -3,7 +3,7 @@ Rendement de $1,4$ de l'alcool aux USA,
 Rendements : 
 - Hydroélectricité peuvent être $\gg 40$ Vraiment cool. 
 - Engins agricoles (tracteurs, etc...) qui sont pas ouf niveau rendement.
-- Charbon : $18$5
+- Charbon : $18$ 5
 - Pétrole du proche orient : $16$ (avant c'était $25$), il est peut coûteux a produire.
 - Il est extrêmement polluant pour extraire du pétrole <b>lourd</b> c'est pas très rentable : $4$
 
