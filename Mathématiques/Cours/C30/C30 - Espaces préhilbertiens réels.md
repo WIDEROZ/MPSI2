@@ -1152,8 +1152,45 @@ $$= \begin{pmatrix}
 \sin\left( \frac{\pi}{2}-1 \right) & - \cos\left( \frac{\pi}{2}-1 \right)
 \end{pmatrix}$$
 
-Ainsi, $u_{\mathcal{P}} = s_{D}$ où $D = Vect\left( e_{1}+\cos\left( \frac{\pi}{2} -1 \right)e_{1} + \sin\left( \frac{\pi}{2}-1 \right)e_{3} \right)$
+Ainsi, $u_{\mathcal{P}} = s_{D}$ où
+$$D = Vect\left( e_{1}+\cos\left( \frac{\pi}{2} -1 \right)e_{1} + \sin\left( \frac{\pi}{2}-1 \right)e_{3} \right)$$
+On note : 
+$$v = e_{1}+\cos\left( \frac{\pi}{2} -1 \right)e_{1} + \sin\left( \frac{\pi}{2}-1 \right)e_{3}$$
 
 #### Remarks
 Si on oriente $\mathcal{P}$ par la base : $(e_{1}, e_{3})$
-$$\textasciicircum{}$$
+$$\widehat{(e_{1}, v)} = \frac{\frac{\pi}{2}-1}{2} = \frac{\pi}{4} - \frac{1}{2}$$
+Faire un dessin de la droite
+Or $u(e_{2}) = -e_{2}$
+Donc, 
+$$u = s_{D} \text{ dans }\mathbb{R}^{3}$$
+qui est aussi la notion d'angle $\pi$ d'axe $D$ 
+
+#### Exercice
+Déterminer algébriquement les éléments de $O_{2}(\mathbb{R})$ et retrouver ce qu'on à déja vu en introduction de section
+
+#### Corollaire
+$$\forall A \in O_{n}(\mathbb{R}), \det A = \pm1$$
+Démonstration : 
+En notant $C_{j}$ les vecteurs colonnes de $A \in O_{n}(\mathbb{R})$
+
+
+Démonstration 2 :
+Pour $A \in O_{n}(\mathbb{R})$, 
+$$1 = \det I_{n} = \det(A^{T} A) = \det(A^{T}) \det(A) = (\det A)^{2}$$
+Ainsi, 
+$$\det A = \pm {1}$$
+
+#### Définition
+Soit $A \in O_{n}(\mathbb{R})$, 
+On dit que $A$ est orthogonale positive ssi $\det A = 1$ et orthogonale négative sinon. 
+
+#### Propriété
+L'ensemble $SO_{n}(\mathbb{R}) (= O_{n}^{+}(\mathbb{R}))$ des matrices orthogonales positives d'ordre $n$ est un sous groupe de $O_{n}(\mathbb{R})$
+
+Appelé sous-groupe orthogonal d'ordre $n$
+
+Démonstration : $\square$
+
+#### Remarque
+$O_{n}(\mathbb{R}) \setminus SO_{n}(\mathbb{R})$ l'ensemble des matrices othogonales négatives l'ordre $n$ n'est pas sous groupe de $O_{n}$
