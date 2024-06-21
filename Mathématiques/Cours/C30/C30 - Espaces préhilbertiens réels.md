@@ -1118,5 +1118,32 @@ $$I_{n}, - I_{n} \in O_{n}(\mathbb{R})$$
 Pour $A \in \mathcal{M}_{n}(\mathbb{R})$, 
 $$\begin{array}{rl}
 \Leftrightarrow & A \in O_{n}(\mathbb{R}) \\
-\Leftrightarrow & \text{La famille }
+\Leftrightarrow & \text{La famille des vecteur colonnes de }A\text{ est ON dans } \\
+&\mathcal{M}_{n, 1}(\mathbb{R}) \sim \mathbb{R}^{n} \text{ avec le produit scalaire canonique} \\
+\Leftrightarrow&\text{La famille des vecteur lignes de }A\text{ est ON dans } \\
+&\mathcal{M}_{1, n}(\mathbb{R}) \sim \mathbb{R}^{n} \text{ avec le produit scalaire canonique}
 \end{array}$$
+Démonstration : en exo
+
+
+#### Exericice
+On peut vérifier de tête : 
+$$A = \begin{pmatrix}
+\sin(1) & 0&\cos(1) \\
+0&-1&0 \\
+\cos(1)&0&-\sin(1)
+\end{pmatrix} \in O_{3}(\mathbb{R})$$
+($\left< c_{1}, c_{2} \right> = \left< c_{1}, c_{3} \right> = \left< c_{2}, c_{3} \right> = 0$ et $\left< c_{1}, c_{1} \right> = \left< c_{2}, c_{2} \right> = \left< c_{3}, c_{3} \right> = 1$)
+
+#### Remarque
+Soit $u$ l'endomorphisme canoniquement associé à $A$. 
+
+
+$P = Vect(e_{1}, e_{3})$ est stable par $u$ 
+$$u(P) = Vect(u(e_{1}), u(e_{3})) \subset \mathcal{P}$$
+Donc $u$ induit un endomorphisme $u_{p}$ sur $\mathcal{P}$. De plus la restriction du produit scalaire canonique à $\mathcal{P} \times \mathcal{P}$. De plus la restriction du PS cannonique à $\mathcal{P} \times \mathcal{P}$ est un produit scalaire sur $\mathcal{P}$ et $u_{\mathcal{P}} \in O(\mathcal{P})$
+On a aussi : $(e_{1}, e_{3})$ BON de $\mathcal{P}$ et 
+$$Mat_{(e_{1}, e_{3})}(u_{\mathcal{P}}) = \begin{pmatrix}
+\sin(1)&\cos(1) \\
+\cos(1) & -\sin(1)
+\end{pmatrix}$$
