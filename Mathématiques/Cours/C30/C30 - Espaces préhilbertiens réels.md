@@ -1137,7 +1137,7 @@ $$A = \begin{pmatrix}
 
 #### Remarque
 Soit $u$ l'endomorphisme canoniquement associé à $A$. 
-
+On considère $\mathbb{R}^{3}$ muni de son PS et son orientation canonique (ie la base canonique est une BOND). On verra que $u\in O(\mathbb{R}^{3})$.
 
 $P = Vect(e_{1}, e_{3})$ est stable par $u$ 
 $$u(P) = Vect(u(e_{1}), u(e_{3})) \subset \mathcal{P}$$
@@ -1145,5 +1145,15 @@ Donc $u$ induit un endomorphisme $u_{p}$ sur $\mathcal{P}$. De plus la restricti
 On a aussi : $(e_{1}, e_{3})$ BON de $\mathcal{P}$ et 
 $$Mat_{(e_{1}, e_{3})}(u_{\mathcal{P}}) = \begin{pmatrix}
 \sin(1)&\cos(1) \\
-\cos(1) & -\sin(1)
+\cos(1) & -\sin(1) 
 \end{pmatrix}$$
+$$= \begin{pmatrix}
+\cos\left( \frac{\pi}{2} - 1 \right) &\sin\left( \frac{\pi}{2}-1 \right) \\
+\sin\left( \frac{\pi}{2}-1 \right) & - \cos\left( \frac{\pi}{2}-1 \right)
+\end{pmatrix}$$
+
+Ainsi, $u_{\mathcal{P}} = s_{D}$ où $D = Vect\left( e_{1}+\cos\left( \frac{\pi}{2} -1 \right)e_{1} + \sin\left( \frac{\pi}{2}-1 \right)e_{3} \right)$
+
+#### Remarks
+Si on oriente $\mathcal{P}$ par la base : $(e_{1}, e_{3})$
+$$\textasciicircum{}$$
