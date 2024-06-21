@@ -29,7 +29,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+                "file": "Mathématiques/Cours/C30/C30.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md"
+                "file": "Mathématiques/Cours/C30/C30.md"
               }
             }
           }
@@ -158,10 +159,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "574efd702093392a",
+  "active": "d3e8dbe78cf82039",
   "lastOpenFiles": [
-    "Mathématiques/Cours/C30/C30.md",
     "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
+    "Mathématiques/Cours/C30/C30.md",
     "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",

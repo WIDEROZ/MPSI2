@@ -1035,7 +1035,14 @@ Soit $f_{1}$ normé et $f_{2}$ tel que : $f = (f_{1}, f_{2})$ soit une BOND
 $1^{\text{er}}$ cas : 
 Soit $u \in \mathcal{L}_{\mathbb{R}^{2}}$ tel que : 
 $$\begin{cases}
-
+u(e_{1}) = f_{1} \\
+u(e_{2}) = f_{2}
 \end{cases}$$
 Comme $u$ transforme une BOND : 
 $$u \in SO(\mathbb{R}^{2})$$
+On peut montrer que $u =r_{\theta}$ 
+si 
+$$\begin{cases}
+x = x_{1}e_{1} + x_{2}e_{2} \\
+u(x) = x_{1}f_{1}+x_{2}f_{2}
+\end{cases}$$
