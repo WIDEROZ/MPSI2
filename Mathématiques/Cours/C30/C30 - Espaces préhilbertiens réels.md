@@ -1332,4 +1332,14 @@ Pour $E$ euclidien de dimension $2$, $SO(E)$ est commutatif
 #### Remarque
 Si $n > 2$, $SO(E)$ ne l'est plus. 
 
-## 3. Isométries 
+## 3. Isométries négatives en dimension $2$
+#### Propriété
+En BON les isométries négatives sont les endomorphismes ayant pour matrices : 
+$$\begin{pmatrix}
+\cos(\theta)&\sin(\theta) \\
+\sin(\theta)&-\cos(\theta)
+\end{pmatrix} ; \theta \in \mathbb{R}$$
+La classe de $\theta$ modulo $2\pi$ dépend de la base choisie
+
+#### Exercice
+$$f = $$
