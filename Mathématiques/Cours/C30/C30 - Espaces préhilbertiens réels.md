@@ -1074,6 +1074,49 @@ $\theta$ dépend du choix de $r$
 
 #### Remarque
 $1^{\text{er}}$ cas :
-$$\det(R_{g}) = \cos ^{2}(\theta) + \sin ^{2}(\theta) = 1$$
+$$\det(R_{\theta}) = \cos ^{2}(\theta) + \sin ^{2}(\theta) = 1$$
 $1^{\text{er}}$ cas :
-$$\det(R_{g}) = \cos ^{2}(\theta) + \sin ^{2}(\theta) = -1$$
+$$\det(R_{g}) =- \cos ^{2}(\theta) - \sin ^{2}(\theta) = -1$$
+
+#### Géométriquement
+$$r_{\theta'} \circ r_{\theta} = r_{\theta'} + \theta$$
+#### Algébriquement
+$$R_{\theta'}R_{\theta} = \begin{pmatrix}
+\cos(\theta') & - \sin(\theta') \\
+\sin(\theta') & \cos(\theta')
+\end{pmatrix}\begin{pmatrix}
+\cos(\theta)&-\sin(\theta) \\
+\sin(\theta) & \cos(\theta)
+\end{pmatrix}$$
+$$R_{\theta'}R_{\theta}= \begin{pmatrix}
+\cos(\theta'+\theta)&-\sin(\theta'+\theta) \\
+\sin(\theta'+\theta)& \cos(\theta'+\theta)
+\end{pmatrix} = R_{\theta'+\theta}$$
+
+# VIII. Matrices orthogonales
+#### Idée
+Ce sont les matrices en BON
+
+#### Définition
+$A \in \mathcal{M}_{n}(\mathbb{R})$ est orthogonale ssi :
+$$A \in GL_{n}(\mathbb{R}) \text{ et } A^{-1} = A^{T} \Leftrightarrow A^{T}A = AA^{T}= I_{n}$$
+
+
+#### Notation
+Leur ensemble est noté :
+$$O(n) = O_{n}(\mathbb{R})$$
+et s'appelle le groupe orthogonal d'ordre $n$, ce qui est justifié par la propriété suivante : 
+
+#### Propriété
+$$O_{n}(\mathbb{R}) \underset{sg}{\subset} GL_{n}(\mathbb{R})$$
+Démonstration : exo
+
+#### Exemple
+$$I_{n}, - I_{n} \in O_{n}(\mathbb{R})$$
+
+#### Caractérisation
+Pour $A \in \mathcal{M}_{n}(\mathbb{R})$, 
+$$\begin{array}{rl}
+\Leftrightarrow & A \in O_{n}(\mathbb{R}) \\
+\Leftrightarrow & \text{La famille }
+\end{array}$$
