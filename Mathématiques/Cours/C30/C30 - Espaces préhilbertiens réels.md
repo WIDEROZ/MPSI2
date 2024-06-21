@@ -1302,4 +1302,34 @@ Comme $(\mathbb{R}, +)$ est commutatif :
 $$SO_{2}(\mathbb{R}) \text{ et } SO(\mathbb{R}^{2}) \text{ sont comutatifs}$$
 
 #### Remarque
-En prenant le $\mathbb{R}$ espace vectoriel de dimension $2$ $\mathbb{C}$ le produit scalaire : $(z, z') \mapsto \mathrm{Re}(z\bar{z'})$ qui rend la base $(1, i)$ ON. Les traductions 
+En prenant le $\mathbb{R}$ espace vectoriel de dimension $2$ $\mathbb{C}$ le produit scalaire : $(z, z') \mapsto \mathrm{Re}(z\bar{z'})$ qui rend la base $(1, i)$ ON des traductions complexes ($z \mapsto e^{ i\theta }z$) $r_{0, \theta}$ des notation du plan de centre l'origine sont des isométries positives. 
+
+#### Exercice
+Construiute un isomorphisme de groupes de $\mathbb{U}$ vers $SO_{2}(\mathbb{R})$ et $SO(\mathbb{R}^{2})$
+
+#### Propriété
+Soit $E$ un euclidien orienté de dimension $2$ muni d'une BOND $e$ 
+Un endomorphisme de $E$ est une isométrie positive de $E$ ssi sa matrice dans la base $e$ est de la forme : 
+$$R_{\theta} = \begin{pmatrix}
+\cos(\theta)&-\sin(\theta) \\
+\sin(\theta)&\cos(\theta)
+\end{pmatrix}, \theta \in \mathbb{R}$$
+
+De plus cette matrice ne dépend pas de la BOND choisie 
+Cela définit donc un unique réel $\theta$ modulo $2 \pi$ et on note alors $r_{\theta}$ cette isométrie
+On a alors deux cas :
++ Si $\theta \equiv 0 [2 \pi]$, $r_{\theta = Id_{E}}$
++ Sinon, $r_{\theta}$ est appelée la rotation vectorielle de mesure d'angle $\theta$
+
+#### Remarque
+Cela permet de définir la notion d'angle orienté de vecteurs.
+Un angle est une classe de réels modulo $2\pi$ ie un élément de : 
+$$\mathbb{R}\setminus_{2\pi \mathbb{Z}} = \mathbb{S}^{1}$$
+
+#### Théorème
+Pour $E$ euclidien de dimension $2$, $SO(E)$ est commutatif
+
+#### Remarque
+Si $n > 2$, $SO(E)$ ne l'est plus. 
+
+## 3. Isométries 
