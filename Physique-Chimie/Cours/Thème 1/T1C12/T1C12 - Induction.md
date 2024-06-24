@@ -21,7 +21,7 @@ en $V$
 ou
 $$\phi = \int_{S} \vec{B}.d\vec{s}  $$
 $e$ est la fem induite elle est comptée positivement dans le même sens que le courant (générateur). 
-Le courant induit se déduis de $e$ par la loi d'Ohm. 
+Le courant induit se déduit de $e$ par la loi d'Ohm. 
 
 ## 3. Loi de Lenz
 #### Propriété
