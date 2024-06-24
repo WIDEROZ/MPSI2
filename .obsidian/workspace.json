@@ -42,16 +42,6 @@
             }
           },
           {
-            "id": "4027a8c50a06e3f0",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf"
-              }
-            }
-          },
-          {
             "id": "2bccdb7ee14b1cbd",
             "type": "leaf",
             "state": {
@@ -64,7 +54,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -141,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -170,7 +160,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md"
               }
             }
           }
@@ -193,27 +183,28 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "4027a8c50a06e3f0",
+  "active": "93b88070e5e53297",
   "lastOpenFiles": [
+    "Mathématiques/Cours/C22/C22.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
+    "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
+    "Mathématiques/Cours/C21/C21-SousEspacesAffines.pdf",
+    "Mathématiques/Cours/C20/C20-AppLin.pdf",
+    "Mathématiques/Cours/C19/C19-Dimfinie.pdf",
+    "Mathématiques/Cours/C18/C18-EV.pdf",
+    "Mathématiques/Cours/C17/C17-AnalyseAsymptotique.pdf",
+    "Mathématiques/Cours/C16/C16-Polynomes.pdf",
+    "Mathématiques/Cours/C25/C25-GroupeSymetrique.pdf",
+    "Mathématiques/Cours/C24/C24-ProbasFinies.pdf",
+    "Mathématiques/Cours/C23/C23-Denombrement.pdf",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C16/C16.png",
-    "Mathématiques/Cours/C16/C16 - Polynômes.pdf",
-    "Mathématiques/Cours/C15/C15-CalculMatriciel.pdf",
     "Mathématiques/Cours/C14/C14.md",
-    "Mathématiques/Cours/C14/C14-Derivabilite.pdf",
-    "Mathématiques/Cours/C13/C13-StructuresAlgebriques.pdf",
-    "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.pdf",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
-    "Mathématiques/Cours/C12/C12-B-Continuite.pdf",
-    "Mathématiques/Cours/C12/C12-A-Limites.pdf",
-    "Mathématiques/Cours/C12/C12 - B - Continuité.pdf",
-    "Mathématiques/Cours/C12/C12 - A - Résumé.pdf",
-    "Mathématiques/Cours/C12/C12 - A - Limites de fonctions.pdf",
     "Mathématiques/Cours/C12/C12.png",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
@@ -232,7 +223,6 @@
     "Excalidraw/Drawing 2023-11-21 12.27.25.excalidraw.md",
     "Brouillon.md",
     "Mathématiques/Cours/C30/C30.md",
-    "Mathématiques/Cours/C30/C30 - Espaces préhilbertiens réels.md",
     "LA KONSTANTE.png",
     "Pasted image 20240613152753.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",
