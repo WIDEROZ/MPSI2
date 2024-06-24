@@ -53,8 +53,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +130,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +147,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +159,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md"
               }
             }
           }
@@ -183,11 +182,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "eca9e770ca687ece",
+  "active": "00daaff635c16c7c",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
