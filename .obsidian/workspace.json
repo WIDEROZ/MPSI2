@@ -8,29 +8,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "00daaff635c16c7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "eca9e770ca687ece",
+            "id": "173ea13a31c0113c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
               }
             }
           },
           {
-            "id": "173ea13a31c0113c",
+            "id": "d8d28829a556191e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -130,7 +119,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +136,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -159,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md"
               }
             }
           }
@@ -182,12 +171,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "00daaff635c16c7c",
+  "active": "d8d28829a556191e",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
-    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C10/C10-SuitesNumeriques.pdf",
@@ -218,7 +208,6 @@
     "Cours Université/Environement.md",
     "Mathématiques/Autre/Symbols correction.pdf",
     "FR Philo/Cours/Individu et Communauté/Introduction - Traité théologico-politique Spinoza (1670).md",
-    "Anglais/Cours/06-19.md",
     "Physique-Chimie/TD/TD23",
     "LA KONSTANTE.png",
     "Pasted image 20240613152753.png",
