@@ -346,4 +346,33 @@ $$\boxed{\text{EXCAL 18}}$$
 $$E = -Blv-RI = 0$$
 Alors, 
 $$I = \frac{E-Blv}{R}$$
-On fait un PFD à la bare
+On fait un PFD à la bare CD de masse $m$ et on projette sur $O_{x}$
+$$m \frac{dv}{dt} = \frac{EBl}{R} - \frac{(Bl)^{2}v}{R}$$
+$$\frac{dv}{dt} + \frac{(Bl)^{2}}{mR}v = \frac{EB}{mr}l$$
+La solution homogène est : 
+$$v_{H}(t) = Ae^{ - \frac{t}{\tau} }$$
+avec 
+$$\tau = \frac{mR}{(Bl)^{2}}$$
+La solution particulière est : 
+$$v_{P} = \frac{E}{Bl}$$
+Ainsi, la solution générale est : 
+$$v(t) = Ae^{ -\frac{t}\tau} +\frac{E}{Bl}$$
+Avec les conditions initiales :
+$$
+v(0) = 0$$
+$$v(t) = \frac{E}{Bl}\left( 1-e^{ -\frac{t}{\tau} } \right)$$
+Et en régime permanent : 
+$$v_{lim} = \frac{E}{Bl}$$
+
+#### Bilan d'énergie
+On multiplie la loi des mailles par $I$
+$$EI-Blv-RI^{2} = 0$$
+Or, 
+$$\frac{dv}{dt} = \frac{IlB}{m}$$
+Alors, 
+$$IlvB = mv \frac{dv}{dt} = \frac{d}{dt}E_{c}$$
+Ainsi, 
+$$EI = \frac{dE_{c}}{dt} + RI^{2}$$
+
+## 2. Haut parleur électrodynamique
+$$\boxed{\text{EXCAL 19}}$$
