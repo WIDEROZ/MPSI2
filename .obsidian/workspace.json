@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e85fc3c935ab22a0",
+        "id": "fcde063314b058b9",
         "type": "tabs",
         "children": [
           {
-            "id": "2bccdb7ee14b1cbd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "579989d3a81c01f2",
+            "id": "4e6f8f4496dfc806",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md"
+                "file": "Physique-Chimie/TD/TD24/TD24.md"
               }
             }
           }
@@ -106,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
+                "file": "Physique-Chimie/TD/TD24/TD24.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
+                "file": "Physique-Chimie/TD/TD24/TD24.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md"
+                "file": "Physique-Chimie/TD/TD24/TD24.md"
               }
             }
           }
@@ -158,8 +146,13 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2bccdb7ee14b1cbd",
+  "active": "4e6f8f4496dfc806",
   "lastOpenFiles": [
+    "Physique-Chimie/TD/TD24/TD24.md",
+    "Physique-Chimie/TD/TD24/TD24 - Induction.md",
+    "Physique-Chimie/TD/TD25/TD25 - Introduction à la physique quantique.md",
+    "Physique-Chimie/TD/TD25",
+    "Physique-Chimie/TD/TD24",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
@@ -174,8 +167,6 @@
     "Mathématiques/Cours/C17/C17-AnalyseAsymptotique.pdf",
     "Mathématiques/Cours/C16/C16-Polynomes.pdf",
     "Mathématiques/Cours/C25/C25-GroupeSymetrique.pdf",
-    "Mathématiques/Cours/C24/C24-ProbasFinies.pdf",
-    "Mathématiques/Cours/C23/C23-Denombrement.pdf",
     "Mathématiques/Cours/C21/C21 - Espaces affines.md",
     "Mathématiques/Cours/C17/C17 - Résumé.md",
     "Mathématiques/Cours/C16/C16.png",
@@ -195,9 +186,6 @@
     "Excalidraw/Drawing 2023-11-13 14.49.20.excalidraw.md",
     "Excalidraw/Drawing 2024-01-15 16.03.31.excalidraw.md",
     "Excalidraw/Drawing 2024-03-26 17.38.48.excalidraw.md",
-    "Excalidraw/Drawing 2023-11-21 12.27.25.excalidraw.md",
-    "Brouillon.md",
-    "Mathématiques/Cours/C30/C30.md",
     "LA KONSTANTE.png",
     "Pasted image 20240613152753.png",
     "Physique-Chimie/Cours/Thème 1/T1C4/Images Owen/IMG_20231014_110350.jpg",

@@ -395,5 +395,6 @@ $$\underline e(t) = E_{m}e^{ j\omega t }$$
 On cherche : 
 $$\underline x(t) = \underline X_{m} e^{ j(\omega t + \varphi_{x}) }$$
 $$\begin{cases}
-E_{m} + (jL\omega + R)\underline I e^{ j \varphi_{I} } - j\omega Bl
+E_{m} + (jL\omega + R)\underline I e^{ j \varphi_{I} } - j\omega Ble^{ j\varphi_{x} } \\
+-\omega^{2}m \underline X e^{ j\varphi_{x} } = (-k + j\omega \alpha) e^{ j \varphi_{x} } + \underline I lBe^{ j \varphi _{I} }
 \end{cases}$$
