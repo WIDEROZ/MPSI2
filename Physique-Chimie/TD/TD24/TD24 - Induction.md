@@ -6,7 +6,16 @@ $$\phi = \int \vec{B}.d\vec{S} = e^{ - \frac{t}{\tau} }\int \vec{B}_{0}.d\vec{S}
 Alors, 
 $$\phi =e^{ - \frac{t}{\tau} } B_{0} \cos(\alpha) \int dS = e^{ - \frac{t}{\tau} }B_{0}\cos(\alpha) \pi a^{2}$$
 Ainsi, 
-$$\boxed{\phi = B_{0} \pi a^{2} \cos(\alpha) }$$
+$$\boxed{\phi = e^{ - \frac{t}{\tau} }B_{0} \pi a^{2} \cos(\alpha) }$$
 
 ## 2.
-$$e = -\frac{d\phi}{dt} =  $$
+$$\boxed{e(t) = -\frac{d\phi}{dt}(t) = \frac{1}{\tau}e^{ - \frac{t}{\tau} } B_{0}\pi a^{2}\cos(\alpha) }$$
+
+## 3.
+$$\boxed{\text{EXCAL 2}}$$
+$$u_{R} = e$$
+par la loi des mailles alors, 
+$$\boxed{i(t) = \frac{e(t)}{R} = \frac{1}{R\tau}e^{ - \frac{t}{\tau} } B_{0}\pi a^{2}\cos(\alpha)}$$
+
+## 4.
+$$\vec{B}_{spire} = $$

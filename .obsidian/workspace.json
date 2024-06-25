@@ -20,6 +20,16 @@
             }
           },
           {
+            "id": "330d8b2e2236e302",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/TD/TD24/TD24.md"
+              }
+            }
+          },
+          {
             "id": "d35899aba3fcca59",
             "type": "leaf",
             "state": {
@@ -32,16 +42,17 @@
             }
           },
           {
-            "id": "330d8b2e2236e302",
+            "id": "2324c05b4bae1fd8",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Physique-Chimie/TD/TD24/TD24.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -118,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Physique-Chimie/TD/TD24/TD24 - Induction.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Physique-Chimie/TD/TD24/TD24 - Induction.md",
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -147,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Physique-Chimie/TD/TD24/TD24 - Induction.md"
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md"
               }
             }
           }
@@ -170,15 +181,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "11f83b1c46926ff3",
+  "active": "2324c05b4bae1fd8",
   "lastOpenFiles": [
-    "Physique-Chimie/TD/TD24/TD24.md",
     "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
+    "Physique-Chimie/TD/TD24/TD24.md",
     "Physique-Chimie/TD/TD24/TD24 - Induction.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/TD/TD25/TD25 - Introduction à la physique quantique.md",
     "Physique-Chimie/TD/TD25",
     "Physique-Chimie/TD/TD24",
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
