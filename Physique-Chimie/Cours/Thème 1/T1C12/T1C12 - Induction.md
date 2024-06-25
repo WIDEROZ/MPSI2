@@ -293,7 +293,7 @@ On a une décroissance exponentielle de la vitesse de temps caractéristique $\t
 ## 3. Spire rectangulaire en rotation dans un champ $\vec{B}$ uniforme et constant
 $$\boxed{\text{EXCAL 15}}$$
 #### Ecrire les equations électriques et mécaniques
-$$\phi = \iint_{\text{spire}} \vec{B}.d\vec{S} = \iint Bab (\vec{e}_{x}.\vec{e}_{x}')$$
+$$\phi = \iint_{\text{spire}} \vec{B}.d\vec{S} = \iint Bab (\vec{e}_{x}.\vec{e}_{x'})$$
 $$\phi = Bab \cos(\theta)$$
 $\theta$ qui dépend du tepms
 $$\frac{d\phi}{dt} = -abB \sin(\theta) \dot{\theta}=-e$$
@@ -302,7 +302,25 @@ Par la loi des mailles
 $$RI = ab\sin(\theta)B \dot{\theta}$$
 On fait un TMC à la spire par rapport à $O_{z}$
 $$\frac{d\sigma_{O_{z}}}{dt} = \mathcal{M}_{O_{z}}$$
-$$\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z} = \vec{M} \wedge \vec{B}.\vec{e}_{z} = I\vec{S} \wedge \vec{B}.\vec{e}_{z}$$
+
+$$\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z} +\Gamma_{ext} = \vec{M} \wedge \vec{B}.\vec{e}_{z} +\Gamma_{ext} = I\vec{S} \wedge \vec{B}.\vec{e}_{z}+\Gamma_{ext} $$
 $$\begin{cases}
-\vec{S} = ab\vec{e}_{x}
+\vec{S} = ab\vec{e}_{x'} \\
+\vec{B} = B\vec{e}_{x}
 \end{cases}$$
+$$\mathcal{M}_{O_{z}} = -Iab B \sin(\theta) +\Gamma_{ext}$$
+Alors, le TMC s'écrit :
+$$J_{O_{z}} \ddot{\theta} = -Iab B \sin(\theta) +\Gamma_{ext}$$
+#### Equation différentielle sur $\theta$
+On remplace $I$ :
+$$J_{O_{z}} \ddot{\theta} = - \frac{ab\sin(\theta)B\dot{\theta}}{R} \times abB\sin(\theta) + \Gamma_{ext}$$
+Ainsi, 
+$$\ddot{\theta} + \frac{(abB\sin(\theta))^{2}}{J_{O_{z}}R}\dot{\theta} = \frac{\Gamma_{ext}}{J_{O_{z}}}$$
+
+#### En régime permanent, déterminer $I$
+En régime permanent : 
+$$\dot{\theta} = \omega = \text{cte}$$
+Alors, 
+$$\ddot{\theta} = 0$$
+
+$$\omega = \frac{\Gamma_{ext}R}{(abB\sin(\theta))^{2}}$$
