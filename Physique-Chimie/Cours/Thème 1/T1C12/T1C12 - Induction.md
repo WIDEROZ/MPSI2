@@ -287,3 +287,22 @@ $$v_{0} = A'$$
 Alors, 
 $$v(t) = v_{0}e^{ -\frac{t}{\tau} }$$
 On a une décroissance exponentielle de la vitesse de temps caractéristique $\tau \propto m$
+
+# RATTRAPER
+
+## 3. Spire rectangulaire en rotation dans un champ $\vec{B}$ uniforme et constant
+$$\boxed{\text{EXCAL 15}}$$
+#### Ecrire les equations électriques et mécaniques
+$$\phi = \iint_{\text{spire}} \vec{B}.d\vec{S} = \iint Bab (\vec{e}_{x}.\vec{e}_{x}')$$
+$$\phi = Bab \cos(\theta)$$
+$\theta$ qui dépend du tepms
+$$\frac{d\phi}{dt} = -abB \sin(\theta) \dot{\theta}=-e$$
+$$\boxed{\text{EXCAL 16}}$$
+Par la loi des mailles
+$$RI = ab\sin(\theta)B \dot{\theta}$$
+On fait un TMC à la spire par rapport à $O_{z}$
+$$\frac{d\sigma_{O_{z}}}{dt} = \mathcal{M}_{O_{z}}$$
+$$\mathcal{M}_{O_{z}} = \vec{\Gamma}.\vec{e}_{z} = \vec{M} \wedge \vec{B}.\vec{e}_{z} = I\vec{S} \wedge \vec{B}.\vec{e}_{z}$$
+$$\begin{cases}
+\vec{S} = ab\vec{e}_{x}
+\end{cases}$$

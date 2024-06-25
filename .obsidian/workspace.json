@@ -8,16 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "173ea13a31c0113c",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md"
-              }
-            }
-          },
-          {
             "id": "2bccdb7ee14b1cbd",
             "type": "leaf",
             "state": {
@@ -28,9 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "579989d3a81c01f2",
+            "type": "leaf",
+            "state": {
+              "type": "excalidraw",
+              "state": {
+                "file": "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md"
+              }
+            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -161,8 +160,10 @@
   },
   "active": "2bccdb7ee14b1cbd",
   "lastOpenFiles": [
-    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
+    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 1/T1C11/T1C11.md",
+    "Physique-Chimie/Cours/Thème 1/T1C11/T1C11 - Action d'un champ magnétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10 - Champ magnétique.md",
     "Mathématiques/Cours/C22/C22.md",
     "Mathématiques/Cours/C27/C27-VariablesAleatoires.pdf",
@@ -181,10 +182,8 @@
     "Mathématiques/Cours/C14/C14.md",
     "Mathématiques/Cours/C13/C13 - Structures algébriques usuelles.md",
     "Mathématiques/Cours/C12/C12.png",
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12 - Induction.md",
     "Physique-Chimie/Cours/Thème 2/T2C5/T2C5 - Lois du moment cinétique.md",
     "Physique-Chimie/Cours/Thème 1/T1C10/T1C10.md",
-    "Physique-Chimie/Cours/Thème 1/T1C12/T1C12.md",
     "Mathématiques/Cours/C10/C10 Nombres réels et suites.md",
     "Mathématiques/Cours/C09/C09 - Applications et relations.md",
     "Mathématiques/Cours/C08/C08.md",
