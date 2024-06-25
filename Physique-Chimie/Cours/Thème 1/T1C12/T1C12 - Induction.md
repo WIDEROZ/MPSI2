@@ -324,3 +324,26 @@ Alors,
 $$\ddot{\theta} = 0$$
 
 $$\omega = \frac{\Gamma_{ext}R}{(abB\sin(\theta))^{2}}$$
+Alors,
+$$I = \frac{1}{R} abB\sin(\theta) \dot{\theta} =  \frac{abB}{R}\sin(\omega t)\omega$$
+
+#### Bilan de puissance
+$$eI = RI^{2}$$
+En régime permanent : 
+$$\Gamma_{ext} \omega = \frac{(abB\sin(\theta))^{2}\omega^{2}}{R} = RI^{2}$$
+Alors, 
+$$P_{ext} = RI^{2}$$
+
+# IV. Conversion de puissance électrique en puissance mécanique
+## 1. Moteur à courant continu
+$$\boxed{\text{EXCAL 17}}$$
+$\vec{B} = B \vec{e}_{z}$
+Donc, 
+$$\phi = \vec{B}.\vec{S} = Bxl$$
+$$\frac{d\phi}{dt} = Bvl = -e$$
+Le circuit équivalent est : 
+$$\boxed{\text{EXCAL 18}}$$
+$$E = -Blv-RI = 0$$
+Alors, 
+$$I = \frac{E-Blv}{R}$$
+On fait un PFD à la bare
