@@ -18,4 +18,8 @@ par la loi des mailles alors,
 $$\boxed{i(t) = \frac{e(t)}{R} = \frac{1}{R\tau}e^{ - \frac{t}{\tau} } B_{0}\pi a^{2}\cos(\alpha)}$$
 
 ## 4.
-$$\vec{B}_{spire} = $$
+$$\vec{B}_{spire} =  $$
+
+# Exercice 3
+## 1.
+$$\phi = \int \vec{B}_{e}.d\vec{S} = \int B_{e}\cos $$
