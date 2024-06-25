@@ -376,3 +376,24 @@ $$EI = \frac{dE_{c}}{dt} + RI^{2}$$
 
 ## 2. Haut parleur électrodynamique
 $$\boxed{\text{EXCAL 19}}$$
+On considère une force de frottement $\vec{f} = \alpha\vec{v}$ 
+
+#### Equation électrique
+$$\boxed{\text{EXCAL 20}}$$
+On fait la loi des mailles : 
+$$e - L \frac{di}{dt} - Blv - Ri = 0$$
+
+#### Equation mécanique
+On fait un PFD à la tige sur $O_{x}$
+On prend $x = 0$ tel que le ressort est au repos
+$$\vec{F}_{el} = - k(l-l_{0}) \vec{e}_{x} = -kx$$
+Ainsi, 
+$$m \frac{dv}{dt} = -kx - \alpha v + i lB$$
+On cherche une solution sinusoïdale pour $x(t)$ avec $e(t) = E_{m}\cos(\omega t)$
+En notation complexes : 
+$$\underline e(t) = E_{m}e^{ j\omega t }$$
+On cherche : 
+$$\underline x(t) = \underline X_{m} e^{ j(\omega t + \varphi_{x}) }$$
+$$\begin{cases}
+E_{m} + (jL\omega + R)\underline I e^{ j \varphi_{I} } - j\omega Bl
+\end{cases}$$
