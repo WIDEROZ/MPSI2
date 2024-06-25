@@ -22,4 +22,6 @@ $$\vec{B}_{spire} =  $$
 
 # Exercice 3
 ## 1.
-$$\phi = \int \vec{B}_{e}.d\vec{S} = \int B_{e}\cos $$
+$$\phi = \int \vec{B}_{e}.d\vec{S} = B_{e}\cos(\omega t)  (\vec{e}_{x}.\vec{n}) \int NdS = B_{e}N\cos(\omega t)\pi a^{2} \cos(\theta)$$
+Alors, 
+$$\boxed{e = - \frac{d\phi}{dt} = \omega B_{e}\sin(\omega t)\pi a^{2}\cos(\theta)}$$
