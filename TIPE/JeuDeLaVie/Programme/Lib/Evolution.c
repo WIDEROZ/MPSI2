@@ -29,10 +29,12 @@ void evolution(Var *var){
             nbre = nbreCellulesAutour(mat, i, j);
             if (nbre == 3)
             {
+                CASE_CLICK_CASE(var->window, var->renderer, var->XY_CASE_MAT, i, j);
                 var->XY_CASE_MAT->mat[i][j] = 1;
             }
             else if(nbre < 2 || nbre > 3)
             {
+                CASE_CLICK_CASE(var->window, var->renderer, var->XY_CASE_MAT, i, j);
                 var->XY_CASE_MAT->mat[i][j] = 0;
             }
         }
