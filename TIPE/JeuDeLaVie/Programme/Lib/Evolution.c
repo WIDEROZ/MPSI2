@@ -29,10 +29,18 @@ void evolution(Var *var){
             nbre = nbreCellulesAutour(mat, i, j);
             if (nbre == 3)
             {
-                var->XY_CASE_MAT->mat[i][j] = ;
+                var->XY_CASE_MAT->mat[i][j] = 1;
             }
-            
+            else if(nbre < 2 || nbre > 3)
+            {
+                var->XY_CASE_MAT->mat[i][j] = 0;
+            }
         }
     }
     
+}
+
+void evolution(Var *var){
+    evolutionTAB(var);
+
 }

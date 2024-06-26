@@ -64,3 +64,48 @@ void CASE_CLICK(SDL_Window *window, SDL_Renderer *renderer, matrix* XY_CASE_TAB,
 
 }
 
+void CASE_CLICK(SDL_Window *window, SDL_Renderer *renderer, matrix* XY_CASE_TAB, const int x, const int y){
+    /* Fonction qui dessine un rectangle dans la case */
+    
+
+    // Ajout de la case dans la matrice
+    if((0 <= x <= TEXTURE_WIDTH) && (0 <= y <= TEXTURE_HEIGHT))
+    {
+        int Case = XY_CASE_TAB -> mat[CASE_X][CASE_Y];
+        if(XY_CASE_TAB -> mat[CASE_X][CASE_Y] == 0){
+
+            XY_CASE_TAB -> mat[CASE_X][CASE_Y] = 1;
+
+            // On change la couleur du rectangle en blanc
+            VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 255, 255, 255, SDL_ALPHA_OPAQUE), "SetRenderDrawColor"); // On peut mettre 255 a la place de SDL opaque
+
+        }
+        else{
+            XY_CASE_TAB -> mat[CASE_X][CASE_Y] = 0;
+
+            // On change la couleur du rectangle en noir
+            VERIF_SDL_COMMAND(SDL_SetRenderDrawColor(renderer, 0, 0, 0, SDL_ALPHA_OPAQUE), "SetRenderDrawColor"); // On peut mettre 255 a la place de SDL opaque
+        }
+    }
+    else{
+        ExitWithError("Out of range of the matrix");
+    }
+    
+
+    // Création graphique du rectangle
+    // Les +- 1 sevent a ne pas redéssiner sur la ligne de la grille
+    SDL_Rect *rectangle = malloc(sizeof(SDL_Rect));
+    rectangle->x = (x/SQUARE_WIDTH)*SQUARE_WIDTH+1;
+    rectangle->y = (y/SQUARE_WIDTH)*SQUARE_WIDTH+1;
+    rectangle->w = SQUARE_WIDTH-1;
+    rectangle->h = SQUARE_WIDTH-1;
+
+    VERIF_SDL_COMMAND(SDL_RenderFillRect(renderer, rectangle), "RenderFillRect");
+
+    SDL_RenderPresent(renderer);
+
+    free(rectangle);
+    
+
+}
+
