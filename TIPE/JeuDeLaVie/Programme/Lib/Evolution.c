@@ -10,21 +10,17 @@ int nbreCellulesAutour(matrix mat, int i, int j){
             {
                 if ((0 <= j+k && j+k <= mat.height) && (k != 0 && l != 0))
                 {
-                    
+                    nbre += mat.mat[i+l][j+k];
                 }
-                
             }
-            
-            
         }
-        
     }
-    
-    return 5454;
+
+    return nbre;
 }
 
 void evolution(Var var){
-    int **mat = var->XY_CASE_MAT.mat;
+    int mat = var->XY_CASE_MAT.mat;
     for (int i = 0; i < var->XY_CASE_MAT.width; i++)
     {
         for (int j = 0; j < var->XY_CASE_MAT.height; j++)
