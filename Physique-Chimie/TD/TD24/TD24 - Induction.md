@@ -24,4 +24,8 @@ $$\vec{B}_{spire} =  $$
 ## 1.
 $$\phi = \int \vec{B}_{e}.d\vec{S} = B_{e}\cos(\omega t)  (\vec{e}_{x}.\vec{n}) \int NdS = B_{e}N\cos(\omega t)\pi a^{2} \cos(\theta)$$
 Alors, 
-$$\boxed{e = - \frac{d\phi}{dt} = \omega B_{e}\sin(\omega t)\pi a^{2}\cos(\theta)}$$
+$$\boxed{e(t) = - \frac{d\phi}{dt}(t) = N \pi a^{2}B_{e}\omega\sin(\omega t)\cos(\theta)}$$
+Pour que la LED s'allume il faut que $e(t_{0}) = 1.6 V$
+Alors, 
+$$\cos(\theta) = \frac{e(t_{0})}{N\pi a^{2}B_{e}\omega \sin(\omega t_{0})} $$
+a
