@@ -13,7 +13,6 @@
 #include "Lib/Var.c"
 #include "Lib/Toolbar.c"
 #include "Lib/Menu.c"
-#include "Lib/InterfaceTrade.c"
 #include "Lib/Grid.c"
 #include "Lib/Button.c"
 #include "Lib/eventGestion.c"

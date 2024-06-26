@@ -112,9 +112,12 @@ void CASE_CLICK_COORDS(SDL_Window *window, SDL_Renderer *renderer, matrix* XY_CA
     int CASE_X = GET_CASE_FROM_COORD_X(x);
     int CASE_Y = GET_CASE_FROM_COORD_Y(y);
     
-    
-    CASE_CLICK_CASE(window, renderer, XY_CASE_TAB, CASE_X, CASE_Y);
-    
+    if((0 <= x <= TEXTURE_WIDTH) && (0 <= y <= TEXTURE_HEIGHT)){
+        CASE_CLICK_CASE(window, renderer, XY_CASE_TAB, CASE_X, CASE_Y);
+    }
+    else{
+        ExitWithError("Out of range of the matrix");
+    }
 }
 
 
@@ -124,7 +127,7 @@ void CASE_CLICK_DISPLAY(SDL_Window *window, SDL_Renderer *renderer, SDL_Texture 
     // On met en cible du dessin la texture
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, texture), "SetRenderTarget");
 
-    CASE_CLICK(window, renderer, XY_CASE_TAB, x+camera.x, y+camera.y);
+    CASE_CLICK_COORDS(window, renderer, XY_CASE_TAB, x+camera.x, y+camera.y);
 
     // On remet la cible du rendu sur la fenètre en entier
     VERIF_SDL_COMMAND(SDL_SetRenderTarget(renderer, NULL), "SetRenderTarget");
