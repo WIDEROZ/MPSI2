@@ -19,15 +19,17 @@ int nbreCellulesAutour(matrix mat, int i, int j){
     return nbre;
 }
 
-void evolution(Var var){
-    int mat = var->XY_CASE_MAT.mat;
-    for (int i = 0; i < var->XY_CASE_MAT.width; i++)
+void evolution(Var *var){
+    matrix mat = *var->XY_CASE_MAT;
+    int nbre;
+    for (int i = 0; i < mat.width; i++)
     {
-        for (int j = 0; j < var->XY_CASE_MAT.height; j++)
+        for(int j = 0; j < mat.height; j++)
         {
-            if (mat[i][j] == 0)
+            nbre = nbreCellulesAutour(mat, i, j);
+            if (nbre == 3)
             {
-                
+                var->XY_CASE_MAT->mat[i][j] = ;
             }
             
         }
