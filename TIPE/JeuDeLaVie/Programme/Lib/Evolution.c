@@ -2,8 +2,21 @@
 
 int nbreCellulesAutour(matrix mat, int i, int j){
     int nbre = 0;
-    for (int k = -1; k < 2; k++)
+    for (int l = -1; l < 2; l++)
     {
+        if (0 <= i+l && i+l <= mat.width)
+        {
+            for (int k = -1; k < 2; k++)
+            {
+                if ((0 <= j+k && j+k <= mat.height) && (k != 0 && l != 0))
+                {
+                    
+                }
+                
+            }
+            
+            
+        }
         
     }
     
